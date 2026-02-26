@@ -1,0 +1,50 @@
+site_name: Salmonella Serovar Wiki
+site_url: https://fsl-mqip.github.io/salmonella-serovar-wiki/
+site_description: >-
+  A curated web portal providing comprehensive, serovar-specific information
+  on Salmonella serovars for academia, industry, and public health.
+repo_url: https://github.com/FSL-MQIP/salmonella-serovar-wiki
+repo_name: FSL-MQIP/salmonella-serovar-wiki
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+plugins:
+  - search
+
+markdown_extensions:
+  - tables
+  - admonitions
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Serovars: serovars/index.md
+  - About:
+      - About the Wiki: about/index.md
+      - Contributing: about/contributing.md
+      - Data Sources: about/data-sources.md
