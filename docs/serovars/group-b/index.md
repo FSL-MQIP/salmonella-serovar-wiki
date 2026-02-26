@@ -14,6 +14,7 @@
 - [*S.* I 4,[5],12:i:-](i-4,[5],12_i_-.md)
 - [*S.* Indiana](indiana.md)
 - [*S.* Kiambu](kiambu.md)
+- [*S.* Paratyphi B](paratyphi-b.md)
 - [*S.* Reading](reading.md)
 - [*S.* Saintpaul](saintpaul.md)
 - [*S.* Sandiego](sandiego.md)

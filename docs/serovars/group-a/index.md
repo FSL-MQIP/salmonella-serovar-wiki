@@ -1,3 +1,4 @@
 # Group A (O:2)
 
-*No serovars in this group yet.*
+
+- [*S.* Paratyphi A](paratyphi-a.md)

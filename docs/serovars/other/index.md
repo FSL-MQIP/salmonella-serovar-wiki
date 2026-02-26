@@ -24,6 +24,7 @@
 - [*S.* Leeuwarden](leeuwarden.md)
 - [*S.* Minnesota](minnesota.md)
 - [*S.* Mississippi](mississippi.md)
+- [*S.* Pomona](pomona.md)
 - [*S.* Poona](poona.md)
 - [*S.* Rubislaw](rubislaw.md)
 - [*S.* Ruiru](ruiru.md)
