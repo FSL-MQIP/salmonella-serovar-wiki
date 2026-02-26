@@ -25,6 +25,7 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.top
+    - navigation.sections
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -43,8 +44,12 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Serovars: serovars/index.md
-  - About:
-      - About the Wiki: about/index.md
-      - Contributing: about/contributing.md
-      - Data Sources: about/data-sources.md
+  - About: about.md
+  - Serovar Database:
+      - "Group A (O:2)": serovars/group-a/index.md
+      - "Group B (O:4)": serovars/group-b/index.md
+      - "Group C1 (O:6,7)": serovars/group-c1/index.md
+      - "Group C2-C3 (O:8)": serovars/group-c2/index.md
+      - "Group D1 (O:9)": serovars/group-d/index.md
+      - "Group E (O:3,10)": serovars/group-e/index.md
+      - Other Serogroups: serovars/other/index.md

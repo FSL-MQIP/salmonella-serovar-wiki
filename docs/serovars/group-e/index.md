@@ -1,0 +1,13 @@
+# Group E (O:3,10)
+
+- [*S.* Amsterdam](amsterdam.md)
+- [*S.* Anatum](anatum.md)
+- [*S.* Give](give.md)
+- [*S.* Liverpool](liverpool.md)
+- [*S.* London](london.md)
+- [*S.* Meleagridis](meleagridis.md)
+- [*S.* Muenster](muenster.md)
+- [*S.* Orion](orion.md)
+- [*S.* Senftenberg](senftenberg.md)
+- [*S.* Uganda](uganda.md)
+- [*S.* Weltevreden](weltevreden.md)
