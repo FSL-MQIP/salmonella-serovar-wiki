@@ -35,7 +35,7 @@ A curated web portal providing comprehensive, serovar-specific information on mo
 
     ---
 
-    Open-source and community-driven. Submit corrections, add outbreaks, or expand serovar profiles via pull request.
+    Want to suggest corrections, add outbreak data, or expand serovar profiles? Get in touch with us.
 
     [:octicons-arrow-right-24: How to contribute](contributing.md)
 
@@ -85,9 +85,13 @@ Each serovar page follows a standardized eight-section format:
 !!! info "Migrated from Confluence"
     This site replaces the [original Confluence-based Wiki](https://confluence.cornell.edu/display/FOODSAFETY/Salmonella+Serovar+Wiki). All content has been migrated with full version control via Git.
 
-## Maintainers
+## Contact
 
-Primary maintenance and curation by the [Cornell Food Safety Laboratory](https://foodsafety.cornell.edu/) (Wiedmann Lab). Contact: [Martin Wiedmann](mailto:martin.wiedmann@cornell.edu).
+Primary maintenance and curation by the [Cornell Food Safety Laboratory](https://foodsafety.cornell.edu/) (Wiedmann Lab).
+
+- **Luke Qian** — [cq87@cornell.edu](mailto:cq87@cornell.edu)
+- **Renato Orsi** — [rho2@cornell.edu](mailto:rho2@cornell.edu)
+- **Martin Wiedmann** — [martin.wiedmann@cornell.edu](mailto:martin.wiedmann@cornell.edu)
 
 ## Citation
 
