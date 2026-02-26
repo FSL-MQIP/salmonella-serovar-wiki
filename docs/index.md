@@ -44,21 +44,9 @@ A curated web portal providing comprehensive, serovar-specific information on mo
 
 ## About
 
-*Salmonella* is a major foodborne pathogen causing substantial illness and economic burden globally. Non-typhoidal *Salmonella* (NTS) serovars are a leading cause of death and hospitalization related to foodborne diseases in the United States, accounting for an estimated 1.3 million illnesses, 12,500 hospitalizations, and 238 deaths every year [1].
+*Salmonella* is a major foodborne pathogen causing substantial illness and economic burden globally. Non-typhoidal *Salmonella* (NTS) serovars are a leading cause of death and hospitalization related to foodborne diseases in the United States, accounting for an estimated 1.3 million illnesses, 12,500 hospitalizations, and 238 deaths every year [1]. The **Salmonella Serovar Wiki** fills a critical gap by providing a centralized, curated resource with comprehensive, serovar-specific information. It consolidates data from over a dozen authoritative sources, including peer-reviewed literature, surveillance reports, genomic databases, and regulatory agency publications.
 
-The **Salmonella Serovar Wiki** fills a critical gap by providing a centralized, curated resource with comprehensive, serovar-specific information. It consolidates data from over a dozen authoritative sources, including peer-reviewed literature, surveillance reports, genomic databases, and regulatory agency publications.
-
-=== "Public Health"
-
-    Facilitates **hypothesis generation** during outbreak investigations. Epidemiologists can quickly identify historical outbreak patterns, common food vehicles, and geographical hotspots for a given serovar.
-
-=== "Industry"
-
-    Helps food industry professionals understand **contamination risks** posed by specific serovars. Supports traceback investigation and root cause analysis.
-
-=== "Academia"
-
-    Enables researchers to **rapidly retrieve** serovar-specific information, avoiding redundant literature searches. Highlights understudied serovars.
+This wiki serves three key audiences: **public health professionals**, who can use it to facilitate hypothesis generation during outbreak investigations by quickly identifying historical outbreak patterns, common food vehicles, and geographical hotspots; **food industry professionals**, who can leverage it for root cause analysis, traceback investigations, and understanding contamination risks posed by specific serovars; and **researchers in academia**, who can rapidly retrieve serovar-specific information, avoid redundant literature searches, and identify understudied serovars for future work.
 
 ## At a Glance
 
@@ -102,4 +90,4 @@ Primary maintenance and curation by the [Cornell Food Safety Laboratory](https:/
 
 ## References
 
-[1] Scallan E, et al. 2011. Foodborne illness acquired in the United States—major pathogens. Emerg Infect Dis 17:7-15. doi:10.3201/eid1701.p111010978698166801
+[1] Scallan E, et al. 2011. Foodborne illness acquired in the United States—major pathogens. Emerg Infect Dis 17:7-15. doi:10.3201/eid1701.p11101
