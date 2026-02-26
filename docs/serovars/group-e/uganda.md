@@ -5,6 +5,7 @@
     | | |
     |---|---|
     | **Antigenic Formula** | `3,{10},{15}:1,z13:1,5` |
+    | **Serogroup** | O:3,10 (E1) |
     | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information

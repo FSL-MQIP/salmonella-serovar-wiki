@@ -5,6 +5,7 @@
     | | |
     |---|---|
     | **Antigenic Formula** | `6,7,14:a:e,n,x` |
+    | **Serogroup** | O:7 (C1) |
     | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information

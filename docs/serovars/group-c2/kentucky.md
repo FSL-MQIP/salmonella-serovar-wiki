@@ -5,6 +5,7 @@
     | | |
     |---|---|
     | **Antigenic Formula** | `8,20:i:z6` |
+    | **Serogroup** | O:8 (C2-C3) |
     | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information

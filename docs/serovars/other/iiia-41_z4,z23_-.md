@@ -6,6 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `41:z4,z23:-` |
     | **Serogroup** | O:41 (S) |
+    | **NCBI Pathogen Detection** | [View isolates](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#taxgroup_name:%22Salmonella%20enterica%22%20AND%20computed_types:(%22serotype=IIIa%2041:z4,z23:-%22)>) |
 
 ## Background Information
 
