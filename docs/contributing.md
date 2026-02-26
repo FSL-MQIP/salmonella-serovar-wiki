@@ -23,6 +23,5 @@ We will review your suggestions and incorporate them into the wiki.
 
 ## Contact
 
-- **Luke Qian** — [cq87@cornell.edu](mailto:cq87@cornell.edu) (contributions & corrections)
 - **Renato Orsi** — [rho2@cornell.edu](mailto:rho2@cornell.edu)
 - **Martin Wiedmann** — [martin.wiedmann@cornell.edu](mailto:martin.wiedmann@cornell.edu)

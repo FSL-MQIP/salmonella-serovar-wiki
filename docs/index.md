@@ -44,7 +44,9 @@ A curated web portal providing comprehensive, serovar-specific information on mo
 
 ## About
 
-*Salmonella* is a major foodborne pathogen worldwide, with more than 2,500 serovars identified. Despite this diversity, no centralized platform previously existed to collectively describe key serovar-level information. The **Salmonella Serovar Wiki** fills this gap.
+*Salmonella* is a major foodborne pathogen causing substantial illness and economic burden globally. Non-typhoidal *Salmonella* (NTS) serovars are a leading cause of death and hospitalization related to foodborne diseases in the United States, accounting for an estimated 1.3 million illnesses, 12,500 hospitalizations, and 238 deaths every year [1].
+
+The **Salmonella Serovar Wiki** fills a critical gap by providing a centralized, curated resource with comprehensive, serovar-specific information. It consolidates data from over a dozen authoritative sources, including peer-reviewed literature, surveillance reports, genomic databases, and regulatory agency publications.
 
 === "Public Health"
 
@@ -62,11 +64,11 @@ A curated web portal providing comprehensive, serovar-specific information on mo
 
 | Metric | Count |
 |---|---|
-| **Serovars covered** | 111 |
-| **Documented outbreaks** | 400+ |
-| **Border rejections** | 150+ |
-| **Product recalls** | 150+ |
-| **Data sources** | 10+ authoritative databases |
+| **Serovars covered** | 111 (107 non-typhoidal, 3 typhoidal, 1 *S. bongori*) |
+| **Documented outbreaks** | 416 human, 12 animal |
+| **Border rejections** | 159 |
+| **Product recalls** | 150 |
+| **Data sources** | 15+ authoritative databases |
 
 ## Serovar Page Structure
 
@@ -97,3 +99,7 @@ Primary maintenance and curation by the [Cornell Food Safety Laboratory](https:/
 ## Citation
 
 > Yang L, Yates CR, Phaophu P, Wiedmann M, Orsi RH. Salmonella Serovar Wiki: a curated web portal providing a comprehensive summary of *Salmonella* serovars for academia, industry, and public health. *mSphere*. 2025;10(11):e00455-25. doi:[10.1128/msphere.00455-25](https://doi.org/10.1128/msphere.00455-25)
+
+## References
+
+[1] Scallan E, et al. 2011. Foodborne illness acquired in the United States—major pathogens. Emerg Infect Dis 17:7-15. doi:10.3201/eid1701.p111010978698166801
