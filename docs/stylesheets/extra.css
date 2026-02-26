@@ -15,8 +15,8 @@
   width: 1%;
 }
 
-/* Larger table text on the homepage for better visibility */
-.md-content table th,
-.md-content table td {
-  font-size: 0.9rem;
+/* Match table text size to body text for better readability */
+.md-typeset table th,
+.md-typeset table td {
+  font-size: 0.8rem;
 }
