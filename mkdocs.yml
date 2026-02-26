@@ -34,7 +34,7 @@ plugins:
 
 markdown_extensions:
   - tables
-  - admonitions
+  - admonition
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
