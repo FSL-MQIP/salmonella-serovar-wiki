@@ -71,7 +71,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/FSL-MQIP/salmonella-serovar-wiki
     - icon: fontawesome/solid/globe
-      link: https://foodsafety.cornell.edu/
+      link: https://cals.cornell.edu/food-safety-laboratory
 
 nav:
   - Home: index.md

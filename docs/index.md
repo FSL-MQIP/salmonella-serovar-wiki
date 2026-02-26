@@ -6,7 +6,7 @@ hide:
 
 # Salmonella Serovar Wiki
 
-A curated web portal providing comprehensive, serovar-specific information on more than 110 *Salmonella* serovars — developed and maintained by the [Cornell Food Safety Laboratory](https://foodsafety.cornell.edu/).
+A curated web portal providing comprehensive, serovar-specific information on more than 110 *Salmonella* serovars — developed and maintained by the [Cornell Food Safety Laboratory](https://cals.cornell.edu/food-safety-laboratory).
 
 <div class="grid cards" markdown>
 
@@ -88,7 +88,7 @@ Each serovar page follows a standardized eight-section format:
 
 ## Contact
 
-Primary maintenance and curation by the [Cornell Food Safety Laboratory](https://foodsafety.cornell.edu/) (Wiedmann Lab).
+Primary maintenance and curation by the [Cornell Food Safety Laboratory](https://cals.cornell.edu/food-safety-laboratory) (Wiedmann Lab).
 
 - **Luke Qian** — [cq87@cornell.edu](mailto:cq87@cornell.edu)
 - **Renato Orsi** — [rho2@cornell.edu](mailto:rho2@cornell.edu)
