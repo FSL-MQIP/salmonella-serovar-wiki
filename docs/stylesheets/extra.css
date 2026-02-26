@@ -1,0 +1,16 @@
+/* Hide the empty header row in At a Glance admonition tables */
+.md-typeset .admonition table thead {
+  display: none;
+}
+
+/* Make the At a Glance table more compact and clean */
+.md-typeset .admonition table {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.md-typeset .admonition table td:first-child {
+  font-weight: 700;
+  white-space: nowrap;
+  width: 1%;
+}

@@ -1,18 +1,18 @@
 # *S.* Ouakam
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Serogroup | O:9,46 (D2) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ouakam%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `9,46:z29:-` |
+    | **Serogroup** | O:9,46 (D2) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Ouakam (antigenic formula: 9,46:z29:-) is a serovar of the O:9,46 (D2) serogroup. In Sweden, serovar Ouakam was reported in [feed mills and humans](https://actavetscand.biomedcentral.com/articles/10.1186/1751-0147-52-15). In China, serovar Ouakam was isolated from [healthy food workers](https://www.foodsafetynews.com/2024/12/chinese-researchers-find-salmonella-in-healthy-food-workers/). A [Chinese study](https://www.sciencedirect.com/science/article/pii/S0362028X23063731) investigating the prevalence of *Salmonella* in neck skin and bone of chickens found that the majority of the farm isolates belonged to *Salmonella* Kentucky and Ouakam.
 
-%20AND%20computed_types:(%22serotype=Ouakam%22))
+
 
 ## Genetic Characteristics
 
@@ -20,11 +20,11 @@
 
 ## Animal Reservoir
 
- Unknown, but according to the metadata from NCBI PD (accessed 05/14/2025), [poultry (particularly turkey and chicken)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ouakam%22)) may serve as potential reservoirs, as 175 of 365 serovar Ouakam isolates were obtained from these sources.
+ Unknown, but according to the metadata from NCBI PD (accessed 05/14/2025), [poultry (particularly turkey and chicken)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) may serve as potential reservoirs, as 175 of 365 serovar Ouakam isolates were obtained from these sources.
 
 ## Geographical Distribution
 
- According to the metadata from NCBI PD (accessed 05/14/2025), serovar Ouakam has only been found in [a few countries including (Brazil, US, Canada, UK, China, Thailand, Lebanon, Ghana)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ouakam%22)).
+ According to the metadata from NCBI PD (accessed 05/14/2025), serovar Ouakam has only been found in [a few countries including (Brazil, US, Canada, UK, China, Thailand, Lebanon, Ghana)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 

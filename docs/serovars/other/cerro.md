@@ -1,19 +1,18 @@
 # *S.* Cerro
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,14,18:z4,z23:1,5 |
-    | Serogroup | O:18 (K) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Cerro%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,14,18:z4,z23:1,5` |
+    | **Serogroup** | O:18 (K) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Cerro (antigenic formula 6,14,18:z4,z23:1,5) is a serovar of the O:18 (K) serogroup. This serovar [emerged in cattle](https://pmc.ncbi.nlm.nih.gov/articles/PMC3095722/) in the United States. According to the CDC report of 2011, this serovar ranked [third](https://www.cdc.gov/salmonella/reportspubs/salmonella-atlas/serotype-reports.html) among clinical-nonhuman sources. Hardly reported in human salmonellosis cases, but highly reported among [dairy cattle](https://pubmed.ncbi.nlm.nih.gov/20187753/).
 
-%20AND%20computed_types:(%22serotype=Cerro%22))
+
 
 ## Genetic Characteristics
 
@@ -25,7 +24,7 @@
 
 ## Geographical Distribution
 
- Serovar Cerro has been reported [worldwide](https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2019.00102/full) but[mainly in the U.S.](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Cerro%22))(from bovine samples). In addition, in [Southern Italy](https://www.eurosurveillance.org/content/10.2807/esm.05.07.00028-en), this serovar was described as endemic in the year 2000.
+ Serovar Cerro has been reported [worldwide](https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2019.00102/full) but[mainly in the U.S.](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) bovine samples). In addition, in [Southern Italy](https://www.eurosurveillance.org/content/10.2807/esm.05.07.00028-en), this serovar was described as endemic in the year 2000.
 
 ## Human/Animal Outbreaks
 
@@ -33,36 +32,36 @@
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| 2024 | US: Multi-state | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/?CDC_AAref_Val=https://www.cdc.gov/salmonella/backyardpoultry-05-24/index.html) | 470^1^ |
-| 2012 | US: Arkansas | [Eggs, chicken salad, person-to-person](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6308a2.htm) | 6^2^ |
+| 2024 | US: Multi-state | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/?CDC_AAref_Val=https://www.cdc.gov/salmonella/backyardpoultry-05-24/index.html) | 470 |
+| 2012 | US: Arkansas | [Eggs, chicken salad, person-to-person](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6308a2.htm) | 6 |
 | 1985 | US: New Mexico | [Beef jerky](https://www.cdc.gov/Mmwr/preview/mmwrhtml/00000628.htm) | 29 |
 
-^1^ Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Cerro.
+ Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Cerro.
 
-^2 ^The total case count was n=597, and a total of 60 and 106 *Salmonella* isolates were cultured from 56 (Prison A) and 99 patients (Prison B), respectively. *Salmonella* Cerro was isolated from 6 patients that were co-infected with other serovars, and 8 isolates were obtained from the egg samples.
+<sup>2</sup> The total case count was n=597, and a total of 60 and 106 *Salmonella* isolates were cultured from 56 (Prison A) and 99 patients (Prison B), respectively. *Salmonella* Cerro was isolated from 6 patients that were co-infected with other serovars, and 8 isolates were obtained from the egg samples.
 
 ## Border Rejections
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2021 | Ethiopia | Germany | [Organic sesame seeds](https://webgate.ec.europa.eu/rasff-window/screen/notification/507191) | Nuts, nut products and seeds |
-| 2020 | Brazil | Germany | [Black pepper^1^](https://webgate.ec.europa.eu/rasff-window/screen/notification/443222) | Herbs and spices |
-| 2020 | Brazil | Germany | [Black pepper^2^](https://webgate.ec.europa.eu/rasff-window/screen/notification/428088) | Herbs and spices |
+| 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/443222) | Herbs and spices |
+| 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/428088) | Herbs and spices |
 
-^1^ *Salmonella* Abaetetuba and Salmonella Cerro were both found.
+ *Salmonella* Abaetetuba and Salmonella Cerro were both found.
 
-^2^ *Salmonella* Oranienburg and Salmonella Cerro were both found.
+ *Salmonella* Oranienburg and Salmonella Cerro were both found.
 
 ## Recalls
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2019 | US: multistate | [Pig ear pet treats](https://www.fda.gov/animal-veterinary/outbreaks-and-advisories/fda-investigates-contaminated-pig-ear-pet-treats-connected-human-salmonella-infections)^1^ | Pet food |
-| 1985 | US: New Mexico | [Carne Seca](https://www.cdc.gov/Mmwr/preview/mmwrhtml/00000628.htm)^2^ | Dried food |
+| 2019 | US: multistate | [Pig ear pet treats](https://www.fda.gov/animal-veterinary/outbreaks-and-advisories/fda-investigates-contaminated-pig-ear-pet-treats-connected-human-salmonella-infections) | Pet food |
+| 1985 | US: New Mexico | [Carne Seca](https://www.cdc.gov/Mmwr/preview/mmwrhtml/00000628.htm) | Dried food |
 
-^1^ *Salmonella *I 4,[5],12:i:-, Cerro, Derby, Infantis, London, Newport, and Rissen were found.
+ *Salmonella *I 4,[5],12:i\:-, Cerro, Derby, Infantis, London, Newport, and Rissen were found.
 
-^2^ This recall was caused by an outbreak described above.
+ This recall was caused by an outbreak described above.
 
 ## References
 

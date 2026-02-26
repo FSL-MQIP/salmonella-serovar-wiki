@@ -1,19 +1,18 @@
 # *S.* Indiana
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,4,12:z:1,7 |
-    | Serogroup | O:4 (B) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Indiana%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,4,12:z:1,7` |
+    | **Serogroup** | O:4 (B) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Indiana (antigenic formula 1,4,12:z:1,7) is a serovar of the O:4 (B) serogroup. Serovar Indiana was first isolated from a 9-month-old child [in 1955 in Indiana, US](https://pmc.ncbi.nlm.nih.gov/articles/PMC1920039/). Infection of this serovar can result in [abortion in ewes](https://www.sciencedirect.com/science/article/pii/S0378113508003489#bib17). In recent years, serovar Indiana has emerged and expanded rapidly in [China](https://www.sciencedirect.com/science/article/pii/S221242922401678X), frequently identified in patients experiencing diarrhea.
 
-%20AND%20computed_types:(%22serotype=Indiana%22))
+
 
 ## Genetic Characteristics
 
@@ -21,31 +20,31 @@
 
 ## Animal Reservoir
 
- The most common reservoir for serovar Indiana is [retail chicken](https://www.sciencedirect.com/science/article/pii/S0956713517300324), but it was also found in[cattle, turkey, duck, sheep and swine](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Indiana%22)).
+ The most common reservoir for serovar Indiana is [retail chicken](https://www.sciencedirect.com/science/article/pii/S0956713517300324), but it was also found in[cattle, turkey, duck, sheep and swine](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Geographical Distribution
 
- Serovar Indiana has been reported [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Indiana%22)) and has extremely expanded in [China](https://pmc.ncbi.nlm.nih.gov/articles/PMC9430114/).
+ Serovar Indiana has been reported [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) and has extremely expanded in [China](https://pmc.ncbi.nlm.nih.gov/articles/PMC9430114/).
 
 ## Human/Animal Outbreaks
 
 | Year | Location | Associated food | Number of cases |
 | --- | --- | --- | --- |
-| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html)^1^ | 470 |
+| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html) | 470 |
 | 2015 | US: multistate | [Backyard poultry](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/live-poultry-07-15/index.html) | 68 |
 | 1986 | UK | [Not identified](https://academic.oup.com/jpubhealth/article/9/4/365/1561367) | 5 infants + 7 adults |
 | 1981 | Netherlands | [Salad base](https://www.sciencedirect.com/science/article/pii/0168160585900388) | Estimated 600-700 |
 | 1967 | US: PA | [Unpasteurized cup cheese](https://pmc.ncbi.nlm.nih.gov/articles/PMC1920039/pdf/pubhealthreporig00030-0085.pdf) | NA |
 
-^1^ Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandanka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Indiana.
+ Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandanka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Indiana.
 
 ## Border Rejections
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2021 | Poland | Italy | [Carne di taccino congelata- frozen turkey meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/514757)^1^ | Meat and meat products (other than poultry) |
+| 2021 | Poland | Italy | [Carne di taccino congelata- frozen turkey meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/514757) | Meat and meat products (other than poultry) |
 
-^1^ Serovar Indiana were found in 1 out of 5 samples /25g.
+ Serovar Indiana were found in 1 out of 5 samples /25g.
 
 ## Recalls
 

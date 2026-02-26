@@ -1,17 +1,16 @@
 # *S.* Senftenberg
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Serogroup | O:1,3,19 (E4) |
+    | **Antigenic Formula** | `1,3,19:g,[s],t:-` |
+    | **Serogroup** | O:1,3,19 (E4) |
 
 ## Background Information
 
  *Salmonella enterica *subsp.* enterica* serovar Senftenberg (antigenic formula: 1,3,19:g,[s],t:-) is a serovar of the O:1,3,19 (E4) serogroup. While *S.* Senfenberg is a rare serovar in human cases (only 7 cases in 10 years in the US), it has been linked with several outbreaks. This serovar is though, very common in animals and food. In the US *S*. Senftenberg is among the top 5 serovars isolated from food, and among the [top 11 serovars isolated from clinical animals](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2022.979790/full). Among source of outbreaks are contaminated basil and alfalfa sprouts.
 
-NCBI Pathogen Detection link for serovar Senftenberg: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22%20AND%20computed_types:(%22serotype=Senftenberg%22))%20AND%20computed_types:(%22serotype=Senftenberg%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22%20AND%20computed_types:(%22serotype=Senftenberg%22))%20AND%20computed_types:(%22serotype=Senftenberg%22))
 
 ## Genetic Characteristics
 
@@ -48,9 +47,9 @@ NCBI Pathogen Detection link for serovar Senftenberg: [https://www.ncbi.nlm.nih.
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2022 | US: multistate^1^ | [Peanut butter](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-peanut-butter-may-2022) | Peanut butter |
+| 2022 | US: multistate | [Peanut butter](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-peanut-butter-may-2022) | Peanut butter |
 
-^1^ The recall was caused by a multistate outbreak described above.
+ The recall was caused by a multistate outbreak described above.
 
 ## References
 

@@ -1,19 +1,18 @@
 # *S.* Liverpool
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,3,19:d:e,n,z15 |
-    | Serogroup | O:1,3,19 (E4) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Liverpool%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,3,19:d:e,n,z15` |
+    | **Serogroup** | O:1,3,19 (E4) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Liverpool (antigenic formula 1,3,19:d:e,n,z15) is a serovar of the O:1,3,19 (E4) serogroup. In the [2021 *Salmonella *outbreak linked to BrightFarms packaged salad greens](https://pubmed.ncbi.nlm.nih.gov/37003534/), one serovar Liverpool isolate with no illnesses linked was recovered from two indoor growing ponds within the same growing house.
 
-%20AND%20computed_types:(%22serotype=Liverpool%22))
+
 
 ## Genetic Characteristics
 
@@ -25,40 +24,40 @@
 
 ## Geographical Distribution
 
- Serovar Liverpool has been reported occasionally [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Liverpool%22)), but according to NCBI PD (accessed April 15, 2025), the majority of serovar Liverpool isolates originate from [US](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Liverpool%22)) (591 out of 739).
+ Serovar Liverpool has been reported occasionally [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/), but according to NCBI PD (accessed April 15, 2025), the majority of serovar Liverpool isolates originate from [US](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) (591 out of 739).
 
 ## Human/Animal Outbreaks
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| 2024 | US | [Unknown](https://www.foodsafetynews.com/2024/10/new-outbreak-of-salmonella-infections-detected-other-investigations-continue/)^1^ | 3 |
+| 2024 | US | [Unknown](https://www.foodsafetynews.com/2024/10/new-outbreak-of-salmonella-infections-detected-other-investigations-continue/) | 3 |
 
-^1^ Investigation is still ongoing.
+ Investigation is still ongoing.
 
 ## Border Rejections
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2024 | Denmark | Norway | [Fish meal](https://webgate.ec.europa.eu/rasff-window/screen/notification/683485)^1^ | Feed materials |
+| 2024 | Denmark | Norway | [Fish meal](https://webgate.ec.europa.eu/rasff-window/screen/notification/683485) | Feed materials |
 | 2023 | Spain | Italy | [Processed animal proteins (SOA cat.3)](https://webgate.ec.europa.eu/rasff-window/screen/notification/636000) | Feed materials |
 | 2022 | China | Sweden | [Crayfish (*Procambarus clarckii*)](https://webgate.ec.europa.eu/rasff-window/screen/notification/565571) | Crustaceans and products thereof |
 | 2021 | Uganda | Germany | [Sesame seeds](https://webgate.ec.europa.eu/rasff-window/screen/notification/461211) | Nuts, nut products and seeds |
 
-^1^ *Salmonella* Liverpool and* Salmonella* Agona were both found.
+ *Salmonella* Liverpool and* Salmonella* Agona were both found.
 
 ## Recalls
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2024 | Lithuania | [Frozen chicken breast from Ukraine via Denmark](https://webgate.ec.europa.eu/rasff-window/screen/notification/718210)^1^ | Poultry meat and poultry meat products |
-| 2016 | US | [Raw, in-shell pistachios](https://www.foodsafetynews.com/2016/10/fda-warnings-seafood-issues-and-salmonella-in-pistachios/)^2^ | Nuts, nut products and seeds |
-| 2012 | US | [Dog food](https://www.cidrap.umn.edu/e-coli/news-scan-salmonellosis-live-chicks-response-2011-euro-e-coli-crisis-salmonella-dog-food)^3^ | Pet food |
+| 2024 | Lithuania | [Frozen chicken breast from Ukraine via Denmark](https://webgate.ec.europa.eu/rasff-window/screen/notification/718210) | Poultry meat and poultry meat products |
+| 2016 | US | [Raw, in-shell pistachios](https://www.foodsafetynews.com/2016/10/fda-warnings-seafood-issues-and-salmonella-in-pistachios/) | Nuts, nut products and seeds |
+| 2012 | US | [Dog food](https://www.cidrap.umn.edu/e-coli/news-scan-salmonellosis-live-chicks-response-2011-euro-e-coli-crisis-salmonella-dog-food) | Pet food |
 
-^1^ *Salmonella* Senftenberg and *Salmonella* Liverpool were found.
+ *Salmonella* Senftenberg and *Salmonella* Liverpool were found.
 
-^2^ *Salmonella* Senftenberg and *Salmonella *Liverpool were found. Trader Joe's branded pistachios were recalled.
+ *Salmonella* Senftenberg and *Salmonella *Liverpool were found. Trader Joe's branded pistachios were recalled.
 
-^3^ Diamond Pet Foods issued a recall of Diamond Naturals Small Breed Adult Lamb and Rice Dry Dog Food.
+ Diamond Pet Foods issued a recall of Diamond Naturals Small Breed Adult Lamb and Rice Dry Dog Food.
 
 ## References
 

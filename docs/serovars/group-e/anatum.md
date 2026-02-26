@@ -1,18 +1,18 @@
 # *S.* Anatum
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Serogroup | O:3,10 (E1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Anatum%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `3,{10}{15}{15,34}:e,h:1,6` |
+    | **Serogroup** | O:3,10 (E1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Anatum (antigenic formula 3,{10}{15}{15,34}:e,h:1,6) is a serovar of the O:3,10 (E1) serogroup. Serovar Anatum was first isolated from ducklings in the United States in [1920](https://journals.asm.org/doi/pdf/10.1128/jb.30.3.269-276.1935) by Rettger and Scoville. Serovar Anatum has been reported as one of the top 20 *Salmonella* serotypes in the United States.
 
-%20AND%20computed_types:(%22serotype=Anatum%22))
+
 
 ## Genetic Characteristics
 
@@ -20,7 +20,7 @@
 
 ## Animal Reservoir
 
- Serovar Anatum was found primarily in[cattle](https://pmc.ncbi.nlm.nih.gov/articles/PMC6606869/)but was also present in other livestock such as [chicken, turkey, sheep, and pigs. Dogs and horses](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Anatum%22)) are also potential reservoirs.
+ Serovar Anatum was found primarily in[cattle](https://pmc.ncbi.nlm.nih.gov/articles/PMC6606869/)but was also present in other livestock such as [chicken, turkey, sheep, and pigs. Dogs and horses](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) are also potential reservoirs.
 
 ## Geographical Distribution
 
@@ -42,18 +42,18 @@
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2024 | Turkey | Germany | [Dog chew](https://webgate.ec.europa.eu/rasff-window/screen/notification/702610)^1^ | Pet food |
+| 2024 | Turkey | Germany | [Dog chew](https://webgate.ec.europa.eu/rasff-window/screen/notification/702610) | Pet food |
 | 2020 | US | Greece | [Fish meal](https://webgate.ec.europa.eu/rasff-window/screen/notification/429238) | Feed materials |
 
-^1^ Three serovars including serovar Anatum, Brancaster and Montevideo were found.
+ Three serovars including serovar Anatum, Brancaster and Montevideo were found.
 
 ## Recalls
 
 | Year | Location | Associated source | Type |
 | --- | --- | --- | --- |
-| 2017 | US: multistate | [Maradol papayas](https://archive.cdc.gov/www_cdc_gov/salmonella/anatum-9-17/advice.html) from Mexico^1^ | Fruit |
+| 2017 | US: multistate | [Maradol papayas](https://archive.cdc.gov/www_cdc_gov/salmonella/anatum-9-17/advice.html) from Mexico | Fruit |
 
-^1^ This recall was resulted by one of four separate multistate outbreaks identified in 2017 related to imported Maradol papayas from four different farms in Mexico. The recalled papayas, which were labeled by the packer Frutas Selectas de Tijuana, Tijuana, Baja California, Mexico, were distributed to markets in California from August 10 to 29, 2017.
+ This recall was resulted by one of four separate multistate outbreaks identified in 2017 related to imported Maradol papayas from four different farms in Mexico. The recalled papayas, which were labeled by the packer Frutas Selectas de Tijuana, Tijuana, Baja California, Mexico, were distributed to markets in California from August 10 to 29, 2017.
 
 ## References
 

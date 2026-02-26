@@ -1,19 +1,18 @@
 # *S.* Adelaide
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 35:f,g:- |
-    | Serogroup | O:35 (O) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Adelaide%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `35:f,g:-` |
+    | **Serogroup** | O:35 (O) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
 *Salmonella enterica* subsp. *enterica* serovar Adelaide (antigenic formula 35:f,g:-) is a serovar of the O:35 (O) serogroup. Serovar Adelaide was[first isolated in 1943](https://onlinelibrary.wiley.com/doi/10.1038/icb.1943.23)from a fatal case of enteritis in a man in Adelaide, Australia.
 
-%20AND%20computed_types:(%22serotype=Adelaide%22))
+
 
 ## Genetic Characteristics
 
@@ -21,11 +20,11 @@
 
 ## Animal Reservoir
 
- Serovar Adelaide was found in [wild boar, bovine, and caprine](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Adelaide%22)).
+ Serovar Adelaide was found in [wild boar, bovine, and caprine](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Geographical Distribution
 
- Serovar Adelaide has primarily been reported in [North America, including the US, Canada, and Mexico, but has also been found in Chile, Brazil, Australia, the UK](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Adelaide%22)), and [Ethiopia](https://webgate.ec.europa.eu/rasff-window/screen/notification/505138).
+ Serovar Adelaide has primarily been reported in [North America, including the US, Canada, and Mexico, but has also been found in Chile, Brazil, Australia, the UK](https://www.ncbi.nlm.nih.gov/pathogens/isolates/), and [Ethiopia](https://webgate.ec.europa.eu/rasff-window/screen/notification/505138).
 
 ## Human/Animal Outbreaks
 

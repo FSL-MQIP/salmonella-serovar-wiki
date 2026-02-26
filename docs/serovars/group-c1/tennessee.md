@@ -1,19 +1,18 @@
 # *S.* Tennessee
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,7,14:z29:[1,2,7] |
-    | Serogroup | O:7 (C1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Tennessee%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,7,14:z29:[1,2,7]` |
+    | **Serogroup** | O:7 (C1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Tennessee (antigenic formula 6,7,14:z29:[1,2,7]) is a serovar of the O:7 (C1) serogroup. Infections from this serotype are uncommon, representing approximately [0.1%](https://www.sciencedirect.com/referencework/9780123739445/encyclopedia-of-microbiology) of US Salmonellosis cases between 1994 and 2004 and averaging just 52 per year. At the beginning of 1994 and in the following months, [Denmark](https://pubmed.ncbi.nlm.nih.gov/18483898/) observed a substantial increase in serovar Tennessee cases among broiler flocks. Unlike typical *Salmonella* infections limited to the gut, certain serotypes, including serovar Tennessee, show a greater tendency to invade the [urinary tract](https://pmc.ncbi.nlm.nih.gov/articles/PMC2870177/). Notably, urine isolates of serovar Tennessee surged from [15% (1995–2004) to 27% during 2005–2006](https://web.archive.org/web/20060518011830/http://www.cdc.gov/ncidod/dbmd/phlisdata/salmonella.htm) in US.
 
-%20AND%20computed_types:(%22serotype=Tennessee%22))
+
 
 ## Genetic Characteristics
 
@@ -21,11 +20,11 @@
 
 ## Animal Reservoir
 
- Unknown, but [chicken](https://pubmed.ncbi.nlm.nih.gov/18483898/) may be the potential reservoir for serovar Tennessee. This serovar was also isolated from [other animals such as snake, seagull, and turtle.](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Tennessee%22))
+ Unknown, but [chicken](https://pubmed.ncbi.nlm.nih.gov/18483898/) may be the potential reservoir for serovar Tennessee. This serovar was also isolated from [other animals such as snake, seagull, and turtle.](https://www.ncbi.nlm.nih.gov/pathogens/isolates/)
 
 ## Geographical Distribution
 
- According to the metadata from NCBI PD (accessed on 05/21/2025), serovar Tennessee has been reported occasionally [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Tennessee%22)) but is found mainly in US and UK, with 660 and 167 out of a total of 1,174 serovar Tennessee isolates from those regions.
+ According to the metadata from NCBI PD (accessed on 05/21/2025), serovar Tennessee has been reported occasionally [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) but is found mainly in US and UK, with 660 and 167 out of a total of 1,174 serovar Tennessee isolates from those regions.
 
 ## Human/Animal Outbreaks
 
@@ -33,10 +32,10 @@
 | --- | --- | --- | --- |
 | 2008 | Germany | [Bearded dragons](https://www.liebertpub.com/doi/10.1089/vbz.2010.0239) | 18 |
 | 2006-2007 | US: multistate | [Peanut butter](https://academic.oup.com/cid/article-abstract/53/4/356/446014?redirectedFrom=fulltext) | 715 |
-| 2006 | US: CO | [Not identified](https://www.sciencedirect.com/science/article/pii/S0196655308004902)^1^ | 10 |
+| 2006 | US: CO | [Not identified](https://www.sciencedirect.com/science/article/pii/S0196655308004902) | 10 |
 | 1992-1993 | Canada and US | [Milk products and infant formula](https://www.cdc.gov/mmwr/preview/mmwrhtml/00021081.htm) | 48 |
 
-^1^ The outbreak occurred in a neonatal intensive care unit.
+ The outbreak occurred in a neonatal intensive care unit.
 
 ## Border Rejections
 

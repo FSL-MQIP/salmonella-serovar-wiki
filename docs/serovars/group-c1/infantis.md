@@ -1,19 +1,18 @@
 # *S.* Infantis
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,7,14:r:1,5 |
-    | Serogroup | O:7 (C1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Infantis%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,7,14:r:1,5` |
+    | **Serogroup** | O:7 (C1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Infantis (antigenic formula 6,7,14:r:1,5) is a serovar of the O:7 (C1) serogroup. This serovar was first reported in [wild birds in Florida, USA in 1979](https://meridian.allenpress.com/jwd/article/15/2/235/118210/ANTIMICROBIAL-RESISTANT-Salmonella-spp-ISOLATED). Serovar Infantis was identified as the most common serovar in broiler flocks (45.6%) and broiler meat (50.6%) across [Europe](https://pmc.ncbi.nlm.nih.gov/articles/PMC7009540/). In human cases, serovar Infantis ranked as the [fourth most prevalent](https://pmc.ncbi.nlm.nih.gov/articles/PMC7009540/)serovar in non-typhoidal *Salmonella* (NTS) infections in Europe. Additionally, in[the United States](https://wwwn.cdc.gov/foodnetfast/), serovar Infantis was consistently among the top 10 serotypes responsible for reported human illnesses in 9 out of 10 years between 2010 and 2019, with the exception of 2012, when it ranked 11th. Since 2016, serovar Infantis has become one of the most frequently detected *Salmonella* serotypes originating from [poultry sources in the United States](https://www.fsis.usda.gov/science-data/data-sets-visualizations/microbiology/microbiological-testing-program-rte-meat-and-7).
 
-%20AND%20computed_types:(%22serotype=Infantis%22))
+
 
 ## Genetic Characteristics
 
@@ -35,22 +34,22 @@ The CDC has identified [REPJFX01](https://www.cdc.gov/salmonella/php/data-resear
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html)^1^ | 470 |
+| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html) | 470 |
 | 2019 | US: multistate | [Raw chicken](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/infantis-10-18/index.html) | 129 |
-| 2017 | US: multistate | [Papaya](http://medbox.iiab.me/modules/en-cdc/www.cdc.gov/salmonella/newport-09-17/index.html)^2^ | 4 |
+| 2017 | US: multistate | [Papaya](http://medbox.iiab.me/modules/en-cdc/www.cdc.gov/salmonella/newport-09-17/index.html) | 4 |
 | 2013 | Germany | [Raw pork products](https://pmc.ncbi.nlm.nih.gov/articles/PMC9150579/) | 267 |
-| 2013 | US: multistate | [Live poultry](https://pmc.ncbi.nlm.nih.gov/articles/PMC5779341/)^3^ | 158 |
+| 2013 | US: multistate | [Live poultry](https://pmc.ncbi.nlm.nih.gov/articles/PMC5779341/) | 158 |
 | 2012 | US: multistate & Canada | [Dry dog food](https://archive.cdc.gov/www_cdc_gov/salmonella/dog-food-05-12/index.html) | 49 |
-| 2012 | US: multistate | [Live poultry](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6211a5.htm#:~:text=Initial%20investigations%20indicated%20many%20of%20the%20ill,live%20poultry%20(e.g.%2C%20chicks%20and%20ducklings)%20from)^4^ | 195 |
+| 2012 | US: multistate | [Live poultry](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6211a5.htm#:~:text=Initial%20investigations%20indicated%20many%20of%20the%20ill,live%20poultry%20(e.g.%2C%20chicks%20and%20ducklings)%20from) | 195 |
 | 1999 | Canada | [Pig ear dog treats](https://www.accessdata.fda.gov/cms_ia/importalert_218.html) | 30 |
 
-^1^ Multiple serovars, including* Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Infantis.
+ Multiple serovars, including* Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Infantis.
 
-^2^ This outbreak involved both *Salmonella* Newport (3 cases) and Infantis (1 case).
+ This outbreak involved both *Salmonella* Newport (3 cases) and Infantis (1 case).
 
-^3^ *Salmonella* Infantis, Lille, Newport, and Mbandaka were reported from 30 states.
+ *Salmonella* Infantis, Lille, Newport, and Mbandaka were reported from 30 states.
 
-^4^ *Salmonella* Infantis, Newport, and Lille were reported from 27 states.
+ *Salmonella* Infantis, Newport, and Lille were reported from 27 states.
 
 ## Border Rejections
 
@@ -58,14 +57,14 @@ The CDC has identified [REPJFX01](https://www.cdc.gov/salmonella/php/data-resear
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2024 | Poland | Italy | [Frozen chicken meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/731338)^1^ | Poultry meat and poultry meat products |
+| 2024 | Poland | Italy | [Frozen chicken meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/731338) | Poultry meat and poultry meat products |
 | 2023 | Poland | Germany | [Dog chews](https://webgate.ec.europa.eu/rasff-window/screen/notification/641450) | Pet food |
-| 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/446128)^2^ | Herbs and spices |
+| 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/446128) | Herbs and spices |
 | 2020 | Russia | Finland | [Maize](https://webgate.ec.europa.eu/rasff-window/screen/notification/429768) | Feed materials |
 
-^1^ Salmonella Enteritidis and Infantis were both found.
+ Salmonella Enteritidis and Infantis were both found.
 
-^2^ Salmonella Infantis and Panama were both found.
+ Salmonella Infantis and Panama were both found.
 
 ## Recalls
 

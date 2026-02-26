@@ -1,19 +1,18 @@
 # *S.* Typhimurium
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,4,[5],12:i:1,2 |
-    | Serogroup | O:4 (B) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Typhimurium%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,4,[5],12:i:1,2` |
+    | **Serogroup** | O:4 (B) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
- *Salmonella enterica* subsp. *enterica* serovar Typhimurium (antigenic formula 1,4,[5],12:i:1,2) is a serovar of the O:4 (B) serogroup. One variant named *Salmonella* Typhimurium [var.](https://academic.oup.com/jac/article-abstract/51/1/180/771276?redirectedFrom=fulltext)[Copenhagen](https://academic.oup.com/jac/article-abstract/51/1/180/771276?redirectedFrom=fulltext), which lacks the factor 5 in the O antigen (1,4,12:i:1,2). The serotype [1,4,[5],12:i:–](https://www.liebertpub.com/doi/10.1089/fpd.2008.0213?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed), which lacks the second-phase H2 flagellar antigen, is a monophasic variant of *Salmonella* Typhimurium. This serovar was named Typhimurium because it produces [Typhi like symptoms in the murine (mouse) model](https://www.microbiologyresearch.org/deliver/fulltext/micro/171/1/mic001521.pdf?itemId=/content/journal/micro/10.1099/mic.0.001521&mimeType=application/pdf#:~:text=xylose%20lysine%20deoxycholate.-,TAXONOMY,before%20the%20Kauffmann–White%20scheme.). In humans, it is frequently associated with [acute gastroenteritis](https://www.sciencedirect.com/science/article/pii/S1286457901013752?via%3Dihub). *S.* Typhimurium has been used as model to understand the pathogenicity of *Salmonella. Salmonella *Typhimurium is the most extensively studied serovar for nontyphoidal salmonellosis and has emerged as the [primary model](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2019.01368/full) for nontyphoidal *Salmonella* research. The *S*. Typhimurium LT2 strain has been particularly well-characterized and remains widely used in research since the 1940s. Both *Salmonella* Typhimurium and Enteritidis dominate global human salmonellosis cases, despite regional differences in prevalence.
+ *Salmonella enterica* subsp. *enterica* serovar Typhimurium (antigenic formula 1,4,[5],12:i\:1,2) is a serovar of the O:4 (B) serogroup. One variant named *Salmonella* Typhimurium [var.](https://academic.oup.com/jac/article-abstract/51/1/180/771276?redirectedFrom=fulltext)[Copenhagen](https://academic.oup.com/jac/article-abstract/51/1/180/771276?redirectedFrom=fulltext), which lacks the factor 5 in the O antigen (1,4,12:i\:1,2). The serotype [1,4,[5],12:i\:–](https://www.liebertpub.com/doi/10.1089/fpd.2008.0213?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed), which lacks the second-phase H2 flagellar antigen, is a monophasic variant of *Salmonella* Typhimurium. This serovar was named Typhimurium because it produces [Typhi like symptoms in the murine (mouse) model](https://www.microbiologyresearch.org/deliver/fulltext/micro/171/1/mic001521.pdf?itemId=/content/journal/micro/10.1099/mic.0.001521&mimeType=application/pdf#:~:text=xylose%20lysine%20deoxycholate.-,TAXONOMY,before%20the%20Kauffmann–White%20scheme.). In humans, it is frequently associated with [acute gastroenteritis](https://www.sciencedirect.com/science/article/pii/S1286457901013752?via%3Dihub). *S.* Typhimurium has been used as model to understand the pathogenicity of *Salmonella. Salmonella *Typhimurium is the most extensively studied serovar for nontyphoidal salmonellosis and has emerged as the [primary model](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2019.01368/full) for nontyphoidal *Salmonella* research. The *S*. Typhimurium LT2 strain has been particularly well-characterized and remains widely used in research since the 1940s. Both *Salmonella* Typhimurium and Enteritidis dominate global human salmonellosis cases, despite regional differences in prevalence.
 
-%20AND%20computed_types:(%22serotype=Typhimurium%22))
+
 
 ## Genetic Characteristics
 
@@ -40,15 +39,15 @@ Serovar Typhimurium is [globally distributed](https://www.liebertpub.com/doi/10.
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2024-2025 | US: multistate | [Cucumbers](https://www.cdc.gov/salmonella/outbreaks/cucumbers-11-24/index.html) | 113 |
-| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html#:~:text=As%20of%20June%2020%2C%202024,No%20deaths%20have%20been%20reported.)^1^ | 470 |
+| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html#:~:text=As%20of%20June%2020%2C%202024,No%20deaths%20have%20been%20reported.) | 470 |
 | 2023-2025 | Europe: multi-country | [Alfalfa sprouts](https://www.food-safety.com/articles/10195-salmonella-outbreak-linked-to-sprouts-sickened-509-people-over-two-years-in-ten-european-countries) | 509 |
 | 2018 | US: multistate | [Chicken salad](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-02-18/index.html) | 265 |
 | 2018 | US: multistate | [Dried coconut](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-03-18/index.html) | 14 |
 | 2013 | US: multistate | [Live poultry](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-live-poultry-04-13/index.html) | 356 |
 | 2013 | US: multistate | [Ground beef](https://marlerclark.com/macomb-county-salmonella-outbreak-traced-to-ground-beef#:~:text=At%20least%2022%20people%20from,for%20Disease%20Control%20and%20Prevention.) | At least 22 |
 | 2012 | Canada | [Ground beef](https://www.cbc.ca/news/canada/ottawa/salmonella-found-in-ottawa-caterer-s-ground-beef-1.1150870#:~:text=Social%20Sharing,week%20while%20the%20investigation%20continues.) | 50 |
-| 2012 | US: multistate | [Pet hedgehogs](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-hedgehogs-09-12/index.html#:~:text=of%20this%20outbreak.-,A%20total%20of%2026%20persons%20infected%20with%20the%20outbreak%20strain,%2C%20and%20Washington%20(7).) | 26 |
-| 2012 | US: multistate | [Cantaloupe](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-cantaloupe-08-12/index.html#:~:text=illness%20is%20reported.-,Recall,although%20further%20shipment%20was%20likely.)^2^ | 261 |
+| 2012 | US: multistate | [Pet hedgehogs](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-hedgehogs-09-12/index.html#:~:text=of%20this%20outbreak.-,A%20total%20of%2026%20persons%20infected%20with%20the%20outbreak%20strain,%2C%20and%20Washington%20(7) | 26 |
+| 2012 | US: multistate | [Cantaloupe](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-cantaloupe-08-12/index.html#:~:text=illness%20is%20reported.-,Recall,although%20further%20shipment%20was%20likely.) | 261 |
 | 2011 | US: multistate | [Ground beef](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/ground-beef-2-1-2012.html#:~:text=The%20outbreak%20strain%20of%20Salmonella,Salmonella%20Infection%20for%20more%20details.) | 20 |
 | 2011 | US: multistate | [African dwarf frogs](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/water-frog-7-20-2011.html) | 241 |
 | 2011 | England | [Hog roast](https://www.liebertpub.com/doi/10.1089/fpd.2013.1513#:~:text=Between%20July%20and%20September%202011,two%20discrete%20but%20linked%20outbreaks.) | 24 |
@@ -56,9 +55,9 @@ Serovar Typhimurium is [globally distributed](https://www.liebertpub.com/doi/10.
 | 2009 | England | [Unknown](https://outbreakdatabase.com/outbreaks/canterbury-england-unknown-2009) | 14 |
 | 2008-2009 | US: multistate | [Peanut butter](https://archive.cdc.gov/www_cdc_gov/salmonella/2009/peanut-butter-2008-2009.html) | 714 |
 
-^1^ Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Typhimurium.
+ Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Typhimurium.
 
-^2^ A total of 228 *Salmonella* Typhimurium and 33 *Salmonella* Newport infections were reported in 24 states.
+ A total of 228 *Salmonella* Typhimurium and 33 *Salmonella* Newport infections were reported in 24 states.
 
 ## Border Rejections
 
@@ -69,13 +68,13 @@ Serovar Typhimurium is [globally distributed](https://www.liebertpub.com/doi/10.
 | 2025 | Brazil | Netherlands | [Frozen chicken meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/745843) | Poultry meat and poultry meat products |
 | 2024 | Brazil | Portugal | [Chicken gizzards](https://webgate.ec.europa.eu/rasff-window/screen/notification/673450) | Poultry meat and poultry meat products |
 | 2023 | Brazil | Netherlands | [Fresh chicken meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/613462) | Poultry meat and poultry meat products |
-| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/466440)^1^ | Herbs and spices |
+| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/466440) | Herbs and spices |
 | 2021 | Cameroon | Finland | [Chilled waterleaves (Talinum triangulare)](https://webgate.ec.europa.eu/rasff-window/screen/notification/522451) | Fruits and vegetables |
-| 2020 | India | Germany | [Dog chews (dried tripes)](https://webgate.ec.europa.eu/rasff-window/screen/notification/423186)^2^ | Feed materials |
+| 2020 | India | Germany | [Dog chews (dried tripes)](https://webgate.ec.europa.eu/rasff-window/screen/notification/423186) | Feed materials |
 
-^1^ *Salmonella* Gaminara, Agona, Typhimurium, Infantis, Rubislaw, and Saintpaul were found.
+ *Salmonella* Gaminara, Agona, Typhimurium, Infantis, Rubislaw, and Saintpaul were found.
 
-^2^ *Salmonella* Typhimurium and Newport were found.
+ *Salmonella* Typhimurium and Newport were found.
 
 ## Recalls
 
@@ -83,18 +82,18 @@ Serovar Typhimurium is [globally distributed](https://www.liebertpub.com/doi/10.
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2024-2025 | US: multistate | [Cucumbers](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-cucumbers-november-2024)^1^ | Fruits and vegetables |
-| 2023-2025 | Europe: multi-country | [Alfalfa sprouts](https://www.food-safety.com/articles/10195-salmonella-outbreak-linked-to-sprouts-sickened-509-people-over-two-years-in-ten-european-countries)^2^ | Fruits and vegetables |
+| 2024-2025 | US: multistate | [Cucumbers](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-cucumbers-november-2024) | Fruits and vegetables |
+| 2023-2025 | Europe: multi-country | [Alfalfa sprouts](https://www.food-safety.com/articles/10195-salmonella-outbreak-linked-to-sprouts-sickened-509-people-over-two-years-in-ten-european-countries) | Fruits and vegetables |
 | 2023 | Romania | [Turkey meat from Hungary](https://webgate.ec.europa.eu/rasff-window/screen/notification/643944) | Poultry meat and poultry meat products |
 | 2022 | Ireland | [Milled brown flaxseed from UK](https://webgate.ec.europa.eu/rasff-window/screen/notification/558911) | Nuts, nut products and seeds |
 | 2021 | Norway | [Pork sides with jaw from Germany](https://webgate.ec.europa.eu/rasff-window/screen/notification/471210) | Meat and meat products (other than poultry) |
 | 2008-2009 | US: multistate | [Peanut butter](https://marlerclark.com/news_events/salmon#:~:text=Peanut%20Corporation%20of%20America%20Peanut%20Butter%20Salmonella%20Outbreak%20Lawsuits%20%2D%20Nationwide,PCA)%20in%202008%20and%202009.) | Nuts, nut products and seeds |
 
-^1^ This recall was caused by a multistate outbreak described above. Importers issued a recall for American/slicer cucumbers produced by Agrotato, S.A. de C.V. in Sonora, Mexico, which were sold during October and November 2024.
+ This recall was caused by a multistate outbreak described above. Importers issued a recall for American/slicer cucumbers produced by Agrotato, S.A. de C.V. in Sonora, Mexico, which were sold during October and November 2024.
 
-^2^ This recall was caused by a multi-country outbreak in Europe described above.
+ This recall was caused by a multi-country outbreak in Europe described above.
 
-^3^ This recall was caused by a multistate outbreak described above. Peanut Corporation of America's Blakely, GA and TX issued a recall of their commercially distributed peanut butter.
+ This recall was caused by a multistate outbreak described above. Peanut Corporation of America's Blakely, GA and TX issued a recall of their commercially distributed peanut butter.
 
 ## References
 

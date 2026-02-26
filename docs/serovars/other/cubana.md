@@ -1,18 +1,18 @@
 # *S.* Cubana
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Serogroup | O:13 (G) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Cubana%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,13,23:z29:` |
+    | **Serogroup** | O:13 (G) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Cubana (antigenic formula 1,13,23:z29:–) is a serovar of the O:13 (G) serogroup. *Salmonella* Cubana was first isolated by Curbelo in Cuba from diseased baby chicks. This serovar is very rare. Serovar Cubana was also identified from environmental samples from a ready-to-eat granola and cereal production facility.
 
-%20AND%20computed_types:(%22serotype=Cubana%22))
+
 
 ## Genetic Characteristics
 
@@ -33,7 +33,7 @@ Serovar Cubana has been found to be [polyphyletic](https://www.frontiersin.org/j
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 1966 | US: CA | Carmine dye capsules | 7 |
-| 1998 | US: multistate | Alfalfa sprouts | 34^1^ |
+| 1998 | US: multistate | Alfalfa sprouts | 34 |
 | 2009 | US: MN | Sprouts | 2 |
 | 2009 | Canada | Onion sprouts and
  mixed onion/alfalfa
@@ -41,7 +41,7 @@ Serovar Cubana has been found to be [polyphyletic](https://www.frontiersin.org/j
 | 2010 | US: multistate | Alfalfa sprouts | 3 |
 | 2012 | US: multistate | Sprouts | 19 |
 
-^1^ Three serovars (*S.* Havana, *S.* Cubana, *S.* Tennessee) were involved in this outbreak.
+ Three serovars (*S.* Havana, *S.* Cubana, *S.* Tennessee) were involved in this outbreak.
 
 ## Border Rejections
 

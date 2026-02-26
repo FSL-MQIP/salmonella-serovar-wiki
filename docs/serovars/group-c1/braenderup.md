@@ -1,19 +1,18 @@
 # *S.* Braenderup
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,7,14:e,h:e,n,z15 |
-    | Serogroup | O:7 (C1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Braenderup%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,7,14:e,h:e,n,z15` |
+    | **Serogroup** | O:7 (C1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Braenderup (antigenic formula 6,7,14:e,h:e,n,z15) is a serovar of the O:7 (C1) serogroup. Serovar Braenderup is the [10^th^ most common serovar](https://www.cdc.gov/salmonella/reportspubs/salmonella-atlas/serotype-reports.html) among human cases in the U.S. However, serovar Braenderup was found in low percentage (>1%) in animals in the U.S. One report identified that serovar Braenderup can penetrate the eggs of [turtles](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2031443/).
 
-%20AND%20computed_types:(%22serotype=Braenderup%22))
+
 
 ## Genetic Characteristics
 
@@ -21,11 +20,11 @@
 
 ## Animal Reservoir
 
- Potential reservoirs for serovar Braenderup are [cattle, chicken, pigs, horses, and turtles](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Braenderup%22)). However, isolation from these sources are sporadic.
+ Potential reservoirs for serovar Braenderup are [cattle, chicken, pigs, horses, and turtles](https://www.ncbi.nlm.nih.gov/pathogens/isolates/). However, isolation from these sources are sporadic.
 
 ## Geographical Distribution
 
- Serovar Braenderup is [widely distributed](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Braenderup%22)), countries with reports of this serovar included countries in North America (US and Canada), Latin America (Colombia, Cuba, Venezuela), Europe (Greece, Austria, UK), and Asia (China, South Korea, Japan, Taiwan).
+ Serovar Braenderup is [widely distributed](https://www.ncbi.nlm.nih.gov/pathogens/isolates/), countries with reports of this serovar included countries in North America (US and Canada), Latin America (Colombia, Cuba, Venezuela), Europe (Greece, Austria, UK), and Asia (China, South Korea, Japan, Taiwan).
 
 ## Human/Animal Outbreaks
 
@@ -45,23 +44,23 @@
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/522139)^1^ | Herbs and spices |
-| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/521346)^2^ | Herbs and spices |
-| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/513985)^3^ | Herbs and spices |
+| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/522139) | Herbs and spices |
+| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/521346) | Herbs and spices |
+| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/513985) | Herbs and spices |
 
-^1^ Multiple serovars were found including: *Salmonella* Braenderup, Dreetown and Abaetetuba.
+ Multiple serovars were found including: *Salmonella* Braenderup, Dreetown and Abaetetuba.
 
-^2^ Multiple serovars were found including: *Salmonella* Morehead, Javiana, Braenderup, Saintpaul, Kiambu and Minnesota.
+ Multiple serovars were found including: *Salmonella* Morehead, Javiana, Braenderup, Saintpaul, Kiambu and Minnesota.
 
-^3^ Multiple serovars were found including: *Salmonella* Albany, Gaminara, Poona, Braenderup und Madelia.
+ Multiple serovars were found including: *Salmonella* Albany, Gaminara, Poona, Braenderup und Madelia.
 
 ## Recalls
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2024 | US: multistate | [Cucumbers](https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fresh-start-produce-sales-initiates-recall-whole-cucumbers-because-possible-health-risk)^1^ | Fresh produce |
+| 2024 | US: multistate | [Cucumbers](https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fresh-start-produce-sales-initiates-recall-whole-cucumbers-because-possible-health-risk) | Fresh produce |
 
-^1^ This recall was caused by a multistate outbreak. Fresh Start Produce Sales Inc. of Delray, Florida, recalled their whole cucumbers.
+ This recall was caused by a multistate outbreak. Fresh Start Produce Sales Inc. of Delray, Florida, recalled their whole cucumbers.
 
 ## References
 

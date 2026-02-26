@@ -1,17 +1,16 @@
 # *S.* Ohio
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,7,14:b:1,w |
-    | Serogroup | O:7 (C1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ohio%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,7,14:b:1,w` |
+    | **Serogroup** | O:7 (C1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
-**Background information:** *Salmonella enterica* subsp. *enterica* serovar Ohio (antigenic formula 6,7,14:b:1,w) is a serovar of the O:7 (C1) serogroup. Serovar Ohio was first described in [rodents in Malaysia](https://pubmed.ncbi.nlm.nih.gov/6523172/). This serovar has been previously reported to cause [septic arthritis and bone abscess](https://pmc.ncbi.nlm.nih.gov/articles/PMC3416725/) in an immunocompetent patient. In Mexico, serovar Ohio was the[most prevalent](https://pubmed.ncbi.nlm.nih.gov/18162140/) *Salmonella* serovar associated with 300 children diagnosed as positive for diarrhoea. This serovar was also isolated from [tropical seafood](https://www.liebertpub.com/doi/epdf/10.1089/fpd.2008.0252) in India.
+**Background information:** *Salmonella enterica* subsp. *enterica* serovar Ohio (antigenic formula 6,7,14:b\:1,w) is a serovar of the O:7 (C1) serogroup. Serovar Ohio was first described in [rodents in Malaysia](https://pubmed.ncbi.nlm.nih.gov/6523172/). This serovar has been previously reported to cause [septic arthritis and bone abscess](https://pmc.ncbi.nlm.nih.gov/articles/PMC3416725/) in an immunocompetent patient. In Mexico, serovar Ohio was the[most prevalent](https://pubmed.ncbi.nlm.nih.gov/18162140/) *Salmonella* serovar associated with 300 children diagnosed as positive for diarrhoea. This serovar was also isolated from [tropical seafood](https://www.liebertpub.com/doi/epdf/10.1089/fpd.2008.0252) in India.
 
-%20AND%20computed_types:(%22serotype=Ohio%22))
+
 
 ## Genetic Characteristics
 
@@ -19,11 +18,11 @@ Serovar Ohio has been found to be [monophyletic](https://www.frontiersin.org/jou
 
 ## Animal Reservoir
 
- [Chicken](https://pubmed.ncbi.nlm.nih.gov/19043089/) and [pigs](https://pubmed.ncbi.nlm.nih.gov/15960750/) may be potential reservoirs for serovar Ohio. This serovar was also isolated from [other animals such as horses and wild ducks (*Anas platyrhynchos*)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ohio%22)).
+ [Chicken](https://pubmed.ncbi.nlm.nih.gov/19043089/) and [pigs](https://pubmed.ncbi.nlm.nih.gov/15960750/) may be potential reservoirs for serovar Ohio. This serovar was also isolated from [other animals such as horses and wild ducks (*Anas platyrhynchos*)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Geographical Distribution
 
- Serovar Ohio has been reported [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ohio%22)), but primarily in [the UK](https://pubmed.ncbi.nlm.nih.gov/19043089/) and [US (Out of 1,386 serovar Ohio isolates, 998 (72.0%) were from US, according to NCBI PD (accessed May 12, 2025))](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ohio%22)).
+ Serovar Ohio has been reported [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/), but primarily in [the UK](https://pubmed.ncbi.nlm.nih.gov/19043089/) and [US (Out of 1,386 serovar Ohio isolates, 998 (72.0%) were from US, according to NCBI PD (accessed May 12, 2025))](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 
@@ -37,22 +36,22 @@ Serovar Ohio has been found to be [monophyletic](https://www.frontiersin.org/jou
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2025 | Thailand | Germany | [Dog chews](https://webgate.ec.europa.eu/rasff-window/screen/notification/750003)^1^ | Feed materials |
+| 2025 | Thailand | Germany | [Dog chews](https://webgate.ec.europa.eu/rasff-window/screen/notification/750003) | Feed materials |
 | 2020 | Denmark | Belgium | [Fish meal](https://webgate.ec.europa.eu/rasff-window/screen/notification/416258) | Feed materials |
 
-^1^ Consignment was released.
+ Consignment was released.
 
 ## Recalls
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2024 | Finland, Denmark | [Frozen pork cheek from Poland via Estonia](https://webgate.ec.europa.eu/rasff-window/screen/notification/717474)^1^ | Meat and meat products (other than poultry) |
+| 2024 | Finland, Denmark | [Frozen pork cheek from Poland via Estonia](https://webgate.ec.europa.eu/rasff-window/screen/notification/717474) | Meat and meat products (other than poultry) |
 | 2024 | Italy | [Frozen shelled clams from Turkey](https://webgate.ec.europa.eu/rasff-window/screen/notification/695678) | Fish and fish products |
-| 2023 | Czech Republic | [Frozen dumplings with chicken filing from Lithuania](https://webgate.ec.europa.eu/rasff-window/screen/notification/636997)^2^ | Other food product / mixed |
+| 2023 | Czech Republic | [Frozen dumplings with chicken filing from Lithuania](https://webgate.ec.europa.eu/rasff-window/screen/notification/636997) | Other food product / mixed |
 
-^1^ *Salmonella* Ohio, Typhimurium and Derby were found.
+ *Salmonella* Ohio, Typhimurium and Derby were found.
 
-^2^ *Salmonella* Ohio and Infantis were found.
+ *Salmonella* Ohio and Infantis were found.
 
 ## References
 

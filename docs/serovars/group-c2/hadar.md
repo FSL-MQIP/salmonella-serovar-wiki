@@ -1,18 +1,17 @@
 # *S.* Hadar
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,8:z10:e,n,x |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Hadar%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,8:z10:e,n,x` |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Hadar (antigenic formula 6,8:z10:e,n,x) is a serovar of the O:8 (C2-C3) serogroup. In Europe, this serovar emerged in [1971](https://pmc.ncbi.nlm.nih.gov/articles/PMC1601188/pdf/brmedj00016-0007.pdf). In [England](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1601188/pdf/brmedj00016-0007.pdf), before 1971, only eight human cases reported; by 1979 a total of 1,600 human salmonellosis cases were confirmed to be caused by serovar Hadar. Serovar Hadar is among the[top ten serovars from non-clinical non-human sources](https://www.cdc.gov/salmonella/pdf/hadar-508c.pdf)in the US. Also, this serovar is the most common serovar isolated from turkey in the US. In Europe, serovar Hadar is the 4^th^ most common serovar isolated from humans. Reports of acquisition of serovar Hadar in[travelers](https://www.sciencedirect.com/science/article/pii/S1198743X14622126)returning from Africa suggest a distribution of this serovar in Africa.
 
-%20AND%20computed_types:(%22serotype=Hadar%22))
+
 
 ## Genetic Characteristics
 
@@ -20,11 +19,11 @@
 
 ## Animal Reservoir
 
- The main reservoirs of serovar Hadar are [turkey flocks and turkey meat](https://pmc.ncbi.nlm.nih.gov/articles/PMC11384159/#:~:text=Historically%2C%20outbreaks%20of%20foodborne%20Salmonella,to%20the%20backyard%20poultry%20market.). However, [chickens, ducks and swine](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Hadar%22))are also sources of this serovar.
+ The main reservoirs of serovar Hadar are [turkey flocks and turkey meat](https://pmc.ncbi.nlm.nih.gov/articles/PMC11384159/#:~:text=Historically%2C%20outbreaks%20of%20foodborne%20Salmonella,to%20the%20backyard%20poultry%20market.). However, [chickens, ducks and swine](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) also sources of this serovar.
 
 ## Geographical Distribution
 
- Serovar Hadar has been reported [worldwide such as the US](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Hadar%22)).
+ Serovar Hadar has been reported [worldwide such as the US](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 
@@ -43,20 +42,20 @@
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2021 | Hungary | Italy | [Duck fillets](https://webgate.ec.europa.eu/rasff-window/screen/notification/468397)^1^ | Poultry meat and poultry meat products |
+| 2021 | Hungary | Italy | [Duck fillets](https://webgate.ec.europa.eu/rasff-window/screen/notification/468397) | Poultry meat and poultry meat products |
 
-^1^ *Salmonella *Hadar and Kottbus were both found.
+ *Salmonella *Hadar and Kottbus were both found.
 
 ## Recalls
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2021 | US | [Ground turkey](https://www.fsis.usda.gov/recalls?keywords=Salmonella&page=1)^1^ | Poultry meat and poultry meat products |
-| 2020 | Latvia | [Turkey minced meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/431922)^2^ | Poultry meat and poultry meat products |
+| 2021 | US | [Ground turkey](https://www.fsis.usda.gov/recalls?keywords=Salmonella&page=1) | Poultry meat and poultry meat products |
+| 2020 | Latvia | [Turkey minced meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/431922) | Poultry meat and poultry meat products |
 
-^1^ Plainville Brands, LLC, issued the recall because of the* Salmonella* Hadar outbreak.
+ Plainville Brands, LLC, issued the recall because of the* Salmonella* Hadar outbreak.
 
-^2^ Product was (presumably) no longer on the market.
+ Product was (presumably) no longer on the market.
 
 ## References
 

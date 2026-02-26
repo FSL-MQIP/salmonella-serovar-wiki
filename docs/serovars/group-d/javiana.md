@@ -1,19 +1,18 @@
 # *S.* Javiana
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,9,12:l,z28:1,5 |
-    | Serogroup | O:9 (D1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Javiana%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,9,12:l,z28:1,5` |
+    | **Serogroup** | O:9 (D1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Javiana (antigenic formula 1,9,12:l,z28:1,5) is a serovar of the O:9 (D1) serogroup. Serovar Javiana remains [one of the top five most common](https://pmc.ncbi.nlm.nih.gov/articles/PMC3622996/) serotypes of *Salmonella* linked fresh-cut produce, with an average of 11 clusters per year (2008 to 2012) identified by the PulseNet Network. Between 1996 and 2007, serovar Javiana ranked as the [fifth most common](https://pmc.ncbi.nlm.nih.gov/articles/PMC6719869/) *Salmonella* serovars reported to the CDC, but it rose to fourth place in 2008 representing 5% of overall salmonellosis cases in the US.
 
-%20AND%20computed_types:(%22serotype=Javiana%22))
+
 
 ## Genetic Characteristics
 
@@ -21,7 +20,7 @@
 
 ## Animal Reservoir
 
- According to CDC, serovar Javiana is mainly associated with [amphibians](https://www.cdc.gov/salmonella/reportspubs/salmonella-atlas/serotype-snapshots.html#:~:text=Scientists%20speculate%20that%20Javiana%20may,native%20to%20specific%20geographic%20areas). This serovar has also been rarely found in [other animals such as chicken, cattle](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Javiana%22)), and [dogs](https://onlinelibrary.wiley.com/doi/10.1111/zph.13174).
+ According to CDC, serovar Javiana is mainly associated with [amphibians](https://www.cdc.gov/salmonella/reportspubs/salmonella-atlas/serotype-snapshots.html#:~:text=Scientists%20speculate%20that%20Javiana%20may,native%20to%20specific%20geographic%20areas). This serovar has also been rarely found in [other animals such as chicken, cattle](https://www.ncbi.nlm.nih.gov/pathogens/isolates/), and [dogs](https://onlinelibrary.wiley.com/doi/10.1111/zph.13174).
 
 ## Geographical Distribution
 
@@ -37,9 +36,9 @@
 | 2019-2020 | US: multistate | [Fresh cut fruit](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/javiana-12-19/index.html) | 165 |
 | 2002 | US: Florida | [Tomatoes](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5131a2.htm) | 141 |
 | 2001 | US: Mississippi | [Amphibian](https://pubmed.ncbi.nlm.nih.gov/15061502/#:~:text=Salmonella%20Javiana%20is%20a%20Salmonella,infections%20in%20Mississippi%20increased%20sevenfold.) | 55 |
-| 1993 | Germany | [Paprika & paprika-powdered potato chips^1^](https://pmc.ncbi.nlm.nih.gov/articles/PMC2271603/) | Estimated 1000 |
+| 1993 | Germany | [Paprika & paprika-powdered potato chips](https://pmc.ncbi.nlm.nih.gov/articles/PMC2271603/) | Estimated 1000 |
 
-^1 ^*Salmonella* Saintpaul and Rubislaw were also involved.
+<sup>1</sup> *Salmonella* Saintpaul and Rubislaw were also involved.
 
 ## Border Rejections
 
@@ -47,27 +46,27 @@
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2022 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/524913)^1^ | Herbs and spices |
+| 2022 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/524913) | Herbs and spices |
 | 2022 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/524681) | Herbs and spices |
-| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/482981)^2^ | Herbs and spices |
-| 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/452474)^3^ | Herbs and spices |
+| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/482981) | Herbs and spices |
+| 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/452474) | Herbs and spices |
 
-^1^ *Salmonella* Javiana and *Salmonella* Poona were both found.
+ *Salmonella* Javiana and *Salmonella* Poona were both found.
 
-^2^ *Salmonella* Javiana, *Salmonella* Newport and *Salmonella* Infantis were found.
+ *Salmonella* Javiana, *Salmonella* Newport and *Salmonella* Infantis were found.
 
-^3^ *Salmonella* Saintpaul and *Salmonella* Javiana were both found.
+ *Salmonella* Saintpaul and *Salmonella* Javiana were both found.
 
 ## Recalls
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2023 | US: multistate | [Black fungus](https://www.foodsafetynews.com/2023/05/black-fungus-recalled-in-12-states-after-testing-finds-multiple-strains-of-salmonella/)^1^ | Other food product / mixed |
-| 2019 | US | [Fresh fruit](https://www.foodsafetynews.com/?s=javiana)^2^ | Fruit and vegetables |
+| 2023 | US: multistate | [Black fungus](https://www.foodsafetynews.com/2023/05/black-fungus-recalled-in-12-states-after-testing-finds-multiple-strains-of-salmonella/) | Other food product / mixed |
+| 2019 | US | [Fresh fruit](https://www.foodsafetynews.com/?s=javiana) | Fruit and vegetables |
 
-^1^ *Salmonella* Javiana, *Salmonella* Mgulani and *Salmonella* Weltevreden were found.
+ *Salmonella* Javiana, *Salmonella* Mgulani and *Salmonella* Weltevreden were found.
 
-^2^ Tailor Cut Produce recalled its fruit luau, cut honeydew, cut cantaloupe and cut pineapple products. This recall was resulted by a multistate outbreak mentioned above.
+ Tailor Cut Produce recalled its fruit luau, cut honeydew, cut cantaloupe and cut pineapple products. This recall was resulted by a multistate outbreak mentioned above.
 
 ## References
 

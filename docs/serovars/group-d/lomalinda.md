@@ -1,18 +1,16 @@
 # *S.* Lomalinda
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,9,12:a:e,n,x |
-    | Serogroup | O:9 (D1) |
+    | **Antigenic Formula** | `1,9,12:a:e,n,x` |
+    | **Serogroup** | O:9 (D1) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Lomalinda (antigenic formula 1,9,12:a:e,n,x) is a serovar of the O:9 (D1) serogroup. This serovar was first isolated from the spinal fluid of a baby that [died of meningitis in 1944](https://doi.org/10.3181/00379727-57-14714) in Loma Linda, California, US.
 
-NCBI PD Serovar Link for serovar Lomalinda: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Lomalinda%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Lomalinda%22))
 
 ## Genetic Characteristics
 
@@ -20,11 +18,11 @@ NCBI PD Serovar Link for serovar Lomalinda: [https://www.ncbi.nlm.nih.gov/pathog
 
 ## Animal Reservoir
 
- Unknown, but according to the metadata from NCBI PD, serovar Lomalinda was previously isolated from [rodents and great horned owl (*Bubo virginianus*)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Lomalinda%22)).
+ Unknown, but according to the metadata from NCBI PD, serovar Lomalinda was previously isolated from [rodents and great horned owl (*Bubo virginianus*)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Geographical Distribution
 
- According to the metadata from NCBI PD, serovar Lomalinda has only been reported in [US, Canada and UK](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Lomalinda%22)).
+ According to the metadata from NCBI PD, serovar Lomalinda has only been reported in [US, Canada and UK](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 

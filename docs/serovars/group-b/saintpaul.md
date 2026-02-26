@@ -1,19 +1,18 @@
 # *S.* Saintpaul
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,4,[5],12:e,h:1,2 |
-    | Serogroup | O:4 (B) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Saintpaul%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,4,[5],12:e,h:1,2` |
+    | **Serogroup** | O:4 (B) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Saintpaul (antigenic formula 1,4,[5],12:e,h:1,2) is a serovar of the O:4 (B) serogroup. In [1940](https://www.jstor.org/stable/30092155?seq=2), serovar Saintpaul was first isolated from turkey in US. [Enter-Net surveillance data](https://web.archive.org/web/20090903064950/https://www.ecdc.europa.eu/en/publications/Pages/Surveillance_Reports.aspx) from European national reference centers revealed serovar Saintpaul as the fourth most prevalent *Salmonella* serovar (1.6%) in human isolates during Q4 2006, marking a notable increase in its role as a cause of human salmonellosis compared to previous years. Subsequent surveillance showed declining prevalence, with the serovar accounting for 1.2% and 0.6% of human *Salmonella* infections in Q1 2007 and Q1 2008, respectively. *Salmonella* Saintpaul was frequently listed as [top 20](https://pubmed.ncbi.nlm.nih.gov/21492021/) *Salmonella* serovars in humans in Oceania and North America. A case of [testicular seminoma](https://pubmed.ncbi.nlm.nih.gov/37577346/) complicated by serovar Saintpaul-induced testicular abscess has been reported.
 
-%20AND%20computed_types:(%22serotype=Saintpaul%22))
+
 
 ## Genetic Characteristics
 
@@ -46,9 +45,9 @@ In [Germany](https://pubmed.ncbi.nlm.nih.gov/20363784/), a clonal line of *Salmo
 | 2008 | US: multistate & Canada | [Jalape=C3=B1o and serrano peppers from Mexico](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5734a1.htm) | 1442 |
 | 2006 | Australia | [Cantaloupe](https://www.jstor.org/stable/25476916?seq=1) | 115 |
 | 1999 | Australia | [Drinking water](https://pubmed.ncbi.nlm.nih.gov/11190815/) | 28 |
-| 1993 | Germany | [Paprika & paprika-powdered potato chips](https://pubmed.ncbi.nlm.nih.gov/8557082/#:~:text=Between%20April%20and%20September%201993,were%20found%20in%20the%20snacks.)^1^ | Estimated 1000 |
+| 1993 | Germany | [Paprika & paprika-powdered potato chips](https://pubmed.ncbi.nlm.nih.gov/8557082/#:~:text=Between%20April%20and%20September%201993,were%20found%20in%20the%20snacks.) | Estimated 1000 |
 
-^1^ Serovar Javiana and Rubislaw were also involved. The case number here does not reflect the total number of people only infected by *Salmonella* Saintpaul.
+ Serovar Javiana and Rubislaw were also involved. The case number here does not reflect the total number of people only infected by *Salmonella* Saintpaul.
 
 ## Border Rejections
 
@@ -57,27 +56,27 @@ In [Germany](https://pubmed.ncbi.nlm.nih.gov/20363784/), a clonal line of *Salmo
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2023 | Vietnam | Italy | [Frozen raw frog legs](https://webgate.ec.europa.eu/rasff-window/screen/notification/616717) | Meat and meat products (other than poultry) |
-| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/521476)^1^ | Herbs and spices |
-| 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/452713)^2^ | Herbs and spices |
-| 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/452474)^3^ | Herbs and spices |
-| 2020 | Germany, Netherlands | Italy | [Poultry and veal kebab](https://webgate.ec.europa.eu/rasff-window/screen/notification/423533)^4^ | Meat and meat products (other than poultry) |
+| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/521476) | Herbs and spices |
+| 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/452713) | Herbs and spices |
+| 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/452474) | Herbs and spices |
+| 2020 | Germany, Netherlands | Italy | [Poultry and veal kebab](https://webgate.ec.europa.eu/rasff-window/screen/notification/423533) | Meat and meat products (other than poultry) |
 
-^1^ *Salmonella* Poona, Javiana and Saintpaul were found.
+ *Salmonella* Poona, Javiana and Saintpaul were found.
 
-^2^ *Salmonella* Infantis, Freetown, Javiana, and Saintpaul were found.
+ *Salmonella* Infantis, Freetown, Javiana, and Saintpaul were found.
 
-^3^ *Salmonella* Saintpaul and Javiana were found.
+ *Salmonella* Saintpaul and Javiana were found.
 
-^4^ *Salmonella* Derby and Saintpaul were found.
+ *Salmonella* Derby and Saintpaul were found.
 
 ## Recalls
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
 | 2023 | Spain | [Fresh turkey meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/618965) | Poultry meat and poultry meat products |
-| 2008 | US: multistate | [Jalapeno peppers](https://web.archive.org/web/20090710090159/http://www.fda.gov/Safety/Recalls/ArchiveRecalls/2008/ucm112471.htm)^1^ | Fruits and vegetables |
+| 2008 | US: multistate | [Jalapeno peppers](https://web.archive.org/web/20090710090159/http://www.fda.gov/Safety/Recalls/ArchiveRecalls/2008/ucm112471.htm) | Fruits and vegetables |
 
-^1^ This recall was caused by a multistate outbreak described above. Agricola Zaragoza, Inc. of McAllen, TX issued a recall of their Jalapeno peppers.
+ This recall was caused by a multistate outbreak described above. Agricola Zaragoza, Inc. of McAllen, TX issued a recall of their Jalapeno peppers.
 
 ## References
 

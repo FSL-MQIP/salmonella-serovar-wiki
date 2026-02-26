@@ -4,8 +4,8 @@
 
     | | |
     |---|---|
-    | Antigenic Formula | 41:z4,z23:- |
-    | Serogroup | O:41 (S) |
+    | **Antigenic Formula** | `41:z4,z23:-` |
+    | **Serogroup** | O:41 (S) |
 
 ## Background Information
 
@@ -13,15 +13,15 @@
 
 ## Genetic Characteristics
 
-Serovar IIIa 41:z4,z23:- has been found to be [polyphyletic](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full) with four lineages identified and one stand-alone singleton that does not cluster with any other *Salmonella* IIIa 41:z4,z23:- isolates. Similarly, another study also found that** **serovar IIIa 41:z4,z23:- is [highly polyphyletic](https://pmc.ncbi.nlm.nih.gov/articles/PMC8208698/#R19), with five lineages identified across clades B and C. Additionally, one of these lineages is paraphyletic, with a single lineage of serovar IIIa 44:z4,z23:- nested within it. Among the 15 genomes of serovar IIIa 41:z4,z23:-, seven distinct prophages were identified.
+Serovar IIIa 41:z4,z23:- has been found to be [polyphyletic](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full) with four lineages identified and one stand-alone singleton that does not cluster with any other *Salmonella* IIIa 41:z4,z23:- isolates. Similarly, another study also found that serovar IIIa 41:z4,z23:- is [highly polyphyletic](https://pmc.ncbi.nlm.nih.gov/articles/PMC8208698/#R19), with five lineages identified across clades B and C. Additionally, one of these lineages is paraphyletic, with a single lineage of serovar IIIa 44:z4,z23:- nested within it. Among the 15 genomes of serovar IIIa 41:z4,z23:-, seven distinct prophages were identified.
 
 ## Animal Reservoir
 
- Unknown; however, based on host information from the NCBI PD metadata, serovar IIIa 41:z4,z23:- has primarily been isolated from [dogs and wild animals, such as snakes and birds (*Pelecanus erythrorhynchos*)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=IIIa%2041:z4,z23:-%22)). Additionally, two isolates were collected from [chicken (n=1) and turkey (n=1)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8208698/#R19), respectively. In a [study of Salmonella obtained from reptiles in Canada](https://doi.org/10.3201/eid3110.241803), serovar IIIa 41:z4,z23:- was the second most commonly isolated serovar (n = 2 out of 46 *Salmonella *positive samples)^8^.
+ Unknown; however, based on host information from the NCBI PD metadata, serovar IIIa 41:z4,z23:- has primarily been isolated from [dogs and wild animals, such as snakes and birds (*Pelecanus erythrorhynchos*)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/). Additionally, two isolates were collected from [chicken (n=1) and turkey (n=1)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8208698/#R19), respectively. In a [study of Salmonella obtained from reptiles in Canada](https://doi.org/10.3201/eid3110.241803), serovar IIIa 41:z4,z23:- was the second most commonly isolated serovar (n = 2 out of 46 *Salmonella *positive samples).
 
 ## Geographical Distribution
 
- Serovar IIIa 41:z4,z23:- has been reported in [the US, Canada, and Europe including Germany, Ireland, and the UK](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=IIIa%2041:z4,z23:-%22)).
+ Serovar IIIa 41:z4,z23:- has been reported in [the US, Canada, and Europe including Germany, Ireland, and the UK](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 

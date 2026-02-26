@@ -1,17 +1,17 @@
 # *S.* Uganda
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Uganda%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `3,{10},{15}:1,z13:1,5` |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
 *Salmonella enterica* subsp. *enterica* serovar Uganda (antigenic formula: 3,{10},{15}:1,z13:1,5) is a Group O:3,10 (E1) serovar. In US, human infections caused by serovar Uganda are uncommon. Between [1993 and 2000](https://web.archive.org/web/20040606215720/http://www.cdc.gov/ncidod/dbmd/phlisdata/salmonella.htm#2001), an average of only 48 human cases were reported annually.
 
-%20AND%20computed_types:(%22serotype=Uganda%22))
+
 
 ## Genetic Characteristics
 
@@ -19,41 +19,41 @@
 
 ## Animal Reservoir
 
- Unknown, according to the metadata from NCBI PD, [cattle and pigs](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Uganda%22)) are potential reservoirs for serovar Uganda. Pigs and cattle remained the top two sources for non-human isolates.
+ Unknown, according to the metadata from NCBI PD, [cattle and pigs](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) are potential reservoirs for serovar Uganda. Pigs and cattle remained the top two sources for non-human isolates.
 
 ## Geographical Distribution
 
- According to the metadata from NCBI PD, serovar Uganda has been reported [worldwide but primarily in US](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Uganda%22)) (2,528 out of 3,310 serovar Uganda isolates available in NCBI PD were from US, accessed 06/01/2025).
+ According to the metadata from NCBI PD, serovar Uganda has been reported [worldwide but primarily in US](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) (2,528 out of 3,310 serovar Uganda isolates available in NCBI PD were from US, accessed 06/01/2025).
 
 ## Human/Animal Outbreaks
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2022 | US: multistate | [Pet bearded dragons](https://www.cdc.gov/salmonella/outbreaks/uganda-01-22/investigation.html) | 56 |
-| 2022 | China | [Unknown](https://pubmed.ncbi.nlm.nih.gov/37743279/)^1^ | NA |
+| 2022 | China | [Unknown](https://pubmed.ncbi.nlm.nih.gov/37743279/) | NA |
 | 2019 | US: multistate | [Papayas](https://archive.cdc.gov/www_cdc_gov/salmonella/uganda-06-19/index.html) | 81 |
 | 2013 | US: LA | [Hog head cheese](https://www.marlerblog.com/case-news/salmonella-uganda-outbreak-linked-to-head-cheese-in-louisiana/#:~:text=Illness%20onset%20dates%20among%20the,20%202013%E2%80%B3on%20each%20package.) | 6 |
 | 2011 | US: multistate | [Cantaloupe](https://outbreakdatabase.com/outbreaks/2011-multistate-outbreak-of-salmonella-uganda-infections-linked-to-cantaloupe) | 25 |
 | 2001 | US: NY | [Pork](https://pmc.ncbi.nlm.nih.gov/articles/PMC3320290/) | 11 |
 | 2001 | US: Chicago | [Pork](https://pmc.ncbi.nlm.nih.gov/articles/PMC3320290/) | 12 |
 
-^1^ Both *Salmonella* Uganda and *Salmonella* Idikan were isolated.
+ Both *Salmonella* Uganda and *Salmonella* Idikan were isolated.
 
 ## Border Rejections
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2022 | Syria | Germany | [Sesame paste/Tahina](https://webgate.ec.europa.eu/rasff-window/screen/notification/580204)^1^ | Nuts, nut products and seeds |
+| 2022 | Syria | Germany | [Sesame paste/Tahina](https://webgate.ec.europa.eu/rasff-window/screen/notification/580204) | Nuts, nut products and seeds |
 
-^1^ Consignment was released later.
+ Consignment was released later.
 
 ## Recalls
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2019 | US: LA | [Hog head cheese](https://www.marlerblog.com/case-news/salmonella-uganda-outbreak-linked-to-head-cheese-in-louisiana/#:~:text=Illness%20onset%20dates%20among%20the,20%202013%E2%80%B3on%20each%20package.)^1^ | Meat and meat products (other than poultry) |
+| 2019 | US: LA | [Hog head cheese](https://www.marlerblog.com/case-news/salmonella-uganda-outbreak-linked-to-head-cheese-in-louisiana/#:~:text=Illness%20onset%20dates%20among%20the,20%202013%E2%80%B3on%20each%20package.) | Meat and meat products (other than poultry) |
 
-^1^ This recall was caused by a outbreak described above. Stallings Head Cheese Co., Inc., a Houston, Texas establishment, issued a recall of 4,700 pounds of their hog head cheese.
+ This recall was caused by a outbreak described above. Stallings Head Cheese Co., Inc., a Houston, Texas establishment, issued a recall of 4,700 pounds of their hog head cheese.
 
 ## References
 

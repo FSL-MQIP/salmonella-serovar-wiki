@@ -1,19 +1,18 @@
 # *S.* Gaminara
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 16:d:1,7 |
-    | Serogroup | O:16 (I) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Gaminara%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `16:d:1,7` |
+    | **Serogroup** | O:16 (I) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Gaminara (antigenic formula 16:d:1,7) is a serovar of the O:16 (I) serogroup. This serovar can cause [osteomyelitis and septic arthritis](https://journals.lww.com/infectdis/fulltext/2007/09000/salmonella_gaminara_osteomyelitis_and_septic.13.aspx) in infants.
 
-%20AND%20computed_types:(%22serotype=Gaminara%22))
+
 
 ## Genetic Characteristics
 
@@ -25,18 +24,18 @@
 
 ## Geographical Distribution
 
- Serovar Gaminara has been mainly found in [the US and European countries such as the UK](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Gaminara%22)).
+ Serovar Gaminara has been mainly found in [the US and European countries such as the UK](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| 2017 | US: multistate | [Maradol papayas](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/kiambu-07-17/index.html) | 220^1^ |
-| 1995 | US: FL | [Unpasteurized orange juice](https://jamanetwork.com/journals/jama/fullarticle/188128) | 62^2^ |
+| 2017 | US: multistate | [Maradol papayas](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/kiambu-07-17/index.html) | 220 |
+| 1995 | US: FL | [Unpasteurized orange juice](https://jamanetwork.com/journals/jama/fullarticle/188128) | 62 |
 
-^1^ A total of 220 people infected with the outbreak strains of *Salmonella* Thompson (144), *Salmonella* Kiambu (54), *Salmonella* Agona (12), *Salmonella* Gaminara (7), and *Salmonella* Senftenberg (3) were reported from 23 states.
+ A total of 220 people infected with the outbreak strains of *Salmonella* Thompson (144), *Salmonella* Kiambu (54), *Salmonella* Agona (12), *Salmonella* Gaminara (7), and *Salmonella* Senftenberg (3) were reported from 23 states.
 
-^2^ *Salmonella* Hartford and Gaminara were both associated with the outbreak.
+ *Salmonella* Hartford and Gaminara were both associated with the outbreak.
 
 ## Border Rejections
 
@@ -44,23 +43,23 @@
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/469498)^1^ | Herbs and spices |
-| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/466524)^2^ | Herbs and spices |
-| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/464612)^3^ | Herbs and spices |
+| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/469498) | Herbs and spices |
+| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/466524) | Herbs and spices |
+| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/464612) | Herbs and spices |
 
-^1^ *Salmonella* Gaminara, Matadi and Poona were found.
+ *Salmonella* Gaminara, Matadi and Poona were found.
 
-^2 ^*Salmonella* Gaminara, Saintpaul, and Javiana were found.
+<sup>2</sup> *Salmonella* Gaminara, Saintpaul, and Javiana were found.
 
-^3^ *Salmonella* Gaminara, Minnesota, and Newport were found.
+ *Salmonella* Gaminara, Minnesota, and Newport were found.
 
 ## Recalls
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2020 | US | [Flax seed produces](https://listserv.state.nv.us/scripts/wa.exe?A2=ind2001&L=FOODSAFEPARTNER&D=0&H=A&P=937)^1^ | Nuts, nut products and seeds |
+| 2020 | US | [Flax seed produces](https://listserv.state.nv.us/scripts/wa.exe?A2=ind2001&L=FOODSAFEPARTNER&D=0&H=A&P=937) | Nuts, nut products and seeds |
 
-^1^ FDA found *Salmonella *Gaminara, Kentucky, and* *Oranienburg serovars in product samples. Salud Natural Entrepreneur, Inc issued the recall.
+ FDA found *Salmonella *Gaminara, Kentucky, and* *Oranienburg serovars in product samples. Salud Natural Entrepreneur, Inc issued the recall.
 
 ## References
 

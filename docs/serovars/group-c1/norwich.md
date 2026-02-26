@@ -1,19 +1,18 @@
 # *S.* Norwich
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,7:e,h:1,6 |
-    | Serogroup | O:7 (C1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Norwich%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,7:e,h:1,6` |
+    | **Serogroup** | O:7 (C1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Norwich (antigenic formula 6,7:e,h:1,6) is a serovar of the O:7 (C1) serogroup. Serovar Norwich is uncommon, with only[63 and 102 isolates](https://ajph.aphapublications.org/doi/abs/10.2105/AJPH.82.9.1273) recorded in the Public Health Laboratory Information System (PHLIS) for the years 1993 and 1994, respectively.
 
-%20AND%20computed_types:(%22serotype=Norwich%22))
+
 
 ## Genetic Characteristics
 
@@ -21,11 +20,11 @@
 
 ## Animal Reservoir
 
- Unknown, [poultry](https://www.fsis.usda.gov/sites/default/files/media_file/documents/Risk_Profile_for_Pathogenic_Salmonella_Subtypes_in_Poultry.pdf) may be the potential reservoir for serovar Norwich. This serovar was also isolated from [other animals such as cattle, horses, and dogs](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Norwich%22)).
+ Unknown, [poultry](https://www.fsis.usda.gov/sites/default/files/media_file/documents/Risk_Profile_for_Pathogenic_Salmonella_Subtypes_in_Poultry.pdf) may be the potential reservoir for serovar Norwich. This serovar was also isolated from [other animals such as cattle, horses, and dogs](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Geographical Distribution
 
- According to the [metadata from NCBI PD](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Norwich%22)), serovar Norwich has only been reported in UK, US and Canada.
+ According to the [metadata from NCBI PD](https://www.ncbi.nlm.nih.gov/pathogens/isolates/), serovar Norwich has only been reported in UK, US and Canada.
 
 ## Human/Animal Outbreaks
 

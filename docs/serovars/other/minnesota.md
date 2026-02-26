@@ -1,19 +1,18 @@
 # *S.* Minnesota
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 21:b:e,n,x |
-    | Serogroup | O:21 (L) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Minnesota%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `21:b:e,n,x` |
+    | **Serogroup** | O:21 (L) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
- *Salmonella enterica* subsp. *enterica* serovar Minnesota (antigenic formula 21:b:e,n,x) is a serovar of the O:21 (L) serogroup. Serovar Minnesota was first isolated in [1936 in a Minnesota turkey farm (US)](https://pubmed.ncbi.nlm.nih.gov/20475465/). A strikingly high prevalence (86.6%) of serovar Minnesota was detected across multiple poultry farms in [Brazil's Center-West region around 2010](https://www.sciencedirect.com/science/article/pii/S0032579119385906?via%3Dihub).
+ *Salmonella enterica* subsp. *enterica* serovar Minnesota (antigenic formula 21:b\:e,n,x) is a serovar of the O:21 (L) serogroup. Serovar Minnesota was first isolated in [1936 in a Minnesota turkey farm (US)](https://pubmed.ncbi.nlm.nih.gov/20475465/). A strikingly high prevalence (86.6%) of serovar Minnesota was detected across multiple poultry farms in [Brazil's Center-West region around 2010](https://www.sciencedirect.com/science/article/pii/S0032579119385906?via%3Dihub).
 
-%20AND%20computed_types:(%22serotype=Minnesota%22))
+
 
 ## Genetic Characteristics
 
@@ -21,11 +20,11 @@
 
 ## Animal Reservoir
 
- [Chicken](https://pubmed.ncbi.nlm.nih.gov/33167341/) is the reservoir for serovar Minnesota. This serovar was also isolated from [other animals such as cattle and pigs.](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Minnesota%22))
+ [Chicken](https://pubmed.ncbi.nlm.nih.gov/33167341/) is the reservoir for serovar Minnesota. This serovar was also isolated from [other animals such as cattle and pigs.](https://www.ncbi.nlm.nih.gov/pathogens/isolates/)
 
 ## Geographical Distribution
 
- Serovar Minnesota has been found [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Minnesota%22)).
+ Serovar Minnesota has been found [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 
@@ -36,13 +35,13 @@
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2024 | Brazil | Germany | [Poultry meat preparation - poultry breast, halved, salted](https://webgate.ec.europa.eu/rasff-window/screen/notification/679812) | Poultry meat and poultry meat products |
-| 2024 | Brazil | Germany | [Poultry meat preparation - chicken breast, salted](https://webgate.ec.europa.eu/rasff-window/screen/notification/680091)^1^ | Poultry meat and poultry meat products |
-| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/466011)^2^ | Herbs and spices |
+| 2024 | Brazil | Germany | [Poultry meat preparation - chicken breast, salted](https://webgate.ec.europa.eu/rasff-window/screen/notification/680091) | Poultry meat and poultry meat products |
+| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/466011) | Herbs and spices |
 | 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/454070) | Herbs and spices |
 
-^1 ^*Salmonella* Newport and Minnesota were found.
+<sup>1</sup> *Salmonella* Newport and Minnesota were found.
 
-^2^ *Salmonella* Gaminara, Minnesota, Javiana, Saintpaul, and Rubislaw were found.
+ *Salmonella* Gaminara, Minnesota, Javiana, Saintpaul, and Rubislaw were found.
 
 ## Recalls
 

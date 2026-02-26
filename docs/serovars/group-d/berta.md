@@ -1,17 +1,17 @@
 # *S.* Berta
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Berta%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,9,12:f,g,t:-` |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Berta (antigenic formula 1,9,12:[f],g,[t]:–) is a serovar of the group O:9 (D1) serogroup. This serovar is considered rare and is scarcely associated with human cases. It typically causes gastrointestinal food poisoning; however, serious infections such as [myocarditis](https://pubmed.ncbi.nlm.nih.gov/26730299/) and [meningitis](https://pubmed.ncbi.nlm.nih.gov/25263727/) due to this organism have been reported as well. The symptoms of [splenic abscesses](https://casereports.bmj.com/content/13/4/e235318.long) are usually non-specific and include fever, abdominal pain, nausea and vomiting.
 
-%20AND%20computed_types:(%22serotype=Berta%22))
+
 
 ## Genetic Characteristics
 
@@ -19,11 +19,11 @@
 
 ## Animal Reservoir
 
- Serovar Berta was found in [cattle, chickens, turkeys, wild boars, dogs, horses, and deer, albeit](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Berta%22)) at a very low frequency.
+ Serovar Berta was found in [cattle, chickens, turkeys, wild boars, dogs, horses, and deer, albeit](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) at a very low frequency.
 
 ## Geographical Distribution
 
- Serovar Berta has only been described in [the UK, Denmark, the US and Canada](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Berta%22)).
+ Serovar Berta has only been described in [the UK, Denmark, the US and Canada](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 

@@ -1,19 +1,18 @@
 # *S.* Concord
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,7:l,v:1,2 |
-    | Serogroup | O:7 (C1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Concord%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,7:l,v:1,2` |
+    | **Serogroup** | O:7 (C1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Concord (antigenic formula 6,7:l,v:1,2) is a serovar of the O:7 (C1) serogroup. Serovar Concord was first isolated from poultry in the US in [1944](https://journals.asm.org/doi/10.1128/jb.47.6.574-575.1944). [Vanhoof et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC3303062/) demonstrated that transmission of *Salmonella *Concord, both within and outside families, can occur, although the frequency appears to be relatively low.
 
-%20AND%20computed_types:(%22serotype=Concord%22))
+
 
 ## Genetic Characteristics
 
@@ -25,7 +24,7 @@
 
 ## Geographical Distribution
 
-Serovar** **Concord has been reported [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Concord%22)).
+Serovar Concord has been reported [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 
@@ -49,9 +48,9 @@ Serovar** **Concord has been reported [worldwide](https://www.ncbi.nlm.nih.gov/p
  | Type
  |
 | --- | --- | --- | --- |
-| 2018 | US: multistate | [Tahini](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/concord-11-18/index.html)^1^ | RTE Product |
+| 2018 | US: multistate | [Tahini](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/concord-11-18/index.html) | RTE Product |
 
-^1^ Achdut Ltd. in Ari'el, Israel recalled their tahini products. This recall was caused by a multistate outbreak described above.
+ Achdut Ltd. in Ari'el, Israel recalled their tahini products. This recall was caused by a multistate outbreak described above.
 
 ## References
 

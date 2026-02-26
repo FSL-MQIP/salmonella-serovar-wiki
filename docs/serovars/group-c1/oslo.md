@@ -1,18 +1,17 @@
 # *S.* Oslo
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,7,14:a:e,n,x |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Oslo%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,7,14:a:e,n,x` |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Oslo (antigenic formula 6,7,14:a:e,n,x) is a serovar of the serogroup O:7 (C1). In US, serovar Oslo was considered rare with about [25 cases](https://www.cdc.gov/mmwr/volumes/65/wr/mm655051a3.htm) reported each year. Devi and Murray found that serovar Oslo was one of the [most common](https://pubmed.ncbi.nlm.nih.gov/1818386/) *Salmonella* serotypes isolated from school children between 1981 to 1983 in South Kanara District, India.
 
-%20AND%20computed_types:(%22serotype=Oslo%22))
+
 
 ## Genetic Characteristics
 
@@ -26,7 +25,7 @@
 
 ## Geographical Distribution
 
- According to the metadata from NCBI PD (accessed May 13, 2025), serovar Oslo has primarily been reported in [US and UK](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Oslo%22)), with 441 and 269 isolates, respectively, out of 840 serovar Oslo isolates available on NCBI PD.
+ According to the metadata from NCBI PD (accessed May 13, 2025), serovar Oslo has primarily been reported in [US and UK](https://www.ncbi.nlm.nih.gov/pathogens/isolates/), with 441 and 269 isolates, respectively, out of 840 serovar Oslo isolates available on NCBI PD.
 
 ## Human/Animal Outbreaks
 
@@ -40,17 +39,17 @@
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2020 | Thailand | Germany | [Frozen chicken breast](https://webgate.ec.europa.eu/rasff-window/screen/notification/434548)^1^ | Poultry meat and poultry meat products |
+| 2020 | Thailand | Germany | [Frozen chicken breast](https://webgate.ec.europa.eu/rasff-window/screen/notification/434548) | Poultry meat and poultry meat products |
 
-^1^ Consignment was released later.
+ Consignment was released later.
 
 ## Recalls
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2022 | Germany, Luxembourg, Northern Ireland | [Organic tahini from Germany, made with raw material from Uganda](https://webgate.ec.europa.eu/rasff-window/screen/notification/580385)^1^ | Nuts, nut products and seeds |
+| 2022 | Germany, Luxembourg, Northern Ireland | [Organic tahini from Germany, made with raw material from Uganda](https://webgate.ec.europa.eu/rasff-window/screen/notification/580385) | Nuts, nut products and seeds |
 
-^1^ *Salmonella* Oslo and Korovi were found.
+ *Salmonella* Oslo and Korovi were found.
 
 ## References
 

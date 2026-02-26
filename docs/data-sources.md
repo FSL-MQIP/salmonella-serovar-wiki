@@ -15,17 +15,17 @@ The Salmonella Serovar Wiki consolidates information from publicly available dat
 | [RASFF](https://food.ec.europa.eu/safety/rasff-food-and-feed-safety-alerts_en) | EU Rapid Alert System for Food and Feed — notifications on food safety issues leading to product recalls or border rejections |
 | [PubMed](https://pubmed.ncbi.nlm.nih.gov/) | Peer-reviewed papers related to serovars of interest |
 | [NCBI Pathogen Detection](https://www.ncbi.nlm.nih.gov/pathogens/) | Aggregates sequence data and metadata from worldwide sources to identify infection clusters, investigate case links, and assess AMR profiles |
-| [Institut Pasteur — Antigenic Formulae of the *Salmonella* Serovars (WHO)](https://www.pasteur.fr/en/public-health/salmonella) | Detailed antigenic formula for each serovar, including somatic (O), flagellar (H), capsular (Vi) antigens, and serogroup information |
+| [Institut Pasteur — Antigenic Formulae of the *Salmonella* Serovars (WHO)](https://www.pasteur.fr/sites/default/files/veng_0.pdf) | Detailed antigenic formula for each serovar, including somatic (O), flagellar (H), capsular (Vi) antigens, and serogroup information (9th ed., PDF) |
 | [SPRAT](https://cse-sprat-dev-web-01.oit.umn.edu/) | Interactive resource for monitoring top food animal-related *Salmonella* serovars using publicly available sequence data from CDC and USDA-FSIS |
 
 ### CDC
 
 | Division | Description |
 |----------|-------------|
-| [Salmonella Atlas 1968–2011](https://www.cdc.gov/salmonella/reportspubs/salmonella-atlas/index.html) | Animal reservoirs and geographical distribution of cases for a given serovar (U.S. isolates only) |
+| [Salmonella Atlas 1968–2011](https://stacks.cdc.gov/view/cdc/22161) | Animal reservoirs and geographical distribution of cases for a given serovar (U.S. isolates only) |
 | [Morbidity and Mortality Weekly Report (MMWR)](https://www.cdc.gov/mmwr/) | Outbreak reports and isolation sources at the serovar level (U.S. only) |
-| [Reports of Selected *Salmonella* Outbreak Investigations](https://www.cdc.gov/salmonella/outbreaks-active.html) | Summarizes selected outbreak investigations linked to food, by year |
-| [BEAM Dashboard](https://wwwn.cdc.gov/BEAMDashboard/) | AMR information for a given serovar, including percentage of outbreak-associated isolates with clinically important AMR |
+| [Reports of Selected *Salmonella* Outbreak Investigations](https://www.cdc.gov/salmonella/outbreaks/index.html) | Summarizes selected outbreak investigations linked to food, by year |
+| [BEAM Dashboard](https://www.cdc.gov/ncezid/dfwed/BEAM-dashboard.html) | AMR information for a given serovar, including percentage of outbreak-associated isolates with clinically important AMR |
 | [FoodNet Fast](https://www.cdc.gov/foodnet/) | Tracks infections caused by foodborne pathogens like *Salmonella*, *Campylobacter*, *E. coli*, and others in the U.S. |
 
 ### USDA FSIS

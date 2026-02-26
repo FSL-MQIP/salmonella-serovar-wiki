@@ -1,18 +1,16 @@
 # *S.* Livingstone
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,7,14:d:l,w |
-    | Serogroup | O:7 (C1) |
+    | **Antigenic Formula** | `6,7,14:d:l,w` |
+    | **Serogroup** | O:7 (C1) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Livingstone (antigenic formula 6,7,14:d:l,w) is a serovar of the O:7 (C1) serogroup. This serovar was first isolated in [1951](https://onlinelibrary.wiley.com/doi/10.1002/path.1700660136) from human feces in UK. From [1999 to 2003](https://pmc.ncbi.nlm.nih.gov/articles/PMC1081247/), there was a huge surge in the isolation of serovar Livingstone from human salmonellosis infections and animal-based food products in Tunisia. During [1989-1991](https://pubmed.ncbi.nlm.nih.gov/8107062/), serovar Livingstone was the third most prevalent *Salmonella* serotype isolated from human salmonellosis infections in the Tayside area of Scotland.
 
-NCBI PD Serovar Link for Serovar Livingstone: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Livingstone%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Livingstone%22))
 
 ## Genetic Characteristics
 
@@ -39,9 +37,9 @@ NCBI PD Serovar Link for Serovar Livingstone: [https://www.ncbi.nlm.nih.gov/path
 
 | Year | Location | Breed | Number of cases |
 | --- | --- | --- | --- |
-| 1980 | UK | [CBA/ca mice](https://journals.sagepub.com/doi/10.1258/002367781780893812) | 60^1^ |
+| 1980 | UK | [CBA/ca mice](https://journals.sagepub.com/doi/10.1258/002367781780893812) | 60 |
 
-^1^ Only mice under 3 weeks old exhibited symptoms of enteritis. They were treated orally with tetracycline, 10 g/L drinking water for 10 days.
+ Only mice under 3 weeks old exhibited symptoms of enteritis. They were treated orally with tetracycline, 10 g/L drinking water for 10 days.
 
 ## Border Rejections
 
@@ -54,9 +52,9 @@ NCBI PD Serovar Link for Serovar Livingstone: [https://www.ncbi.nlm.nih.gov/path
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
 | 2024 | Slovakia | [Rucola from Italy](https://webgate.ec.europa.eu/rasff-window/screen/notification/722139) | Fruits and vegetables |
-| 2020 | Poland | [Hulled sesame seeds](https://webgate.ec.europa.eu/rasff-window/screen/notification/433397)^1^ | Nuts, nut products and seeds |
+| 2020 | Poland | [Hulled sesame seeds](https://webgate.ec.europa.eu/rasff-window/screen/notification/433397) | Nuts, nut products and seeds |
 
-^1^ *Salmonella *Amsterdam and *Salmonella* Livingstone were found in sesame seeds from India, packed in Poland.
+ *Salmonella *Amsterdam and *Salmonella* Livingstone were found in sesame seeds from India, packed in Poland.
 
 ## References
 

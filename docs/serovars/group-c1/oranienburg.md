@@ -1,19 +1,18 @@
 # *S.* Oranienburg
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,7,14:m,t:[z57] |
-    | Serogroup | O:7 (C1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Oranienburg%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,7,14:m,t:[z57]` |
+    | **Serogroup** | O:7 (C1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Oranienburg (antigenic formula 6,7,14:m,t:[z57]) is a serovar of the O:7 (C1) serogroup. Serovar Oranienburg was first isolated from [a child with gastroenteritis](https://journals.asm.org/doi/pdf/10.1128/jb.32.3.259-263.1936), a resident of a Children's Home in Oranienburg near Berlin, Germany in 1930. Serovar Oranienburg ranked as the [10th and 15th](https://www.liebertpub.com/doi/10.1089/fpd.2010.0787?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) most *Salmonella* prevalent serovar in North and Latin America, respectively. In 2003, serovar Oranienburg was the [nineth](https://web.archive.org/web/20050520232026/http://www.cdc.gov/ncidod/dbmd/phlisdata/salmtab/2003/SalmonellaTable1_2003.pdf) most common *Salmonella* serovar causing human salmonellosis. Serovar Oranienburg was reported to cause [haemorrhagic cystitis](https://pmc.ncbi.nlm.nih.gov/articles/PMC5610707/) (urinary symptoms including haematuria and dysuria) in an immunocompetent young male in Australia. In Japan, this serovar was documented to be [bacteremia-related](https://pmc.ncbi.nlm.nih.gov/articles/PMC9846185/). [Cummings et al.](https://www.liebertpub.com/doi/10.1089/vbz.2013.1467?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) suggested that transmission of serovar Oranienburg can be also nosocomial or on-farm transmission.
 
-%20AND%20computed_types:(%22serotype=Oranienburg%22))
+
 
 ## Genetic Characteristics
 
@@ -27,7 +26,7 @@ Another [Mexican](https://www.sciencedirect.com/science/article/pii/S03781119220
 
 ## Geographical Distribution
 
- While Serovar Oranienburg has been reported [globally](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Oranienburg%22)), it occurs most frequently in [North and Latin America](https://pubmed.ncbi.nlm.nih.gov/21492021/).
+ While Serovar Oranienburg has been reported [globally](https://www.ncbi.nlm.nih.gov/pathogens/isolates/), it occurs most frequently in [North and Latin America](https://pubmed.ncbi.nlm.nih.gov/21492021/).
 
 ## Human/Animal Outbreaks
 
@@ -35,28 +34,28 @@ Another [Mexican](https://www.sciencedirect.com/science/article/pii/S03781119220
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| 2023 | Canada and US: multistate | [Cantaloupe](https://marlerclark.com/salmonella-cantaloupe-outbreak-hits-43-in-15-states)^1^ | 509 |
+| 2023 | Canada and US: multistate | [Cantaloupe](https://marlerclark.com/salmonella-cantaloupe-outbreak-hits-43-in-15-states) | 509 |
 | 2021 | US: multistate and Puerto Rico | [Onions](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-oranienburg-whole-fresh-onions-october-2021) | 1040 |
 | 2016 | US: multistate | [Shell eggs](https://archive.cdc.gov/www_cdc_gov/salmonella/oranienburg-10-16/index.html) | 8 |
 | 2006 | Canada and US: multistate | [Fruit salad](https://www.cdc.gov/mmWR/preview/mmwrhtml/mm5639a3.htm) | 41 |
 | 2005 | Australia | [Alfalfa sprouts](https://www1.health.gov.au/internet/main/publishing.nsf/Content/cda-cdi3002f.htm) | 125 |
-| 2001 | Europe: multi-country | [Chocolate](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-5-7)^2^ | 439 |
+| 2001 | Europe: multi-country | [Chocolate](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-5-7) | 439 |
 | 1999 | Japan | [Semi-dry squid](https://www.researchgate.net/publication/6934802_Outbreak_of_Salmonella_oranienburg_infection_in_Japan) | 1560 |
 | 1998 | Canada | [Cantaloupe](https://web.archive.org/web/20090710153211/https://www.fda.gov/Food/ScienceResearch/ResearchAreas/SafePracticesforFoodProcesses/ucm091270.htm) | 22 |
 | 1998 | Australia | [Gelato](https://www1.health.gov.au/internet/main/publishing.nsf/Content/cda-pubs-cdi-1998-cdi2208-cdi2208d.htm) | 102 |
 | 1981-1982 | Norway | [Black pepper](https://www.cdc.gov/mmwr/preview/mmwrhtml/00001205.htm) | 126 |
 
-^1^ There were 407, 190 cases reported in US and Canada, respectively. Salmonella Soahanina, Sundsvall, Oranienburg, and Newport were involved.
+ There were 407, 190 cases reported in US and Canada, respectively. Salmonella Soahanina, Sundsvall, Oranienburg, and Newport were involved.
 
-^2^ While the total case number was not reported, 439 confirmed cases were documented in Germany.
+ While the total case number was not reported, 439 confirmed cases were documented in Germany.
 
 ## Human/Animal Outbreaks
 
 | Year | Location | Breed | Number of cases |
 | --- | --- | --- | --- |
-| 2003-2005 | US: MI | [Dairy calves](https://www.liebertpub.com/doi/10.1089/fpd.2010.0551?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)^1^ | 168 |
+| 2003-2005 | US: MI | [Dairy calves](https://www.liebertpub.com/doi/10.1089/fpd.2010.0551?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) | 168 |
 
-^1^ The herd size was 604 (*Salmonella* Oranienburg prevalence: 27.8%).
+ The herd size was 604 (*Salmonella* Oranienburg prevalence: 27.8%).
 
 ## Border Rejections
 
@@ -65,13 +64,13 @@ Another [Mexican](https://www.sciencedirect.com/science/article/pii/S03781119220
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2022 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/524928) | Herbs and spices |
-| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/524019)^1^ | Herbs and spices |
+| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/524019) | Herbs and spices |
 | 2020 | US | Greece | [Fish meal](https://webgate.ec.europa.eu/rasff-window/screen/notification/418605) | Feed materials |
-| 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/416416)^2^ | Herbs and spices |
+| 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/416416) | Herbs and spices |
 
-^1^ *Salmonella* Oranienburg and Javiana were found.
+ *Salmonella* Oranienburg and Javiana were found.
 
-^2^ *Salmonella* Morehead and Oranienburg were found.
+ *Salmonella* Morehead and Oranienburg were found.
 
 ## Recalls
 
@@ -79,18 +78,18 @@ Another [Mexican](https://www.sciencedirect.com/science/article/pii/S03781119220
 
 | Year | Location | Recalled product | Type |
 | --- | --- | --- | --- |
-| 2024 | Finland | [Eggs](https://www.foodsafetynews.com/2024/07/lab-error-behind-false-salmonella-finding-in-finland/)^1^ | Eggs and egg products |
-| 2023 | Canada, US: multistate | [Cantaloupe](https://www.marlerblog.com/case-news/more-cantaloupe-recalled-due-to-salmonella-oranienburg-and-sundsvall-outbreak/)^2^ | Fruits and vegetables |
-| 2021 | US: multistate | [Whole, fresh onions](https://www.fda.gov/safety/major-product-recalls/2021-recalls-food-products-associated-onions-prosource-produce-llc-and-keeler-family-farms-due)^3^ | Fruits and vegetables |
-| 2001 | Germany | [Chocolate](https://pmc.ncbi.nlm.nih.gov/articles/PMC552305/)^4^ | Confectionery |
+| 2024 | Finland | [Eggs](https://www.foodsafetynews.com/2024/07/lab-error-behind-false-salmonella-finding-in-finland/) | Eggs and egg products |
+| 2023 | Canada, US: multistate | [Cantaloupe](https://www.marlerblog.com/case-news/more-cantaloupe-recalled-due-to-salmonella-oranienburg-and-sundsvall-outbreak/) | Fruits and vegetables |
+| 2021 | US: multistate | [Whole, fresh onions](https://www.fda.gov/safety/major-product-recalls/2021-recalls-food-products-associated-onions-prosource-produce-llc-and-keeler-family-farms-due) | Fruits and vegetables |
+| 2001 | Germany | [Chocolate](https://pmc.ncbi.nlm.nih.gov/articles/PMC552305/) | Confectionery |
 
-^1^ Root cause analysis identified possible cross-contamination from a positive *Salmonella* sample as the source of error.
+ Root cause analysis identified possible cross-contamination from a positive *Salmonella* sample as the source of error.
 
-^2^ This recall was caused by a national outbreak described above. Whole melons from Crown Jewels Produce were recalled.
+ This recall was caused by a national outbreak described above. Whole melons from Crown Jewels Produce were recalled.
 
-^3^ This recall was caused by a multistate outbreak described above. ProSource Produce, LLC and Keeler Family Farms of Deming issued recalls.
+ This recall was caused by a multistate outbreak described above. ProSource Produce, LLC and Keeler Family Farms of Deming issued recalls.
 
-^4^ This recall was caused by an international outbreak described above.
+ This recall was caused by an international outbreak described above.
 
 ## References
 

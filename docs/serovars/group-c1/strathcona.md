@@ -1,17 +1,16 @@
 # *S.* Strathcona
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | [6,7:l,z13 |
-    | Serogroup | O:7 (C1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Strathcona%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `[6,7:l,z13` |
+    | **Serogroup** | O:7 (C1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 **Background information:** *Salmonella enterica* subsp. *enterica* serovar Strathcona (antigenic formula [6,7:l,z13 ,z28:1,7](https://www.pasteur.fr/sites/default/files/veng_0.pdf)) is a serovar of the O:7 (C1) serogroup. Other than being derived from animal samples described below, serovar Strathcona was also isolated from[sludge, river water, bivalve mussels, and composite food (spelt with tomatoes and pesto)](https://www.ecdc.europa.eu/sites/default/files/documents/salmonella-strathcona-ST2559-tomatoes-rapid-outbreak-assessment-november-2024.pdf).
 
-%20AND%20computed_types:(%22serotype=Strathcona%22))
+
 
 ## Genetic Characteristics
 
@@ -23,18 +22,18 @@ According to the [EU One Health Zoonoses Report](https://www.ecdc.europa.eu/site
 
 ## Geographical Distribution
 
- Serovar Strathcona has been mainly reported in [European countries, such as Denmark, Germany, the UK, and Italy](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Strathcona%22)).
+ Serovar Strathcona has been mainly reported in [European countries, such as Denmark, Germany, the UK, and Italy](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| 2023-2024 | Europe: multi-country | [Tomatoes](https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-prolonged-multi-country-outbreak-salmonella-strathcona) | 232^1^ |
-| 2011 | Europe: multi-country | [Datterino tomatoes](https://pubmed.ncbi.nlm.nih.gov/26846608/#:~:text=The%20results%20of%20the%20investigation,2%C2%B76%2D302).) | 71^2^ |
+| 2023-2024 | Europe: multi-country | [Tomatoes](https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-prolonged-multi-country-outbreak-salmonella-strathcona) | 232 |
+| 2011 | Europe: multi-country | [Datterino tomatoes](https://pubmed.ncbi.nlm.nih.gov/26846608/#:~:text=The%20results%20of%20the%20investigation,2%C2%B76%2D302) | 71 |
 
-^1^ A total of 232 confirmed cases of serovar Strathcona ST2559 have been reported across 16 EU/EEA countries. The cases were distributed as follows: Austria (33), Croatia (3), Czechia (10), Denmark (9), Estonia (1), Germany (62), Finland (3), France (23), Ireland (1), Italy (67), Luxembourg (2), the Netherlands (2), Norway (3), Slovakia (5), Slovenia (2), and Sweden (6). Additionally, 29 cases were reported in the United Kingdom.
+ A total of 232 confirmed cases of serovar Strathcona ST2559 have been reported across 16 EU/EEA countries. The cases were distributed as follows: Austria (33), Croatia (3), Czechia (10), Denmark (9), Estonia (1), Germany (62), Finland (3), France (23), Ireland (1), Italy (67), Luxembourg (2), the Netherlands (2), Norway (3), Slovakia (5), Slovenia (2), and Sweden (6). Additionally, 29 cases were reported in the United Kingdom.
 
-^2 ^Denmark reported 43 cases, while an additional 28 cases were documented across Germany, Italy, Austria, and Belgium.
+<sup>2</sup> Denmark reported 43 cases, while an additional 28 cases were documented across Germany, Italy, Austria, and Belgium.
 
 ## Border Rejections
 

@@ -1,19 +1,18 @@
 # *S.* Bredeney
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,4,12,27:l,v:1,7 |
-    | Serogroup | O:4 (B) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Bredeney%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,4,12,27:l,v:1,7` |
+    | **Serogroup** | O:4 (B) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Bredeney (antigenic formula 1,4,12,27:l,v:1,7) is a serovar of the O:4 (B) serogroup. Serovar* *Bredeney is a rare serovar, in [the US](http://www.cdc.gov/nationalsurveillance/PDFs/NationalSalmSurveillOverview_508.pdf), 405 cases were reported in humans between 1999-2009; in addition, 11 isolates were obtained from turkeys in the US during the same period. In [Ireland](https://journals.asm.org/doi/full/10.1128/aem.68.1.181-186.2002), a different trend was observed, as it was reported as the third most common serovar during the years 1998-2000.
 
-%20AND%20computed_types:(%22serotype=Bredeney%22))
+
 
 ## Genetic Characteristics
 
@@ -21,11 +20,11 @@
 
 ## Animal Reservoir
 
- Serovar* *Bredeney appeared to be associated with poultry, at least in [Ireland](https://journals.asm.org/doi/full/10.1128/aem.68.1.181-186.2002) it was associated with chicken; and in the [US with turkey](https://www.thermofisher.com/blog/food/salmonella-serotypes-present-in-turkey-samples/). It was also unfrequently isolated from [cattle, and pigs](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Bredeney%22)).
+ Serovar* *Bredeney appeared to be associated with poultry, at least in [Ireland](https://journals.asm.org/doi/full/10.1128/aem.68.1.181-186.2002) it was associated with chicken; and in the [US with turkey](https://www.thermofisher.com/blog/food/salmonella-serotypes-present-in-turkey-samples/). It was also unfrequently isolated from [cattle, and pigs](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Geographical Distribution
 
- This serovar has been reported only in [North America, Australia, South Africa, Nigeria, and Europe](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Bredeney%22)).
+ This serovar has been reported only in [North America, Australia, South Africa, Nigeria, and Europe](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 
@@ -44,12 +43,12 @@
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2021 | Turkey | Finland | [Potato seasoning](https://webgate.ec.europa.eu/rasff-window/screen/notification/473167)^1^ | Herbs and spices |
-| 2020 | Slovenia | Italy | [Frozen kebab](https://webgate.ec.europa.eu/rasff-window/screen/notification/424002)^2^ | Poultry meat and poultry meat products |
+| 2021 | Turkey | Finland | [Potato seasoning](https://webgate.ec.europa.eu/rasff-window/screen/notification/473167) | Herbs and spices |
+| 2020 | Slovenia | Italy | [Frozen kebab](https://webgate.ec.europa.eu/rasff-window/screen/notification/424002) | Poultry meat and poultry meat products |
 
-^1^ *Salmonella* Bredeney and *Salmonella* Montevideo were both found.
+ *Salmonella* Bredeney and *Salmonella* Montevideo were both found.
 
-^2^ *Salmonella* Bredeney and* Salmonella* Infantis were both found.
+ *Salmonella* Bredeney and* Salmonella* Infantis were both found.
 
 ## Recalls
 
@@ -57,9 +56,9 @@
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2012 | US: multistate | [Peanut butter](https://archive.cdc.gov/www_cdc_gov/salmonella/bredeney-09-12/index.html)^1^ | Nuts, nut products and seeds |
+| 2012 | US: multistate | [Peanut butter](https://archive.cdc.gov/www_cdc_gov/salmonella/bredeney-09-12/index.html) | Nuts, nut products and seeds |
 
-^1^ Trader Joe's Valencia Peanut Butter, manufactured by Sunland, Inc. of Portales, New Mexico, was the recalled product. This recall was caused by a multistate outbreak described above.
+ Trader Joe's Valencia Peanut Butter, manufactured by Sunland, Inc. of Portales, New Mexico, was the recalled product. This recall was caused by a multistate outbreak described above.
 
 ## References
 

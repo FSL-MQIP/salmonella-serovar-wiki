@@ -1,19 +1,18 @@
 # *S.* Sandiego
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,4,[5],12:e,h:e,n,z15 |
-    | Serogroup | O:4 (B) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Sandiego%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,4,[5],12:e,h:e,n,z15` |
+    | **Serogroup** | O:4 (B) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Sandiego (antigenic formula 1,4,[5],12:e,h:e,n,z15) is a serovar of the O:4 (B) serogroup. Serovar Sandiego oldest verified isolation was in [1929](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1699-0463.1940.tb01492.x) in Denmark. It was in the top 15 most commonly reported *Salmonella enterica* serovars related to [animal contact outbreaks](https://onlinelibrary.wiley.com/doi/10.1111/zph.12569) in the United States during 2009–2014. This serovar was also isolated from [turkey-processing plants](https://journals.asm.org/doi/10.1128/am.16.1.1-9.1968?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) in the USA in the 1960's. and [pig farm environment](https://www.liebertpub.com/doi/10.1089/10766290260469697?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub++0pubmed) in Brazil. Although there has been a limited number of research on *Salmonella* Sandiego, human infections caused by *Salmonella* Sandiego have been reported, such as a [post-traumatic chronic subdural haematoma](https://www.sciencedirect.com/science/article/pii/S0163445383910800?via%3Dihub) in an alcoholic heavy drinker patient, and a [prevertebral neck abscess](https://casereports.bmj.com/content/12/7/e230881.long) in a type 2 diabetes mellitus patient.
 
-%20AND%20computed_types:(%22serotype=Sandiego%22))
+
 
 ## Genetic Characteristics
 
@@ -45,15 +44,15 @@
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2023 | Spain | Italy | [Frozen turkey breast](https://webgate.ec.europa.eu/rasff-window/screen/notification/616703) | Poultry meat and poultry meat products |
-| 2022 | Poland | Italy | [Minced frozen poultry meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/552829)^1^ | Poultry meat and poultry meat products |
-| 2021 | Brazil | German | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/522349)^2^ | Herbs and spices |
-| 2020 | Brazil | German | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/439711)^3^ | Herbs and spices |
+| 2022 | Poland | Italy | [Minced frozen poultry meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/552829) | Poultry meat and poultry meat products |
+| 2021 | Brazil | German | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/522349) | Herbs and spices |
+| 2020 | Brazil | German | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/439711) | Herbs and spices |
 
-^1^ *Salmonella* Sandiego and Kedougou were found.
+ *Salmonella* Sandiego and Kedougou were found.
 
-^2^ *Salmonella* Sandiego, Poona, Newport, Kiambu, Freetown, and Rubislaw were found.
+ *Salmonella* Sandiego, Poona, Newport, Kiambu, Freetown, and Rubislaw were found.
 
-^3^ *Salmonella* Sandiego and Abaetetuba were found.
+ *Salmonella* Sandiego and Abaetetuba were found.
 
 ## Recalls
 
@@ -61,9 +60,9 @@
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2018 | US: multistate | [Spring pasta salad](https://www.foodsafetynews.com/2018/09/cdc-declares-end-to-outbreak-traced-to-hy-vee-pasta-salad-101-people-infected/)^1^ | Food |
+| 2018 | US: multistate | [Spring pasta salad](https://www.foodsafetynews.com/2018/09/cdc-declares-end-to-outbreak-traced-to-hy-vee-pasta-salad-101-people-infected/) | Food |
 
-^1^ This recall was caused by multistate human outbreak linked to *Salmonella* Sandiego and *Salmonella enterica *subspecies IIIb, linked to ready-to-eat Spring Pasta Salad from Hy-Vee brand grocery stores.
+ This recall was caused by multistate human outbreak linked to *Salmonella* Sandiego and *Salmonella enterica *subspecies IIIb, linked to ready-to-eat Spring Pasta Salad from Hy-Vee brand grocery stores.
 
 **Relevant links and references:**
 

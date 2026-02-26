@@ -1,19 +1,18 @@
 # *S.* Cotham
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 28:i:1,5 |
-    | Serogroup | O:28 (M) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Cotham%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `28:i:1,5` |
+    | **Serogroup** | O:28 (M) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
- *Salmonella enterica* subsp. *enterica* serovar Cotham (antigenic formula 28:i:1,5) is a serovar of the O:28 (M) serogroup. Serovar Cotham is a very rare serovar; for example, this serovar was found to represent a very scarce percentage ([0.01%](https://archive.cdc.gov/www_cdc_gov/salmonella/cotham-04-14/index.html)) of all salmonellosis cases in the US since the 1960s.
+ *Salmonella enterica* subsp. *enterica* serovar Cotham (antigenic formula 28:i\:1,5) is a serovar of the O:28 (M) serogroup. Serovar Cotham is a very rare serovar; for example, this serovar was found to represent a very scarce percentage ([0.01%](https://archive.cdc.gov/www_cdc_gov/salmonella/cotham-04-14/index.html)) of all salmonellosis cases in the US since the 1960s.
 
-%20AND%20computed_types:(%22serotype=Cotham%22))
+
 
 ## Genetic Characteristics
 
@@ -21,11 +20,11 @@
 
 ## Animal Reservoir
 
- Serovar Cotham appears to be adapted to [reptiles](https://pmc.ncbi.nlm.nih.gov/articles/PMC10562597/)^5^.
+ Serovar Cotham appears to be adapted to [reptiles](https://pmc.ncbi.nlm.nih.gov/articles/PMC10562597/).
 
 ## Geographical Distribution
 
- This serovar is very rare, it has been mainly reported in [Canada^5^](https://doi.org/10.3201/eid3110.241803), [the US, but has also been found in Australia, Taiwan, Gambia, Nigeria, and parts of Europe, such as the UK and Ireland.](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Cotham%22))
+ This serovar is very rare, it has been mainly reported in [Canada](https://doi.org/10.3201/eid3110.241803), [the US, but has also been found in Australia, Taiwan, Gambia, Nigeria, and parts of Europe, such as the UK and Ireland.](https://www.ncbi.nlm.nih.gov/pathogens/isolates/)
 
 ## Human/Animal Outbreaks
 
@@ -34,9 +33,9 @@
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2024 | US: multistate | [Pet bearded dragons](https://www.cdc.gov/salmonella/outbreaks/cotham-06-24/investigation.html?CDC_AAref_Val=https://www.cdc.gov/salmonella/cotham-06-24/details.html) | 26 |
-| 2014 | US: multistate | [Pet bearded dragons](https://archive.cdc.gov/www_cdc_gov/salmonella/cotham-04-14/index.html#:~:text=On%20January%2022%2C%202014%2C%20CDC,reporting%20exposure%20to%20pet%20reptiles.)^1^ | 166 |
+| 2014 | US: multistate | [Pet bearded dragons](https://archive.cdc.gov/www_cdc_gov/salmonella/cotham-04-14/index.html#:~:text=On%20January%2022%2C%202014%2C%20CDC,reporting%20exposure%20to%20pet%20reptiles.) | 166 |
 
-^1^ Both serovar Cotham and Kisarawe were found.
+ Both serovar Cotham and Kisarawe were found.
 
 ## Border Rejections
 

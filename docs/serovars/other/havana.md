@@ -1,18 +1,18 @@
 # *S.* Havana
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Serogroup | O:13 (G) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Havana%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,13,23:f,g,[s]:-` |
+    | **Serogroup** | O:13 (G) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella **enterica* subsp. *enterica* serotype Havana (antigenic formula: 1,13,23:f,g,[s]:-) is a serovar of the O:13 (G) serogroup. Serovar Havana was first identified in [1937](https://academic.oup.com/jid/article-abstract/68/2/125/899111) after being isolated from spinal fluid during a meningitis outbreak at a hospital in Havana, Cuba, which led to the deaths of 21 newborns.
 
-%20AND%20computed_types:(%22serotype=Havana%22))
+
 
 ## Genetic Characteristics
 
@@ -20,11 +20,11 @@
 
 ## Animal Reservoir
 
-** **[Chicken](https://pubmed.ncbi.nlm.nih.gov/26449943/#:~:text=Isolation%20and%20serotyping%20of%20Salmonella,and%20thereby%20prevent%20human%20infections.) might be a potential reservoir of serovar Havana. It has also been found in [sea lions, cattle, horses, and swine](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Havana%22)).
+ [Chicken](https://pubmed.ncbi.nlm.nih.gov/26449943/#:~:text=Isolation%20and%20serotyping%20of%20Salmonella,and%20thereby%20prevent%20human%20infections.) might be a potential reservoir of serovar Havana. It has also been found in [sea lions, cattle, horses, and swine](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Geographical Distribution
 
-** **Serovar Havana has been reported [worldwide but mainly in Europe and the US](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Havana%22)).
+ Serovar Havana has been reported [worldwide but mainly in Europe and the US](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 
@@ -43,11 +43,11 @@
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2021 | Italy | Switzerland | [Soybean meal](https://webgate.ec.europa.eu/rasff-window/screen/notification/485130)^1^ | Feed materials |
+| 2021 | Italy | Switzerland | [Soybean meal](https://webgate.ec.europa.eu/rasff-window/screen/notification/485130) | Feed materials |
 | 2021 | Germany | Austria | [Linseed meal extracted with soapstock](https://webgate.ec.europa.eu/rasff-window/screen/notification/465026) | Feed materials |
 | 2020 | Poland | Czech Republic | [Chilled chicken legs](https://webgate.ec.europa.eu/rasff-window/screen/notification/433870) | Poultry meat and poultry meat products |
 
-^1^ Heat treatment was further implemented.
+ Heat treatment was further implemented.
 
 ## Recalls
 

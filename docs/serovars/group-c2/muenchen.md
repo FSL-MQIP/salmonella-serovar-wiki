@@ -1,18 +1,17 @@
 # *S.* Muenchen
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,8:d:1,2 |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Muenchen%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,8:d:1,2` |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Muenchen (antigenic formula 6,8:d:1,2) is a serovar of the O:8 (C2-C3) serogroup. Serovar Muenchen was first described in [1932](https://boneandjoint.org.uk/Article/10.1302/0301-620X.46B4.697/pdf) and the first records of its isolation were documented in South and North America. Serovar Muenchen is one of the [top 10 serovars](https://stacks.cdc.gov/view/cdc/152398/cdc_152398_DS1.pdf) responsible for human salmonellosis cases in US. [CDC surveillance data](https://web.archive.org/web/20030315113355/http://www.cdc.gov/ncidod/dbmd/phlisdata/salmtab/2001/SalmonellaAnnualSummary2001.pdf) indicated that serovar Muenchen represents approximately 2% of salmonellosis infections, ranking eighth among the leading *Salmonella* serovars. Since 2019, serovar Muenchen has been the most predominant serovar in [Israel](https://www.sciencedirect.com/science/article/pii/S1198743X22002889), identified in clinical, poultry, and food samples. It accounted for over 30% (937 of 3,112) of all clinical *Salmonella* isolates in 2019 and 39.5% (1,055 of 2,671) in 2020. This serovar was also the [most common serovar in beef](https://journals.asm.org/doi/10.1128/aem.00591-19) in Oceania. Between 2001 and 2007, serovar Muenchen ranked as the [15th most frequently isolated](https://www.liebertpub.com/doi/10.1089/fpd.2010.0787?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) *Salmonella* serovar from humans across 37 countries participating in the WHO Global Foodborne Infections Network laboratory surveillance program.
 
-%20AND%20computed_types:(%22serotype=Muenchen%22))
+
 
 ## Genetic Characteristics
 
@@ -20,11 +19,11 @@
 
 ## Animal Reservoir
 
- [Swine](https://www.aphis.usda.gov/sites/default/files/swine2006_is_salmonella_1.pdf), [cattle](https://pmc.ncbi.nlm.nih.gov/articles/PMC4825103/), and [poultry](https://stacks.cdc.gov/view/cdc/22161) are reservoirs for serovar Muenchen. This serovar was also isolated from [other animals such as raccoons and reptile](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Muenchen%22)).
+ [Swine](https://www.aphis.usda.gov/sites/default/files/swine2006_is_salmonella_1.pdf), [cattle](https://pmc.ncbi.nlm.nih.gov/articles/PMC4825103/), and [poultry](https://stacks.cdc.gov/view/cdc/22161) are reservoirs for serovar Muenchen. This serovar was also isolated from [other animals such as raccoons and reptile](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Geographical Distribution
 
- Serovar Muenchen has been found [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Muenchen%22)).
+ Serovar Muenchen has been found [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 
@@ -35,7 +34,7 @@
 | 2024-2025 | US: multistate | [Geckos](https://www.cdc.gov/salmonella/outbreaks/muenchen-03-25/investigation.html#:~:text=This%20means%20that%20people%20in,strain%2C%20also%20linked%20to%20geckos.) | 14 |
 | 2023 | Denmark | [Unknown](https://www.food.dtu.dk/english/newsarchive/2024/06/more-outbreaks-of-salmonella-in-2023) | 31 |
 | 2020 | Germany | [Coconut pieces or flakes](https://www.foodsafetynews.com/2021/12/salmonella-behind-a-quarter-of-eu-outbreaks-in-2020-with-20000-sickened/) | 161 |
-| 2016 | US: multistate | [Alfalfa sprouts](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/muenchen-02-16/index.html) | 26^1^ |
+| 2016 | US: multistate | [Alfalfa sprouts](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/muenchen-02-16/index.html) | 26 |
 | 2014 | Germany | [Raw pork sausage](https://pubmed.ncbi.nlm.nih.gov/28494842/) | 247 |
 | 2013 | Germany | [Raw pork](https://pubmed.ncbi.nlm.nih.gov/28494842/) | 203 |
 | 2003 | US: multistate | [Cantaloupe, honeydew melon](https://outbreakdatabase.com/outbreaks/2003-outbreak-of-salmonella-muenchen-linked-to-cantaloupehoneydew-melon) | 58 |
@@ -52,29 +51,29 @@
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2023 | South Africa | Germany | [Dog chews (ostrich meat)](https://webgate.ec.europa.eu/rasff-window/screen/notification/654263) | Pet food |
-| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/461765)^1^ | Herbs and spices |
-| 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/442889)^2^ | Herbs and spices |
-| 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/432927)^3^ | Herbs and spices |
+| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/461765) | Herbs and spices |
+| 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/442889) | Herbs and spices |
+| 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/432927) | Herbs and spices |
 
-^1^ *Salmonella* Saintpaul, Muenchen, Matadi, and Newport were found.
+ *Salmonella* Saintpaul, Muenchen, Matadi, and Newport were found.
 
-^2^ *Salmonella* Muenchen and Javiana were found.
+ *Salmonella* Muenchen and Javiana were found.
 
-^3^ *Salmonella* Muenchen and Rubislaw were found.
+ *Salmonella* Muenchen and Rubislaw were found.
 
 ## Recalls
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2016 | US: multistate | [Alfalfa sprouts](https://www.foodsafetynews.com/2016/02/123962/)^1^ | Fruits and vegetables |
-| 2013 | US: CO | [Beef bully sticks](https://www.foodsafetynews.com/2013/02/fda-flexes-muscles-to-achieve-kasel-pet-treat-recall/)^2^ | Pet food |
-| 1999 | US: multistate | [Unpasteurized orange juice](https://marlerclark.com/news_events/sun-orchard-salmonella-outbreak-multistate)^3^ | Non-alcoholic beverages |
+| 2016 | US: multistate | [Alfalfa sprouts](https://www.foodsafetynews.com/2016/02/123962/) | Fruits and vegetables |
+| 2013 | US: CO | [Beef bully sticks](https://www.foodsafetynews.com/2013/02/fda-flexes-muscles-to-achieve-kasel-pet-treat-recall/) | Pet food |
+| 1999 | US: multistate | [Unpasteurized orange juice](https://marlerclark.com/news_events/sun-orchard-salmonella-outbreak-multistate) | Non-alcoholic beverages |
 
-^1^ Sweetwater Farms LLC in Inman, KS, issued a recall of a single lot of its fresh alfalfa sprouts. This recall was resulted by a multistate outbreak described above.
+ Sweetwater Farms LLC in Inman, KS, issued a recall of a single lot of its fresh alfalfa sprouts. This recall was resulted by a multistate outbreak described above.
 
-^2^ A total of 14 different *Salmonella* serovars including *Salmonella* Anatum, Mbandaka, Senftenberg, Typhimurium, Agona, Muenchen, Irumu, Tennessee, Montevideo, Infantis, Muenster, Derby, O rough;d;e,n,x, and London were found. Kasel issued a recall of four lots of their products.
+ A total of 14 different *Salmonella* serovars including *Salmonella* Anatum, Mbandaka, Senftenberg, Typhimurium, Agona, Muenchen, Irumu, Tennessee, Montevideo, Infantis, Muenster, Derby, O rough;d;e,n,x, and London were found. Kasel issued a recall of four lots of their products.
 
-^3^ Sun Orchard issued a recall of its unpasteurized orange juice products. This recall was resulted by a multistate outbreak described above.
+ Sun Orchard issued a recall of its unpasteurized orange juice products. This recall was resulted by a multistate outbreak described above.
 
 ## References
 

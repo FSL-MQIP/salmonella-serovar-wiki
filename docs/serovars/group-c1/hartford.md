@@ -1,19 +1,18 @@
 # *S.* Hartford
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,7:y:e,n,x |
-    | Serogroup | O:7 (C1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Hartford%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,7:y:e,n,x` |
+    | **Serogroup** | O:7 (C1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Hartford (antigenic formula 6,7:y:e,n,x) is a serovar of the O:7 (C1) serogroup. Serovar Hartford was previously recovered from [non-outbreak cattle herds](https://www.liebertpub.com/doi/10.1089/fpd.2017.2303?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed). Serovar Hartford was found as highly persistent in all [low-aw food ingredient](https://www.sciencedirect.com/science/article/pii/S0362028X22106150)s.
 
-%20AND%20computed_types:(%22serotype=Hartford%22))
+
 
 ## Genetic Characteristics
 
@@ -21,24 +20,24 @@
 
 ## Animal Reservoir
 
-*Salmonella* Hartford was found in[chicken](https://pmc.ncbi.nlm.nih.gov/articles/PMC4652083/), [calves, horses, dogs, and wild animals](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Hartford%22)) such as [wild black bears](https://www.jstor.org/stable/24320783).
+*Salmonella* Hartford was found in[chicken](https://pmc.ncbi.nlm.nih.gov/articles/PMC4652083/), [calves, horses, dogs, and wild animals](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) such as [wild black bears](https://www.jstor.org/stable/24320783).
 
 ## Geographical Distribution
 
- Serovar Hartford has been found in [the US, Canada, Australia, the UK](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Hartford%22)), [Hungary](https://www.mdpi.com/2076-2607/11/2/403), and [China](https://pmc.ncbi.nlm.nih.gov/articles/PMC4652083/).
+ Serovar Hartford has been found in [the US, Canada, Australia, the UK](https://www.ncbi.nlm.nih.gov/pathogens/isolates/), [Hungary](https://www.mdpi.com/2076-2607/11/2/403), and [China](https://pmc.ncbi.nlm.nih.gov/articles/PMC4652083/).
 
 ## Human/Animal Outbreaks
 
 | Year | Location | Associated Source | Number of Cases |
 | --- | --- | --- | --- |
 | 2023 | US: multistate | [Not identified](https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks) | 54 |
-| 2014 | US: multistate | [Organic sprouted chia powder](https://archive.cdc.gov/www_cdc_gov/salmonella/newport-05-14/index.html)^1^ | 31 |
+| 2014 | US: multistate | [Organic sprouted chia powder](https://archive.cdc.gov/www_cdc_gov/salmonella/newport-05-14/index.html) | 31 |
 | 2010 | US: multistate | [Not identified](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/2010/restaurant-chain-a-8-4-10.html) | 75 |
-| 1995 | US: FL | [Unpasteurized orange juice](https://jamanetwork.com/journals/jama/fullarticle/188128)^2^ | 62 |
+| 1995 | US: FL | [Unpasteurized orange juice](https://jamanetwork.com/journals/jama/fullarticle/188128) | 62 |
 
-^1^ *Salmonella* Newport (20 cases), *Salmonella* Hartford (7 cases), or *Salmonella* Oranienburg (4 cases)
+ *Salmonella* Newport (20 cases), *Salmonella* Hartford (7 cases), or *Salmonella* Oranienburg (4 cases)
 
-^2^ *Salmonella* Gaminara was also involved in this outbreak.
+ *Salmonella* Gaminara was also involved in this outbreak.
 
 **Border**** rejections:** There have been no recent border rejections linked to this serovar.
 

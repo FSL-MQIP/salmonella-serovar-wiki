@@ -4,8 +4,8 @@
 
     | | |
     |---|---|
-    | Antigenic Formula | 21:y:e,n,x |
-    | Serogroup | O:21 (L) |
+    | **Antigenic Formula** | `21:y:e,n,x` |
+    | **Serogroup** | O:21 (L) |
 
 ## Background Information
 

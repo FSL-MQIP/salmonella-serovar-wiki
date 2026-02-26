@@ -1,18 +1,18 @@
 # *S.* Paratyphi A
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Serogroup | O:2 (A) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Paratyphi%20A%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,2,12:a:[1,5]` |
+    | **Serogroup** | O:2 (A) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Paratyphi A (antigenic formula: 1,2,12,a:[1,5]) is a serovar of the O:2 (A) serogroup. Serovar Paratyphi A, is one of the typhodial Salmonella serovars that leads to approximately [3.4 million cases and 19,100 deaths](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(18)30685-6/fulltext) annually worldwide. This serovar mainly causes paratyphoid fever whose [symptoms closely resemble](https://www.ncbi.nlm.nih.gov/books/NBK557513/) those of typhoid fever, which is caused by *Salmonella* Typhi. Similar to typhoid, paratyphoid is endemic in low- and middle-income regions, particularly South Asia, accounting for [5–25%](https://pmc.ncbi.nlm.nih.gov/articles/PMC8609278/) of enteric fever cases, primarily due to fecal contaminated water, food, and poor sanitation. Globally, paratyphoid fever is rarer than typhoid fever, with exceptions such as [China](https://wwwnc.cdc.gov/eid/article/23/5/15-1539_article) and [Myanmar](https://pmc.ncbi.nlm.nih.gov/articles/PMC2798017/). A [study](https://pmc.ncbi.nlm.nih.gov/articles/PMC3367370/) analyzing serovar Paratyphi A incidences across China, Indonesia, India, and Pakistan using standardized population-based methods found that Pakistan had the highest incidence (72 cases per 100,000 people annually), while Indonesia reported the lowest (13.7 cases per 100,000 per year). In 2019, prior to the COVID-19 pandemic, US recorded around [130 culture-confirmed cases](https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/typhoid-and-paratyphoid-fever.html#:~:text=In%202019%2C%20before%20the%20COVID,160%20cases%20of%20typhoid%20fever) of paratyphoid fever caused by *Salmonella* Paratyphi A. During 2020–2021, when travel restrictions were in place due to the pandemic, reported cases dropped to 30–50 annually. Infections from serovar Paratyphi B or C are exceedingly rare. About 80% of US paratyphoid cases are travel-related, with over 70% of these linked to travel to South Asia—particularly Bangladesh, India, and Pakistan. Other reported cases involve travelers returning from Africa, Latin America, Southeast Asia, and, less frequently, East Asia and the Caribbean.
 
-%20AND%20computed_types:(%22serotype=Paratyphi%20A%22))
+
 
 ## Genetic Characteristics
 
@@ -34,19 +34,19 @@ A [review paper](https://onlinelibrary.wiley.com/doi/10.1111/cmi.12939) mentione
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| 2014 | India | [Not identified](https://www.sciencedirect.com/science/article/pii/S0255085720301511?ref=pdf_download&fr=RR-2&rr=9426415809c0fbfb)^1^ | 43 |
+| 2014 | India | [Not identified](https://www.sciencedirect.com/science/article/pii/S0255085720301511?ref=pdf_download&fr=RR-2&rr=9426415809c0fbfb) | 43 |
 | 2010-2011 | China | [Uncooked vegetables irrigated with contaminated water](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0003859) | 601 |
-| 2009 | Israel | [Kosher food venue](https://pubmed.ncbi.nlm.nih.gov/24198224/)^2^ | 37 |
-| 2004 | China | [Unboiled water](https://pmc.ncbi.nlm.nih.gov/articles/PMC6528785/)^3^ | 394 (suspected) |
-| 1995 | India | [Vegetarian food](https://pubmed.ncbi.nlm.nih.gov/8714142/)^4^ | 33 |
+| 2009 | Israel | [Kosher food venue](https://pubmed.ncbi.nlm.nih.gov/24198224/) | 37 |
+| 2004 | China | [Unboiled water](https://pmc.ncbi.nlm.nih.gov/articles/PMC6528785/) | 394 (suspected) |
+| 1995 | India | [Vegetarian food](https://pubmed.ncbi.nlm.nih.gov/8714142/) | 33 |
 
-^1^ An unusual Salmonella Paratyphi A variety durazzo (2,12:a:-) was associated with this outbreak.
+ An unusual Salmonella Paratyphi A variety durazzo (2,12:a:-) was associated with this outbreak.
 
-^2^ The outbreak involved 37 Israeli travelers to Nepal. All of them developed bacteremia.
+ The outbreak involved 37 Israeli travelers to Nepal. All of them developed bacteremia.
 
-^3^ Among 394 suspected cases, 95.5% of them were students.
+ Among 394 suspected cases, 95.5% of them were students.
 
-^4^ An unusual Salmonella Paratyphi A variety durazzo (2,12:a:-) was associated with this outbreak.
+ An unusual Salmonella Paratyphi A variety durazzo (2,12:a:-) was associated with this outbreak.
 
 ## Border Rejections
 

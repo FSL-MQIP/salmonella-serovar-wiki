@@ -1,18 +1,17 @@
 # *S.* Thompson
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,7,14:k:1,5 |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Thompson%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,7,14:k:1,5` |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Thompson (antigenic formula 6,7,14:k:1,5) is part of Group O:7 (C1). The first isolation of serovar Thompson was reported by [Scott (1926)](https://pubmed.ncbi.nlm.nih.gov/20474899/) during a foodborne illness outbreak in Yorkshire, suspected to be linked to the consumption of rabbit and beef pie. Surveillance data indicate that serovar Thompson has remained one of the top ten Salmonella serovars causing diarrhea in both [China](https://onehealthadv.biomedcentral.com/articles/10.1186/s44280-023-00001-3) and [US](https://stacks.cdc.gov/view/cdc/58450/cdc_58450_DS1.pdf) over the last ten years. [Zhang et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC9323645/) suggested that serovar Thompson can be transmitted between poultry farms and humans. Serovar Thompson has been found to form [biofilms on eggshells](https://www.sciencedirect.com/science/article/pii/S0956713523004085), leading to potential contamination risks.
 
-%20AND%20computed_types:(%22serotype=Thompson%22))
+
 
 ## Genetic Characteristics
 
@@ -22,11 +21,11 @@ Another [Chinese study](https://journals.asm.org/doi/10.1128/msystems.01018-24) 
 
 ## Animal Reservoir
 
- Unknown, [chicken](https://pmc.ncbi.nlm.nih.gov/articles/PMC9323645/) may be the potential reservoir for serovar Thompson. According to the metadata from NCBI PD, serovar Thompson was isolated from [other animals such as cattle, horses, and turtles.](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Thompson%22))
+ Unknown, [chicken](https://pmc.ncbi.nlm.nih.gov/articles/PMC9323645/) may be the potential reservoir for serovar Thompson. According to the metadata from NCBI PD, serovar Thompson was isolated from [other animals such as cattle, horses, and turtles.](https://www.ncbi.nlm.nih.gov/pathogens/isolates/)
 
 ## Geographical Distribution
 
- Serovar Thompson has been reported [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Thompson%22)).
+ Serovar Thompson has been reported [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 
@@ -39,17 +38,17 @@ Another [Chinese study](https://journals.asm.org/doi/10.1128/msystems.01018-24) 
 | 2024 | US: WA | [Food or drink from IHOP in Bellevue](https://kingcounty.gov/en/dept/dph/health-safety/disease-illness/foodborne-illness-outbreaks/2024-feb-1-ihop) | 32 |
 | 2023 | US: multistate | [Fresh diced onions](https://www.cdc.gov/salmonella/outbreaks/onions-10-23/investigation.html) | 80 |
 | 2021 | US: multistate | [Seafood](https://www.cdc.gov/mmwr/volumes/72/wr/mm7219a2.htm) | 115 |
-| 2019 | US: multistate | [Chicken](https://www.cdph.ca.gov/Programs/CEH/DFDCS/CDPH%20Document%20Library/FDB/FoodSafetyProgram/EnvInvReports/ElPolloLoco_Chicken_Salmonella_Outbreak%20Report_Final_060820_redacted%20for%20posting.pdf)^1^ | 34 |
-| 2018 | US: multistate | [Kratom](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/kratom-02-18/index.html)^2^ | 199 |
+| 2019 | US: multistate | [Chicken](https://www.cdph.ca.gov/Programs/CEH/DFDCS/CDPH%20Document%20Library/FDB/FoodSafetyProgram/EnvInvReports/ElPolloLoco_Chicken_Salmonella_Outbreak%20Report_Final_060820_redacted%20for%20posting.pdf) | 34 |
+| 2018 | US: multistate | [Kratom](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/kratom-02-18/index.html) | 199 |
 | 2018 | Korea | [Chocolate cake](https://e-epih.org/journal/view.php?doi=10.4178/epih.e2019002) | 1,111 |
-| 2017 | US: multistate | [Imported maradol papayas](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/kiambu-07-17/index.html)^3^ | 220 |
+| 2017 | US: multistate | [Imported maradol papayas](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/kiambu-07-17/index.html) | 220 |
 | 2006 | US: SC | [Peanuts](https://outbreakdatabase.com/outbreaks/2006-salmonella-thompson-at-a-pumpkin-festival) | 100 |
 
-^1^ The outbreak was associated with consumption of chicken purchased from an El Pollo Loco restaurant located in Barstow, California.
+ The outbreak was associated with consumption of chicken purchased from an El Pollo Loco restaurant located in Barstow, California.
 
-^2^ The outbreak involved six serovars including *Salmonella* I 4,[5],12:b:-, Heidelberg, Javiana, Okatie, Weltevreden, and Thompson. The case number here (n=199) represents the total cases in this outbreak, not just those infected with serovar Thompson.
+ The outbreak involved six serovars including *Salmonella* I 4,[5],12:b\:-, Heidelberg, Javiana, Okatie, Weltevreden, and Thompson. The case number here (n=199) represents the total cases in this outbreak, not just those infected with serovar Thompson.
 
-^3^ Across 23 states, 220 infections were linked to five *Salmonella* serovars involved in the outbreak—specifically *Salmonella* Thompson (144 cases), Kiambu (54 cases), Agona (12 cases), Gaminara (7 cases), and Senftenberg (3 cases).
+ Across 23 states, 220 infections were linked to five *Salmonella* serovars involved in the outbreak—specifically *Salmonella* Thompson (144 cases), Kiambu (54 cases), Agona (12 cases), Gaminara (7 cases), and Senftenberg (3 cases).
 
 ## Border Rejections
 
@@ -59,15 +58,15 @@ Another [Chinese study](https://journals.asm.org/doi/10.1128/msystems.01018-24) 
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2023 | US: multistate | [Fresh diced onions](https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gills-onions-voluntarily-recalls-select-lots-fresh-diced-onion-products-because-possible-health-risk)^1^ | Fruits and vegetables |
-| 2021 | US: multistate | [Seafood](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-thompson-seafood-october-2021)^2^ | Fish and fish products |
-| 2017 | US: multistate | [Imported maradol papayas](https://archive.cdc.gov/www_cdc_gov/salmonella/kiambu-07-17/advice.html)^3^ | Fruits and vegetables |
+| 2023 | US: multistate | [Fresh diced onions](https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gills-onions-voluntarily-recalls-select-lots-fresh-diced-onion-products-because-possible-health-risk) | Fruits and vegetables |
+| 2021 | US: multistate | [Seafood](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-thompson-seafood-october-2021) | Fish and fish products |
+| 2017 | US: multistate | [Imported maradol papayas](https://archive.cdc.gov/www_cdc_gov/salmonella/kiambu-07-17/advice.html) | Fruits and vegetables |
 
-^1^ This recall was caused by a multistate outbreak described above. On October 23, 2023, Gills Onions issued a recall of their fresh diced onion products.
+ This recall was caused by a multistate outbreak described above. On October 23, 2023, Gills Onions issued a recall of their fresh diced onion products.
 
-^2^ This recall was caused by a multistate outbreak described above. On October 8, 2021, Northeast Seafood Products, Inc. issued a recall of their multiple products.
+ This recall was caused by a multistate outbreak described above. On October 8, 2021, Northeast Seafood Products, Inc. issued a recall of their multiple products.
 
-^3^ This recall was caused by a multistate outbreak described above. Five *Salmonella* serovars, *Salmonella* Thompson, Kiambu, Agona, Gaminara, and Senftenberg, were involved. Grande Produce, Agroson's LLC, and Freshtex Produce, LLC issued recalls of their papayas.
+ This recall was caused by a multistate outbreak described above. Five *Salmonella* serovars, *Salmonella* Thompson, Kiambu, Agona, Gaminara, and Senftenberg, were involved. Grande Produce, Agroson's LLC, and Freshtex Produce, LLC issued recalls of their papayas.
 
 ## References
 

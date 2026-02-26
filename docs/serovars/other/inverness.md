@@ -1,18 +1,18 @@
 # *S.* Inverness
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Serogroup | O:38 (P) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Inverness%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `38:k:1,6` |
+    | **Serogroup** | O:38 (P) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Inverness (antigenic formula: 38:k:1,6) is a serovar of the O:38 (P) serogroup. This serovar is relatively understudied, with limited information available. Serovar Inverness was previously isolated from [raw, shelled peanuts](https://www.sciencedirect.com/science/article/pii/S0362028X2208810X?via%3Dihub), [breeder farms](https://journals.asm.org/doi/10.1128/spectrum.02090-24?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed), and [surface water in Southeastern United States](https://journals.asm.org/doi/10.1128/aem.02063-14#T2).
 
-%20AND%20computed_types:(%22serotype=Inverness%22))
+
 
 ## Genetic Characteristics
 
@@ -20,11 +20,11 @@
 
 ## Animal Reservoir
 
- Unclear, but based on the NCBI PD metadata, serovar Inverness was isolated from [dog, raccoon, horse, and frog (*Scaphiopus holbrookii*)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Inverness%22)). One study also isolated serovar Inverness from [turtle](https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2021.674973/full).
+ Unclear, but based on the NCBI PD metadata, serovar Inverness was isolated from [dog, raccoon, horse, and frog (*Scaphiopus holbrookii*)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/). One study also isolated serovar Inverness from [turtle](https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2021.674973/full).
 
 ## Geographical Distribution
 
- Serovar Inverness has been only reported in [the US, and the UK](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Inverness%22)).
+ Serovar Inverness has been only reported in [the US, and the UK](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 

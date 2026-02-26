@@ -1,16 +1,16 @@
 # *S.* Korovi
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Serogroup | O:38 (P) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Korovi%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `38:g,m,[s]:` |
+    | **Serogroup** | O:38 (P) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
- *Salmonella enterica *subsp.* enterica* serovar Korovi (antigenic formula 38:g,m,[s]:–) is a serovar of the O:38 (P) serogroup. This serotype was first discovered in the [Belgian Congo](https://pubmed.ncbi.nlm.nih.gov/14387694/) in 1955. FDA found this serovar in [shelled macadamia nut](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_006427635.1/). %20AND%20computed_types:(%22serotype=Korovi%22))
+ *Salmonella enterica *subsp.* enterica* serovar Korovi (antigenic formula 38:g,m,[s]:–) is a serovar of the O:38 (P) serogroup. This serotype was first discovered in the [Belgian Congo](https://pubmed.ncbi.nlm.nih.gov/14387694/) in 1955. FDA found this serovar in [shelled macadamia nut](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_006427635.1/).
 
 ## Genetic Characteristics
 
@@ -36,9 +36,9 @@
 
 | Year | Location | Recalled product | Product category |
 | --- | --- | --- | --- |
-| [2022](https://webgate.ec.europa.eu/rasff-window/screen/notification/580385) | Germany | Organic tahini (sesame paste)^1^ from Germany, made with raw material from Uganda | Nuts, nut products and seeds |
+| [2022](https://webgate.ec.europa.eu/rasff-window/screen/notification/580385) | Germany | Organic tahini (sesame paste) from Germany, made with raw material from Uganda | Nuts, nut products and seeds |
 
-^1^ *Salmonella* Oslo and *Salmonella* Korovi were both identified in the product. This product was also distributed to Ireland, Luxembourg, Austria, and Spain.
+ *Salmonella* Oslo and *Salmonella* Korovi were both identified in the product. This product was also distributed to Ireland, Luxembourg, Austria, and Spain.
 
 ## References
 

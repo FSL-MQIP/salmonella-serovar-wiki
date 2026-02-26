@@ -1,18 +1,18 @@
 # *S.* Chester
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Serogroup | O:4 (B) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Chester%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,4,[5],12:e,h:e,n,x` |
+    | **Serogroup** | O:4 (B) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica subsp. enterica *serovar Chester (antigenic formula: 1,4,[5],12:e,h:e,n,x) is a serovar of the O:4 (B) serogroup. In [1937](https://pmc.ncbi.nlm.nih.gov/articles/PMC5322187/#r16), this serovar was first isolated from humans during a food poisoning outbreak in the hospital of Chester, United Kingdom. Serovar Chester is a rare serovar worldwide. For example, in [Canada](https://web.archive.org/web/20120822142907/http://www.nml-lnm.gc.ca/NESP-PNSME/index-eng.htm), it only accounted for an average of seven human infections per year. In the US during 2001-2011, only 403 human cases have been reported. In addition, animal and food surveillance have not found serovar Chester in these sources in the US.
 
-%20AND%20computed_types:(%22serotype=Chester%22))
+
 
 ## Genetic Characteristics
 
@@ -24,7 +24,7 @@ There is not clear evidence of the animal reservoir for this serovar, although s
 
 ## Geographical Distribution
 
- Serovar Chester have been reported[worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Chester%22)), including countries in North (US, Canada) and South America (Brazil), Morocco and Australia.
+ Serovar Chester have been reported[worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/), including countries in North (US, Canada) and South America (Brazil), Morocco and Australia.
 
 ## Human/Animal Outbreaks
 
@@ -41,11 +41,11 @@ Despite the fact that this is a rare serovar, multiple outbreaks have been repor
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2023 | Spain | France | [Frozen chicken drumstick](https://webgate.ec.europa.eu/rasff-window/screen/notification/638548)^1^ | Poultry meat and poultry meat products |
+| 2023 | Spain | France | [Frozen chicken drumstick](https://webgate.ec.europa.eu/rasff-window/screen/notification/638548) | Poultry meat and poultry meat products |
 | 2023 | Turkey | Switzerland | [Red Paprika, sweet](https://webgate.ec.europa.eu/rasff-window/screen/notification/598996) | Herbs and spices |
 | 2021 | The United Kingdom | Denmark | [Fishmeal pellets for farmed salmon](https://webgate.ec.europa.eu/rasff-window/screen/notification/506373) | Feed materials |
 
-^1^ *Salmonella* Vichow and *Salmonella *Chester were both found.
+ *Salmonella* Vichow and *Salmonella *Chester were both found.
 
 ## Recalls
 

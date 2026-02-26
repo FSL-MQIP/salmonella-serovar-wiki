@@ -1,17 +1,16 @@
 # *S.* Manhattan
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,8:d:1,5 |
-    | Serogroup | O:6,8 (C2) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Manhattan%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,8:d:1,5` |
+    | **Serogroup** | O:6,8 (C2) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 **Background information: ** *Salmonella enterica *subsp. *enterica *serovar Manhattan (antigenic formula 6,8:d:1,5) is a serovar of the O:6,8 (C2) serogroup. [Between 2017 and 2018](https://www.sciencedirect.com/science/article/pii/S2451943X22000199?via%3Dihub), serovar Manhattan represented nearly half (46.7%) of all *Salmonella* isolated from broiler chickens in Japan, a trend that persisted with its detection in chicken breast in [2021](https://www.jstage.jst.go.jp/article/foodsafetyfscj/12/3/12_D-24-00002/_article).
 
-%20AND%20computed_types:(%22serotype=Manhattan%22))
+
 
 ## Genetic Characteristics
 
@@ -23,22 +22,22 @@
 
 ## Geographical Distribution
 
- According to the metadata from NCBI PD, serovar Manhattan has been reported [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Manhattan%22)).
+ According to the metadata from NCBI PD, serovar Manhattan has been reported [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2021 | US | [Unknown](https://outbreakdatabase.com/outbreaks/2021-multistate-outbreak-of-salmonella-manhattan-infections-source-unknown) | 11 |
-| 2019 | US: multistate | [Backyard poultry](https://archive.cdc.gov/www_cdc_gov/salmonella/backyardpoultry-05-19/index.html)^1^ | 1134 |
+| 2019 | US: multistate | [Backyard poultry](https://archive.cdc.gov/www_cdc_gov/salmonella/backyardpoultry-05-19/index.html) | 1134 |
 | 2009 | Italy | [Unknown](https://journals.asm.org/doi/10.1128/jcm.02930-14) | 15 |
 | 2005-2006 | France | [Meat products](https://pubmed.ncbi.nlm.nih.gov/17206024/) | 69 |
 | 1997-1998 | Denmark | [Pork (suspected)](https://www.eurosurveillance.org/content/10.2807/esw.02.09.01252-en) | 39 |
-| 1996 | France | [Bacon](https://www.sciencedirect.com/science/article/pii/S0399077X98800164)^2^ | 72 |
+| 1996 | France | [Bacon](https://www.sciencedirect.com/science/article/pii/S0399077X98800164) | 72 |
 
-^1^ This outbreak involved multiple serovars including *Salmonella *Agona, Alachua, Altona, Anatum, Braenderup, Enteritidis, Infantis, Manhattan, Montevideo, Muenchen, Newport, and Oranienburg. The number of cases here does not apply only to infections caused by serovar Manhattan.
+ This outbreak involved multiple serovars including *Salmonella *Agona, Alachua, Altona, Anatum, Braenderup, Enteritidis, Infantis, Manhattan, Montevideo, Muenchen, Newport, and Oranienburg. The number of cases here does not apply only to infections caused by serovar Manhattan.
 
-^2^ *Salmonella* Heidelberg and Manhattan were both found.
+ *Salmonella* Heidelberg and Manhattan were both found.
 
 ## Border Rejections
 

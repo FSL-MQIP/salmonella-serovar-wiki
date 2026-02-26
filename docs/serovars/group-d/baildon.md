@@ -1,17 +1,16 @@
 # *S.* Baildon
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 9,46:a:e,n,x |
-    | Serogroup | O:9,46 (D2) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Baildon%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `9,46:a:e,n,x` |
+    | **Serogroup** | O:9,46 (D2) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 **Background information:** *Salmonella enterica* subsp. *enterica* serovar Baildon (antigenic formula 9,46:a:e,n,x) is a serovar of the O:9,46 (D2) serogroup. Over the past five years, serovar Baildon has represented [fewer than 1%](https://pubmed.ncbi.nlm.nih.gov/39297648/) of reported salmonellosis cases in the United States.
 
-%20AND%20computed_types:(%22serotype=Baildon%22))
+
 
 ## Genetic Characteristics
 
@@ -19,20 +18,20 @@ Serovar Baildon has been found to be [paraphyletic](https://www.frontiersin.org/
 
 ## Animal Reservoir
 
- Serovar Baildon was found in [cattle, wild boar, American white ibis, and common bottlenose dolphin](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Baildon%22)).
+ Serovar Baildon was found in [cattle, wild boar, American white ibis, and common bottlenose dolphin](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Geographical Distribution
 
- Serovar Baildon has been found in the [US, Canada, the UK, Senegal, and Tanzania](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Baildon%22)).
+ Serovar Baildon has been found in the [US, Canada, the UK, Senegal, and Tanzania](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| 2010 | US: multistate | [Restaurant Chain A](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/2010/restaurant-chain-a-8-4-10.html)^1^ | 80 |
+| 2010 | US: multistate | [Restaurant Chain A](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/2010/restaurant-chain-a-8-4-10.html) | 80 |
 | 1999 | US: multistate | [Raw tomatoes](https://pmc.ncbi.nlm.nih.gov/articles/PMC2631895/) | 86 |
 
-^1^ The epidemiologic study did not identify any specific food item or ingredient linked to the illness.
+ The epidemiologic study did not identify any specific food item or ingredient linked to the illness.
 
 ## Border Rejections
 

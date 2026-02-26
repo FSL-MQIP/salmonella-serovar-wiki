@@ -1,19 +1,18 @@
 # *S.* Lubbock
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,7:g,m,s:e,n,z15 |
-    | Serogroup | O:7 (C1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Lubbock%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,7:g,m,s:e,n,z15` |
+    | **Serogroup** | O:7 (C1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Lubbock (antigenic formula 6,7:g,m,s:e,n,z15) is a serovar of the O:7 (C1) serogroup. Serovar Lubbock was first isolated from subiliac lymph nodes from cattle at a commercial abattoir in [Texas, US in 2015](https://journals.asm.org/doi/full/10.1128/genomea.00215-15?rfr_dat=cr_pub++0pubmed&url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org) and was initially identified as serovar Montevideo. In cattle feedlots, [Amachawadi et al.](https://journals.asm.org/doi/full/10.1128/genomea.00319-16?rfr_dat=cr_pub++0pubmed&url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org) found a *Salmonella *prevalence rate of 20–25% in liver abscess samples, where serotype Lubbock predominated. [Nickodem et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC10132121/) revealed that the prevalence of serovar Lubbock varied across sample types in feedlots (environmental: 11.0%; fecal: 14.6%; lymph node: 17.7%).
 
-%20AND%20computed_types:(%22serotype=Lubbock%22))
+
 
 ## Genetic Characteristics
 
@@ -25,7 +24,7 @@
 
 ## Geographical Distribution
 
- According to the metadata from NCBI PD, this serovar has only been reported in [US, primarily in Texas](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Lubbock%22)).
+ According to the metadata from NCBI PD, this serovar has only been reported in [US, primarily in Texas](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 

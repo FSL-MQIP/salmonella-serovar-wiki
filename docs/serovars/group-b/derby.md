@@ -1,19 +1,18 @@
 # *S.* Derby
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,4,[5],12:f,g:[1,2] |
-    | Serogroup | O:4 (B) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Derby%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,4,[5],12:f,g:[1,2]` |
+    | **Serogroup** | O:4 (B) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Derby (antigenic formula 1,4,[5],12:f,g:[1,2]) is a serovar of the O:4 (B) serogroup. This serovar was fist isolated from humans who were infected after eating contaminated pork pies in the UK in [1923](https://www.jstor.org/stable/3859161). It is one of the dominant* Salmonella* serovars isolated from slaughter pigs in [Europe](https://www.efsa.europa.eu/en/efsajournal/pub/rn-206), and [ranks #4](https://web.archive.org/web/20160514081524/http://www.cdc.gov/ncezid/dfwed/pdfs/salmonella-annual-report-2012-508c.pdf)in the most frequently isolated Salmonella serovars from clinical non-human sources in the United States.
 
-%20AND%20computed_types:(%22serotype=Derby%22))
+
 
 ## Genetic Characteristics
 
@@ -21,7 +20,7 @@
 
 ## Animal Reservoir
 
- The most common reservoir for serovar Derby is [swine](https://pmc.ncbi.nlm.nih.gov/articles/PMC10715017/). However, it has also been reported in [poultry, eggs and dairy products](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Derby%22)).
+ The most common reservoir for serovar Derby is [swine](https://pmc.ncbi.nlm.nih.gov/articles/PMC10715017/). However, it has also been reported in [poultry, eggs and dairy products](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Geographical Distribution
 
@@ -43,9 +42,9 @@
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2022 | Poland | Italy | [Frozen turkey meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/552961) | Poultry meat and poultry meat products |
-| 2020 | Spain | Italy | [Frozen minced turkey breast](https://webgate.ec.europa.eu/rasff-window/screen/notification/420173)^1^ | Poultry meat and poultry meat products |
+| 2020 | Spain | Italy | [Frozen minced turkey breast](https://webgate.ec.europa.eu/rasff-window/screen/notification/420173) | Poultry meat and poultry meat products |
 
-^1^ *Salmonella *Derby and Bovismorbificans were both found.
+ *Salmonella *Derby and Bovismorbificans were both found.
 
 ## Recalls
 
@@ -54,12 +53,12 @@
 | Year | Location | Recalled product | Type |
 | --- | --- | --- | --- |
 | 2024 | Finland | [Frozen pork cheek from Poland via Estonia](https://webgate.ec.europa.eu/rasff-window/screen/notification/717474) | Meat and meat products (other than poultry) |
-| 2022 | Czech Republic | [Frozen beef pet food from Germany](https://webgate.ec.europa.eu/rasff-window/screen/notification/545199)^1^ | Pet food |
-| 2021 | US | [Salami stick](https://archive.cdc.gov/www_cdc_gov/salmonella/i45-10-21/details.html#:~:text=California%20officials%20found%20Salmonella%20in,to%20samples%20from%20sick%20people.)^2^ | Meat and meat products (other than poultry) |
+| 2022 | Czech Republic | [Frozen beef pet food from Germany](https://webgate.ec.europa.eu/rasff-window/screen/notification/545199) | Pet food |
+| 2021 | US | [Salami stick](https://archive.cdc.gov/www_cdc_gov/salmonella/i45-10-21/details.html#:~:text=California%20officials%20found%20Salmonella%20in,to%20samples%20from%20sick%20people.) | Meat and meat products (other than poultry) |
 
-^1 ^*Salmonella* Infantis, Derby, Reading and Enterobacteriaceae were found.
+<sup>1</sup> *Salmonella* Infantis, Derby, Reading and Enterobacteriaceae were found.
 
-^2^ Euro Foods has recalled around 119,091 pounds of Citterio brand Premium Italian-Style Salame Sticks products.
+ Euro Foods has recalled around 119,091 pounds of Citterio brand Premium Italian-Style Salame Sticks products.
 
 ## References
 

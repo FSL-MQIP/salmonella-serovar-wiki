@@ -1,19 +1,18 @@
 # *S.* Mississippi
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,13,23:b:1,5 |
-    | Serogroup | O:13 (G) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Mississippi%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,13,23:b:1,5` |
+    | **Serogroup** | O:13 (G) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
- *Salmonella enterica* subsp. *enterica* serovar Mississippi (antigenic formula 1,13,23:b:1,5) is a serovar of the O:13 (G) serogroup. This serovar was initially identified in [1943](https://journals.sagepub.com/doi/abs/10.3181/00379727-54-14395) after being isolated from a food handler's stool sample in Mississippi, US. In the US, serovar Mississippi ranked as the [14th most prevalent serovar](https://stacks.cdc.gov/view/cdc/152398/cdc_152398_DS1.pdf) in human clinical cases in 2016, whereas in Tasmania, it is the [second most common](https://journals.asm.org/doi/10.1128/aac.02012-17), responsible for 37% of all nontyphoidal salmonellosis cases in the state. In Australia, exposure to [contaminated drinking water](https://wwwnc.cdc.gov/eid/article/25/9/18-1811_article) and [wildlife contact](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/salmonella-mississippi-infections-in-tasmania-the-role-of-native-australian-animals-and-untreated-drinking-water/195BDF776A0BCE5D88A798AB59C0D4F1) have been documented as transmission routes for serovar Mississippi infections, while in US, the infections are primarily linked to [animal contact](https://pmc.ncbi.nlm.nih.gov/articles/PMC7168582/). Chui et al. reported a case of [left renal abscess and gram-negative sepsis](https://www.sciencedirect.com/science/article/pii/S2214442022002091) associated with *Salmonella *Mississippi infection.
+ *Salmonella enterica* subsp. *enterica* serovar Mississippi (antigenic formula 1,13,23:b\:1,5) is a serovar of the O:13 (G) serogroup. This serovar was initially identified in [1943](https://journals.sagepub.com/doi/abs/10.3181/00379727-54-14395) after being isolated from a food handler's stool sample in Mississippi, US. In the US, serovar Mississippi ranked as the [14th most prevalent serovar](https://stacks.cdc.gov/view/cdc/152398/cdc_152398_DS1.pdf) in human clinical cases in 2016, whereas in Tasmania, it is the [second most common](https://journals.asm.org/doi/10.1128/aac.02012-17), responsible for 37% of all nontyphoidal salmonellosis cases in the state. In Australia, exposure to [contaminated drinking water](https://wwwnc.cdc.gov/eid/article/25/9/18-1811_article) and [wildlife contact](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/salmonella-mississippi-infections-in-tasmania-the-role-of-native-australian-animals-and-untreated-drinking-water/195BDF776A0BCE5D88A798AB59C0D4F1) have been documented as transmission routes for serovar Mississippi infections, while in US, the infections are primarily linked to [animal contact](https://pmc.ncbi.nlm.nih.gov/articles/PMC7168582/). Chui et al. reported a case of [left renal abscess and gram-negative sepsis](https://www.sciencedirect.com/science/article/pii/S2214442022002091) associated with *Salmonella *Mississippi infection.
 
-%20AND%20computed_types:(%22serotype=Mississippi%22))
+
 
 ## Genetic Characteristics
 
@@ -21,11 +20,11 @@
 
 ## Animal Reservoir
 
- Unknown, but according to the metadata from NCBI PD, serovar Mississippi was isolated from [wild animals such as turtles, and birds (*Porphyrio hochstetteri*)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Mississippi%22)).
+ Unknown, but according to the metadata from NCBI PD, serovar Mississippi was isolated from [wild animals such as turtles, and birds (*Porphyrio hochstetteri*)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Geographical Distribution
 
- [Cheng et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC8550085/) found that serovar Mississippi were endemic in Australia, the United Kingdom, and the United States. According to the metadata from NCBI PD, this serovar has been reported in [other countries such as Chile and Bermuda](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Mississippi%22)).
+ [Cheng et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC8550085/) found that serovar Mississippi were endemic in Australia, the United Kingdom, and the United States. According to the metadata from NCBI PD, this serovar has been reported in [other countries such as Chile and Bermuda](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 

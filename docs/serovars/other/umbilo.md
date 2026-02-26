@@ -1,17 +1,16 @@
 # *S.* Umbilo
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 28:z10:e,n,x |
-    | Serogroup | O:28 (M) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Umbilo%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `28:z10:e,n,x` |
+    | **Serogroup** | O:28 (M) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 **Background information:** *Salmonella enterica* subsp. *enterica* serovar Umbilo (antigenic formula 28:z10:e,n,x) is a serovar of the O:28 (M) serogroup. Serovar Umbilo is typically rare, with the [ECDC](https://www.ecdc.europa.eu/en/surveillance-atlas-infectious-diseases) recording 20 to 32 cases annually in the European Union/European Economic Area (including the United Kingdom until 2019) over the past decade (2014=E2=88=922023). Public Health England found this serovar in [curry leaves](https://www.eurlsalmonella.eu/sites/default/files/2019-06/4%20Marie%20Salmonella%20contamination%20of%20%28imported%29fresh%20edible%20leaves%20190528_0.pdf). In 2001, serovar Umbilo was found in [organic rocket salad and pre-packaged ready-to-eat salads](https://www.sciencedirect.com/science/article/pii/S0362028X2203071X?via%3Dihub)from an Italian producer in the UK, though it was not associated with any human infections.
 
-%20AND%20computed_types:(%22serotype=Umbilo%22))
+
 
 ## Genetic Characteristics
 
@@ -23,15 +22,15 @@
 
 ## Geographical Distribution
 
- Serovar Umbilo has been reported in [Turkey](https://pmc.ncbi.nlm.nih.gov/articles/PMC6838269/), [the US](https://www.cdc.gov/nationalsurveillance/pdfs/2016-Salmonella-report-508.pdf), [South Africa, Kenya](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Umbilo%22)) and[Europe](https://webgate.ec.europa.eu/rasff-window/screen/notification/712437)such as Denmark, Austria, Croatia, and Germany.
+ Serovar Umbilo has been reported in [Turkey](https://pmc.ncbi.nlm.nih.gov/articles/PMC6838269/), [the US](https://www.cdc.gov/nationalsurveillance/pdfs/2016-Salmonella-report-508.pdf), [South Africa, Kenya](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) and[Europe](https://webgate.ec.europa.eu/rasff-window/screen/notification/712437)such as Denmark, Austria, Croatia, and Germany.
 
 ## Human/Animal Outbreaks
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| [2024](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2024.29.46.2400728) | Europe: multi-country | Rocket salad (also known as arugula or rucola) from Italy | 158^1^ |
+| [2024](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2024.29.46.2400728) | Europe: multi-country | Rocket salad (also known as arugula or rucola) from Italy | 158 |
 
-^1^158 cases of serovar Umbilo have been reported across 3 EU/EEA countries. The cases were distributed as follows: Germany (117), Denmark (22), and Austria (19). Through EpiPulse, six other European countries each reported between one and 20 cases of serovar Umbilo.
+158 cases of serovar Umbilo have been reported across 3 EU/EEA countries. The cases were distributed as follows: Germany (117), Denmark (22), and Austria (19). Through EpiPulse, six other European countries each reported between one and 20 cases of serovar Umbilo.
 
 ## Border Rejections
 

@@ -1,19 +1,18 @@
 # *S.* Brandenburg
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 4,[5],12:l,v:e,n,z15 |
-    | Serogroup | O:4 (B) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Brandenburg%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `4,[5],12:l,v:e,n,z15` |
+    | **Serogroup** | O:4 (B) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Brandenburg (antigenic formula 4,[5],12:l,v:e,n,z15) is a serovar of the O:4 (B) serogroup. Serovar Brandenburg was first reported [in 1930](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=001f7b72ccab906c02c94e2f0e66af76dbe9dfed) in Germany. Serovar Brandenburg was reported among [the 15^th^ most common](https://www.emro.who.int/food-chemical-safety/food-infocus/food-infections-network.html) serovars in Europe. It is considered an occupational hazard, because farmers can acquire the disease by contact with infected animals. [In New Zealand, in 1996](https://pmc.ncbi.nlm.nih.gov/articles/PMC2870545/#:~:text=Brandenburg%20has%20become%20established%20as,protect%20farmers%20and%20their%20families), serovar Brandenburg emerged in the sheep population and caused a number of outbreaks.
 
-%20AND%20computed_types:(%22serotype=Brandenburg%22))
+
 
 ## Genetic Characteristics
 
@@ -25,7 +24,7 @@
 
 ## Geographical Distribution
 
- Serovar Brandenburg has been reported [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Brandenburg%22)).
+ Serovar Brandenburg has been reported [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 
@@ -34,31 +33,31 @@
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2008 | Italy | [Restaurant associated](https://www.jpmh.org/index.php/jpmh/article/download/240/221/) | Approx. 200 |
-| 2001 | Japan | [Hospital associated](https://pubmed.ncbi.nlm.nih.gov/11754160/)^1^ | - |
+| 2001 | Japan | [Hospital associated](https://pubmed.ncbi.nlm.nih.gov/11754160/) | - |
 | 1992 | Switzerland | [Not clear, multiple foods and animals were found positive](https://pubmed.ncbi.nlm.nih.gov/7989535/) | - |
 | 1963 | England | [Pork products](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/49A6A27218F15F0678FB17FFA92ABAAA/S0950268898008887a.pdf/div-class-title-laboratory-investigation-and-comparison-of-span-class-italic-salmonella-span-brandenburg-cases-in-new-zealand-div.pdf) | - |
 
-^1^ *Salmonella* Brandenburg and *Salmonella* Corvallis were both involved.
+ *Salmonella* Brandenburg and *Salmonella* Corvallis were both involved.
 
 ## Human/Animal Outbreaks
 
 | Year | Location | Breed | Number of cases |
 | --- | --- | --- | --- |
-| 2011 | New Zealand | [Ewes](https://www.odt.co.nz/business/farming/salmonella-devastating-flocks-south)^1^ | 100~180 |
-| 1996 | New Zealand | [Cattle](https://www.topfarmers.co.nz/know-how/salmonella/salmonella-in-cattle/)^2^ | NA |
+| 2011 | New Zealand | [Ewes](https://www.odt.co.nz/business/farming/salmonella-devastating-flocks-south) | 100~180 |
+| 1996 | New Zealand | [Cattle](https://www.topfarmers.co.nz/know-how/salmonella/salmonella-in-cattle/) | NA |
 
-^1^ Brandenburg infection causes abortion in pregnant ewes and has killed approx. the half of infected ewes.
+ Brandenburg infection causes abortion in pregnant ewes and has killed approx. the half of infected ewes.
 
-^2^ Brandenburg infection causes late-term abortions, sickness, and death in cattle, typically occurring during the late dry period (late winter/early spring). In na=C3=AFve herds, first-calving heifers appear to be the most affected, with up to 35% experiencing abortions. During outbreaks, mortality rates can vary, averaging around 5%.
+ Brandenburg infection causes late-term abortions, sickness, and death in cattle, typically occurring during the late dry period (late winter/early spring). In na=C3=AFve herds, first-calving heifers appear to be the most affected, with up to 35% experiencing abortions. During outbreaks, mortality rates can vary, averaging around 5%.
 
 ## Border Rejections
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2022 | Poland | Latvia | [Chicken leg quarter](https://webgate.ec.europa.eu/rasff-window/screen/notification/552403)^1^ | Poultry meat and poultry meat products |
+| 2022 | Poland | Latvia | [Chicken leg quarter](https://webgate.ec.europa.eu/rasff-window/screen/notification/552403) | Poultry meat and poultry meat products |
 | 2021 | Lithuania | Latvia | [Pork chop mass, chilled](https://webgate.ec.europa.eu/rasff-window/screen/notification/468368) | Meat and meat products (other than poultry) |
 
-^1^ *Salmonella* Brandenburg was found in 2 out of 5 samples.
+ *Salmonella* Brandenburg was found in 2 out of 5 samples.
 
 ## Recalls
 

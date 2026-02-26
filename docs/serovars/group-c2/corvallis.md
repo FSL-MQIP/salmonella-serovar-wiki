@@ -1,18 +1,17 @@
 # *S.* Corvallis
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 8,20:z4,z23:[z6] |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Corvallis%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `8,20:z4,z23:[z6]` |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica** *subsp. *enterica* serovar Corvallis (antigenic formula 8,20:z4,z23:[z6]) is a serovar of the O:8 (C2-C3) serogroup. This serovar was first isolated from the pooled cecal contents of poults affected with enteritis in the United States in [1949](https://journals.asm.org/doi/pdf/10.1128/jb.58.1.111-112.1949). Higher prevalence of serovar Corvallis was observed in humans and food products in [non-European](https://pubmed.ncbi.nlm.nih.gov/21492021/) countries.
 
-%20AND%20computed_types:(%22serotype=Corvallis%22))
+
 
 ## Genetic Characteristics
 
@@ -20,7 +19,7 @@
 
 ## Animal Reservoir
 
- Serovar Corvallis was found to be associated with[pigs](https://academic.oup.com/jac/article/68/12/2954/696276)in South-East Asia. This serovar was also isolated from [chicken](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Corvallis%22)) and [dogs](https://onlinelibrary.wiley.com/doi/10.1111/j.1439-0450.2006.00932.x).
+ Serovar Corvallis was found to be associated with[pigs](https://academic.oup.com/jac/article/68/12/2954/696276)in South-East Asia. This serovar was also isolated from [chicken](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) and [dogs](https://onlinelibrary.wiley.com/doi/10.1111/j.1439-0450.2006.00932.x).
 
 ## Geographical Distribution
 
@@ -30,9 +29,9 @@
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| 2001 | Japan | [Lunch (suspected)](https://www.niid.go.jp/niid/images/JJID/LEC-124.pdf)^1^ | 7 |
+| 2001 | Japan | [Lunch (suspected)](https://www.niid.go.jp/niid/images/JJID/LEC-124.pdf) | 7 |
 
-^1^ Four *Salmonella* isolates were obtained from the lunch including three Brandenburg isolates from three dishes and one Corvallis isolate from another dish.
+ Four *Salmonella* isolates were obtained from the lunch including three Brandenburg isolates from three dishes and one Corvallis isolate from another dish.
 
 ## Border Rejections
 

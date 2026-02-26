@@ -1,17 +1,16 @@
 # *S.* Albany
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 8,20:z4,z24:- |
+    | **Antigenic Formula** | `8,20:z4,z24:-` |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Albany (antigenic formula 8,20:z4,z24:-) is a serovar of the O:8 (C2-C3) serogroup.
 
-NCBI PD cannot differentiate between serovar Albany and serovar Duesseldorf; additional genetic markers are required for *in silico* serotyping of serovar Albany. The link is still provided: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Albany%20or%20Duesseldorf%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Albany%20or%20Duesseldorf%22))
+NCBI PD cannot differentiate between serovar Albany and serovar Duesseldorf; additional genetic markers are required for *in silico* serotyping of serovar Albany.
 
 ## Genetic Characteristics
 
@@ -33,15 +32,15 @@ NCBI PD cannot differentiate between serovar Albany and serovar Duesseldorf; add
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2022 | Nigeria | Germany | [Sesame seeds](https://webgate.ec.europa.eu/rasff-window/screen/notification/568767)^1^ | Nuts, nut products and seeds |
-| 2022 | Brazil | Germany | [Black pepper^2^](https://webgate.ec.europa.eu/rasff-window/screen/notification/524670) | Herbs and spices |
-| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/513985)^3^ | Herbs and spices |
+| 2022 | Nigeria | Germany | [Sesame seeds](https://webgate.ec.europa.eu/rasff-window/screen/notification/568767) | Nuts, nut products and seeds |
+| 2022 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/524670) | Herbs and spices |
+| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/513985) | Herbs and spices |
 
-^1^ Both serovar Albany and serovar Weybridge were found.
+ Both serovar Albany and serovar Weybridge were found.
 
-^2^ Both serovar Albany and serovar Infantis were found.
+ Both serovar Albany and serovar Infantis were found.
 
-^3^ Multiple serovars were isolated including *Salmonella *Albany, Gaminara, Poona, Braenderup and Madelia.
+ Multiple serovars were isolated including *Salmonella *Albany, Gaminara, Poona, Braenderup and Madelia.
 
 ## Recalls
 

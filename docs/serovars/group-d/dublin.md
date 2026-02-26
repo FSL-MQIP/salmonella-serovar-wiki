@@ -1,19 +1,18 @@
 # *S.* Dublin
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,9,12[Vi]:g,p:- |
-    | Serogroup | O:9 (D1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Dublin%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,9,12[Vi]:g,p:-` |
+    | **Serogroup** | O:9 (D1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Dublin (antigenic formula 1,9,12[Vi]:g,p:-) is a serovar of the O:9 (D1) serogroup. Serovar Dublin is a serovar [adapted to cattle](https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2023.1331767/full), which is the primary host, but it can also infect and cause disease in different hosts, including humans. In cattle, serovar Dublin causes acute and subclinical disease; symptoms of salmonellosis in cattle include: fever, diarrhea, abortions, respiratory signs (especially in calves), and systemic disease, thus making serovar Dublin an important economic concern in the bovine industry. Serovar Dublin is a zoonosis that causes one of the [highest rates of systemic disease](https://wwwnc.cdc.gov/eid/article/23/9/17-0136_article)among all non-typhoidal salmonellosis cases in humans. Similar to *Salmonella* Choleraesuis, serovar Dublin infections in humans were linked to a [higher incidence](https://pubmed.ncbi.nlm.nih.gov/2030643/) of bacteremia (91%), metastatic infections (30%), and mortality rates (26%) compared to other non-typhoidal *Salmonella* serovars. In the U.S., *S.* Dublin is the second most common *Salmonella* serovar among clinical non-human sources.
 
-%20AND%20computed_types:(%22serotype=Dublin%22))
+
 
 ## Genetic Characteristics
 
@@ -31,9 +30,9 @@
 
 | Year | Location | Breed | Number of cases |
 | --- | --- | --- | --- |
-| 2000 | Denmark | *[Mustela vison](https://pmc.ncbi.nlm.nih.gov/articles/PMC1636603/)* | 25 mink and fox farms^1^ |
+| 2000 | Denmark | *[Mustela vison](https://pmc.ncbi.nlm.nih.gov/articles/PMC1636603/)* | 25 mink and fox farms |
 
-^1^ Each farm typically houses around 1,000 breeding females.
+ Each farm typically houses around 1,000 breeding females.
 
 ## Human/Animal Outbreaks
 
@@ -58,12 +57,12 @@
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2020 | France | [Morbier au lait cru](https://webgate.ec.europa.eu/rasff-window/screen/notification/420050)^1^ | Milk and milk products |
-| 2019 | US: multistate | [Ground beef](https://archive.cdc.gov/www_cdc_gov/salmonella/dublin-11-19/index.html)^2^ | Meat and meat products (other than poultry) |
+| 2020 | France | [Morbier au lait cru](https://webgate.ec.europa.eu/rasff-window/screen/notification/420050) | Milk and milk products |
+| 2019 | US: multistate | [Ground beef](https://archive.cdc.gov/www_cdc_gov/salmonella/dublin-11-19/index.html) | Meat and meat products (other than poultry) |
 
-^1^ France issued a press release with a public warning, while Spain announced a withdrawal of the product from the market.
+ France issued a press release with a public warning, while Spain announced a withdrawal of the product from the market.
 
-^2^ Central Valley Meat Co. in Hanford, California, issued a recall of 34,222 pounds of ground beef that may be contaminated with *Salmonella* Dublin. This recall was caused by a multistate outbreak of *Salmonella *Dublin infections linked to ground beef which was described above.
+ Central Valley Meat Co. in Hanford, California, issued a recall of 34,222 pounds of ground beef that may be contaminated with *Salmonella* Dublin. This recall was caused by a multistate outbreak of *Salmonella *Dublin infections linked to ground beef which was described above.
 
 ## References
 

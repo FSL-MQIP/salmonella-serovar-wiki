@@ -1,19 +1,18 @@
 # *S.* Agona
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,4,[5],12:f,g,s:[1,2] |
-    | Serogroup | O:4 (B) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Agona%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,4,[5],12:f,g,s:[1,2]` |
+    | **Serogroup** | O:4 (B) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Agona (antigenic formula 1,4,[5],12:f,g,s:[1,2]) is a serovar of the O:4 (B) serogroup. This serovar was first isolated from cattle in Ghana in[1952](https://pubmed.ncbi.nlm.nih.gov/13902866/). Serovar Agona is the 10th most common nontyphoidal *Salmonella* serotype isolated from human infections in [China](https://www.liebertpub.com/doi/full/10.1089/fpd.2010.0827?casa_token=r5_H4WYgMn0AAAAA%3A5MU6aDnk2JmPoDATaXDvLO7TXqqWkEc57PaWFHA6ef0LkN2mJecTbfXy73ZKQ06d-5LnTu3a6w) and is also among the top 20 most frequently reported *Salmonella* serotypes in [the United States](https://journals.asm.org/doi/10.1128/aem.00591-19#:~:text=Agona%20is%20ranked%20among%20the,and%20different%20animal%2Dbased%20foods).
 
-%20AND%20computed_types:(%22serotype=Agona%22))
+
 
 ## Genetic Characteristics
 
@@ -25,7 +24,7 @@
 
 ## Geographical Distribution
 
- Serovar Agona has been reported [worldwide](https://journals.asm.org/doi/10.1128/aem.00591-19#:~:text=Agona%20is%20ranked%20among%20the,and%20different%20animal%2Dbased%20foods.) such as [the US, the UK, and China](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Agona%22)).
+ Serovar Agona has been reported [worldwide](https://journals.asm.org/doi/10.1128/aem.00591-19#:~:text=Agona%20is%20ranked%20among%20the,and%20different%20animal%2Dbased%20foods.) such as [the US, the UK, and China](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 
@@ -56,12 +55,12 @@
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2017 | France | [Infant formula](https://www.who.int/emergencies/disease-outbreak-news/item/22-december-2017-salmonella-agona-infections-france-en)^1^ | Ultra-processed food |
-| 1998 | US: multistate | [Toasted Oats Cereal](https://www.cdc.gov/mmwr/preview/mmwrhtml/00053368.htm#:~:text=Malt%2DO%2DMeal%20has%20issued,Center%20for%20Infectious%20Diseases%2C%20CDC.)^2^ | Ready-to-Eat food |
+| 2017 | France | [Infant formula](https://www.who.int/emergencies/disease-outbreak-news/item/22-december-2017-salmonella-agona-infections-france-en) | Ultra-processed food |
+| 1998 | US: multistate | [Toasted Oats Cereal](https://www.cdc.gov/mmwr/preview/mmwrhtml/00053368.htm#:~:text=Malt%2DO%2DMeal%20has%20issued,Center%20for%20Infectious%20Diseases%2C%20CDC.) | Ready-to-Eat food |
 
-^1^ This recall was caused by an outbreak of *Salmonella* enterica serovar Agona associated with infant formula products manufactured by the Lactalis Nutrition Sant=C3=A9 group in France.
+ This recall was caused by an outbreak of *Salmonella* enterica serovar Agona associated with infant formula products manufactured by the Lactalis Nutrition Sant=C3=A9 group in France.
 
-^2^ This recall was caused by an multistate outbreak of* Salmonella* serovar Agona infections linked to toasted oats cereal manufactured by Malt-O-Meal.
+ This recall was caused by an multistate outbreak of* Salmonella* serovar Agona infections linked to toasted oats cereal manufactured by Malt-O-Meal.
 
 ## References
 

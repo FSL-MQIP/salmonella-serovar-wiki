@@ -1,16 +1,16 @@
 # *S.* Gallinarum Biovar Gallinarum
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Serogroup | O:9 (D1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Gallinarum%20or%20Enteritidis%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,9,12:-:-` |
+    | **Serogroup** | O:9 (D1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 **Background information:** *Salmonella enterica* subsp. *enterica* serovar Gallinarum (antigenic formula 1,9,12:–:–) is a serovar of the O:9 (D1) serogroup. This serovar has two biovars: Gallinarum, and Pullorum. Biovar Gallinarum has been found to show host specificity for [aquatic birds, and poultry](https://pmc.ncbi.nlm.nih.gov/articles/PMC10812584/#:~:text=Salmonella%20enterica%20subsp.,disease%20(PD)%2C%20respectively) and can cause [fowl typhoid (FT) in birds of any age, often spreading through adult flocks](https://www.microbiologyresearch.org/content/journal/jmm/10.1099/jmm.0.001653?crawler=true#:~:text=Both%20biovars%20cause%20invasive%20and,often%20progresses%20through%20mature%20flocks.). FT can spread through [ingestion, such as contaminated food, water, or cannibalism, as well as through the respiratory system](https://www.cfsph.iastate.edu/Factsheets/pdfs/fowl_typhoid.pdf). [Live attenuated vaccines (SG9R)](https://www.sciencedirect.com/science/article/pii/S1056617119304234#:~:text=Live%20attenuated%20vaccines%20were%20first,except%20for%20the%20SG9R%20strain.) to prevent FT were first created in 1956 with the development of the Gallinarum rough strain. Since serovar Gallinarum relies solely on domestic and aquatic fowl as its reservoir, as a result, the test-and-slaughter approach implemented through surveillance programs successfully eradicated the serovar from commercial poultry flocks in [the United States](https://www.jstor.org/stable/1589326?origin=crossref), [England, and Wales by the 1970s](https://www.cabidigitallibrary.org/doi/pdf/10.5555/20063033929).
 
-In silico serotyping tools used by NCBI PD cannot differentiate between Gallinarum and Enteritidis, nor can they distinguish at the biovar level. Additional genetic features need to be incorporated for accurate serotyping. %20AND%20computed_types:(%22serotype=Gallinarum%20or%20Enteritidis%22))
+In silico serotyping tools used by NCBI PD cannot differentiate between Gallinarum and Enteritidis, nor can they distinguish at the biovar level. Additional genetic features need to be incorporated for accurate serotyping.
 
 ## Genetic Characteristics
 
@@ -30,12 +30,12 @@ Studies have found that isolates from biovar Gallinarum can be multidrug-resista
 
 | Year | Location | Breed | Number of cases |
 | --- | --- | --- | --- |
-| [2014](https://bioone.org/journals/avian-diseases/volume-58/issue-3/10796-021114-Case.1/Fowl-Typhoid-Salmonella-Gallinarum-Outbreak-in-Japanese-Quail-Coturnix-coturnix/10.1637/10796-021114-Case.1.full) | Brazil | Japanese Quail | 222^1^ |
-| [1990](https://www.jstor.org/stable/1592212?seq=3) | Zambia | Layer | 2400^2^ |
+| [2014](https://bioone.org/journals/avian-diseases/volume-58/issue-3/10796-021114-Case.1/Fowl-Typhoid-Salmonella-Gallinarum-Outbreak-in-Japanese-Quail-Coturnix-coturnix/10.1637/10796-021114-Case.1.full) | Brazil | Japanese Quail | 222 |
+| [1990](https://www.jstor.org/stable/1592212?seq=3) | Zambia | Layer | 2400 |
 
-^1^ The flock size is 400, and 222 birds died.
+ The flock size is 400, and 222 birds died.
 
-^2 ^The flock size is 10,000, and 2,400 birds died.
+<sup>2</sup> The flock size is 10,000, and 2,400 birds died.
 
 ## Border Rejections
 

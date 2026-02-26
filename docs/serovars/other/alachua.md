@@ -1,18 +1,18 @@
 # *S.* Alachua
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Serogroup | O:35 (O) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Alachua%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `35:z4,z23:` |
+    | **Serogroup** | O:35 (O) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
 *Salmonella enterica* subsp. *enterica *(antigenic formula 35:z4,z23:–) is a serovar of the O:35 (O) serogroup. This serovar was first isolated from swine in Florida, US, in [1952](https://journals.asm.org/doi/pdf/10.1128/jb.66.1.118-118.1953).
 
-%20AND%20computed_types:(%22serotype=Alachua%22))
+
 
 ## Genetic Characteristics
 
@@ -20,15 +20,15 @@ Serovar Alachua has been found to be [polyphyletic](https://www.frontiersin.org/
 
 ## Animal Reservoir
 
-Serovar Alachua was mainly found in [chicken but was also present in pigs, and turkey](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Alachua%22)).
+Serovar Alachua was mainly found in [chicken but was also present in pigs, and turkey](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Geographical Distribution
 
-**:** Although serovar Alachua has been reported[worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Alachua%22)), it is more frequently found in the countries such as the US, and UK.
+Although serovar Alachua has been reported[worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/), it is more frequently found in the countries such as the US, and UK.
 
 ## Human/Animal Outbreaks
 
-**:**
+
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |

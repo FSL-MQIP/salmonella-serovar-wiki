@@ -1,19 +1,18 @@
 # *S.* Coeln
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,4,[5],12:y:1,2 |
-    | Serogroup | O:4 (B) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Coeln%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,4,[5],12:y:1,2` |
+    | **Serogroup** | O:4 (B) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
- *Salmonella enterica* subsp. *enterica* serovar Coeln (antigenic formula 1,4,[5],12:y:1,2) is a serovar of the O:4 (B) serogroup. This serovar is considered rare and is scarcely associated with human cases; only [32 human salmonellosis cases](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Coeln%22))have been associated with this serovar during the last 10 years in the US. Besides the animal reservoir described below, it has been isolated from [water of coastal rivers](http://aem.asm.org/content/66/4/1544.full) in the western Mediterranean cost. In Spain, serovar Coeln was associated with [one case of acute septic arthritis](https://pubmed.ncbi.nlm.nih.gov/38073261/).
+ *Salmonella enterica* subsp. *enterica* serovar Coeln (antigenic formula 1,4,[5],12:y:1,2) is a serovar of the O:4 (B) serogroup. This serovar is considered rare and is scarcely associated with human cases; only [32 human salmonellosis cases](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) been associated with this serovar during the last 10 years in the US. Besides the animal reservoir described below, it has been isolated from [water of coastal rivers](http://aem.asm.org/content/66/4/1544.full) in the western Mediterranean cost. In Spain, serovar Coeln was associated with [one case of acute septic arthritis](https://pubmed.ncbi.nlm.nih.gov/38073261/).
 
-%20AND%20computed_types:(%22serotype=Coeln%22))
+
 
 ## Genetic Characteristics
 
@@ -25,7 +24,7 @@
 
 ## Geographical Distribution
 
- Serovar Coeln has been mainly described in [Europe](https://food.ec.europa.eu/document/download/bdb7770b-f932-4038-951d-516d63c3690b_en) such as the UK, and Norway but has been also isolated in other [non-European countries](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Coeln%22)) such as US, and Australia.
+ Serovar Coeln has been mainly described in [Europe](https://food.ec.europa.eu/document/download/bdb7770b-f932-4038-951d-516d63c3690b_en) such as the UK, and Norway but has been also isolated in other [non-European countries](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) such as US, and Australia.
 
 ## Human/Animal Outbreaks
 
@@ -40,22 +39,22 @@
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/469459)^1^ | Herbs and spices |
-| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/465236)^2^ | Herbs and spices |
+| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/469459) | Herbs and spices |
+| 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/465236) | Herbs and spices |
 | 2020 | Ukraine | Latvia | [White hen shell eggs](https://webgate.ec.europa.eu/rasff-window/screen/notification/455145) | Eggs and egg products |
 
-^1^ Salmonella Poona, Minnesota, Coeln were found.
+ Salmonella Poona, Minnesota, Coeln were found.
 
-^2^ Salmonella Infantis, Coeln, Bonariensis, Newport, Matadi, Morehead were found.
+ Salmonella Infantis, Coeln, Bonariensis, Newport, Matadi, Morehead were found.
 
 ## Recalls
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
 | 2024 | Lithuania | [Frozen fillets of broiler chickens from Ukraine](https://webgate.ec.europa.eu/rasff-window/screen/notification/721008) | Poultry meat and poultry meat products |
-| 2022 | Latvia | [Chicken thighs from Poland](https://webgate.ec.europa.eu/rasff-window/screen/notification/567419)^1^ | Poultry meat and poultry meat products |
+| 2022 | Latvia | [Chicken thighs from Poland](https://webgate.ec.europa.eu/rasff-window/screen/notification/567419) | Poultry meat and poultry meat products |
 
-^1^ Serovar Coeln were found in 1 out of 5 samples. Official control measures were implemented in the market was issued but no stock remained.
+ Serovar Coeln were found in 1 out of 5 samples. Official control measures were implemented in the market was issued but no stock remained.
 
 ## References
 

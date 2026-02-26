@@ -1,17 +1,17 @@
 # *S.* Goldcoast
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Goldcoast%20or%20Brikama%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,8:r:l,w` |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella* Goldcoast (antigenic formula: 6,8:r:l,w) is a serovar of the O:8 (C2-C3) serogroup. Serovar Goldcoast was isolated for the first time in [Ghana in 1953](http://www.jstor.org/stable/3863217); after the first isolation sporadic cases were identified in Europe. Since [1984-1985](https://www.researchgate.net/publication/375974228_Identification_of_IncA_Plasmid_Harboring_blaVIM-1_Gene_in_S_enterica_Goldcoast_ST358_and_C_freundii_ST62_Isolated_in_a_Hospitalized_Patient), serovar Goldcoast started to be more frequently isolated in Europe. [By 2010](http://www.eurosurveillance.org/ViewArticle.aspx?ArticleId=20424), serovar Goldcoast was reported as the 6^th^ most common serovar in [cattle](http://www.efsa.europa.eu/en/efsajournal/doc/223r.pdf) in Germany, UK and Spain.
 
-NCBI PD cannot differentiate between serovar Goldcoast and Brikama. Therefore, additional markers are needed for further serotyping. %20AND%20computed_types:(%22serotype=Goldcoast%20or%20Brikama%22))
+NCBI PD cannot differentiate between serovar Goldcoast and Brikama. Therefore, additional markers are needed for further serotyping.
 
 ## Genetic Characteristics
 
@@ -44,9 +44,9 @@ NCBI PD cannot differentiate between serovar Goldcoast and Brikama. Therefore, a
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2018 | Europe: multi-country | [Netherlands-imported pork](https://www.foodsafetynews.com/2018/12/belgian-agency-issues-warning-about-meat-linked-to-salmonella-outbreak/)^1^ | Meat and meat products (other than poultry) |
+| 2018 | Europe: multi-country | [Netherlands-imported pork](https://www.foodsafetynews.com/2018/12/belgian-agency-issues-warning-about-meat-linked-to-salmonella-outbreak/) | Meat and meat products (other than poultry) |
 
-^1^ This recall was caused by the Dutch outbreak described above. As well as Belgium, 14 other countries including Austria, Canada, Croatia, Cyprus, Denmark, France, Germany, Greece, Italy, Luxembourg, Poland, Romania, Spain and the United Kingdom received pig meat products.
+ This recall was caused by the Dutch outbreak described above. As well as Belgium, 14 other countries including Austria, Canada, Croatia, Cyprus, Denmark, France, Germany, Greece, Italy, Luxembourg, Poland, Romania, Spain and the United Kingdom received pig meat products.
 
 ## References
 

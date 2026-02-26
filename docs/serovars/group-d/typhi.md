@@ -1,18 +1,18 @@
 # *S.* Typhi
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Serogroup | O:9 (D1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Typhi%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `9,12,[Vi]:d:-` |
+    | **Serogroup** | O:9 (D1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Typhi (antigenic formula: 9,12[Vi]:d:–) is a serovar of the O:9 (D1) serogroup. Serovar Typhi is one of the [typhoidal *Salmonella* serovars](https://pubmed.ncbi.nlm.nih.gov/25208300/) that cause systemic infections (typhoid or enteric fever). In [1880](https://pmc.ncbi.nlm.nih.gov/articles/PMC7706954/), Karl Joseph Eberth became the first to observe *Salmonella* in specimens from typhoid fever patients. The term "typhoid" derives from the Greek "*typh=C5=8Ddes*" (meaning smoke-like or delirious), reflecting the disease's characteristic symptoms. In 1884, Georg Gaffky successfully isolated this bacillus, which subsequently became known as *Salmonella* Typhi. According to [World Health Organization (WHO)](https://www.who.int/news-room/fact-sheets/detail/typhoid#:~:text=As%20of%202019%20estimates%2C%20there,children%20are%20at%20highest%20risk.), as of 2019, approximately 9 million people contract typhoid annually, resulting in around 110,000 deaths. Common symptoms include persistent fever as high as 39-40=C2=B0C (103-104=C2=B0F), fatigue, headache, nausea, abdominal pain, and either constipation or diarrhea. Some individuals may develop a rash, while severe cases can lead to life-threatening complications or death. Although antibiotics such as fluoroquinolones, third-generation cephalosporins, macrolides, and carbapenems are effective for treatment, rising antimicrobial resistance has made managing the disease more challenging. To prevent infection, the typhoid conjugate vaccine (TCV) is recommended for children as young as six months and adults up to 45 or 65 years, depending on the vaccine. Since December 2017, the WHO has prequalified two TCVs, which are now being integrated into childhood immunization programs in typhoid-endemic regions. More specifically, [two TCVs](https://www.cdc.gov/vaccines/hcp/current-vis/typhoid.html) are: an inactivated (killed) vaccine given as an injection and a live, attenuated (weakened) vaccine taken orally. The inactivated vaccine is approved for individuals aged 2 years and older, while the oral vaccine is suitable for those 6 years and older. A healthcare provider can help determine the best option based on individual needs. Although routine typhoid vaccination is not advised in US, it is recommended for travelers visiting regions where typhoid fever is common. [CDC](https://www.cdc.gov/typhoid-fever/about/index.html) stated that each year, an estimated 5,700 typhoid cases and 620 related hospitalizations occur in US, with the majority of infections acquired during international travel.
 
-%20AND%20computed_types:(%22serotype=Typhi%22))
+
 
 ## Genetic Characteristics
 
@@ -42,12 +42,12 @@
 | 2000 | US: NY | [Food handler](https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/216736) | 7 |
 | 1998-1999 | US: FL | [Imported frozen fruit](https://www.jstor.org/stable/30085190?seq=1) | At least 16 |
 | 1998 | France | [Chicken rice](https://pubmed.ncbi.nlm.nih.gov/11092435/) | 27 |
-| 1983 | UK | [Salad](https://pmc.ncbi.nlm.nih.gov/articles/PMC2490935/)^1^ | 32 |
+| 1983 | UK | [Salad](https://pmc.ncbi.nlm.nih.gov/articles/PMC2490935/) | 32 |
 | 1937 | UK | [Water](https://ajph.aphapublications.org/doi/pdf/10.2105/AJPH.28.5.644) | 341 |
 | 1915 | US: NY | [Typhoid Mary](https://ajph.aphapublications.org/doi/10.2105/AJPH.2023.307434) | 25 |
 | 1907 | US: NY | [Typhoid Mary](https://pmc.ncbi.nlm.nih.gov/articles/PMC3959940/) | 22 |
 
-^1^ The outbreak was associated with travel to Kos, Greece.
+ The outbreak was associated with travel to Kos, Greece.
 
 ## Border Rejections
 
@@ -57,9 +57,9 @@
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2010 | US: multistate | [Frozen mamey fruit pulp](https://archive.cdc.gov/www_cdc_gov/salmonella/2010/frozen-fruit-pulp-8-25-10.html#:~:text=Outbreak%20Investigation&text=Among%20interviewed%20ill%20persons%2C%207,brand%20frozen%20mamey%20fruit%20pulp.)^1^ | Fruits and vegetables |
+| 2010 | US: multistate | [Frozen mamey fruit pulp](https://archive.cdc.gov/www_cdc_gov/salmonella/2010/frozen-fruit-pulp-8-25-10.html#:~:text=Outbreak%20Investigation&text=Among%20interviewed%20ill%20persons%2C%207,brand%20frozen%20mamey%20fruit%20pulp.) | Fruits and vegetables |
 
-^1^ This recall was caused by a multistate outbreak described above. Goya Foods, Inc. and Montalvan's Sales, Inc. issued voluntary recalls of their fruit pulp products.
+ This recall was caused by a multistate outbreak described above. Goya Foods, Inc. and Montalvan's Sales, Inc. issued voluntary recalls of their fruit pulp products.
 
 ## References
 

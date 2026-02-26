@@ -1,19 +1,18 @@
 # *S.* Heidelberg
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,4,[5],12:r:1,2 |
-    | Serogroup | O:4 (B) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Heidelberg%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,4,[5],12:r:1,2` |
+    | **Serogroup** | O:4 (B) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
- *Salmonella enterica* subsp. *enterica* serovar Heidelberg (antigenic formula 1,4,[5],12:r:1,2) is a serovar of the O:4 (B) serogroup. *Salmonella* Heidelberg was first identified in [1933 in Heidelberg, Germany](https://scholar.google.com/scholar_lookup?journal=J%20Bacteriol&title=About%20a%20new%20type%20of%20bacteria%20form%20the%20paratyphoid%20enteritis%20group&author=VH%20Habbs&publication_year=1933&pages=367-374&). It was later detected in [the United States for the first time in 1954](https://www.jstor.org/stable/1588278?casa_token=sTneApEGY84AAAAA%3AxCcrraoy6aPu-M6ejq3MtxjBB1MMgP_Z6YwUi4_cVoYN9dHewNuMwxG9EeHAe6ua_dq1zAdT8vyzdTrmZ47-5_6uPGQhzNzzMViPBHNg6yfUnNVpvw&seq=1). In the United States, *Salmonella* Heidelberg ranks as the [third most common](https://pubmed.ncbi.nlm.nih.gov/18757574/) serotype found in retail meat and food animal isolates. It is also among the[top four serotypes](https://journals.asm.org/doi/10.1128/aac.01333-10)isolated from blood samples. Notably, 12%–13% of *Salmonella* Heidelberg infections in [North America](https://wwwnc.cdc.gov/eid/article/16/1/09-0729_article) result in invasive disease, a rate significantly higher than the U.S. average of 7% for all *Salmonella* infections.
+ *Salmonella enterica* subsp. *enterica* serovar Heidelberg (antigenic formula 1,4,[5],12:r:1,2) is a serovar of the O:4 (B) serogroup. *Salmonella* Heidelberg was first identified in [1933 in Heidelberg, Germany](https://scholar.google.com/scholar_lookup?journal=J%20Bacteriol&title=About%20a%20new%20type%20of%20bacteria%20form%20the%20paratyphoid%20enteritis%20group&author=VH%20Habbs&publication_year=1933&pages=367-374&). It was later detected in [the United States for the first time in 1954](https://www.jstor.org/stable/1588278?casa_token=sTneApEGY84AAAAA%3AxCcrraoy6aPu-M6ejq3MtxjBB1MMgP_Z6YwUi4_cVoYN9dHewNuMwxG9EeHAe6ua_dq1zAdT8vyzdTrmZ47-5_6uPGQhzNzzMViPBHNg6yfUnNVpvw&seq=1). In the United States, *Salmonella* Heidelberg ranks as the [third most common](https://pubmed.ncbi.nlm.nih.gov/18757574/) serotype found in retail meat and food animal isolates. It is also among the [top four serotypes](https://journals.asm.org/doi/10.1128/aac.01333-10)isolated from blood samples. Notably, 12%–13% of *Salmonella* Heidelberg infections in [North America](https://wwwnc.cdc.gov/eid/article/16/1/09-0729_article) result in invasive disease, a rate significantly higher than the U.S. average of 7% for all *Salmonella* infections.
 
-%20AND%20computed_types:(%22serotype=Heidelberg%22))
+
 
 ## Genetic Characteristics
 
@@ -23,11 +22,11 @@ Phylogenetic and pan-genomic analyses that included two of the sequenced *S.* He
 
 ## Animal Reservoir
 
-** **[Poultry](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2023.1282832/pdf#:~:text=Salmonella%20enterica%20subspecies%20enterica%20serovar%20Heidelberg%20(Salmonella%20Heidelberg)%20is%20primarily,Clothier%20and%20Byrne%2C%202016).), including chickens and turkeys, are the main reservoirs for serovar Heidelberg. It has also been found in [other animals such as cattle, swine, and dogs](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Heidelberg%22)).
+ [Poultry](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2023.1282832/pdf#:~:text=Salmonella%20enterica%20subspecies%20enterica%20serovar%20Heidelberg%20(Salmonella%20Heidelberg)%20is%20primarily,Clothier%20and%20Byrne%2C%202016), including chickens and turkeys, are the main reservoirs for serovar Heidelberg. It has also been found in [other animals such as cattle, swine, and dogs](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Geographical Distribution
 
- Serovar Heidelberg has been reported [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Heidelberg%22)), mainly in [North America](https://pmc.ncbi.nlm.nih.gov/articles/PMC3768931/).
+ Serovar Heidelberg has been reported [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/), mainly in [North America](https://pmc.ncbi.nlm.nih.gov/articles/PMC3768931/).
 
 ## Human/Animal Outbreaks
 
@@ -55,9 +54,9 @@ Phylogenetic and pan-genomic analyses that included two of the sequenced *S.* He
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2014 | US | [Tyson mechanically separated chicken](https://archive.cdc.gov/www_cdc_gov/salmonella/heidelberg-01-14/advice-institutions.html)^1^ | Poultry meat and poultry meat products |
+| 2014 | US | [Tyson mechanically separated chicken](https://archive.cdc.gov/www_cdc_gov/salmonella/heidelberg-01-14/advice-institutions.html) | Poultry meat and poultry meat products |
 
-^1^ Tyson Foods, Inc. issued a recall of around 33,840 pounds of mechanically separated chicken products due to potential contamination with *Salmonella *Heidelberg. These products were manufactured on October 11, 2013, and distributed exclusively for institutional use across the nation.
+ Tyson Foods, Inc. issued a recall of around 33,840 pounds of mechanically separated chicken products due to potential contamination with *Salmonella *Heidelberg. These products were manufactured on October 11, 2013, and distributed exclusively for institutional use across the nation.
 
 ## References
 

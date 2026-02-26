@@ -1,21 +1,20 @@
 # *S.* Paratyphi B
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,4,[5],12:b:1,2 |
-    | Serogroup | O:4 (B) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Paratyphi%20B%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,4,[5],12:b:1,2` |
+    | **Serogroup** | O:4 (B) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
- *Salmonella enterica* subsp. *enterica* serovar Paratyphi B (antigenic formula 1,4,[5],12:b:1,2) is a serovar of the O:4 (B) serogroup. The classification scheme of serovar Paratyphi B has [changed over time](https://doi.org/10.1038/s41467-024-54418-4) since infections associated with this serovar were first reported in the late 1800s. Serovar Paratyphi B can be classified by its ability to ferment tartrate. Serovar Paratyphi B (tartrate negative) is [associated with paratyphoid fever](https://ndc.services.cdc.gov/case-definitions/salmonella-paratyphi-infection-2019/) and infections with this serovar are not common in the US. Serovar Paratyphi B (tartrate positive), formerly serovar Java, is [associated with gastroenteritis](https://ndc.services.cdc.gov/case-definitions/salmonella-paratyphi-infection-2019/) and can also be written as serovar Paratyphi B var. L(+) tartrate+. Serovar Paratyphi B has also been found in some animals such as [dogs](https://doi.org/10.1111/zph.13174) and in [pet fish tanks](https://pmc.ncbi.nlm.nih.gov/articles/PMC3291456/).
+ *Salmonella enterica* subsp. *enterica* serovar Paratyphi B (antigenic formula 1,4,[5],12:b\:1,2) is a serovar of the O:4 (B) serogroup. The classification scheme of serovar Paratyphi B has [changed over time](https://doi.org/10.1038/s41467-024-54418-4) since infections associated with this serovar were first reported in the late 1800s. Serovar Paratyphi B can be classified by its ability to ferment tartrate. Serovar Paratyphi B (tartrate negative) is [associated with paratyphoid fever](https://ndc.services.cdc.gov/case-definitions/salmonella-paratyphi-infection-2019/) and infections with this serovar are not common in the US. Serovar Paratyphi B (tartrate positive), formerly serovar Java, is [associated with gastroenteritis](https://ndc.services.cdc.gov/case-definitions/salmonella-paratyphi-infection-2019/) and can also be written as serovar Paratyphi B var. L(+) tartrate+. Serovar Paratyphi B has also been found in some animals such as [dogs](https://doi.org/10.1111/zph.13174) and in [pet fish tanks](https://pmc.ncbi.nlm.nih.gov/articles/PMC3291456/).
 
-%20AND%20computed_types:(%22serotype=Paratyphi%20B%22))
 
-%20AND%20computed_types:(%22serotype=Paratyphi%20B%20var.%20L(+)%20tartrate+%22))
+
+
 
 ## Genetic Characteristics
 
@@ -27,7 +26,7 @@ Serovar Paratyphi B has been found to be [polyphyletic](https://www.frontiersin.
 
 ## Geographical Distribution
 
- Serovar Paratyphi B is [widely distributed](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Paratyphi%20B%22)) and had been reported in North America (US, Canada, Mexico), South America (Brazil, Colombia), Europe (UK, France, Denmark), Africa (Nigeria, Zimbabwe), Asia (India, South Korea, Japan), and Australia.
+ Serovar Paratyphi B is [widely distributed](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) and had been reported in North America (US, Canada, Mexico), South America (Brazil, Colombia), Europe (UK, France, Denmark), Africa (Nigeria, Zimbabwe), Asia (India, South Korea, Japan), and Australia.
 
 **Outbreaks:** Several outbreaks have been associated with *S.* Paratyphi B.
 
@@ -41,7 +40,7 @@ Serovar Paratyphi B has been found to be [polyphyletic](https://www.frontiersin.
 
 ## Border Rejections
 
-** **
+ 
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |

@@ -1,19 +1,18 @@
 # *S.* Enteritidis
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,9,12:g,m:- |
-    | Serogroup | O:9 (D1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Enteritidis%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,9,12:g,m:-` |
+    | **Serogroup** | O:9 (D1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
 *Salmonella enterica* subsp. *enterica* serovar Enteritidis (antigenic formula 1,9,12:g,m:- ) is a serovar of the O:9 (D1) serogroup. This serovar is mainly associated with [table eggs and chickens](https://pubmed.ncbi.nlm.nih.gov/19207743/). Eggs can become contaminated either through penetration of the eggshell by *Salmonella *Enteritidis from the colonized gut or contaminated feces during or after oviposition (horizontal transmission). Alternatively, contamination can occur via direct infection of the yolk, albumen, eggshell membranes, or eggshells before oviposition, which results from the infection of reproductive organs with this serovar (vertical transmission). Since the [1990s](https://www.cdc.gov/salmonella/reportspubs/salmonella-atlas/serotype-snapshots.html#:~:text=Salmonella%20Enteritidis%2C%20one%20of%20the,it%20infects%20the%20new%20chick.), infection rates have dropped as the egg industry implemented voluntary controls on egg flocks and consumers have reduced their consumption of raw eggs. However, large outbreaks have still occurred. According to the [World Health Organization](https://www.who.int/news-room/fact-sheets/detail/salmonella-(non-typhoidal)), it is the most common serovar reported from human salmonellosis cases in Europe, North and South America, Africa and Asia.
 
-%20AND%20computed_types:(%22serotype=Enteritidis%22))
+
 
 ## Genetic Characteristics
 
@@ -33,9 +32,9 @@ Numerous Enteritidis outbreaks have been reported and they are mainly associated
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/index.html) | 470^1^ |
+| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/index.html) | 470 |
 | 2018 | US: multistate | [Eggs](https://archive.cdc.gov/www_cdc_gov/salmonella/enteritidis-09-18/index.html) | 44 |
-| 2016 | Europe: multi-country^2^ | [Eggs](https://www.efsa.europa.eu/en/press/news/161027-0#:~:text=Seven%20countries%20have%20reported%20human,Norway%2C%20Sweden%20and%20the%20UK.) | 112^3 ^ |
+| 2016 | Europe: multi-country | [Eggs](https://www.efsa.europa.eu/en/press/news/161027-0#:~:text=Seven%20countries%20have%20reported%20human,Norway%2C%20Sweden%20and%20the%20UK.) | 112<sup>3</sup> |
 | 2012 | US: multistate | [Ground beef](https://archive.cdc.gov/www_cdc_gov/salmonella/enteritidis-07-12/index.html) | 46 |
 | 2012 | US: multistate | [Restaurant chain A](https://archive.cdc.gov/www_cdc_gov/salmonella/restaurant-enteriditis/index.html) | 68 |
 | 2011 | US: multistate | [Turkish pine nuts](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/pine-nuts-11-17-2011.html#:~:text=On%20November%209%2C%202011%2C%20FDA,packed%20in%2022%2Dpound%20boxes.) | 43 |
@@ -45,11 +44,11 @@ Numerous Enteritidis outbreaks have been reported and they are mainly associated
 | 2010 | US: multistate | [Shell - eggs](https://archive.cdc.gov/www_cdc_gov/salmonella/2010/shell-eggs-12-2-10.html#:~:text=Recall%20Information,voluntary%20recall%20of%20shell%20eggs.) | 1,939 |
 | 2010 | Austria | [Eggs](https://pubmed.ncbi.nlm.nih.gov/23164561/) | 66 |
 
-^1^ Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Enteritidis.
+ Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Enteritidis.
 
-^2 ^Belgium, Denmark, Luxembourg, the Netherlands, Norway, Sweden and the UK, and potentially Croatia
+<sup>2</sup> Belgium, Denmark, Luxembourg, the Netherlands, Norway, Sweden and the UK, and potentially Croatia
 
-^3 ^112 confirmed, 148 probable
+<sup>3</sup> 112 confirmed, 148 probable
 
 ## Border Rejections
 
@@ -57,11 +56,11 @@ There are numerous border rejections linked to *Salmonella* Enteritidis. The maj
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
-| 2025 | Poland | Italy | [Frozen duck](https://webgate.ec.europa.eu/rasff-window/screen/notification/745388)^1^ | Poultry meat and poultry meat products |
+| 2025 | Poland | Italy | [Frozen duck](https://webgate.ec.europa.eu/rasff-window/screen/notification/745388) | Poultry meat and poultry meat products |
 | 2024 | Brazil | Netherlands | [Fresh chicken meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/716015) | Poultry meat and poultry meat products |
 | 2019 | Poland | Czech Republic | [Chilled Beef](https://www.foodsafetynews.com/2019/03/czech-republic-refuses-to-budge-on-polish-beef-checks/) | Meat and meat products (other than poultry) |
 
-^1^ *Salmonella* Enteritidis and Newport were both found.
+ *Salmonella* Enteritidis and Newport were both found.
 
 ## Recalls
 

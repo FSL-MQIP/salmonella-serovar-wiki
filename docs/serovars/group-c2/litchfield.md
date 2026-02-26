@@ -1,18 +1,17 @@
 # *S.* Litchfield
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,8:l,v:1,2 |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Litchfield%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,8:l,v:1,2` |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Litchfield (antigenic formula 6,8:l,v:1,2) is a serovar of the O:8 (C2-C3) serogroup. An outbreak linked to poultry (no further details were included in the paper, so this is not described in the human outbreaks section below), caused by serovar Litchfield, showed the[highest proportion](https://pmc.ncbi.nlm.nih.gov/articles/PMC10793259/)of positive isolates in urine samples (17%, or 3 out of 18 cases). Serovar Litchfield has also been reported to cause an outbreak in a [herd of cattle](https://www.cabidigitallibrary.org/doi/full/10.5555/20013036586) with sparrows considered as the most likely vehicle of infection.
 
-%20AND%20computed_types:(%22serotype=Litchfield%22))
+
 
 ## Genetic Characteristics
 
@@ -24,7 +23,7 @@
 
 ## Geographical Distribution
 
- Based on the metadata from NCBI PD, serovar Litchfield has been reported [worldwide but mainly in US](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Litchfield%22)).
+ Based on the metadata from NCBI PD, serovar Litchfield has been reported [worldwide but mainly in US](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 
@@ -33,15 +32,15 @@
 | 2022 | US: multistate | [Raw salmon](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-seafood-october-2022) | 39 |
 | 2019 | Canada | [Italian Style mild, dry, cured sausage](https://www.canada.ca/en/public-health/services/public-health-notices/2019/outbreak-salmonella-sausages.html) | 13 |
 | 2009 | Australia | [Barramundi fillets (suspected)](https://www1.health.gov.au/internet/main/publishing.nsf/Content/cda-cdi3402g.htm) | 76 |
-| 2009 | Spain | [Pet turtles](https://pubmed.ncbi.nlm.nih.gov/22795887/)^1^ | 6 |
+| 2009 | Spain | [Pet turtles](https://pubmed.ncbi.nlm.nih.gov/22795887/) | 6 |
 | 2008 | Canada & US: multistate | [Cantaloupe](https://marlerclark.com/news_events/cantaloupe-salmonella-litchfield-outbreak) | At least 50 |
 | 2006-2007 | Australia | [Papaya](https://pubmed.ncbi.nlm.nih.gov/19517740/) | 26 |
 | 2003 | Australia | [Cucumbers (suspected)](https://web.archive.org/web/20080603015502/http://www.health.gov.au/internet/wcms/publishing.nsf/Content/cda-pubs-cdi-2003-cdi2704-htm-cdi2704k.htm) | 4 |
-| NA | Australia | Waterborne (suspected)^2^ | NA |
+| NA | Australia | Waterborne (suspected) | NA |
 
-^1^ Both *Salmonella* Paratyphi B and Litchfield were involved. The case number does not reflect the number of infections linked to *Salmonella* Litchfield only.
+ Both *Salmonella* Paratyphi B and Litchfield were involved. The case number does not reflect the number of infections linked to *Salmonella* Litchfield only.
 
-^2^ OzFoodNet Outbreak Register. Unpublished data.
+ OzFoodNet Outbreak Register. Unpublished data.
 
 ## Border Rejections
 
@@ -51,12 +50,12 @@
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2022 | US: multistate | [Raw salmon^1^](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-seafood-october-2022) | Fish and fish products |
-| 2019 | Canada | [Italian Style mild, dry, cured sausage](https://www.canada.ca/en/public-health/services/public-health-notices/2019/outbreak-salmonella-sausages.html)^2^ | Meat and meat products (other than poultry) |
+| 2022 | US: multistate | [Raw salmon](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-seafood-october-2022) | Fish and fish products |
+| 2019 | Canada | [Italian Style mild, dry, cured sausage](https://www.canada.ca/en/public-health/services/public-health-notices/2019/outbreak-salmonella-sausages.html) | Meat and meat products (other than poultry) |
 
-^1^ Mariscos Bahia, Inc., based in Pico Rivera, CA, has voluntarily issued a recall. The affected products consist of fresh, raw salmon, as well as all other fresh fish processed in the same facility, including fresh, raw halibut, Chilean seabass, tuna, and swordfish.
+ Mariscos Bahia, Inc., based in Pico Rivera, CA, has voluntarily issued a recall. The affected products consist of fresh, raw salmon, as well as all other fresh fish processed in the same facility, including fresh, raw halibut, Chilean seabass, tuna, and swordfish.
 
-^2^ Canadian Food Inspection Agency issued a recall for Filicetti brand Italian Style mild, dry, cured sausage.
+ Canadian Food Inspection Agency issued a recall for Filicetti brand Italian Style mild, dry, cured sausage.
 
 ## References
 

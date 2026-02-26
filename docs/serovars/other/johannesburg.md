@@ -1,18 +1,18 @@
 # *S.* Johannesburg
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Serogroup | O:40 (R) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Johannesburg%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,40:b:e,n,x` |
+    | **Serogroup** | O:40 (R) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
- *Salmonella enterica* subsp. *enterica* serovar Johannesburg (antigenic formula: 1,40:b:e,n,x) is a serovar of the O:40 (R) serogroup. This serovar was first isolated in[South Africa in 1952](https://www.cabidigitallibrary.org/doi/full/10.5555/19532201465). In a [US study](https://journals.asm.org/doi/10.1128/aem.07015-11), serovar Johannesburg remained the most frequently isolated serotypes of the 9 serotypes detected from chilled final carcasses in pork processing plants. This serovar was reported to cause [septic deep vein thrombosis](https://www.sciencedirect.com/science/article/pii/S016344530090762X?via%3Dihub).
+ *Salmonella enterica* subsp. *enterica* serovar Johannesburg (antigenic formula: 1,40:b\:e,n,x) is a serovar of the O:40 (R) serogroup. This serovar was first isolated in[South Africa in 1952](https://www.cabidigitallibrary.org/doi/full/10.5555/19532201465). In a [US study](https://journals.asm.org/doi/10.1128/aem.07015-11), serovar Johannesburg remained the most frequently isolated serotypes of the 9 serotypes detected from chilled final carcasses in pork processing plants. This serovar was reported to cause [septic deep vein thrombosis](https://www.sciencedirect.com/science/article/pii/S016344530090762X?via%3Dihub).
 
-%20AND%20computed_types:(%22serotype=Johannesburg%22))
+
 
 ## Genetic Characteristics
 
@@ -20,23 +20,23 @@
 
 ## Animal Reservoir
 
- Unknown, [chicken](https://pmc.ncbi.nlm.nih.gov/articles/PMC1320082/) tends to be a potential reservoir for serovar Johannesburg. Based on the NCBI PD metadata, this serovar was also isolated from [other animals such as pigs and cattle](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Johannesburg%22)).
+ Unknown, [chicken](https://pmc.ncbi.nlm.nih.gov/articles/PMC1320082/) tends to be a potential reservoir for serovar Johannesburg. Based on the NCBI PD metadata, this serovar was also isolated from [other animals such as pigs and cattle](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Geographical Distribution
 
- This serovar was considered rare but has still been occasionally reported [worldwide, such as in the US, the UK, and South Africa](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Johannesburg%22)).
+ This serovar was considered rare but has still been occasionally reported [worldwide, such as in the US, the UK, and South Africa](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html)^1^ | 470 |
+| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html) | 470 |
 | 2011 | US: multistate | [Chicks and ducklings](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/chicks-ducklings-10-6-2011.html#:~:text=Outbreak%20Summary&text=The%20first%20was%20an%20outbreak,had%20a%20similar%20geographic%20distribution.) | 28 |
-| 1974 | China: Hong Kong | [Hospital-associated](https://pmc.ncbi.nlm.nih.gov/articles/PMC2129741/)^2^ | 46 |
+| 1974 | China: Hong Kong | [Hospital-associated](https://pmc.ncbi.nlm.nih.gov/articles/PMC2129741/) | 46 |
 
-^1^ *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium were involved.
+ *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium were involved.
 
-^2^ Suspected. No common vehicle could be identified as the source of infection.
+ Suspected. No common vehicle could be identified as the source of infection.
 
 ## Border Rejections
 

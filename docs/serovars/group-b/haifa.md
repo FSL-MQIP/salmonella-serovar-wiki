@@ -1,18 +1,17 @@
 # *S.* Haifa
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,4,[5],12:z10:1,2 |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Haifa%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,4,[5],12:z10:1,2` |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Haifa (antigenic formula 1,4,[5],12:z10:1,2) is a serovar of the group O:4 (B) serogroup. This serovar was first isolated from the feces of a 3-year-old Arabic child with enteritis in [1949 in Israel](https://pmc.ncbi.nlm.nih.gov/articles/PMC385844/). It was linked to a case of fatal food intoxication in [Japan](https://www.jstage.jst.go.jp/article/yoken/58/3/58_JJID.2005.192/_article).
 
-%20AND%20computed_types:(%22serotype=Haifa%22))
+
 
 ## Genetic Characteristics
 
@@ -20,11 +19,11 @@
 
 ## Animal Reservoir
 
- Unknown but serovar Haifa was isolated from [cattle, poultry, and pigs](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Haifa%22)).
+ Unknown but serovar Haifa was isolated from [cattle, poultry, and pigs](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Geographical Distribution
 
- Although serovar Haifa is rare, it has been [occasionally reported worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Haifa%22)).
+ Although serovar Haifa is rare, it has been [occasionally reported worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 

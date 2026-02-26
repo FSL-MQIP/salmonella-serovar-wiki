@@ -4,16 +4,16 @@
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,7:y:1,2 |
-    | Serogroup | O:7(C1) |
+    | **Antigenic Formula** | `6,7:y:1,2` |
+    | **Serogroup** | O:7(C1) |
 
 ## Background Information
 
- *Salmonella enterica* subsp. *enterica* serovar Richmond (antigenic formula 6,7:y:1,2) is a serovar of the O:7(C1) serogroup.^1^ Serovar Richmond has been isolated from turtles, tilapia, moringa leaf powder, aqueducts, onion, fish products, and poultry.^2,3,4,5,6,7,8^
+ *Salmonella enterica* subsp. *enterica* serovar Richmond (antigenic formula 6,7:y:1,2) is a serovar of the O:7(C1) serogroup. Serovar Richmond has been isolated from turtles, tilapia, moringa leaf powder, aqueducts, onion, fish products, and poultry.<sup>2,3,4,5,6,7,8</sup>
 
 ## Genetic Characteristics
 
- Serovar Richmond has displayed multi-drug resistance (AMP/CAZ/CTX/CN/KF/KZ/S/TE/NA).^5 ^
+ Serovar Richmond has displayed multi-drug resistance (AMP/CAZ/CTX/CN/KF/KZ/S/TE/NA).<sup>5</sup>
 
 ## Animal Reservoir
 
@@ -21,14 +21,14 @@
 
 ## Geographical Distribution
 
- Serovar Richmond has been associated with food products from India^9^ and has been found in Europe, Thailand, and Korea.^2,4,5^
+ Serovar Richmond has been associated with food products from India and has been found in Europe, Thailand, and Korea.<sup>2,4,5</sup>
 
 **Outbreaks:** Outbreaks have been associated with *S*. Richmond.
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| [1993](https://pubmed.ncbi.nlm.nih.gov/9542446/) | Spain | Water from an aqueduct that flowed near the camp | 45^2^ |
-| [2025](https://www.cdc.gov/salmonella/outbreaks/supplement-10-25/investigation.html) | United States | Moringa leaf powder | 11^9^ |
+| [1993](https://pubmed.ncbi.nlm.nih.gov/9542446/) | Spain | Water from an aqueduct that flowed near the camp | 45 |
+| [2025](https://www.cdc.gov/salmonella/outbreaks/supplement-10-25/investigation.html) | United States | Moringa leaf powder | 11 |
 
 ## Border Rejections
 

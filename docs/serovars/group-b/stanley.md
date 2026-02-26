@@ -1,18 +1,18 @@
 # *S.* Stanley
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Serogroup | O:4 (B) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Stanley%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,4,[5],12,[27]:d:1,2` |
+    | **Serogroup** | O:4 (B) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella* *enterica *subsp. *enterica *serovar Stanley (antigenic formula: 1,4,[5],12,[27]:d:1,2) is a serovar of the O:4 (B) serogroup. Serovar Stanley is commonly associated with human clinical infections in [Southeast Asia](https://pmc.ncbi.nlm.nih.gov/articles/PMC3295172/), which appears to have spread to Europe. A [study](https://www.liebertpub.com/doi/10.1089/fpd.2008.0245) found that serovar Stanley was the second most prevalent serovar, responsible for 11% of human salmonellosis cases between 2002 and 2007. Its prevalence increased from 1.9% (64 cases) in 1993 to 10.1% (141 cases) in 2003 in Thailand. In Denmark, this serovar ranked fifth among [3,657 confirmed salmonellosis cases](https://pubmed.ncbi.nlm.nih.gov/20470656/) reported to the Statens Serum Institut (SSI) in 2008, with 55% (24 cases) linked to travel, mainly to Thailand. In France, serovar Stanley was the 36th most common strain out of 10,378 human isolates recorded by the Institut Pasteur in 2008. Among 13 French cases with travel history, 38% (5 patients) had visited Southeast Asia shortly before falling ill. Both *Salmonella* Typhimurium and Stanley were the two most common serogroup B *Salmonella* serovars affecting humans between 2004 and 2012 in [Taiwan](https://pubmed.ncbi.nlm.nih.gov/24760078/).
 
-%20AND%20computed_types:(%22serotype=Stanley%22))
+
 
 ## Genetic Characteristics
 
@@ -22,30 +22,30 @@ A [Taiwanese study](https://www.sciencedirect.com/science/article/pii/S014795711
 
 ## Animal Reservoir
 
- [Swine](https://www.sciencedirect.com/science/article/pii/S0167587708001463) is the reservoir of serovar Stanley. According to the metadata from NCBI PD, this serovar was also isolated from other animals such as [fish (*Labeo rohita*), snake (*Naja siamensis*), and frog](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Stanley%22)).
+ [Swine](https://www.sciencedirect.com/science/article/pii/S0167587708001463) is the reservoir of serovar Stanley. According to the metadata from NCBI PD, this serovar was also isolated from other animals such as [fish (*Labeo rohita*), snake (*Naja siamensis*), and frog](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Geographical Distribution
 
- Serovar Stanley has been reported [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Stanley%22)). Serovar Stanley is [endemic in Southeast Asia](https://pmc.ncbi.nlm.nih.gov/articles/PMC3295172/) (especially Thailand) and the Western Pacific region but relatively rare in Europe.
+ Serovar Stanley has been reported [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/). Serovar Stanley is [endemic in Southeast Asia](https://pmc.ncbi.nlm.nih.gov/articles/PMC3295172/) (especially Thailand) and the Western Pacific region but relatively rare in Europe.
 
 ## Human/Animal Outbreaks
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| 2023-2024 | US: multistate | [Small turtle](https://www.cdc.gov/salmonella/outbreaks/turtles-08-24/investigation.html)^1^ | 63 |
+| 2023-2024 | US: multistate | [Small turtle](https://www.cdc.gov/salmonella/outbreaks/turtles-08-24/investigation.html) | 63 |
 | 2020 | US: multistate | [Wood ear mushrooms](https://archive.cdc.gov/www_cdc_gov/salmonella/stanley-09-20/index.html#:~:text=On%20October%201%2C%202020%2C%20the,outbreak%20appears%20to%20be%20over.) | 55 |
 | 2013-2014 | US: multistate | [Raw cashew cheese](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/stanley-01-14/index.html) | 17 |
 | 2011-13 | Europe: multi-country | [Turkey](https://www.ecdc.europa.eu/sites/default/files/media/en/publications/Publications/salmonella-stanley-multi-country-outbreak-assessment-8-May-2014.pdf) | 710 |
 | 2007 | Sweden | [Alfalfa sprouts](https://www.eurosurveillance.org/content/10.2807/esw.12.42.03291-en) | 51 |
 | 2006-07 | Switzerland | [Soft cheese](https://pubmed.ncbi.nlm.nih.gov/18801315/) | 82 |
-| 2004 | Australia | [Unknown](https://www1.health.gov.au/internet/main/publishing.nsf/Content/cda-2004-cdi2804f.htm)^2^ | 33 |
-| 2001 | UK | [Peanuts](https://pubmed.ncbi.nlm.nih.gov/15310157/)^3^ | 109 |
+| 2004 | Australia | [Unknown](https://www1.health.gov.au/internet/main/publishing.nsf/Content/cda-2004-cdi2804f.htm) | 33 |
+| 2001 | UK | [Peanuts](https://pubmed.ncbi.nlm.nih.gov/15310157/) | 109 |
 
-^1^ Of these 63 cases, 48 and 15 people were infected with serovars Stanley and Poona, respectively.
+ Of these 63 cases, 48 and 15 people were infected with serovars Stanley and Poona, respectively.
 
-^2^ Food served at school was most likely to be the vehicle.
+ Food served at school was most likely to be the vehicle.
 
-^3^ Two serovars were involved in this outbreak. Of these 109 cases, 97 and 12 people were infected with serovars Stanley and Newport, respectively.
+ Two serovars were involved in this outbreak. Of these 109 cases, 97 and 12 people were infected with serovars Stanley and Newport, respectively.
 
 ## Border Rejections
 
@@ -56,15 +56,15 @@ A [Taiwanese study](https://www.sciencedirect.com/science/article/pii/S014795711
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
 | 2022 | Finland, Denmark | [Dried fungus from Vietnam, via Netherlands](https://webgate.ec.europa.eu/rasff-window/screen/notification/576700) | Fruits and vegetables |
-| 2020 | US: CA | [Dried fungus](https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wismettac-asian-foods-voluntarily-recalls-dried-fungus-due-potential-salmonella-contamination)^1^ | Fruits and vegetables |
-| 2013 | US: CA | [Raw cashew cheese](https://archive.cdc.gov/#/details?archive_url=https://archive.cdc.gov/www_cdc_gov/salmonella/stanley-01-14/advice-consumers.html)^2^ | Milk and milk products |
-| 2001 | Australia, Canada, UK | [Peanuts](https://pubmed.ncbi.nlm.nih.gov/15310157/)^3^ | Nuts, nut products and seeds |
+| 2020 | US: CA | [Dried fungus](https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wismettac-asian-foods-voluntarily-recalls-dried-fungus-due-potential-salmonella-contamination) | Fruits and vegetables |
+| 2013 | US: CA | [Raw cashew cheese](https://archive.cdc.gov/#/details?archive_url=https://archive.cdc.gov/www_cdc_gov/salmonella/stanley-01-14/advice-consumers.html) | Milk and milk products |
+| 2001 | Australia, Canada, UK | [Peanuts](https://pubmed.ncbi.nlm.nih.gov/15310157/) | Nuts, nut products and seeds |
 
-^1^ This recall was caused by a multistate outbreak described above. On September 23, 2020, Wismettac Asian Foods, Inc., Santa Fe Springs, CA issued a voluntary recall for Shirakiku brand imported dried fungus (aka. Kikurage or Black Fungus).
+ This recall was caused by a multistate outbreak described above. On September 23, 2020, Wismettac Asian Foods, Inc., Santa Fe Springs, CA issued a voluntary recall for Shirakiku brand imported dried fungus (aka. Kikurage or Black Fungus).
 
-^2^ This recall was caused by a multistate outbreak described above. On December 31, 2013, Cultured Kitchen of West Sacramento, California voluntarily issued a recall of all six flavors of its raw cashew cheese.
+ This recall was caused by a multistate outbreak described above. On December 31, 2013, Cultured Kitchen of West Sacramento, California voluntarily issued a recall of all six flavors of its raw cashew cheese.
 
-^3^ This recall was caused by an outbreak described above. Serovar Stanley, Newport, Kottbus, and Lexington were found in tested products.
+ This recall was caused by an outbreak described above. Serovar Stanley, Newport, Kottbus, and Lexington were found in tested products.
 
 ## References
 

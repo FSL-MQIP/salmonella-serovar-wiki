@@ -1,19 +1,18 @@
 # *S.* Rissen
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,7,14:f,g:- |
-    | Serogroup | O:7 (C1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#taxgroup_name:(%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Rissen%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,7,14:f,g:-` |
+    | **Serogroup** | O:7 (C1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica *subsp. *enterica *serovar Rissen (antigenic formula 6,7,14:f,g:-) is a serovar of the O:7 (C1) serogroup. This serovar was first nomenclating by [Rohde & Tiedje](https://catalog.nlm.nih.gov/permalink/01NLM_INST/1o1phhn/alma99218683406676) during early 1960s. In Japan, [Kaneko](https://www.jstage.jst.go.jp/article/kansenshogakuzasshi1970/69/11/69_11_1294/_article) reported the first isolate of *S*. Rissen from patients with sporadic diarrhea was found during the period from April 1985 to December 1994 in Yamanashi Prefecture. Recently, serovar Rissen is the 4th most common nontyphoidal *Salmonella* serovar isolated from human infections in[Thailand](https://www.liebertpub.com/doi/epdf/10.1089/fpd.2008.0245).
 
-%20AND%20computed_types:(%22serotype=Rissen%22))
+
 
 ## Genetic Characteristics
 
@@ -45,25 +44,25 @@
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2024 | Denmark | Finland | [Rapeseed expellers](https://webgate.ec.europa.eu/rasff-window/screen/notification/706351) | Feed materials |
-| 2022 | Spain | Belgium | [Turkey processed animal protein](https://webgate.ec.europa.eu/rasff-window/screen/notification/586640)^1^ | Feed materials |
+| 2022 | Spain | Belgium | [Turkey processed animal protein](https://webgate.ec.europa.eu/rasff-window/screen/notification/586640) | Feed materials |
 | 2022 | Ukraine | Germany | [Sunflower cake](https://webgate.ec.europa.eu/rasff-window/screen/notification/580283) | Feed materials |
 | 2020 | Spain | Switzerland | [Chorizo sausage](https://webgate.ec.europa.eu/rasff-window/screen/notification/454356) | Meat and meat products (other than poultry) |
-| 2020 | Belgium | Austria | [Dog feed](https://webgate.ec.europa.eu/rasff-window/screen/notification/435573)^2^ | Pet food |
+| 2020 | Belgium | Austria | [Dog feed](https://webgate.ec.europa.eu/rasff-window/screen/notification/435573) | Pet food |
 
-^1^ *Salmonella *Rissen and Muenster were found.
+ *Salmonella *Rissen and Muenster were found.
 
-^2^ *Salmonella* Rissen and monophasic Typhimurium were found.
+ *Salmonella* Rissen and monophasic Typhimurium were found.
 
 ## Recalls
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2020 | France | [Fuet](https://www.foodsafetynews.com/2020/10/authorities-act-against-spanish-firm-linked-to-salmonella-outbreak/)^1^ | Food |
-| 2019 | US: multistate | [Pig ears](https://www.foodsafetynews.com/2019/10/after-154-reported-cases-in-34-states-the-pig-ear-salmonella-outbreak-is-over/)^2^ | Pet treats |
+| 2020 | France | [Fuet](https://www.foodsafetynews.com/2020/10/authorities-act-against-spanish-firm-linked-to-salmonella-outbreak/) | Food |
+| 2019 | US: multistate | [Pig ears](https://www.foodsafetynews.com/2019/10/after-154-reported-cases-in-34-states-the-pig-ear-salmonella-outbreak-is-over/) | Pet treats |
 
-^1^ This recall was caused by France to withdraw all fuet with all dates and bearing the mark ES-10.12147/B-CE carried out in various stores across France.
+ This recall was caused by France to withdraw all fuet with all dates and bearing the mark ES-10.12147/B-CE carried out in various stores across France.
 
-^2^ This recall was caused by a multistate human outbreak linked to several *Salmonella* serovars, including Rissen, linked to pig ears treats for dogs.
+ This recall was caused by a multistate human outbreak linked to several *Salmonella* serovars, including Rissen, linked to pig ears treats for dogs.
 
 ## References
 

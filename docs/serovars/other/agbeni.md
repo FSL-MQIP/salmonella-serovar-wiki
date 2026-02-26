@@ -1,19 +1,18 @@
 # *S.* Agbeni
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,13,23:g,m,[s],[t]:- |
-    | Serogroup | O:13 (G) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Agbeni%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,13,23:g,m,[s],[t]:-` |
+    | **Serogroup** | O:13 (G) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Agbeni (antigenic formula 1,13,23:g,m,[s],[t]:-) is a serovar of the O:13 (G) serogroup. In [a US study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10793259/) focusing on multistate outbreaks of nontyphoidal *Salmonella* infections linked to animal contact (2015–2018), an outbreak of serovar Agbeni associated with turtle contact was found to have the highest proportion of isolates from blood (22%; 17/76).
 
-%20AND%20computed_types:(%22serotype=Agbeni%22))
+
 
 ## Genetic Characteristics
 
@@ -21,11 +20,11 @@
 
 ## Animal Reservoir
 
- Serovar Agbeni was found in [cattle, horses, wild boar](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Agbeni%22)), and [dogs](https://onlinelibrary.wiley.com/doi/10.1111/zph.13174).
+ Serovar Agbeni was found in [cattle, horses, wild boar](https://www.ncbi.nlm.nih.gov/pathogens/isolates/), and [dogs](https://onlinelibrary.wiley.com/doi/10.1111/zph.13174).
 
 ## Geographical Distribution
 
- Serovar Agbeni has been reported in [the US, Canada, Europe such as the UK, Ireland, and Norway](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Agbeni%22)).
+ Serovar Agbeni has been reported in [the US, Canada, Europe such as the UK, Ireland, and Norway](https://www.ncbi.nlm.nih.gov/pathogens/isolates/).
 
 ## Human/Animal Outbreaks
 

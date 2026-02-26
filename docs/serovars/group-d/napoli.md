@@ -1,19 +1,18 @@
 # *S.* Napoli
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 1,9,12:l,z13:e,n,x |
-    | Serogroup | O:9 (D1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Napoli%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `1,9,12:l,z13:e,n,x` |
+    | **Serogroup** | O:9 (D1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Napoli (antigenic formula 1,9,12:l,z13:e,n,x) is a serovar of the O:9 (D1) serogroup. In 2006, serovar Napoli ranked [22nd](https://pubmed.ncbi.nlm.nih.gov/19534593/) in the Enter-net* Salmonella* database, accounting for 295 cases (0.28%) out of 105,635 reported across 29 European countries. Between 2000 and 2006, Europe saw a [140%](https://www.liebertpub.com/doi/10.1089/fpd.2008.0206) rise in serovar Napoli infections, with over 87% of cases originating in France, Italy, and Switzerland. This serovar has been an emerging serovar in these three countries, particularly in Italy, where it is the [fourth most frequent](https://www.escaide.eu/sites/default/files/documents/ESCAIDE-2012-abstract-book.pdf) *Salmonella* serovar, responsible for [2-4%](https://www.scielosp.org/article/aiss/2014.v50n1/96-98/) of human infections. Additionally, from 2010 to 2014, serovar Napoli was the leading cause of invasive salmonellosis, affecting [40 out of 687](https://www.liebertpub.com/doi/abs/10.1089/fpd.2016.2206) cases in Italy—a notably higher invasive rate compared to other nontyphoidal serotypes. Although serovar Napoli is a nontyphodial *Salmonella *serovar some of its symptoms, including a prolonged incubation period (7–14 days), [high fever, bacteremia, and elevated rates of hospitalizations](https://www.liebertpub.com/doi/10.1089/fpd.2016.2206?doi=10.1089/fpd.2016.2206), are similar to those caused by typhoidal *Salmonella*. Serovar Napoli has also been frequently isolated from [rucola (rocket salad)](https://pubmed.ncbi.nlm.nih.gov/21561382/).
 
-%20AND%20computed_types:(%22serotype=Napoli%22))
+
 
 ## Genetic Characteristics
 
@@ -27,7 +26,7 @@
 
 ## Geographical Distribution
 
- Serovar Napoli has been reported in [US, Canada, Australia, and Europe, mainly in Italy.](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Napoli%22))
+ Serovar Napoli has been reported in [US, Canada, Australia, and Europe, mainly in Italy.](https://www.ncbi.nlm.nih.gov/pathogens/isolates/)
 
 ## Human/Animal Outbreaks
 
@@ -42,9 +41,9 @@
 
 | Year | Location | Breed | Number of cases |
 | --- | --- | --- | --- |
-| 2022-2023 | Italy | [Holstein Friesian](https://pmc.ncbi.nlm.nih.gov/articles/PMC11718894/) | 4^1^ |
+| 2022-2023 | Italy | [Holstein Friesian](https://pmc.ncbi.nlm.nih.gov/articles/PMC11718894/) | 4 |
 
-^1^ The herd consisted of 310 cows. There were four animals infected: two calves and two milking cows.
+ The herd consisted of 310 cows. There were four animals infected: two calves and two milking cows.
 
 ## Border Rejections
 

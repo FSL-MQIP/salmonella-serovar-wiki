@@ -1,19 +1,18 @@
 # *S.* Virchow
 
-
 !!! info "At a Glance"
 
     | | |
     |---|---|
-    | Antigenic Formula | 6,7,14:r:1,2 |
-    | Serogroup | O:7 (C1) |
-    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Virchow%22)) {:target="_blank"} |
+    | **Antigenic Formula** | `6,7,14:r:1,2` |
+    | **Serogroup** | O:7 (C1) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Virchow (antigenic formula 6,7,14:r:1,2) is a serovar of the O:7 (C1) serogroup. Serovar Virchow was first isolated from a patient with a typhoid-like illness in [1930](https://link.springer.com/article/10.1007/BF02183778) by Kaufmann. This serovar has been reported to infect a infant that was [transmitted by the household dogs](https://www.jstage.jst.go.jp/article/jvms/62/7/62_7_767/_pdf). The ranking of serovar Virchow compared to other *Salmonella* serovars ranged from 4th to 8th place in [Switzerland](https://pmc.ncbi.nlm.nih.gov/articles/PMC3050727/). Annual incidence rates demonstrated minor change during this period, declining from 0.45 per 100,000 people in 2004 to 0.40 per 100,000 in 2009. Children under 5 years of age showed a [seven times higher](https://pmc.ncbi.nlm.nih.gov/articles/PMC3050727/) *Salmonella* Virchow infection rate compared to those above 5 years. In South-East Asia, Europe, and Oceania, serovar Virchow is consistently found within the [top 20](https://www.liebertpub.com/doi/10.1089/fpd.2010.0787?doi=10.1089%2Ffpd.2010.0787) *Salmonella* serovars. Most often,* *serovar Virchow infection causes gastrointestinal illness, however, in [Israel](https://www.sciencedirect.com/science/article/pii/S1198743X14620309#bib14) and [other countries including US](https://academic.oup.com/jid/article-abstract/198/1/109/840110?redirectedFrom=fulltext), human infections occur infrequently but demonstrate a high propensity for invasive manifestations.
 
-%20AND%20computed_types:(%22serotype=Virchow%22))
+
 
 ## Genetic Characteristics
 
@@ -29,49 +28,48 @@ In an *[in-vivo study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4668861/#B15)*, 
 
 ## Geographical Distribution
 
- According to the metadata from NCBI PD, serovar Virchow has been reported in [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Virchow%22)). In [Scotland](https://pubmed.ncbi.nlm.nih.gov/6867700/), serovar Virchow represented almost 25% of confirmed human salmonellosis cases, while in [England and Wales](https://pmc.ncbi.nlm.nih.gov/articles/PMC2235368/), it was the third most common *Salmonella* serotype in humans, comprising 6% of isolates. However, its prevalence has significantly decreased, now accounting for less than 2% of non-typhoidal *Salmonella* (NTS) cases in the [UK](https://www.jstor.org/stable/45161822). In [Australia](https://pubmed.ncbi.nlm.nih.gov/9812398/), especially Queensland, serovar Virchow has been endemic since the mid-1980s.
+ According to the metadata from NCBI PD, serovar Virchow has been reported in [worldwide](https://www.ncbi.nlm.nih.gov/pathogens/isolates/). In [Scotland](https://pubmed.ncbi.nlm.nih.gov/6867700/), serovar Virchow represented almost 25% of confirmed human salmonellosis cases, while in [England and Wales](https://pmc.ncbi.nlm.nih.gov/articles/PMC2235368/), it was the third most common *Salmonella* serotype in humans, comprising 6% of isolates. However, its prevalence has significantly decreased, now accounting for less than 2% of non-typhoidal *Salmonella* (NTS) cases in the [UK](https://www.jstor.org/stable/45161822). In [Australia](https://pubmed.ncbi.nlm.nih.gov/9812398/), especially Queensland, serovar Virchow has been endemic since the mid-1980s.
 
 ## Human/Animal Outbreaks
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| 2017-2023 | Multiple countries | [Kebab meat containing chicken](https://www.ecdc.europa.eu/en/publications-data/salmonella-virchow-st16-chicken-meat) | 210^1^ |
+| 2017-2023 | Multiple countries | [Kebab meat containing chicken](https://www.ecdc.europa.eu/en/publications-data/salmonella-virchow-st16-chicken-meat) | 210 |
 | 2016 | US: multistate | [Organic meal & shake powder](https://archive.cdc.gov/www_cdc_gov/salmonella/virchow-02-16/index.html) | 33 |
-| 2012 | US: WA | [Undetermined](https://www.marlerblog.com/legal-cases/largest-salmonella-outbreak-in-washington-2012-on-the-border/) | At least 120^2^ |
+| 2012 | US: WA | [Undetermined](https://www.marlerblog.com/legal-cases/largest-salmonella-outbreak-in-washington-2012-on-the-border/) | At least 120 |
 | 1994 | Spain | [Infant formula](https://www.makefoodsafe.com/infant-formula-and-salmonella/) | 48 |
-| 1994 | UK | [Turkey sandwiches](https://www.journalofhospitalinfection.com/article/S0195-6701(99)90712-0/abstract) | 11^3^ |
+| 1994 | UK | [Turkey sandwiches](https://www.journalofhospitalinfection.com/article/S0195-6701(99)90712-0/abstract) | 11 |
 | 1968 | UK | [Spit-roasted chicken](https://pubmed.ncbi.nlm.nih.gov/5750404/) | Over 160 |
 
-^1^ *Salmonella* Virchow ST16 is the outbreak strain. In total, 210 cases have been reported across several countries, including Denmark (2), France (111), Germany (26), Ireland (4), the Netherlands (34), the UK (32), and the US (1).
+ *Salmonella* Virchow ST16 is the outbreak strain. In total, 210 cases have been reported across several countries, including Denmark (2), France (111), Germany (26), Ireland (4), the Netherlands (34), the UK (32), and the US (1).
 
-^2^ Among these cases, 43 were laboratory-confirmed, while 77 others showed symptoms and had a matching exposure history at the restaurant.
+ Among these cases, 43 were laboratory-confirmed, while 77 others showed symptoms and had a matching exposure history at the restaurant.
 
-^3^ These cases were confirmed to get infected by *Salmonella* Virchow, phage type 26.
+ These cases were confirmed to get infected by *Salmonella* Virchow, phage type 26.
 
 ## Border Rejections
 
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2021 | India | Germany | [Dog chews (dried tripes)](https://webgate.ec.europa.eu/rasff-window/screen/notification/465794) | Pet food |
-| 2020 | Poland | Italy | [Frozen marinated chicken fillets](https://webgate.ec.europa.eu/rasff-window/screen/notification/438516)^1^ | Poultry meat and poultry meat products |
+| 2020 | Poland | Italy | [Frozen marinated chicken fillets](https://webgate.ec.europa.eu/rasff-window/screen/notification/438516) | Poultry meat and poultry meat products |
 
-^1^ *Salmonella* Enteritidis, Newport, and Virchow were found.
+ *Salmonella* Enteritidis, Newport, and Virchow were found.
 
 ## Recalls
 
- Recalls** **have been associated with *S.* Virchow.**
-**
+ Recalls have been associated with *S.* Virchow. 
 
 | Year | Location | Recalled Product | Type |
 | --- | --- | --- | --- |
-| 2023 | Europe: multi-country^1^ | [Frozen lime leaves](https://webgate.ec.europa.eu/rasff-window/screen/notification/640654)^2^ | Fruits and vegetables |
-| 2016 | US: multistate | [Meal replacement](https://www.foodsafetynews.com/2016/03/outbreak-grows-garden-of-life-renames-recalled-protein-powder/#.Vx5kyUY5X4Y)^3^ | Other food product / mixed |
+| 2023 | Europe: multi-country | [Frozen lime leaves](https://webgate.ec.europa.eu/rasff-window/screen/notification/640654) | Fruits and vegetables |
+| 2016 | US: multistate | [Meal replacement](https://www.foodsafetynews.com/2016/03/outbreak-grows-garden-of-life-renames-recalled-protein-powder/#.Vx5kyUY5X4Y) | Other food product / mixed |
 
-^1^ Ireland, Croatia, and Hungary issued recalls.
+ Ireland, Croatia, and Hungary issued recalls.
 
-^2^ Frozen lime leaves were from Thailand via Netherlands.
+ Frozen lime leaves were from Thailand via Netherlands.
 
-^3^ This recall was caused by a multistate outbreak described above. Garden of Life, LLC extended its recall of RAW Meal Organic Shake & Meal chocolate, original, vanilla, and vanilla chai products on February 12, 2016, adding more lots to the list.
+ This recall was caused by a multistate outbreak described above. Garden of Life, LLC extended its recall of RAW Meal Organic Shake & Meal chocolate, original, vanilla, and vanilla chai products on February 12, 2016, adding more lots to the list.
 
 ## References
 
