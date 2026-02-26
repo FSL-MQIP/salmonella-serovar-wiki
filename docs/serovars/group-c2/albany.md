@@ -12,7 +12,8 @@
 
 *Salmonella enterica* subsp. *enterica* serovar Albany (antigenic formula 8,20:z<sub>4</sub>,z<sub>24</sub>:-) is a serovar of the O:8 (C<sub>2</sub>-C<sub>3</sub>) serogroup.
 
-NCBI PD cannot differentiate between serovar Albany and serovar Duesseldorf; additional genetic markers are required for *in silico* serotyping of serovar Albany. The link is still provided: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Albany%20or%20Duesseldorf%22)](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Albany%20or%20Duesseldorf%22)>)
+!!! note "NCBI Pathogen Detection"
+    NCBI PD cannot differentiate between serovar Albany and serovar Duesseldorf; additional genetic markers are required for *in silico* serotyping of serovar Albany.
 
 ## Genetic Characteristics
 

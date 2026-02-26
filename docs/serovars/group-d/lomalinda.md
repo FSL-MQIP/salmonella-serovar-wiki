@@ -12,8 +12,6 @@
 
 *Salmonella enterica* subsp. *enterica* serovar Lomalinda (antigenic formula 1,9,12:​a:e,n,x) is a serovar of the O:9 (D<sub>1</sub>) serogroup. This serovar was first isolated from the spinal fluid of a baby that [died of meningitis in 1944](https://doi.org/10.3181/00379727-57-14714) in Loma Linda, California, US.
 
-NCBI PD Serovar Link for serovar Lomalinda: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Lomalinda%22)](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Lomalinda%22)>)
-
 ## Genetic Characteristics
 
 Serovar Lomalinda has been found to be [polyphyletic](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full#h10) with two lineages identified. [Stanley et al.](https://www.microbiologyresearch.org/content/journal/jmm/10.1099/00222615-41-2-112) reported the presence of virulence plasmids carrying *spvBC* in serovar Lomalinda.
