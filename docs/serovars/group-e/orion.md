@@ -1,11 +1,18 @@
 # *S.* Orion
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Serogroup | O:3,10 (E1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Orion%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Orion (antigenic formula 3,{10}{15}{15,34}:y:1,5) is a serovar of the O:3,10 (E1) serogroup. This serovar was first identified in [1945](https://journals.asm.org/doi/10.1128/jb.50.5.577-578.1945?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub++0pubmed) from a rectal swab sample taken from a man in US. [McAuley et al.](https://www.sciencedirect.com/science/article/pii/S0362028X2209593X) found that serovar Orion was the most prevalent *Salmonella* serovar and was potentially endemic to seven dairy farms in Australia.
 
-NCBI PD link for serovar Orion: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Orion%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Orion%22))
+%20AND%20computed_types:(%22serotype=Orion%22))
 
 ## Genetic Characteristics
 
@@ -31,7 +38,7 @@ NCBI PD link for serovar Orion: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2022 | Uganda | Germany | [Organic sesame seeds](https://webgate.ec.europa.eu/rasff-window/screen/notification/575409) | Nuts, nut products and seeds |
 
@@ -46,7 +53,7 @@ NCBI PD link for serovar Orion: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
 ^2^ This recall was caused by a multi-country outbreak described above. *Salmonella* Orion and group E serovars were found.
 
-## Relevant Links
+## References
 
 1. [https://journals.asm.org/doi/10.1128/jb.50.5.577-578.1945?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub++0pubmed](https://journals.asm.org/doi/10.1128/jb.50.5.577-578.1945?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub++0pubmed)
 2. [https://www.sciencedirect.com/science/article/pii/S0362028X2209593X](https://www.sciencedirect.com/science/article/pii/S0362028X2209593X)

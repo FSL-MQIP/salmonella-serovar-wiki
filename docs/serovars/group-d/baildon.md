@@ -1,9 +1,17 @@
 # *S.* Baildon
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 9,46:a:e,n,x |
+    | Serogroup | O:9,46 (D2) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Baildon%22)) {:target="_blank"} |
+
 **Background information:** *Salmonella enterica* subsp. *enterica* serovar Baildon (antigenic formula 9,46:a:e,n,x) is a serovar of the O:9,46 (D2) serogroup. Over the past five years, serovar Baildon has represented [fewer than 1%](https://pubmed.ncbi.nlm.nih.gov/39297648/) of reported salmonellosis cases in the United States.
 
-NCBI PD link for serovar Baildon: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Baildon%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Baildon%22))
+%20AND%20computed_types:(%22serotype=Baildon%22))
 
 ## Genetic Characteristics
 
@@ -34,7 +42,7 @@ Serovar Baildon has been found to be [paraphyletic](https://www.frontiersin.org/
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://pubmed.ncbi.nlm.nih.gov/39297648/](https://pubmed.ncbi.nlm.nih.gov/39297648/)
 2. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full)

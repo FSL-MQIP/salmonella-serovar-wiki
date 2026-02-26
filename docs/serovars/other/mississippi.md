@@ -1,11 +1,19 @@
 # *S.* Mississippi
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 1,13,23:b:1,5 |
+    | Serogroup | O:13 (G) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Mississippi%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Mississippi (antigenic formula 1,13,23:b:1,5) is a serovar of the O:13 (G) serogroup. This serovar was initially identified in [1943](https://journals.sagepub.com/doi/abs/10.3181/00379727-54-14395) after being isolated from a food handler's stool sample in Mississippi, US. In the US, serovar Mississippi ranked as the [14th most prevalent serovar](https://stacks.cdc.gov/view/cdc/152398/cdc_152398_DS1.pdf) in human clinical cases in 2016, whereas in Tasmania, it is the [second most common](https://journals.asm.org/doi/10.1128/aac.02012-17), responsible for 37% of all nontyphoidal salmonellosis cases in the state. In Australia, exposure to [contaminated drinking water](https://wwwnc.cdc.gov/eid/article/25/9/18-1811_article) and [wildlife contact](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/salmonella-mississippi-infections-in-tasmania-the-role-of-native-australian-animals-and-untreated-drinking-water/195BDF776A0BCE5D88A798AB59C0D4F1) have been documented as transmission routes for serovar Mississippi infections, while in US, the infections are primarily linked to [animal contact](https://pmc.ncbi.nlm.nih.gov/articles/PMC7168582/). Chui et al. reported a case of [left renal abscess and gram-negative sepsis](https://www.sciencedirect.com/science/article/pii/S2214442022002091) associated with *Salmonella *Mississippi infection.
 
-NCBI PD link for serovar Mississippi: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Mississippi%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Mississippi%22))
+%20AND%20computed_types:(%22serotype=Mississippi%22))
 
 ## Genetic Characteristics
 
@@ -21,7 +29,7 @@ NCBI PD link for serovar Mississippi: [https://www.ncbi.nlm.nih.gov/pathogens/is
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2022 | US | [Unknown](https://www.foodsafetynews.com/2022/08/fda-reports-new-outbreak-of-salmonella-infections-source-of-pathogen-unknown/) | At least 99 |
 
@@ -33,7 +41,7 @@ NCBI PD link for serovar Mississippi: [https://www.ncbi.nlm.nih.gov/pathogens/is
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://journals.sagepub.com/doi/abs/10.3181/00379727-54-14395](https://journals.sagepub.com/doi/abs/10.3181/00379727-54-14395)
 2. [https://pmc.ncbi.nlm.nih.gov/articles/PMC8550085/](https://pmc.ncbi.nlm.nih.gov/articles/PMC8550085/)

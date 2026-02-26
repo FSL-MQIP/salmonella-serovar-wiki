@@ -1,11 +1,19 @@
 # *S.* Carrau
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,14,[24]:y:1,7 |
+    | Serogroup | O:6,14 (H) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Carrau%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Carrau (antigenic formula 6,14,[24]:y:1,7) is a serovar of the O:6,14 (H) serogroup. This serovar was first isolated from the glands of pigs, in [1936](https://journals.asm.org/doi/10.1128/jb.47.4.323-326.1944?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) in Uruguay. Serovar Carrau was considered a rare serotype and was found to cause [septicemia](https://www.researchgate.net/publication/288172765_Salmonella_carrau_septicemia_in_a_South_American_river_turtle_Podocnemis_expansa) in turtles.
 
-NCBI PD link for serovar Carrau: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Carrau%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Carrau%22))
+%20AND%20computed_types:(%22serotype=Carrau%22))
 
 ## Genetic Characteristics
 
@@ -21,7 +29,7 @@ NCBI PD link for serovar Carrau: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2019 | US: multistate | [Pre-cut melons](https://www.cdc.gov/salmonella/carrau-04-19/index.html) | 137 |
 
@@ -37,7 +45,7 @@ NCBI PD link for serovar Carrau: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
 ^1^ This recall was resulted by a multistate outbreak described above. Caito Foods LLC recalled pre-cut watermelon, cantaloupe, honeydew melon, and pre-cut fruit medley products.
 
-## Relevant Links
+## References
 
 1. [https://journals.asm.org/doi/10.1128/jb.47.4.323-326.1944?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed](https://journals.asm.org/doi/10.1128/jb.47.4.323-326.1944?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
 2. [https://pubmed.ncbi.nlm.nih.gov/20883500/](https://pubmed.ncbi.nlm.nih.gov/20883500/)

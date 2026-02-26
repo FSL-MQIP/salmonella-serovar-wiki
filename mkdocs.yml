@@ -8,6 +8,7 @@ repo_name: FSL-MQIP/salmonella-serovar-wiki
 
 theme:
   name: material
+  language: en
   palette:
     - scheme: default
       primary: teal
@@ -27,9 +28,10 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-    - navigation.expand
+    - navigation.path
     - navigation.top
     - navigation.indexes
+    - navigation.footer
     - search.suggest
     - search.highlight
     - search.share
@@ -40,6 +42,10 @@ theme:
 
 plugins:
   - search
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: true
+      fallback_to_build_date: true
 
 markdown_extensions:
   - tables

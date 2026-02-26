@@ -1,9 +1,17 @@
 # *S.* Umbilo
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 28:z10:e,n,x |
+    | Serogroup | O:28 (M) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Umbilo%22)) {:target="_blank"} |
+
 **Background information:** *Salmonella enterica* subsp. *enterica* serovar Umbilo (antigenic formula 28:z10:e,n,x) is a serovar of the O:28 (M) serogroup. Serovar Umbilo is typically rare, with the [ECDC](https://www.ecdc.europa.eu/en/surveillance-atlas-infectious-diseases) recording 20 to 32 cases annually in the European Union/European Economic Area (including the United Kingdom until 2019) over the past decade (2014=E2=88=922023). Public Health England found this serovar in [curry leaves](https://www.eurlsalmonella.eu/sites/default/files/2019-06/4%20Marie%20Salmonella%20contamination%20of%20%28imported%29fresh%20edible%20leaves%20190528_0.pdf). In 2001, serovar Umbilo was found in [organic rocket salad and pre-packaged ready-to-eat salads](https://www.sciencedirect.com/science/article/pii/S0362028X2203071X?via%3Dihub)from an Italian producer in the UK, though it was not associated with any human infections.
 
-NCBI PD link for serovar Umbilo: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Umbilo%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Umbilo%22))
+%20AND%20computed_types:(%22serotype=Umbilo%22))
 
 ## Genetic Characteristics
 
@@ -27,7 +35,7 @@ NCBI PD link for serovar Umbilo: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | [2024](https://webgate.ec.europa.eu/rasff-window/screen/notification/716987) | Italy | Germany | Organic leaf spinach | Fruits and vegetables |
 
@@ -35,7 +43,7 @@ NCBI PD link for serovar Umbilo: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. https://www.eurlsalmonella.eu/sites/default/files/2019-06/4%20Marie%20Salmonella%20contamination%20of%20%28imported%29fresh%20edible%20leaves%20190528_0.pdf
 2. [https://pubmed.ncbi.nlm.nih.gov/31749479/](https://pubmed.ncbi.nlm.nih.gov/31749479/)

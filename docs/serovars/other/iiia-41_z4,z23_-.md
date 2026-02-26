@@ -1,11 +1,15 @@
 # *S.* IIIa 41:z4,z23:-
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 41:z4,z23:- |
+    | Serogroup | O:41 (S) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *arizonae* serovar 41:z4,z23:- (antigenic formula 41:z4,z23:-) is a serovar of the O:41 (S) serogroup. *Salmonella enterica* subsp. *arizonae *is associated with [reptiles](https://www.sciencedirect.com/science/article/pii/S0944501317304159). Interestingly, all *Salmonella enterica* subsp. *arizonae* serovars are [monophasic](https://www.pasteur.fr/sites/default/files/veng_0.pdf), retaining only a phase 1 H antigen. Although several papers describe *Salmonella enterica* subsp. *arizonae*, they do not provide sufficient information at the serovar level. For instance, [Mahajan et al](https://pmc.ncbi.nlm.nih.gov/articles/PMC309002/#r5). reported a fatal case of *Salmonella enterica* subsp. *arizonae* gastroenteritis in an infant with microcephaly; however, they only mentioned the isolation of *S. enterica* subsp. *arizonae* without specifying the serovar. As a result, we cannot include this information in our Wiki. In the US, among non-subsp. *enterica* serovars, both [serovar IIIa 18:z4,z23:- and IIIa 41:z4,z23:-](https://stacks.cdc.gov/view/cdc/152398/cdc_152398_DS1.pdf)are most frequently linked to human illness, with each serovar contributing to 10–20 cases annually. A study focus on Occurrence and Distribution of Serotypes of the Arizona Subgroup of Salmonella Strains in the United States from 1967 to 1976 and among 12 IIIa 41:z4,z23:- isolates, 6 are intestinal while the rest 6 are extraintestinal. A [study](https://journals.asm.org/doi/pdf/10.1128/jcm.23.6.1056-1064.1986) focusing on the occurrence and distribution of serotypes within the arizonae subgroup of *Salmonella* strains in the United States from 1967 to 1976 reported that, among 12 IIIa 41:z4,z23:- isolates they found, 6 were intestinal and the remaining 6 were extraintestinal.
-
-NCBI PD link for serovar IIIa 41:z4,z23:-: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=IIIa%2041:z4,z23:-%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=IIIa%2041:z4,z23:-%22))
 
 ## Genetic Characteristics
 
@@ -31,7 +35,7 @@ Serovar IIIa 41:z4,z23:- has been found to be [polyphyletic](https://www.frontie
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://www.sciencedirect.com/science/article/pii/S0944501317304159](https://www.sciencedirect.com/science/article/pii/S0944501317304159)
 2. chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.pasteur.fr/sites/default/files/veng_0.pdf

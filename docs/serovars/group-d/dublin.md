@@ -1,11 +1,19 @@
 # *S.* Dublin
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 1,9,12[Vi]:g,p:- |
+    | Serogroup | O:9 (D1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Dublin%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Dublin (antigenic formula 1,9,12[Vi]:g,p:-) is a serovar of the O:9 (D1) serogroup. Serovar Dublin is a serovar [adapted to cattle](https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2023.1331767/full), which is the primary host, but it can also infect and cause disease in different hosts, including humans. In cattle, serovar Dublin causes acute and subclinical disease; symptoms of salmonellosis in cattle include: fever, diarrhea, abortions, respiratory signs (especially in calves), and systemic disease, thus making serovar Dublin an important economic concern in the bovine industry. Serovar Dublin is a zoonosis that causes one of the [highest rates of systemic disease](https://wwwnc.cdc.gov/eid/article/23/9/17-0136_article)among all non-typhoidal salmonellosis cases in humans. Similar to *Salmonella* Choleraesuis, serovar Dublin infections in humans were linked to a [higher incidence](https://pubmed.ncbi.nlm.nih.gov/2030643/) of bacteremia (91%), metastatic infections (30%), and mortality rates (26%) compared to other non-typhoidal *Salmonella* serovars. In the U.S., *S.* Dublin is the second most common *Salmonella* serovar among clinical non-human sources.
 
-NCBI PD link for serovar Dublin: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Dublin%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Dublin%22))
+%20AND%20computed_types:(%22serotype=Dublin%22))
 
 ## Genetic Characteristics
 
@@ -31,7 +39,7 @@ NCBI PD link for serovar Dublin: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
  Several reports of outbreaks associated with *Salmonella* Dublin in humans have been documented. These outbreaks are primarily linked to the consumption of raw milk or products made from raw milk. Below are examples.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2019 | US: multistate | [Ground beef](https://archive.cdc.gov/www_cdc_gov/salmonella/dublin-11-19/index.html) | 13 |
 | 2015-2016 | France | [Raw-milk cheese](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2019.24.3.1700703) | 83 |
@@ -40,7 +48,7 @@ NCBI PD link for serovar Dublin: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2023 | Italy | Finland | [Frozen beef patties](https://webgate.ec.europa.eu/rasff-window/screen/notification/599940) | Meat and meat products (other than poultry) |
 | 2023 | Poland | Estonia | [Frozen beef brisket](https://webgate.ec.europa.eu/rasff-window/screen/notification/594249) | Meat and meat products (other than poultry) |
@@ -57,7 +65,7 @@ NCBI PD link for serovar Dublin: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
 ^2^ Central Valley Meat Co. in Hanford, California, issued a recall of 34,222 pounds of ground beef that may be contaminated with *Salmonella* Dublin. This recall was caused by a multistate outbreak of *Salmonella *Dublin infections linked to ground beef which was described above.
 
-## Relevant Links
+## References
 
 1. [https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2023.1331767/full](https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2023.1331767/full)
 2. [https://wwwnc.cdc.gov/eid/article/23/9/17-0136_article](https://wwwnc.cdc.gov/eid/article/23/9/17-0136_article)

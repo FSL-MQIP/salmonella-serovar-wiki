@@ -1,11 +1,19 @@
 # *S.* Agama
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 4,12:i:1,6 |
+    | Serogroup | O:4 (B) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Agama%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Agama (antigenic formula 4,12:i:1,6) is a serovar of the O:4 (B) serogroup. [In 1956](https://www.nature.com/articles/179164b0), serovar Agama was identified as a new serotype of *Salmonella enterica*, isolated from the feces of the agama lizard (*Agama agama*) in Nigeria. The[first travel-related case](https://pmc.ncbi.nlm.nih.gov/articles/PMC2738453/)of salmonellosis caused by serovar Agama involved a tourist who had visited Gabon in Central Africa. Serovar Agama has been reported to cause [neonatal meningitis and septicaemia](https://pubmed.ncbi.nlm.nih.gov/26255922/).
 
-NCBI PD link for serovar Agama: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Agama%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Agama%22))
+%20AND%20computed_types:(%22serotype=Agama%22))
 
 ## Genetic Characteristics
 
@@ -25,7 +33,7 @@ There have been no recent human outbreaks linked to this serovar.
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2019 | Nigeria | Germany | Sesame seeds | Nuts, nut products and seeds |
 
@@ -33,7 +41,7 @@ There have been no recent human outbreaks linked to this serovar.
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://www.nature.com/articles/179164b0](https://www.nature.com/articles/179164b0)
 2. [https://pmc.ncbi.nlm.nih.gov/articles/PMC2738453/](https://pmc.ncbi.nlm.nih.gov/articles/PMC2738453/)

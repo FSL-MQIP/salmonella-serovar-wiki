@@ -1,11 +1,19 @@
 # *S.* Minnesota
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 21:b:e,n,x |
+    | Serogroup | O:21 (L) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Minnesota%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Minnesota (antigenic formula 21:b:e,n,x) is a serovar of the O:21 (L) serogroup. Serovar Minnesota was first isolated in [1936 in a Minnesota turkey farm (US)](https://pubmed.ncbi.nlm.nih.gov/20475465/). A strikingly high prevalence (86.6%) of serovar Minnesota was detected across multiple poultry farms in [Brazil's Center-West region around 2010](https://www.sciencedirect.com/science/article/pii/S0032579119385906?via%3Dihub).
 
-NCBI PD link for serovar Minnesota: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Minnesota%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Minnesota%22))
+%20AND%20computed_types:(%22serotype=Minnesota%22))
 
 ## Genetic Characteristics
 
@@ -25,7 +33,7 @@ NCBI PD link for serovar Minnesota: [https://www.ncbi.nlm.nih.gov/pathogens/isol
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2024 | Brazil | Germany | [Poultry meat preparation - poultry breast, halved, salted](https://webgate.ec.europa.eu/rasff-window/screen/notification/679812) | Poultry meat and poultry meat products |
 | 2024 | Brazil | Germany | [Poultry meat preparation - chicken breast, salted](https://webgate.ec.europa.eu/rasff-window/screen/notification/680091)^1^ | Poultry meat and poultry meat products |
@@ -45,7 +53,7 @@ NCBI PD link for serovar Minnesota: [https://www.ncbi.nlm.nih.gov/pathogens/isol
 | 2023 | Czech Republic | [Frozen chicken half breast fillets from Brazil](https://webgate.ec.europa.eu/rasff-window/screen/notification/609765) | Poultry meat and poultry meat products |
 | 2022 | Czech Republic | [Frozen chicken breast filet from Brazil via Belgium](https://webgate.ec.europa.eu/rasff-window/screen/notification/573994) | Poultry meat and poultry meat products |
 
-## Relevant Links
+## References
 
 1. [https://pubmed.ncbi.nlm.nih.gov/20475465/](https://pubmed.ncbi.nlm.nih.gov/20475465/)
 2. [https://www.sciencedirect.com/science/article/pii/S0032579119385906?via%3Dihub](https://www.sciencedirect.com/science/article/pii/S0032579119385906?via%3Dihub)

@@ -1,11 +1,18 @@
 # *S.* London
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Serogroup | O:3,10 (E1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=London%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar London (antigenic formula 3,{10}{15}:l,v:1,6) is a serovar of the O:3,10 (E1) serogroup. Serovar London was first identified in [Reading, UK](https://pmc.ncbi.nlm.nih.gov/articles/PMC4918176/), from a patient with a surname starting with "L." Since serovar Reading was already in use, this new strain was named London, derived from the patient's name. According to the European Food Safety Authority (EFSA) and European Centre for Disease Prevention and Control (ECDC), serovar London has entered the [top 20](https://www.foodsafetynews.com/?s=serovar+london) list of most frequent* Salmonella *serovars in Europe. [Kim et al](https://pubmed.ncbi.nlm.nih.gov/33518320/). collected a total of 1,116 environmental samples from 31 duck farms in Jeonnam Province, South Korea and found that serovar London (22.2%) was the most frequently detected *Salmonella* serovars. [Wen et al.](https://www.ijidonline.com/article/S1201-9712(23)00111-X/fulltext) reported a case of serovar London infection of the skin and soft tissue of the leg and heel.
 
-NCBI PD link for serovar London: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=London%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=London%22))
+%20AND%20computed_types:(%22serotype=London%22))
 
 ## Genetic Characteristics
 
@@ -21,7 +28,7 @@ NCBI PD link for serovar London: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2004 | South Korea | [Nosocomial](https://journals.asm.org/doi/10.1128/jcm.43.7.3519-3521.2005) | 3 |
 | 2000 | South Korea | [Infant formula](https://pubmed.ncbi.nlm.nih.gov/15004867/) | 31 |
@@ -34,7 +41,7 @@ NCBI PD link for serovar London: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://pmc.ncbi.nlm.nih.gov/articles/PMC4918176/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4918176/)
 2. [https://www.foodsafetynews.com/?s=serovar+london](https://www.foodsafetynews.com/?s=serovar+london)

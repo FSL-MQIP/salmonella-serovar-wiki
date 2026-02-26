@@ -1,11 +1,17 @@
 # *S.* Altona
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Altona%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Altona (antigenic formula: 8,20:r,[i]:z6) is a serovar of the O:8 (C2-C3) serogroup. This serovar was first isolated from fish meal in Germany in [1958](https://pubmed.ncbi.nlm.nih.gov/13558313/).
 
-NCBI PD link for serovar Altona: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Altona%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Altona%22))
+%20AND%20computed_types:(%22serotype=Altona%22))
 
 ## Genetic Characteristics
 
@@ -43,7 +49,7 @@ Serovar Altona has been reported [worldwide such as the US and the UK.](https://
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://pubmed.ncbi.nlm.nih.gov/13558313/](https://pubmed.ncbi.nlm.nih.gov/13558313/)
 2. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full)

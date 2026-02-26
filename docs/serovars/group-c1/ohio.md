@@ -1,9 +1,17 @@
 # *S.* Ohio
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,7,14:b:1,w |
+    | Serogroup | O:7 (C1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ohio%22)) {:target="_blank"} |
+
 **Background information:** *Salmonella enterica* subsp. *enterica* serovar Ohio (antigenic formula 6,7,14:b:1,w) is a serovar of the O:7 (C1) serogroup. Serovar Ohio was first described in [rodents in Malaysia](https://pubmed.ncbi.nlm.nih.gov/6523172/). This serovar has been previously reported to cause [septic arthritis and bone abscess](https://pmc.ncbi.nlm.nih.gov/articles/PMC3416725/) in an immunocompetent patient. In Mexico, serovar Ohio was the[most prevalent](https://pubmed.ncbi.nlm.nih.gov/18162140/) *Salmonella* serovar associated with 300 children diagnosed as positive for diarrhoea. This serovar was also isolated from [tropical seafood](https://www.liebertpub.com/doi/epdf/10.1089/fpd.2008.0252) in India.
 
-NCBI PD link for serovar Ohio: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ohio%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ohio%22))
+%20AND%20computed_types:(%22serotype=Ohio%22))
 
 ## Genetic Characteristics
 
@@ -19,7 +27,7 @@ Serovar Ohio has been found to be [monophyletic](https://www.frontiersin.org/jou
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2005 | Belgium | [Pork](https://www.sciencedirect.com/science/article/pii/S0362028X22109610) | 60 |
 | 2004 | Belgium | [Unknown](https://www.sciencedirect.com/science/article/pii/S0362028X22109610#bb0060) | 29 |
@@ -27,7 +35,7 @@ Serovar Ohio has been found to be [monophyletic](https://www.frontiersin.org/jou
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2025 | Thailand | Germany | [Dog chews](https://webgate.ec.europa.eu/rasff-window/screen/notification/750003)^1^ | Feed materials |
 | 2020 | Denmark | Belgium | [Fish meal](https://webgate.ec.europa.eu/rasff-window/screen/notification/416258) | Feed materials |
@@ -46,7 +54,7 @@ Serovar Ohio has been found to be [monophyletic](https://www.frontiersin.org/jou
 
 ^2^ *Salmonella* Ohio and Infantis were found.
 
-## Relevant Links
+## References
 
 1. [https://pubmed.ncbi.nlm.nih.gov/6523172/](https://pubmed.ncbi.nlm.nih.gov/6523172/)
 2. [https://pmc.ncbi.nlm.nih.gov/articles/PMC3416725/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3416725/)

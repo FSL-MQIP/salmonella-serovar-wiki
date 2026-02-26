@@ -1,11 +1,19 @@
 # *S.* Bredeney
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 1,4,12,27:l,v:1,7 |
+    | Serogroup | O:4 (B) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Bredeney%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Bredeney (antigenic formula 1,4,12,27:l,v:1,7) is a serovar of the O:4 (B) serogroup. Serovar* *Bredeney is a rare serovar, in [the US](http://www.cdc.gov/nationalsurveillance/PDFs/NationalSalmSurveillOverview_508.pdf), 405 cases were reported in humans between 1999-2009; in addition, 11 isolates were obtained from turkeys in the US during the same period. In [Ireland](https://journals.asm.org/doi/full/10.1128/aem.68.1.181-186.2002), a different trend was observed, as it was reported as the third most common serovar during the years 1998-2000.
 
-NCBI PD link for serovar Bredeney: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Bredeney%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Bredeney%22))
+%20AND%20computed_types:(%22serotype=Bredeney%22))
 
 ## Genetic Characteristics
 
@@ -23,7 +31,7 @@ NCBI PD link for serovar Bredeney: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
  Despite the fact that this is a rare serovar, multiple outbreaks have been reported. Below are a few examples.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2012 | US: Multistate | [Peanut butter](https://archive.cdc.gov/www_cdc_gov/salmonella/bredeney-09-12/index.html) | 42 |
 | 1998 | US: Alabama | [Meat](https://pubmed.ncbi.nlm.nih.gov/10456719/) | 170 |
@@ -34,7 +42,7 @@ NCBI PD link for serovar Bredeney: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
  Multiple border rejections associated with serovar Bredeney have been reported. Here we selected two as examples.
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2021 | Turkey | Finland | [Potato seasoning](https://webgate.ec.europa.eu/rasff-window/screen/notification/473167)^1^ | Herbs and spices |
 | 2020 | Slovenia | Italy | [Frozen kebab](https://webgate.ec.europa.eu/rasff-window/screen/notification/424002)^2^ | Poultry meat and poultry meat products |
@@ -53,7 +61,7 @@ NCBI PD link for serovar Bredeney: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
 ^1^ Trader Joe's Valencia Peanut Butter, manufactured by Sunland, Inc. of Portales, New Mexico, was the recalled product. This recall was caused by a multistate outbreak described above.
 
-## Relevant Links
+## References
 
 1. [http://www.cdc.gov/nationalsurveillance/PDFs/NationalSalmSurveillOverview_508.pdf](http://www.cdc.gov/nationalsurveillance/PDFs/NationalSalmSurveillOverview_508.pdf)
 2. [https://journals.asm.org/doi/full/10.1128/aem.68.1.181-186.2002](https://journals.asm.org/doi/full/10.1128/aem.68.1.181-186.2002)

@@ -1,11 +1,18 @@
 # *S.* Chester
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Serogroup | O:4 (B) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Chester%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica subsp. enterica *serovar Chester (antigenic formula: 1,4,[5],12:e,h:e,n,x) is a serovar of the O:4 (B) serogroup. In [1937](https://pmc.ncbi.nlm.nih.gov/articles/PMC5322187/#r16), this serovar was first isolated from humans during a food poisoning outbreak in the hospital of Chester, United Kingdom. Serovar Chester is a rare serovar worldwide. For example, in [Canada](https://web.archive.org/web/20120822142907/http://www.nml-lnm.gc.ca/NESP-PNSME/index-eng.htm), it only accounted for an average of seven human infections per year. In the US during 2001-2011, only 403 human cases have been reported. In addition, animal and food surveillance have not found serovar Chester in these sources in the US.
 
-NCBI PD link for serovar Chester: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Chester%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Chester%22))
+%20AND%20computed_types:(%22serotype=Chester%22))
 
 ## Genetic Characteristics
 
@@ -23,7 +30,7 @@ There is not clear evidence of the animal reservoir for this serovar, although s
 
 Despite the fact that this is a rare serovar, multiple outbreaks have been reported. Below are examples.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2010 | Canada | [Headcheese](https://pubmed.ncbi.nlm.nih.gov/22488063/) | 33 |
 | 2010 | US: multistate | [Frozen meals](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6248a2.htm) | 44 |
@@ -32,7 +39,7 @@ Despite the fact that this is a rare serovar, multiple outbreaks have been repor
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2023 | Spain | France | [Frozen chicken drumstick](https://webgate.ec.europa.eu/rasff-window/screen/notification/638548)^1^ | Poultry meat and poultry meat products |
 | 2023 | Turkey | Switzerland | [Red Paprika, sweet](https://webgate.ec.europa.eu/rasff-window/screen/notification/598996) | Herbs and spices |
@@ -46,7 +53,7 @@ Despite the fact that this is a rare serovar, multiple outbreaks have been repor
 | --- | --- | --- | --- |
 | 2024 | Germany | [Organic moringa powder from Sri Lanka](https://webgate.ec.europa.eu/rasff-window/screen/notification/675850) | Dietetic foods, food supplements and fortified foods |
 
-## Relevant Links
+## References
 
 1. [https://pmc.ncbi.nlm.nih.gov/articles/PMC5322187/#r16](https://pmc.ncbi.nlm.nih.gov/articles/PMC5322187/#r16)
 2. [https://web.archive.org/web/20120822142907/http://www.nml-lnm.gc.ca/NESP-PNSME/index-eng.htm](https://web.archive.org/web/20120822142907/http://www.nml-lnm.gc.ca/NESP-PNSME/index-eng.htm)

@@ -1,11 +1,19 @@
 # *S.* Coeln
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 1,4,[5],12:y:1,2 |
+    | Serogroup | O:4 (B) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Coeln%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Coeln (antigenic formula 1,4,[5],12:y:1,2) is a serovar of the O:4 (B) serogroup. This serovar is considered rare and is scarcely associated with human cases; only [32 human salmonellosis cases](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Coeln%22))have been associated with this serovar during the last 10 years in the US. Besides the animal reservoir described below, it has been isolated from [water of coastal rivers](http://aem.asm.org/content/66/4/1544.full) in the western Mediterranean cost. In Spain, serovar Coeln was associated with [one case of acute septic arthritis](https://pubmed.ncbi.nlm.nih.gov/38073261/).
 
-NCBI PD link for serovar Coeln: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Coeln%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Coeln%22))
+%20AND%20computed_types:(%22serotype=Coeln%22))
 
 ## Genetic Characteristics
 
@@ -21,7 +29,7 @@ NCBI PD link for serovar Coeln: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2021 | Sweden | [Fresh Sprouts](https://www.foodsafetynews.com/2021/11/sweden-solves-salmonella-outbreak-sprouts-identified-as-likely-source/) | 52 |
 | 2017 | Norway | [TBD](https://www.foodnavigator.com/Article/2017/09/22/Salmonella-sickens-seven-in-Norway/) | 18 |
@@ -30,7 +38,7 @@ NCBI PD link for serovar Coeln: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/469459)^1^ | Herbs and spices |
 | 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/465236)^2^ | Herbs and spices |
@@ -49,7 +57,7 @@ NCBI PD link for serovar Coeln: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
 ^1^ Serovar Coeln were found in 1 out of 5 samples. Official control measures were implemented in the market was issued but no stock remained.
 
-## Relevant Links
+## References
 
 1. [https://journals.asm.org/doi/full/10.1128/aem.66.4.1544-1552.2000](https://journals.asm.org/doi/full/10.1128/aem.66.4.1544-1552.2000)
 2. [https://pubmed.ncbi.nlm.nih.gov/38073261/](https://pubmed.ncbi.nlm.nih.gov/38073261/)

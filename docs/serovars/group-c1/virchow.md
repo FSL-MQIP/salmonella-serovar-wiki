@@ -1,11 +1,19 @@
 # *S.* Virchow
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,7,14:r:1,2 |
+    | Serogroup | O:7 (C1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Virchow%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Virchow (antigenic formula 6,7,14:r:1,2) is a serovar of the O:7 (C1) serogroup. Serovar Virchow was first isolated from a patient with a typhoid-like illness in [1930](https://link.springer.com/article/10.1007/BF02183778) by Kaufmann. This serovar has been reported to infect a infant that was [transmitted by the household dogs](https://www.jstage.jst.go.jp/article/jvms/62/7/62_7_767/_pdf). The ranking of serovar Virchow compared to other *Salmonella* serovars ranged from 4th to 8th place in [Switzerland](https://pmc.ncbi.nlm.nih.gov/articles/PMC3050727/). Annual incidence rates demonstrated minor change during this period, declining from 0.45 per 100,000 people in 2004 to 0.40 per 100,000 in 2009. Children under 5 years of age showed a [seven times higher](https://pmc.ncbi.nlm.nih.gov/articles/PMC3050727/) *Salmonella* Virchow infection rate compared to those above 5 years. In South-East Asia, Europe, and Oceania, serovar Virchow is consistently found within the [top 20](https://www.liebertpub.com/doi/10.1089/fpd.2010.0787?doi=10.1089%2Ffpd.2010.0787) *Salmonella* serovars. Most often,* *serovar Virchow infection causes gastrointestinal illness, however, in [Israel](https://www.sciencedirect.com/science/article/pii/S1198743X14620309#bib14) and [other countries including US](https://academic.oup.com/jid/article-abstract/198/1/109/840110?redirectedFrom=fulltext), human infections occur infrequently but demonstrate a high propensity for invasive manifestations.
 
-NCBI PD link for serovar Virchow: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Virchow%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Virchow%22))
+%20AND%20computed_types:(%22serotype=Virchow%22))
 
 ## Genetic Characteristics
 
@@ -42,7 +50,7 @@ In an *[in-vivo study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4668861/#B15)*, 
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2021 | India | Germany | [Dog chews (dried tripes)](https://webgate.ec.europa.eu/rasff-window/screen/notification/465794) | Pet food |
 | 2020 | Poland | Italy | [Frozen marinated chicken fillets](https://webgate.ec.europa.eu/rasff-window/screen/notification/438516)^1^ | Poultry meat and poultry meat products |
@@ -65,7 +73,7 @@ In an *[in-vivo study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4668861/#B15)*, 
 
 ^3^ This recall was caused by a multistate outbreak described above. Garden of Life, LLC extended its recall of RAW Meal Organic Shake & Meal chocolate, original, vanilla, and vanilla chai products on February 12, 2016, adding more lots to the list.
 
-## Relevant Links
+## References
 
 1. [https://link.springer.com/article/10.1007/BF02183778](https://link.springer.com/article/10.1007/BF02183778)
 2. [https://www.jstage.jst.go.jp/article/jvms/62/7/62_7_767/_pdf](https://www.jstage.jst.go.jp/article/jvms/62/7/62_7_767/_pdf)

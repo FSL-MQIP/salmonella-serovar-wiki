@@ -1,11 +1,18 @@
 # *S.* Inverness
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Serogroup | O:38 (P) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Inverness%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Inverness (antigenic formula: 38:k:1,6) is a serovar of the O:38 (P) serogroup. This serovar is relatively understudied, with limited information available. Serovar Inverness was previously isolated from [raw, shelled peanuts](https://www.sciencedirect.com/science/article/pii/S0362028X2208810X?via%3Dihub), [breeder farms](https://journals.asm.org/doi/10.1128/spectrum.02090-24?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed), and [surface water in Southeastern United States](https://journals.asm.org/doi/10.1128/aem.02063-14#T2).
 
-NCBI PD link for serovar Inverness: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Inverness%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Inverness%22))
+%20AND%20computed_types:(%22serotype=Inverness%22))
 
 ## Genetic Characteristics
 
@@ -31,7 +38,7 @@ NCBI PD link for serovar Inverness: [https://www.ncbi.nlm.nih.gov/pathogens/isol
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://www.sciencedirect.com/science/article/pii/S0362028X2208810X?via%3Dihub](https://www.sciencedirect.com/science/article/pii/S0362028X2208810X?via%3Dihub)
 2. [https://journals.asm.org/doi/10.1128/spectrum.02090-24?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed](https://journals.asm.org/doi/10.1128/spectrum.02090-24?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)

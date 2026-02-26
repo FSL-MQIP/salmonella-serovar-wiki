@@ -1,11 +1,19 @@
 # *S.* Gaminara
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 16:d:1,7 |
+    | Serogroup | O:16 (I) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Gaminara%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Gaminara (antigenic formula 16:d:1,7) is a serovar of the O:16 (I) serogroup. This serovar can cause [osteomyelitis and septic arthritis](https://journals.lww.com/infectdis/fulltext/2007/09000/salmonella_gaminara_osteomyelitis_and_septic.13.aspx) in infants.
 
-NCBI PD link for serovar Gaminara: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Gaminara%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Gaminara%22))
+%20AND%20computed_types:(%22serotype=Gaminara%22))
 
 ## Genetic Characteristics
 
@@ -34,7 +42,7 @@ NCBI PD link for serovar Gaminara: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
  Multiple border rejections associated with serovar Gaminara have been reported and serovar Gaminara were found only in black pepper from Brazil. Here are some examples.
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/469498)^1^ | Herbs and spices |
 | 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/466524)^2^ | Herbs and spices |
@@ -54,7 +62,7 @@ NCBI PD link for serovar Gaminara: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
 ^1^ FDA found *Salmonella *Gaminara, Kentucky, and* *Oranienburg serovars in product samples. Salud Natural Entrepreneur, Inc issued the recall.
 
-## Relevant Links
+## References
 
 1. [https://journals.lww.com/infectdis/fulltext/2007/09000/salmonella_gaminara_osteomyelitis_and_septic.13.aspx](https://journals.lww.com/infectdis/fulltext/2007/09000/salmonella_gaminara_osteomyelitis_and_septic.13.aspx)
 2. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full)

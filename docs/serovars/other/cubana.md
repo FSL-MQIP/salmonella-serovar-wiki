@@ -1,11 +1,18 @@
 # *S.* Cubana
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Serogroup | O:13 (G) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Cubana%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Cubana (antigenic formula 1,13,23:z29:–) is a serovar of the O:13 (G) serogroup. *Salmonella* Cubana was first isolated by Curbelo in Cuba from diseased baby chicks. This serovar is very rare. Serovar Cubana was also identified from environmental samples from a ready-to-eat granola and cereal production facility.
 
-NCBI PD link for serovar Cubana: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Cubana%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Cubana%22))
+%20AND%20computed_types:(%22serotype=Cubana%22))
 
 ## Genetic Characteristics
 
@@ -46,7 +53,7 @@ Serovar Cubana has been found to be [polyphyletic](https://www.frontiersin.org/j
 | --- | --- | --- | --- |
 | 2023-2024 | US: multistate | Granola bars and granola cereals | Human food |
 
-## Relevant Links
+## References
 
 1. [https://journals.asm.org/doi/epdf/10.1128/jb.51.1.123-124.1946](https://journals.asm.org/doi/epdf/10.1128/jb.51.1.123-124.1946)
 2. [https://www.sciencedirect.com/science/article/pii/S0032579119507593](https://www.sciencedirect.com/science/article/pii/S0032579119507593)

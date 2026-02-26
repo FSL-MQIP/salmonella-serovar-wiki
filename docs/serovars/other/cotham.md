@@ -1,11 +1,19 @@
 # *S.* Cotham
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 28:i:1,5 |
+    | Serogroup | O:28 (M) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Cotham%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Cotham (antigenic formula 28:i:1,5) is a serovar of the O:28 (M) serogroup. Serovar Cotham is a very rare serovar; for example, this serovar was found to represent a very scarce percentage ([0.01%](https://archive.cdc.gov/www_cdc_gov/salmonella/cotham-04-14/index.html)) of all salmonellosis cases in the US since the 1960s.
 
-NCBI PD link for serovar Cotham: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Cotham%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Cotham%22))
+%20AND%20computed_types:(%22serotype=Cotham%22))
 
 ## Genetic Characteristics
 
@@ -38,7 +46,7 @@ NCBI PD link for serovar Cotham: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://pmc.ncbi.nlm.nih.gov/articles/PMC10562597/](https://pmc.ncbi.nlm.nih.gov/articles/PMC10562597/)
 2. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full)

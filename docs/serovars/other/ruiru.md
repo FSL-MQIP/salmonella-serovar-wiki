@@ -1,11 +1,15 @@
 # *S.* Ruiru
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 21:y:e,n,x |
+    | Serogroup | O:21 (L) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Ruiru (antigenic formula 21:y:e,n,x) is a serovar of the O:21 (L) serogroup. This is a very rare serovar, with only two reported cases during the last then years in the US.
-
-NCBI PD link for serovar Ruiru [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ruiru%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ruiru%22))
 
 ## Genetic Characteristics
 
@@ -35,7 +39,7 @@ NCBI PD link for serovar Ruiru [https://www.ncbi.nlm.nih.gov/pathogens/isolates/
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [http://www.pdv.nl/lmbinaries/rasff_week_46_-_2013.pdf](http://www.pdv.nl/lmbinaries/rasff_week_46_-_2013.pdf)
 2. [http://www.ncbi.nlm.nih.gov/pubmed/14198341](http://www.ncbi.nlm.nih.gov/pubmed/14198341)

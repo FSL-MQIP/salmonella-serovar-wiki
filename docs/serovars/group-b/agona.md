@@ -1,11 +1,19 @@
 # *S.* Agona
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 1,4,[5],12:f,g,s:[1,2] |
+    | Serogroup | O:4 (B) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Agona%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Agona (antigenic formula 1,4,[5],12:f,g,s:[1,2]) is a serovar of the O:4 (B) serogroup. This serovar was first isolated from cattle in Ghana in[1952](https://pubmed.ncbi.nlm.nih.gov/13902866/). Serovar Agona is the 10th most common nontyphoidal *Salmonella* serotype isolated from human infections in [China](https://www.liebertpub.com/doi/full/10.1089/fpd.2010.0827?casa_token=r5_H4WYgMn0AAAAA%3A5MU6aDnk2JmPoDATaXDvLO7TXqqWkEc57PaWFHA6ef0LkN2mJecTbfXy73ZKQ06d-5LnTu3a6w) and is also among the top 20 most frequently reported *Salmonella* serotypes in [the United States](https://journals.asm.org/doi/10.1128/aem.00591-19#:~:text=Agona%20is%20ranked%20among%20the,and%20different%20animal%2Dbased%20foods).
 
-NCBI PD link for serovar Agona: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Agona%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Agona%22))
+%20AND%20computed_types:(%22serotype=Agona%22))
 
 ## Genetic Characteristics
 
@@ -23,7 +31,7 @@ NCBI PD link for serovar Agona: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
  Numerous outbreaks linked to *Salmonella* Agona have been associated with a variety of foods, including cereal, meat and fruits. Some examples are shown below.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2022 | Europe: multi-country | [Cucumbers](https://www.foodsafetynews.com/2022/12/cucumbers-linked-to-multi-country-salmonella-outbreak/) | 72 |
 | 2011 | US: multistate | [Imported Papayas from Mexico](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/papayas-8-29-2011.html) | 106 |
@@ -37,7 +45,7 @@ NCBI PD link for serovar Agona: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
  Multiple border rejections associated with serovar Agona have been reported. Here we selected two as examples.
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2024 | Poland | Italy | [Turkey meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/722223) | Poultry meat and poultry meat products |
 | 2022 | China | Sweden | [Organic soybean cake](https://webgate.ec.europa.eu/rasff-window/screen/notification/559290) | Feed materials |
@@ -55,7 +63,7 @@ NCBI PD link for serovar Agona: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
 ^2^ This recall was caused by an multistate outbreak of* Salmonella* serovar Agona infections linked to toasted oats cereal manufactured by Malt-O-Meal.
 
-## Relevant Links
+## References
 
 1. [https://pubmed.ncbi.nlm.nih.gov/13902866/](https://pubmed.ncbi.nlm.nih.gov/13902866/)
 2. [https://www.liebertpub.com/doi/full/10.1089/fpd.2010.0827?casa_token=r5_H4WYgMn0AAAAA%3A5MU6aDnk2JmPoDATaXDvLO7TXqqWkEc57PaWFHA6ef0LkN2mJecTbfXy73ZKQ06d-5LnTu3a6w](https://www.liebertpub.com/doi/full/10.1089/fpd.2010.0827?casa_token=r5_H4WYgMn0AAAAA%3A5MU6aDnk2JmPoDATaXDvLO7TXqqWkEc57PaWFHA6ef0LkN2mJecTbfXy73ZKQ06d-5LnTu3a6w)

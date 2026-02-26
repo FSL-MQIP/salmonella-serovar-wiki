@@ -1,11 +1,18 @@
 # *S.* Weltevreden
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Serogroup | O:3,10 (E1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Weltevreden%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Weltevreden (antigenic formula 3,{10}{15}:r:z6) is a serovar of the O:3,10 (E1) serogroup. Serovar Weltevreden has been reported to cause [myocarditis](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1513974/full) in a case from South India. In [Malaysia](https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=3032864), serovar Weltevreden became a more frequent cause of human gastroenteritis, representing 31% of all detected serovars from 1989 to 1994. [Tran et al.](https://pubmed.ncbi.nlm.nih.gov/15353859/) reported a low prevalence of serovar Weltevreden in domestic chickens, ducks, and pigs in the Mekong Delta. The rising association between serovar Weltevreden and human salmonellosis cases in Southeast Asia aligns with its [frequent isolation](https://pubmed.ncbi.nlm.nih.gov/31053586/) in the region's seafood.
 
-NCBI PD link for serovar Weltevreden: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Weltevreden%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Weltevreden%22))
+%20AND%20computed_types:(%22serotype=Weltevreden%22))
 
 ## Genetic Characteristics
 
@@ -25,7 +32,7 @@ All sequenced serovar Weltevreden isolates in a [Danish study](https://www.front
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2021 | US: multistate | [Frozen pre-cooked shrimp](https://archive.cdc.gov/www_cdc_gov/salmonella/weltevreden-06-21/index.html) | 9 |
 | 2019 | Australia | [Frozen microwave meals](https://www.foodsafetynews.com/2019/10/almost-50-ill-in-australian-salmonella-outbreak/) | 46 |
@@ -63,7 +70,7 @@ All sequenced serovar Weltevreden isolates in a [Danish study](https://www.front
 
 ^4^ This recall was caused by a multi-country outbreak described above.
 
-## Relevant Links
+## References
 
 1. [https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1513974/full](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1513974/full)
 2. [https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=3032864](https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=3032864)

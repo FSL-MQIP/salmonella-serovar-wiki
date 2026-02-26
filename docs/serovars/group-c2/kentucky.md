@@ -1,11 +1,18 @@
 # *S.* Kentucky
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 8,20:i:z6 |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Kentucky%22)) {:target="_blank"} |
+
 ## Background Information
 
 **:** *Salmonella enterica* subsp. *enterica* serovar Kentucky (antigenic formula 8,20:i:z6) is a serovar of the O:8 (C2-C3) serogroup. In [North America](https://pmc.ncbi.nlm.nih.gov/articles/PMC6606869/), serovar Kentucky remained the number one most prevalent serovar in poultry products. This serovar is commonly found in food animals in the U.S. (chickens, and cattle), but [rarely](https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2021.695368/full) is reported in human cases. It is the most common serovar identified in non-clinical non-human sources, according to [CDC, 2011](https://www.cdc.gov/salmonella/pdf/salmonella-atlas-508c.pdf). However, in Europe, serovar Kentucky is found in approx. 1% of the human cases ([top 10](https://www.sciencedirect.com/science/article/abs/pii/S0963996911002869)). A number of human cases have been reported in Europe in [travelers from Asia and Africa](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2018.5500). However, there are limited outbreaks with epidemiological investigation and clear source identification have been reported.
 
-NCBI PD link for serovar Kentucky: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Kentucky%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Kentucky%22))
+%20AND%20computed_types:(%22serotype=Kentucky%22))
 
 ## Genetic Characteristics
 
@@ -25,7 +32,7 @@ Kentucky [ST 152](https://www.microbiologyresearch.org/content/journal/mgen/10.1
 
 **:** Human outbreaks associated with serovar Kentucky are rare. Here we described one outbreak we found.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2016 | US: multistate | [Alfalfa sprouts](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/muenchen-02-16/index.html)^1^ | 1 |
 
@@ -33,7 +40,7 @@ Kentucky [ST 152](https://www.microbiologyresearch.org/content/journal/mgen/10.1
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Breed** | **Number of cases** |
+| Year | Location | Breed | Number of cases |
 | --- | --- | --- | --- |
 | 2016 | Australia | *[Arctocephalus forsteri](https://pubmed.ncbi.nlm.nih.gov/33269723/)*^1^ | 7 |
 
@@ -41,7 +48,7 @@ Kentucky [ST 152](https://www.microbiologyresearch.org/content/journal/mgen/10.1
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2023 | India | Germany | [Sesame seeds](https://webgate.ec.europa.eu/rasff-window/screen/notification/591197)^1^ | Nuts, nut products and seeds |
 | 2023 | Ukraine | Poland | [Chicken meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/607336) | Poultry meat and poultry meat products |
@@ -57,7 +64,7 @@ Kentucky [ST 152](https://www.microbiologyresearch.org/content/journal/mgen/10.1
 | --- | --- | --- | --- |
 | 2021 | Finland | [Fresh mint from Kenya](https://webgate.ec.europa.eu/rasff-window/screen/notification/494162) | herbs and spices |
 
-## Relevant Links
+## References
 
 1. [https://pmc.ncbi.nlm.nih.gov/articles/PMC6606869/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6606869/#:~:text=Typhimurium%20is%20the%20most%20common,common%20serovar%2C%20with%20Typhimurium%20second)
 2. [https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2021.695368/full](https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2021.695368/full)

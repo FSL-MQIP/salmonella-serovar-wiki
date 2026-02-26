@@ -1,11 +1,18 @@
 # *S.* Choleraesuis
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,7:c:1,5 |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Paratyphi%20C%20or%20Choleraesuis%20or%20Typhisuis%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Choleraesuis has the antigenic formula 6,7:c:1,5 of the O:7 (C1) serogroup. Within *S. *Choleraesuis there are [two biovars](https://pmc.ncbi.nlm.nih.gov/articles/PMC387403/)*, S. *Choleraesuis* var. *Kunzendorf and *S. *Choleraesuis var. Decatur. *S. *Choleraesuis is utilized as an [H2S negative QC strain](https://www.fsis.usda.gov/sites/default/files/media_file/2021-08/MLG-4.11.pdf) in the USDA Microbiology Laboratory Guidebook, Chapter 4: Isolation and Identification of *Salmonella *from Meat, Poultry, Pasteurized Egg, Siluriformes (Fish) Products, Carcass and Environmental Sponges. *S*. Choleraesuis was one of the first types of *Salmonella *discovered. [Theobald Smith and Daniel Salmon](https://pmc.ncbi.nlm.nih.gov/articles/PMC2634653/) discovered *S.* Choleraesuis in 1885 while studying swine diseases. This serovar is highly host adapted to s[wine and causes swine paratyphoid](https://pmc.ncbi.nlm.nih.gov/articles/PMC387403/). Pigs that have been infected can shed the organism for up to [12 weeks](https://pmc.ncbi.nlm.nih.gov/articles/PMC10610219/) resulting environmental contamination and spread of the disease among the herd. Human cases from this serovar in [the United States](https://www.cdc.gov/salmonella/reportspubs/salmonella-atlas/serotype-snapshots.html) are rare, but nearly half of infections are invasive and can be severe. While it is not one of the leading serovars associated with nontyphoidal salmonellosis (NTS), *S*. Choeraesuis is one of the top servors implicated in NTS fatalities. In the 1990s, *S*. Choleraesuis was one of the top 10 serovars isolated from human cases in[Taiwan](https://wwwnc.cdc.gov/eid/article/20/4/13-0240_article). Improvements in swine husbandry, including vaccination of pigs, has substantially reduced the occurrence of Choleraesuis in Taiwan. Outbreaks from consuming contaminated pork are rare.
 
-The* in-silico* serotyping tool SeqSero2, which is used by NCBI PD, cannot differentiate between Salmonella Paratyphi C, Choleraesuis, or Typhisuis because there are also two other* *serovoars with the same antigenic formula as *S.* Choleraesuis: *S.* Paratyphi C*. * and* S. *Typhisuis. Additional markers are required to accurately determine the serotype of Choleraesuis. Differentiation is accomplished through biochemical analysis, see Table 1 below. NCBI PD link for serovar Paratyphi C or Choleraesuis or Typhisuis: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Paratyphi%20C%20or%20Choleraesuis%20or%20Typhisuis%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Paratyphi%20C%20or%20Choleraesuis%20or%20Typhisuis%22))
+The* in-silico* serotyping tool SeqSero2, which is used by NCBI PD, cannot differentiate between Salmonella Paratyphi C, Choleraesuis, or Typhisuis because there are also two other* *serovoars with the same antigenic formula as *S.* Choleraesuis: *S.* Paratyphi C*. * and* S. *Typhisuis. Additional markers are required to accurately determine the serotype of Choleraesuis. Differentiation is accomplished through biochemical analysis, see Table 1 below. %20AND%20computed_types:(%22serotype=Paratyphi%20C%20or%20Choleraesuis%20or%20Typhisuis%22))
 
 **Table 1: Differention of serovars with antigenic formula 6,7:c:1,5**
 
@@ -34,7 +41,7 @@ The* in-silico* serotyping tool SeqSero2, which is used by NCBI PD, cannot diffe
 
  Multiple swine outbreaks linked to serovar Choleraesuis have been reported. Below are examples.
 
-| **Year** | **Location** | **Breed** | **Number of cases** |
+| Year | Location | Breed | Number of cases |
 | --- | --- | --- | --- |
 | 2020-2021 | Sweden | [Sus scrofa & Sus scrofa domesticus](https://www.sva.se/media/nyglg2zq/sva-rapport-64-surveillance-2019.pdf) | Five domestic pig herds and one estate with a small group of fenced wild boar |
 | 2018-2019 | Slovenia | [Sus scrofa domesticus](https://www.sciencedirect.com/science/article/pii/S0378113521003059#tbl0005) | 2500 sows and approximately 20 breeding boars |
@@ -51,7 +58,7 @@ The* in-silico* serotyping tool SeqSero2, which is used by NCBI PD, cannot diffe
 | --- | --- | --- | --- |
 | 2021 | Italy | [Salami](https://webgate.ec.europa.eu/rasff-window/screen/notification/510881) | Meat and meat products (other than poultry) |
 
-## Relevant Links
+## References
 
 1. [https://pmc.ncbi.nlm.nih.gov/articles/PMC387403/](https://pmc.ncbi.nlm.nih.gov/articles/PMC387403/)
 2. [https://www.wiley.com/en-us/Diseases+of+Swine%2C+11th+Edition-p-9781119350859](https://www.wiley.com/en-us/Diseases+of+Swine%2C+11th+Edition-p-9781119350859)

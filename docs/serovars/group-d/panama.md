@@ -1,11 +1,19 @@
 # *S.* Panama
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 1,9,12:l,v:1,5 |
+    | Serogroup | O:9 (D1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Panama%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica subsp. enterica* serovar Panama (antigenic formula 1,9,12:l,v:1,5) is a serovar of the O:9 (D1) serogroup. Serovar Panama was first identified in [1931](https://academic.oup.com/jid/article-abstract/55/2/224/903312?login=true) after being isolated during a foodborne outbreak affecting US military personnel stationed in Panama. In Taiwan, a case of [neonatal meningitis](https://journals.asm.org/doi/full/10.1128/jcm.43.10.5400-5402.2005) caused by serovar Panama was linked to consumption of contaminated breast milk. Other than meningitis, [septicemia and osteomyelitis](https://pmc.ncbi.nlm.nih.gov/articles/PMC6704606/#B11) have also been associated with serovar Panama infections. In Latin America, serovar Panama contributes substantially to the regional salmonellosis burden, with surveillance data from the 2000s indicating a confirmed incidence rate of [3.5 culture-positive cases per 100,000 population](https://www.liebertpub.com/doi/10.1089/fpd.2010.0787). Despite ranking among the top 30 most common* Salmonella* serotypes—with [1,903 reported cases](https://stacks.cdc.gov/view/cdc/152432/cdc_152432_DS1.pdf) (=E2=88=BC173 annually) from 2003–2013—this serotype accounted for only 1% of total *Salmonella* isolation, though it showed [higher proportional isolation from bloodstream infections](https://stacks.cdc.gov/view/cdc/22161). Serovar Panama has been found to be an [invasive non-typhoidal *Salmonella* (iNTS) serovar](https://www.sciencedirect.com/science/article/pii/S0929664621003144). Serovar Panama exhibits exceptional clinical invasiveness than most *Salmonella* serovars, with geographically consistent evidence of disproportionate systemic infection rates. In Martinique, it caused invasive infections [11](https://pubmed.ncbi.nlm.nih.gov/1037087/)[times](https://www.sciencedirect.com/science/article/pii/S0399077X96800783?via%3Dihub) more frequently. In England, [7%](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/extraintestinal-salmonellosis/78832FF29D3817D9D769994DEB153E57) of serovar Panama isolates were from extraintestinal sites (vs. 2-3% for *Salmonella* Typhimurium/Enteritidis). In Taiwan, [70%](https://www.sciencedirect.com/science/article/pii/S0929664612001775?via%3Dihub) of serovar Panama isolates were obtained from invasive cases compared to 12% for serovar Enteritidis. Australian epidemiological studies have also identified serovar Panama among the predominant iNTS serovars, demonstrating high invasiveness risk (odds ratios: [13.9](https://journals.asm.org/doi/10.1128/aac.02012-17), [15.26](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0007187)). Data collected from 2003 to 2013 (where total isolates tested were > 100), showed that serovar Panama was the [3rd](https://academic.oup.com/jid/article/214/10/1565/2514595) most likely non-typhoidal serotype to be isolated from extra-intestinal sources (15.1%), exceeded only by serotypes Schwarzengrund (15.3%) and Poona (15.1%) in US.
 
-NCBI PD link for serovar Panama: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Panama%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Panama%22))
+%20AND%20computed_types:(%22serotype=Panama%22))
 
 ## Genetic Characteristics
 
@@ -36,7 +44,7 @@ NCBI PD link for serovar Panama: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/446128)^1^ | Herbs and spices |
 
@@ -52,7 +60,7 @@ NCBI PD link for serovar Panama: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
 ^1^ This recall was caused by a multistate outbreak described above. Del Monte issued a recall of nearly 60,000 cantaloupes that were grown and shipped from the Del Monte Fresh farm Asuncion Mita in Guatemala.
 
-## Relevant Links
+## References
 
 1. [https://academic.oup.com/jid/article-abstract/55/2/224/903312?login=true](https://academic.oup.com/jid/article-abstract/55/2/224/903312?login=true)
 2. [https://journals.asm.org/doi/full/10.1128/jcm.43.10.5400-5402.2005](https://journals.asm.org/doi/full/10.1128/jcm.43.10.5400-5402.2005)

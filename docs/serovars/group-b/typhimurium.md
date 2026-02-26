@@ -1,11 +1,19 @@
 # *S.* Typhimurium
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 1,4,[5],12:i:1,2 |
+    | Serogroup | O:4 (B) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Typhimurium%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Typhimurium (antigenic formula 1,4,[5],12:i:1,2) is a serovar of the O:4 (B) serogroup. One variant named *Salmonella* Typhimurium [var.](https://academic.oup.com/jac/article-abstract/51/1/180/771276?redirectedFrom=fulltext)[Copenhagen](https://academic.oup.com/jac/article-abstract/51/1/180/771276?redirectedFrom=fulltext), which lacks the factor 5 in the O antigen (1,4,12:i:1,2). The serotype [1,4,[5],12:i:–](https://www.liebertpub.com/doi/10.1089/fpd.2008.0213?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed), which lacks the second-phase H2 flagellar antigen, is a monophasic variant of *Salmonella* Typhimurium. This serovar was named Typhimurium because it produces [Typhi like symptoms in the murine (mouse) model](https://www.microbiologyresearch.org/deliver/fulltext/micro/171/1/mic001521.pdf?itemId=/content/journal/micro/10.1099/mic.0.001521&mimeType=application/pdf#:~:text=xylose%20lysine%20deoxycholate.-,TAXONOMY,before%20the%20Kauffmann–White%20scheme.). In humans, it is frequently associated with [acute gastroenteritis](https://www.sciencedirect.com/science/article/pii/S1286457901013752?via%3Dihub). *S.* Typhimurium has been used as model to understand the pathogenicity of *Salmonella. Salmonella *Typhimurium is the most extensively studied serovar for nontyphoidal salmonellosis and has emerged as the [primary model](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2019.01368/full) for nontyphoidal *Salmonella* research. The *S*. Typhimurium LT2 strain has been particularly well-characterized and remains widely used in research since the 1940s. Both *Salmonella* Typhimurium and Enteritidis dominate global human salmonellosis cases, despite regional differences in prevalence.
 
-NCBI PD link for serovar Typhimurium: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Typhimurium%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Typhimurium%22))
+%20AND%20computed_types:(%22serotype=Typhimurium%22))
 
 ## Genetic Characteristics
 
@@ -23,7 +31,7 @@ In Sub-Sahara regions of Africa, [invasive strains](http://www.ncbi.nlm.nih.gov/
 
 ## Geographical Distribution
 
-: Serovar Typhimurium is [globally distributed](https://www.liebertpub.com/doi/10.1089/fpd.2010.0787?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed). During the study period from 2001 to 2007, *Salmonella* Typhimurium were the second most prevalent *Salmonella* serovars isolated from human in most regions, except in North America and Oceania (Australia and New Zealand). In these two regions, *Salmonella* Typhimurium was the most frequently reported in humans. Among human *Salmonella* isolates, serovar Typhimurium accounted for 17.1% of cases (ranging from 15% in 2007 to 18.9% in 2001).
+Serovar Typhimurium is [globally distributed](https://www.liebertpub.com/doi/10.1089/fpd.2010.0787?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed). During the study period from 2001 to 2007, *Salmonella* Typhimurium were the second most prevalent *Salmonella* serovars isolated from human in most regions, except in North America and Oceania (Australia and New Zealand). In these two regions, *Salmonella* Typhimurium was the most frequently reported in humans. Among human *Salmonella* isolates, serovar Typhimurium accounted for 17.1% of cases (ranging from 15% in 2007 to 18.9% in 2001).
 
 ## Human/Animal Outbreaks
 
@@ -56,7 +64,7 @@ In Sub-Sahara regions of Africa, [invasive strains](http://www.ncbi.nlm.nih.gov/
 
  Multiple border rejections linked to *Salmonella* Typhimurium have been reported. The majority of them are associated with poultry and poultry products. Below are some examples.
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2025 | Brazil | Netherlands | [Frozen chicken meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/745843) | Poultry meat and poultry meat products |
 | 2024 | Brazil | Portugal | [Chicken gizzards](https://webgate.ec.europa.eu/rasff-window/screen/notification/673450) | Poultry meat and poultry meat products |
@@ -88,7 +96,7 @@ In Sub-Sahara regions of Africa, [invasive strains](http://www.ncbi.nlm.nih.gov/
 
 ^3^ This recall was caused by a multistate outbreak described above. Peanut Corporation of America's Blakely, GA and TX issued a recall of their commercially distributed peanut butter.
 
-## Relevant Links
+## References
 
 1. [https://academic.oup.com/jac/article-abstract/51/1/180/771276?redirectedFrom=fulltext](https://academic.oup.com/jac/article-abstract/51/1/180/771276?redirectedFrom=fulltext)
 2. [https://www.liebertpub.com/doi/10.1089/fpd.2008.0213?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed](https://www.liebertpub.com/doi/10.1089/fpd.2008.0213?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)

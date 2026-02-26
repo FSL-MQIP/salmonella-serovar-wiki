@@ -1,11 +1,19 @@
 # *S.* Urbana
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 30:b:e,n,x |
+    | Serogroup | O:30 (N) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Urbana%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Urbana (antigenic formula 30:b:e,n,x) is a serovar of the O:30 (N) serogroup. Serovar Urbana has been reported to cause [encephalopathy](https://pubmed.ncbi.nlm.nih.gov/15212148/) in a child in Japan.
 
-NCBI PD link for serovar Urbana: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Urbana%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Urbana%22))
+%20AND%20computed_types:(%22serotype=Urbana%22))
 
 ## Genetic Characteristics
 
@@ -45,7 +53,7 @@ NCBI PD link for serovar Urbana: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
 ^1^ The recall was caused by a multistate outbreak described above. On April 22, 2021, Jule's Foods issued a recall of all their products, including their cashew brie.
 
-## Relevant Links
+## References
 
 1. [https://pubmed.ncbi.nlm.nih.gov/15212148/](https://pubmed.ncbi.nlm.nih.gov/15212148/)
 2. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full)

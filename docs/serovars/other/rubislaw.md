@@ -1,11 +1,19 @@
 # *S.* Rubislaw
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 11:r:e,n,x |
+    | Serogroup | O:11 (F) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Rubislaw%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Rubislaw (antigenic formula 11:r:e,n,x) is a serovar of the O:11 (F) serogroup. Serovar Rubislaw was [first described in 1934](https://doi.org/10.1017/S0022172400027698)from a case report of human infection. This serovar has been frequently isolated from [farm](https://doi.org/10.1186/s12866-023-03121-3) and natural environmental reservoirs, including [water](https://doi.org/10.1371/journal.pone.0128937). *S.* Rubislaw has also been isolated from several types of fresh produce, including [papaya](https://doi.org/10.1099/mic.0.000895), as well as spices such as ground black pepper.
 
-NCBI PD link for serovar Rubislaw: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Rubislaw%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Rubislaw%22))
+%20AND%20computed_types:(%22serotype=Rubislaw%22))
 
 ## Genetic Characteristics
 
@@ -34,7 +42,7 @@ NCBI PD link for serovar Rubislaw: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
 ** **There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 ** **
 

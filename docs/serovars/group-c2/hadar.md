@@ -1,11 +1,18 @@
 # *S.* Hadar
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,8:z10:e,n,x |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Hadar%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Hadar (antigenic formula 6,8:z10:e,n,x) is a serovar of the O:8 (C2-C3) serogroup. In Europe, this serovar emerged in [1971](https://pmc.ncbi.nlm.nih.gov/articles/PMC1601188/pdf/brmedj00016-0007.pdf). In [England](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1601188/pdf/brmedj00016-0007.pdf), before 1971, only eight human cases reported; by 1979 a total of 1,600 human salmonellosis cases were confirmed to be caused by serovar Hadar. Serovar Hadar is among the[top ten serovars from non-clinical non-human sources](https://www.cdc.gov/salmonella/pdf/hadar-508c.pdf)in the US. Also, this serovar is the most common serovar isolated from turkey in the US. In Europe, serovar Hadar is the 4^th^ most common serovar isolated from humans. Reports of acquisition of serovar Hadar in[travelers](https://www.sciencedirect.com/science/article/pii/S1198743X14622126)returning from Africa suggest a distribution of this serovar in Africa.
 
-NCBI PD link for serovar Hadar: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Hadar%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Hadar%22))
+%20AND%20computed_types:(%22serotype=Hadar%22))
 
 ## Genetic Characteristics
 
@@ -23,7 +30,7 @@ NCBI PD link for serovar Hadar: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
  There were multiple human outbreaks of *Salmonella* Hadar. Below are examples.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2021 | US: multistate | [Ground turkey](https://archive.cdc.gov/www_cdc_gov/salmonella/hadar-04-21/details.html#:~:text=As%20of%20May%2017%2C%202021%2C%20a%20total%20of%2033%20people,No%20deaths%20were%20reported.) | 33 |
 | 2012 | US: multistate | [Live poultry](https://archive.cdc.gov/#/details?q=https://www.cdc.gov/salmonella/hadar-live-poultry-07-12/index.html&start=0&rows=10&url=https://www.cdc.gov/salmonella/hadar-live-poultry-07-12/index.html) | 46 |
@@ -34,7 +41,7 @@ NCBI PD link for serovar Hadar: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2021 | Hungary | Italy | [Duck fillets](https://webgate.ec.europa.eu/rasff-window/screen/notification/468397)^1^ | Poultry meat and poultry meat products |
 
@@ -51,7 +58,7 @@ NCBI PD link for serovar Hadar: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
 ^2^ Product was (presumably) no longer on the market.
 
-## Relevant Links
+## References
 
 1. [https://pmc.ncbi.nlm.nih.gov/articles/PMC1601188/pdf/brmedj00016-0007.pdf](https://pmc.ncbi.nlm.nih.gov/articles/PMC1601188/pdf/brmedj00016-0007.pdf)
 2. [https://www.cdc.gov/salmonella/pdf/hadar-508c.pdf](https://www.cdc.gov/salmonella/pdf/hadar-508c.pdf)

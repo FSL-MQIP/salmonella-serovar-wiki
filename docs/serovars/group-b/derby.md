@@ -1,11 +1,19 @@
 # *S.* Derby
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 1,4,[5],12:f,g:[1,2] |
+    | Serogroup | O:4 (B) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Derby%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Derby (antigenic formula 1,4,[5],12:f,g:[1,2]) is a serovar of the O:4 (B) serogroup. This serovar was fist isolated from humans who were infected after eating contaminated pork pies in the UK in [1923](https://www.jstor.org/stable/3859161). It is one of the dominant* Salmonella* serovars isolated from slaughter pigs in [Europe](https://www.efsa.europa.eu/en/efsajournal/pub/rn-206), and [ranks #4](https://web.archive.org/web/20160514081524/http://www.cdc.gov/ncezid/dfwed/pdfs/salmonella-annual-report-2012-508c.pdf)in the most frequently isolated Salmonella serovars from clinical non-human sources in the United States.
 
-NCBI PD link for serovar Derby: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Derby%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Derby%22))
+%20AND%20computed_types:(%22serotype=Derby%22))
 
 ## Genetic Characteristics
 
@@ -32,7 +40,7 @@ NCBI PD link for serovar Derby: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
  Multiple border rejections associated with serovar Derby have been reported. Here we selected two as examples.
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2022 | Poland | Italy | [Frozen turkey meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/552961) | Poultry meat and poultry meat products |
 | 2020 | Spain | Italy | [Frozen minced turkey breast](https://webgate.ec.europa.eu/rasff-window/screen/notification/420173)^1^ | Poultry meat and poultry meat products |
@@ -53,7 +61,7 @@ NCBI PD link for serovar Derby: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
 ^2^ Euro Foods has recalled around 119,091 pounds of Citterio brand Premium Italian-Style Salame Sticks products.
 
-## Relevant Links
+## References
 
 1. [https://www.jstor.org/stable/3859161](https://www.jstor.org/stable/3859161)
 2. [https://www.efsa.europa.eu/en/efsajournal/pub/rn-206](https://www.efsa.europa.eu/en/efsajournal/pub/rn-206)

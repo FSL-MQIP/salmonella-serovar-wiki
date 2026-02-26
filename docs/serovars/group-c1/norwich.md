@@ -1,11 +1,19 @@
 # *S.* Norwich
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,7:e,h:1,6 |
+    | Serogroup | O:7 (C1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Norwich%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Norwich (antigenic formula 6,7:e,h:1,6) is a serovar of the O:7 (C1) serogroup. Serovar Norwich is uncommon, with only[63 and 102 isolates](https://ajph.aphapublications.org/doi/abs/10.2105/AJPH.82.9.1273) recorded in the Public Health Laboratory Information System (PHLIS) for the years 1993 and 1994, respectively.
 
-NCBI PD link for serovar Norwich: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Norwich%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Norwich%22))
+%20AND%20computed_types:(%22serotype=Norwich%22))
 
 ## Genetic Characteristics
 
@@ -34,7 +42,7 @@ NCBI PD link for serovar Norwich: [https://www.ncbi.nlm.nih.gov/pathogens/isolat
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://ajph.aphapublications.org/doi/abs/10.2105/AJPH.82.9.1273](https://ajph.aphapublications.org/doi/abs/10.2105/AJPH.82.9.1273)
 2. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full)

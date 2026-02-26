@@ -1,11 +1,19 @@
 # *S.* Brandenburg
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 4,[5],12:l,v:e,n,z15 |
+    | Serogroup | O:4 (B) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Brandenburg%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Brandenburg (antigenic formula 4,[5],12:l,v:e,n,z15) is a serovar of the O:4 (B) serogroup. Serovar Brandenburg was first reported [in 1930](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=001f7b72ccab906c02c94e2f0e66af76dbe9dfed) in Germany. Serovar Brandenburg was reported among [the 15^th^ most common](https://www.emro.who.int/food-chemical-safety/food-infocus/food-infections-network.html) serovars in Europe. It is considered an occupational hazard, because farmers can acquire the disease by contact with infected animals. [In New Zealand, in 1996](https://pmc.ncbi.nlm.nih.gov/articles/PMC2870545/#:~:text=Brandenburg%20has%20become%20established%20as,protect%20farmers%20and%20their%20families), serovar Brandenburg emerged in the sheep population and caused a number of outbreaks.
 
-NCBI PD link for serovar Brandenburg: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Brandenburg%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Brandenburg%22))
+%20AND%20computed_types:(%22serotype=Brandenburg%22))
 
 ## Genetic Characteristics
 
@@ -23,7 +31,7 @@ NCBI PD link for serovar Brandenburg: [https://www.ncbi.nlm.nih.gov/pathogens/is
 
  Outbreaks have occurred in different countries since 1963. Below are a few examples.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2008 | Italy | [Restaurant associated](https://www.jpmh.org/index.php/jpmh/article/download/240/221/) | Approx. 200 |
 | 2001 | Japan | [Hospital associated](https://pubmed.ncbi.nlm.nih.gov/11754160/)^1^ | - |
@@ -45,7 +53,7 @@ NCBI PD link for serovar Brandenburg: [https://www.ncbi.nlm.nih.gov/pathogens/is
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2022 | Poland | Latvia | [Chicken leg quarter](https://webgate.ec.europa.eu/rasff-window/screen/notification/552403)^1^ | Poultry meat and poultry meat products |
 | 2021 | Lithuania | Latvia | [Pork chop mass, chilled](https://webgate.ec.europa.eu/rasff-window/screen/notification/468368) | Meat and meat products (other than poultry) |
@@ -59,7 +67,7 @@ NCBI PD link for serovar Brandenburg: [https://www.ncbi.nlm.nih.gov/pathogens/is
 | 2021 | France | [Chorizo made in Spain](https://webgate.ec.europa.eu/rasff-window/screen/notification/478083) | Meat and meat products (other than poultry) |
 | 2020 | Italy | [Formaggio Raschera](https://webgate.ec.europa.eu/rasff-window/screen/notification/444406) | Milk and milk products |
 
-## Relevant Links
+## References
 
 1. https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=001f7b72ccab906c02c94e2f0e66af76dbe9dfed
 2. [https://www.tandfonline.com/doi/abs/10.1080/00480169.2004.36387](https://www.tandfonline.com/doi/abs/10.1080/00480169.2004.36387)

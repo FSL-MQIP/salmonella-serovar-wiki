@@ -1,11 +1,19 @@
 # *S.* Heidelberg
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 1,4,[5],12:r:1,2 |
+    | Serogroup | O:4 (B) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Heidelberg%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Heidelberg (antigenic formula 1,4,[5],12:r:1,2) is a serovar of the O:4 (B) serogroup. *Salmonella* Heidelberg was first identified in [1933 in Heidelberg, Germany](https://scholar.google.com/scholar_lookup?journal=J%20Bacteriol&title=About%20a%20new%20type%20of%20bacteria%20form%20the%20paratyphoid%20enteritis%20group&author=VH%20Habbs&publication_year=1933&pages=367-374&). It was later detected in [the United States for the first time in 1954](https://www.jstor.org/stable/1588278?casa_token=sTneApEGY84AAAAA%3AxCcrraoy6aPu-M6ejq3MtxjBB1MMgP_Z6YwUi4_cVoYN9dHewNuMwxG9EeHAe6ua_dq1zAdT8vyzdTrmZ47-5_6uPGQhzNzzMViPBHNg6yfUnNVpvw&seq=1). In the United States, *Salmonella* Heidelberg ranks as the [third most common](https://pubmed.ncbi.nlm.nih.gov/18757574/) serotype found in retail meat and food animal isolates. It is also among the[top four serotypes](https://journals.asm.org/doi/10.1128/aac.01333-10)isolated from blood samples. Notably, 12%–13% of *Salmonella* Heidelberg infections in [North America](https://wwwnc.cdc.gov/eid/article/16/1/09-0729_article) result in invasive disease, a rate significantly higher than the U.S. average of 7% for all *Salmonella* infections.
 
-NCBI PD link for serovar Heidelberg: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Heidelberg%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Heidelberg%22))
+%20AND%20computed_types:(%22serotype=Heidelberg%22))
 
 ## Genetic Characteristics
 
@@ -25,7 +33,7 @@ Phylogenetic and pan-genomic analyses that included two of the sequenced *S.* He
 
  Multiple Heidelberg outbreaks have been linked to poultry, most of them in the US. Here are some example:
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2018-2019 | Australia | [Unidentified](https://pubmed.ncbi.nlm.nih.gov/34932458/#:~:text=We%20report%20a%20multistate%20Salmonella,indicators%20of%20severity%20and%20invasiveness.) | 59 |
 | 2016 | US: multistate | [Contact with dairy calves](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/heidelberg-11-16/index.html) | 56 |
@@ -37,7 +45,7 @@ Phylogenetic and pan-genomic analyses that included two of the sequenced *S.* He
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2024 | Brazil | Germany | [Frozen chicken breast halves, salted](https://webgate.ec.europa.eu/rasff-window/screen/notification/680242) | Poultry meat and poultry meat products |
 | 2024 | Brazil | Germany | [Poultry meat preparation](https://webgate.ec.europa.eu/rasff-window/screen/notification/679279) | Poultry meat and poultry meat products |
@@ -51,7 +59,7 @@ Phylogenetic and pan-genomic analyses that included two of the sequenced *S.* He
 
 ^1^ Tyson Foods, Inc. issued a recall of around 33,840 pounds of mechanically separated chicken products due to potential contamination with *Salmonella *Heidelberg. These products were manufactured on October 11, 2013, and distributed exclusively for institutional use across the nation.
 
-## Relevant Links
+## References
 
 1. [https://scholar.google.com/scholar_lookup?journal=J%20Bacteriol&title=About%20a%20new%20type%20of%20bacteria%20form%20the%20paratyphoid%20enteritis%20group&author=VH%20Habbs&publication_year=1933&pages=367-374&](https://scholar.google.com/scholar_lookup?journal=J%20Bacteriol&title=About%20a%20new%20type%20of%20bacteria%20form%20the%20paratyphoid%20enteritis%20group&author=VH%20Habbs&publication_year=1933&pages=367-374&)
 2. [https://www.jstor.org/stable/1588278?casa_token=sTneApEGY84AAAAA%3AxCcrraoy6aPu-M6ejq3MtxjBB1MMgP_Z6YwUi4_cVoYN9dHewNuMwxG9EeHAe6ua_dq1zAdT8vyzdTrmZ47-5_6uPGQhzNzzMViPBHNg6yfUnNVpvw&seq=1](https://www.jstor.org/stable/1588278?casa_token=sTneApEGY84AAAAA%3AxCcrraoy6aPu-M6ejq3MtxjBB1MMgP_Z6YwUi4_cVoYN9dHewNuMwxG9EeHAe6ua_dq1zAdT8vyzdTrmZ47-5_6uPGQhzNzzMViPBHNg6yfUnNVpvw&seq=1)

@@ -1,11 +1,19 @@
 # *S.* Rissen
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,7,14:f,g:- |
+    | Serogroup | O:7 (C1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#taxgroup_name:(%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Rissen%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica *subsp. *enterica *serovar Rissen (antigenic formula 6,7,14:f,g:-) is a serovar of the O:7 (C1) serogroup. This serovar was first nomenclating by [Rohde & Tiedje](https://catalog.nlm.nih.gov/permalink/01NLM_INST/1o1phhn/alma99218683406676) during early 1960s. In Japan, [Kaneko](https://www.jstage.jst.go.jp/article/kansenshogakuzasshi1970/69/11/69_11_1294/_article) reported the first isolate of *S*. Rissen from patients with sporadic diarrhea was found during the period from April 1985 to December 1994 in Yamanashi Prefecture. Recently, serovar Rissen is the 4th most common nontyphoidal *Salmonella* serovar isolated from human infections in[Thailand](https://www.liebertpub.com/doi/epdf/10.1089/fpd.2008.0245).
 
-NCBI PD link for serovar Rissen: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#taxgroup_name:(%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Rissen%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#taxgroup_name:(%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Rissen%22))
+%20AND%20computed_types:(%22serotype=Rissen%22))
 
 ## Genetic Characteristics
 
@@ -25,7 +33,7 @@ NCBI PD link for serovar Rissen: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
  Two outbreaks linked to *Salmonella *Rissen have been associated with food. Some examples are shown below.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2020 | France | [Fuet from Spain](https://www.foodsafetynews.com/2020/10/authorities-act-against-spanish-firm-linked-to-salmonella-outbreak/) | 18 |
 | 2008-2009 | US: multistate | [White pepper](https://www.foodsafetynews.com/2010/08/how-salmonella-rissen-came-to-america/) | 87 |
@@ -34,7 +42,7 @@ NCBI PD link for serovar Rissen: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
  Multiple border rejections associated with serovar Rissen have been reported. Here we selected five as examples.
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2024 | Denmark | Finland | [Rapeseed expellers](https://webgate.ec.europa.eu/rasff-window/screen/notification/706351) | Feed materials |
 | 2022 | Spain | Belgium | [Turkey processed animal protein](https://webgate.ec.europa.eu/rasff-window/screen/notification/586640)^1^ | Feed materials |
@@ -57,7 +65,7 @@ NCBI PD link for serovar Rissen: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
 ^2^ This recall was caused by a multistate human outbreak linked to several *Salmonella* serovars, including Rissen, linked to pig ears treats for dogs.
 
-## Relevant Links
+## References
 
 1. [https://www.pasteur.fr/sites/default/files/veng_0.pdf](https://www.pasteur.fr/sites/default/files/veng_0.pdf)
 2. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.702909/full](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.702909/full)

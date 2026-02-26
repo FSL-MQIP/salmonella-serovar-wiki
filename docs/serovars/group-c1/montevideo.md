@@ -1,11 +1,19 @@
 # *S.* Montevideo
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,7,14:g,m,[p],s:[1,2,7] |
+    | Serogroup | O:7 (C1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Montevideo%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Montevideo (antigenic formula 6,7,14:g,m,[p],s:[1,2,7]) is a serovar of the O:7 (C1) serogroup. This serovar was first isolated in [Uruguay in 1936](https://jamanetwork.com/journals/jamapediatrics/article-abstract/495402) from an infant with chronic enterocolitis. The Centers for Disease Control and Prevention (CDC) routinely includes serovar Montevideo among its [top 20 Salmonella serotypes](https://stacks.cdc.gov/view/cdc/152396/cdc_152396_DS1.pdf) associated with human infections, causing an average of 700 illnesses in US each year. While serovar Montevideo ranked as the predominant *Salmonella* serotype in North America, it was not among the top five most reported serotypes in [other continents](https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2019.00102/full).
 
-NCBI PD link for serovar Montevideo: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Montevideo%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Montevideo%22))
+%20AND%20computed_types:(%22serotype=Montevideo%22))
 
 ## Genetic Characteristics
 
@@ -23,7 +31,7 @@ NCBI PD link for serovar Montevideo: [https://www.ncbi.nlm.nih.gov/pathogens/iso
 
 **Outbreaks:** Numerous outbreaks in different countries have been linked to serovar Montevideo, nuts have been associated with several of these outbreaks. Below are some examples.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2020-2021 | Canada | [Restaurant kitchen drainage system](https://www.sciencedirect.com/science/article/pii/S0362028X23068151) | 67 |
 | 2018 | US: multistate | [Raw sprouts](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/montevideo-01-18/index.html) | 10 |
@@ -46,7 +54,7 @@ NCBI PD link for serovar Montevideo: [https://www.ncbi.nlm.nih.gov/pathogens/iso
 
  Multiple border rejections associated with serovar Montevideo have been reported. Below are some examples.
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2024 | France | Italy | [Rabbit meal for petfood production](https://webgate.ec.europa.eu/rasff-window/screen/notification/723009) | Animal by-products |
 | 2024 | Turkey | Germany | [Dog chew](https://webgate.ec.europa.eu/rasff-window/screen/notification/702610)^1^ | Pet food |
@@ -73,7 +81,7 @@ Multiple recalls associated with serovar Montevideo have been reported. Below ar
 
 ^1^ Wonderful Pistachios of Lost Hills, California issued a voluntary recalled. The recalled pistachios, distributed under the Wonderful, Paramount Farms, and Trader Joe's brands, were sold across the US as well as in Canada, Mexico, and Peru.
 
-## Relevant Links
+## References
 
 1. [https://jamanetwork.com/journals/jamapediatrics/article-abstract/495402](https://jamanetwork.com/journals/jamapediatrics/article-abstract/495402)
 2. [https://stacks.cdc.gov/view/cdc/152396/cdc_152396_DS1.pdf](https://stacks.cdc.gov/view/cdc/152396/cdc_152396_DS1.pdf)

@@ -1,11 +1,18 @@
 # *S.* Muenster
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Serogroup | O:3,10 (E1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Muenster%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Muenster (antigenic formula 3,{10}{15}{15,34}:e,h:1,5) is a serovar of the O:3,10 (E1) serogroup. The serovars previously known as [Newhaw and Arkansas](https://www.pasteur.fr/sites/default/files/veng_0.pdf) are now classified as variants of serovar Muenster. Newhaw is designated as Muenster var. 15^+^ (converted by phage =CE=B515), while Arkansas is Muenster var. 15^+^,34^+^ (converted by phages =CE=B515 and =CE=B534). These variants occupy the same serological position as group O:4 (B) strains, which express factor 1 upon conversion but had not been assigned new names. During 1986, *Salmonella* spp. (primarily serovar Muenster) was detected in [2.9% of raw milk samples](https://pmc.ncbi.nlm.nih.gov/articles/PMC1255394/) from dairy herds in southwestern Ontario, but the prevalence declined to [zero within approximately a year](https://www.sciencedirect.com/science/article/pii/S0362028X22090214?via%3Dihub). According to the [1996 USDA prevalence study](https://www.aphis.usda.gov/sites/default/files/dairy96_is_ecoli_salm.pdf), serovar Muenster ranked as the seventh most frequent serotype, representing 4.7% of all *Salmonella* spp. isolates in US dairy operations. Serovar Muenster can cause [abortion or diarrhea in cows](https://pmc.ncbi.nlm.nih.gov/articles/PMC339296/) in late gestation.
 
-NCBI PD link for serovar Muenster: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Muenster%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Muenster%22))
+%20AND%20computed_types:(%22serotype=Muenster%22))
 
 ## Genetic Characteristics
 
@@ -30,7 +37,7 @@ NCBI PD link for serovar Muenster: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2024 | Nigeria | Italy | [Sesame seeds](https://webgate.ec.europa.eu/rasff-window/screen/notification/695422) | Nuts, nut products and seeds |
 | 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/433763) | Herbs and spices |
@@ -40,11 +47,11 @@ NCBI PD link for serovar Muenster: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
 ## Recalls
 
-| **Year** | **Location** | **Associated source** | **Type** |
+| Year | Location | Associated source | Type |
 | --- | --- | --- | --- |
 | 2024 | Germany, Ireland | [Tahini from Lebanon](https://webgate.ec.europa.eu/rasff-window/screen/notification/710185) | Nuts, nut products and seeds |
 
-## Relevant Links
+## References
 
 1. [https://www.pasteur.fr/sites/default/files/veng_0.pdf](https://www.pasteur.fr/sites/default/files/veng_0.pdf)
 2. [https://pmc.ncbi.nlm.nih.gov/articles/PMC1255394/](https://pmc.ncbi.nlm.nih.gov/articles/PMC1255394/)

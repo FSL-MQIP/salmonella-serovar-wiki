@@ -1,11 +1,19 @@
 # *S.* Adelaide
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 35:f,g:- |
+    | Serogroup | O:35 (O) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Adelaide%22)) {:target="_blank"} |
+
 ## Background Information
 
 *Salmonella enterica* subsp. *enterica* serovar Adelaide (antigenic formula 35:f,g:-) is a serovar of the O:35 (O) serogroup. Serovar Adelaide was[first isolated in 1943](https://onlinelibrary.wiley.com/doi/10.1038/icb.1943.23)from a fatal case of enteritis in a man in Adelaide, Australia.
 
-NCBI PD link for serovar Adelaide: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Adelaide%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Adelaide%22))
+%20AND%20computed_types:(%22serotype=Adelaide%22))
 
 ## Genetic Characteristics
 
@@ -21,13 +29,13 @@ NCBI PD link for serovar Adelaide: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | [2018](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/adelaide-06-18/index.html) | US: multistate | Pre-cut melon | 77 |
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | [2021](https://webgate.ec.europa.eu/rasff-window/screen/notification/505138) | Ethiopia | Germany | Sesame seeds | Nuts, nut products and seeds |
 
@@ -35,7 +43,7 @@ NCBI PD link for serovar Adelaide: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://onlinelibrary.wiley.com/doi/10.1038/icb.1943.23](https://onlinelibrary.wiley.com/doi/10.1038/icb.1943.23)
 2. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full)

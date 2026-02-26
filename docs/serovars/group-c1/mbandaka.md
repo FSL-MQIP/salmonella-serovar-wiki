@@ -1,11 +1,19 @@
 # *S.* Mbandaka
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,7,14:z10:e,n,z15 |
+    | Serogroup | O:7 (C1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Mbandaka%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Mbandaka (antigenic formula 6,7,14:z10:e,n,z15) is a serovar of the O:7 (C1) serogroup. This serovar was first isolated in [1948](https://www.aaem.pl/Fifteen-years-of-successful-spread-of-Salmonella-enterica-serovar-Mbandaka-clone-ST413-in-Poland-and-its-public-health-consequences,72405,0,2.html) from a human salmonellosis case in the Belgian Congo. Serovar Mbandaka was ranked among the[top 10](https://www.efsa.europa.eu/en/efsajournal/pub/3129) serovars responsible for human salmonellosis cases in Europe. This serovar was also among the [20 most](https://orbit.dtu.dk/files/5208629/PhD_Thesis_RSHE_281209%20(2)%2017x24.pdf) prevalent serovars associated with human cases in other countries, along with Israel, North America, Africa, and New Zealand. In a [Chinese pig farm](https://www.liebertpub.com/doi/10.1089/fpd.2021.0018?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub++0pubmed), serovar Mbandaka (12.6%) ranked as the fourth most prevalent serovar identified. In [nine broiler slaughterhouses in Brazil](https://www.veterinariaitaliana.izs.it/index.php/VetIt/article/view/2434/1189), serovar Mbandaka (12.7%) was the third most frequent serovars isolated. This serovar was reported to cause [travel-associated sacroiliac osteomyelitis](https://onlinelibrary.wiley.com/doi/10.1155/2013/543147) in a healthy adolescent.
 
-NCBI PD link for serovar Mbandaka: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Mbandaka%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Mbandaka%22))
+%20AND%20computed_types:(%22serotype=Mbandaka%22))
 
 ## Genetic Characteristics
 
@@ -45,7 +53,7 @@ NCBI PD link for serovar Mbandaka: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
  Multiple border rejections linked to serovar Mbandaka have been reported. Below are some examples.
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2024 | Belarus | Poland | [Rapeseed extraction meal](https://webgate.ec.europa.eu/rasff-window/screen/notification/728058) | Feed materials |
 | 2024 | China | Italy | [Chili pepper (Capsicum annum)](https://webgate.ec.europa.eu/rasff-window/screen/notification/672949) | Herbs and spices |
@@ -69,7 +77,7 @@ NCBI PD link for serovar Mbandaka: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
 ^1^ This recall was resulted by a multistate outbreak described above. Kellogg company voluntarily recalled their 15.3 oz. and 23 oz. packages of honey smacks cereal.
 
-## Relevant Links
+## References
 
 1. [https://www.aaem.pl/Fifteen-years-of-successful-spread-of-Salmonella-enterica-serovar-Mbandaka-clone-ST413-in-Poland-and-its-public-health-consequences,72405,0,2.html](https://www.aaem.pl/Fifteen-years-of-successful-spread-of-Salmonella-enterica-serovar-Mbandaka-clone-ST413-in-Poland-and-its-public-health-consequences,72405,0,2.html)
 2. [https://www.efsa.europa.eu/en/efsajournal/pub/3129](https://www.efsa.europa.eu/en/efsajournal/pub/3129)

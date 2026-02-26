@@ -1,11 +1,18 @@
 # *S.* Litchfield
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,8:l,v:1,2 |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Litchfield%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Litchfield (antigenic formula 6,8:l,v:1,2) is a serovar of the O:8 (C2-C3) serogroup. An outbreak linked to poultry (no further details were included in the paper, so this is not described in the human outbreaks section below), caused by serovar Litchfield, showed the[highest proportion](https://pmc.ncbi.nlm.nih.gov/articles/PMC10793259/)of positive isolates in urine samples (17%, or 3 out of 18 cases). Serovar Litchfield has also been reported to cause an outbreak in a [herd of cattle](https://www.cabidigitallibrary.org/doi/full/10.5555/20013036586) with sparrows considered as the most likely vehicle of infection.
 
-NCBI PD link for serovar Litchfield: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Litchfield%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Litchfield%22))
+%20AND%20computed_types:(%22serotype=Litchfield%22))
 
 ## Genetic Characteristics
 
@@ -51,7 +58,7 @@ NCBI PD link for serovar Litchfield: [https://www.ncbi.nlm.nih.gov/pathogens/iso
 
 ^2^ Canadian Food Inspection Agency issued a recall for Filicetti brand Italian Style mild, dry, cured sausage.
 
-## Relevant Links
+## References
 
 1. [https://pmc.ncbi.nlm.nih.gov/articles/PMC10793259/](https://pmc.ncbi.nlm.nih.gov/articles/PMC10793259/)
 2. [https://www.cabidigitallibrary.org/doi/full/10.5555/20013036586](https://www.cabidigitallibrary.org/doi/full/10.5555/20013036586)

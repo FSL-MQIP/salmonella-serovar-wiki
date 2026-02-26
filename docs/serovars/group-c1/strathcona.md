@@ -1,9 +1,17 @@
 # *S.* Strathcona
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | [6,7:l,z13 |
+    | Serogroup | O:7 (C1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Strathcona%22)) {:target="_blank"} |
+
 **Background information:** *Salmonella enterica* subsp. *enterica* serovar Strathcona (antigenic formula [6,7:l,z13 ,z28:1,7](https://www.pasteur.fr/sites/default/files/veng_0.pdf)) is a serovar of the O:7 (C1) serogroup. Other than being derived from animal samples described below, serovar Strathcona was also isolated from[sludge, river water, bivalve mussels, and composite food (spelt with tomatoes and pesto)](https://www.ecdc.europa.eu/sites/default/files/documents/salmonella-strathcona-ST2559-tomatoes-rapid-outbreak-assessment-november-2024.pdf).
 
-NCBI PD link for serovar Strathcona: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Strathcona%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Strathcona%22))
+%20AND%20computed_types:(%22serotype=Strathcona%22))
 
 ## Genetic Characteristics
 
@@ -36,7 +44,7 @@ According to the [EU One Health Zoonoses Report](https://www.ecdc.europa.eu/site
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. https://www.pasteur.fr/sites/default/files/veng_0.pdf
 2. [https://www.foodsafetynews.com/?s=Strathcona](https://www.foodsafetynews.com/?s=Strathcona)

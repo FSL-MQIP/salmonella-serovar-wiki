@@ -1,11 +1,19 @@
 # *S.* Infantis
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,7,14:r:1,5 |
+    | Serogroup | O:7 (C1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Infantis%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Infantis (antigenic formula 6,7,14:r:1,5) is a serovar of the O:7 (C1) serogroup. This serovar was first reported in [wild birds in Florida, USA in 1979](https://meridian.allenpress.com/jwd/article/15/2/235/118210/ANTIMICROBIAL-RESISTANT-Salmonella-spp-ISOLATED). Serovar Infantis was identified as the most common serovar in broiler flocks (45.6%) and broiler meat (50.6%) across [Europe](https://pmc.ncbi.nlm.nih.gov/articles/PMC7009540/). In human cases, serovar Infantis ranked as the [fourth most prevalent](https://pmc.ncbi.nlm.nih.gov/articles/PMC7009540/)serovar in non-typhoidal *Salmonella* (NTS) infections in Europe. Additionally, in[the United States](https://wwwn.cdc.gov/foodnetfast/), serovar Infantis was consistently among the top 10 serotypes responsible for reported human illnesses in 9 out of 10 years between 2010 and 2019, with the exception of 2012, when it ranked 11th. Since 2016, serovar Infantis has become one of the most frequently detected *Salmonella* serotypes originating from [poultry sources in the United States](https://www.fsis.usda.gov/science-data/data-sets-visualizations/microbiology/microbiological-testing-program-rte-meat-and-7).
 
-NCBI PD link for serovar Infantis: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Infantis%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Infantis%22))
+%20AND%20computed_types:(%22serotype=Infantis%22))
 
 ## Genetic Characteristics
 
@@ -25,7 +33,7 @@ The CDC has identified [REPJFX01](https://www.cdc.gov/salmonella/php/data-resear
 
  Numerous human outbreaks linked to poultry have been reported mainly in the US and Canada. Here are some examples.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html)^1^ | 470 |
 | 2019 | US: multistate | [Raw chicken](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/infantis-10-18/index.html) | 129 |
@@ -48,7 +56,7 @@ The CDC has identified [REPJFX01](https://www.cdc.gov/salmonella/php/data-resear
 
  Multiple border rejections linked to serovar Infantis have been reported. Majority of them are associated with poultry. Here are some examples.
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2024 | Poland | Italy | [Frozen chicken meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/731338)^1^ | Poultry meat and poultry meat products |
 | 2023 | Poland | Germany | [Dog chews](https://webgate.ec.europa.eu/rasff-window/screen/notification/641450) | Pet food |
@@ -70,7 +78,7 @@ The CDC has identified [REPJFX01](https://www.cdc.gov/salmonella/php/data-resear
 | 2021 | US: WA | [Uncured antipasto products](https://www.fsis.usda.gov/recalls-alerts/fratelli-beretta-usa-inc.-recalls-ready-eat-uncured-antipasto-meat-products-due) | Meat and meat products (other than poultry) |
 | 2021 | Norway | [Frozen fish (Gourami) from Vietnam](https://webgate.ec.europa.eu/rasff-window/screen/notification/483014) | Fish and fish products |
 
-## Relevant Links
+## References
 
 1. [https://meridian.allenpress.com/jwd/article/15/2/235/118210/ANTIMICROBIAL-RESISTANT-Salmonella-spp-ISOLATED](https://meridian.allenpress.com/jwd/article/15/2/235/118210/ANTIMICROBIAL-RESISTANT-Salmonella-spp-ISOLATED)
 2. [https://pmc.ncbi.nlm.nih.gov/articles/PMC7009540/](https://pmc.ncbi.nlm.nih.gov/articles/PMC7009540/)

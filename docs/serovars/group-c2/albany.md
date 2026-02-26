@@ -1,6 +1,12 @@
 # *S.* Albany
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 8,20:z4,z24:- |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Albany (antigenic formula 8,20:z4,z24:-) is a serovar of the O:8 (C2-C3) serogroup.
@@ -41,7 +47,7 @@ NCBI PD cannot differentiate between serovar Albany and serovar Duesseldorf; add
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full)
 2. [https://www.liebertpub.com/doi/10.1089/fpd.2023.0034](https://www.liebertpub.com/doi/10.1089/fpd.2023.0034)

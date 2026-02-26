@@ -1,11 +1,19 @@
 # *S.* Indiana
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 1,4,12:z:1,7 |
+    | Serogroup | O:4 (B) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Indiana%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Indiana (antigenic formula 1,4,12:z:1,7) is a serovar of the O:4 (B) serogroup. Serovar Indiana was first isolated from a 9-month-old child [in 1955 in Indiana, US](https://pmc.ncbi.nlm.nih.gov/articles/PMC1920039/). Infection of this serovar can result in [abortion in ewes](https://www.sciencedirect.com/science/article/pii/S0378113508003489#bib17). In recent years, serovar Indiana has emerged and expanded rapidly in [China](https://www.sciencedirect.com/science/article/pii/S221242922401678X), frequently identified in patients experiencing diarrhea.
 
-NCBI PD link for serovar Indiana: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Indiana%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Indiana%22))
+%20AND%20computed_types:(%22serotype=Indiana%22))
 
 ## Genetic Characteristics
 
@@ -33,7 +41,7 @@ NCBI PD link for serovar Indiana: [https://www.ncbi.nlm.nih.gov/pathogens/isolat
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2021 | Poland | Italy | [Carne di taccino congelata- frozen turkey meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/514757)^1^ | Meat and meat products (other than poultry) |
 
@@ -43,7 +51,7 @@ NCBI PD link for serovar Indiana: [https://www.ncbi.nlm.nih.gov/pathogens/isolat
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0144532](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0144532)
 2. [https://www.sciencedirect.com/science/article/pii/S221242922401678X](https://www.sciencedirect.com/science/article/pii/S221242922401678X)

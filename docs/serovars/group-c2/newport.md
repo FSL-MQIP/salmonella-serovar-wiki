@@ -1,6 +1,12 @@
 # *S.* Newport
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,8,20:e,h:1,2 |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Newport (antigenic formula 6,8,20:e,h:1,2) is a serovar of the O:8 (C2-C3) serogroup. According to the National Veterinary Services Laboratories (NVSL), serovar Newport became one of the [top 10 most frequently](https://www.addl.purdue.edu/newsletters/2004/summer/salmnewp.htm#:~:text=newport%20as%20one%20of%20the,annually%20in%20the%20United%20States.) identified *Salmonella* serotypes from US cattle from July 1998 through June 1999. Ranked as one of the [top three](https://stacks.cdc.gov/view/cdc/23403/cdc_23403_DS1.pdf) *Salmonella* serotypes causing US foodborne outbreaks, serovar Newport has seen a substantial increase in human clinical cases since 1995, with an estimated 100,000 annual infections. In recent years, [multidrug resistant *Salmonella* Newport](https://pubmed.ncbi.nlm.nih.gov/11135779/) has emerged as an epidemic, rapidly spreading through animal and human populations in US. In 2019, serovar Newport ranked as the [fifth most prevalent](https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2021.6406) *Salmonella* serotype in the EU/EEA, representing 1.1% of reported human salmonellosis cases.
@@ -73,7 +79,7 @@
 
  Multiple border rejections linked to this serovar have been reported and they are mainly associated with poultry or poultry products. Below are some examples:
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2025 | Poland | Italy | [Frozen duck](https://webgate.ec.europa.eu/rasff-window/screen/notification/745388)^1^ | Poultry meat and poultry meat products |
 | 2025 | Poland | Italy | [Chicken and turkey kebab](https://webgate.ec.europa.eu/rasff-window/screen/notification/737443) | Poultry meat and poultry meat products |
@@ -108,7 +114,7 @@
 
 ^4^ This recall was caused by a multistate outbreak involving *Salmonella* Typhimurium and Newport as described above. Chamberlain Farms Produce, Inc. of Owensville, Indiana voluntarily issued a recall of cantaloupe grown on its farm.
 
-## Relevant Links
+## References
 
 1. [https://www.addl.purdue.edu/newsletters/2004/summer/salmnewp.htm#:~:text=newport%20as%20one%20of%20the,annually%20in%20the%20United%20States](https://www.addl.purdue.edu/newsletters/2004/summer/salmnewp.htm#:~:text=newport%20as%20one%20of%20the,annually%20in%20the%20United%20States).
 2. [https://stacks.cdc.gov/view/cdc/23403/cdc_23403_DS1.pdf](https://stacks.cdc.gov/view/cdc/23403/cdc_23403_DS1.pdf)

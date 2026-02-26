@@ -1,11 +1,18 @@
 # *S.* Amsterdam
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Serogroup | O:3,10 (E1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20serovar:(%22Amsterdam%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Amsterdam (antigenic formula 3,{10}{15}{15,34}:g,m,s:–) is a serovar of the O:3,10 (E1) serogroup.
 
-NCBI PD link for serovar Amsterdam: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20serovar:(%22Amsterdam%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20serovar:(%22Amsterdam%22))
+%20AND%20serovar:(%22Amsterdam%22))
 
 ## Genetic Characteristics
 
@@ -29,7 +36,7 @@ NCBI PD link for serovar Amsterdam: [https://www.ncbi.nlm.nih.gov/pathogens/isol
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2023 | Norway | Syria | [Halva](https://webgate.ec.europa.eu/rasff-window/screen/notification/615422) | Confectionery |
 
@@ -42,7 +49,7 @@ NCBI PD link for serovar Amsterdam: [https://www.ncbi.nlm.nih.gov/pathogens/isol
 
 ^1^ *Salmonella* Amsterdam and *Salmonella* Livingstone were found.
 
-## Relevant Links
+## References
 
 1. [https://pmc.ncbi.nlm.nih.gov/articles/PMC9445369/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9445369/)
 2. [https://www.sciencedirect.com/science/article/pii/S0309174016301371](https://www.sciencedirect.com/science/article/pii/S0309174016301371)

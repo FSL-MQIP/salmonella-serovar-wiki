@@ -1,11 +1,18 @@
 # *S.* Anatum
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Serogroup | O:3,10 (E1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Anatum%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Anatum (antigenic formula 3,{10}{15}{15,34}:e,h:1,6) is a serovar of the O:3,10 (E1) serogroup. Serovar Anatum was first isolated from ducklings in the United States in [1920](https://journals.asm.org/doi/pdf/10.1128/jb.30.3.269-276.1935) by Rettger and Scoville. Serovar Anatum has been reported as one of the top 20 *Salmonella* serotypes in the United States.
 
-NCBI PD link for serovar Anatum: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Anatum%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Anatum%22))
+%20AND%20computed_types:(%22serotype=Anatum%22))
 
 ## Genetic Characteristics
 
@@ -33,7 +40,7 @@ NCBI PD link for serovar Anatum: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
  Numerous border rejections associated with serovar Anatum have been reported. Here we selected two as examples.
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2024 | Turkey | Germany | [Dog chew](https://webgate.ec.europa.eu/rasff-window/screen/notification/702610)^1^ | Pet food |
 | 2020 | US | Greece | [Fish meal](https://webgate.ec.europa.eu/rasff-window/screen/notification/429238) | Feed materials |
@@ -42,13 +49,13 @@ NCBI PD link for serovar Anatum: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
 ## Recalls
 
-| **Year** | **Location** | **Associated source** | **Type** |
+| Year | Location | Associated source | Type |
 | --- | --- | --- | --- |
 | 2017 | US: multistate | [Maradol papayas](https://archive.cdc.gov/www_cdc_gov/salmonella/anatum-9-17/advice.html) from Mexico^1^ | Fruit |
 
 ^1^ This recall was resulted by one of four separate multistate outbreaks identified in 2017 related to imported Maradol papayas from four different farms in Mexico. The recalled papayas, which were labeled by the packer Frutas Selectas de Tijuana, Tijuana, Baja California, Mexico, were distributed to markets in California from August 10 to 29, 2017.
 
-## Relevant Links
+## References
 
 1. [https://journals.asm.org/doi/pdf/10.1128/jb.30.3.269-276.1935](https://journals.asm.org/doi/pdf/10.1128/jb.30.3.269-276.1935)
 2. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full)

@@ -1,11 +1,15 @@
 # *S.* Richmond
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,7:y:1,2 |
+    | Serogroup | O:7(C1) |
 
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Richmond (antigenic formula 6,7:y:1,2) is a serovar of the O:7(C1) serogroup.^1^ Serovar Richmond has been isolated from turtles, tilapia, moringa leaf powder, aqueducts, onion, fish products, and poultry.^2,3,4,5,6,7,8^
-
-NCBI PD link for serovar Richmond: [https://www.ncbi.nlm.nih.gov/pathogens/isolates#taxgroup_name:(%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Richmond%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates#taxgroup_name:(%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Richmond%22))
 
 ## Genetic Characteristics
 
@@ -28,7 +32,7 @@ NCBI PD link for serovar Richmond: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | Product category |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | [2023](https://webgate.ec.europa.eu/rasff-window/screen/notification/604602) | Hungary | Germany | Onion powder | Other food product / mixed |
 

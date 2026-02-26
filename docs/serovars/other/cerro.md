@@ -1,11 +1,19 @@
 # *S.* Cerro
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,14,18:z4,z23:1,5 |
+    | Serogroup | O:18 (K) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Cerro%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Cerro (antigenic formula 6,14,18:z4,z23:1,5) is a serovar of the O:18 (K) serogroup. This serovar [emerged in cattle](https://pmc.ncbi.nlm.nih.gov/articles/PMC3095722/) in the United States. According to the CDC report of 2011, this serovar ranked [third](https://www.cdc.gov/salmonella/reportspubs/salmonella-atlas/serotype-reports.html) among clinical-nonhuman sources. Hardly reported in human salmonellosis cases, but highly reported among [dairy cattle](https://pubmed.ncbi.nlm.nih.gov/20187753/).
 
-NCBI PD link for serovar Cerro: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Cerro%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Cerro%22))
+%20AND%20computed_types:(%22serotype=Cerro%22))
 
 ## Genetic Characteristics
 
@@ -23,7 +31,7 @@ NCBI PD link for serovar Cerro: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
  Multiple outbreaks of human salmonellosis due to serovar Cerro have been reported. Below are a few examples.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2024 | US: Multi-state | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/?CDC_AAref_Val=https://www.cdc.gov/salmonella/backyardpoultry-05-24/index.html) | 470^1^ |
 | 2012 | US: Arkansas | [Eggs, chicken salad, person-to-person](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6308a2.htm) | 6^2^ |
@@ -35,7 +43,7 @@ NCBI PD link for serovar Cerro: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2021 | Ethiopia | Germany | [Organic sesame seeds](https://webgate.ec.europa.eu/rasff-window/screen/notification/507191) | Nuts, nut products and seeds |
 | 2020 | Brazil | Germany | [Black pepper^1^](https://webgate.ec.europa.eu/rasff-window/screen/notification/443222) | Herbs and spices |
@@ -56,7 +64,7 @@ NCBI PD link for serovar Cerro: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
 ^2^ This recall was caused by an outbreak described above.
 
-## Relevant Links
+## References
 
 1. [https://pmc.ncbi.nlm.nih.gov/articles/PMC3095722/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3095722/)
 2. [https://www.cdc.gov/salmonella/reportspubs/salmonella-atlas/serotype-reports.html](https://www.cdc.gov/salmonella/reportspubs/salmonella-atlas/serotype-reports.html)

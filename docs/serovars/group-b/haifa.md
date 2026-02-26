@@ -1,11 +1,18 @@
 # *S.* Haifa
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 1,4,[5],12:z10:1,2 |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Haifa%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Haifa (antigenic formula 1,4,[5],12:z10:1,2) is a serovar of the group O:4 (B) serogroup. This serovar was first isolated from the feces of a 3-year-old Arabic child with enteritis in [1949 in Israel](https://pmc.ncbi.nlm.nih.gov/articles/PMC385844/). It was linked to a case of fatal food intoxication in [Japan](https://www.jstage.jst.go.jp/article/yoken/58/3/58_JJID.2005.192/_article).
 
-NCBI PD link for serovar Haifa: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Haifa%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Haifa%22))
+%20AND%20computed_types:(%22serotype=Haifa%22))
 
 ## Genetic Characteristics
 
@@ -31,7 +38,7 @@ There have been no recent human outbreaks linked to serovar Haifa.
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://pmc.ncbi.nlm.nih.gov/articles/PMC385844/](https://pmc.ncbi.nlm.nih.gov/articles/PMC385844/)
 2. [https://www.jstage.jst.go.jp/article/yoken/58/3/58_JJID.2005.192/_article](https://www.jstage.jst.go.jp/article/yoken/58/3/58_JJID.2005.192/_article)

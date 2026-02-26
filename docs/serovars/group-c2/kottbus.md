@@ -1,11 +1,18 @@
 # *S.* Kottbus
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,8:e,h:1,5 |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Kottbus%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Kottbus (antigenic formula 6,8:e,h:1,5) is a serovar of the O:8 (C2-C3) serogroup. Across Europe, it is one of the 10 predominant serovars found in turkey. More specifically, according to the [2006–2007 European baseline survey on *Salmonella* in turkey flocks](https://doaj.org/article/a82b59f70be04dccaa1209e4af7a9d32), serovar Kottbus was among the top five serovars in fattening flocks (8.3%) and the second most prevalent in breeding flocks (15.6%).
 
-NCBI PD link for serovar Kottbus: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Kottbus%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Kottbus%22))
+%20AND%20computed_types:(%22serotype=Kottbus%22))
 
 ## Genetic Characteristics
 
@@ -33,7 +40,7 @@ NCBI PD link for serovar Kottbus: [https://www.ncbi.nlm.nih.gov/pathogens/isolat
 
  Multiple border rejections linked to chicken products imported from Poland into Bulgaria have been reported. Here are some examples.
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2021 | Hungary | Italy | [Frozen duck fillets](https://webgate.ec.europa.eu/rasff-window/screen/notification/468397) | Poultry meat and poultry meat products |
 | 2020 | Poland | Bulgaria | [Chicken leg quarters](https://webgate.ec.europa.eu/rasff-window/screen/notification/424396) | Poultry meat and poultry meat products |
@@ -49,7 +56,7 @@ NCBI PD link for serovar Kottbus: [https://www.ncbi.nlm.nih.gov/pathogens/isolat
 
 ^1^* Salmonella *Kottbus, Mishmarmaek and Abony were found in lamb ears (dog chew) from Turkey via Denmark.
 
-## Relevant Links
+## References
 
 1. [https://doaj.org/article/a82b59f70be04dccaa1209e4af7a9d32](https://doaj.org/article/a82b59f70be04dccaa1209e4af7a9d32)
 2. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full#h10](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full#h10)

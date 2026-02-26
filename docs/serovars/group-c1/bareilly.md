@@ -1,9 +1,17 @@
 # *S.* Bareilly
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,7,14:y:1,5 |
+    | Serogroup | O:7 (C1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#taxgroup_name:(%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Bareilly%22)) {:target="_blank"} |
+
 **Background information:** *Salmonella enterica *subsp. *enterica *serovar Bareilly (antigenic formula 6,7,14:y:1,5) is a serovar of the O:7 (C1) serogroup. This serovar was first isolated from a paratyphoid case in India in [1928](https://www.cabidigitallibrary.org/doi/full/10.5555/19312701578). Serovar Bareilly has consistently ranked among the[top 20 most common serovars](http://www.cdc.gov/ncezid/dfwed/PDFs/salmonella-annual-report-2011-508c.pdf.)isolated from clinical salmonellosis cases in the United States.
 
-NCBI PD link for serovar Bareilly: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#taxgroup_name:(%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Bareilly%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#taxgroup_name:(%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Bareilly%22))
+%20AND%20computed_types:(%22serotype=Bareilly%22))
 
 ## Genetic Characteristics
 
@@ -27,7 +35,7 @@ Serovar Bareilly has been found to be [polyphyletic](https://www.frontiersin.org
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2022 | India | Germany | [Sesame seeds](https://webgate.ec.europa.eu/rasff-window/screen/notification/540411) | Nuts, nut products and seeds |
 | 2021 | India | Finland | [Frozen green beans](https://webgate.ec.europa.eu/rasff-window/screen/notification/479056) | Fruits and vegetables |
@@ -44,7 +52,7 @@ Serovar Bareilly has been found to be [polyphyletic](https://www.frontiersin.org
 
 ^2^ Measures including heat treatment and reinforced checking were taken.
 
-## Relevant Links
+## References
 
 1. [https://www.cabidigitallibrary.org/doi/full/10.5555/19312701578](https://www.cabidigitallibrary.org/doi/full/10.5555/19312701578)
 2. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full)

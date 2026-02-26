@@ -1,6 +1,13 @@
 # *S.* Lomalinda
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 1,9,12:a:e,n,x |
+    | Serogroup | O:9 (D1) |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Lomalinda (antigenic formula 1,9,12:a:e,n,x) is a serovar of the O:9 (D1) serogroup. This serovar was first isolated from the spinal fluid of a baby that [died of meningitis in 1944](https://doi.org/10.3181/00379727-57-14714) in Loma Linda, California, US.
@@ -21,7 +28,7 @@ NCBI PD Serovar Link for serovar Lomalinda: [https://www.ncbi.nlm.nih.gov/pathog
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2021 | US: multistate | [Not identified](https://outbreakdatabase.com/outbreaks/2021-multistate-outbreak-of-salmonella-lomalinda-infections-source-unknown) | 10 |
 | 2013 | US: CA | [Not identified](https://www.foodsafetynews.com/2013/11/7-sick-in-california-salmonella-outbreak/) | At least 7 |
@@ -34,7 +41,7 @@ NCBI PD Serovar Link for serovar Lomalinda: [https://www.ncbi.nlm.nih.gov/pathog
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://doi.org/10.3181/00379727-57-14714](https://doi.org/10.3181/00379727-57-14714)
 2. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full#h10](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full#h10)

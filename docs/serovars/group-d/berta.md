@@ -1,11 +1,17 @@
 # *S.* Berta
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Berta%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Berta (antigenic formula 1,9,12:[f],g,[t]:–) is a serovar of the group O:9 (D1) serogroup. This serovar is considered rare and is scarcely associated with human cases. It typically causes gastrointestinal food poisoning; however, serious infections such as [myocarditis](https://pubmed.ncbi.nlm.nih.gov/26730299/) and [meningitis](https://pubmed.ncbi.nlm.nih.gov/25263727/) due to this organism have been reported as well. The symptoms of [splenic abscesses](https://casereports.bmj.com/content/13/4/e235318.long) are usually non-specific and include fever, abdominal pain, nausea and vomiting.
 
-NCBI PD link for serovar Berta: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Berta%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Berta%22))
+%20AND%20computed_types:(%22serotype=Berta%22))
 
 ## Genetic Characteristics
 
@@ -21,7 +27,7 @@ NCBI PD link for serovar Berta: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2023 | US: WA | [Unknown source](https://kingcounty.gov/en/dept/dph/health-safety/disease-illness/foodborne-illness-outbreaks/2023-july-10-unknown-source#:~:text=Since%20April%2014%2C%202023%2C%20six,stool%2C%20fever%2C%20and%20chills.) | 6 |
 | 2002 | US: WA | [Cantaloupe, grapes, or watermelon](https://outbreakdatabase.com/outbreaks/2002-outbreak-of-salmonella-berta-linked-to-fruit-washington) | 29 |
@@ -35,7 +41,7 @@ NCBI PD link for serovar Berta: [https://www.ncbi.nlm.nih.gov/pathogens/isolates
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://pubmed.ncbi.nlm.nih.gov/26730299/](https://pubmed.ncbi.nlm.nih.gov/26730299/)
 2. [https://pubmed.ncbi.nlm.nih.gov/25263727/](https://pubmed.ncbi.nlm.nih.gov/25263727/)

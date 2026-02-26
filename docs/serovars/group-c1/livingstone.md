@@ -1,6 +1,13 @@
 # *S.* Livingstone
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,7,14:d:l,w |
+    | Serogroup | O:7 (C1) |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Livingstone (antigenic formula 6,7,14:d:l,w) is a serovar of the O:7 (C1) serogroup. This serovar was first isolated in [1951](https://onlinelibrary.wiley.com/doi/10.1002/path.1700660136) from human feces in UK. From [1999 to 2003](https://pmc.ncbi.nlm.nih.gov/articles/PMC1081247/), there was a huge surge in the isolation of serovar Livingstone from human salmonellosis infections and animal-based food products in Tunisia. During [1989-1991](https://pubmed.ncbi.nlm.nih.gov/8107062/), serovar Livingstone was the third most prevalent *Salmonella* serotype isolated from human salmonellosis infections in the Tayside area of Scotland.
@@ -38,7 +45,7 @@ NCBI PD Serovar Link for Serovar Livingstone: [https://www.ncbi.nlm.nih.gov/path
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2020 | US | Greece | [Fish meal](https://webgate.ec.europa.eu/rasff-window/screen/notification/429239) | Feed materials |
 
@@ -51,7 +58,7 @@ NCBI PD Serovar Link for Serovar Livingstone: [https://www.ncbi.nlm.nih.gov/path
 
 ^1^ *Salmonella *Amsterdam and *Salmonella* Livingstone were found in sesame seeds from India, packed in Poland.
 
-## Relevant Links
+## References
 
 1. [https://onlinelibrary.wiley.com/doi/10.1002/path.1700660136](https://onlinelibrary.wiley.com/doi/10.1002/path.1700660136)
 2. [https://pmc.ncbi.nlm.nih.gov/articles/PMC9641423/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9641423/)

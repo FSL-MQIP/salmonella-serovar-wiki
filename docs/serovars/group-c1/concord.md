@@ -1,11 +1,19 @@
 # *S.* Concord
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,7:l,v:1,2 |
+    | Serogroup | O:7 (C1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Concord%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Concord (antigenic formula 6,7:l,v:1,2) is a serovar of the O:7 (C1) serogroup. Serovar Concord was first isolated from poultry in the US in [1944](https://journals.asm.org/doi/10.1128/jb.47.6.574-575.1944). [Vanhoof et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC3303062/) demonstrated that transmission of *Salmonella *Concord, both within and outside families, can occur, although the frequency appears to be relatively low.
 
-NCBI PD link for serovar Concord: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Concord%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Concord%22))
+%20AND%20computed_types:(%22serotype=Concord%22))
 
 ## Genetic Characteristics
 
@@ -45,7 +53,7 @@ Serovar** **Concord has been reported [worldwide](https://www.ncbi.nlm.nih.gov/p
 
 ^1^ Achdut Ltd. in Ari'el, Israel recalled their tahini products. This recall was caused by a multistate outbreak described above.
 
-## Relevant Links
+## References
 
 1. [https://journals.asm.org/doi/10.1128/jb.47.6.574-575.1944](https://journals.asm.org/doi/10.1128/jb.47.6.574-575.1944)
 2. [https://pmc.ncbi.nlm.nih.gov/articles/PMC3303062/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3303062/)

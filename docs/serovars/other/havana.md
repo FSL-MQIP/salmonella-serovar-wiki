@@ -1,11 +1,18 @@
 # *S.* Havana
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Serogroup | O:13 (G) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Havana%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella **enterica* subsp. *enterica* serotype Havana (antigenic formula: 1,13,23:f,g,[s]:-) is a serovar of the O:13 (G) serogroup. Serovar Havana was first identified in [1937](https://academic.oup.com/jid/article-abstract/68/2/125/899111) after being isolated from spinal fluid during a meningitis outbreak at a hospital in Havana, Cuba, which led to the deaths of 21 newborns.
 
-NCBI PD link for serovar Havana: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Havana%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Havana%22))
+%20AND%20computed_types:(%22serotype=Havana%22))
 
 ## Genetic Characteristics
 
@@ -34,7 +41,7 @@ NCBI PD link for serovar Havana: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
  Multiple border rejections linked to serovar Havana have been reported. Here are some examples:
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2021 | Italy | Switzerland | [Soybean meal](https://webgate.ec.europa.eu/rasff-window/screen/notification/485130)^1^ | Feed materials |
 | 2021 | Germany | Austria | [Linseed meal extracted with soapstock](https://webgate.ec.europa.eu/rasff-window/screen/notification/465026) | Feed materials |
@@ -53,7 +60,7 @@ NCBI PD link for serovar Havana: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 | 2023 | Italy | [Farina di pesce from Estonia](https://webgate.ec.europa.eu/rasff-window/screen/notification/638769) | Feed materials |
 | 2021 | US | [Hummus](https://www.foodsafetynews.com/2021/12/fda-sends-warning-to-food-firms-over-import-violations-and-salmonella-in-retail-sampling/) | Prepared dishes and snacks |
 
-## Relevant Links
+## References
 
 1. [https://academic.oup.com/jid/article-abstract/68/2/125/899111](https://academic.oup.com/jid/article-abstract/68/2/125/899111)
 2. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full)

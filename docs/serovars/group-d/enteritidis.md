@@ -1,11 +1,19 @@
 # *S.* Enteritidis
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 1,9,12:g,m:- |
+    | Serogroup | O:9 (D1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Enteritidis%22)) {:target="_blank"} |
+
 ## Background Information
 
-: *Salmonella enterica* subsp. *enterica* serovar Enteritidis (antigenic formula 1,9,12:g,m:- ) is a serovar of the O:9 (D1) serogroup. This serovar is mainly associated with [table eggs and chickens](https://pubmed.ncbi.nlm.nih.gov/19207743/). Eggs can become contaminated either through penetration of the eggshell by *Salmonella *Enteritidis from the colonized gut or contaminated feces during or after oviposition (horizontal transmission). Alternatively, contamination can occur via direct infection of the yolk, albumen, eggshell membranes, or eggshells before oviposition, which results from the infection of reproductive organs with this serovar (vertical transmission). Since the [1990s](https://www.cdc.gov/salmonella/reportspubs/salmonella-atlas/serotype-snapshots.html#:~:text=Salmonella%20Enteritidis%2C%20one%20of%20the,it%20infects%20the%20new%20chick.), infection rates have dropped as the egg industry implemented voluntary controls on egg flocks and consumers have reduced their consumption of raw eggs. However, large outbreaks have still occurred. According to the [World Health Organization](https://www.who.int/news-room/fact-sheets/detail/salmonella-(non-typhoidal)), it is the most common serovar reported from human salmonellosis cases in Europe, North and South America, Africa and Asia.
+*Salmonella enterica* subsp. *enterica* serovar Enteritidis (antigenic formula 1,9,12:g,m:- ) is a serovar of the O:9 (D1) serogroup. This serovar is mainly associated with [table eggs and chickens](https://pubmed.ncbi.nlm.nih.gov/19207743/). Eggs can become contaminated either through penetration of the eggshell by *Salmonella *Enteritidis from the colonized gut or contaminated feces during or after oviposition (horizontal transmission). Alternatively, contamination can occur via direct infection of the yolk, albumen, eggshell membranes, or eggshells before oviposition, which results from the infection of reproductive organs with this serovar (vertical transmission). Since the [1990s](https://www.cdc.gov/salmonella/reportspubs/salmonella-atlas/serotype-snapshots.html#:~:text=Salmonella%20Enteritidis%2C%20one%20of%20the,it%20infects%20the%20new%20chick.), infection rates have dropped as the egg industry implemented voluntary controls on egg flocks and consumers have reduced their consumption of raw eggs. However, large outbreaks have still occurred. According to the [World Health Organization](https://www.who.int/news-room/fact-sheets/detail/salmonella-(non-typhoidal)), it is the most common serovar reported from human salmonellosis cases in Europe, North and South America, Africa and Asia.
 
-NCBI PD link for serovar Enteritidis: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Enteritidis%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Enteritidis%22))
+%20AND%20computed_types:(%22serotype=Enteritidis%22))
 
 ## Genetic Characteristics
 
@@ -13,13 +21,17 @@ NCBI PD link for serovar Enteritidis: [https://www.ncbi.nlm.nih.gov/pathogens/is
 
 ## Animal Reservoir
 
-: [Chicken](https://pubmed.ncbi.nlm.nih.gov/15095196/) is the main reservoir. Serovar Enteritidis is also found in [low percentage (Geographical distribution**: The distribution of serovar Enteritidis is [global](https://www.nature.com/articles/s41467-021-25319-7).
+[Chicken](https://pubmed.ncbi.nlm.nih.gov/15095196/) is the main reservoir. Serovar Enteritidis is also found in a low percentage of other animals including cattle and wild birds.
+
+## Geographical Distribution
+
+The distribution of serovar Enteritidis is [global](https://www.nature.com/articles/s41467-021-25319-7).
 
 ## Human/Animal Outbreaks
 
-: Numerous Enteritidis outbreaks have been reported and they are mainly associated with eggs or poultry. Below are some examples.
+Numerous Enteritidis outbreaks have been reported and they are mainly associated with eggs or poultry. Below are some examples.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/index.html) | 470^1^ |
 | 2018 | US: multistate | [Eggs](https://archive.cdc.gov/www_cdc_gov/salmonella/enteritidis-09-18/index.html) | 44 |
@@ -41,9 +53,9 @@ NCBI PD link for serovar Enteritidis: [https://www.ncbi.nlm.nih.gov/pathogens/is
 
 ## Border Rejections
 
-: There are numerous border rejections linked to *Salmonella* Enteritidis. The majority of them are associated with chicken, eggs, and egg products, while a few can also be related to other commodities. Below are examples.
+There are numerous border rejections linked to *Salmonella* Enteritidis. The majority of them are associated with chicken, eggs, and egg products, while a few can also be related to other commodities. Below are examples.
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2025 | Poland | Italy | [Frozen duck](https://webgate.ec.europa.eu/rasff-window/screen/notification/745388)^1^ | Poultry meat and poultry meat products |
 | 2024 | Brazil | Netherlands | [Fresh chicken meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/716015) | Poultry meat and poultry meat products |
@@ -63,7 +75,7 @@ NCBI PD link for serovar Enteritidis: [https://www.ncbi.nlm.nih.gov/pathogens/is
 | 2021 | Slovakia | [Cereal-based foods for infants and young children](https://webgate.ec.europa.eu/rasff-window/screen/notification/502448) | Cereals and bakery products |
 | 2020 | Poland | [Eggs](https://webgate.ec.europa.eu/rasff-window/screen/notification/451322) | Eggs and egg products |
 
-## Relevant Links
+## References
 
 1. [https://pubmed.ncbi.nlm.nih.gov/19207743/](https://pubmed.ncbi.nlm.nih.gov/19207743/)
 2. [https://www.cdc.gov/salmonella/reportspubs/salmonella-atlas/serotype-snapshots.html#:~:text=Salmonella%20Enteritidis%2C%20one%20of%20the,it%20infects%20the%20new%20chick](https://www.cdc.gov/salmonella/reportspubs/salmonella-atlas/serotype-snapshots.html#:~:text=Salmonella%20Enteritidis%2C%20one%20of%20the,it%20infects%20the%20new%20chick).

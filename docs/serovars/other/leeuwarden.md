@@ -1,9 +1,17 @@
 # *S.* Leeuwarden
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 11:b:1,5 |
+    | Serogroup | O:11 (F) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Leeuwarden%22)) {:target="_blank"} |
+
 **Background information:** *Salmonella* *enterica* subsp. *enterica* serovar Leeuwarden (antigenic formula 11:b:1,5) is a serovar of the O:11 (F) serogroup. This serovar was first identified by [A. B. Wielenga](https://link.springer.com/article/10.1007/BF02539007) from a stool sample of a five-month-old baby with enteritis in the Netherlands. FDA found this serovar in [organic ground oregano](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_024135545.1/).
 
-NCBI PD link for serovar Leeuwarden:[https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Leeuwarden%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Leeuwarden%22))
+%20AND%20computed_types:(%22serotype=Leeuwarden%22))
 
 ## Genetic Characteristics
 
@@ -23,7 +31,7 @@ Serovar Leeuwarden has been reported in[the US](https://www.ncbi.nlm.nih.gov/dat
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | [2020](https://webgate.ec.europa.eu/rasff-window/screen/notification/451481) | Bulgaria | Sweden | Sunflower seeds | Feed materials |
 
@@ -33,7 +41,7 @@ Serovar Leeuwarden has been reported in[the US](https://www.ncbi.nlm.nih.gov/dat
 
  
 
-## Relevant Links
+## References
 
 1. [https://link.springer.com/article/10.1007/BF02539007](https://link.springer.com/article/10.1007/BF02539007)
 2. [https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_024135545.1/](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_024135545.1/)

@@ -1,11 +1,18 @@
 # *S.* Bovismorbificans
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,8,20:r,[i]:1,5 |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Bovismorbificans%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Bovismorbificans (antigenic formula 6,8,20:r,[i]:1,5) is a serovar of the O:8 (C2-C3) serogroup. Serovar Bovismorbificans was first reported in grey seals in the UK in [1979](https://zslpublications.onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-7998.1979.tb03972.x). The prevalence of this serovar is generally low. For example, between three and fourteen cases of serovar Bovismorbificans occur annually in the [Netherlands](https://pmc.ncbi.nlm.nih.gov/articles/PMC5765776/).
 
-NCBI PD link for serovar Bovismorbificans: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Bovismorbificans%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Bovismorbificans%22))
+%20AND%20computed_types:(%22serotype=Bovismorbificans%22))
 
 ## Genetic Characteristics
 
@@ -23,7 +30,7 @@ NCBI PD link for serovar Bovismorbificans: [https://www.ncbi.nlm.nih.gov/pathoge
 
  There are multiple outbreaks associated with serovar Bovismorbificans. Here we reported a few as examples.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2022 | Greece | [Tap water](https://www.mdpi.com/1660-4601/21/2/167#:~:text=Results:%20We%20identified%2033%20cases%20(median%20age:,tap%20water%20samples%20had%20identical%20PFGE%20profiles.) | 33 |
 | 2020 | France | [Dried pork sausages](https://pmc.ncbi.nlm.nih.gov/articles/PMC9837855/) | 33 |
@@ -35,7 +42,7 @@ NCBI PD link for serovar Bovismorbificans: [https://www.ncbi.nlm.nih.gov/pathoge
 
  Multiple border rejections were found. Here we reported one as example.
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/513983)^1^ | Herbs and spices |
 
@@ -51,7 +58,7 @@ NCBI PD link for serovar Bovismorbificans: [https://www.ncbi.nlm.nih.gov/pathoge
 
 ^1^ This recall was caused by a Bovismorbificans outbreak infecting 33 people. Three recalls of dried pork products were addressed in November 2020, influencing eight supermarkets.
 
-## Relevant Links
+## References
 
 :
 

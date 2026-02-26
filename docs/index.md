@@ -59,7 +59,7 @@ A curated web portal providing comprehensive, serovar-specific information on mo
 
 ## At a Glance
 
-| | |
+| Metric | Count |
 |---|---|
 | **Serovars covered** | 111 |
 | **Documented outbreaks** | 400+ |
@@ -80,7 +80,7 @@ Each serovar page follows a standardized eight-section format:
 | :material-alert-circle-outline: **Human/Animal Outbreaks** | Year, location, source, case count |
 | :material-shield-alert-outline: **Border Rejections** | Exporting/enforcing country, source, product category |
 | :material-package-variant-closed: **Recalls** | Year, location, recalled product, type |
-| :material-link-variant: **Relevant Links** | Numbered references and citations |
+| :material-link-variant: **References** | Numbered citations to peer-reviewed literature and surveillance reports |
 
 !!! info "Migrated from Confluence"
     This site replaces the [original Confluence-based Wiki](https://confluence.cornell.edu/display/FOODSAFETY/Salmonella+Serovar+Wiki). All content has been migrated with full version control via Git.

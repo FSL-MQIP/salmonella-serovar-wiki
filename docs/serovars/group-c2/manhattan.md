@@ -1,9 +1,17 @@
 # *S.* Manhattan
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,8:d:1,5 |
+    | Serogroup | O:6,8 (C2) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Manhattan%22)) {:target="_blank"} |
+
 **Background information: ** *Salmonella enterica *subsp. *enterica *serovar Manhattan (antigenic formula 6,8:d:1,5) is a serovar of the O:6,8 (C2) serogroup. [Between 2017 and 2018](https://www.sciencedirect.com/science/article/pii/S2451943X22000199?via%3Dihub), serovar Manhattan represented nearly half (46.7%) of all *Salmonella* isolated from broiler chickens in Japan, a trend that persisted with its detection in chicken breast in [2021](https://www.jstage.jst.go.jp/article/foodsafetyfscj/12/3/12_D-24-00002/_article).
 
-NCBI PD link for serovar Manhattan: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Manhattan%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Manhattan%22))
+%20AND%20computed_types:(%22serotype=Manhattan%22))
 
 ## Genetic Characteristics
 
@@ -19,7 +27,7 @@ NCBI PD link for serovar Manhattan: [https://www.ncbi.nlm.nih.gov/pathogens/isol
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2021 | US | [Unknown](https://outbreakdatabase.com/outbreaks/2021-multistate-outbreak-of-salmonella-manhattan-infections-source-unknown) | 11 |
 | 2019 | US: multistate | [Backyard poultry](https://archive.cdc.gov/www_cdc_gov/salmonella/backyardpoultry-05-19/index.html)^1^ | 1134 |
@@ -40,7 +48,7 @@ NCBI PD link for serovar Manhattan: [https://www.ncbi.nlm.nih.gov/pathogens/isol
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://www.sciencedirect.com/science/article/pii/S2451943X22000199?via%3Dihub](https://www.sciencedirect.com/science/article/pii/S2451943X22000199?via%3Dihub)
 2. [https://www.jstage.jst.go.jp/article/foodsafetyfscj/12/3/12_D-24-00002/_article](https://www.jstage.jst.go.jp/article/foodsafetyfscj/12/3/12_D-24-00002/_article)

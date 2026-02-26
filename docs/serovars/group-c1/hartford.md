@@ -1,11 +1,19 @@
 # *S.* Hartford
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,7:y:e,n,x |
+    | Serogroup | O:7 (C1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Hartford%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Hartford (antigenic formula 6,7:y:e,n,x) is a serovar of the O:7 (C1) serogroup. Serovar Hartford was previously recovered from [non-outbreak cattle herds](https://www.liebertpub.com/doi/10.1089/fpd.2017.2303?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed). Serovar Hartford was found as highly persistent in all [low-aw food ingredient](https://www.sciencedirect.com/science/article/pii/S0362028X22106150)s.
 
-NCBI PD link for serovar Hartford: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Hartford%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Hartford%22))
+%20AND%20computed_types:(%22serotype=Hartford%22))
 
 ## Genetic Characteristics
 
@@ -38,7 +46,7 @@ NCBI PD link for serovar Hartford: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://www.liebertpub.com/doi/10.1089/fpd.2017.2303?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed](https://www.liebertpub.com/doi/10.1089/fpd.2017.2303?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
 2. [https://www.sciencedirect.com/science/article/pii/S0362028X22106150](https://www.sciencedirect.com/science/article/pii/S0362028X22106150)

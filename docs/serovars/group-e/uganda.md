@@ -1,11 +1,17 @@
 # *S.* Uganda
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Uganda%22)) {:target="_blank"} |
+
 ## Background Information
 
 *Salmonella enterica* subsp. *enterica* serovar Uganda (antigenic formula: 3,{10},{15}:1,z13:1,5) is a Group O:3,10 (E1) serovar. In US, human infections caused by serovar Uganda are uncommon. Between [1993 and 2000](https://web.archive.org/web/20040606215720/http://www.cdc.gov/ncidod/dbmd/phlisdata/salmonella.htm#2001), an average of only 48 human cases were reported annually.
 
-NCBI PD link for serovar Uganda: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Uganda%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Uganda%22))
+%20AND%20computed_types:(%22serotype=Uganda%22))
 
 ## Genetic Characteristics
 
@@ -35,7 +41,7 @@ NCBI PD link for serovar Uganda: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2022 | Syria | Germany | [Sesame paste/Tahina](https://webgate.ec.europa.eu/rasff-window/screen/notification/580204)^1^ | Nuts, nut products and seeds |
 
@@ -49,7 +55,7 @@ NCBI PD link for serovar Uganda: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
 ^1^ This recall was caused by a outbreak described above. Stallings Head Cheese Co., Inc., a Houston, Texas establishment, issued a recall of 4,700 pounds of their hog head cheese.
 
-## Relevant Links
+## References
 
 1. [https://web.archive.org/web/20040606215720/http://www.cdc.gov/ncidod/dbmd/phlisdata/salmonella.htm#2001](https://web.archive.org/web/20040606215720/http://www.cdc.gov/ncidod/dbmd/phlisdata/salmonella.htm#2001)
 2. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full)

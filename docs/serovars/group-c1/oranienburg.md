@@ -1,11 +1,19 @@
 # *S.* Oranienburg
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,7,14:m,t:[z57] |
+    | Serogroup | O:7 (C1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Oranienburg%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Oranienburg (antigenic formula 6,7,14:m,t:[z57]) is a serovar of the O:7 (C1) serogroup. Serovar Oranienburg was first isolated from [a child with gastroenteritis](https://journals.asm.org/doi/pdf/10.1128/jb.32.3.259-263.1936), a resident of a Children's Home in Oranienburg near Berlin, Germany in 1930. Serovar Oranienburg ranked as the [10th and 15th](https://www.liebertpub.com/doi/10.1089/fpd.2010.0787?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) most *Salmonella* prevalent serovar in North and Latin America, respectively. In 2003, serovar Oranienburg was the [nineth](https://web.archive.org/web/20050520232026/http://www.cdc.gov/ncidod/dbmd/phlisdata/salmtab/2003/SalmonellaTable1_2003.pdf) most common *Salmonella* serovar causing human salmonellosis. Serovar Oranienburg was reported to cause [haemorrhagic cystitis](https://pmc.ncbi.nlm.nih.gov/articles/PMC5610707/) (urinary symptoms including haematuria and dysuria) in an immunocompetent young male in Australia. In Japan, this serovar was documented to be [bacteremia-related](https://pmc.ncbi.nlm.nih.gov/articles/PMC9846185/). [Cummings et al.](https://www.liebertpub.com/doi/10.1089/vbz.2013.1467?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) suggested that transmission of serovar Oranienburg can be also nosocomial or on-farm transmission.
 
-NCBI PD link for serovar Oranienburg: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Oranienburg%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Oranienburg%22))
+%20AND%20computed_types:(%22serotype=Oranienburg%22))
 
 ## Genetic Characteristics
 
@@ -25,7 +33,7 @@ Another [Mexican](https://www.sciencedirect.com/science/article/pii/S03781119220
 
  Multiple human outbreaks linked to serovar Oranienburg have been reported. They were associated with a variety of food. Below are examples.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2023 | Canada and US: multistate | [Cantaloupe](https://marlerclark.com/salmonella-cantaloupe-outbreak-hits-43-in-15-states)^1^ | 509 |
 | 2021 | US: multistate and Puerto Rico | [Onions](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-oranienburg-whole-fresh-onions-october-2021) | 1040 |
@@ -54,7 +62,7 @@ Another [Mexican](https://www.sciencedirect.com/science/article/pii/S03781119220
 
  Multiple border rejections linked to serovar Oranienburg have been reported. The majority of them were linked to black pepper imported from Brazil to Germany. Below are examples.
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2022 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/524928) | Herbs and spices |
 | 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/524019)^1^ | Herbs and spices |
@@ -84,7 +92,7 @@ Another [Mexican](https://www.sciencedirect.com/science/article/pii/S03781119220
 
 ^4^ This recall was caused by an international outbreak described above.
 
-## Relevant Links
+## References
 
 1. [https://journals.asm.org/doi/pdf/10.1128/jb.32.3.259-263.1936](https://journals.asm.org/doi/pdf/10.1128/jb.32.3.259-263.1936)
 2. [https://web.archive.org/web/20050520232026/http://www.cdc.gov/ncidod/dbmd/phlisdata/salmtab/2003/SalmonellaTable1_2003.pdf](https://web.archive.org/web/20050520232026/http://www.cdc.gov/ncidod/dbmd/phlisdata/salmtab/2003/SalmonellaTable1_2003.pdf)

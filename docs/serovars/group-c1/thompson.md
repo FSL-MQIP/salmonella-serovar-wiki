@@ -1,11 +1,18 @@
 # *S.* Thompson
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,7,14:k:1,5 |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Thompson%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Thompson (antigenic formula 6,7,14:k:1,5) is part of Group O:7 (C1). The first isolation of serovar Thompson was reported by [Scott (1926)](https://pubmed.ncbi.nlm.nih.gov/20474899/) during a foodborne illness outbreak in Yorkshire, suspected to be linked to the consumption of rabbit and beef pie. Surveillance data indicate that serovar Thompson has remained one of the top ten Salmonella serovars causing diarrhea in both [China](https://onehealthadv.biomedcentral.com/articles/10.1186/s44280-023-00001-3) and [US](https://stacks.cdc.gov/view/cdc/58450/cdc_58450_DS1.pdf) over the last ten years. [Zhang et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC9323645/) suggested that serovar Thompson can be transmitted between poultry farms and humans. Serovar Thompson has been found to form [biofilms on eggshells](https://www.sciencedirect.com/science/article/pii/S0956713523004085), leading to potential contamination risks.
 
-NCBI PD link for serovar Thompson: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Thompson%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Thompson%22))
+%20AND%20computed_types:(%22serotype=Thompson%22))
 
 ## Genetic Characteristics
 
@@ -62,7 +69,7 @@ Another [Chinese study](https://journals.asm.org/doi/10.1128/msystems.01018-24) 
 
 ^3^ This recall was caused by a multistate outbreak described above. Five *Salmonella* serovars, *Salmonella* Thompson, Kiambu, Agona, Gaminara, and Senftenberg, were involved. Grande Produce, Agroson's LLC, and Freshtex Produce, LLC issued recalls of their papayas.
 
-## Relevant Links
+## References
 
 1. [https://pubmed.ncbi.nlm.nih.gov/20474899/](https://pubmed.ncbi.nlm.nih.gov/20474899/)
 2. [https://onehealthadv.biomedcentral.com/articles/10.1186/s44280-023-00001-3](https://onehealthadv.biomedcentral.com/articles/10.1186/s44280-023-00001-3)

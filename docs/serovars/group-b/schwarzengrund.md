@@ -1,11 +1,19 @@
 # *S.* Schwarzengrund
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 1,4,12,27:d:1,7 |
+    | Serogroup | O:4 (B) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Schwarzengrund%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella* *enterica *subsp. *enterica *serovar Schwarzengrund (antigenic formula 1,4,12,27:d:1,7) is a serovar of the O:4 (B) serogroup. *S*. Schwarzengrund is among the most common serovars in non-clinical non-human sources in the US. This serovar was first reported in North America in 1952 when it was isolated from [turkey poults](https://www.science.org/doi/10.1126/science.116.3024.669.a). A case report from Japan indicates that [pyogenic sacroiliitis](https://doi.org/10.1186/s12245-023-00496-y), a rare type of extraintestinal infection, has been reported for this serovar.
 
-NCBI PD link for serovar Schwarzengrund: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Schwarzengrund%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Schwarzengrund%22))
+%20AND%20computed_types:(%22serotype=Schwarzengrund%22))
 
 ## Genetic Characteristics
 
@@ -23,7 +31,7 @@ NCBI PD link for serovar Schwarzengrund: [https://www.ncbi.nlm.nih.gov/pathogens
 
  Outbreaks associated with *S.* Schwarzengrund have been reported in the US; in addition, in Denmark cases have been linked to Thai food products.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2022 | Europe: multi-country | [Black pepper suspected](https://www.ecdc.europa.eu/sites/default/files/documents/SALM_AER_2022_Report.pdf) | Not reported |
 | 2019 | US - multistate | [Ground turkey](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/schwarzengrund-03-19/index.html) | 7 |
@@ -36,7 +44,7 @@ NCBI PD link for serovar Schwarzengrund: [https://www.ncbi.nlm.nih.gov/pathogens
 
 ** **
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2025 | Hungary | Finland | [Turkey meal](https://webgate.ec.europa.eu/rasff-window/screen/notification/753859) | Feed materials |
 | 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/523752)^1^ | Herbs and spices |
@@ -54,7 +62,7 @@ NCBI PD link for serovar Schwarzengrund: [https://www.ncbi.nlm.nih.gov/pathogens
 | --- | --- | --- | --- |
 | 2019 | US: Multistate | [Turkey products](https://www.fsis.usda.gov/recalls-alerts/butterball-llc-recalls-turkey-products-due-possible-salmonella-schwarzengrund) | Poultry and poultry products |
 
-## Relevant Links
+## References
 
 1. [https://www.science.org/doi/10.1126/science.116.3024.669.a](https://www.science.org/doi/10.1126/science.116.3024.669.a)
 2. [https://doi.org/10.1186/s12245-023-00496-y](https://doi.org/10.1186/s12245-023-00496-y)

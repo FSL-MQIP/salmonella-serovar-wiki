@@ -1,11 +1,19 @@
 # *S.* Javiana
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 1,9,12:l,z28:1,5 |
+    | Serogroup | O:9 (D1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Javiana%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Javiana (antigenic formula 1,9,12:l,z28:1,5) is a serovar of the O:9 (D1) serogroup. Serovar Javiana remains [one of the top five most common](https://pmc.ncbi.nlm.nih.gov/articles/PMC3622996/) serotypes of *Salmonella* linked fresh-cut produce, with an average of 11 clusters per year (2008 to 2012) identified by the PulseNet Network. Between 1996 and 2007, serovar Javiana ranked as the [fifth most common](https://pmc.ncbi.nlm.nih.gov/articles/PMC6719869/) *Salmonella* serovars reported to the CDC, but it rose to fourth place in 2008 representing 5% of overall salmonellosis cases in the US.
 
-NCBI PD link for serovar Javiana: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Javiana%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Javiana%22))
+%20AND%20computed_types:(%22serotype=Javiana%22))
 
 ## Genetic Characteristics
 
@@ -23,7 +31,7 @@ NCBI PD link for serovar Javiana: [https://www.ncbi.nlm.nih.gov/pathogens/isolat
 
  Multiple human outbreaks of serovar Javiana have been associated with fresh produce. Here are some examples.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2021 | US: multistate | [Pre-cut cantaloupe](https://outbreakdatabase.com/outbreaks/2021-multistate-outbreak-of-salmonella-javiana-infections-associated-with-cantaloupe) | 70 |
 | 2019-2020 | US: multistate | [Fresh cut fruit](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/javiana-12-19/index.html) | 165 |
@@ -37,7 +45,7 @@ NCBI PD link for serovar Javiana: [https://www.ncbi.nlm.nih.gov/pathogens/isolat
 
  Multiple border rejections have been linked to serovar Javiana. They are all associated with black pepper imported from Brazil to Germany. Here are some examples.
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2022 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/524913)^1^ | Herbs and spices |
 | 2022 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/524681) | Herbs and spices |
@@ -61,7 +69,7 @@ NCBI PD link for serovar Javiana: [https://www.ncbi.nlm.nih.gov/pathogens/isolat
 
 ^2^ Tailor Cut Produce recalled its fruit luau, cut honeydew, cut cantaloupe and cut pineapple products. This recall was resulted by a multistate outbreak mentioned above.
 
-## Relevant Links
+## References
 
 1. [https://pmc.ncbi.nlm.nih.gov/articles/PMC3622996/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3622996/)
 2. [https://www.sciencedirect.com/science/article/pii/S0168160513001670](https://www.sciencedirect.com/science/article/pii/S0168160513001670)

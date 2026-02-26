@@ -1,9 +1,17 @@
 # *S.* Pomona
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 28:y:1,7 |
+    | Serogroup | O:28 (M) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Pomona%22)) {:target="_blank"} |
+
 **Background Information:** *Salmonella enterica* subsp. *enterica* serovar Pomona (antigenic formula 28:y:1,7) is a serovar of the O:28 (M) serogroup. This serovar was first isolated [1941 from poultry](https://doi.org/10.1093/oxfordjournals.aje.a118994). In a study of *Salmonella *from pet animals in China, serovar Pomona was identified as being the [leading serovar identified in turtles (25%, 18/71)](https://doi.org/10.1128/spectrum.03542-23).
 
-NCBI PD link for serovar Pomona: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Pomona%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Pomona%22))
+%20AND%20computed_types:(%22serotype=Pomona%22))
 
 ## Genetic Characteristics
 
@@ -17,7 +25,7 @@ This serovar has been commonly found in [turtles](https://doi.org/10.1016/j.scit
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2023 | US: multistate | [Small turtles](https://www.cdc.gov/salmonella/outbreaks/turtles-08-23/index.html) | 80^1^ |
 | 2022 | US: multistate | [Small turtles](https://www.cdc.gov/salmonella/outbreaks/stanley-07-22/investigation.html) | 28^2^ |
@@ -37,7 +45,7 @@ This serovar has been commonly found in [turtles](https://doi.org/10.1016/j.scit
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://doi.org/10.1093/oxfordjournals.aje.a118994](https://doi.org/10.1093/oxfordjournals.aje.a118994)
 2. [https://journals.asm.org/doi/10.1128/spectrum.03542-23](https://journals.asm.org/doi/10.1128/spectrum.03542-23)

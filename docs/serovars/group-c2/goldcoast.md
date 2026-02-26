@@ -1,11 +1,17 @@
 # *S.* Goldcoast
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Goldcoast%20or%20Brikama%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella* Goldcoast (antigenic formula: 6,8:r:l,w) is a serovar of the O:8 (C2-C3) serogroup. Serovar Goldcoast was isolated for the first time in [Ghana in 1953](http://www.jstor.org/stable/3863217); after the first isolation sporadic cases were identified in Europe. Since [1984-1985](https://www.researchgate.net/publication/375974228_Identification_of_IncA_Plasmid_Harboring_blaVIM-1_Gene_in_S_enterica_Goldcoast_ST358_and_C_freundii_ST62_Isolated_in_a_Hospitalized_Patient), serovar Goldcoast started to be more frequently isolated in Europe. [By 2010](http://www.eurosurveillance.org/ViewArticle.aspx?ArticleId=20424), serovar Goldcoast was reported as the 6^th^ most common serovar in [cattle](http://www.efsa.europa.eu/en/efsajournal/doc/223r.pdf) in Germany, UK and Spain.
 
-NCBI PD cannot differentiate between serovar Goldcoast and Brikama. Therefore, additional markers are needed for further serotyping. NCBI PD link for serovar Goldcoast or Brikama: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Goldcoast%20or%20Brikama%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Goldcoast%20or%20Brikama%22))
+NCBI PD cannot differentiate between serovar Goldcoast and Brikama. Therefore, additional markers are needed for further serotyping. %20AND%20computed_types:(%22serotype=Goldcoast%20or%20Brikama%22))
 
 ## Genetic Characteristics
 
@@ -23,7 +29,7 @@ NCBI PD cannot differentiate between serovar Goldcoast and Brikama. Therefore, a
 
  Currently, all reported outbreaks linked to serovar Goldcoast have occurred in Europe. Below are some examples.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2018 | Netherlands | [Pork](https://www.foodsafetynews.com/2018/12/eus-notable-2018-food-safety-events/) | At least 19 |
 | 2013 | England | [Whelk](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES2013.18.49.20654) | 38 |
@@ -42,7 +48,7 @@ NCBI PD cannot differentiate between serovar Goldcoast and Brikama. Therefore, a
 
 ^1^ This recall was caused by the Dutch outbreak described above. As well as Belgium, 14 other countries including Austria, Canada, Croatia, Cyprus, Denmark, France, Germany, Greece, Italy, Luxembourg, Poland, Romania, Spain and the United Kingdom received pig meat products.
 
-## Relevant Links
+## References
 
 1. [https://www.jstor.org/stable/3863217](https://www.jstor.org/stable/3863217)
 2. [https://www.researchgate.net/publication/375974228_Identification_of_IncA_Plasmid_Harboring_blaVIM-1_Gene_in_S_enterica_Goldcoast_ST358_and_C_freundii_ST62_Isolated_in_a_Hospitalized_Patient](https://www.researchgate.net/publication/375974228_Identification_of_IncA_Plasmid_Harboring_blaVIM-1_Gene_in_S_enterica_Goldcoast_ST358_and_C_freundii_ST62_Isolated_in_a_Hospitalized_Patient)

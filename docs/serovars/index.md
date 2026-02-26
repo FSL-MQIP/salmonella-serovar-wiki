@@ -1,6 +1,6 @@
 # Serovar Database
 
-Browse *Salmonella* serovars organized by serogroup. Use the **search bar** at the top to find any serovar instantly.
+Browse profiles for **111 *Salmonella* serovars** organized by serogroup. Each page covers antigenic formula, genetic characteristics, animal reservoirs, geographical distribution, outbreaks, border rejections, recalls, and references. Use the **search bar** at the top to find any serovar instantly.
 
 <div class="grid cards" markdown>
 

@@ -1,11 +1,19 @@
 # *S.* Sandiego
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 1,4,[5],12:e,h:e,n,z15 |
+    | Serogroup | O:4 (B) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Sandiego%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Sandiego (antigenic formula 1,4,[5],12:e,h:e,n,z15) is a serovar of the O:4 (B) serogroup. Serovar Sandiego oldest verified isolation was in [1929](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1699-0463.1940.tb01492.x) in Denmark. It was in the top 15 most commonly reported *Salmonella enterica* serovars related to [animal contact outbreaks](https://onlinelibrary.wiley.com/doi/10.1111/zph.12569) in the United States during 2009–2014. This serovar was also isolated from [turkey-processing plants](https://journals.asm.org/doi/10.1128/am.16.1.1-9.1968?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) in the USA in the 1960's. and [pig farm environment](https://www.liebertpub.com/doi/10.1089/10766290260469697?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub++0pubmed) in Brazil. Although there has been a limited number of research on *Salmonella* Sandiego, human infections caused by *Salmonella* Sandiego have been reported, such as a [post-traumatic chronic subdural haematoma](https://www.sciencedirect.com/science/article/pii/S0163445383910800?via%3Dihub) in an alcoholic heavy drinker patient, and a [prevertebral neck abscess](https://casereports.bmj.com/content/12/7/e230881.long) in a type 2 diabetes mellitus patient.
 
-NCBI PD link for serovar Sandiego: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Sandiego%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Sandiego%22))
+%20AND%20computed_types:(%22serotype=Sandiego%22))
 
 ## Genetic Characteristics
 
@@ -34,7 +42,7 @@ NCBI PD link for serovar Sandiego: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
  Multiple border rejections associated with serovar Sandiego have been reported during August 2020 to December 2021 and they were all linked to black pepper imported from Brazil to Germany. Some border rejections were linked to multiple serotypes.
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2023 | Spain | Italy | [Frozen turkey breast](https://webgate.ec.europa.eu/rasff-window/screen/notification/616703) | Poultry meat and poultry meat products |
 | 2022 | Poland | Italy | [Minced frozen poultry meat](https://webgate.ec.europa.eu/rasff-window/screen/notification/552829)^1^ | Poultry meat and poultry meat products |

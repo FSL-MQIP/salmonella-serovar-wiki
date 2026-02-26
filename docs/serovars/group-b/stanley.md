@@ -1,11 +1,18 @@
 # *S.* Stanley
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Serogroup | O:4 (B) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Stanley%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella* *enterica *subsp. *enterica *serovar Stanley (antigenic formula: 1,4,[5],12,[27]:d:1,2) is a serovar of the O:4 (B) serogroup. Serovar Stanley is commonly associated with human clinical infections in [Southeast Asia](https://pmc.ncbi.nlm.nih.gov/articles/PMC3295172/), which appears to have spread to Europe. A [study](https://www.liebertpub.com/doi/10.1089/fpd.2008.0245) found that serovar Stanley was the second most prevalent serovar, responsible for 11% of human salmonellosis cases between 2002 and 2007. Its prevalence increased from 1.9% (64 cases) in 1993 to 10.1% (141 cases) in 2003 in Thailand. In Denmark, this serovar ranked fifth among [3,657 confirmed salmonellosis cases](https://pubmed.ncbi.nlm.nih.gov/20470656/) reported to the Statens Serum Institut (SSI) in 2008, with 55% (24 cases) linked to travel, mainly to Thailand. In France, serovar Stanley was the 36th most common strain out of 10,378 human isolates recorded by the Institut Pasteur in 2008. Among 13 French cases with travel history, 38% (5 patients) had visited Southeast Asia shortly before falling ill. Both *Salmonella* Typhimurium and Stanley were the two most common serogroup B *Salmonella* serovars affecting humans between 2004 and 2012 in [Taiwan](https://pubmed.ncbi.nlm.nih.gov/24760078/).
 
-NCBI PD link for serovar Stanley: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Stanley%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Stanley%22))
+%20AND%20computed_types:(%22serotype=Stanley%22))
 
 ## Genetic Characteristics
 
@@ -23,7 +30,7 @@ A [Taiwanese study](https://www.sciencedirect.com/science/article/pii/S014795711
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2023-2024 | US: multistate | [Small turtle](https://www.cdc.gov/salmonella/outbreaks/turtles-08-24/investigation.html)^1^ | 63 |
 | 2020 | US: multistate | [Wood ear mushrooms](https://archive.cdc.gov/www_cdc_gov/salmonella/stanley-09-20/index.html#:~:text=On%20October%201%2C%202020%2C%20the,outbreak%20appears%20to%20be%20over.) | 55 |
@@ -59,7 +66,7 @@ A [Taiwanese study](https://www.sciencedirect.com/science/article/pii/S014795711
 
 ^3^ This recall was caused by an outbreak described above. Serovar Stanley, Newport, Kottbus, and Lexington were found in tested products.
 
-## Relevant Links
+## References
 
 1. [https://pmc.ncbi.nlm.nih.gov/articles/PMC3295172/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3295172/)
 2. [https://www.liebertpub.com/doi/10.1089/fpd.2008.0245](https://www.liebertpub.com/doi/10.1089/fpd.2008.0245)

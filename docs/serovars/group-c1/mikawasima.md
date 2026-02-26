@@ -1,11 +1,19 @@
 # *S.* Mikawasima
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,7,14:y:e,n,z15 |
+    | Serogroup | O:7 (C1) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Mikawasima%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Mikawasima (antigenic formula 6,7,14:y:e,n,z15) is a serovar of the O:7 (C1) serogroup. Serovar Mikawasima was first isolated from[tortoises in 1967 in Turkey](https://pubmed.ncbi.nlm.nih.gov/5600522/). The first isolation of serovar Mikawasima within the EU/EEA was reported in 1976 as part of a large-scale investigation into [*Salmonella* prevalence in Dutch pigs](https://www.ecdc.europa.eu/sites/default/files/media/en/publications/Publications/RRA-unusual-increase-salmonella-mikawasima-cases-in-EU-EEA-28-november-2013.pdf). Between 2007 and 2012, a total of 671 human serovar Mikawasima infections were reported to the European Surveillance System ([TESSy](https://www.ecdc.europa.eu/en/publications-data/european-surveillance-system-tessy)) by EU/EEA countries. Case numbers in Europe have shown a consistent rise [since 2009](https://www.ecdc.europa.eu/sites/default/files/media/en/publications/Publications/RRA-unusual-increase-salmonella-mikawasima-cases-in-EU-EEA-28-november-2013.pdf). Serovar Mikawasima cases showed a [92.1% increase over 2018 levels and a 137.1% surge compared to 2017](https://www.ecdc.europa.eu/sites/default/files/documents/SALM_AER_2019_Report_Final.pdf). In US, there are no reports of serovar Mikawasima in humans and animals in the last 10 years.
 
-NCBI PD link for serovar Mikawasima: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Mikawasima%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Mikawasima%22))
+%20AND%20computed_types:(%22serotype=Mikawasima%22))
 
 ## Genetic Characteristics
 
@@ -23,7 +31,7 @@ NCBI PD link for serovar Mikawasima: [https://www.ncbi.nlm.nih.gov/pathogens/iso
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2020-2021 | Croatia | [Unknown](https://www.croris.hr/crosbi/publikacija/prilog-skup/729181) | 27 |
 | 2019 | Europe: multi-country | [Unknown](https://www.foodsafetynews.com/2019/11/uk-bears-brunt-of-multi-country-salmonella-outbreak/#google_vignette) | 192 |
@@ -42,7 +50,7 @@ NCBI PD link for serovar Mikawasima: [https://www.ncbi.nlm.nih.gov/pathogens/iso
 | --- | --- | --- | --- |
 | 2020 | Norway | [Organic Little gem lettuce from Spain](https://webgate.ec.europa.eu/rasff-window/screen/notification/420202) | Fruits and vegetables |
 
-## Relevant Links
+## References
 
 1. [https://pubmed.ncbi.nlm.nih.gov/5600522/](https://pubmed.ncbi.nlm.nih.gov/5600522/)
 2. [https://www.ecdc.europa.eu/en/publications-data/european-surveillance-system-tessy](https://www.ecdc.europa.eu/en/publications-data/european-surveillance-system-tessy)

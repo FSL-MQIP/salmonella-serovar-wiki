@@ -1,11 +1,18 @@
 # *S.* Oslo
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,7,14:a:e,n,x |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Oslo%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Oslo (antigenic formula 6,7,14:a:e,n,x) is a serovar of the serogroup O:7 (C1). In US, serovar Oslo was considered rare with about [25 cases](https://www.cdc.gov/mmwr/volumes/65/wr/mm655051a3.htm) reported each year. Devi and Murray found that serovar Oslo was one of the [most common](https://pubmed.ncbi.nlm.nih.gov/1818386/) *Salmonella* serotypes isolated from school children between 1981 to 1983 in South Kanara District, India.
 
-NCBI PD link for serovar Oslo: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Oslo%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Oslo%22))
+%20AND%20computed_types:(%22serotype=Oslo%22))
 
 ## Genetic Characteristics
 
@@ -23,7 +30,7 @@ NCBI PD link for serovar Oslo: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2023 | US: LA | [Boiled crawfish](https://event.fourwaves.com/inform/abstracts/d3671885-2a45-4774-8db4-7e8e800cfc41) | 28 |
 | 2016 | US: multistate | [Cucumbers](https://www.cdc.gov/mmwr/volumes/65/wr/mm655051a3.htm) | 14 |
@@ -45,7 +52,7 @@ NCBI PD link for serovar Oslo: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/
 
 ^1^ *Salmonella* Oslo and Korovi were found.
 
-## Relevant Links
+## References
 
 1. [https://pubmed.ncbi.nlm.nih.gov/1818386/](https://pubmed.ncbi.nlm.nih.gov/1818386/)
 2. [https://academic.oup.com/ajcp/article-abstract/68/2/307/1771605?redirectedFrom=fulltext&login=false#no-access-message](https://academic.oup.com/ajcp/article-abstract/68/2/307/1771605?redirectedFrom=fulltext&login=false#no-access-message)

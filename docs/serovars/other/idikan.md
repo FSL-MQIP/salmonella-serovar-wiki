@@ -1,9 +1,17 @@
 # *S.* Idikan
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 1,13,23:i:1,5 |
+    | Serogroup | O:13 (G) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Idikan%22)) {:target="_blank"} |
+
 **Background information:** *Salmonella enterica* subsp. *enterica* serovar Idikan (antigenic formula 1,13,23:i:1,5) is a serovar of the O:13 (G) serogroup. In South Africa, this serovar is [uncommonly associated](https://www.researchgate.net/publication/282775671_Incidence_of_Nontyphoidal_Salmonella_in_Food-Producing_Animals_Animal_Feed_and_the_Associated_Environment_in_South_Africa_2012-2014) with human illness. Aside from animals described below, serovar Idikan was also found in [sesame-based products, pepper, and soybean products](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Idikan%22)).
 
-NCBI PD link for serovar Idikan: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Idikan%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Idikan%22))
+%20AND%20computed_types:(%22serotype=Idikan%22))
 
 ## Genetic Characteristics
 
@@ -32,7 +40,7 @@ NCBI PD link for serovar Idikan: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | [2023](https://webgate.ec.europa.eu/rasff-window/screen/notification/604602) | Hungary | Germany | Onion powder^1^ | Other food product / mixed |
 
@@ -42,7 +50,7 @@ NCBI PD link for serovar Idikan: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. [https://www.researchgate.net/publication/282775671_Incidence_of_Nontyphoidal_Salmonella_in_Food-Producing_Animals_Animal_Feed_and_the_Associated_Environment_in_South_Africa_2012-2014](https://www.researchgate.net/publication/282775671_Incidence_of_Nontyphoidal_Salmonella_in_Food-Producing_Animals_Animal_Feed_and_the_Associated_Environment_in_South_Africa_2012-2014)
 2. [https://pubmed.ncbi.nlm.nih.gov/37743279/](https://pubmed.ncbi.nlm.nih.gov/37743279/)

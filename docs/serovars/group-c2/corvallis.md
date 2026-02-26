@@ -1,11 +1,18 @@
 # *S.* Corvallis
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 8,20:z4,z23:[z6] |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Corvallis%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica** *subsp. *enterica* serovar Corvallis (antigenic formula 8,20:z4,z23:[z6]) is a serovar of the O:8 (C2-C3) serogroup. This serovar was first isolated from the pooled cecal contents of poults affected with enteritis in the United States in [1949](https://journals.asm.org/doi/pdf/10.1128/jb.58.1.111-112.1949). Higher prevalence of serovar Corvallis was observed in humans and food products in [non-European](https://pubmed.ncbi.nlm.nih.gov/21492021/) countries.
 
-NCBI PD link for serovar Corvallis: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Corvallis%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Corvallis%22))
+%20AND%20computed_types:(%22serotype=Corvallis%22))
 
 ## Genetic Characteristics
 
@@ -21,7 +28,7 @@ NCBI PD link for serovar Corvallis: [https://www.ncbi.nlm.nih.gov/pathogens/isol
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2001 | Japan | [Lunch (suspected)](https://www.niid.go.jp/niid/images/JJID/LEC-124.pdf)^1^ | 7 |
 
@@ -35,7 +42,7 @@ NCBI PD link for serovar Corvallis: [https://www.ncbi.nlm.nih.gov/pathogens/isol
 
  There have been no recent recalls linked to this serovar.
 
-## Relevant Links
+## References
 
 1. https://journals.asm.org/doi/pdf/10.1128/jb.58.1.111-112.1949
 2. [https://academic.oup.com/jac/article/68/12/2954/696276](https://academic.oup.com/jac/article/68/12/2954/696276)

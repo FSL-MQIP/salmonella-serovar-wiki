@@ -1,11 +1,18 @@
 # *S.* Johannesburg
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Serogroup | O:40 (R) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Johannesburg%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Johannesburg (antigenic formula: 1,40:b:e,n,x) is a serovar of the O:40 (R) serogroup. This serovar was first isolated in[South Africa in 1952](https://www.cabidigitallibrary.org/doi/full/10.5555/19532201465). In a [US study](https://journals.asm.org/doi/10.1128/aem.07015-11), serovar Johannesburg remained the most frequently isolated serotypes of the 9 serotypes detected from chilled final carcasses in pork processing plants. This serovar was reported to cause [septic deep vein thrombosis](https://www.sciencedirect.com/science/article/pii/S016344530090762X?via%3Dihub).
 
-NCBI PD link for serovar Johannesburg: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Johannesburg%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Johannesburg%22))
+%20AND%20computed_types:(%22serotype=Johannesburg%22))
 
 ## Genetic Characteristics
 
@@ -21,7 +28,7 @@ NCBI PD link for serovar Johannesburg: [https://www.ncbi.nlm.nih.gov/pathogens/i
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html)^1^ | 470 |
 | 2011 | US: multistate | [Chicks and ducklings](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/chicks-ducklings-10-6-2011.html#:~:text=Outbreak%20Summary&text=The%20first%20was%20an%20outbreak,had%20a%20similar%20geographic%20distribution.) | 28 |
@@ -33,7 +40,7 @@ NCBI PD link for serovar Johannesburg: [https://www.ncbi.nlm.nih.gov/pathogens/i
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2020 | Poland | Slovakia | [Minced meat preparation](https://webgate.ec.europa.eu/rasff-window/screen/notification/444589) | Meat and meat products (other than poultry) |
 
@@ -43,7 +50,7 @@ NCBI PD link for serovar Johannesburg: [https://www.ncbi.nlm.nih.gov/pathogens/i
 | --- | --- | --- | --- |
 | 2021 | Germany | [Tiger nut flour](https://webgate.ec.europa.eu/rasff-window/screen/notification/512070) | Other food product / mixed |
 
-## Relevant Links
+## References
 
 1. [https://www.cabidigitallibrary.org/doi/full/10.5555/19532201465](https://www.cabidigitallibrary.org/doi/full/10.5555/19532201465)
 2. [https://journals.asm.org/doi/10.1128/aem.07015-11](https://journals.asm.org/doi/10.1128/aem.07015-11)

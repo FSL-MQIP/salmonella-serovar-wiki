@@ -1,11 +1,18 @@
 # *S.* Muenchen
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Antigenic Formula | 6,8:d:1,2 |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Muenchen%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Muenchen (antigenic formula 6,8:d:1,2) is a serovar of the O:8 (C2-C3) serogroup. Serovar Muenchen was first described in [1932](https://boneandjoint.org.uk/Article/10.1302/0301-620X.46B4.697/pdf) and the first records of its isolation were documented in South and North America. Serovar Muenchen is one of the [top 10 serovars](https://stacks.cdc.gov/view/cdc/152398/cdc_152398_DS1.pdf) responsible for human salmonellosis cases in US. [CDC surveillance data](https://web.archive.org/web/20030315113355/http://www.cdc.gov/ncidod/dbmd/phlisdata/salmtab/2001/SalmonellaAnnualSummary2001.pdf) indicated that serovar Muenchen represents approximately 2% of salmonellosis infections, ranking eighth among the leading *Salmonella* serovars. Since 2019, serovar Muenchen has been the most predominant serovar in [Israel](https://www.sciencedirect.com/science/article/pii/S1198743X22002889), identified in clinical, poultry, and food samples. It accounted for over 30% (937 of 3,112) of all clinical *Salmonella* isolates in 2019 and 39.5% (1,055 of 2,671) in 2020. This serovar was also the [most common serovar in beef](https://journals.asm.org/doi/10.1128/aem.00591-19) in Oceania. Between 2001 and 2007, serovar Muenchen ranked as the [15th most frequently isolated](https://www.liebertpub.com/doi/10.1089/fpd.2010.0787?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) *Salmonella* serovar from humans across 37 countries participating in the WHO Global Foodborne Infections Network laboratory surveillance program.
 
-NCBI PD link for serovar Muenchen: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Muenchen%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Muenchen%22))
+%20AND%20computed_types:(%22serotype=Muenchen%22))
 
 ## Genetic Characteristics
 
@@ -23,7 +30,7 @@ NCBI PD link for serovar Muenchen: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
  Multiple human outbreaks have been linked to serovar Muenchen. Below are some examples.
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2024-2025 | US: multistate | [Geckos](https://www.cdc.gov/salmonella/outbreaks/muenchen-03-25/investigation.html#:~:text=This%20means%20that%20people%20in,strain%2C%20also%20linked%20to%20geckos.) | 14 |
 | 2023 | Denmark | [Unknown](https://www.food.dtu.dk/english/newsarchive/2024/06/more-outbreaks-of-salmonella-in-2023) | 31 |
@@ -42,7 +49,7 @@ NCBI PD link for serovar Muenchen: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
 ## Border Rejections
 
-| **Year** | **Exporting country** | **Importing country** | **Associated source** | **Product category** |
+| Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2023 | South Africa | Germany | [Dog chews (ostrich meat)](https://webgate.ec.europa.eu/rasff-window/screen/notification/654263) | Pet food |
 | 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/461765)^1^ | Herbs and spices |
@@ -69,7 +76,7 @@ NCBI PD link for serovar Muenchen: [https://www.ncbi.nlm.nih.gov/pathogens/isola
 
 ^3^ Sun Orchard issued a recall of its unpasteurized orange juice products. This recall was resulted by a multistate outbreak described above.
 
-## Relevant Links
+## References
 
 1. [https://stacks.cdc.gov/view/cdc/152398/cdc_152398_DS1.pdf](https://stacks.cdc.gov/view/cdc/152398/cdc_152398_DS1.pdf)
 2. [https://web.archive.org/web/20030315113355/http://www.cdc.gov/ncidod/dbmd/phlisdata/salmtab/2001/SalmonellaAnnualSummary2001.pdf](https://web.archive.org/web/20030315113355/http://www.cdc.gov/ncidod/dbmd/phlisdata/salmtab/2001/SalmonellaAnnualSummary2001.pdf)

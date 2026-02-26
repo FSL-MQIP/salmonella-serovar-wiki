@@ -1,6 +1,12 @@
 # *S.* Senftenberg
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Serogroup | O:1,3,19 (E4) |
+
 ## Background Information
 
  *Salmonella enterica *subsp.* enterica* serovar Senftenberg (antigenic formula: 1,3,19:g,[s],t:-) is a serovar of the O:1,3,19 (E4) serogroup. While *S.* Senfenberg is a rare serovar in human cases (only 7 cases in 10 years in the US), it has been linked with several outbreaks. This serovar is though, very common in animals and food. In the US *S*. Senftenberg is among the top 5 serovars isolated from food, and among the [top 11 serovars isolated from clinical animals](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2022.979790/full). Among source of outbreaks are contaminated basil and alfalfa sprouts.
@@ -21,7 +27,7 @@ NCBI Pathogen Detection link for serovar Senftenberg: [https://www.ncbi.nlm.nih.
 
 ## Human/Animal Outbreaks
 
-| **Year** | **Location** | **Associated source** | **Number of cases** |
+| Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | [2022-2023](https://www.ecdc.europa.eu/en/news-events/92-salmonella-senftenberg-cases-reported-11-eueea-countries) | EU: multi-country, US | Tomatoes | 92 |
 | [2022](https://www.cdc.gov/salmonella/outbreaks/senftenberg-05-22/index.html) | US: multistate | Peanut butter | 21 |
@@ -46,7 +52,7 @@ NCBI Pathogen Detection link for serovar Senftenberg: [https://www.ncbi.nlm.nih.
 
 ^1^ The recall was caused by a multistate outbreak described above.
 
-## Relevant Links
+## References
 
 1. [http://www.fda.gov/Food/RecallsOutbreaksEmergencies/Outbreaks/ucm386377.htm](http://www.fda.gov/Food/RecallsOutbreaksEmergencies/Outbreaks/ucm386377.htm)
 2. [https://archive.cdc.gov/www_cdc_gov/salmonella/montevideo-03-16/key-resources.html](https://archive.cdc.gov/www_cdc_gov/salmonella/montevideo-03-16/key-resources.html)

@@ -1,11 +1,18 @@
 # *S.* Ouakam
 
 
+!!! info "At a Glance"
+
+    | | |
+    |---|---|
+    | Serogroup | O:9,46 (D2) |
+    | NCBI Pathogen Detection | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ouakam%22)) {:target="_blank"} |
+
 ## Background Information
 
  *Salmonella enterica* subsp. *enterica* serovar Ouakam (antigenic formula: 9,46:z29:-) is a serovar of the O:9,46 (D2) serogroup. In Sweden, serovar Ouakam was reported in [feed mills and humans](https://actavetscand.biomedcentral.com/articles/10.1186/1751-0147-52-15). In China, serovar Ouakam was isolated from [healthy food workers](https://www.foodsafetynews.com/2024/12/chinese-researchers-find-salmonella-in-healthy-food-workers/). A [Chinese study](https://www.sciencedirect.com/science/article/pii/S0362028X23063731) investigating the prevalence of *Salmonella* in neck skin and bone of chickens found that the majority of the farm isolates belonged to *Salmonella* Kentucky and Ouakam.
 
-NCBI PD link for serovar Ouakam: [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ouakam%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ouakam%22))
+%20AND%20computed_types:(%22serotype=Ouakam%22))
 
 ## Genetic Characteristics
 
@@ -33,7 +40,7 @@ NCBI PD link for serovar Ouakam: [https://www.ncbi.nlm.nih.gov/pathogens/isolate
 | --- | --- | --- | --- |
 | 2021 | Germany | [Rapeseed meal](https://webgate.ec.europa.eu/rasff-window/screen/notification/501737) | Feed materials |
 
-## Relevant Links
+## References
 
 1. [https://actavetscand.biomedcentral.com/articles/10.1186/1751-0147-52-15](https://actavetscand.biomedcentral.com/articles/10.1186/1751-0147-52-15)
 2. [https://www.foodsafetynews.com/2024/12/chinese-researchers-find-salmonella-in-healthy-food-workers/](https://www.foodsafetynews.com/2024/12/chinese-researchers-find-salmonella-in-healthy-food-workers/)
