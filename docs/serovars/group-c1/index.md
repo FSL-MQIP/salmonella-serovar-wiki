@@ -4,11 +4,11 @@ Serovars in this group share the O:6,7 somatic antigens.
 
 | Serovar | Antigenic Formula | Primary Animal Reservoir |
 |---|---|---|
-| [*S.* Bareilly](bareilly.md) | `6,7,14:y:1,5` | Serovar Bareilly has been found in a wide range of hosts including cattle, sheep, chicken, pigs, and wild animals. |
-| [*S.* Braenderup](braenderup.md) | `6,7,14:e,h:e,n,z15` | Potential reservoirs for serovar Braenderup are cattle, chicken, pigs, horses, and turtles. |
+| [*S.* Bareilly](bareilly.md) | `6,7,14:y:1,5` | Serovar Bareilly has been found in a wide range of hosts |
+| [*S.* Braenderup](braenderup.md) | `6,7,14:e,h:e,n,z15` | Potential reservoirs for serovar Braenderup are cattle, chicken, pigs, horses, and turtles |
 | [*S.* Choleraesuis](choleraesuis.md) | `6,7:c:1,5` | Swine is the reservoir of this serovar. |
 | [*S.* Concord](concord.md) | `6,7:l,v:1,2` | Chicken may be the potential reservoir of serovar Concord. |
-| [*S.* Hartford](hartford.md) | `6,7:y:e,n,x` | Salmonella Hartford was found in chicken, calves, horses, dogs, and wild animals such as wild black bears. |
+| [*S.* Hartford](hartford.md) | `6,7:y:e,n,x` | Salmonella Hartford was found inchicken, calves, horses, dogs, and wild animals |
 | [*S.* Infantis](infantis.md) | `6,7,14:r:1,5` | The main animal reservoir of serovar Infantis is poultry; however, at least one of Infantis clade is associated with swine. |
 | [*S.* Livingstone](livingstone.md) | `6,7,14:d:l,w` | Poultry is likely to be a potential reservoir for serovar Livingstone. |
 | [*S.* Lubbock](lubbock.md) | `6,7:g,m,s:e,n,z15` | Cattle is the reservoir for serovar Lubbock. |
