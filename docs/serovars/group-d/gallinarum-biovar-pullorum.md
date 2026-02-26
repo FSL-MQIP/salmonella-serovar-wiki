@@ -1,7 +1,16 @@
 # *S.* Gallinarum Biovar Pullorum
 
+!!! info "At a Glance"
 
-**Background information:** *Salmonella enterica* subsp. *enterica* serovar Gallinarum (antigenic formula 1,9,12:–:–) is a serovar of the O:9 (D1) serogroup. This serovar has two biovars: Gallinarum, and Pullorum. Biovar Pullorum has been found to exhibit host specificity for [aquatic birds, and poultry](https://pmc.ncbi.nlm.nih.gov/articles/PMC10812584/#:~:text=Salmonella%20enterica%20subsp.,disease%20(PD)%2C%20respectively) and is mainly associated with [Pullorum disease (PD)](https://www.woah.org/en/disease/pullorum-disease/#:~:text=Pullorum%20disease%20of%20chickens%20is,septicaemic%20disease%20of%20young%20chickens.), which, in its acute form, is almost exclusively a septicemic disease affecting young chickens. PD is mainly [egg-transmitted and can result in high death loss in the young birds](https://www.woah.org/en/disease/pullorum-disease/#:~:text=Pullorum%20disease%20of%20chickens%20is,septicaemic%20disease%20of%20young%20chickens.). Transmission of PD can also occur through [direct or indirect contact with infected birds, as well as through contaminated feed, water, litter, or respiratory exposure](https://www.merckvetmanual.com/poultry/salmonelloses-in-poultry/pullorum-disease-in-poultry#Epidemiology_v3342829). Vaccines for PD were not developed until the 21st century, with a [sipC mutant](https://www.sciencedirect.com/science/article/pii/S0378113513005476) recently identified as a promising vaccine candidate for chickens. However, the [National Poultry Improvement Plan](https://www.poultryimprovement.org/) (NPIP), established in the early 1930s to reduce the spread of PD and fowl typhoid, has achieved great success in the U.S. In [1967](https://pubmed.ncbi.nlm.nih.gov/34412452/), all commercial chicken hatcheries involved in the NPIP were fully free of PD caused by *Salmonella* Gallinarum.
+    | | |
+    |---|---|
+    | **Antigenic Formula** | `1,9,12:-:-` |
+    | **Serogroup** | O:9 (D1) |
+    | **NCBI Pathogen Detection** | [View isolates](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#taxgroup_name:%22Salmonella%20enterica%22%20AND%20computed_types:(%22serotype=Gallinarum%22)>) |
+
+## Background Information
+
+*Salmonella enterica* subsp. *enterica* serovar Gallinarum (antigenic formula 1,9,12:–:–) is a serovar of the O:9 (D<sub>1</sub>) serogroup. This serovar has two biovars: Gallinarum, and Pullorum. Biovar Pullorum has been found to exhibit host specificity for [aquatic birds, and poultry](<https://pmc.ncbi.nlm.nih.gov/articles/PMC10812584/#:~:text=Salmonella%20enterica%20subsp.,disease%20(PD)%2C%20respectively>) and is mainly associated with [Pullorum disease (PD)](https://www.woah.org/en/disease/pullorum-disease/#:~:text=Pullorum%20disease%20of%20chickens%20is,septicaemic%20disease%20of%20young%20chickens.), which, in its acute form, is almost exclusively a septicemic disease affecting young chickens. PD is mainly [egg-transmitted and can result in high death loss in the young birds](https://www.woah.org/en/disease/pullorum-disease/#:~:text=Pullorum%20disease%20of%20chickens%20is,septicaemic%20disease%20of%20young%20chickens.). Transmission of PD can also occur through [direct or indirect contact with infected birds, as well as through contaminated feed, water, litter, or respiratory exposure](https://www.merckvetmanual.com/poultry/salmonelloses-in-poultry/pullorum-disease-in-poultry#Epidemiology_v3342829). Vaccines for PD were not developed until the 21st century, with a [sipC mutant](https://www.sciencedirect.com/science/article/pii/S0378113513005476) recently identified as a promising vaccine candidate for chickens. However, the [National Poultry Improvement Plan](https://www.poultryimprovement.org/) (NPIP), established in the early 1930s to reduce the spread of PD and fowl typhoid, has achieved great success in the U.S. In [1967](https://pubmed.ncbi.nlm.nih.gov/34412452/), all commercial chicken hatcheries involved in the NPIP were fully free of PD caused by *Salmonella* Gallinarum.
 
 The NCBI PD link for biovar Pullorum is unavailable because SeqSero2, the in silico serotyping tool used by NCBI PD, cannot differentiate: i) between serovars Enteritidis and Gallinarum, and ii) at the biovar level.
 
@@ -15,32 +24,30 @@ Biovar Pullorum can be found in [almost all species of birds](https://www.scienc
 
 ## Geographical Distribution
 
- Biovar Pullorum has been reported [worldwide](https://www.nature.com/articles/s41597-022-01605-x).
+Biovar Pullorum has been reported [worldwide](https://www.nature.com/articles/s41597-022-01605-x).
 
-## Human/Animal Outbreaks
-
- There have been multiple outbreaks in chickens associated with biovar Pullorum. Examples are shown below:
+Animal outbreaks: There have been multiple outbreaks in chickens associated with biovar Pullorum. Examples are shown below:
 
 | Year | Location | Breed | Number of cases |
 | --- | --- | --- | --- |
-| [2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC7823777/#:~:text=An%20outbreak%20of%20pullorum%20disease,quail%20farm%20in%20western%20France.) | France | Quail | 1,920^1^ |
-| [1990](https://www.jstor.org/stable/1592212?seq=3) | Zambia | Broiler | 1,000^2^ |
+| [2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC7823777/#:~:text=An%20outbreak%20of%20pullorum%20disease,quail%20farm%20in%20western%20France.) | France | Quail | 1,920<sup>1</sup> |
+| [1990](https://www.jstor.org/stable/1592212?seq=3) | Zambia | Broiler | 1,000<sup>2</sup> |
 
-^1^ The flock size is 12,000, and 1,920 birds died.
+<sup>1</sup> The flock size is 12,000, and 1,920 birds died.
 
-^2 ^The flock size is 1,500, and 1,000 birds died.
+<sup>2</sup>The flock size is 1,500, and 1,000 birds died.
 
 ## Border Rejections
 
- There have been no recent border rejections linked to this biovar.
+There have been no recent border rejections linked to this biovar.
 
 ## Recalls
 
- There have been no recent recalls linked to this biovar.
+There have been no recent recalls linked to this biovar.
 
-## Relevant Links
+## References
 
-1. [https://pmc.ncbi.nlm.nih.gov/articles/PMC10812584/#:~:text=Salmonella%20enterica%20subsp.,disease%20(PD)%2C%20respectively](https://pmc.ncbi.nlm.nih.gov/articles/PMC10812584/#:~:text=Salmonella%20enterica%20subsp.,disease%20(PD)%2C%20respectively)
+1. [https://pmc.ncbi.nlm.nih.gov/articles/PMC10812584/#:~:text=Salmonella%20enterica%20subsp.,disease%20(PD)%2C%20respectively](<https://pmc.ncbi.nlm.nih.gov/articles/PMC10812584/#:~:text=Salmonella%20enterica%20subsp.,disease%20(PD)%2C%20respectively>)
 2. [https://www.woah.org/en/disease/pullorum-disease/#:~:text=Pullorum%20disease%20of%20chickens%20is,septicaemic%20disease%20of%20young%20chickens](https://www.woah.org/en/disease/pullorum-disease/#:~:text=Pullorum%20disease%20of%20chickens%20is,septicaemic%20disease%20of%20young%20chickens).
 3. [https://www.merckvetmanual.com/poultry/salmonelloses-in-poultry/pullorum-disease-in-poultry#Epidemiology_v3342829](https://www.merckvetmanual.com/poultry/salmonelloses-in-poultry/pullorum-disease-in-poultry#Epidemiology_v3342829)
 4. [https://www.sciencedirect.com/science/article/pii/S0378113513005476](https://www.sciencedirect.com/science/article/pii/S0378113513005476)
@@ -53,3 +60,4 @@ Biovar Pullorum can be found in [almost all species of birds](https://www.scienc
 11. [https://www.nature.com/articles/s41597-022-01605-x](https://www.nature.com/articles/s41597-022-01605-x)
 12. [https://pmc.ncbi.nlm.nih.gov/articles/PMC7823777/#:~:text=An%20outbreak%20of%20pullorum%20disease,quail%20farm%20in%20western%20France](https://pmc.ncbi.nlm.nih.gov/articles/PMC7823777/#:~:text=An%20outbreak%20of%20pullorum%20disease,quail%20farm%20in%20western%20France).
 13. [https://www.jstor.org/stable/1592212?seq=3](https://www.jstor.org/stable/1592212?seq=3)
+

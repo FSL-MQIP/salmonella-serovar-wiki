@@ -8,6 +8,7 @@ repo_name: FSL-MQIP/salmonella-serovar-wiki
 
 theme:
   name: material
+  language: en
   palette:
     - scheme: default
       primary: teal
@@ -27,9 +28,10 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-    - navigation.expand
+    - navigation.path
     - navigation.top
     - navigation.indexes
+    - navigation.footer
     - search.suggest
     - search.highlight
     - search.share
@@ -40,6 +42,10 @@ theme:
 
 plugins:
   - search
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: true
+      fallback_to_build_date: true
 
 markdown_extensions:
   - tables
@@ -57,12 +63,15 @@ markdown_extensions:
   - toc:
       permalink: true
 
+extra_css:
+  - stylesheets/extra.css
+
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/FSL-MQIP/salmonella-serovar-wiki
     - icon: fontawesome/solid/globe
-      link: https://foodsafety.cornell.edu/
+      link: https://cals.cornell.edu/food-safety-laboratory
 
 nav:
   - Home: index.md
@@ -75,5 +84,6 @@ nav:
       - "Group D1 (O:9)": serovars/group-d/index.md
       - "Group E (O:3,10)": serovars/group-e/index.md
       - Other Serogroups: serovars/other/index.md
-  - Data Sources: data-sources.md
-  - Contributing: contributing.md
+  - Resources:
+      - Data Sources: data-sources.md
+      - Contributing: contributing.md

@@ -1,11 +1,12 @@
 ---
 hide:
   - toc
+  - navigation
 ---
 
 # Salmonella Serovar Wiki
 
-A curated web portal providing comprehensive, serovar-specific information on more than 110 *Salmonella* serovars — developed and maintained by the [Cornell Food Safety Laboratory](https://foodsafety.cornell.edu/).
+A curated web portal providing comprehensive, serovar-specific information on more than 110 *Salmonella* serovars — developed and maintained by the [Cornell Food Safety Laboratory](https://cals.cornell.edu/food-safety-laboratory).
 
 <div class="grid cards" markdown>
 
@@ -43,29 +44,19 @@ A curated web portal providing comprehensive, serovar-specific information on mo
 
 ## About
 
-*Salmonella* is a major foodborne pathogen worldwide, with more than 2,500 serovars identified. Despite this diversity, no centralized platform previously existed to collectively describe key serovar-level information. The **Salmonella Serovar Wiki** fills this gap.
+*Salmonella* is a major foodborne pathogen causing substantial illness and economic burden globally. Non-typhoidal *Salmonella* (NTS) serovars are a leading cause of death and hospitalization related to foodborne diseases in the United States, accounting for an estimated 1.3 million illnesses, 12,500 hospitalizations, and 238 deaths every year [1]. The **Salmonella Serovar Wiki** fills a critical gap by providing a centralized, curated resource with comprehensive, serovar-specific information. It consolidates data from over a dozen authoritative sources, including peer-reviewed literature, surveillance reports, genomic databases, and regulatory agency publications.
 
-=== "Public Health"
-
-    Facilitates **hypothesis generation** during outbreak investigations. Epidemiologists can quickly identify historical outbreak patterns, common food vehicles, and geographical hotspots for a given serovar.
-
-=== "Industry"
-
-    Helps food industry professionals understand **contamination risks** posed by specific serovars. Supports traceback investigation and root cause analysis.
-
-=== "Academia"
-
-    Enables researchers to **rapidly retrieve** serovar-specific information, avoiding redundant literature searches. Highlights understudied serovars.
+This wiki serves three key audiences: **public health professionals**, who can use it to facilitate hypothesis generation during outbreak investigations by quickly identifying historical outbreak patterns, common food vehicles, and geographical hotspots; **food industry professionals**, who can leverage it for root cause analysis, traceback investigations, and understanding contamination risks posed by specific serovars; and **researchers in academia**, who can rapidly retrieve serovar-specific information, avoid redundant literature searches, and identify understudied serovars for future work.
 
 ## At a Glance
 
-| | |
+| Metric | Count |
 |---|---|
-| **Serovars covered** | 111 |
-| **Documented outbreaks** | 400+ |
-| **Border rejections** | 150+ |
-| **Product recalls** | 150+ |
-| **Data sources** | 10+ authoritative databases |
+| **Serovars covered** | 111 (107 non-typhoidal, 3 typhoidal, 1 *S. bongori*) |
+| **Documented outbreaks** | 416 human, 12 animal |
+| **Border rejections** | 159 |
+| **Product recalls** | 150 |
+| **Data sources** | 15+ authoritative databases |
 
 ## Serovar Page Structure
 
@@ -80,14 +71,14 @@ Each serovar page follows a standardized eight-section format:
 | :material-alert-circle-outline: **Human/Animal Outbreaks** | Year, location, source, case count |
 | :material-shield-alert-outline: **Border Rejections** | Exporting/enforcing country, source, product category |
 | :material-package-variant-closed: **Recalls** | Year, location, recalled product, type |
-| :material-link-variant: **Relevant Links** | Numbered references and citations |
+| :material-link-variant: **References** | Numbered citations to peer-reviewed literature and surveillance reports |
 
 !!! info "Migrated from Confluence"
     This site replaces the [original Confluence-based Wiki](https://confluence.cornell.edu/display/FOODSAFETY/Salmonella+Serovar+Wiki). All content has been migrated with full version control via Git.
 
 ## Contact
 
-Primary maintenance and curation by the [Cornell Food Safety Laboratory](https://foodsafety.cornell.edu/) (Wiedmann Lab).
+Primary maintenance and curation by the [Cornell Food Safety Laboratory](https://cals.cornell.edu/food-safety-laboratory) (Wiedmann Lab).
 
 - **Luke Qian** — [cq87@cornell.edu](mailto:cq87@cornell.edu)
 - **Renato Orsi** — [rho2@cornell.edu](mailto:rho2@cornell.edu)
@@ -96,3 +87,7 @@ Primary maintenance and curation by the [Cornell Food Safety Laboratory](https:/
 ## Citation
 
 > Yang L, Yates CR, Phaophu P, Wiedmann M, Orsi RH. Salmonella Serovar Wiki: a curated web portal providing a comprehensive summary of *Salmonella* serovars for academia, industry, and public health. *mSphere*. 2025;10(11):e00455-25. doi:[10.1128/msphere.00455-25](https://doi.org/10.1128/msphere.00455-25)
+
+## References
+
+[1] Scallan E, et al. 2011. Foodborne illness acquired in the United States—major pathogens. Emerg Infect Dis 17:7-15. doi:10.3201/eid1701.p11101
