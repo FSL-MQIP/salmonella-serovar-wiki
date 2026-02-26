@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `3,{10},{15}:1,z13:1,5` |
     | **Serogroup** | O:3,10 (E1) |
-    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
+    | **NCBI Pathogen Detection** | [View isolates](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Uganda%22)>) |
 
 ## Background Information
 

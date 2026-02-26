@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `30:b:e,n,x` |
     | **Serogroup** | O:30 (N) |
-    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
+    | **NCBI Pathogen Detection** | [View isolates](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Urbana%22)>) |
 
 ## Background Information
 

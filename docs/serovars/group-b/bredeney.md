@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `1,4,12,27:l,v:1,7` |
     | **Serogroup** | O:4 (B) |
-    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
+    | **NCBI Pathogen Detection** | [View isolates](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Bredeney%22)>) |
 
 ## Background Information
 

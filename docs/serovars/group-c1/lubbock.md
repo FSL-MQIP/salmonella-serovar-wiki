@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `6,7:g,m,s:e,n,z15` |
     | **Serogroup** | O:7 (C1) |
-    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
+    | **NCBI Pathogen Detection** | [View isolates](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Lubbock%22)>) |
 
 ## Background Information
 
