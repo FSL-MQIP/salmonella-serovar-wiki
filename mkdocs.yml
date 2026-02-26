@@ -75,7 +75,5 @@ nav:
       - "Group D1 (O:9)": serovars/group-d/index.md
       - "Group E (O:3,10)": serovars/group-e/index.md
       - Other Serogroups: serovars/other/index.md
-  - About:
-      - about/index.md
-      - Data Sources: about/data-sources.md
-      - Contributing: about/contributing.md
+  - Data Sources: data-sources.md
+  - Contributing: contributing.md
