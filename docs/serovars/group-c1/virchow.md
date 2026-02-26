@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `6,7,14:r:1,2` |
     | **Serogroup** | O:7 (C1) |
-    | **NCBI Pathogen Detection** | [View isolates](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Virchow%22)>) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 

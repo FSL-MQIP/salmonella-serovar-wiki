@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `1,13,23:z:l,w` |
     | **Serogroup** | O:13 (G) |
-    | **NCBI Pathogen Detection** | [View isolates](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Worthington%22)>) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 

@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `1,4,[5],12:b:1,2` |
     | **Serogroup** | O:4 (B) |
-    | **NCBI Pathogen Detection** | [View isolates](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Paratyphi%20B%22)>) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 

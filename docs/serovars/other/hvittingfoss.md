@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `16:b:e,n,x` |
     | **Serogroup** | O:16 (I) |
-    | **NCBI Pathogen Detection** | [View isolates](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Hvittingfoss%22)>) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 

@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `1,3,19:d:e,n,z15` |
     | **Serogroup** | O:1,3,19 (E4) |
-    | **NCBI Pathogen Detection** | [View isolates](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Liverpool%22)>) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 

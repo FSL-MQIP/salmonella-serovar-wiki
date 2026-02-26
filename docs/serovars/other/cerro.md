@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `6,14,18:z4,z23:1,5` |
     | **Serogroup** | O:18 (K) |
-    | **NCBI Pathogen Detection** | [View isolates](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Cerro%22)>) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
 
 ## Background Information
 
