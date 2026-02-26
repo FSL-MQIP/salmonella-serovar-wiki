@@ -23,12 +23,20 @@ theme:
         name: Switch to light mode
   features:
     - navigation.instant
+    - navigation.instant.progress
     - navigation.tabs
-    - navigation.top
+    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
     - search.suggest
     - search.highlight
+    - search.share
     - content.tabs.link
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
 
 plugins:
   - search
@@ -38,14 +46,28 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/FSL-MQIP/salmonella-serovar-wiki
+    - icon: fontawesome/solid/globe
+      link: https://foodsafety.cornell.edu/
+
 nav:
   - Home: index.md
-  - About: about.md
   - Serovar Database:
+      - serovars/index.md
       - "Group A (O:2)": serovars/group-a/index.md
       - "Group B (O:4)": serovars/group-b/index.md
       - "Group C1 (O:6,7)": serovars/group-c1/index.md
@@ -53,3 +75,7 @@ nav:
       - "Group D1 (O:9)": serovars/group-d/index.md
       - "Group E (O:3,10)": serovars/group-e/index.md
       - Other Serogroups: serovars/other/index.md
+  - About:
+      - about/index.md
+      - Data Sources: about/data-sources.md
+      - Contributing: about/contributing.md

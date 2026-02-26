@@ -1,37 +1,59 @@
+---
+hide:
+  - toc
+---
+
 # Salmonella Serovar Wiki
 
-A curated web portal providing comprehensive, serovar-specific information on more than 100 *Salmonella* serovars, including their geographical distribution, genomic characteristics, animal reservoirs, and outbreak history.
+A curated web portal providing comprehensive, serovar-specific information on more than 110 *Salmonella* serovars — developed and maintained by the [Cornell Food Safety Laboratory](https://foodsafety.cornell.edu/).
 
-Developed and maintained by the [Cornell Food Safety Laboratory](https://foodsafety.cornell.edu/) (Wiedmann Lab).
+<div class="grid cards" markdown>
 
-!!! info "Migration in Progress"
-    This site is being migrated from the [original Confluence-based Wiki](https://confluence.cornell.edu/display/FOODSAFETY/Salmonella+Serovar+Wiki). Content is being actively transferred.
+-   :material-bacteria:{ .lg .middle } **Browse Serovars**
 
-## Quick Start
+    ---
 
-Browse serovars alphabetically on the [**Serovars**](serovars/index.md) page, or use the **search bar** above to find a specific serovar.
+    Explore detailed profiles for 111 serovars organized by serogroup, covering genetics, outbreaks, reservoirs, and more.
 
-## What You'll Find
+    [:octicons-arrow-right-24: Serovar Database](serovars/index.md)
 
-Each serovar page includes up to eight sections:
+-   :material-magnify:{ .lg .middle } **Search**
 
-| Section | Description |
-|---------|-------------|
-| **Background Information** | Scientific name, antigenic formula, serogroup, initial identification, clinical symptoms, prevalence |
-| **Genetic Characteristics** | Antimicrobial resistance patterns, virulence factors, phylogenetic information |
-| **Animal Reservoir** | Known animal reservoirs and host associations |
-| **Geographical Distribution** | Countries and regions where the serovar has been reported |
-| **Human/Animal Outbreaks** | Year, location, source, and case count for documented outbreaks |
-| **Border Rejections** | Exporting country, enforcing country, source, and product category |
-| **Recalls** | Year, location, recalled product, and recall type |
-| **Relevant Links** | References and source citations |
+    ---
+
+    Use the search bar above to jump directly to any serovar by name — instant results as you type.
+
+-   :material-book-open-variant:{ .lg .middle } **Data Sources**
+
+    ---
+
+    Information drawn from CDC, FDA, ECDC, NCBI Pathogen Detection, RASFF, WHO, and peer-reviewed literature.
+
+    [:octicons-arrow-right-24: View sources](about/data-sources.md)
+
+-   :material-account-group:{ .lg .middle } **Contribute**
+
+    ---
+
+    Open-source and community-driven. Submit corrections, add outbreaks, or expand serovar profiles via pull request.
+
+    [:octicons-arrow-right-24: How to contribute](about/contributing.md)
+
+</div>
+
+## At a Glance
+
+| | |
+|---|---|
+| **Serovars covered** | 111 |
+| **Documented outbreaks** | 400+ |
+| **Border rejections** | 150+ |
+| **Product recalls** | 150+ |
+| **Data sources** | 10+ authoritative databases |
+
+!!! info "Migrated from Confluence"
+    This site replaces the [original Confluence-based Wiki](https://confluence.cornell.edu/display/FOODSAFETY/Salmonella+Serovar+Wiki). All content has been migrated with full version control via Git.
 
 ## Citation
 
-If you use this resource, please cite:
-
 > Yang L, Yates CR, Phaophu P, Wiedmann M, Orsi RH. Salmonella Serovar Wiki: a curated web portal providing a comprehensive summary of *Salmonella* serovars for academia, industry, and public health. *mSphere*. 2025;10(11):e00455-25. doi:[10.1128/msphere.00455-25](https://doi.org/10.1128/msphere.00455-25)
-
-## Contact
-
-For questions or to request edit access, contact [Martin Wiedmann](mailto:martin.wiedmann@cornell.edu).
