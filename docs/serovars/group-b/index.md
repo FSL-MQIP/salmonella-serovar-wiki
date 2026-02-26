@@ -1,5 +1,6 @@
 # Group B (O:4)
 
+
 - [*S.* Agama](agama.md)
 - [*S.* Agona](agona.md)
 - [*S.* Brandenburg](brandenburg.md)
@@ -12,7 +13,6 @@
 - [*S.* I 4,[5],12:b:-](i-4,[5],12_b_-.md)
 - [*S.* I 4,[5],12:i:-](i-4,[5],12_i_-.md)
 - [*S.* Indiana](indiana.md)
-- [*S.* Johannesburg](johannesburg.md)
 - [*S.* Kiambu](kiambu.md)
 - [*S.* Reading](reading.md)
 - [*S.* Saintpaul](saintpaul.md)

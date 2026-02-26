@@ -1,10 +1,10 @@
 # Group C2-C3 (O:8)
 
+
 - [*S.* Albany](albany.md)
 - [*S.* Altona](altona.md)
 - [*S.* Blockley](blockley.md)
 - [*S.* Bovismorbificans](bovismorbificans.md)
-- [*S.* Cerro](cerro.md)
 - [*S.* Corvallis](corvallis.md)
 - [*S.* Goldcoast](goldcoast.md)
 - [*S.* Hadar](hadar.md)
