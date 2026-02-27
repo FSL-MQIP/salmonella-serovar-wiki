@@ -20,7 +20,7 @@ Serovar Napoli has been found to be [monophyletic](https://www.frontiersin.org/j
 
 ## Animal Reservoir
 
-Unknown, [poultry](https://pmc.ncbi.nlm.nih.gov/articles/PMC8276318/#:~:text=So%20far%2C%20it%20has%20been,undoubted%20benefit%20at%20community%20level.) and [wild boars](https://link.springer.com/article/10.1007/s10393-023-01625-y) may be potential reservoirs for serovar Napoli. It was also isolated from [wild birds](https://www.scielosp.org/article/aiss/2014.v50n1/96-98/) but [uncommonly from cattle](https://efsa.onlinelibrary.wiley.com/doi/pdf/10.2903/sp.efsa.2022.EN-7687).
+Unknown, [poultry](https://pmc.ncbi.nlm.nih.gov/articles/PMC8276318/#:~:text=So%20far%2C%20it%20has%20been,undoubted%20benefit%20at%20community%20level.) and [wild boars](https://link.springer.com/article/10.1007/s10393-023-01625-y) may be potential reservoirs for serovar Napoli. It has also been isolated from [wild birds](https://www.scielosp.org/article/aiss/2014.v50n1/96-98/) but [uncommonly from cattle](https://efsa.onlinelibrary.wiley.com/doi/pdf/10.2903/sp.efsa.2022.EN-7687).
 
 ## Geographical Distribution
 
