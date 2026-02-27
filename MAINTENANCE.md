@@ -36,8 +36,8 @@ For text-only edits to Markdown (`.md`) files — serovar pages, homepage, resou
 
 > Refer to [§5.4](#54-markdown-formatting-quick-reference) for Markdown syntax and [§5.5](#55-content-style-guidelines) for writing conventions before editing.
 
-1. **Edit on `main`:** Renato can commit changes directly to the `main` branch without opening a pull request. See [§5.1](#51-editing-a-page-directly-on-github-online) for online editing or [§5.2](#52-editing-pages-locally) for local editing.
-2. **Commit message:** Use a clear, descriptive commit message (e.g., `Update Typhimurium: add 2025 outbreak data`).
+1. **Edit on `dev`:** Make changes to the relevant `.md` files on the `dev` branch. See [§5.1](#51-editing-a-page-directly-on-github-online) for online editing or [§5.2](#52-editing-pages-locally) for local editing.
+2. **Open a Pull Request and self-merge:** Open a PR from `dev` into `main`. See [§5.3](#53-how-to-open-a-pull-request) for step-by-step instructions. Renato has **Ruleset bypass rights**, which means he can merge his own PR without requiring an approver — no one else needs to review.
 
 ### Workflow B: Content Edits (All Other Lab Members)
 
@@ -67,12 +67,13 @@ The `main` branch is protected by a **GitHub Ruleset** to ensure stability and a
 
 | Rule | What it Means |
 |---|---|
-| **Require a pull request** | All changes to `main` must come through a PR from `dev`, except for Renato (Workflow A) who has been granted direct push access by the repository admin. |
+| **Require a pull request** | All changes to `main` must come through a PR from `dev`. No one can push directly to `main`. |
+| **Bypass rights (Renato Orsi)** | Renato has been granted **Ruleset bypass rights** (Repository Admin role), which allows him to merge his own PRs from `dev` → `main` without requiring a separate approver. This preserves the PR audit trail while removing the bottleneck of needing a second reviewer. |
 | **Require conversation resolution** | Any review comments on a PR must be marked as "resolved" before the PR can be merged. |
 | **No force pushes** | The commit history of `main` cannot be rewritten. |
 | **No deletions** | The `main` branch itself cannot be accidentally deleted. |
 
-We do **not** require a formal approving review count, which allows project leads to merge `dev` → `main` PRs efficiently without being blocked.
+We do **not** require a formal approving review count, which allows Renato to merge his own PRs and other project leads to merge `dev` → `main` PRs efficiently.
 
 ---
 
