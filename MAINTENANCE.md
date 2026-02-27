@@ -32,24 +32,27 @@ We use two long-lived branches: `main` (the live public site) and `dev` (the sta
 
 For text-only edits to Markdown (`.md`) files — serovar pages, homepage, resources — based on the biweekly digest or other verified sources.
 
-1. **Edit directly on `main`:** Renato can commit changes directly to the `main` branch without opening a pull request.
+1. **Edit directly on `main`:** Renato can commit changes directly to the `main` branch without opening a pull request. See [§5.1](#51-editing-a-page-directly-on-github-online) for online editing or [§5.2](#52-editing-pages-locally) for local editing.
 2. **Commit message:** Use a clear, descriptive commit message (e.g., `Update Typhimurium: add 2025 outbreak data`).
+3. **Formatting & style:** Refer to [§5.4](#54-markdown-formatting-quick-reference) for Markdown syntax and [§5.5](#55-content-style-guidelines) for writing conventions.
 
 ### Workflow B: Content Edits (All Other Lab Members)
 
 For any content suggestions or edits from lab members.
 
-1. **Edit directly on `dev`:** Make changes to the relevant `.md` files on the `dev` branch.
-2. **Open a Pull Request:** Open a PR from `dev` into `main` and assign Renato Orsi or Martin Wiedmann as reviewer. See [Section 5.3](#53-how-to-open-a-pull-request) for step-by-step instructions.
-3. **Project lead reviews and merges:** The assigned project lead reviews the changes, requests any revisions, and merges the PR to publish the updates.
+1. **Edit directly on `dev`:** Make changes to the relevant `.md` files on the `dev` branch. See [§5.1](#51-editing-a-page-directly-on-github-online) for online editing or [§5.2](#52-editing-pages-locally) for local editing.
+2. **Formatting & style:** Refer to [§5.4](#54-markdown-formatting-quick-reference) for Markdown syntax and [§5.5](#55-content-style-guidelines) for writing conventions.
+3. **Open a Pull Request:** Open a PR from `dev` into `main` and assign Renato Orsi or Martin Wiedmann as reviewer. See [§5.3](#53-how-to-open-a-pull-request) for step-by-step instructions.
+4. **Project lead reviews and merges:** The assigned project lead reviews the changes, requests any revisions, and merges the PR to publish the updates.
 
 ### Workflow C: Technical & Structural Changes (Luke Qian)
 
 For any changes that involve code, configuration, or site-wide structure (e.g., `mkdocs.yml`, CSS stylesheets, automation scripts).
 
-1. **Edit directly on `dev`:** Make all technical changes on the `dev` branch.
-2. **Open a Pull Request:** Open a PR from `dev` into `main` and assign Renato Orsi or Martin Wiedmann as reviewer. See [Section 5.3](#53-how-to-open-a-pull-request) for step-by-step instructions.
-3. **Project lead reviews and merges:** The assigned project lead reviews the changes and merges the PR to publish the updates.
+1. **Edit directly on `dev`:** Make all technical changes on the `dev` branch. See [§5.2](#52-editing-pages-locally) for local editing setup.
+2. **Formatting & style:** Refer to [§5.4](#54-markdown-formatting-quick-reference) for Markdown syntax and [§5.5](#55-content-style-guidelines) for writing conventions.
+3. **Open a Pull Request:** Open a PR from `dev` into `main` and assign Renato Orsi or Martin Wiedmann as reviewer. See [§5.3](#53-how-to-open-a-pull-request) for step-by-step instructions.
+4. **Project lead reviews and merges:** The assigned project lead reviews the changes and merges the PR to publish the updates.
 
 ---
 
