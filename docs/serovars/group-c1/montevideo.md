@@ -20,7 +20,7 @@ Chen et al. found that serovar Montevideo is [polyphyletic](https://journals.asm
 
 ## Animal Reservoir
 
-[Cattle](https://pubmed.ncbi.nlm.nih.gov/23566273/) and [chicken](https://www.nature.com/articles/srep46232#:~:text=Abstract,poultry%20or%20poultry%20meat%20products.) are the reservoirs for serovar Montevideo.
+[Cattle](https://pubmed.ncbi.nlm.nih.gov/23566273/) and [chicken](https://www.nature.com/articles/srep46232#:~:text=Abstract,poultry%20or%20poultry%20meat%20products.) are the main reservoirs for serovar Montevideo. 
 
 ## Geographical Distribution
 
