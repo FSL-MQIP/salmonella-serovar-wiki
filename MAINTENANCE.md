@@ -8,7 +8,7 @@ This document outlines the Standard Operating Procedure (SOP) for maintaining an
 
 | Role | Name(s) | Responsibilities |
 |---|---|---|
-| **Project Leads** | Martin Wiedmann, Renato Orsi | Overall project direction, content accuracy, and final approval authority. |
+| **Project Lead** | Renato Orsi | Overall project direction, content accuracy, and final approval authority. |
 | **Technical Lead** | Luke Qian | Manages the wiki's technical infrastructure, including site configuration (`mkdocs.yml`), custom styling (CSS), and any automation scripts. |
 | **Content Contributors** | Lab Members | Update and enrich serovar pages, data sources, and other content based on new research and data. |
 
@@ -19,7 +19,7 @@ This document outlines the Standard Operating Procedure (SOP) for maintaining an
 A core part of our maintenance process is a biweekly digest of new scientific literature and public health news, powered by an OpenClaw AI assistant.
 
 1. **Digest Generation:** Every two weeks, the assistant automatically scans for new papers, outbreak reports, and news related to *Salmonella* serovars.
-2. **Email Delivery:** It sends a summary email to Martin Wiedmann and Renato Orsi. This email includes verified source links and suggested changes for the wiki.
+2. **Email Delivery:** It sends a summary email to Renato Orsi. This email includes verified source links and suggested changes for the wiki.
 3. **Action & Triage:** Renato Orsi is responsible for reviewing the digest, triaging the suggestions, and initiating the content update process as described in the workflows below.
 
 ---
@@ -46,8 +46,8 @@ For any content suggestions or edits from lab members.
 > Refer to [§5.4](#54-markdown-formatting-quick-reference) for Markdown syntax and [§5.5](#55-content-style-guidelines) for writing conventions before editing.
 
 1. **Edit on `dev`:** Make changes to the relevant `.md` files on the `dev` branch. See [§5.1](#51-editing-a-page-directly-on-github-online) for online editing or [§5.2](#52-editing-pages-locally) for local editing.
-2. **Open a Pull Request:** Open a PR from `dev` into `main` and assign Renato Orsi or Martin Wiedmann as reviewer. See [§5.3](#53-how-to-open-a-pull-request) for step-by-step instructions.
-3. **Project lead reviews and merges:** The assigned project lead reviews the changes, requests any revisions, and merges the PR to publish the updates.
+2. **Open a Pull Request:** Open a PR from `dev` into `main` and assign Renato Orsi as reviewer. See [§5.3](#53-how-to-open-a-pull-request) for step-by-step instructions.
+3. **Project lead reviews and merges:** Renato reviews the changes, requests any revisions, and merges the PR to publish the updates.
 
 ### Workflow C: Technical & Structural Changes (Luke Qian)
 
@@ -56,8 +56,8 @@ For any changes that involve code, configuration, or site-wide structure (e.g., 
 > Refer to [§5.4](#54-markdown-formatting-quick-reference) for Markdown syntax and [§5.5](#55-content-style-guidelines) for writing conventions before editing.
 
 1. **Edit on `dev`:** Make all technical changes on the `dev` branch. See [§5.2](#52-editing-pages-locally) for local editing setup.
-2. **Open a Pull Request:** Open a PR from `dev` into `main` and assign Renato Orsi or Martin Wiedmann as reviewer. See [§5.3](#53-how-to-open-a-pull-request) for step-by-step instructions.
-3. **Project lead reviews and merges:** The assigned project lead reviews the changes and merges the PR to publish the updates.
+2. **Open a Pull Request:** Open a PR from `dev` into `main` and assign Renato Orsi as reviewer. See [§5.3](#53-how-to-open-a-pull-request) for step-by-step instructions.
+3. **Project lead reviews and merges:** Renato reviews the changes and merges the PR to publish the updates.
 
 ---
 
@@ -148,7 +148,7 @@ Pull Requests (PRs) are used by lab members (Workflow B) and Luke (Workflow C) t
 1. Go to the repository on GitHub: `https://github.com/FSL-MQIP/salmonella-serovar-wiki`
 2. GitHub will often show a yellow banner saying **"dev had recent pushes"** with a **"Compare & pull request"** button — click it. If not, go to the **"Pull requests"** tab and click **"New pull request"**, then set the base branch to `main` and the compare branch to `dev`.
 3. Write a clear **title** and **description** explaining what was changed and why.
-4. On the right sidebar, assign **Renato Orsi** or **Martin Wiedmann** as reviewer.
+4. On the right sidebar, assign **Renato Orsi** as reviewer.
 5. Click **"Create pull request"**.
 6. The reviewer will be notified by email. They will review, leave comments if needed, and merge when satisfied.
 
