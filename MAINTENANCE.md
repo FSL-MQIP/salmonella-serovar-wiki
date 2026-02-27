@@ -24,51 +24,44 @@ A core part of our maintenance process is a biweekly digest of new scientific li
 
 ---
 
-## 3. How to Make Changes: Branching & PR Workflows
+## 3. How to Make Changes: Branch Workflows
 
-To protect the integrity of the live wiki, we use a `main` branch for the live site and a `dev` branch for all incoming changes. All changes must be submitted via a **Pull Request (PR)**. Direct pushes to `main` are blocked by a GitHub Ruleset.
+We use two long-lived branches: `main` (the live public site) and `dev` (the staging branch for all incoming changes). No new feature branches are needed — all contributors work directly on one of these two branches.
 
-### Workflow A: Content Edits (for Renato Orsi)
+### Workflow A: Content Edits (Renato Orsi only)
 
-For text-only edits to Markdown (`.md`) files (e.g., serovar pages, homepage, resources) based on the biweekly digest or other verified sources.
+For text-only edits to Markdown (`.md`) files — serovar pages, homepage, resources — based on the biweekly digest or other verified sources.
 
-1.  **Create Branch:** Create a new branch directly from the `main` branch (e.g., `renato/update-agona-outbreaks`).
-2.  **Make Edits:** Edit the relevant `.md` files.
-3.  **Open Pull Request:** Open a PR that merges your branch into `main`.
-4.  **Self-Merge:** Since you are a project lead, you can **merge your own PR immediately** without waiting for another review. The PR is primarily for maintaining a clear audit trail of all changes to the `main` branch.
+1. **Edit directly on `main`:** Renato can commit changes directly to the `main` branch without opening a pull request.
+2. **Commit message:** Use a clear, descriptive commit message (e.g., `Update Typhimurium: add 2025 outbreak data`).
 
-### Workflow B: Content Edits (for All Other Contributors)
+### Workflow B: Content Edits (All Other Lab Members)
 
 For any content suggestions or edits from lab members.
 
-1.  **Create Branch:** Create a new branch from the `dev` branch (e.g., `jane/fix-typo-heidelberg`).
-2.  **Make Edits:** Edit the relevant `.md` files.
-3.  **Open Pull Request:** Open a PR that merges your branch into the `dev` branch.
-4.  **Request Review:** Assign Renato Orsi or Martin Wiedmann as a reviewer. They will review the changes, provide feedback, and merge the PR into `dev`.
-5.  **`dev` to `main`:** Periodically, a project lead will merge the `dev` branch into `main` to publish all accumulated changes.
+1. **Edit directly on `dev`:** Make changes to the relevant `.md` files on the `dev` branch.
+2. **Notify a project lead:** Let Renato Orsi or Martin Wiedmann know your changes are ready for review.
+3. **Project lead merges `dev` → `main`:** After reviewing the changes on `dev`, a project lead opens a pull request from `dev` into `main` and merges it to publish the updates.
 
-### Workflow C: Technical & Structural Changes (for Luke Qian)
+### Workflow C: Technical & Structural Changes (Luke Qian)
 
-For any changes that involve code, configuration, or site-wide structure.
+For any changes that involve code, configuration, or site-wide structure (e.g., `mkdocs.yml`, CSS stylesheets, automation scripts).
 
-- **Examples:** Modifying `mkdocs.yml`, changing CSS stylesheets, updating automation scripts, or adding new MkDocs plugins.
-
-1.  **Create Branch:** Create a new branch from the `dev` branch (e.g., `luke/add-search-plugin`).
-2.  **Make Edits:** Implement the technical changes.
-3.  **Open Pull Request:** Open a PR that merges your branch into the `dev` branch.
-4.  **Review & Merge:** A project lead will review and merge the PR.
+1. **Edit directly on `dev`:** Make all technical changes on the `dev` branch.
+2. **Notify a project lead:** Let Renato Orsi or Martin Wiedmann know the changes are ready.
+3. **Project lead merges `dev` → `main`:** A project lead reviews and opens a pull request from `dev` into `main` to publish the updates.
 
 ---
 
 ## 4. `main` Branch Protection Rules
 
-The `main` branch is protected by a **GitHub Ruleset** to ensure stability and a clear history. This is why all changes must go through a pull request.
+The `main` branch is protected by a **GitHub Ruleset** to ensure stability and a clear history.
 
 | Rule | What it Means |
 |---|---|
-| **Require a pull request** | No one can push code directly to `main`. This creates a formal record of every change. |
+| **Require a pull request** | Only Renato (Workflow A) can push directly to `main`. All other changes must come through a PR from `dev`. |
 | **Require conversation resolution** | Any review comments on a PR must be marked as "resolved" before the PR can be merged. |
-| **No force pushes** | The commit history of the `main` branch cannot be rewritten. |
+| **No force pushes** | The commit history of `main` cannot be rewritten. |
 | **No deletions** | The `main` branch itself cannot be accidentally deleted. |
 
-Notably, we **do not require a formal approving review** from another person. This allows trusted leads like Renato to merge their own content update PRs (Workflow A) without getting blocked, while still benefiting from the safety and audit trail of the PR process.
+We do **not** require a formal approving review from another person, which allows project leads to merge `dev` → `main` PRs without being blocked when working independently.
