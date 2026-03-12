@@ -80,6 +80,7 @@ Multiple recalls linked to *Salmonella* Typhimurium have been reported. They are
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
+| 2026 | US: multistate | [Dietary supplement products with moringa leaf powder](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026) | dietary supplements |
 | 2024-2025 | US: multistate | [Cucumbers](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-cucumbers-november-2024)<sup>1</sup> | Fruits and vegetables |
 | 2023-2025 | Europe: multi-country | [Alfalfa sprouts](https://www.food-safety.com/articles/10195-salmonella-outbreak-linked-to-sprouts-sickened-509-people-over-two-years-in-ten-european-countries)<sup>2</sup> | Fruits and vegetables |
 | 2023 | Romania | [Turkey meat from Hungary](https://webgate.ec.europa.eu/rasff-window/screen/notification/643944) | Poultry meat and poultry meat products |
@@ -141,4 +142,5 @@ Multiple recalls linked to *Salmonella* Typhimurium have been reported. They are
 44. [https://webgate.ec.europa.eu/rasff-window/screen/notification/558911](https://webgate.ec.europa.eu/rasff-window/screen/notification/558911)
 45. [https://webgate.ec.europa.eu/rasff-window/screen/notification/471210](https://webgate.ec.europa.eu/rasff-window/screen/notification/471210)
 46. [https://marlerclark.com/news_events/salmon#:~:text=Peanut%20Corporation%20of%20America%20Peanut%20Butter%20Salmonella%20Outbreak%20Lawsuits%20%2D%20Nationwide,PCA](https://marlerclark.com/news_events/salmon#:~:text=Peanut%20Corporation%20of%20America%20Peanut%20Butter%20Salmonella%20Outbreak%20Lawsuits%20%2D%20Nationwide,PCA)
+47. [https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026)
 
