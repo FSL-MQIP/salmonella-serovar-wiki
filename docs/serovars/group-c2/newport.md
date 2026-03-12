@@ -100,20 +100,24 @@ Multiple recalls linked to this serovar have been reported and they are associat
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
-| 2023 | Poland, Italy | [Pekin duck fillet from Poland](https://webgate.ec.europa.eu/rasff-window/screen/notification/625006)<sup>1</sup> | Poultry meat and poultry meat products |
+| 2026 | US: multistate | [Moringa powder capsules](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-extensively-drug-resistant-salmonella-moringa-powder-february-2026)<sup>1</sup> | Dietary supplements |
+| 2026 | US: multistate | [Dietary supplement products with moringa leaf powder](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026) | Dietary supplements |
+| 2023 | Poland, Italy | [Pekin duck fillet from Poland](https://webgate.ec.europa.eu/rasff-window/screen/notification/625006)<sup>2</sup> | Poultry meat and poultry meat products |
 | 2023 | Germany | [Spice mixtures (onion powder)](https://webgate.ec.europa.eu/rasff-window/screen/notification/608601) | Herbs and spices |
 | 2022 | Poland | [Dried chicken feet](https://webgate.ec.europa.eu/rasff-window/screen/notification/555203) | Pet food |
-| 2020 | US: multistate | [Onions](https://archive.cdc.gov/www_cdc_gov/salmonella/newport-07-20/updates.html)<sup>2</sup> | Fruits and vegetables |
-| 2018 | US: multistate | [Raw beef products](https://www.fsis.usda.gov/recalls-alerts/jbs-tolleson-inc--recalls-raw-beef-products-due-possible-salmonella-newport)<sup>3</sup> | Meat and meat products (other than poultry) |
-| 2012 | US: multistate | [Cantaloupe](https://outbreakdatabase.com/outbreaks/2012-multistate-outbreak-of-salmonella-newport-linked-to-cantaloupe)<sup>4</sup> | Fruits and vegetables |
+| 2020 | US: multistate | [Onions](https://archive.cdc.gov/www_cdc_gov/salmonella/newport-07-20/updates.html)<sup>3</sup> | Fruits and vegetables |
+| 2018 | US: multistate | [Raw beef products](https://www.fsis.usda.gov/recalls-alerts/jbs-tolleson-inc--recalls-raw-beef-products-due-possible-salmonella-newport)<sup>4</sup> | Meat and meat products (other than poultry) |
+| 2012 | US: multistate | [Cantaloupe](https://outbreakdatabase.com/outbreaks/2012-multistate-outbreak-of-salmonella-newport-linked-to-cantaloupe)<sup>5</sup> | Fruits and vegetables |
 
-<sup>1</sup> *Salmonella* Enteritidis and Newport were found.
+<sup>1</sup> This recall is linked to an extensively drug-resistant *Salmonella* Newport strain.
 
-<sup>2</sup> This recall was caused by a multistate outbreak described above. Thomson International, Inc. and other companies voluntarily issued recalls of their red, yellow, white, and sweet yellow onions.
+<sup>2</sup> *Salmonella* Enteritidis and Newport were found.
 
-<sup>3</sup> This recall was caused by a multistate outbreak described above. JBS Tolleson, Inc., a Tolleson, Ariz. establishment, issued a recall of approximately 12,093,271 pounds of non-intact raw beef products.
+<sup>3</sup> This recall was caused by a multistate outbreak described above. Thomson International, Inc. and other companies voluntarily issued recalls of their red, yellow, white, and sweet yellow onions.
 
-<sup>4</sup> This recall was caused by a multistate outbreak involving *Salmonella* Typhimurium and Newport as described above. Chamberlain Farms Produce, Inc. of Owensville, Indiana voluntarily issued a recall of cantaloupe grown on its farm.
+<sup>4</sup> This recall was caused by a multistate outbreak described above. JBS Tolleson, Inc., a Tolleson, Ariz. establishment, issued a recall of approximately 12,093,271 pounds of non-intact raw beef products.
+
+<sup>5</sup> This recall was caused by a multistate outbreak involving *Salmonella* Typhimurium and Newport as described above. Chamberlain Farms Produce, Inc. of Owensville, Indiana voluntarily issued a recall of cantaloupe grown on its farm.
 
 ## References
 
@@ -162,4 +166,6 @@ Multiple recalls linked to this serovar have been reported and they are associat
 43. [https://archive.cdc.gov/www_cdc_gov/salmonella/newport-07-20/updates.html](https://archive.cdc.gov/www_cdc_gov/salmonella/newport-07-20/updates.html)
 44. [https://www.fsis.usda.gov/recalls-alerts/jbs-tolleson-inc--recalls-raw-beef-products-due-possible-salmonella-newport](https://www.fsis.usda.gov/recalls-alerts/jbs-tolleson-inc--recalls-raw-beef-products-due-possible-salmonella-newport)
 45. [https://outbreakdatabase.com/outbreaks/2012-multistate-outbreak-of-salmonella-newport-linked-to-cantaloupe](https://outbreakdatabase.com/outbreaks/2012-multistate-outbreak-of-salmonella-newport-linked-to-cantaloupe)
+46. [https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026)
+47. [https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-extensively-drug-resistant-salmonella-moringa-powder-february-2026](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-extensively-drug-resistant-salmonella-moringa-powder-february-2026)
 
