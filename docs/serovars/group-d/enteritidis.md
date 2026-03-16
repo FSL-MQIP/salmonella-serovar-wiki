@@ -30,6 +30,7 @@ Numerous Enteritidis outbreaks have been reported and they are mainly associated
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
+| 2023-2025 | Netherlands | [Eggs](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.9.2500603) | 227 |
 | 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/index.html) | 470<sup>1</sup> |
 | 2018 | US: multistate | [Eggs](https://archive.cdc.gov/www_cdc_gov/salmonella/enteritidis-09-18/index.html) | 44 |
 | 2016 | Europe: multi-country<sup>2</sup> | [Eggs](https://www.efsa.europa.eu/en/press/news/161027-0#:~:text=Seven%20countries%20have%20reported%20human,Norway%2C%20Sweden%20and%20the%20UK.) | 112<sup>3</sup> |
@@ -107,4 +108,5 @@ There are numerous recalls linked to *Salmonella* Enteritidis. The majority of t
 31. [https://webgate.ec.europa.eu/rasff-window/screen/notification/547077](https://webgate.ec.europa.eu/rasff-window/screen/notification/547077)
 32. [https://webgate.ec.europa.eu/rasff-window/screen/notification/502448](https://webgate.ec.europa.eu/rasff-window/screen/notification/502448)
 33. [https://webgate.ec.europa.eu/rasff-window/screen/notification/451322](https://webgate.ec.europa.eu/rasff-window/screen/notification/451322)
+34. [https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.9.2500603](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.9.2500603)
 
