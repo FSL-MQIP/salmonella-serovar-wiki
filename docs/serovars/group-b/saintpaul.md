@@ -34,7 +34,8 @@ Multiple human outbreaks associated with serovar Saintpaul have been reported, l
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| 2005 | UK | [Unknown](https://www.foodpoisoningnews.com/mystery-salmonella-outbreak-hospitalizes-five-sickens-25-across-uk/) | 25 |
+| 2025-2026 | United States | [Mangoes](https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks) | 56 |
+| 2025 | UK | [Unknown](https://www.foodpoisoningnews.com/mystery-salmonella-outbreak-hospitalizes-five-sickens-25-across-uk/) | 25 |
 | 2023 | UK and Portugal | [Cantaloupe melon](https://pubmed.ncbi.nlm.nih.gov/38705587/) | 98 (93 in the UK and 5 in Portugal) |
 | 2016 | US: Utah | [Raw milk](https://www.ksl.com/article/41279440/salmonella-outbreak-linked-to-raw-milk-sold-in-midway) | 9 |
 | 2016 | Australia | [Mung bean sprouts](https://www.foodsafetynews.com/2021/11/salmonella-top-cause-of-foodborne-outbreaks-in-australia/) | 419 |
@@ -110,4 +111,5 @@ Multiple border rejections linked to serovar Saintpaul have been reported. A maj
 30. [https://webgate.ec.europa.eu/rasff-window/screen/notification/423533](https://webgate.ec.europa.eu/rasff-window/screen/notification/423533)
 31. [https://webgate.ec.europa.eu/rasff-window/screen/notification/618965](https://webgate.ec.europa.eu/rasff-window/screen/notification/618965)
 32. [https://web.archive.org/web/20090710090159/http://www.fda.gov/Safety/Recalls/ArchiveRecalls/2008/ucm112471.htm](https://web.archive.org/web/20090710090159/http://www.fda.gov/Safety/Recalls/ArchiveRecalls/2008/ucm112471.htm)
+33. [https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks](https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks)
 
