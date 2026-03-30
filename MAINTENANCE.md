@@ -8,7 +8,7 @@ This document outlines the Standard Operating Procedure (SOP) for maintaining an
 
 | Role | Name(s) | Responsibilities |
 |---|---|---|
-| **Project Leads** | Martin Wiedmann, Renato Orsi | Overall project direction, content accuracy, and final approval authority. |
+| **Project Lead** | Renato Orsi | Overall project direction, content accuracy, and final approval authority. |
 | **Technical Lead** | Luke Qian | Manages the wiki's technical infrastructure, including site configuration (`mkdocs.yml`), custom styling (CSS), and any automation scripts. |
 | **Content Contributors** | Lab Members | Update and enrich serovar pages, data sources, and other content based on new research and data. |
 
@@ -19,7 +19,7 @@ This document outlines the Standard Operating Procedure (SOP) for maintaining an
 A core part of our maintenance process is a biweekly digest of new scientific literature and public health news, powered by an OpenClaw AI assistant.
 
 1. **Digest Generation:** Every two weeks, the assistant automatically scans for new papers, outbreak reports, and news related to *Salmonella* serovars.
-2. **Email Delivery:** It sends a summary email to Martin Wiedmann and Renato Orsi. This email includes verified source links and suggested changes for the wiki.
+2. **Email Delivery:** It sends a summary email to Renato Orsi. This email includes verified source links and suggested changes for the wiki.
 3. **Action & Triage:** Renato Orsi is responsible for reviewing the digest, triaging the suggestions, and initiating the content update process as described in the workflows below.
 
 ---
@@ -36,8 +36,8 @@ For text-only edits to Markdown (`.md`) files — serovar pages, homepage, resou
 
 > Refer to [§5.4](#54-markdown-formatting-quick-reference) for Markdown syntax and [§5.5](#55-content-style-guidelines) for writing conventions before editing.
 
-1. **Edit on `main`:** Renato can commit changes directly to the `main` branch without opening a pull request. See [§5.1](#51-editing-a-page-directly-on-github-online) for online editing or [§5.2](#52-editing-pages-locally) for local editing.
-2. **Commit message:** Use a clear, descriptive commit message (e.g., `Update Typhimurium: add 2025 outbreak data`).
+1. **Edit on `dev`:** Make changes to the relevant `.md` files on the `dev` branch. See [§5.1](#51-editing-a-page-directly-on-github-online) for online editing or [§5.2](#52-editing-pages-locally) for local editing.
+2. **Open a Pull Request and self-merge:** Open a PR from `dev` into `main`. See [§5.3](#53-how-to-open-a-pull-request) for step-by-step instructions. Renato has **Ruleset bypass rights**, which means he can merge his own PR without requiring an approver — no one else needs to review.
 
 ### Workflow B: Content Edits (All Other Lab Members)
 
@@ -46,8 +46,8 @@ For any content suggestions or edits from lab members.
 > Refer to [§5.4](#54-markdown-formatting-quick-reference) for Markdown syntax and [§5.5](#55-content-style-guidelines) for writing conventions before editing.
 
 1. **Edit on `dev`:** Make changes to the relevant `.md` files on the `dev` branch. See [§5.1](#51-editing-a-page-directly-on-github-online) for online editing or [§5.2](#52-editing-pages-locally) for local editing.
-2. **Open a Pull Request:** Open a PR from `dev` into `main` and assign Renato Orsi or Martin Wiedmann as reviewer. See [§5.3](#53-how-to-open-a-pull-request) for step-by-step instructions.
-3. **Project lead reviews and merges:** The assigned project lead reviews the changes, requests any revisions, and merges the PR to publish the updates.
+2. **Open a Pull Request:** Open a PR from `dev` into `main` and assign Renato Orsi as reviewer. See [§5.3](#53-how-to-open-a-pull-request) for step-by-step instructions.
+3. **Project lead reviews and merges:** Renato reviews the changes, requests any revisions, and merges the PR to publish the updates.
 
 ### Workflow C: Technical & Structural Changes (Luke Qian)
 
@@ -56,8 +56,8 @@ For any changes that involve code, configuration, or site-wide structure (e.g., 
 > Refer to [§5.4](#54-markdown-formatting-quick-reference) for Markdown syntax and [§5.5](#55-content-style-guidelines) for writing conventions before editing.
 
 1. **Edit on `dev`:** Make all technical changes on the `dev` branch. See [§5.2](#52-editing-pages-locally) for local editing setup.
-2. **Open a Pull Request:** Open a PR from `dev` into `main` and assign Renato Orsi or Martin Wiedmann as reviewer. See [§5.3](#53-how-to-open-a-pull-request) for step-by-step instructions.
-3. **Project lead reviews and merges:** The assigned project lead reviews the changes and merges the PR to publish the updates.
+2. **Open a Pull Request:** Open a PR from `dev` into `main` and assign Renato Orsi as reviewer. See [§5.3](#53-how-to-open-a-pull-request) for step-by-step instructions.
+3. **Project lead reviews and merges:** Renato reviews the changes and merges the PR to publish the updates.
 
 ---
 
@@ -67,12 +67,13 @@ The `main` branch is protected by a **GitHub Ruleset** to ensure stability and a
 
 | Rule | What it Means |
 |---|---|
-| **Require a pull request** | All changes to `main` must come through a PR from `dev`, except for Renato (Workflow A) who has been granted direct push access by the repository admin. |
+| **Require a pull request** | All changes to `main` must come through a PR from `dev`. No one can push directly to `main`. |
+| **Bypass rights (Renato Orsi)** | Renato has been granted **Ruleset bypass rights** (Repository Admin role), which allows him to merge his own PRs from `dev` → `main` without requiring a separate approver. This preserves the PR audit trail while removing the bottleneck of needing a second reviewer. |
 | **Require conversation resolution** | Any review comments on a PR must be marked as "resolved" before the PR can be merged. |
 | **No force pushes** | The commit history of `main` cannot be rewritten. |
 | **No deletions** | The `main` branch itself cannot be accidentally deleted. |
 
-We do **not** require a formal approving review count, which allows project leads to merge `dev` → `main` PRs efficiently without being blocked.
+We do **not** require a formal approving review count, which allows Renato to merge his own PRs and other project leads to merge `dev` → `main` PRs efficiently.
 
 ---
 
@@ -147,7 +148,7 @@ Pull Requests (PRs) are used by lab members (Workflow B) and Luke (Workflow C) t
 1. Go to the repository on GitHub: `https://github.com/FSL-MQIP/salmonella-serovar-wiki`
 2. GitHub will often show a yellow banner saying **"dev had recent pushes"** with a **"Compare & pull request"** button — click it. If not, go to the **"Pull requests"** tab and click **"New pull request"**, then set the base branch to `main` and the compare branch to `dev`.
 3. Write a clear **title** and **description** explaining what was changed and why.
-4. On the right sidebar, assign **Renato Orsi** or **Martin Wiedmann** as reviewer.
+4. On the right sidebar, assign **Renato Orsi** as reviewer.
 5. Click **"Create pull request"**.
 6. The reviewer will be notified by email. They will review, leave comments if needed, and merge when satisfied.
 
