@@ -31,6 +31,7 @@ Serovars in this section belong to serogroups other than A, B, C1, C2-C3, D1, an
 | [*S.* Poona](poona.md) | `1,13,22:z:1,6` | Serovar Poona has been found in turtles, and has been associated with salmonellosis outbreaks in pet turtles. |
 | [*S.* Rubislaw](rubislaw.md) | `11:r:e,n,x` | S. Rubislaw has been isolated from various non-clinical non-human zoonotic reservoirs including reptiles, amphibians, and birds. |
 | [*S.* Ruiru](ruiru.md) | `21:y:e,n,x` | Serovar Ruiru was found in cattle, and turkey. |
+| [*S.* Telelkebir](telelkebir.md) | `13,23:d:e,n,z15` | No animal reservoir has been identified for serovar Telelkebir. |
 | [*S.* Umbilo](umbilo.md) | `28:z10:e,n,x` | Serovar Umbilo was found in sheep, field lizards, and badgers. |
 | [*S.* Urbana](urbana.md) | `30:b:e,n,x` | Unknown, but according to the metadata from NCBI PD, serovar Urbana was isolated from cattle, swine, and wild animals (lizards, central bearded dra... |
 | [*S.* Worthington](worthington.md) | `1,13,23:z:l,w` | Serovar Worthington has been commonly found in turkeys including their environments. |
