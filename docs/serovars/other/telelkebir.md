@@ -27,6 +27,7 @@ Serovar Telelkebir seems to be [globally distributed](https://www.frontiersin.or
 ## Human/Animal Outbreaks
 
 Outbreaks have been associated with *S.* Telelkebir.
+
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2025 | US: multistate | [oysters](https://www.cdc.gov/salmonella/outbreaks/oysters-12-25/index.html) | 80 |
