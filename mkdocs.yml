@@ -47,6 +47,9 @@ plugins:
       enable_creation_date: true
       fallback_to_build_date: true
 
+hooks:
+  - hooks/stats.py
+
 markdown_extensions:
   - tables
   - admonition

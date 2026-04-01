@@ -52,10 +52,10 @@ This wiki serves three key audiences: **public health professionals**, who can u
 
 | Metric | Count |
 |---|---|
-| **Serovars covered** | 111 (107 non-typhoidal, 3 typhoidal, 1 *S. bongori*) |
-| **Documented outbreaks** | 416 human, 12 animal |
-| **Border rejections** | 159 |
-| **Product recalls** | 150 |
+| **Serovars covered** | <!-- STATS:serovars --> |
+| **Documented outbreaks** | <!-- STATS:outbreaks --> |
+| **Border rejections** | <!-- STATS:rejections --> |
+| **Product recalls** | <!-- STATS:recalls --> |
 | **Data sources** | 15+ authoritative databases |
 
 ## Serovar Page Structure
