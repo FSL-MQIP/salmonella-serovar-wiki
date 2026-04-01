@@ -26,13 +26,17 @@ Unknown, but according to the metadata from NCBI PD, serovar Orion was isolated 
 
 According to the metadata from NCBI PD (accessed 05/13/2025), serovar Orion has been reported [worldwide but is predominantly found in US](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Orion%22)>) (277 of 512 serovar Orion isolates were collected in US).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2019-2021 | EU: multi-country | [Halva or tahini from Syria](https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-multi-country-outbreak-multiple-salmonella-enterica)<sup>1</sup> | 121 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2019-2021 | EU: multi-country | [Halva or tahini from Syria](https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-multi-country-outbreak-multiple-salmonella-enterica)<sup>1</sup> | 121 |
 
 <sup>1</sup> *Salmonella* Amsterdam, Havana, Kintambo, Mbandaka, Orion, and Senftenberg were involved in this outbreak. The case number here only reflects the total number of people who got infected, not just those infected by serovar Orion.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

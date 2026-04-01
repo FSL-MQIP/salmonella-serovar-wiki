@@ -24,14 +24,18 @@ Serovar Muenster has been found to be [polyphyletic](https://www.frontiersin.org
 
 According to the metadata from NCBI PD, serovar Muenster has been reported [globally but primarily in US](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Muenster%22)>). Among a total of 2,659 serovar Muenster isolates available in NCBI PD (accessed 04/29/2025), there were 2,040 isolates collected in US.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2020 | US: multistate | [Pet bearded dragons](https://archive.cdc.gov/www_cdc_gov/salmonella/muenster-10-20/index.html) | 18 | Human |
-| 2008 | France | [Goat's cheese](https://www.researchgate.net/publication/26722284_Outbreak_of_Salmonella_Enterica_serotype_Muenster_infections_associated_with_goat%27s_cheese_France_March_2008) | 25 | Human |
-| 2016 | US: multistate | [Live poultry](https://archive.cdc.gov/www_cdc_gov/salmonella/live-poultry-05-16/index.html) | 25 | Human |
-| 1980 | Saudi Arabia | [Roast beef](https://www.sciencedirect.com/science/article/pii/S0362028X23011390/pdf?md5=582b240cc5805df00a53b1edbd704a5d&pid=1-s2.0-S0362028X23011390-main.pdf) | 12 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2020 | US: multistate | [Pet bearded dragons](https://archive.cdc.gov/www_cdc_gov/salmonella/muenster-10-20/index.html) | 18 |
+| 2008 | France | [Goat's cheese](https://www.researchgate.net/publication/26722284_Outbreak_of_Salmonella_Enterica_serotype_Muenster_infections_associated_with_goat%27s_cheese_France_March_2008) | 25 |
+| 2016 | US: multistate | [Live poultry](https://archive.cdc.gov/www_cdc_gov/salmonella/live-poultry-05-16/index.html) | 25 |
+| 1980 | Saudi Arabia | [Roast beef](https://www.sciencedirect.com/science/article/pii/S0362028X23011390/pdf?md5=582b240cc5805df00a53b1edbd704a5d&pid=1-s2.0-S0362028X23011390-main.pdf) | 12 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

@@ -24,16 +24,20 @@ Serovar Cotham appears to be adapted to [reptiles](https://pmc.ncbi.nlm.nih.gov/
 
 This serovar is very rare, it has been mainly reported in [Canada<sup>5</sup>](https://doi.org/10.3201/eid3110.241803), [the US, but has also been found in Australia, Taiwan, Gambia, Nigeria, and parts of Europe, such as the UK and Ireland.](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Cotham%22)>)
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Currently only two outbreaks had been reported, which started in 2012, and 2024, respectively.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2024 | US: multistate | [Pet bearded dragons](https://www.cdc.gov/salmonella/outbreaks/cotham-06-24/investigation.html?CDC_AAref_Val=https://www.cdc.gov/salmonella/cotham-06-24/details.html) | 26 | Human |
-| 2014 | US: multistate | [Pet bearded dragons](https://archive.cdc.gov/www_cdc_gov/salmonella/cotham-04-14/index.html#:~:text=On%20January%2022%2C%202014%2C%20CDC,reporting%20exposure%20to%20pet%20reptiles.)<sup>1</sup> | 166 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2024 | US: multistate | [Pet bearded dragons](https://www.cdc.gov/salmonella/outbreaks/cotham-06-24/investigation.html?CDC_AAref_Val=https://www.cdc.gov/salmonella/cotham-06-24/details.html) | 26 |
+| 2014 | US: multistate | [Pet bearded dragons](https://archive.cdc.gov/www_cdc_gov/salmonella/cotham-04-14/index.html#:~:text=On%20January%2022%2C%202014%2C%20CDC,reporting%20exposure%20to%20pet%20reptiles.)<sup>1</sup> | 166 |
 
 <sup>1</sup> Both serovar Cotham and Kisarawe were found.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

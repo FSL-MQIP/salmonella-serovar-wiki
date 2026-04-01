@@ -24,19 +24,23 @@ Serovar Altona was mainly found in[chickens but was also present in cattle, pigs
 
 Serovar Altona has been reported [worldwide such as the US and the UK.](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Altona%22)>)
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2024 | US: multistate | [Backyard poultry](https://www.cidrap.umn.edu/salmonella/salmonella-outbreak-backyard-poultry-expands-38-states) | 470<sup>1</sup> | Human |
-| 2019 | US: multistate | [Backyard poultry](https://www.sciencedirect.com/science/article/pii/S2405844022028596) | 1,134<sup>2</sup> | Human |
-| 2011 | US: multistate | [Chicks and ducklings](https://pubmed.ncbi.nlm.nih.gov/22437914/) | 96<sup>3</sup> | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2024 | US: multistate | [Backyard poultry](https://www.cidrap.umn.edu/salmonella/salmonella-outbreak-backyard-poultry-expands-38-states) | 470<sup>1</sup> |
+| 2019 | US: multistate | [Backyard poultry](https://www.sciencedirect.com/science/article/pii/S2405844022028596) | 1,134<sup>2</sup> |
+| 2011 | US: multistate | [Chicks and ducklings](https://pubmed.ncbi.nlm.nih.gov/22437914/) | 96<sup>3</sup> |
 
 <sup>1</sup> The outbreak was initially associated with five *Salmonella* serovars: Altona, Indiana, Infantis, Mbandaka, and Typhimurium. The CDC indicated that two more-Cerro and Johannesburg-have been implicated in the illnesses.
 
 <sup>2</sup> Multiple *Salmonella* serovars were found including: Agona, Alachua, Altona, Anatum, Braenderup, Enteritidis, Infantis, Manhattan, Montevideo, Muenchen, Newport, and Oranienburg.
 
 <sup>3</sup>A cluster of 28 cases caused by serovar Johannesburg and a cluster of 68 cases caused by serovar Altona were identified in 24 states.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

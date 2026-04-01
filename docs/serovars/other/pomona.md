@@ -24,19 +24,23 @@ This serovar has been commonly found in [turtles](https://doi.org/10.1016/j.scit
 
 This serovar has been reported from countries worldwide, including [the US, the UK, Germany, China, Mexico, and Australia](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Pomona%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2023 | US: multistate | [Small turtles](https://www.cdc.gov/salmonella/outbreaks/turtles-08-23/index.html) | 80<sup>1</sup> | Human |
-| 2022 | US: multistate | [Small turtles](https://www.cdc.gov/salmonella/outbreaks/stanley-07-22/investigation.html) | 28<sup>2</sup> | Human |
-| 2011-2013 | US: multistate | [Small turtles](https://archive.cdc.gov/www_cdc_gov/salmonella/small-turtles-03-12/index.html) | 473<sup>3</sup> | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2023 | US: multistate | [Small turtles](https://www.cdc.gov/salmonella/outbreaks/turtles-08-23/index.html) | 80<sup>1</sup> |
+| 2022 | US: multistate | [Small turtles](https://www.cdc.gov/salmonella/outbreaks/stanley-07-22/investigation.html) | 28<sup>2</sup> |
+| 2011-2013 | US: multistate | [Small turtles](https://archive.cdc.gov/www_cdc_gov/salmonella/small-turtles-03-12/index.html) | 473<sup>3</sup> |
 
 <sup>1</sup>This outbreak was linked to serovars Pomona, Stanley, and Poona. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Pomona.
 
 <sup>2</sup>This outbreak was linked to serovars Pomona (3 cases) and Stanley (25 cases).
 
 <sup>3</sup>Multiple serovars were linked to a series of 8 outbreaks from 2011-2013 involving pet turtles. The other serovars linked to these outbreaks included Sandiego, Newport, Poona, I 4,[5],12:​i:-, and Typhimurium. The case number represents the total number of cases associated with the outbreak. Infection with *Salmonella* Pomona occurred during Outbreak 2 (23 people) and Outbreak 5 (120 people).
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

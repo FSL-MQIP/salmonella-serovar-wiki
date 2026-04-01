@@ -24,9 +24,13 @@ Unknown; however, based on host information from the NCBI PD metadata, serovar I
 
 Serovar IIIa 41:z<sub>4</sub>,z<sub>23</sub>:- has been reported in [the US, Canada, and Europe including Germany, Ireland, and the UK](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=IIIa%2041:z4,z23:-%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Not clear, at least no recent human outbreaks linked to this serovar have been reported.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

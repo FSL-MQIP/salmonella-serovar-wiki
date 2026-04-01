@@ -24,23 +24,22 @@ Serovar Poona has been found in turtles, and has been associated with salmonello
 
 Serovar Poona has been reported [worldwide.](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Poona%22)>)
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Several outbreaks have been associated with serovar Poona.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2019 | Europe: multi-country<sup>1</sup> | [Infant formula](https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-multi-country-outbreak-salmonella-poona-infections) | 32 | Human |
-| 2019 | Finland | [Watermelon](https://doi.org/10.1016/j.jfp.2024.100404) | 9 | Human |
-| 2015-2016 | US-multistate | [Pet turtles](http://www.cdc.gov/salmonella/small-turtles-10-15/index.html) | 70 | Human |
-| 2015-2016 | US-multistate | [Cucumbers from Mexico](http://www.cdc.gov/salmonella/poona-09-15/index.html) | 907 | Human |
-| 2015 | US-multistate | [Pet turtles](http://www.cdc.gov/salmonella/small-turtles-10-15/index.html) | 25 | Human |
-| 2000-2002 | US-multistate | [Cantaloupe](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5146a2.htm) | 155<sup>2</sup> | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2019 | Europe: multi-country<sup>1</sup> | [Infant formula](https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-multi-country-outbreak-salmonella-poona-infections) | 32 |
+| 2019 | Finland | [Watermelon](https://doi.org/10.1016/j.jfp.2024.100404) | 9 |
+| 2015-2016 | US-multistate | [Pet turtles](http://www.cdc.gov/salmonella/small-turtles-10-15/index.html) | 70 |
+| 2015-2016 | US-multistate | [Cucumbers from Mexico](http://www.cdc.gov/salmonella/poona-09-15/index.html) | 907 |
+| 2015 | US-multistate | [Pet turtles](http://www.cdc.gov/salmonella/small-turtles-10-15/index.html) | 25 |
+| 2000-2002 | US-multistate | [Cantaloupe](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5146a2.htm) | 155<sup>2</sup> |
 
 <sup>1</sup>France, Belgium, and Luxembourg
 
 <sup>2</sup>Three outbreaks of serovar Poona linked to cantaloupe occurred in 2000-2002. This is the total case number for all three outbreaks.
-
 Border Rejections: Numerous border rejections linked to *Salmonella* Poona have been reported. A majority of these border rejections were associated with black pepper and identified multiple *Salmonella* serovars including serovar Poona. A few examples are listed below:
 
 | Year | Exporting country | Importing country | Associated source | Product category |
@@ -50,6 +49,10 @@ Border Rejections: Numerous border rejections linked to *Salmonella* Poona have 
 | 2020 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/420257) | Herbs and spices |
 
 <sup>1</sup>Both *Salmonella* Poona and Morehead were identified
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Recalls
 

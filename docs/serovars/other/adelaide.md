@@ -24,11 +24,15 @@ Serovar Adelaide was found in [wild boar, bovine, and caprine](<https://www.ncbi
 
 Serovar Adelaide has primarily been reported in [North America, including the US, Canada, and Mexico, but has also been found in Chile, Brazil, Australia, the UK](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Adelaide%22)>), and [Ethiopia](https://webgate.ec.europa.eu/rasff-window/screen/notification/505138).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| [2018](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/adelaide-06-18/index.html) | US: multistate | Pre-cut melon | 77 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| [2018](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/adelaide-06-18/index.html) | US: multistate | Pre-cut melon | 77 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

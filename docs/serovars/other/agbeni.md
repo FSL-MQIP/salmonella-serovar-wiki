@@ -24,14 +24,18 @@ Serovar Agbeni was found in [cattle, horses, wild boar](<https://www.ncbi.nlm.ni
 
 Serovar Agbeni has been reported in [the US, Canada, Europe such as the UK, Ireland, and Norway](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Agbeni%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2019 | Norway | [Exotic dried fruits](https://pmc.ncbi.nlm.nih.gov/articles/PMC8034060/#:~:text=On%20Tuesday%2012%20February%202019,possible%20source%20of%20the%20outbreak.) | 56 | Human |
-| 2018 | US: multistate | [Cake mix](https://archive.cdc.gov/www_cdc_gov/salmonella/agbeni-11-18/index.html#:~:text=On%20November%205%2C%202018%2C%20ConAgra%20Brands%20recalled,after%20health%20officials%20in%20Oregon%20identified%20Salmonella) | 7 | Human |
-| 2017 | US: multistate | [Turtle](https://www.cdc.gov/mmwr/volumes/67/wr/mm6748a5.htm#:~:text=In%20June%202017%2C%20PulseNet%2C%20the,patient%20during%20April%E2%80%93December%202017.) | 76 | Human |
-| 2011 | Canada | [Not identified](https://pmc.ncbi.nlm.nih.gov/articles/PMC3437710/) | 8 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2019 | Norway | [Exotic dried fruits](https://pmc.ncbi.nlm.nih.gov/articles/PMC8034060/#:~:text=On%20Tuesday%2012%20February%202019,possible%20source%20of%20the%20outbreak.) | 56 |
+| 2018 | US: multistate | [Cake mix](https://archive.cdc.gov/www_cdc_gov/salmonella/agbeni-11-18/index.html#:~:text=On%20November%205%2C%202018%2C%20ConAgra%20Brands%20recalled,after%20health%20officials%20in%20Oregon%20identified%20Salmonella) | 7 |
+| 2017 | US: multistate | [Turtle](https://www.cdc.gov/mmwr/volumes/67/wr/mm6748a5.htm#:~:text=In%20June%202017%2C%20PulseNet%2C%20the,patient%20during%20April%E2%80%93December%202017.) | 76 |
+| 2011 | Canada | [Not identified](https://pmc.ncbi.nlm.nih.gov/articles/PMC3437710/) | 8 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

@@ -27,9 +27,13 @@ Serovar Albany was mainly found in [chicken but was also present in turkey, duck
 
 Serovar Albany has been found in the US, Mexico, [Europe](https://atlas.ecdc.europa.eu/public/index.aspx), and Asian such as South Korea, [Taiwan](https://www.sciencedirect.com/science/article/pii/S0032579119306182).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 There have been no recent human outbreaks linked to this serovar.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

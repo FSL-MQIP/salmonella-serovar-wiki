@@ -24,18 +24,22 @@ Serovar Idikan was prevalent in [cattle](<https://www.ncbi.nlm.nih.gov/pathogens
 
 Serovar Idikan has been found in China,[Saudi Arabia, Israel](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Idikan%22)>), South Africa, [Australia](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Idikan%22)>),[Americas](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Idikan%22)>)such as the US, Canada, Brazil, and Mexico, [Europe](https://atlas.ecdc.europa.eu/public/index.aspx?Dataset=27&HealthTopic=46&Indicator=885467&GeoResolution=2&TimeResolution=Year&StartTime=2006&EndTime=2022&CurrentTime=2008&Distribution=885109&DistributionRepresentation=B&TimeSeries=region&TimeSeriesRepresentation=T) such as Spain, Sweden, Denmark, and France.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| NA<sup>1</sup> | [United States](https://www.sciencedirect.com/science/article/pii/S0362028X23067431#ab010) | Beef | 6 | Human |
-| 2022 | [China](https://rs.yiigle.com/cmaid/1474503) | NA<sup>2</sup> | NA<sup>3</sup> | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| NA<sup>1</sup> | [United States](https://www.sciencedirect.com/science/article/pii/S0362028X23067431#ab010) | Beef | 6 |
+| 2022 | [China](https://rs.yiigle.com/cmaid/1474503) | NA<sup>2</sup> | NA<sup>3</sup> |
 
 <sup>1</sup>The specific year is not reported in the dataset.
 
 <sup>2</sup>Specific contaminated source is not reported.
 
 <sup>3</sup>Number of cases is not reported in source.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

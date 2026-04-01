@@ -24,12 +24,16 @@ Serovar London has been found to be [polyphyletic](https://www.frontiersin.org/j
 
 According to the metadata from NCBI PD, serovar London has been reported [worldwide but mainly in US, China, and UK.](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=London%22)>)
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2004 | South Korea | [Nosocomial](https://journals.asm.org/doi/10.1128/jcm.43.7.3519-3521.2005) | 3 | Human |
-| 2000 | South Korea | [Infant formula](https://pubmed.ncbi.nlm.nih.gov/15004867/) | 31 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2004 | South Korea | [Nosocomial](https://journals.asm.org/doi/10.1128/jcm.43.7.3519-3521.2005) | 3 |
+| 2000 | South Korea | [Infant formula](https://pubmed.ncbi.nlm.nih.gov/15004867/) | 31 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

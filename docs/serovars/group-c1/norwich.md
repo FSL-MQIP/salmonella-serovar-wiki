@@ -24,12 +24,16 @@ Unknown, [poultry](https://www.fsis.usda.gov/sites/default/files/media_file/docu
 
 According to the [metadata from NCBI PD](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Norwich%22)>), serovar Norwich has only been reported in UK, US and Canada.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| Between 2012 to 2016 | US | [Chicken](https://www.sciencedirect.com/science/article/pii/S0362028X24001157) | 10 | Human |
-| 1994 | US: MD, PA | [Restaurant-related](https://wwwnc.cdc.gov/eid/article/1/3/95-0306_article) | 7 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| Between 2012 to 2016 | US | [Chicken](https://www.sciencedirect.com/science/article/pii/S0362028X24001157) | 10 |
+| 1994 | US: MD, PA | [Restaurant-related](https://wwwnc.cdc.gov/eid/article/1/3/95-0306_article) | 7 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

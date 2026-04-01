@@ -26,16 +26,16 @@ Unknown, [poultry](https://pmc.ncbi.nlm.nih.gov/articles/PMC8276318/#:~:text=So%
 
 Serovar Napoli has been reported in [US, Canada, Australia, and Europe, mainly in Italy.](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Napoli%22)>)
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2023 | Norway | [Not identified](https://www.foodsafetynews.com/2023/12/salmonella-outbreak-over-in-norway-but-source-not-found/) | 7 | Human |
-| 2014 | Italy | [Ham](https://www.liebertpub.com/doi/full/10.1089/fpd.2015.2091) | 47 | Human |
-| 2011 | Italy | [Water](https://www.escaide.eu/sites/default/files/documents/ESCAIDE-2012-abstract-book.pdf) | 10 | Human |
-| 1982 | England and Wales | [Chocolate bars](https://pubmed.ncbi.nlm.nih.gov/6131266/) | 245 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2023 | Norway | [Not identified](https://www.foodsafetynews.com/2023/12/salmonella-outbreak-over-in-norway-but-source-not-found/) | 7 |
+| 2014 | Italy | [Ham](https://www.liebertpub.com/doi/full/10.1089/fpd.2015.2091) | 47 |
+| 2011 | Italy | [Water](https://www.escaide.eu/sites/default/files/documents/ESCAIDE-2012-abstract-book.pdf) | 10 |
+| 1982 | England and Wales | [Chocolate bars](https://pubmed.ncbi.nlm.nih.gov/6131266/) | 245 |
 
-Animal outbreaks:
+## Animal Outbreaks
 
 | Year | Location | Breed | Number of cases |
 | --- | --- | --- | --- |

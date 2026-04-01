@@ -24,15 +24,19 @@ Serovar Kottbus has been found to be [polyphyletic](https://www.frontiersin.org/
 
 Serovar Kottbus has been found reported [worldwide occasionally](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Kottbus%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2017 | Germany | [Quail eggs, smoked ham](https://www.foodsafetynews.com/2020/05/wgs-aided-detection-of-parallel-salmonella-outbreaks-in-germany/#more-194537) | 69 | Human |
-| 2006 | Spain | [Bottled water](https://www.eurosurveillance.org/content/10.2807/esw.12.28.03235-en) | 46 | Human |
-| 2001 | US | [Alfalfa sprouts](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5101a3.htm) | 23 | Human |
-| 1987 | Italy | [Horse bresaola](https://link.springer.com/article/10.1007/BF00151716) | 14 | Human |
-| 1977 | US | [Human milk](https://jamanetwork.com/journals/jama/article-abstract/355825) | 7 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2017 | Germany | [Quail eggs, smoked ham](https://www.foodsafetynews.com/2020/05/wgs-aided-detection-of-parallel-salmonella-outbreaks-in-germany/#more-194537) | 69 |
+| 2006 | Spain | [Bottled water](https://www.eurosurveillance.org/content/10.2807/esw.12.28.03235-en) | 46 |
+| 2001 | US | [Alfalfa sprouts](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5101a3.htm) | 23 |
+| 1987 | Italy | [Horse bresaola](https://link.springer.com/article/10.1007/BF00151716) | 14 |
+| 1977 | US | [Human milk](https://jamanetwork.com/journals/jama/article-abstract/355825) | 7 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

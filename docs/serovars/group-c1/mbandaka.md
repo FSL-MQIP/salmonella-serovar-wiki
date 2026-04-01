@@ -24,19 +24,19 @@ Serovar Mbandaka has been found to be [polyphyletic](https://www.frontiersin.org
 
 Serovar Mbandaka has been reported [worldwide](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Mbandaka%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Numerous outbreaks in different countries have been linked to serovar Mbandaka, imported spices have been associated with several of these outbreaks. Below are some examples.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/?CDC_AAref_Val=https://www.cdc.gov/salmonella/backyardpoultry-05-24/index.html)<sup>1</sup> | 470 | Human |
-| 2021-2024 | Europe: multi-country | [Frozen steam-cooked chicken breast, produced in Ukraine](https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-multi-country-outbreak-salmonella-mbandaka-st413-linked#:~:text=European%20Centre%20for%20Disease%20Prevention,first%20update%20%2D%2021%20March%202024.)<sup>2</sup> | 300 | Human |
-| 2021 | US: ME | [Pad thai](https://outbreakdatabase.com/outbreaks/2021-outbreak-of-salmonella-mbandaka-infections-at-a-college-maine) | 129 | Human |
-| 2018 | US: multistate | [Honey smack cereal](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/mbandaka-06-18/index.html) | 135 | Human |
-| 2013 | US: multistate | [Tahini](https://archive.cdc.gov/www_cdc_gov/salmonella/montevideo-tahini-05-13/index.html#:~:text=Investigation%20of%20the%20Outbreak,-During%20routine%20product&text=tahini%20sesame%20paste.-,Additional%20testing%20by%20the%20FDA%20isolated%20Salmonella%20Mbandaka%20from%20imported,recalled%20its%20tahini%20sesame%20paste.)<sup>3</sup> | 16 | Human |
-| 2013 | US: multistate | [Live poultry](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6310a4.htm)<sup>4</sup> | 158 | Human |
-| 2008–2019 | US: MI | [Restaurant-related](https://www.cdc.gov/mmwr/volumes/70/wr/mm7033a1.htm) | 36 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/?CDC_AAref_Val=https://www.cdc.gov/salmonella/backyardpoultry-05-24/index.html)<sup>1</sup> | 470 |
+| 2021-2024 | Europe: multi-country | [Frozen steam-cooked chicken breast, produced in Ukraine](https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-multi-country-outbreak-salmonella-mbandaka-st413-linked#:~:text=European%20Centre%20for%20Disease%20Prevention,first%20update%20%2D%2021%20March%202024.)<sup>2</sup> | 300 |
+| 2021 | US: ME | [Pad thai](https://outbreakdatabase.com/outbreaks/2021-outbreak-of-salmonella-mbandaka-infections-at-a-college-maine) | 129 |
+| 2018 | US: multistate | [Honey smack cereal](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/mbandaka-06-18/index.html) | 135 |
+| 2013 | US: multistate | [Tahini](https://archive.cdc.gov/www_cdc_gov/salmonella/montevideo-tahini-05-13/index.html#:~:text=Investigation%20of%20the%20Outbreak,-During%20routine%20product&text=tahini%20sesame%20paste.-,Additional%20testing%20by%20the%20FDA%20isolated%20Salmonella%20Mbandaka%20from%20imported,recalled%20its%20tahini%20sesame%20paste.)<sup>3</sup> | 16 |
+| 2013 | US: multistate | [Live poultry](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6310a4.htm)<sup>4</sup> | 158 |
+| 2008–2019 | US: MI | [Restaurant-related](https://www.cdc.gov/mmwr/volumes/70/wr/mm7033a1.htm) | 36 |
 
 <sup>1</sup> Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Mbandaka.
 
@@ -45,6 +45,10 @@ Numerous outbreaks in different countries have been linked to serovar Mbandaka, 
 <sup>3</sup> A total of 16 cases with the outbreak strains of *Salmonella* Montevideo (four persons) or *Salmonella* Mbandaka (12 persons) were reported from nine states.
 
 <sup>4</sup> *Salmonella* Infantis, Lille, Newport, and Mbandaka were involved in this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Mbandaka.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

@@ -24,9 +24,13 @@ Serovar Rubislaw has been found to be [polyphyletic](https://www.frontiersin.org
 
 Serovar Rubislaw is widely distributed and has been found [worldwide](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Rubislaw%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 There have been no reported outbreaks linked to *S.* Rubislaw.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

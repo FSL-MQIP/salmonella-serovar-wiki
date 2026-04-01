@@ -24,12 +24,16 @@ Studies have found that isolates from biovar Gallinarum can be multidrug-resista
 
 Biovar Gallinarum has been reported [worldwide](https://www.nature.com/articles/s41597-022-01605-x).
 
-Animal outbreaks: There have been multiple outbreaks in chickens associated with biovar Gallinarum. Examples are shown below:
+## Human Outbreaks
+
+There have been no recent human outbreaks linked to this biovar.
+
+## Animal Outbreaks
 
 | Year | Location | Breed | Number of cases |
 | --- | --- | --- | --- |
-| [2014](https://bioone.org/journals/avian-diseases/volume-58/issue-3/10796-021114-Case.1/Fowl-Typhoid-Salmonella-Gallinarum-Outbreak-in-Japanese-Quail-Coturnix-coturnix/10.1637/10796-021114-Case.1.full) | Brazil | Japanese Quail | 222<sup>1</sup> |
-| [1990](https://www.jstor.org/stable/1592212?seq=3) | Zambia | Layer | 2400<sup>2</sup> |
+| 2014 | Brazil | [Japanese Quail](https://bioone.org/journals/avian-diseases/volume-58/issue-3/10796-021114-Case.1/Fowl-Typhoid-Salmonella-Gallinarum-Outbreak-in-Japanese-Quail-Coturnix-coturnix/10.1637/10796-021114-Case.1.full) | 222<sup>1</sup> |
+| 1990 | Zambia | [Layer](https://www.jstor.org/stable/1592212?seq=3) | 2400<sup>2</sup> |
 
 <sup>1</sup> The flock size is 400, and 222 birds died.
 

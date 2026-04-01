@@ -24,9 +24,13 @@ Serovar Agama was found in[lizards](https://pmc.ncbi.nlm.nih.gov/articles/PMC273
 
 Serovar Agama has been reported in [the US, Nigeria, and Europe such as the UK, and France](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Agama%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 There have been no recent human outbreaks linked to this serovar.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

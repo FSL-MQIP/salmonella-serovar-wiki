@@ -26,15 +26,19 @@ Turkey and swine are potential reservoirs of *Salmonella* Senftenberg, but this 
 
 This serovar is widely distributed, and it has been isolated from all inhabited continents.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| [2022-2023](https://www.ecdc.europa.eu/en/news-events/92-salmonella-senftenberg-cases-reported-11-eueea-countries) | EU: multi-country, US | Tomatoes | 92 | Human |
-| [2022](https://www.cdc.gov/salmonella/outbreaks/senftenberg-05-22/index.html) | US: multistate | Peanut butter | 21 | Human |
-| [2016](https://archive.cdc.gov/www_cdc_gov/salmonella/montevideo-03-16/key-resources.html) | US: multistate | Pistachios | 2 | Human |
-| [2007-2008](https://wwwnc.cdc.gov/eid/article/16/5/09-1555_article#r5) | Serbia | Fennel seed tea | 14 | Human |
-| [2007](https://www.liebertpub.com/doi/10.1089/fpd.2008.0103) | EU | Basil | 55 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| [2022-2023](https://www.ecdc.europa.eu/en/news-events/92-salmonella-senftenberg-cases-reported-11-eueea-countries) | EU: multi-country, US | Tomatoes | 92 |
+| [2022](https://www.cdc.gov/salmonella/outbreaks/senftenberg-05-22/index.html) | US: multistate | Peanut butter | 21 |
+| [2016](https://archive.cdc.gov/www_cdc_gov/salmonella/montevideo-03-16/key-resources.html) | US: multistate | Pistachios | 2 |
+| [2007-2008](https://wwwnc.cdc.gov/eid/article/16/5/09-1555_article#r5) | Serbia | Fennel seed tea | 14 |
+| [2007](https://www.liebertpub.com/doi/10.1089/fpd.2008.0103) | EU | Basil | 55 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

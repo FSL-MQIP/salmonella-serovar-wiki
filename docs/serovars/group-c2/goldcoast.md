@@ -24,20 +24,23 @@ Serovar Goldcoast has been isolated from [swine](https://www.foodsafetynews.com/
 
 Serovar Goldcoast appears to be [mainly distributed in several European countries](https://academic.oup.com/ofid/article/6/12/ofz447/5679784) but can be found in countries like[Taiwan](https://academic.oup.com/ofid/article/6/12/ofz447/5679784).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Currently, all reported outbreaks linked to serovar Goldcoast have occurred in Europe. Below are some examples.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2018 | Netherlands | [Pork](https://www.foodsafetynews.com/2018/12/eus-notable-2018-food-safety-events/) | At least 19 | Human |
-| 2013 | England | [Whelk](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES2013.18.49.20654) | 38 | Human |
-| 2009-2010 | Italy | [Salami](https://pubmed.ncbi.nlm.nih.gov/23517871/) | 79 | Human |
-| 2005 | Europe: multi-country | [Trip to Majorca](https://pubmed.ncbi.nlm.nih.gov/16794290/#:~:text=International%20outbreak%20of%20Salmonella%20Goldcoast%20infection%20in,Majorca%2C%20September%2DOctober%202005:%20final%20summary.%20Euro%20Surveill.) | 148 | Human |
-| 2001 | Germany | [Raw fermented sausages](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/outbreak-of-salmonella-goldcoast-infections-linked-to-consumption-of-fermented-sausage-germany-2001/60A4E89BD2F100CEC9AEBC5D7BB1885F) | 44 | Human |
-| 1984 | England and Wales | [French pate](https://pmc.ncbi.nlm.nih.gov/articles/PMC2082881/) | 250 | Human |
-
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2018 | Netherlands | [Pork](https://www.foodsafetynews.com/2018/12/eus-notable-2018-food-safety-events/) | At least 19 |
+| 2013 | England | [Whelk](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES2013.18.49.20654) | 38 |
+| 2009-2010 | Italy | [Salami](https://pubmed.ncbi.nlm.nih.gov/23517871/) | 79 |
+| 2005 | Europe: multi-country | [Trip to Majorca](https://pubmed.ncbi.nlm.nih.gov/16794290/#:~:text=International%20outbreak%20of%20Salmonella%20Goldcoast%20infection%20in,Majorca%2C%20September%2DOctober%202005:%20final%20summary.%20Euro%20Surveill.) | 148 |
+| 2001 | Germany | [Raw fermented sausages](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/outbreak-of-salmonella-goldcoast-infections-linked-to-consumption-of-fermented-sausage-germany-2001/60A4E89BD2F100CEC9AEBC5D7BB1885F) | 44 |
+| 1984 | England and Wales | [French pate](https://pmc.ncbi.nlm.nih.gov/articles/PMC2082881/) | 250 |
 Border rejections: There have been no recent border rejections linked to this serovar.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Recalls
 

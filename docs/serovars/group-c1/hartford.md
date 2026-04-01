@@ -24,20 +24,23 @@ Serovar Hartford has been found to be [polyphyletic](https://www.frontiersin.org
 
 Serovar Hartford has been found in [the US, Canada, Australia, the UK](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Hartford%22)>), [Hungary](https://www.mdpi.com/2076-2607/11/2/403), and [China](https://pmc.ncbi.nlm.nih.gov/articles/PMC4652083/).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated Source | Number of Cases | Type |
-| --- | --- | --- | --- | --- |
-| 2023 | US: multistate | [Not identified](https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks) | 54 | Human |
-| 2014 | US: multistate | [Organic sprouted chia powder](https://archive.cdc.gov/www_cdc_gov/salmonella/newport-05-14/index.html)<sup>1</sup> | 31 | Human |
-| 2010 | US: multistate | [Not identified](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/2010/restaurant-chain-a-8-4-10.html) | 75 | Human |
-| 1995 | US: FL | [Unpasteurized orange juice](https://jamanetwork.com/journals/jama/fullarticle/188128)<sup>2</sup> | 62 | Human |
+| Year | Location | Associated Source | Number of Cases |
+| --- | --- | --- | --- |
+| 2023 | US: multistate | [Not identified](https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks) | 54 |
+| 2014 | US: multistate | [Organic sprouted chia powder](https://archive.cdc.gov/www_cdc_gov/salmonella/newport-05-14/index.html)<sup>1</sup> | 31 |
+| 2010 | US: multistate | [Not identified](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/2010/restaurant-chain-a-8-4-10.html) | 75 |
+| 1995 | US: FL | [Unpasteurized orange juice](https://jamanetwork.com/journals/jama/fullarticle/188128)<sup>2</sup> | 62 |
 
 <sup>1</sup> *Salmonella* Newport (20 cases), *Salmonella* Hartford (7 cases), or *Salmonella* Oranienburg (4 cases)
 
 <sup>2</sup> *Salmonella* Gaminara was also involved in this outbreak.
-
 Border rejections: There have been no recent border rejections linked to this serovar.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Recalls
 

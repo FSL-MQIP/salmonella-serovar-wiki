@@ -24,11 +24,15 @@ Serovar Alachua was mainly found in [chicken but was also present in pigs, and t
 
 Although serovar Alachua has been reported[worldwide](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Alachua%22)>), it is more frequently found in the countries such as the US, and UK.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2012 | Brazil | [Mayonnaise salad and galinhada (a traditional Brazilian dish of chicken and rice)](https://www.sciencedirect.com/science/article/pii/S1413867015000288?via%3Dihub) | 66 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2012 | Brazil | [Mayonnaise salad and galinhada (a traditional Brazilian dish of chicken and rice)](https://www.sciencedirect.com/science/article/pii/S1413867015000288?via%3Dihub) | 66 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

@@ -24,9 +24,13 @@ Unknown, but according to the metadata from NCBI PD (accessed 05/14/2025), [poul
 
 According to the metadata from NCBI PD (accessed 05/14/2025), serovar Ouakam has only been found in [a few countries including (Brazil, US, Canada, UK, China, Thailand, Lebanon, Ghana)](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ouakam%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 No recent outbreaks have been associated with serovar Ouakam.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

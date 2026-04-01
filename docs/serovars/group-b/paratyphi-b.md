@@ -24,17 +24,21 @@ Serovar Paratyphi B is almost exclusively host restricted to humans and closely 
 
 Serovar Paratyphi B is [widely distributed](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Paratyphi%20B%22)>) and had been reported in North America (US, Canada, Mexico), South America (Brazil, Colombia), Europe (UK, France, Denmark), Africa (Nigeria, Zimbabwe), Asia (India, South Korea, Japan), and Australia.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Several outbreaks have been associated with *S.* Paratyphi B.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2015 | US: Multistate | [Sprouted nut butter spread](https://archive.cdc.gov/www_cdc_gov/salmonella/paratyphi-b-12-15/index.html) | 13 | Human |
-| 2015 | US: Multistate | [Frozen raw tuna](https://archive.cdc.gov/www_cdc_gov/salmonella/paratyphi-b-05-15/index.html) | 65 | Human |
-| 2012 | US: Multistate | [Tempeh](https://www.foodsafetynews.com/2012/05/rare-salmonella-paratyphi-outbreak-grows-as-investigation-continues/) | 63 | Human |
-| 1999 | Canada | [Alfalfa sprouts](https://publications.gc.ca/collections/Collection/H12-21-27-16.pdf) | 51 | Human |
-| 1986 | UK | [Food Handler](https://doi.org/10.1017/S0950268800030843) | 3 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2015 | US: Multistate | [Sprouted nut butter spread](https://archive.cdc.gov/www_cdc_gov/salmonella/paratyphi-b-12-15/index.html) | 13 |
+| 2015 | US: Multistate | [Frozen raw tuna](https://archive.cdc.gov/www_cdc_gov/salmonella/paratyphi-b-05-15/index.html) | 65 |
+| 2012 | US: Multistate | [Tempeh](https://www.foodsafetynews.com/2012/05/rare-salmonella-paratyphi-outbreak-grows-as-investigation-continues/) | 63 |
+| 1999 | Canada | [Alfalfa sprouts](https://publications.gc.ca/collections/Collection/H12-21-27-16.pdf) | 51 |
+| 1986 | UK | [Food Handler](https://doi.org/10.1017/S0950268800030843) | 3 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

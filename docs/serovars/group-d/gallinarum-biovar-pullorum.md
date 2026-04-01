@@ -26,12 +26,16 @@ Biovar Pullorum can be found in [almost all species of birds](https://www.scienc
 
 Biovar Pullorum has been reported [worldwide](https://www.nature.com/articles/s41597-022-01605-x).
 
-Animal outbreaks: There have been multiple outbreaks in chickens associated with biovar Pullorum. Examples are shown below:
+## Human Outbreaks
+
+There have been no recent human outbreaks linked to this biovar.
+
+## Animal Outbreaks
 
 | Year | Location | Breed | Number of cases |
 | --- | --- | --- | --- |
-| [2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC7823777/#:~:text=An%20outbreak%20of%20pullorum%20disease,quail%20farm%20in%20western%20France.) | France | Quail | 1,920<sup>1</sup> |
-| [1990](https://www.jstor.org/stable/1592212?seq=3) | Zambia | Broiler | 1,000<sup>2</sup> |
+| 2019 | France | [Quail](https://pmc.ncbi.nlm.nih.gov/articles/PMC7823777/#:~:text=An%20outbreak%20of%20pullorum%20disease,quail%20farm%20in%20western%20France.) | 1,920<sup>1</sup> |
+| 1990 | Zambia | [Broiler](https://www.jstor.org/stable/1592212?seq=3) | 1,000<sup>2</sup> |
 
 <sup>1</sup> The flock size is 12,000, and 1,920 birds died.
 

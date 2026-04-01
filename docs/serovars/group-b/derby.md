@@ -22,16 +22,20 @@ Animal reservoir: The most common reservoir for serovar Derby is [swine](https:/
 
 Serovar Derby has been reported [worldwide](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2022.1065672/full) such as the US, Europe, and China.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Multiple outbreaks linked to serovar Derby have been reported; in many of these outbreaks, the associated food was pork products. Below are examples.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2013-2014 | Germany | [Raw fermented meat paste](https://www.sciencedirect.com/science/article/pii/S0740002016309194) | 145 | Human |
-| 2011 | Spain | [Dried pork sausage](https://www.sciencedirect.com/science/article/abs/pii/S0213005X15004528?np=y) | <49 | Human |
-| 1973 | Trinidad | [Powdered infant formula](https://pubmed.ncbi.nlm.nih.gov/18171262/) | ~3000 | Human |
-| 1963 | US: multistate | [Raw or under-cooked eggs](https://jamanetwork.com/journals/jama/article-abstract/1161055) | ~822 (incl. secondary) | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2013-2014 | Germany | [Raw fermented meat paste](https://www.sciencedirect.com/science/article/pii/S0740002016309194) | 145 |
+| 2011 | Spain | [Dried pork sausage](https://www.sciencedirect.com/science/article/abs/pii/S0213005X15004528?np=y) | <49 |
+| 1973 | Trinidad | [Powdered infant formula](https://pubmed.ncbi.nlm.nih.gov/18171262/) | ~3000 |
+| 1963 | US: multistate | [Raw or under-cooked eggs](https://jamanetwork.com/journals/jama/article-abstract/1161055) | ~822 (incl. secondary) |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

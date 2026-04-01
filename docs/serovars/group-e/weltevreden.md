@@ -28,22 +28,26 @@ All sequenced serovar Weltevreden isolates in a [Danish study](https://www.front
 
 Serovar Weltevreden has been found [worldwide](https://pmc.ncbi.nlm.nih.gov/articles/PMC9927414/). Over the past 20 years, *Salmonell*a Weltevreden has become a predominant serovar, particularly in [Southeast Asia, including countries such as Oman, Singapore, China, Thailand, Vietnam, and India](<https://www.liebertpub.com/doi/10.1089/fpd.2023.0064#:~:text=In%20the%20last%20two%20decades,et%20al.%2C%202021).>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2021 | US: multistate | [Frozen pre-cooked shrimp](https://archive.cdc.gov/www_cdc_gov/salmonella/weltevreden-06-21/index.html) | 9 | Human |
-| 2019 | Australia | [Frozen microwave meals](https://www.foodsafetynews.com/2019/10/almost-50-ill-in-australian-salmonella-outbreak/) | 46 | Human |
-| 2017-2018 | US: multistate | [Kratom](https://pmc.ncbi.nlm.nih.gov/articles/PMC10961741/)<sup>1</sup> | 199 | Human |
-| 2015 | US: multistate | [Frozen tuna](https://archive.cdc.gov/www_cdc_gov/salmonella/paratyphi-b-05-15/index.html) | 65<sup>2</sup> | Human |
-| 2015 | Oman | [Hummus (likely)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8242109/) | 101 | Human |
-| 2010 | India | [Food comprising milk, rice, sprouted pulses and curd](https://pmc.ncbi.nlm.nih.gov/articles/PMC4418162/) | 150 (8 confirmed) | Human |
-| 2007 | France | [Unknown](https://www.eurosurveillance.org/content/10.2807/ese.13.32.18949-en) | 26 | Human |
-| 2007 | Europe: multinational | [Alfalfa sprouts](https://www.eurosurveillance.org/content/10.2807/esw.12.48.03321-en) | 45 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2021 | US: multistate | [Frozen pre-cooked shrimp](https://archive.cdc.gov/www_cdc_gov/salmonella/weltevreden-06-21/index.html) | 9 |
+| 2019 | Australia | [Frozen microwave meals](https://www.foodsafetynews.com/2019/10/almost-50-ill-in-australian-salmonella-outbreak/) | 46 |
+| 2017-2018 | US: multistate | [Kratom](https://pmc.ncbi.nlm.nih.gov/articles/PMC10961741/)<sup>1</sup> | 199 |
+| 2015 | US: multistate | [Frozen tuna](https://archive.cdc.gov/www_cdc_gov/salmonella/paratyphi-b-05-15/index.html) | 65<sup>2</sup> |
+| 2015 | Oman | [Hummus (likely)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8242109/) | 101 |
+| 2010 | India | [Food comprising milk, rice, sprouted pulses and curd](https://pmc.ncbi.nlm.nih.gov/articles/PMC4418162/) | 150 (8 confirmed) |
+| 2007 | France | [Unknown](https://www.eurosurveillance.org/content/10.2807/ese.13.32.18949-en) | 26 |
+| 2007 | Europe: multinational | [Alfalfa sprouts](https://www.eurosurveillance.org/content/10.2807/esw.12.48.03321-en) | 45 |
 
 <sup>1</sup> Multiple serovars including *Salmonella* I 4,[5],12:​b:-, Heidelberg, Javiana, Okatie, Weltevreden, and Thompson were involved in this outbreak. The case number here does not reflect the number of infections linked to *Salmonella* Weltevreden only.
 
 <sup>2</sup> Sixty-five individuals across 11 states were reported infected with outbreak strains, including 64 cases of *Salmonella* Paratyphi B variant L(+) tartrate(+) and 1 case of *Salmonella* Weltevreden.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

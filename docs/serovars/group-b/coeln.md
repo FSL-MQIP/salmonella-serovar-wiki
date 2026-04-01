@@ -24,14 +24,18 @@ Serovar Coeln has been isolated in high frequency (21.8%) in [wild boars](http:/
 
 Serovar Coeln has been mainly described in [Europe](https://food.ec.europa.eu/document/download/bdb7770b-f932-4038-951d-516d63c3690b_en) such as the UK, and Norway but has been also isolated in other [non-European countries](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Coeln%22)>) such as US, and Australia.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2021 | Sweden | [Fresh Sprouts](https://www.foodsafetynews.com/2021/11/sweden-solves-salmonella-outbreak-sprouts-identified-as-likely-source/) | 52 | Human |
-| 2017 | Norway | [TBD](https://www.foodnavigator.com/Article/2017/09/22/Salmonella-sickens-seven-in-Norway/) | 18 | Human |
-| 2013 | Norway | [Baby Leaf Mix](https://pubmed.ncbi.nlm.nih.gov/26586305/) | 26 | Human |
-| 1998 | France | [Minced beef](https://www.eurosurveillance.org/content/10.2807/esm.06.02.00223-en) | 26 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2021 | Sweden | [Fresh Sprouts](https://www.foodsafetynews.com/2021/11/sweden-solves-salmonella-outbreak-sprouts-identified-as-likely-source/) | 52 |
+| 2017 | Norway | [TBD](https://www.foodnavigator.com/Article/2017/09/22/Salmonella-sickens-seven-in-Norway/) | 18 |
+| 2013 | Norway | [Baby Leaf Mix](https://pubmed.ncbi.nlm.nih.gov/26586305/) | 26 |
+| 1998 | France | [Minced beef](https://www.eurosurveillance.org/content/10.2807/esm.06.02.00223-en) | 26 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

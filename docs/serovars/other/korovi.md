@@ -24,9 +24,13 @@ Serovar Korovi has been found in [cattle](https://pubmed.ncbi.nlm.nih.gov/292547
 
 Serovar Korovi has been reported in[the US](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_006427635.1/), [Ethiopia](https://pubmed.ncbi.nlm.nih.gov/29254708/), and several [European countries](https://atlas.ecdc.europa.eu/public/index.aspx?Dataset=27&HealthTopic=46&Indicator=887175&GeoResolution=2&TimeResolution=Year&StartTime=2006&EndTime=2022&CurrentTime=2016&Distribution=884316&DistributionRepresentation=B&TimeSeries=region&TimeSeriesRepresentation=T)such as Sweden, Germany, Spain, and the UK.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 There have been no recent human outbreaks linked to this serovar.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

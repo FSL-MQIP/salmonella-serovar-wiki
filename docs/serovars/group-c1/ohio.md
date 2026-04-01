@@ -24,13 +24,17 @@ Serovar Ohio has been found to be [monophyletic](https://www.frontiersin.org/jou
 
 Serovar Ohio has been reported [worldwide](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ohio%22)>), but primarily in [the UK](https://pubmed.ncbi.nlm.nih.gov/19043089/) and [US (Out of 1,386 serovar Ohio isolates, 998 (72.0%) were from US, according to NCBI PD (accessed May 12, 2025))](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Ohio%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2005 | Belgium | [Pork](https://www.sciencedirect.com/science/article/pii/S0362028X22109610) | 60 | Human |
-| 2004 | Belgium | [Unknown](https://www.sciencedirect.com/science/article/pii/S0362028X22109610#bb0060) | 29 | Human |
-| 1998 | Spain | [Waterborne](https://pubmed.ncbi.nlm.nih.gov/9666586/) | 59 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2005 | Belgium | [Pork](https://www.sciencedirect.com/science/article/pii/S0362028X22109610) | 60 |
+| 2004 | Belgium | [Unknown](https://www.sciencedirect.com/science/article/pii/S0362028X22109610#bb0060) | 29 |
+| 1998 | Spain | [Waterborne](https://pubmed.ncbi.nlm.nih.gov/9666586/) | 59 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

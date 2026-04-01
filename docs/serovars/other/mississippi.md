@@ -24,11 +24,15 @@ Unknown, but according to the metadata from NCBI PD, serovar Mississippi was iso
 
 [Cheng et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC8550085/) found that serovar Mississippi were endemic in Australia, the United Kingdom, and the United States. According to the metadata from NCBI PD, this serovar has been reported in [other countries such as Chile and Bermuda](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Mississippi%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2022 | US | [Unknown](https://www.foodsafetynews.com/2022/08/fda-reports-new-outbreak-of-salmonella-infections-source-of-pathogen-unknown/) | At least 99 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2022 | US | [Unknown](https://www.foodsafetynews.com/2022/08/fda-reports-new-outbreak-of-salmonella-infections-source-of-pathogen-unknown/) | At least 99 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

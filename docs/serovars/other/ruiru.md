@@ -24,11 +24,13 @@ Serovar Ruiru was found in cattle, and turkey.
 
 *S.* Ruiru is a very rare serovar, only a limited number of descriptions have been reported; specifically, one report of infection in sheep in England and two in Europe (imported soybean from Brazil and imported palm kernel expellers from Indonesia).
 
-Animal outbreaks: There is only one description of an outbreak in sheep associated with *S.* Ruiru, the outbreak was reported in 1964, where it caused abortion in ewes.
-
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 There have been no recent human outbreaks linked to this serovar.
+
+## Animal Outbreaks
+
+There is only one description of an outbreak in sheep associated with *S.* Ruiru, the outbreak was reported in 1964, where it caused abortion in ewes.
 
 ## Border Rejections
 

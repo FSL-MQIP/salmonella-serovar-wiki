@@ -26,13 +26,17 @@ Unknown, serovar Oslo was previously isolated from [seafood](https://pmc.ncbi.nl
 
 According to the metadata from NCBI PD (accessed May 13, 2025), serovar Oslo has primarily been reported in [US and UK](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Oslo%22)>), with 441 and 269 isolates, respectively, out of 840 serovar Oslo isolates available on NCBI PD.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2023 | US: LA | [Boiled crawfish](https://event.fourwaves.com/inform/abstracts/d3671885-2a45-4774-8db4-7e8e800cfc41) | 28 | Human |
-| 2016 | US: multistate | [Cucumbers](https://www.cdc.gov/mmwr/volumes/65/wr/mm655051a3.htm) | 14 | Human |
-| 1974 | US: NY | [Endoscope in a hospital](https://pubmed.ncbi.nlm.nih.gov/1251848/) | 5 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2023 | US: LA | [Boiled crawfish](https://event.fourwaves.com/inform/abstracts/d3671885-2a45-4774-8db4-7e8e800cfc41) | 28 |
+| 2016 | US: multistate | [Cucumbers](https://www.cdc.gov/mmwr/volumes/65/wr/mm655051a3.htm) | 14 |
+| 1974 | US: NY | [Endoscope in a hospital](https://pubmed.ncbi.nlm.nih.gov/1251848/) | 5 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

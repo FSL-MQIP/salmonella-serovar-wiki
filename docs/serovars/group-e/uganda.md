@@ -24,19 +24,23 @@ Unknown, according to the metadata from NCBI PD, [cattle and pigs](<https://www.
 
 According to the metadata from NCBI PD, serovar Uganda has been reported [worldwide but primarily in US](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Uganda%22)>) (2,528 out of 3,310 serovar Uganda isolates available in NCBI PD were from US, accessed 06/01/2025).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2022 | US: multistate | [Pet bearded dragons](https://www.cdc.gov/salmonella/outbreaks/uganda-01-22/investigation.html) | 56 | Human |
-| 2022 | China | [Unknown](https://pubmed.ncbi.nlm.nih.gov/37743279/)<sup>1</sup> | NA | Human |
-| 2019 | US: multistate | [Papayas](https://archive.cdc.gov/www_cdc_gov/salmonella/uganda-06-19/index.html) | 81 | Human |
-| 2013 | US: LA | [Hog head cheese](https://www.marlerblog.com/case-news/salmonella-uganda-outbreak-linked-to-head-cheese-in-louisiana/#:~:text=Illness%20onset%20dates%20among%20the,20%202013%E2%80%B3on%20each%20package.) | 6 | Human |
-| 2011 | US: multistate | [Cantaloupe](https://outbreakdatabase.com/outbreaks/2011-multistate-outbreak-of-salmonella-uganda-infections-linked-to-cantaloupe) | 25 | Human |
-| 2001 | US: NY | [Pork](https://pmc.ncbi.nlm.nih.gov/articles/PMC3320290/) | 11 | Human |
-| 2001 | US: Chicago | [Pork](https://pmc.ncbi.nlm.nih.gov/articles/PMC3320290/) | 12 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2022 | US: multistate | [Pet bearded dragons](https://www.cdc.gov/salmonella/outbreaks/uganda-01-22/investigation.html) | 56 |
+| 2022 | China | [Unknown](https://pubmed.ncbi.nlm.nih.gov/37743279/)<sup>1</sup> | NA |
+| 2019 | US: multistate | [Papayas](https://archive.cdc.gov/www_cdc_gov/salmonella/uganda-06-19/index.html) | 81 |
+| 2013 | US: LA | [Hog head cheese](https://www.marlerblog.com/case-news/salmonella-uganda-outbreak-linked-to-head-cheese-in-louisiana/#:~:text=Illness%20onset%20dates%20among%20the,20%202013%E2%80%B3on%20each%20package.) | 6 |
+| 2011 | US: multistate | [Cantaloupe](https://outbreakdatabase.com/outbreaks/2011-multistate-outbreak-of-salmonella-uganda-infections-linked-to-cantaloupe) | 25 |
+| 2001 | US: NY | [Pork](https://pmc.ncbi.nlm.nih.gov/articles/PMC3320290/) | 11 |
+| 2001 | US: Chicago | [Pork](https://pmc.ncbi.nlm.nih.gov/articles/PMC3320290/) | 12 |
 
 <sup>1</sup> Both *Salmonella* Uganda and *Salmonella* Idikan were isolated.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

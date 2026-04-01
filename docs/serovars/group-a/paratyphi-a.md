@@ -28,15 +28,15 @@ Serovar Paratyphi A is [host-restricted to humans](https://www.sciencedirect.com
 
 Serovar Paratyphi A [has been found worldwide, primarily in middle- and low-income countries](https://pubmed.ncbi.nlm.nih.gov/37274527/) like Pakistan, Nepal, India, and Bangladesh.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2014 | India | [Not identified](https://www.sciencedirect.com/science/article/pii/S0255085720301511?ref=pdf_download&fr=RR-2&rr=9426415809c0fbfb)<sup>1</sup> | 43 | Human |
-| 2010-2011 | China | [Uncooked vegetables irrigated with contaminated water](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0003859) | 601 | Human |
-| 2009 | Israel | [Kosher food venue](https://pubmed.ncbi.nlm.nih.gov/24198224/)<sup>2</sup> | 37 | Human |
-| 2004 | China | [Unboiled water](https://pmc.ncbi.nlm.nih.gov/articles/PMC6528785/)<sup>3</sup> | 394 (suspected) | Human |
-| 1995 | India | [Vegetarian food](https://pubmed.ncbi.nlm.nih.gov/8714142/)<sup>4</sup> | 33 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2014 | India | [Not identified](https://www.sciencedirect.com/science/article/pii/S0255085720301511?ref=pdf_download&fr=RR-2&rr=9426415809c0fbfb)<sup>1</sup> | 43 |
+| 2010-2011 | China | [Uncooked vegetables irrigated with contaminated water](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0003859) | 601 |
+| 2009 | Israel | [Kosher food venue](https://pubmed.ncbi.nlm.nih.gov/24198224/)<sup>2</sup> | 37 |
+| 2004 | China | [Unboiled water](https://pmc.ncbi.nlm.nih.gov/articles/PMC6528785/)<sup>3</sup> | 394 (suspected) |
+| 1995 | India | [Vegetarian food](https://pubmed.ncbi.nlm.nih.gov/8714142/)<sup>4</sup> | 33 |
 
 <sup>1</sup> An unusual Salmonella Paratyphi A variety durazzo (2,12:​a:-) was associated with this outbreak.
 
@@ -45,6 +45,10 @@ Serovar Paratyphi A [has been found worldwide, primarily in middle- and low-inco
 <sup>3</sup> Among 394 suspected cases, 95.5% of them were students.
 
 <sup>4</sup> An unusual Salmonella Paratyphi A variety durazzo (2,12:​a:-) was associated with this outbreak.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

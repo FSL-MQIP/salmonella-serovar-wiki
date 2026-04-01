@@ -24,15 +24,19 @@ Serovar Anatum was found primarily in[cattle](https://pmc.ncbi.nlm.nih.gov/artic
 
 Serovar Anatum has been reported[worldwide](https://pmc.ncbi.nlm.nih.gov/articles/PMC6606869/)such as the US, China, and South Africa.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Multiple human outbreaks associated with serovar Anatum have been reported. A few examples are shown below.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2017 | US: multistate | [Imported maradol papayas](https://archive.cdc.gov/www_cdc_gov/salmonella/anatum-9-17/index.html) | 20 | Human |
-| 2016 | US: multistate | [Imported Anaheim pepper](https://www.cdc.gov/mmwr/volumes/66/wr/mm6625a2.htm) | 32 | Human |
-| 2015 | Taiwan | [Pork and poultry](https://wwwnc.cdc.gov/eid/article/26/12/20-0147_article) | Unknown | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2017 | US: multistate | [Imported maradol papayas](https://archive.cdc.gov/www_cdc_gov/salmonella/anatum-9-17/index.html) | 20 |
+| 2016 | US: multistate | [Imported Anaheim pepper](https://www.cdc.gov/mmwr/volumes/66/wr/mm6625a2.htm) | 32 |
+| 2015 | Taiwan | [Pork and poultry](https://wwwnc.cdc.gov/eid/article/26/12/20-0147_article) | Unknown |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

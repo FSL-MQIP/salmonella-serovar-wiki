@@ -24,14 +24,18 @@ Unknown, but [chicken](https://assets.publishing.service.gov.uk/media/66e98539f8
 
 Although serovar Kedougou is rare, it has still been reported [worldwide occasionally such as in the United States and Thailand](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Kedougou%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2020 | Finland | [Carrot and zucchini salad](https://www.foodsafetynews.com/2020/12/finland-hit-by-two-salmonella-outbreaks-day-care-centers-schools-involved/#more-199804) | 9 | Human |
-| 2008 | Spain | [Infant formula milk](https://www.eurosurveillance.org/images/dynamic/EE/V15N22/art19582.pdf) | 31 | Human |
-| 2006 | Norway | [Salami](https://pubmed.ncbi.nlm.nih.gov/16966755/) | 54 | Human |
-| 1992 | The United Kingdom | [Cooked turkey meat](https://pubmed.ncbi.nlm.nih.gov/1285242/) | NA | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2020 | Finland | [Carrot and zucchini salad](https://www.foodsafetynews.com/2020/12/finland-hit-by-two-salmonella-outbreaks-day-care-centers-schools-involved/#more-199804) | 9 |
+| 2008 | Spain | [Infant formula milk](https://www.eurosurveillance.org/images/dynamic/EE/V15N22/art19582.pdf) | 31 |
+| 2006 | Norway | [Salami](https://pubmed.ncbi.nlm.nih.gov/16966755/) | 54 |
+| 1992 | The United Kingdom | [Cooked turkey meat](https://pubmed.ncbi.nlm.nih.gov/1285242/) | NA |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

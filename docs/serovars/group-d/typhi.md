@@ -28,24 +28,28 @@ Serovar Typhi has been found to be [monophyletic](https://www.frontiersin.org/jo
 
 Serovar Typhi is [globally distributed](https://pmc.ncbi.nlm.nih.gov/articles/PMC6128363/); however, the prevalence of this serovar varies considerable. [Crump et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC2622843/) concluded that typhoid fever incidence is highest in south-central and southeast Asia, with over 100 cases per 100,000 people annually. Medium incidence rates (10–100 cases per 100,000 per year) are found in other parts of Asia, Africa, Latin America, the Caribbean, and Oceania (excluding Australia and New Zealand). In contrast, Europe, North America, and other developed regions report low typhoid fever rates, with fewer than 10 cases per 100,000 people each year.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Multiple human outbreaks linked to serovar Typhi has been reported. Below are some examples.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2022 | Netherlands | [Raw sewage](https://www.theguardian.com/world/2023/apr/02/typhoid-outbreak-on-refugee-ship-in-netherlands-traced-to-raw-sewage) | 72 | Human |
-| 2010 | US: multistate | [Frozen mamey fruit pulp](https://archive.cdc.gov/www_cdc_gov/salmonella/2010/frozen-fruit-pulp-8-25-10.html#:~:text=Outbreak%20Investigation&text=Among%20interviewed%20ill%20persons%2C%207,brand%20frozen%20mamey%20fruit%20pulp.) | 9 | Human |
-| 2002 | Nepal | [Drinking water](https://pubmed.ncbi.nlm.nih.gov/15712078/) | 5963 | Human |
-| 2000 | US: NY | [Food handler](https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/216736) | 7 | Human |
-| 1998-1999 | US: FL | [Imported frozen fruit](https://www.jstor.org/stable/30085190?seq=1) | At least 16 | Human |
-| 1998 | France | [Chicken rice](https://pubmed.ncbi.nlm.nih.gov/11092435/) | 27 | Human |
-| 1983 | UK | [Salad](https://pmc.ncbi.nlm.nih.gov/articles/PMC2490935/)<sup>1</sup> | 32 | Human |
-| 1937 | UK | [Water](https://ajph.aphapublications.org/doi/pdf/10.2105/AJPH.28.5.644) | 341 | Human |
-| 1915 | US: NY | [Typhoid Mary](https://ajph.aphapublications.org/doi/10.2105/AJPH.2023.307434) | 25 | Human |
-| 1907 | US: NY | [Typhoid Mary](https://pmc.ncbi.nlm.nih.gov/articles/PMC3959940/) | 22 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2022 | Netherlands | [Raw sewage](https://www.theguardian.com/world/2023/apr/02/typhoid-outbreak-on-refugee-ship-in-netherlands-traced-to-raw-sewage) | 72 |
+| 2010 | US: multistate | [Frozen mamey fruit pulp](https://archive.cdc.gov/www_cdc_gov/salmonella/2010/frozen-fruit-pulp-8-25-10.html#:~:text=Outbreak%20Investigation&text=Among%20interviewed%20ill%20persons%2C%207,brand%20frozen%20mamey%20fruit%20pulp.) | 9 |
+| 2002 | Nepal | [Drinking water](https://pubmed.ncbi.nlm.nih.gov/15712078/) | 5963 |
+| 2000 | US: NY | [Food handler](https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/216736) | 7 |
+| 1998-1999 | US: FL | [Imported frozen fruit](https://www.jstor.org/stable/30085190?seq=1) | At least 16 |
+| 1998 | France | [Chicken rice](https://pubmed.ncbi.nlm.nih.gov/11092435/) | 27 |
+| 1983 | UK | [Salad](https://pmc.ncbi.nlm.nih.gov/articles/PMC2490935/)<sup>1</sup> | 32 |
+| 1937 | UK | [Water](https://ajph.aphapublications.org/doi/pdf/10.2105/AJPH.28.5.644) | 341 |
+| 1915 | US: NY | [Typhoid Mary](https://ajph.aphapublications.org/doi/10.2105/AJPH.2023.307434) | 25 |
+| 1907 | US: NY | [Typhoid Mary](https://pmc.ncbi.nlm.nih.gov/articles/PMC3959940/) | 22 |
 
 <sup>1</sup> The outbreak was associated with travel to Kos, Greece.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

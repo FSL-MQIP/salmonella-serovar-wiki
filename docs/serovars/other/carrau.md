@@ -24,11 +24,15 @@ Serovar Carrau was found in[horses, dogs, and wild animals](<https://www.ncbi.nl
 
 Serovar Carrau has been reported in[North America, South America, and Europe such as Finland, and the UK](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Carrau%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2019 | US: multistate | [Pre-cut melons](https://www.cdc.gov/salmonella/carrau-04-19/index.html) | 137 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2019 | US: multistate | [Pre-cut melons](https://www.cdc.gov/salmonella/carrau-04-19/index.html) | 137 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

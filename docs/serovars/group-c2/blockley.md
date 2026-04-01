@@ -24,14 +24,18 @@ Serovar Blockley has been found to be [polyphyletic](https://www.frontiersin.org
 
 Serovar Blockley has been reported [worldwide](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Blockley%22)>) periodically.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2019 | US: NY | [Chicken](https://www.cdc.gov/mmwr/volumes/69/wr/mm6926a2.htm) | 10 | Human |
-| 1998 | Germany | [Smoked eel](https://pmc.ncbi.nlm.nih.gov/articles/PMC2869563/) | 13 | Human |
-| 1998 | Greece | [Unknown](https://wwwnc.cdc.gov/eid/article/6/1/00-0111_article) | 35 | Human |
-| 1966 | US: MA | [Frozen unpasteurized egg yolks](https://jamanetwork.com/journals/jama/article-abstract/336687) | 167 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2019 | US: NY | [Chicken](https://www.cdc.gov/mmwr/volumes/69/wr/mm6926a2.htm) | 10 |
+| 1998 | Germany | [Smoked eel](https://pmc.ncbi.nlm.nih.gov/articles/PMC2869563/) | 13 |
+| 1998 | Greece | [Unknown](https://wwwnc.cdc.gov/eid/article/6/1/00-0111_article) | 35 |
+| 1966 | US: MA | [Frozen unpasteurized egg yolks](https://jamanetwork.com/journals/jama/article-abstract/336687) | 167 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

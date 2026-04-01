@@ -24,16 +24,20 @@ Serovar Sandiego has been found in small turtles and their environments, and als
 
 Serovar Sandiego has been found in the United States and Canada, and, reportedly, also in Uruguay, Denmark, and Brazil.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Several outbreaks have been associated with *S.* Sandiego, mostly associated with small pet turtles. There was a report on an outbreak of food poisoning with approximately 200 cases in California in [1938](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1699-0463.1940.tb01492.x). Two isolates of *Salmonella* Sandiego were obtained from this outbreak.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2018 | US-multistate | [Spring Pasta Salad](https://www.cdc.gov/salmonella/sandiego-07-18/index.html) | 101 | Human |
-| 2015 | US-multistate | Pet turtles | 17 | Human |
-| 2015 | US-multistate | Pet turtles | 21 | Human |
-| 2012-2013 | US-multistate | [Pet turtles](http://www.cdc.gov/salmonella/small-turtles-03-12/index.html) | 473 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2018 | US-multistate | [Spring Pasta Salad](https://www.cdc.gov/salmonella/sandiego-07-18/index.html) | 101 |
+| 2015 | US-multistate | Pet turtles | 17 |
+| 2015 | US-multistate | Pet turtles | 21 |
+| 2012-2013 | US-multistate | [Pet turtles](http://www.cdc.gov/salmonella/small-turtles-03-12/index.html) | 473 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

@@ -35,7 +35,11 @@ Serovar Choleraesuis has been found to be [polyphyletic](https://www.frontiersin
 
 Serovar Choleraesuis has been reported [worldwide](https://scholar.google.com/scholar_lookup?title=Salmonella%20in%20domestic%20animals&author=MP%20Stevens&author=JT%20Gray&publication_year=2013&). Although *Salmonella* Derby is rarely detected in human cases in [the](https://pmc.ncbi.nlm.nih.gov/articles/PMC6206682/#CR1)[United States and European regions](https://pmc.ncbi.nlm.nih.gov/articles/PMC6206682/#CR1), it is the main cause of salmonellosis in several Asian countries such as [Thailand and Taiwan](https://pmc.ncbi.nlm.nih.gov/articles/PMC6206682/#CR1).
 
-Animal outbreaks: Multiple swine outbreaks linked to serovar Choleraesuis have been reported. Below are examples.
+## Human Outbreaks
+
+There have been no recent human outbreaks linked to this serovar.
+
+## Animal Outbreaks
 
 | Year | Location | Breed | Number of cases |
 | --- | --- | --- | --- |

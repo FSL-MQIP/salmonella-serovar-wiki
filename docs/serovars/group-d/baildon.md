@@ -24,14 +24,18 @@ Serovar Baildon was found in [cattle, wild boar, American white ibis, and common
 
 Serovar Baildon has been found in the [US, Canada, the UK, Senegal, and Tanzania](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Baildon%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2010 | US: multistate | [Restaurant Chain A](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/2010/restaurant-chain-a-8-4-10.html)<sup>1</sup> | 80 | Human |
-| 1999 | US: multistate | [Raw tomatoes](https://pmc.ncbi.nlm.nih.gov/articles/PMC2631895/) | 86 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2010 | US: multistate | [Restaurant Chain A](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/2010/restaurant-chain-a-8-4-10.html)<sup>1</sup> | 80 |
+| 1999 | US: multistate | [Raw tomatoes](https://pmc.ncbi.nlm.nih.gov/articles/PMC2631895/) | 86 |
 
 <sup>1</sup> The epidemiologic study did not identify any specific food item or ingredient linked to the illness.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

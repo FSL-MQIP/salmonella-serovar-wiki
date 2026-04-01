@@ -24,9 +24,13 @@ Serovar Minnesota has been found to be [monophyletic](https://www.frontiersin.or
 
 Serovar Minnesota has been found [worldwide](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Minnesota%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 There have been no recent human outbreaks linked to serovar Minnesota.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

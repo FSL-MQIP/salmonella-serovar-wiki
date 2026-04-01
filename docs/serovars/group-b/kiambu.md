@@ -24,14 +24,13 @@ The reservoir for serovar Kiambu remains unknown, but [chickens](<https://pubmed
 
 This serovar has been reported [worldwide but is primarily found in North America, particularly in the US](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Kiambu%22)>). Out of 1,024 serovar Kiambu isolates available in the NCBI Pathogen Database (accessed April 10, 2025), 835 were from the US.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2023 | US: multistate | [Dry dog food](https://www.cdc.gov/salmonella/outbreaks/dog-food-10-23/investigation.html?CDC_AAref_Val=https://www.cdc.gov/salmonella/kiambu-11-23/details.html) | 7 | Human |
-| 2017 | US: multistate | [Maradol papayas imported from Mexico](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/kiambu-07-17/index.html) | 220<sup>1</sup> | Human |
-| 2007 | Australia | [Unknown](https://www1.health.gov.au/internet/main/publishing.nsf/Content/cda-cdi3201o.htm)<sup>2</sup> | 2 | Human |
-
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2023 | US: multistate | [Dry dog food](https://www.cdc.gov/salmonella/outbreaks/dog-food-10-23/investigation.html?CDC_AAref_Val=https://www.cdc.gov/salmonella/kiambu-11-23/details.html) | 7 |
+| 2017 | US: multistate | [Maradol papayas imported from Mexico](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/kiambu-07-17/index.html) | 220<sup>1</sup> |
+| 2007 | Australia | [Unknown](https://www1.health.gov.au/internet/main/publishing.nsf/Content/cda-cdi3201o.htm)<sup>2</sup> | 2 |
 | Year | Exporting country | Importing country | Associated source | Product category |
 | --- | --- | --- | --- | --- |
 | 2021 | Brazil | Germany | [Black pepper](https://webgate.ec.europa.eu/rasff-window/screen/notification/522349)<sup>1</sup> | Herbs and spices |
@@ -41,6 +40,10 @@ This serovar has been reported [worldwide but is primarily found in North Americ
 <sup>1</sup> *Salmonella* Rubislaw, Freetown, Kiambu, Newport, Poona and Sandiego O:5- were found.
 
 <sup>2</sup> *Salmonella* Kiambu, Ealing, and Newport were found.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Recalls
 

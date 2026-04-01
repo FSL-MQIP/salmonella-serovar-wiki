@@ -24,13 +24,17 @@ Serovar Eastbourne has been found to be [polyphyletic](https://www.frontiersin.o
 
 Serovar Eastbourne has been found in[Australia, Africa, Europe, and North America including the US and Canada.](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Eastbourne%22)>)
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Only one outbreak linked to serovar Eastbourne has been reported so far.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 1973-1974 | Canada and US: multistate | [Chocolate](https://www.sciencedirect.com/science/article/pii/S031554637573804X) | [95](https://www.sciencedirect.com/science/article/pii/S031554637573804X) cases reported in Canada [80](https://www.sciencedirect.com/science/article/pii/S0140673675924460) cases reported in the US | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 1973-1974 | Canada and US: multistate | [Chocolate](https://www.sciencedirect.com/science/article/pii/S031554637573804X) | [95](https://www.sciencedirect.com/science/article/pii/S031554637573804X) cases reported in Canada [80](https://www.sciencedirect.com/science/article/pii/S0140673675924460) cases reported in the US |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

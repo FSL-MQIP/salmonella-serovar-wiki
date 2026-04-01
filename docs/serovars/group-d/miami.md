@@ -22,14 +22,14 @@ Serovar Miami was found to be [host-generalist](https://bmcgenomics.biomedcentra
 
 Serovar Miami has been reported [occasionally worldwide, but primarily in US](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Miami%22)>). Among a total of 1,446 serovar Miami isolates available in NCBI PD (accessed 04/23/2025), 1,234 were collected in US.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2021 | US: multistate | [Unknown](https://www.foodsafetynews.com/?s=salmonella+miami) | At least 65 | Human |
-| 2020 | France | [Chilled vacuum-packed cooked sliced pork shoulder from Spain](https://www.foodsafetynews.com/2020/09/salmonella-outbreak-in-france-tied-to-sausage-from-spain/) | Not reported | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2021 | US: multistate | [Unknown](https://www.foodsafetynews.com/?s=salmonella+miami) | At least 65 |
+| 2020 | France | [Chilled vacuum-packed cooked sliced pork shoulder from Spain](https://www.foodsafetynews.com/2020/09/salmonella-outbreak-in-france-tied-to-sausage-from-spain/) | Not reported |
 
-Animal outbreaks:
+## Animal Outbreaks
 
 | Year | Location | Breed | Number of cases |
 | --- | --- | --- | --- |

@@ -24,17 +24,21 @@ Unknown, [chicken](https://pmc.ncbi.nlm.nih.gov/articles/PMC1320082/) tends to b
 
 This serovar was considered rare but has still been occasionally reported [worldwide, such as in the US, the UK, and South Africa](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Johannesburg%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html)<sup>1</sup> | 470 | Human |
-| 2011 | US: multistate | [Chicks and ducklings](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/chicks-ducklings-10-6-2011.html#:~:text=Outbreak%20Summary&text=The%20first%20was%20an%20outbreak,had%20a%20similar%20geographic%20distribution.) | 28 | Human |
-| 1974 | China: Hong Kong | [Hospital-associated](https://pmc.ncbi.nlm.nih.gov/articles/PMC2129741/)<sup>2</sup> | 46 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html)<sup>1</sup> | 470 |
+| 2011 | US: multistate | [Chicks and ducklings](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/chicks-ducklings-10-6-2011.html#:~:text=Outbreak%20Summary&text=The%20first%20was%20an%20outbreak,had%20a%20similar%20geographic%20distribution.) | 28 |
+| 1974 | China: Hong Kong | [Hospital-associated](https://pmc.ncbi.nlm.nih.gov/articles/PMC2129741/)<sup>2</sup> | 46 |
 
 <sup>1</sup> *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium were involved.
 
 <sup>2</sup> Suspected. No common vehicle could be identified as the source of infection.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

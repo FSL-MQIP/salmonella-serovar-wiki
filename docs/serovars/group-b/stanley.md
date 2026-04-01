@@ -26,24 +26,28 @@ A [Taiwanese study](https://www.sciencedirect.com/science/article/pii/S014795711
 
 Serovar Stanley has been reported [worldwide](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Stanley%22)>). Serovar Stanley is [endemic in Southeast Asia](https://pmc.ncbi.nlm.nih.gov/articles/PMC3295172/) (especially Thailand) and the Western Pacific region but relatively rare in Europe.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2023-2024 | US: multistate | [Small turtle](https://www.cdc.gov/salmonella/outbreaks/turtles-08-24/investigation.html)<sup>1</sup> | 63 | Human |
-| 2020 | US: multistate | [Wood ear mushrooms](https://archive.cdc.gov/www_cdc_gov/salmonella/stanley-09-20/index.html#:~:text=On%20October%201%2C%202020%2C%20the,outbreak%20appears%20to%20be%20over.) | 55 | Human |
-| 2013-2014 | US: multistate | [Raw cashew cheese](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/stanley-01-14/index.html) | 17 | Human |
-| 2011-13 | Europe: multi-country | [Turkey](https://www.ecdc.europa.eu/sites/default/files/media/en/publications/Publications/salmonella-stanley-multi-country-outbreak-assessment-8-May-2014.pdf) | 710 | Human |
-| 2007 | Sweden | [Alfalfa sprouts](https://www.eurosurveillance.org/content/10.2807/esw.12.42.03291-en) | 51 | Human |
-| 2006-07 | Switzerland | [Soft cheese](https://pubmed.ncbi.nlm.nih.gov/18801315/) | 82 | Human |
-| 2004 | Australia | [Unknown](https://www1.health.gov.au/internet/main/publishing.nsf/Content/cda-2004-cdi2804f.htm)<sup>2</sup> | 33 | Human |
-| 2001 | UK | [Peanuts](https://pubmed.ncbi.nlm.nih.gov/15310157/)<sup>3</sup> | 109 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2023-2024 | US: multistate | [Small turtle](https://www.cdc.gov/salmonella/outbreaks/turtles-08-24/investigation.html)<sup>1</sup> | 63 |
+| 2020 | US: multistate | [Wood ear mushrooms](https://archive.cdc.gov/www_cdc_gov/salmonella/stanley-09-20/index.html#:~:text=On%20October%201%2C%202020%2C%20the,outbreak%20appears%20to%20be%20over.) | 55 |
+| 2013-2014 | US: multistate | [Raw cashew cheese](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/stanley-01-14/index.html) | 17 |
+| 2011-13 | Europe: multi-country | [Turkey](https://www.ecdc.europa.eu/sites/default/files/media/en/publications/Publications/salmonella-stanley-multi-country-outbreak-assessment-8-May-2014.pdf) | 710 |
+| 2007 | Sweden | [Alfalfa sprouts](https://www.eurosurveillance.org/content/10.2807/esw.12.42.03291-en) | 51 |
+| 2006-07 | Switzerland | [Soft cheese](https://pubmed.ncbi.nlm.nih.gov/18801315/) | 82 |
+| 2004 | Australia | [Unknown](https://www1.health.gov.au/internet/main/publishing.nsf/Content/cda-2004-cdi2804f.htm)<sup>2</sup> | 33 |
+| 2001 | UK | [Peanuts](https://pubmed.ncbi.nlm.nih.gov/15310157/)<sup>3</sup> | 109 |
 
 <sup>1</sup> Of these 63 cases, 48 and 15 people were infected with serovars Stanley and Poona, respectively.
 
 <sup>2</sup> Food served at school was most likely to be the vehicle.
 
 <sup>3</sup> Two serovars were involved in this outbreak. Of these 109 cases, 97 and 12 people were infected with serovars Stanley and Newport, respectively.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

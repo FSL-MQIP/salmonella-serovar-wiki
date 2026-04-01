@@ -28,22 +28,26 @@ In an *[in-vivo study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4668861/#B15)*, 
 
 According to the metadata from NCBI PD, serovar Virchow has been reported in [worldwide](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Virchow%22)>). In [Scotland](https://pubmed.ncbi.nlm.nih.gov/6867700/), serovar Virchow represented almost 25% of confirmed human salmonellosis cases, while in [England and Wales](https://pmc.ncbi.nlm.nih.gov/articles/PMC2235368/), it was the third most common *Salmonella* serotype in humans, comprising 6% of isolates. However, its prevalence has significantly decreased, now accounting for less than 2% of non-typhoidal *Salmonella* (NTS) cases in the [UK](https://www.jstor.org/stable/45161822). In [Australia](https://pubmed.ncbi.nlm.nih.gov/9812398/), especially Queensland, serovar Virchow has been endemic since the mid-1980s.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2017-2023 | Multiple countries | [Kebab meat containing chicken](https://www.ecdc.europa.eu/en/publications-data/salmonella-virchow-st16-chicken-meat) | 210<sup>1</sup> | Human |
-| 2016 | US: multistate | [Organic meal & shake powder](https://archive.cdc.gov/www_cdc_gov/salmonella/virchow-02-16/index.html) | 33 | Human |
-| 2012 | US: WA | [Undetermined](https://www.marlerblog.com/legal-cases/largest-salmonella-outbreak-in-washington-2012-on-the-border/) | At least 120<sup>2</sup> | Human |
-| 1994 | Spain | [Infant formula](https://www.makefoodsafe.com/infant-formula-and-salmonella/) | 48 | Human |
-| 1994 | UK | [Turkey sandwiches](<https://www.journalofhospitalinfection.com/article/S0195-6701(99)90712-0/abstract>) | 11<sup>3</sup> | Human |
-| 1968 | UK | [Spit-roasted chicken](https://pubmed.ncbi.nlm.nih.gov/5750404/) | Over 160 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2017-2023 | Multiple countries | [Kebab meat containing chicken](https://www.ecdc.europa.eu/en/publications-data/salmonella-virchow-st16-chicken-meat) | 210<sup>1</sup> |
+| 2016 | US: multistate | [Organic meal & shake powder](https://archive.cdc.gov/www_cdc_gov/salmonella/virchow-02-16/index.html) | 33 |
+| 2012 | US: WA | [Undetermined](https://www.marlerblog.com/legal-cases/largest-salmonella-outbreak-in-washington-2012-on-the-border/) | At least 120<sup>2</sup> |
+| 1994 | Spain | [Infant formula](https://www.makefoodsafe.com/infant-formula-and-salmonella/) | 48 |
+| 1994 | UK | [Turkey sandwiches](<https://www.journalofhospitalinfection.com/article/S0195-6701(99)90712-0/abstract>) | 11<sup>3</sup> |
+| 1968 | UK | [Spit-roasted chicken](https://pubmed.ncbi.nlm.nih.gov/5750404/) | Over 160 |
 
 <sup>1</sup> *Salmonella* Virchow ST16 is the outbreak strain. In total, 210 cases have been reported across several countries, including Denmark (2), France (111), Germany (26), Ireland (4), the Netherlands (34), the UK (32), and the US (1).
 
 <sup>2</sup> Among these cases, 43 were laboratory-confirmed, while 77 others showed symptoms and had a matching exposure history at the restaurant.
 
 <sup>3</sup> These cases were confirmed to get infected by *Salmonella* Virchow, phage type 26.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

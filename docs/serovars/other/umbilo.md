@@ -24,13 +24,17 @@ Serovar Umbilo was found in [sheep](https://pmc.ncbi.nlm.nih.gov/articles/PMC683
 
 Serovar Umbilo has been reported in [Turkey](https://pmc.ncbi.nlm.nih.gov/articles/PMC6838269/), [the US](https://www.cdc.gov/nationalsurveillance/pdfs/2016-Salmonella-report-508.pdf), [South Africa, Kenya](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Umbilo%22)>) and[Europe](https://webgate.ec.europa.eu/rasff-window/screen/notification/712437)such as Denmark, Austria, Croatia, and Germany.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| [2024](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2024.29.46.2400728) | Europe: multi-country | Rocket salad (also known as arugula or rucola) from Italy | 158<sup>1</sup> | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| [2024](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2024.29.46.2400728) | Europe: multi-country | Rocket salad (also known as arugula or rucola) from Italy | 158<sup>1</sup> |
 
 <sup>1</sup>158 cases of serovar Umbilo have been reported across 3 EU/EEA countries. The cases were distributed as follows: Germany (117), Denmark (22), and Austria (19). Through EpiPulse, six other European countries each reported between one and 20 cases of serovar Umbilo.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

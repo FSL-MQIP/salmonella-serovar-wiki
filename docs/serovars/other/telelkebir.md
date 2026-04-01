@@ -24,15 +24,18 @@ Serovar Telelkebir has primarily been isolated from exotic pets like [terrapins]
 
 Serovar Telelkebir seems to be [globally distributed](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.704152/full), but has been primarily found in the UK, Germany, and the U.S.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Outbreaks have been associated with *S.* Telelkebir.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2025 | US: multistate | [oysters](https://www.cdc.gov/salmonella/outbreaks/oysters-12-25/index.html) | 80 | Human |
-| 1990s (documented in 1999) | Ireland | [Pet terrapins](https://www.sciencedirect.com/science/article/pii/S0163445399902487?via%3Dihub) | 8 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2025 | US: multistate | [oysters](https://www.cdc.gov/salmonella/outbreaks/oysters-12-25/index.html) | 80 |
+| 1990s (documented in 1999) | Ireland | [Pet terrapins](https://www.sciencedirect.com/science/article/pii/S0163445399902487?via%3Dihub) | 8 |
 
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

@@ -24,16 +24,20 @@ Unknown but serovar Give has previously been isolated in [livestock such as catt
 
 Serovar Give has been reported [worldwide such as the UK and the US](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Give%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2022 | Greece | [Roasted pork](https://www.rrh.org.au/journal/article/8391) | 10 | Human |
-| 2016 | Malta | [Local food manufacturer](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/national-outbreak-of-salmonella-give-linked-to-a-local-food-manufacturer-in-malta-october-2016/F086A81E491E0272ABE4869A7C62DD60)<sup>1</sup> | 36 | Human |
-| 2008 | France | [Formula milk](https://www.eurosurveillance.org/content/10.2807/ese.13.39.18994-en) | 8 | Human |
-| 2004 | Germany | [Raw pork mince](https://pubmed.ncbi.nlm.nih.gov/16088767/) | 115 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2022 | Greece | [Roasted pork](https://www.rrh.org.au/journal/article/8391) | 10 |
+| 2016 | Malta | [Local food manufacturer](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/national-outbreak-of-salmonella-give-linked-to-a-local-food-manufacturer-in-malta-october-2016/F086A81E491E0272ABE4869A7C62DD60)<sup>1</sup> | 36 |
+| 2008 | France | [Formula milk](https://www.eurosurveillance.org/content/10.2807/ese.13.39.18994-en) | 8 |
+| 2004 | Germany | [Raw pork mince](https://pubmed.ncbi.nlm.nih.gov/16088767/) | 115 |
 
 <sup>1</sup> *Salmonella* Give were found in packaged bean dips, ham, and pork.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

@@ -24,20 +24,20 @@ Serovar Brandenburg was found in [different animal species](https://www.tandfonl
 
 Serovar Brandenburg has been reported [worldwide](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Brandenburg%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Outbreaks have occurred in different countries since 1963. Below are a few examples.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2008 | Italy | [Restaurant associated](https://www.jpmh.org/index.php/jpmh/article/download/240/221/) | Approx. 200 | Human |
-| 2001 | Japan | [Hospital associated](https://pubmed.ncbi.nlm.nih.gov/11754160/)<sup>1</sup> | - | Human |
-| 1992 | Switzerland | [Not clear, multiple foods and animals were found positive](https://pubmed.ncbi.nlm.nih.gov/7989535/) | - | Human |
-| 1963 | England | [Pork products](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/49A6A27218F15F0678FB17FFA92ABAAA/S0950268898008887a.pdf/div-class-title-laboratory-investigation-and-comparison-of-span-class-italic-salmonella-span-brandenburg-cases-in-new-zealand-div.pdf) | - | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2008 | Italy | [Restaurant associated](https://www.jpmh.org/index.php/jpmh/article/download/240/221/) | Approx. 200 |
+| 2001 | Japan | [Hospital associated](https://pubmed.ncbi.nlm.nih.gov/11754160/)<sup>1</sup> | - |
+| 1992 | Switzerland | [Not clear, multiple foods and animals were found positive](https://pubmed.ncbi.nlm.nih.gov/7989535/) | - |
+| 1963 | England | [Pork products](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/49A6A27218F15F0678FB17FFA92ABAAA/S0950268898008887a.pdf/div-class-title-laboratory-investigation-and-comparison-of-span-class-italic-salmonella-span-brandenburg-cases-in-new-zealand-div.pdf) | - |
 
 <sup>1</sup> *Salmonella* Brandenburg and *Salmonella* Corvallis were both involved.
 
-Animal outbreaks:
+## Animal Outbreaks
 
 | Year | Location | Breed | Number of cases |
 | --- | --- | --- | --- |

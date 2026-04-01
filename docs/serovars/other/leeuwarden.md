@@ -24,9 +24,13 @@ No animal reservoirs have been identified for serovar Leeuwarden.
 
 Serovar Leeuwarden has been reported in[the US](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_024135545.1/), [Central African Republic](https://pmc.ncbi.nlm.nih.gov/articles/PMC6907862/), and [Europe](https://atlas.ecdc.europa.eu/public/index.aspx) such as Netherlands, Austria, Czechia, and Germany.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 There have been no recent human outbreaks linked to this serovar.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

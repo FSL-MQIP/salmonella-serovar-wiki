@@ -24,13 +24,17 @@ Serovar Bareilly has been found in [a wide range of hosts](<https://www.ncbi.nlm
 
 Serovar Bareilly has been reported [worldwide](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#taxgroup_name:(%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Bareilly%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2017-2018 | Czech Republic & Slovakia | [powdered eggs](https://www.foodsafetynews.com/2021/04/spray-dryer-blamed-in-salmonella-outbreak-with-325-sick/) | 325 | Human |
-| 2012 | US: multistate | [Imported frozen raw yellowfin tuna](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/bareilly-04-12/index.html) | 410 | Human |
-| 2010 | United Kingdom | [Bean sprouts](https://www.foodsafetynews.com/2010/09/sprouts-named-as-cause-for-s-bareilly-outbreak-in-uk/) | 190 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2017-2018 | Czech Republic & Slovakia | [powdered eggs](https://www.foodsafetynews.com/2021/04/spray-dryer-blamed-in-salmonella-outbreak-with-325-sick/) | 325 |
+| 2012 | US: multistate | [Imported frozen raw yellowfin tuna](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/bareilly-04-12/index.html) | 410 |
+| 2010 | United Kingdom | [Bean sprouts](https://www.foodsafetynews.com/2010/09/sprouts-named-as-cause-for-s-bareilly-outbreak-in-uk/) | 190 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

@@ -24,20 +24,24 @@ Serovar Cubana was mainly associated with poultry.
 
 Serovar Cubana has been found in the U.S., Canada, Cuba, and Sweden.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Outbreaks have been associated with *S*. Cubana.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 1966 | US: CA | Carmine dye capsules | 7 | Human |
-| 1998 | US: multistate | Alfalfa sprouts | 34<sup>1</sup> | Human |
-| 2009 | US: MN | Sprouts | 2 | Human |
-| 2009 | Canada | Onion sprouts and mixed onion/alfalfa sprout | 14 | Human |
-| 2010 | US: multistate | Alfalfa sprouts | 3 | Human |
-| 2012 | US: multistate | Sprouts | 19 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 1966 | US: CA | Carmine dye capsules | 7 |
+| 1998 | US: multistate | Alfalfa sprouts | 34<sup>1</sup> |
+| 2009 | US: MN | Sprouts | 2 |
+| 2009 | Canada | Onion sprouts and mixed onion/alfalfa sprout | 14 |
+| 2010 | US: multistate | Alfalfa sprouts | 3 |
+| 2012 | US: multistate | Sprouts | 19 |
 
 <sup>1</sup> Three serovars (*S.* Havana, *S.* Cubana, *S.* Tennessee) were involved in this outbreak.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

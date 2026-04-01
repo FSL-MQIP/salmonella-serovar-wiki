@@ -24,20 +24,24 @@ Serovar Manhattan has been found to be [polyphyletic](https://www.frontiersin.or
 
 According to the metadata from NCBI PD, serovar Manhattan has been reported [worldwide](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Manhattan%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2021 | US | [Unknown](https://outbreakdatabase.com/outbreaks/2021-multistate-outbreak-of-salmonella-manhattan-infections-source-unknown) | 11 | Human |
-| 2019 | US: multistate | [Backyard poultry](https://archive.cdc.gov/www_cdc_gov/salmonella/backyardpoultry-05-19/index.html)<sup>1</sup> | 1134 | Human |
-| 2009 | Italy | [Unknown](https://journals.asm.org/doi/10.1128/jcm.02930-14) | 15 | Human |
-| 2005-2006 | France | [Meat products](https://pubmed.ncbi.nlm.nih.gov/17206024/) | 69 | Human |
-| 1997-1998 | Denmark | [Pork (suspected)](https://www.eurosurveillance.org/content/10.2807/esw.02.09.01252-en) | 39 | Human |
-| 1996 | France | [Bacon](https://www.sciencedirect.com/science/article/pii/S0399077X98800164)<sup>2</sup> | 72 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2021 | US | [Unknown](https://outbreakdatabase.com/outbreaks/2021-multistate-outbreak-of-salmonella-manhattan-infections-source-unknown) | 11 |
+| 2019 | US: multistate | [Backyard poultry](https://archive.cdc.gov/www_cdc_gov/salmonella/backyardpoultry-05-19/index.html)<sup>1</sup> | 1134 |
+| 2009 | Italy | [Unknown](https://journals.asm.org/doi/10.1128/jcm.02930-14) | 15 |
+| 2005-2006 | France | [Meat products](https://pubmed.ncbi.nlm.nih.gov/17206024/) | 69 |
+| 1997-1998 | Denmark | [Pork (suspected)](https://www.eurosurveillance.org/content/10.2807/esw.02.09.01252-en) | 39 |
+| 1996 | France | [Bacon](https://www.sciencedirect.com/science/article/pii/S0399077X98800164)<sup>2</sup> | 72 |
 
 <sup>1</sup> This outbreak involved multiple serovars including *Salmonella* Agona, Alachua, Altona, Anatum, Braenderup, Enteritidis, Infantis, Manhattan, Montevideo, Muenchen, Newport, and Oranienburg. The number of cases here does not apply only to infections caused by serovar Manhattan.
 
 <sup>2</sup> *Salmonella* Heidelberg and Manhattan were both found.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

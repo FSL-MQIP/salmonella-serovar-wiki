@@ -26,14 +26,18 @@ Swine is the major animal reservoir of serovar Rissen, including the pork produc
 
 Serotype Rissen has been reported especially in Asian countries such as Thailand, Vietnam, China, Japan, and India, but it has also been found in Italy, France, Spain.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Two outbreaks linked to *Salmonella* Rissen have been associated with food. Some examples are shown below.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2020 | France | [Fuet from Spain](https://www.foodsafetynews.com/2020/10/authorities-act-against-spanish-firm-linked-to-salmonella-outbreak/) | 18 | Human |
-| 2008-2009 | US: multistate | [White pepper](https://www.foodsafetynews.com/2010/08/how-salmonella-rissen-came-to-america/) | 87 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2020 | France | [Fuet from Spain](https://www.foodsafetynews.com/2020/10/authorities-act-against-spanish-firm-linked-to-salmonella-outbreak/) | 18 |
+| 2008-2009 | US: multistate | [White pepper](https://www.foodsafetynews.com/2010/08/how-salmonella-rissen-came-to-america/) | 87 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

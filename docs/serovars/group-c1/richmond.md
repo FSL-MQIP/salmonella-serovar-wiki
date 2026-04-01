@@ -24,14 +24,18 @@ Unknown
 
 Serovar Richmond has been associated with food products from India<sup>9</sup> and has been found in Europe, Thailand, and Korea.<sup>2,4,5</sup>
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Outbreaks have been associated with *S*. Richmond.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| [1993](https://pubmed.ncbi.nlm.nih.gov/9542446/) | Spain | Water from an aqueduct that flowed near the camp | 45<sup>2</sup> | Human |
-| [2025](https://www.cdc.gov/salmonella/outbreaks/supplement-10-25/investigation.html) | United States | Moringa leaf powder | 11<sup>9</sup> | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| [1993](https://pubmed.ncbi.nlm.nih.gov/9542446/) | Spain | Water from an aqueduct that flowed near the camp | 45<sup>2</sup> |
+| [2025](https://www.cdc.gov/salmonella/outbreaks/supplement-10-25/investigation.html) | United States | Moringa leaf powder | 11<sup>9</sup> |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

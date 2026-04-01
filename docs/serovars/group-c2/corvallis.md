@@ -24,13 +24,17 @@ Serovar Corvallis was found to be associated with[pigs](https://academic.oup.com
 
 Serovar Corvallis has been found [globally](https://onehealthadv.biomedcentral.com/articles/10.1186/s44280-023-00017-9) such as the UK and the US.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2001 | Japan | [Lunch (suspected)](https://www.niid.go.jp/niid/images/JJID/LEC-124.pdf)<sup>1</sup> | 7 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2001 | Japan | [Lunch (suspected)](https://www.niid.go.jp/niid/images/JJID/LEC-124.pdf)<sup>1</sup> | 7 |
 
 <sup>1</sup> Four *Salmonella* isolates were obtained from the lunch including three Brandenburg isolates from three dishes and one Corvallis isolate from another dish.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

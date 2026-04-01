@@ -24,13 +24,17 @@ Unknown, but serovar Amsterdam was found in [rats](https://pubmed.ncbi.nlm.nih.g
 
 Serovar Amsterdam has been reported primarily in [European countries such as the Netherlands, Norway, and Sweden](https://efsa.onlinelibrary.wiley.com/doi/pdf/10.2903/sp.efsa.2021.EN-6922#:~:text=Abstract,No%20deaths%20have%20been%20reported.). According to the metadata from NCBI PD, it has also been found occasionally in [North America (US and Canada), Asia (Philippines and Thailand), and Australia](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20serovar:(%22Amsterdam%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2019-2021 | Europe: multi-country | [Sesame-based products originating from Syria](https://efsa.onlinelibrary.wiley.com/doi/pdf/10.2903/sp.efsa.2021.EN-6922#:~:text=Abstract,No%20deaths%20have%20been%20reported.)<sup>1</sup> | 121 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2019-2021 | Europe: multi-country | [Sesame-based products originating from Syria](https://efsa.onlinelibrary.wiley.com/doi/pdf/10.2903/sp.efsa.2021.EN-6922#:~:text=Abstract,No%20deaths%20have%20been%20reported.)<sup>1</sup> | 121 |
 
 <sup>1</sup> Six different serotypes including *Salmonella* Amsterdam, *Salmonella* Havana, *Salmonella* Mbandaka, *Salmonella* Kintambo, *Salmonella* Orion and *Salmonella* Senftenberg were associated with the outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Amsterdam. *Salmonella* Amsterdam outbreak strain belongs to ST590.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

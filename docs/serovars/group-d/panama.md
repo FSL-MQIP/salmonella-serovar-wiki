@@ -26,18 +26,22 @@ Serovar Panama demonstrates [a broad host range, including swine, cattle, reptil
 
 Serovar Panama has been widely distributed [globally](https://pmc.ncbi.nlm.nih.gov/articles/PMC6704606/).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Multiple human outbreaks linked to serovar Panama have been reported. Below are some example.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2023 | US: KY | [Not reported](https://outbreakdatabase.com/outbreaks/2023-outbreak-of-salmonella-panama-infections-associated-with-a-food-truck-kentucky) | 9 | Human |
-| 2017 | Costa Rica | [Not identified](https://pmc.ncbi.nlm.nih.gov/articles/PMC6385320/) | 5 | Human |
-| 2015-2016 | Taiwan | [Not identified](https://www.sciencedirect.com/science/article/pii/S0929664621003144) | 41 | Human |
-| 2011 | US: multistate | [Cantaloupes from Guatemala](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/2011/cantaloupes-6-23-2011.html) | 20 | Human |
-| 2001 | US: TX | [Barbeque chicken](https://pmc.ncbi.nlm.nih.gov/articles/PMC120641/) | 109 | Human |
-| 1931 | Panama | [Not identified](https://academic.oup.com/jid/article-abstract/55/2/224/903312) | About 40 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2023 | US: KY | [Not reported](https://outbreakdatabase.com/outbreaks/2023-outbreak-of-salmonella-panama-infections-associated-with-a-food-truck-kentucky) | 9 |
+| 2017 | Costa Rica | [Not identified](https://pmc.ncbi.nlm.nih.gov/articles/PMC6385320/) | 5 |
+| 2015-2016 | Taiwan | [Not identified](https://www.sciencedirect.com/science/article/pii/S0929664621003144) | 41 |
+| 2011 | US: multistate | [Cantaloupes from Guatemala](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/2011/cantaloupes-6-23-2011.html) | 20 |
+| 2001 | US: TX | [Barbeque chicken](https://pmc.ncbi.nlm.nih.gov/articles/PMC120641/) | 109 |
+| 1931 | Panama | [Not identified](https://academic.oup.com/jid/article-abstract/55/2/224/903312) | About 40 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

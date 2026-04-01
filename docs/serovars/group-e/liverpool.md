@@ -24,13 +24,17 @@ Unknown, [cattle](https://pubmed.ncbi.nlm.nih.gov/17257247/)and [poultry](https:
 
 Serovar Liverpool has been reported occasionally [worldwide](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Liverpool%22)>), but according to NCBI PD (accessed April 15, 2025), the majority of serovar Liverpool isolates originate from [US](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Liverpool%22)>) (591 out of 739).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2024 | US | [Unknown](https://www.foodsafetynews.com/2024/10/new-outbreak-of-salmonella-infections-detected-other-investigations-continue/)<sup>1</sup> | 3 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2024 | US | [Unknown](https://www.foodsafetynews.com/2024/10/new-outbreak-of-salmonella-infections-detected-other-investigations-continue/)<sup>1</sup> | 3 |
 
 <sup>1</sup> Investigation is still ongoing.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

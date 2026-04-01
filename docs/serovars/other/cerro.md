@@ -24,19 +24,23 @@ Serovar Cerro is known as one of the [cattle-adapted](https://pmc.ncbi.nlm.nih.g
 
 Serovar Cerro has been reported [worldwide](https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2019.00102/full) but[mainly in the U.S.](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Cerro%22)>)(from bovine samples). In addition, in [Southern Italy](https://www.eurosurveillance.org/content/10.2807/esm.05.07.00028-en), this serovar was described as endemic in the year 2000.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Multiple outbreaks of human salmonellosis due to serovar Cerro have been reported. Below are a few examples.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2024 | US: Multi-state | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/?CDC_AAref_Val=https://www.cdc.gov/salmonella/backyardpoultry-05-24/index.html) | 470<sup>1</sup> | Human |
-| 2012 | US: Arkansas | [Eggs, chicken salad, person-to-person](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6308a2.htm) | 6<sup>2</sup> | Human |
-| 1985 | US: New Mexico | [Beef jerky](https://www.cdc.gov/Mmwr/preview/mmwrhtml/00000628.htm) | 29 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2024 | US: Multi-state | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/?CDC_AAref_Val=https://www.cdc.gov/salmonella/backyardpoultry-05-24/index.html) | 470<sup>1</sup> |
+| 2012 | US: Arkansas | [Eggs, chicken salad, person-to-person](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6308a2.htm) | 6<sup>2</sup> |
+| 1985 | US: New Mexico | [Beef jerky](https://www.cdc.gov/Mmwr/preview/mmwrhtml/00000628.htm) | 29 |
 
 <sup>1</sup> Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Cerro.
 
 <sup>2</sup>The total case count was n=597, and a total of 60 and 106 *Salmonella* isolates were cultured from 56 (Prison A) and 99 patients (Prison B), respectively. *Salmonella* Cerro was isolated from 6 patients that were co-infected with other serovars, and 8 isolates were obtained from the egg samples.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

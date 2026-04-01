@@ -24,30 +24,34 @@ This serovar is further classified according to the susceptibility to typing pha
 
 The distribution of serovar Enteritidis is [global](https://www.nature.com/articles/s41467-021-25319-7).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 Numerous Enteritidis outbreaks have been reported and they are mainly associated with eggs or poultry. Below are some examples.
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2023-2025 | Netherlands | [Eggs](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.9.2500603) | 227 | Human |
-| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/index.html) | 470<sup>1</sup> | Human |
-| 2018 | US: multistate | [Eggs](https://archive.cdc.gov/www_cdc_gov/salmonella/enteritidis-09-18/index.html) | 44 | Human |
-| 2016 | Europe: multi-country<sup>2</sup> | [Eggs](https://www.efsa.europa.eu/en/press/news/161027-0#:~:text=Seven%20countries%20have%20reported%20human,Norway%2C%20Sweden%20and%20the%20UK.) | 112<sup>3</sup> | Human |
-| 2012 | US: multistate | [Ground beef](https://archive.cdc.gov/www_cdc_gov/salmonella/enteritidis-07-12/index.html) | 46 | Human |
-| 2012 | US: multistate | [Restaurant chain A](https://archive.cdc.gov/www_cdc_gov/salmonella/restaurant-enteriditis/index.html) | 68 | Human |
-| 2011 | US: multistate | [Turkish pine nuts](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/pine-nuts-11-17-2011.html#:~:text=On%20November%209%2C%202011%2C%20FDA,packed%20in%2022%2Dpound%20boxes.) | 43 | Human |
-| 2011 | US: multistate | [Alfalfa sprouts and spicy sprouts](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/alfalfa-spicy-sprouts-7-6-2011.html#:~:text=Recall%20Information,to%20be%20contaminated%20with%20Salmonella.) | 25 | Human |
-| 2011 | England | [Eggs](https://pmc.ncbi.nlm.nih.gov/articles/PMC9151155/) | 63 | Human |
-| 2011 | Singapore | [Seafood (marinara pasta seafood)](https://outbreakdatabase.com/outbreaks/mums-kitchen-catering-to-singaporian-preschools-seafood-marinara-pasta-2011) | 270 | Human |
-| 2010 | US: multistate | [Shell - eggs](https://archive.cdc.gov/www_cdc_gov/salmonella/2010/shell-eggs-12-2-10.html#:~:text=Recall%20Information,voluntary%20recall%20of%20shell%20eggs.) | 1,939 | Human |
-| 2010 | Austria | [Eggs](https://pubmed.ncbi.nlm.nih.gov/23164561/) | 66 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2023-2025 | Netherlands | [Eggs](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.9.2500603) | 227 |
+| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/index.html) | 470<sup>1</sup> |
+| 2018 | US: multistate | [Eggs](https://archive.cdc.gov/www_cdc_gov/salmonella/enteritidis-09-18/index.html) | 44 |
+| 2016 | Europe: multi-country<sup>2</sup> | [Eggs](https://www.efsa.europa.eu/en/press/news/161027-0#:~:text=Seven%20countries%20have%20reported%20human,Norway%2C%20Sweden%20and%20the%20UK.) | 112<sup>3</sup> |
+| 2012 | US: multistate | [Ground beef](https://archive.cdc.gov/www_cdc_gov/salmonella/enteritidis-07-12/index.html) | 46 |
+| 2012 | US: multistate | [Restaurant chain A](https://archive.cdc.gov/www_cdc_gov/salmonella/restaurant-enteriditis/index.html) | 68 |
+| 2011 | US: multistate | [Turkish pine nuts](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/pine-nuts-11-17-2011.html#:~:text=On%20November%209%2C%202011%2C%20FDA,packed%20in%2022%2Dpound%20boxes.) | 43 |
+| 2011 | US: multistate | [Alfalfa sprouts and spicy sprouts](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/alfalfa-spicy-sprouts-7-6-2011.html#:~:text=Recall%20Information,to%20be%20contaminated%20with%20Salmonella.) | 25 |
+| 2011 | England | [Eggs](https://pmc.ncbi.nlm.nih.gov/articles/PMC9151155/) | 63 |
+| 2011 | Singapore | [Seafood (marinara pasta seafood)](https://outbreakdatabase.com/outbreaks/mums-kitchen-catering-to-singaporian-preschools-seafood-marinara-pasta-2011) | 270 |
+| 2010 | US: multistate | [Shell - eggs](https://archive.cdc.gov/www_cdc_gov/salmonella/2010/shell-eggs-12-2-10.html#:~:text=Recall%20Information,voluntary%20recall%20of%20shell%20eggs.) | 1,939 |
+| 2010 | Austria | [Eggs](https://pubmed.ncbi.nlm.nih.gov/23164561/) | 66 |
 
 <sup>1</sup> Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Enteritidis.
 
 <sup>2</sup>Belgium, Denmark, Luxembourg, the Netherlands, Norway, Sweden and the UK, and potentially Croatia
 
 <sup>3</sup>112 confirmed, 148 probable
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

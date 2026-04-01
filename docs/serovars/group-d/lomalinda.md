@@ -24,12 +24,16 @@ Unknown, but according to the metadata from NCBI PD, serovar Lomalinda was previ
 
 According to the metadata from NCBI PD, serovar Lomalinda has only been reported in [US, Canada and UK](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Lomalinda%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| 2021 | US: multistate | [Not identified](https://outbreakdatabase.com/outbreaks/2021-multistate-outbreak-of-salmonella-lomalinda-infections-source-unknown) | 10 | Human |
-| 2013 | US: CA | [Not identified](https://www.foodsafetynews.com/2013/11/7-sick-in-california-salmonella-outbreak/) | At least 7 | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 2021 | US: multistate | [Not identified](https://outbreakdatabase.com/outbreaks/2021-multistate-outbreak-of-salmonella-lomalinda-infections-source-unknown) | 10 |
+| 2013 | US: CA | [Not identified](https://www.foodsafetynews.com/2013/11/7-sick-in-california-salmonella-outbreak/) | At least 7 |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

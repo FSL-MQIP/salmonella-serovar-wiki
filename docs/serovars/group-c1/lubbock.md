@@ -24,9 +24,13 @@ Serovar Lubbock has been found to be [monophyletic](https://www.frontiersin.org/
 
 According to the metadata from NCBI PD, this serovar has only been reported in [US, primarily in Texas](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Lubbock%22)>).
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
 There have been no recent human outbreaks linked to this serovar.
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 

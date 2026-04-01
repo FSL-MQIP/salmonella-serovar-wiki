@@ -24,11 +24,15 @@ Serovar Meleagridis has been found to be [polyphyletic](https://www.frontiersin.
 
 Serovar Meleagridis has been reported [worldwide occasionally, but primarily in US](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Meleagridis%22)>). Among a total of 1,128 serovar Meleagridis isolates available in NCBI PD (accessed 04/24/2025), 813 were collected in US.
 
-## Human/Animal Outbreaks
+## Human Outbreaks
 
-| Year | Location | Associated source | Number of cases | Type |
-| --- | --- | --- | --- | --- |
-| NA | US: MA | [Not identified](https://www.cdc.gov/mmwr/preview/mmwrhtml/00000176.htm) | NA | Human |
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| NA | US: MA | [Not identified](https://www.cdc.gov/mmwr/preview/mmwrhtml/00000176.htm) | NA |
+
+## Animal Outbreaks
+
+There have been no recent animal outbreaks linked to this serovar.
 
 ## Border Rejections
 
