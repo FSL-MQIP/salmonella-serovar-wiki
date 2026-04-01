@@ -28,9 +28,9 @@ Serovar Eastbourne has been found in[Australia, Africa, Europe, and North Americ
 
 Only one outbreak linked to serovar Eastbourne has been reported so far.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 1973-1974 | Canada and US: multistate | [Chocolate](https://www.sciencedirect.com/science/article/pii/S031554637573804X) | [95](https://www.sciencedirect.com/science/article/pii/S031554637573804X) cases reported in Canada [80](https://www.sciencedirect.com/science/article/pii/S0140673675924460) cases reported in the US |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 1973-1974 | Canada and US: multistate | [Chocolate](https://www.sciencedirect.com/science/article/pii/S031554637573804X) | [95](https://www.sciencedirect.com/science/article/pii/S031554637573804X) cases reported in Canada [80](https://www.sciencedirect.com/science/article/pii/S0140673675924460) cases reported in the US | Human |
 
 ## Border Rejections
 

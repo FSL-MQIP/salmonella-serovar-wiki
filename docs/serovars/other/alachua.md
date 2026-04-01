@@ -26,9 +26,9 @@ Although serovar Alachua has been reported[worldwide](<https://www.ncbi.nlm.nih.
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2012 | Brazil | [Mayonnaise salad and galinhada (a traditional Brazilian dish of chicken and rice)](https://www.sciencedirect.com/science/article/pii/S1413867015000288?via%3Dihub) | 66 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2012 | Brazil | [Mayonnaise salad and galinhada (a traditional Brazilian dish of chicken and rice)](https://www.sciencedirect.com/science/article/pii/S1413867015000288?via%3Dihub) | 66 | Human |
 
 ## Border Rejections
 

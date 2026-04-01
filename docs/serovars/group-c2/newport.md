@@ -30,31 +30,31 @@ Serovar Newport has been reported [worldwide](https://pmc.ncbi.nlm.nih.gov/artic
 
 Multiple human outbreaks linked to serovar Newport have been reported with the majority occurring in the US. Below are examples.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2022 | US: multistate | [Beef (suspected)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10651324/#:~:text=Outbreak%20Investigations&text=A%20second%20multistate%20outbreak%20that,ground%20beef%20from%20a%20patient.)<sup>1</sup> | 22 |
-| 2021 | US: multistate | [Infant formula](https://dpbh.nv.gov/uploadedFiles/dpbhnvgov/content/Resources/Update%20TB_FDA%20Recall%20on%20Infant%20Formula%20030122.pdf)<sup>2</sup> | 4 |
-| 2021 | US: multistate | [Beef (suspected)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10651324/#:~:text=Outbreak%20Investigations&text=A%20second%20multistate%20outbreak%20that,ground%20beef%20from%20a%20patient.)<sup>3</sup> | 75 |
-| 2020 | US: multistate & Canada | [Red onions](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-newport-red-onions-july-2020)<sup>4</sup> | 1,642 |
-| 2020 | France | [Raw or rare horse meat](https://www.foodsafetynews.com/2020/10/salmonella-in-horse-meat-linked-to-two-deaths-in-france/) | 20 |
-| 2019 | US: multistate | [Frozen, ground tuna](https://archive.cdc.gov/www_cdc_gov/salmonella/newport-04-19/index.html) | 15 |
-| 2019 | US: multistate | [Pig ear treats for dogs](https://www.fda.gov/animal-veterinary/outbreaks-and-advisories/fda-investigates-contaminated-pig-ear-pet-treats-connected-human-salmonella-infections)<sup>5</sup> | 154 |
-| 2019 | Sweden | [Frozen crayfish from China](https://pmc.ncbi.nlm.nih.gov/articles/PMC9164673/#:~:text=In%20autumn%202019%2C%20the%20Public,source%20and%20prevent%20further%20cases.) | 33 |
-| 2018-2019 | US: multistate | [Ground beef](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/newport-10-18/index.html) | 403 |
-| 2018 | US: KS | [Tomatoes](https://www.kdhe.ks.gov/ArchiveCenter/ViewFile/Item/2781) | 10 (confirmed) and 55 (probable) |
-| 2018 | US: multistate | [Frozen shredded coconut](https://archive.cdc.gov/www_cdc_gov/salmonella/coconut-01-18/index.html)<sup>6</sup> | 27 |
-| 2018 | France & Scotland | [Raw goats' milk cheese](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/outbreak-of-salmonella-newport-associated-with-internationally-distributed-raw-goats-milk-cheese-france-2018/528E4E70FB25CDBB293627227740E39D)<sup>7</sup> | 153 |
-| 2017 | US: multistate | [Maradol papayas](https://outbreakdatabase.com/outbreaks/2017-multistate-outbreak-of-salmonella-newport-and-salmonella-infantis-linked-to-maradol-papayas)<sup>8</sup> | 4 |
-| 2016-2017 | US: multistate | [Ground beef](https://www.fsis.usda.gov/sites/default/files/media_file/documents/Newport_AAR_2022072722_cln.pdf) | 106 |
-| 2014 | US: multistate | [Cucumber](<https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6406a3.htm#:~:text=In%20August%202014%2C%20PulseNet%2C%20the,pattern%20(XbaI%20PFGE%20pattern%20JJPX01>) | 275 |
-| 2012 | US: multistate | [Cantaloupe](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-cantaloupe-08-12/index.html)<sup>9</sup> | 261 |
-| 2006 | US: NY | [Watermelon](https://outbreakdatabase.com/outbreaks/2006-outbreak-of-salmonella-newport-at-a-restaurant-linked-to-watermelon-new-york) | 20 |
-| 2005-2006 | US: multistate | [Raw tomatoes](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5635a3.htm)<sup>10</sup> | 459 |
-| 2004 | US | [Lettuce](https://www.cidrap.umn.edu/foodborne-disease/uk-salmonella-outbreak-linked-lettuce) | 368 |
-| 2002 | US: multistate | [Tomatoes](https://pmc.ncbi.nlm.nih.gov/articles/PMC2870807/#:~:text=Salmonella%20Newport%20causes%20more%20than,510%20patients%20in%2026%20states) | 510 |
-| 2002 | US: multistate | [Raw or undercooked ground beef](https://pubmed.ncbi.nlm.nih.gov/12118534/) | 47 |
-| 1999 | US | [Mango](https://pubmed.ncbi.nlm.nih.gov/14689335/) | 78 |
-| 1995-1996 | US, Canada, other international | [Alfalfa sprouts](https://outbreakdatabase.com/outbreaks/1995-outbreak-of-salmonella-newport-associated-with-alfalfa-sprouts) | 202 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2022 | US: multistate | [Beef (suspected)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10651324/#:~:text=Outbreak%20Investigations&text=A%20second%20multistate%20outbreak%20that,ground%20beef%20from%20a%20patient.)<sup>1</sup> | 22 | Human |
+| 2021 | US: multistate | [Infant formula](https://dpbh.nv.gov/uploadedFiles/dpbhnvgov/content/Resources/Update%20TB_FDA%20Recall%20on%20Infant%20Formula%20030122.pdf)<sup>2</sup> | 4 | Human |
+| 2021 | US: multistate | [Beef (suspected)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10651324/#:~:text=Outbreak%20Investigations&text=A%20second%20multistate%20outbreak%20that,ground%20beef%20from%20a%20patient.)<sup>3</sup> | 75 | Human |
+| 2020 | US: multistate & Canada | [Red onions](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-newport-red-onions-july-2020)<sup>4</sup> | 1,642 | Human |
+| 2020 | France | [Raw or rare horse meat](https://www.foodsafetynews.com/2020/10/salmonella-in-horse-meat-linked-to-two-deaths-in-france/) | 20 | Human |
+| 2019 | US: multistate | [Frozen, ground tuna](https://archive.cdc.gov/www_cdc_gov/salmonella/newport-04-19/index.html) | 15 | Human |
+| 2019 | US: multistate | [Pig ear treats for dogs](https://www.fda.gov/animal-veterinary/outbreaks-and-advisories/fda-investigates-contaminated-pig-ear-pet-treats-connected-human-salmonella-infections)<sup>5</sup> | 154 | Human |
+| 2019 | Sweden | [Frozen crayfish from China](https://pmc.ncbi.nlm.nih.gov/articles/PMC9164673/#:~:text=In%20autumn%202019%2C%20the%20Public,source%20and%20prevent%20further%20cases.) | 33 | Human |
+| 2018-2019 | US: multistate | [Ground beef](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/newport-10-18/index.html) | 403 | Human |
+| 2018 | US: KS | [Tomatoes](https://www.kdhe.ks.gov/ArchiveCenter/ViewFile/Item/2781) | 10 (confirmed) and 55 (probable) | Human |
+| 2018 | US: multistate | [Frozen shredded coconut](https://archive.cdc.gov/www_cdc_gov/salmonella/coconut-01-18/index.html)<sup>6</sup> | 27 | Human |
+| 2018 | France & Scotland | [Raw goats' milk cheese](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/outbreak-of-salmonella-newport-associated-with-internationally-distributed-raw-goats-milk-cheese-france-2018/528E4E70FB25CDBB293627227740E39D)<sup>7</sup> | 153 | Human |
+| 2017 | US: multistate | [Maradol papayas](https://outbreakdatabase.com/outbreaks/2017-multistate-outbreak-of-salmonella-newport-and-salmonella-infantis-linked-to-maradol-papayas)<sup>8</sup> | 4 | Human |
+| 2016-2017 | US: multistate | [Ground beef](https://www.fsis.usda.gov/sites/default/files/media_file/documents/Newport_AAR_2022072722_cln.pdf) | 106 | Human |
+| 2014 | US: multistate | [Cucumber](<https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6406a3.htm#:~:text=In%20August%202014%2C%20PulseNet%2C%20the,pattern%20(XbaI%20PFGE%20pattern%20JJPX01>) | 275 | Human |
+| 2012 | US: multistate | [Cantaloupe](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-cantaloupe-08-12/index.html)<sup>9</sup> | 261 | Human |
+| 2006 | US: NY | [Watermelon](https://outbreakdatabase.com/outbreaks/2006-outbreak-of-salmonella-newport-at-a-restaurant-linked-to-watermelon-new-york) | 20 | Human |
+| 2005-2006 | US: multistate | [Raw tomatoes](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5635a3.htm)<sup>10</sup> | 459 | Human |
+| 2004 | US | [Lettuce](https://www.cidrap.umn.edu/foodborne-disease/uk-salmonella-outbreak-linked-lettuce) | 368 | Human |
+| 2002 | US: multistate | [Tomatoes](https://pmc.ncbi.nlm.nih.gov/articles/PMC2870807/#:~:text=Salmonella%20Newport%20causes%20more%20than,510%20patients%20in%2026%20states) | 510 | Human |
+| 2002 | US: multistate | [Raw or undercooked ground beef](https://pubmed.ncbi.nlm.nih.gov/12118534/) | 47 | Human |
+| 1999 | US | [Mango](https://pubmed.ncbi.nlm.nih.gov/14689335/) | 78 | Human |
+| 1995-1996 | US, Canada, other international | [Alfalfa sprouts](https://outbreakdatabase.com/outbreaks/1995-outbreak-of-salmonella-newport-associated-with-alfalfa-sprouts) | 202 | Human |
 
 <sup>1</sup> A REP strain (REPJJP01) was identified as the outbreak strain.
 

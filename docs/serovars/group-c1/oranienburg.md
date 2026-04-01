@@ -30,18 +30,18 @@ While Serovar Oranienburg has been reported [globally](<https://www.ncbi.nlm.nih
 
 Multiple human outbreaks linked to serovar Oranienburg have been reported. They were associated with a variety of food. Below are examples.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2023 | Canada and US: multistate | [Cantaloupe](https://marlerclark.com/salmonella-cantaloupe-outbreak-hits-43-in-15-states)<sup>1</sup> | 509 |
-| 2021 | US: multistate and Puerto Rico | [Onions](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-oranienburg-whole-fresh-onions-october-2021) | 1040 |
-| 2016 | US: multistate | [Shell eggs](https://archive.cdc.gov/www_cdc_gov/salmonella/oranienburg-10-16/index.html) | 8 |
-| 2006 | Canada and US: multistate | [Fruit salad](https://www.cdc.gov/mmWR/preview/mmwrhtml/mm5639a3.htm) | 41 |
-| 2005 | Australia | [Alfalfa sprouts](https://www1.health.gov.au/internet/main/publishing.nsf/Content/cda-cdi3002f.htm) | 125 |
-| 2001 | Europe: multi-country | [Chocolate](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-5-7)<sup>2</sup> | 439 |
-| 1999 | Japan | [Semi-dry squid](https://www.researchgate.net/publication/6934802_Outbreak_of_Salmonella_oranienburg_infection_in_Japan) | 1560 |
-| 1998 | Canada | [Cantaloupe](https://web.archive.org/web/20090710153211/https://www.fda.gov/Food/ScienceResearch/ResearchAreas/SafePracticesforFoodProcesses/ucm091270.htm) | 22 |
-| 1998 | Australia | [Gelato](https://www1.health.gov.au/internet/main/publishing.nsf/Content/cda-pubs-cdi-1998-cdi2208-cdi2208d.htm) | 102 |
-| 1981-1982 | Norway | [Black pepper](https://www.cdc.gov/mmwr/preview/mmwrhtml/00001205.htm) | 126 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2023 | Canada and US: multistate | [Cantaloupe](https://marlerclark.com/salmonella-cantaloupe-outbreak-hits-43-in-15-states)<sup>1</sup> | 509 | Human |
+| 2021 | US: multistate and Puerto Rico | [Onions](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-oranienburg-whole-fresh-onions-october-2021) | 1040 | Human |
+| 2016 | US: multistate | [Shell eggs](https://archive.cdc.gov/www_cdc_gov/salmonella/oranienburg-10-16/index.html) | 8 | Human |
+| 2006 | Canada and US: multistate | [Fruit salad](https://www.cdc.gov/mmWR/preview/mmwrhtml/mm5639a3.htm) | 41 | Human |
+| 2005 | Australia | [Alfalfa sprouts](https://www1.health.gov.au/internet/main/publishing.nsf/Content/cda-cdi3002f.htm) | 125 | Human |
+| 2001 | Europe: multi-country | [Chocolate](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-5-7)<sup>2</sup> | 439 | Human |
+| 1999 | Japan | [Semi-dry squid](https://www.researchgate.net/publication/6934802_Outbreak_of_Salmonella_oranienburg_infection_in_Japan) | 1560 | Human |
+| 1998 | Canada | [Cantaloupe](https://web.archive.org/web/20090710153211/https://www.fda.gov/Food/ScienceResearch/ResearchAreas/SafePracticesforFoodProcesses/ucm091270.htm) | 22 | Human |
+| 1998 | Australia | [Gelato](https://www1.health.gov.au/internet/main/publishing.nsf/Content/cda-pubs-cdi-1998-cdi2208-cdi2208d.htm) | 102 | Human |
+| 1981-1982 | Norway | [Black pepper](https://www.cdc.gov/mmwr/preview/mmwrhtml/00001205.htm) | 126 | Human |
 
 <sup>1</sup> There were 407, 190 cases reported in US and Canada, respectively. Salmonella Soahanina, Sundsvall, Oranienburg, and Newport were involved.
 

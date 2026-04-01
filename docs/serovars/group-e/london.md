@@ -26,10 +26,10 @@ According to the metadata from NCBI PD, serovar London has been reported [worldw
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2004 | South Korea | [Nosocomial](https://journals.asm.org/doi/10.1128/jcm.43.7.3519-3521.2005) | 3 |
-| 2000 | South Korea | [Infant formula](https://pubmed.ncbi.nlm.nih.gov/15004867/) | 31 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2004 | South Korea | [Nosocomial](https://journals.asm.org/doi/10.1128/jcm.43.7.3519-3521.2005) | 3 | Human |
+| 2000 | South Korea | [Infant formula](https://pubmed.ncbi.nlm.nih.gov/15004867/) | 31 | Human |
 
 ## Border Rejections
 

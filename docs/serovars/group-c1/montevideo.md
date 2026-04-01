@@ -30,18 +30,18 @@ Serovar Montevideo is [globally distributed](http://www.jbjc.org/en/article/doi/
 
 Numerous outbreaks in different countries have been linked to serovar Montevideo, nuts have been associated with several of these outbreaks. Below are some examples.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2020-2021 | Canada | [Restaurant kitchen drainage system](https://www.sciencedirect.com/science/article/pii/S0362028X23068151) | 67 |
-| 2018 | US: multistate | [Raw sprouts](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/montevideo-01-18/index.html) | 10 |
-| 2016 | US: multistate | [Pistachios](https://archive.cdc.gov/www_cdc_gov/salmonella/montevideo-03-16/index.html)<sup>1</sup> | 11 |
-| 2013 | US: multistate | [Tahini](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/montevideo-tahini-05-13/index.html)<sup>2</sup> | 16 |
-| 2012 | US: multistate | [Live poultry](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/montevideo-06-12/index.html) | 93 |
-| 2009-2010 | US: multistate | [Red and black pepper/Italian-style meats](https://downloads.regulations.gov/FDA-2024-D-2604-0011/content.pdf)<sup>3</sup> | 272 |
-| 2010 | Germany | [Dietary food supplement](https://www.eurosurveillance.org/content/10.2807/ese.16.50.20040-en) | 15 |
-| 2002 | Australia & New Zealand | [Tahini](https://pmc.ncbi.nlm.nih.gov/articles/PMC2870340/) | 68 |
-| 2002 | Japan | [Lunch prepared by caterer](https://pubmed.ncbi.nlm.nih.gov/12501260/) | 23 |
-| 1995-1996 | UK | [Supermarket hot food outlet](https://pubmed.ncbi.nlm.nih.gov/10491878/) | NA |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2020-2021 | Canada | [Restaurant kitchen drainage system](https://www.sciencedirect.com/science/article/pii/S0362028X23068151) | 67 | Human |
+| 2018 | US: multistate | [Raw sprouts](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/montevideo-01-18/index.html) | 10 | Human |
+| 2016 | US: multistate | [Pistachios](https://archive.cdc.gov/www_cdc_gov/salmonella/montevideo-03-16/index.html)<sup>1</sup> | 11 | Human |
+| 2013 | US: multistate | [Tahini](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/montevideo-tahini-05-13/index.html)<sup>2</sup> | 16 | Human |
+| 2012 | US: multistate | [Live poultry](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/montevideo-06-12/index.html) | 93 | Human |
+| 2009-2010 | US: multistate | [Red and black pepper/Italian-style meats](https://downloads.regulations.gov/FDA-2024-D-2604-0011/content.pdf)<sup>3</sup> | 272 | Human |
+| 2010 | Germany | [Dietary food supplement](https://www.eurosurveillance.org/content/10.2807/ese.16.50.20040-en) | 15 | Human |
+| 2002 | Australia & New Zealand | [Tahini](https://pmc.ncbi.nlm.nih.gov/articles/PMC2870340/) | 68 | Human |
+| 2002 | Japan | [Lunch prepared by caterer](https://pubmed.ncbi.nlm.nih.gov/12501260/) | 23 | Human |
+| 1995-1996 | UK | [Supermarket hot food outlet](https://pubmed.ncbi.nlm.nih.gov/10491878/) | NA | Human |
 
 <sup>1</sup> There were a total of 11 people infected with the outbreak strains of *Salmonella* Montevideo (9 cases) and Senftenberg (2 cases) reported from nine states.
 

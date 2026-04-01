@@ -26,11 +26,11 @@ This serovar has been reported from countries worldwide, including [the US, the 
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2023 | US: multistate | [Small turtles](https://www.cdc.gov/salmonella/outbreaks/turtles-08-23/index.html) | 80<sup>1</sup> |
-| 2022 | US: multistate | [Small turtles](https://www.cdc.gov/salmonella/outbreaks/stanley-07-22/investigation.html) | 28<sup>2</sup> |
-| 2011-2013 | US: multistate | [Small turtles](https://archive.cdc.gov/www_cdc_gov/salmonella/small-turtles-03-12/index.html) | 473<sup>3</sup> |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2023 | US: multistate | [Small turtles](https://www.cdc.gov/salmonella/outbreaks/turtles-08-23/index.html) | 80<sup>1</sup> | Human |
+| 2022 | US: multistate | [Small turtles](https://www.cdc.gov/salmonella/outbreaks/stanley-07-22/investigation.html) | 28<sup>2</sup> | Human |
+| 2011-2013 | US: multistate | [Small turtles](https://archive.cdc.gov/www_cdc_gov/salmonella/small-turtles-03-12/index.html) | 473<sup>3</sup> | Human |
 
 <sup>1</sup>This outbreak was linked to serovars Pomona, Stanley, and Poona. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Pomona.
 

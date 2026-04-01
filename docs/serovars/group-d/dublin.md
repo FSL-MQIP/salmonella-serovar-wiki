@@ -36,12 +36,12 @@ Animal outbreaks:
 
 Several reports of outbreaks associated with *Salmonella* Dublin in humans have been documented. These outbreaks are primarily linked to the consumption of raw milk or products made from raw milk. Below are examples.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2019 | US: multistate | [Ground beef](https://archive.cdc.gov/www_cdc_gov/salmonella/dublin-11-19/index.html) | 13 |
-| 2015-2016 | France | [Raw-milk cheese](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2019.24.3.1700703) | 83 |
-| 1989 | England and Wales | [Unpasteurized cows' milk cheese](https://pmc.ncbi.nlm.nih.gov/articles/PMC2271942/) | 42 |
-| 1979 | Glasgow | [Milk](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4608B35162556BA63E1E535DF8CAE509/S0022172400025511a.pdf/milkborne_outbreak_due_to_salmonella_dublin.pdf) | At least 700 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2019 | US: multistate | [Ground beef](https://archive.cdc.gov/www_cdc_gov/salmonella/dublin-11-19/index.html) | 13 | Human |
+| 2015-2016 | France | [Raw-milk cheese](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2019.24.3.1700703) | 83 | Human |
+| 1989 | England and Wales | [Unpasteurized cows' milk cheese](https://pmc.ncbi.nlm.nih.gov/articles/PMC2271942/) | 42 | Human |
+| 1979 | Glasgow | [Milk](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4608B35162556BA63E1E535DF8CAE509/S0022172400025511a.pdf/milkborne_outbreak_due_to_salmonella_dublin.pdf) | At least 700 | Human |
 
 ## Border Rejections
 

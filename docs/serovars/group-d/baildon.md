@@ -26,10 +26,10 @@ Serovar Baildon has been found in the [US, Canada, the UK, Senegal, and Tanzania
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2010 | US: multistate | [Restaurant Chain A](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/2010/restaurant-chain-a-8-4-10.html)<sup>1</sup> | 80 |
-| 1999 | US: multistate | [Raw tomatoes](https://pmc.ncbi.nlm.nih.gov/articles/PMC2631895/) | 86 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2010 | US: multistate | [Restaurant Chain A](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/2010/restaurant-chain-a-8-4-10.html)<sup>1</sup> | 80 | Human |
+| 1999 | US: multistate | [Raw tomatoes](https://pmc.ncbi.nlm.nih.gov/articles/PMC2631895/) | 86 | Human |
 
 <sup>1</sup> The epidemiologic study did not identify any specific food item or ingredient linked to the illness.
 

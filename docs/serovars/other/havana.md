@@ -28,12 +28,12 @@ Serovar Havana has been reported [worldwide but mainly in Europe and the US](<ht
 
 There are multiple human outbreaks associated with serovar Havana. Here are some examples:
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2019 | Canada | [Tahini and halva from Syria](https://www.foodsafetynews.com/2021/10/u-s-and-canada-part-of-salmonella-outbreak-linked-to-tahini-and-halva/) | 2 |
-| 2018 | Australia | [Alfalfa sprouts](https://www.foodsafetynews.com/2019/11/first-australian-salmonella-havana-outbreak-traced-to-alfalfa-sprouts/) | 31 |
-| 1998 | US: CA & AZ | [Alfalfa sprouts](https://pmc.ncbi.nlm.nih.gov/articles/PMC1308574/) | 18 |
-| 1987 | US: GA | [Chicken](https://outbreakdatabase.com/outbreaks/georgia-chicken-1987) | 73 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2019 | Canada | [Tahini and halva from Syria](https://www.foodsafetynews.com/2021/10/u-s-and-canada-part-of-salmonella-outbreak-linked-to-tahini-and-halva/) | 2 | Human |
+| 2018 | Australia | [Alfalfa sprouts](https://www.foodsafetynews.com/2019/11/first-australian-salmonella-havana-outbreak-traced-to-alfalfa-sprouts/) | 31 | Human |
+| 1998 | US: CA & AZ | [Alfalfa sprouts](https://pmc.ncbi.nlm.nih.gov/articles/PMC1308574/) | 18 | Human |
+| 1987 | US: GA | [Chicken](https://outbreakdatabase.com/outbreaks/georgia-chicken-1987) | 73 | Human |
 
 ## Border Rejections
 

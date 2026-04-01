@@ -26,10 +26,10 @@ Serovar Idikan has been found in China,[Saudi Arabia, Israel](<https://www.ncbi.
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| NA<sup>1</sup> | [United States](https://www.sciencedirect.com/science/article/pii/S0362028X23067431#ab010) | Beef | 6 |
-| 2022 | [China](https://rs.yiigle.com/cmaid/1474503) | NA<sup>2</sup> | NA<sup>3</sup> |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| NA<sup>1</sup> | [United States](https://www.sciencedirect.com/science/article/pii/S0362028X23067431#ab010) | Beef | 6 | Human |
+| 2022 | [China](https://rs.yiigle.com/cmaid/1474503) | NA<sup>2</sup> | NA<sup>3</sup> | Human |
 
 <sup>1</sup>The specific year is not reported in the dataset.
 

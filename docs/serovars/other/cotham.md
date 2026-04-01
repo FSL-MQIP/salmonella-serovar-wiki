@@ -28,10 +28,10 @@ This serovar is very rare, it has been mainly reported in [Canada<sup>5</sup>](h
 
 Currently only two outbreaks had been reported, which started in 2012, and 2024, respectively.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2024 | US: multistate | [Pet bearded dragons](https://www.cdc.gov/salmonella/outbreaks/cotham-06-24/investigation.html?CDC_AAref_Val=https://www.cdc.gov/salmonella/cotham-06-24/details.html) | 26 |
-| 2014 | US: multistate | [Pet bearded dragons](https://archive.cdc.gov/www_cdc_gov/salmonella/cotham-04-14/index.html#:~:text=On%20January%2022%2C%202014%2C%20CDC,reporting%20exposure%20to%20pet%20reptiles.)<sup>1</sup> | 166 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2024 | US: multistate | [Pet bearded dragons](https://www.cdc.gov/salmonella/outbreaks/cotham-06-24/investigation.html?CDC_AAref_Val=https://www.cdc.gov/salmonella/cotham-06-24/details.html) | 26 | Human |
+| 2014 | US: multistate | [Pet bearded dragons](https://archive.cdc.gov/www_cdc_gov/salmonella/cotham-04-14/index.html#:~:text=On%20January%2022%2C%202014%2C%20CDC,reporting%20exposure%20to%20pet%20reptiles.)<sup>1</sup> | 166 | Human |
 
 <sup>1</sup> Both serovar Cotham and Kisarawe were found.
 

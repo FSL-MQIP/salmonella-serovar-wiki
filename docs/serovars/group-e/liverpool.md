@@ -26,9 +26,9 @@ Serovar Liverpool has been reported occasionally [worldwide](<https://www.ncbi.n
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2024 | US | [Unknown](https://www.foodsafetynews.com/2024/10/new-outbreak-of-salmonella-infections-detected-other-investigations-continue/)<sup>1</sup> | 3 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2024 | US | [Unknown](https://www.foodsafetynews.com/2024/10/new-outbreak-of-salmonella-infections-detected-other-investigations-continue/)<sup>1</sup> | 3 | Human |
 
 <sup>1</sup> Investigation is still ongoing.
 

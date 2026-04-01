@@ -26,9 +26,9 @@ Serovar Amsterdam has been reported primarily in [European countries such as the
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2019-2021 | Europe: multi-country | [Sesame-based products originating from Syria](https://efsa.onlinelibrary.wiley.com/doi/pdf/10.2903/sp.efsa.2021.EN-6922#:~:text=Abstract,No%20deaths%20have%20been%20reported.)<sup>1</sup> | 121 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2019-2021 | Europe: multi-country | [Sesame-based products originating from Syria](https://efsa.onlinelibrary.wiley.com/doi/pdf/10.2903/sp.efsa.2021.EN-6922#:~:text=Abstract,No%20deaths%20have%20been%20reported.)<sup>1</sup> | 121 | Human |
 
 <sup>1</sup> Six different serotypes including *Salmonella* Amsterdam, *Salmonella* Havana, *Salmonella* Mbandaka, *Salmonella* Kintambo, *Salmonella* Orion and *Salmonella* Senftenberg were associated with the outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Amsterdam. *Salmonella* Amsterdam outbreak strain belongs to ST590.
 

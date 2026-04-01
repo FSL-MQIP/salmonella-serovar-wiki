@@ -26,11 +26,11 @@ Serovar Berta has only been described in [the UK, Denmark, the US and Canada](<h
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2023 | US: WA | [Unknown source](https://kingcounty.gov/en/dept/dph/health-safety/disease-illness/foodborne-illness-outbreaks/2023-july-10-unknown-source#:~:text=Since%20April%2014%2C%202023%2C%20six,stool%2C%20fever%2C%20and%20chills.) | 6 |
-| 2002 | US: WA | [Cantaloupe, grapes, or watermelon](https://outbreakdatabase.com/outbreaks/2002-outbreak-of-salmonella-berta-linked-to-fruit-washington) | 29 |
-| 1994 | Canada | [Soft cheese product](https://pubmed.ncbi.nlm.nih.gov/9528815/) | 82 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2023 | US: WA | [Unknown source](https://kingcounty.gov/en/dept/dph/health-safety/disease-illness/foodborne-illness-outbreaks/2023-july-10-unknown-source#:~:text=Since%20April%2014%2C%202023%2C%20six,stool%2C%20fever%2C%20and%20chills.) | 6 | Human |
+| 2002 | US: WA | [Cantaloupe, grapes, or watermelon](https://outbreakdatabase.com/outbreaks/2002-outbreak-of-salmonella-berta-linked-to-fruit-washington) | 29 | Human |
+| 1994 | Canada | [Soft cheese product](https://pubmed.ncbi.nlm.nih.gov/9528815/) | 82 | Human |
 
 ## Border Rejections
 

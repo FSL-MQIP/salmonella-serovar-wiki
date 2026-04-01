@@ -26,10 +26,10 @@ According to the metadata from NCBI PD, serovar Lomalinda has only been reported
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2021 | US: multistate | [Not identified](https://outbreakdatabase.com/outbreaks/2021-multistate-outbreak-of-salmonella-lomalinda-infections-source-unknown) | 10 |
-| 2013 | US: CA | [Not identified](https://www.foodsafetynews.com/2013/11/7-sick-in-california-salmonella-outbreak/) | At least 7 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2021 | US: multistate | [Not identified](https://outbreakdatabase.com/outbreaks/2021-multistate-outbreak-of-salmonella-lomalinda-infections-source-unknown) | 10 | Human |
+| 2013 | US: CA | [Not identified](https://www.foodsafetynews.com/2013/11/7-sick-in-california-salmonella-outbreak/) | At least 7 | Human |
 
 ## Border Rejections
 

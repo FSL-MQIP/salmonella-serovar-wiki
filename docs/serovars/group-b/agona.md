@@ -28,15 +28,15 @@ Serovar Agona has been reported [worldwide](https://journals.asm.org/doi/10.1128
 
 Numerous outbreaks linked to *Salmonella* Agona have been associated with a variety of foods, including cereal, meat and fruits. Some examples are shown below.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2022 | Europe: multi-country | [Cucumbers](https://www.foodsafetynews.com/2022/12/cucumbers-linked-to-multi-country-salmonella-outbreak/) | 72 |
-| 2011 | US: multistate | [Imported Papayas from Mexico](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/papayas-8-29-2011.html) | 106 |
-| 2008 | US: multistate | [Rice & Wheat Puff Cereal](https://archive.cdc.gov/www_cdc_gov/salmonella/2008/rice-wheat-puff-cereal-5-13-2008.html) | 28 |
-| 2008 | Europe: multi-country | [Meat](https://www.researchgate.net/publication/23228196_A_multi-country_outbreak_of_Salmonella_Agona_February_-_August_2008) | 119 |
-| 2004 | France | [Infant formula](https://pubmed.ncbi.nlm.nih.gov/17259878/) | 141 |
-| 2002 | Germany | [Tea, aniseed herbal](https://pmc.ncbi.nlm.nih.gov/articles/PMC3371796/) | 42 |
-| 1998 | US: multistate | [Toasted Oats Cereal](https://www.cdc.gov/mmwr/preview/mmwrhtml/00053368.htm) | 209 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2022 | Europe: multi-country | [Cucumbers](https://www.foodsafetynews.com/2022/12/cucumbers-linked-to-multi-country-salmonella-outbreak/) | 72 | Human |
+| 2011 | US: multistate | [Imported Papayas from Mexico](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/papayas-8-29-2011.html) | 106 | Human |
+| 2008 | US: multistate | [Rice & Wheat Puff Cereal](https://archive.cdc.gov/www_cdc_gov/salmonella/2008/rice-wheat-puff-cereal-5-13-2008.html) | 28 | Human |
+| 2008 | Europe: multi-country | [Meat](https://www.researchgate.net/publication/23228196_A_multi-country_outbreak_of_Salmonella_Agona_February_-_August_2008) | 119 | Human |
+| 2004 | France | [Infant formula](https://pubmed.ncbi.nlm.nih.gov/17259878/) | 141 | Human |
+| 2002 | Germany | [Tea, aniseed herbal](https://pmc.ncbi.nlm.nih.gov/articles/PMC3371796/) | 42 | Human |
+| 1998 | US: multistate | [Toasted Oats Cereal](https://www.cdc.gov/mmwr/preview/mmwrhtml/00053368.htm) | 209 | Human |
 
 ## Border Rejections
 

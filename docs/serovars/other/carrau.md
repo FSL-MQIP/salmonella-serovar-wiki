@@ -26,9 +26,9 @@ Serovar Carrau has been reported in[North America, South America, and Europe suc
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2019 | US: multistate | [Pre-cut melons](https://www.cdc.gov/salmonella/carrau-04-19/index.html) | 137 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2019 | US: multistate | [Pre-cut melons](https://www.cdc.gov/salmonella/carrau-04-19/index.html) | 137 | Human |
 
 ## Border Rejections
 

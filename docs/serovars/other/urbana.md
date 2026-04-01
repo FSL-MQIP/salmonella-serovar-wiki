@@ -26,12 +26,12 @@ According to the metadata from NCBI PD, serovar Urbana has been reported [occasi
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2020-2021 | US: multistate | [Cashew brie](https://archive.cdc.gov/www_cdc_gov/salmonella/duisburg-04-21/details.html#:~:text=Public%20Health%20Actions,products%2C%20including%20their%20cashew%20brie.&text=Epidemiologic%2C%20laboratory%2C%20and%20traceback%20data%20show%20that%20Jule%27s%20cashew%20brie,infected%20with%20this%20outbreak%20strain.)<sup>1</sup> | 20 |
-| 2017 | US: multistate | [Maradol papaya](https://archive.cdc.gov/www_cdc_gov/salmonella/urbana-09-17/index.html) | 7 |
-| 2010 | Finland, the Czech Republic and Latvia | [Unknown](https://pubmed.ncbi.nlm.nih.gov/20338145/#:~:text=A%20cluster%20of%2014%20cases,under%2016%20years%20of%20age.) | 14 |
-| 1991 | Thailand | [Contaminated wash basin in the labour nursery](https://pubmed.ncbi.nlm.nih.gov/1680905/)<sup>2</sup> | 97 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2020-2021 | US: multistate | [Cashew brie](https://archive.cdc.gov/www_cdc_gov/salmonella/duisburg-04-21/details.html#:~:text=Public%20Health%20Actions,products%2C%20including%20their%20cashew%20brie.&text=Epidemiologic%2C%20laboratory%2C%20and%20traceback%20data%20show%20that%20Jule%27s%20cashew%20brie,infected%20with%20this%20outbreak%20strain.)<sup>1</sup> | 20 | Human |
+| 2017 | US: multistate | [Maradol papaya](https://archive.cdc.gov/www_cdc_gov/salmonella/urbana-09-17/index.html) | 7 | Human |
+| 2010 | Finland, the Czech Republic and Latvia | [Unknown](https://pubmed.ncbi.nlm.nih.gov/20338145/#:~:text=A%20cluster%20of%2014%20cases,under%2016%20years%20of%20age.) | 14 | Human |
+| 1991 | Thailand | [Contaminated wash basin in the labour nursery](https://pubmed.ncbi.nlm.nih.gov/1680905/)<sup>2</sup> | 97 | Human |
 
 <sup>1</sup> Four *Salmonella* serovars including *Salmonella* Chester, Duisburg, Typhimurium, and Urbana were involved in this outbreak. The case number does not reflect the number of infections linked to *Salmonella* Urbana only.
 

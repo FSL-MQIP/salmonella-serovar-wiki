@@ -26,12 +26,12 @@ According to the metadata from NCBI PD (accessed on 05/21/2025), serovar Tenness
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2008 | Germany | [Bearded dragons](https://www.liebertpub.com/doi/10.1089/vbz.2010.0239) | 18 |
-| 2006-2007 | US: multistate | [Peanut butter](https://academic.oup.com/cid/article-abstract/53/4/356/446014?redirectedFrom=fulltext) | 715 |
-| 2006 | US: CO | [Not identified](https://www.sciencedirect.com/science/article/pii/S0196655308004902)<sup>1</sup> | 10 |
-| 1992-1993 | Canada and US | [Milk products and infant formula](https://www.cdc.gov/mmwr/preview/mmwrhtml/00021081.htm) | 48 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2008 | Germany | [Bearded dragons](https://www.liebertpub.com/doi/10.1089/vbz.2010.0239) | 18 | Human |
+| 2006-2007 | US: multistate | [Peanut butter](https://academic.oup.com/cid/article-abstract/53/4/356/446014?redirectedFrom=fulltext) | 715 | Human |
+| 2006 | US: CO | [Not identified](https://www.sciencedirect.com/science/article/pii/S0196655308004902)<sup>1</sup> | 10 | Human |
+| 1992-1993 | Canada and US | [Milk products and infant formula](https://www.cdc.gov/mmwr/preview/mmwrhtml/00021081.htm) | 48 | Human |
 
 <sup>1</sup> The outbreak occurred in a neonatal intensive care unit.
 

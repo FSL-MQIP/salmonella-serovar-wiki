@@ -28,14 +28,14 @@ Serovar Poona has been reported [worldwide.](<https://www.ncbi.nlm.nih.gov/patho
 
 Several outbreaks have been associated with serovar Poona.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2019 | Europe: multi-country<sup>1</sup> | [Infant formula](https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-multi-country-outbreak-salmonella-poona-infections) | 32 |
-| 2019 | Finland | [Watermelon](https://doi.org/10.1016/j.jfp.2024.100404) | 9 |
-| 2015-2016 | US-multistate | [Pet turtles](http://www.cdc.gov/salmonella/small-turtles-10-15/index.html) | 70 |
-| 2015-2016 | US-multistate | [Cucumbers from Mexico](http://www.cdc.gov/salmonella/poona-09-15/index.html) | 907 |
-| 2015 | US-multistate | [Pet turtles](http://www.cdc.gov/salmonella/small-turtles-10-15/index.html) | 25 |
-| 2000-2002 | US-multistate | [Cantaloupe](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5146a2.htm) | 155<sup>2</sup> |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2019 | Europe: multi-country<sup>1</sup> | [Infant formula](https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-multi-country-outbreak-salmonella-poona-infections) | 32 | Human |
+| 2019 | Finland | [Watermelon](https://doi.org/10.1016/j.jfp.2024.100404) | 9 | Human |
+| 2015-2016 | US-multistate | [Pet turtles](http://www.cdc.gov/salmonella/small-turtles-10-15/index.html) | 70 | Human |
+| 2015-2016 | US-multistate | [Cucumbers from Mexico](http://www.cdc.gov/salmonella/poona-09-15/index.html) | 907 | Human |
+| 2015 | US-multistate | [Pet turtles](http://www.cdc.gov/salmonella/small-turtles-10-15/index.html) | 25 | Human |
+| 2000-2002 | US-multistate | [Cantaloupe](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5146a2.htm) | 155<sup>2</sup> | Human |
 
 <sup>1</sup>France, Belgium, and Luxembourg
 

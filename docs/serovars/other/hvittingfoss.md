@@ -26,12 +26,12 @@ Serovar Hvittingfoss has been reported [worldwide such in Australia, Europe and 
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2023-2025 | Norway | [Sprouted seeds](https://www.ecdc.europa.eu/sites/default/files/documents/salmonella-outbreak-sprouted-seeds-outbreak-assessment-march-2025_0.pdf)<sup>1</sup> | 12 |
-| 2019 | Hong Kong (China) | [Toasted beef](<https://www.journalofinfection.com/article/S0163-4453(22)00071-8/fulltext>)<sup>2</sup> | 6 |
-| 2016 | Australia: multistate | [Rockmelons](https://pubmed.ncbi.nlm.nih.gov/32737126/#:~:text=IMPORTANCESalmonella%20is%20a%20zoonotic%20pathogen,shorebirds;%20wildlife;%20zoonotic%20potential.) | 97 |
-| 2010 | US: IL | [Subway restaurant](https://marlerclark.com/news_events/illinois-subway-salmonella-hvittingfoss-outbreak) | 103 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2023-2025 | Norway | [Sprouted seeds](https://www.ecdc.europa.eu/sites/default/files/documents/salmonella-outbreak-sprouted-seeds-outbreak-assessment-march-2025_0.pdf)<sup>1</sup> | 12 | Human |
+| 2019 | Hong Kong (China) | [Toasted beef](<https://www.journalofinfection.com/article/S0163-4453(22)00071-8/fulltext>)<sup>2</sup> | 6 | Human |
+| 2016 | Australia: multistate | [Rockmelons](https://pubmed.ncbi.nlm.nih.gov/32737126/#:~:text=IMPORTANCESalmonella%20is%20a%20zoonotic%20pathogen,shorebirds;%20wildlife;%20zoonotic%20potential.) | 97 | Human |
+| 2010 | US: IL | [Subway restaurant](https://marlerclark.com/news_events/illinois-subway-salmonella-hvittingfoss-outbreak) | 103 | Human |
 
 <sup>1</sup> Multiple serovars were involved in this prolonged outbreak. Here, the case number is only associated with infection by the serovar Hvittingfoss.
 

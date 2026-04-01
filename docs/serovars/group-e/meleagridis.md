@@ -26,9 +26,9 @@ Serovar Meleagridis has been reported [worldwide occasionally, but primarily in 
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| NA | US: MA | [Not identified](https://www.cdc.gov/mmwr/preview/mmwrhtml/00000176.htm) | NA |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| NA | US: MA | [Not identified](https://www.cdc.gov/mmwr/preview/mmwrhtml/00000176.htm) | NA | Human |
 
 ## Border Rejections
 

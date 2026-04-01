@@ -24,10 +24,10 @@ Serovar Miami has been reported [occasionally worldwide, but primarily in US](<h
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2021 | US: multistate | [Unknown](https://www.foodsafetynews.com/?s=salmonella+miami) | At least 65 |
-| 2020 | France | [Chilled vacuum-packed cooked sliced pork shoulder from Spain](https://www.foodsafetynews.com/2020/09/salmonella-outbreak-in-france-tied-to-sausage-from-spain/) | Not reported |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2021 | US: multistate | [Unknown](https://www.foodsafetynews.com/?s=salmonella+miami) | At least 65 | Human |
+| 2020 | France | [Chilled vacuum-packed cooked sliced pork shoulder from Spain](https://www.foodsafetynews.com/2020/09/salmonella-outbreak-in-france-tied-to-sausage-from-spain/) | Not reported | Human |
 
 Animal outbreaks:
 

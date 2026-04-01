@@ -26,9 +26,9 @@ Serovar Kinondoni has been reported in [the US, Canada,](https://www.ncbi.nlm.ni
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| [2003](https://www1.health.gov.au/internet/main/publishing.nsf/Content/cda-pubs-cdi-2003-cdi2704-htm-cdi2704k.htm) | Australia | Suspect cucumbers<sup>1</sup> | 6 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| [2003](https://www1.health.gov.au/internet/main/publishing.nsf/Content/cda-pubs-cdi-2003-cdi2704-htm-cdi2704k.htm) | Australia | Suspect cucumbers<sup>1</sup> | 6 | Human |
 
 <sup>1</sup> Both serovar Litchfield and Kinondoni were isolated.
 

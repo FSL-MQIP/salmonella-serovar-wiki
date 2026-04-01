@@ -26,9 +26,9 @@ Serovar Adelaide has primarily been reported in [North America, including the US
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| [2018](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/adelaide-06-18/index.html) | US: multistate | Pre-cut melon | 77 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| [2018](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/adelaide-06-18/index.html) | US: multistate | Pre-cut melon | 77 | Human |
 
 ## Border Rejections
 

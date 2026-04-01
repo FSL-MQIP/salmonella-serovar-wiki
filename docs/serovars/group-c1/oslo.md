@@ -28,11 +28,11 @@ According to the metadata from NCBI PD (accessed May 13, 2025), serovar Oslo has
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2023 | US: LA | [Boiled crawfish](https://event.fourwaves.com/inform/abstracts/d3671885-2a45-4774-8db4-7e8e800cfc41) | 28 |
-| 2016 | US: multistate | [Cucumbers](https://www.cdc.gov/mmwr/volumes/65/wr/mm655051a3.htm) | 14 |
-| 1974 | US: NY | [Endoscope in a hospital](https://pubmed.ncbi.nlm.nih.gov/1251848/) | 5 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2023 | US: LA | [Boiled crawfish](https://event.fourwaves.com/inform/abstracts/d3671885-2a45-4774-8db4-7e8e800cfc41) | 28 | Human |
+| 2016 | US: multistate | [Cucumbers](https://www.cdc.gov/mmwr/volumes/65/wr/mm655051a3.htm) | 14 | Human |
+| 1974 | US: NY | [Endoscope in a hospital](https://pubmed.ncbi.nlm.nih.gov/1251848/) | 5 | Human |
 
 ## Border Rejections
 

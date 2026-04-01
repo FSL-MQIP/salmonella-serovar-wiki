@@ -26,12 +26,12 @@ Serovar Coeln has been mainly described in [Europe](https://food.ec.europa.eu/do
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2021 | Sweden | [Fresh Sprouts](https://www.foodsafetynews.com/2021/11/sweden-solves-salmonella-outbreak-sprouts-identified-as-likely-source/) | 52 |
-| 2017 | Norway | [TBD](https://www.foodnavigator.com/Article/2017/09/22/Salmonella-sickens-seven-in-Norway/) | 18 |
-| 2013 | Norway | [Baby Leaf Mix](https://pubmed.ncbi.nlm.nih.gov/26586305/) | 26 |
-| 1998 | France | [Minced beef](https://www.eurosurveillance.org/content/10.2807/esm.06.02.00223-en) | 26 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2021 | Sweden | [Fresh Sprouts](https://www.foodsafetynews.com/2021/11/sweden-solves-salmonella-outbreak-sprouts-identified-as-likely-source/) | 52 | Human |
+| 2017 | Norway | [TBD](https://www.foodnavigator.com/Article/2017/09/22/Salmonella-sickens-seven-in-Norway/) | 18 | Human |
+| 2013 | Norway | [Baby Leaf Mix](https://pubmed.ncbi.nlm.nih.gov/26586305/) | 26 | Human |
+| 1998 | France | [Minced beef](https://www.eurosurveillance.org/content/10.2807/esm.06.02.00223-en) | 26 | Human |
 
 ## Border Rejections
 

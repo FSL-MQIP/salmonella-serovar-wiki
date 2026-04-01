@@ -28,12 +28,12 @@ This serovar has been reported only in [North America, Australia, South Africa, 
 
 Despite the fact that this is a rare serovar, multiple outbreaks have been reported. Below are a few examples.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2012 | US: Multistate | [Peanut butter](https://archive.cdc.gov/www_cdc_gov/salmonella/bredeney-09-12/index.html) | 42 |
-| 1998 | US: Alabama | [Meat](https://pubmed.ncbi.nlm.nih.gov/10456719/) | 170 |
-| 1997 | Ireland | [Chicken](https://www.sciencedirect.com/science/article/abs/pii/S0163445303000409) | 10 |
-| 1995 | Australia | [Meat or chicken product](https://www.sciencedirect.com/science/article/pii/S1326020023026742) | 157 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2012 | US: Multistate | [Peanut butter](https://archive.cdc.gov/www_cdc_gov/salmonella/bredeney-09-12/index.html) | 42 | Human |
+| 1998 | US: Alabama | [Meat](https://pubmed.ncbi.nlm.nih.gov/10456719/) | 170 | Human |
+| 1997 | Ireland | [Chicken](https://www.sciencedirect.com/science/article/abs/pii/S0163445303000409) | 10 | Human |
+| 1995 | Australia | [Meat or chicken product](https://www.sciencedirect.com/science/article/pii/S1326020023026742) | 157 | Human |
 
 ## Border Rejections
 

@@ -30,16 +30,16 @@ Serovar Weltevreden has been found [worldwide](https://pmc.ncbi.nlm.nih.gov/arti
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2021 | US: multistate | [Frozen pre-cooked shrimp](https://archive.cdc.gov/www_cdc_gov/salmonella/weltevreden-06-21/index.html) | 9 |
-| 2019 | Australia | [Frozen microwave meals](https://www.foodsafetynews.com/2019/10/almost-50-ill-in-australian-salmonella-outbreak/) | 46 |
-| 2017-2018 | US: multistate | [Kratom](https://pmc.ncbi.nlm.nih.gov/articles/PMC10961741/)<sup>1</sup> | 199 |
-| 2015 | US: multistate | [Frozen tuna](https://archive.cdc.gov/www_cdc_gov/salmonella/paratyphi-b-05-15/index.html) | 65<sup>2</sup> |
-| 2015 | Oman | [Hummus (likely)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8242109/) | 101 |
-| 2010 | India | [Food comprising milk, rice, sprouted pulses and curd](https://pmc.ncbi.nlm.nih.gov/articles/PMC4418162/) | 150 (8 confirmed) |
-| 2007 | France | [Unknown](https://www.eurosurveillance.org/content/10.2807/ese.13.32.18949-en) | 26 |
-| 2007 | Europe: multinational | [Alfalfa sprouts](https://www.eurosurveillance.org/content/10.2807/esw.12.48.03321-en) | 45 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2021 | US: multistate | [Frozen pre-cooked shrimp](https://archive.cdc.gov/www_cdc_gov/salmonella/weltevreden-06-21/index.html) | 9 | Human |
+| 2019 | Australia | [Frozen microwave meals](https://www.foodsafetynews.com/2019/10/almost-50-ill-in-australian-salmonella-outbreak/) | 46 | Human |
+| 2017-2018 | US: multistate | [Kratom](https://pmc.ncbi.nlm.nih.gov/articles/PMC10961741/)<sup>1</sup> | 199 | Human |
+| 2015 | US: multistate | [Frozen tuna](https://archive.cdc.gov/www_cdc_gov/salmonella/paratyphi-b-05-15/index.html) | 65<sup>2</sup> | Human |
+| 2015 | Oman | [Hummus (likely)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8242109/) | 101 | Human |
+| 2010 | India | [Food comprising milk, rice, sprouted pulses and curd](https://pmc.ncbi.nlm.nih.gov/articles/PMC4418162/) | 150 (8 confirmed) | Human |
+| 2007 | France | [Unknown](https://www.eurosurveillance.org/content/10.2807/ese.13.32.18949-en) | 26 | Human |
+| 2007 | Europe: multinational | [Alfalfa sprouts](https://www.eurosurveillance.org/content/10.2807/esw.12.48.03321-en) | 45 | Human |
 
 <sup>1</sup> Multiple serovars including *Salmonella* I 4,[5],12:​b:-, Heidelberg, Javiana, Okatie, Weltevreden, and Thompson were involved in this outbreak. The case number here does not reflect the number of infections linked to *Salmonella* Weltevreden only.
 

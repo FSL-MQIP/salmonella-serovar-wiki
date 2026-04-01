@@ -30,9 +30,9 @@ Serovar Kentucky is widely distributed and can be found [globally](https://pubme
 
 Human outbreaks associated with serovar Kentucky are rare. Here we described one outbreak we found.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2016 | US: multistate | [Alfalfa sprouts](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/muenchen-02-16/index.html)<sup>1</sup> | 1 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2016 | US: multistate | [Alfalfa sprouts](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/muenchen-02-16/index.html)<sup>1</sup> | 1 | Human |
 
 <sup>1</sup> 25 other cases associated with this outbreak (n=26) were infected by *Salmonella* Muenchen.
 

@@ -28,12 +28,12 @@ Serovar Napoli has been reported in [US, Canada, Australia, and Europe, mainly i
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2023 | Norway | [Not identified](https://www.foodsafetynews.com/2023/12/salmonella-outbreak-over-in-norway-but-source-not-found/) | 7 |
-| 2014 | Italy | [Ham](https://www.liebertpub.com/doi/full/10.1089/fpd.2015.2091) | 47 |
-| 2011 | Italy | [Water](https://www.escaide.eu/sites/default/files/documents/ESCAIDE-2012-abstract-book.pdf) | 10 |
-| 1982 | England and Wales | [Chocolate bars](https://pubmed.ncbi.nlm.nih.gov/6131266/) | 245 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2023 | Norway | [Not identified](https://www.foodsafetynews.com/2023/12/salmonella-outbreak-over-in-norway-but-source-not-found/) | 7 | Human |
+| 2014 | Italy | [Ham](https://www.liebertpub.com/doi/full/10.1089/fpd.2015.2091) | 47 | Human |
+| 2011 | Italy | [Water](https://www.escaide.eu/sites/default/files/documents/ESCAIDE-2012-abstract-book.pdf) | 10 | Human |
+| 1982 | England and Wales | [Chocolate bars](https://pubmed.ncbi.nlm.nih.gov/6131266/) | 245 | Human |
 
 Animal outbreaks:
 

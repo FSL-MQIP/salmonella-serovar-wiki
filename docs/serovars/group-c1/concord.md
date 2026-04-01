@@ -26,9 +26,9 @@ Serovar Concord has been reported [worldwide](<https://www.ncbi.nlm.nih.gov/path
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2018-2019 | US: multistate | [Tahini](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/concord-11-18/index.html) | 8 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2018-2019 | US: multistate | [Tahini](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/concord-11-18/index.html) | 8 | Human |
 
 ## Border Rejections
 

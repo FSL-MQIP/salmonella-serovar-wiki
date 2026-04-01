@@ -30,15 +30,15 @@ Serovar Heidelberg has been reported [worldwide](<https://www.ncbi.nlm.nih.gov/p
 
 Multiple Heidelberg outbreaks have been linked to poultry, most of them in the US. Here are some example:
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2018-2019 | Australia | [Unidentified](https://pubmed.ncbi.nlm.nih.gov/34932458/#:~:text=We%20report%20a%20multistate%20Salmonella,indicators%20of%20severity%20and%20invasiveness.) | 59 |
-| 2016 | US: multistate | [Contact with dairy calves](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/heidelberg-11-16/index.html) | 56 |
-| 2013-2014 | US: multistate | [Raw chicken](https://archive.cdc.gov/www_cdc_gov/salmonella/heidelberg-10-13/index.html) | 634 |
-| 2011 | US: multistate | [Kosher broiled chicken livers](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/chicken-liver-1-11-2012.html) | 190 |
-| 2011 | US: multistate | [Ground turkey](https://pubmed.ncbi.nlm.nih.gov/25865382/) | 136 |
-| 2011 | Europe | [In-flight catering from Tanzania to Europe](https://pmc.ncbi.nlm.nih.gov/articles/PMC9151100/) | 22 |
-| 2004 | Canada | [Food handler](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2005-31/restaurant-foodhandler-associated-outbreak-salmonella-heidelberg-gastroenteritis-identified-calls-local-telehealth-service-edmonton.html) | 32 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2018-2019 | Australia | [Unidentified](https://pubmed.ncbi.nlm.nih.gov/34932458/#:~:text=We%20report%20a%20multistate%20Salmonella,indicators%20of%20severity%20and%20invasiveness.) | 59 | Human |
+| 2016 | US: multistate | [Contact with dairy calves](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/heidelberg-11-16/index.html) | 56 | Human |
+| 2013-2014 | US: multistate | [Raw chicken](https://archive.cdc.gov/www_cdc_gov/salmonella/heidelberg-10-13/index.html) | 634 | Human |
+| 2011 | US: multistate | [Kosher broiled chicken livers](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/chicken-liver-1-11-2012.html) | 190 | Human |
+| 2011 | US: multistate | [Ground turkey](https://pubmed.ncbi.nlm.nih.gov/25865382/) | 136 | Human |
+| 2011 | Europe | [In-flight catering from Tanzania to Europe](https://pmc.ncbi.nlm.nih.gov/articles/PMC9151100/) | 22 | Human |
+| 2004 | Canada | [Food handler](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2005-31/restaurant-foodhandler-associated-outbreak-salmonella-heidelberg-gastroenteritis-identified-calls-local-telehealth-service-edmonton.html) | 32 | Human |
 
 ## Border Rejections
 

@@ -26,12 +26,12 @@ Although serovar Kedougou is rare, it has still been reported [worldwide occasio
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2020 | Finland | [Carrot and zucchini salad](https://www.foodsafetynews.com/2020/12/finland-hit-by-two-salmonella-outbreaks-day-care-centers-schools-involved/#more-199804) | 9 |
-| 2008 | Spain | [Infant formula milk](https://www.eurosurveillance.org/images/dynamic/EE/V15N22/art19582.pdf) | 31 |
-| 2006 | Norway | [Salami](https://pubmed.ncbi.nlm.nih.gov/16966755/) | 54 |
-| 1992 | The United Kingdom | [Cooked turkey meat](https://pubmed.ncbi.nlm.nih.gov/1285242/) | NA |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2020 | Finland | [Carrot and zucchini salad](https://www.foodsafetynews.com/2020/12/finland-hit-by-two-salmonella-outbreaks-day-care-centers-schools-involved/#more-199804) | 9 | Human |
+| 2008 | Spain | [Infant formula milk](https://www.eurosurveillance.org/images/dynamic/EE/V15N22/art19582.pdf) | 31 | Human |
+| 2006 | Norway | [Salami](https://pubmed.ncbi.nlm.nih.gov/16966755/) | 54 | Human |
+| 1992 | The United Kingdom | [Cooked turkey meat](https://pubmed.ncbi.nlm.nih.gov/1285242/) | NA | Human |
 
 ## Border Rejections
 

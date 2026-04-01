@@ -28,15 +28,15 @@ Serovar Braenderup is [widely distributed](<https://www.ncbi.nlm.nih.gov/pathoge
 
 Multiple outbreaks linked to serovar Braenderup have been reported; in most of these outbreaks, the associated food was produce. Below are some examples.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2018 | US: multistate | [Shell eggs](https://archive.cdc.gov/www_cdc_gov/salmonella/braenderup-04-18/index.html) | 45 |
-| 2012 | US: multistate | [Mangoes](https://archive.cdc.gov/www_cdc_gov/salmonella/braenderup-08-12/index.html) | 127 |
-| 2011 | England | [Iceberg lettuce](https://www.tandfonline.com/doi/10.1080/09603123.2011.613114?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) | 29 |
-| 2008 | Japan | [Lunch boxes](https://pubmed.ncbi.nlm.nih.gov/21519363/) | 176 |
-| 2005 | US: multistate | [Tomatoes](https://www.cidrap.umn.edu/foodborne-disease/cdc-warns-salmonella-risk-tomatoes) | 82 |
-| 2004 | US: multistate | [Tomatoes](https://pubmed.ncbi.nlm.nih.gov/17274858/) | 125 |
-| 1993 | Switzerland | [Meat pie](<https://www.clinicalmicrobiologyandinfection.com/article/S1198-743X(14)63162-1/fulltext>) | 215 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2018 | US: multistate | [Shell eggs](https://archive.cdc.gov/www_cdc_gov/salmonella/braenderup-04-18/index.html) | 45 | Human |
+| 2012 | US: multistate | [Mangoes](https://archive.cdc.gov/www_cdc_gov/salmonella/braenderup-08-12/index.html) | 127 | Human |
+| 2011 | England | [Iceberg lettuce](https://www.tandfonline.com/doi/10.1080/09603123.2011.613114?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) | 29 | Human |
+| 2008 | Japan | [Lunch boxes](https://pubmed.ncbi.nlm.nih.gov/21519363/) | 176 | Human |
+| 2005 | US: multistate | [Tomatoes](https://www.cidrap.umn.edu/foodborne-disease/cdc-warns-salmonella-risk-tomatoes) | 82 | Human |
+| 2004 | US: multistate | [Tomatoes](https://pubmed.ncbi.nlm.nih.gov/17274858/) | 125 | Human |
+| 1993 | Switzerland | [Meat pie](<https://www.clinicalmicrobiologyandinfection.com/article/S1198-743X(14)63162-1/fulltext>) | 215 | Human |
 
 ## Border Rejections
 

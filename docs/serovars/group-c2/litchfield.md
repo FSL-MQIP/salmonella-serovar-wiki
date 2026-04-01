@@ -26,16 +26,16 @@ Based on the metadata from NCBI PD, serovar Litchfield has been reported [worldw
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated Source | Number of Cases |
-| --- | --- | --- | --- |
-| 2022 | US: multistate | [Raw salmon](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-seafood-october-2022) | 39 |
-| 2019 | Canada | [Italian Style mild, dry, cured sausage](https://www.canada.ca/en/public-health/services/public-health-notices/2019/outbreak-salmonella-sausages.html) | 13 |
-| 2009 | Australia | [Barramundi fillets (suspected)](https://www1.health.gov.au/internet/main/publishing.nsf/Content/cda-cdi3402g.htm) | 76 |
-| 2009 | Spain | [Pet turtles](https://pubmed.ncbi.nlm.nih.gov/22795887/)<sup>1</sup> | 6 |
-| 2008 | Canada & US: multistate | [Cantaloupe](https://marlerclark.com/news_events/cantaloupe-salmonella-litchfield-outbreak) | At least 50 |
-| 2006-2007 | Australia | [Papaya](https://pubmed.ncbi.nlm.nih.gov/19517740/) | 26 |
-| 2003 | Australia | [Cucumbers (suspected)](https://web.archive.org/web/20080603015502/http://www.health.gov.au/internet/wcms/publishing.nsf/Content/cda-pubs-cdi-2003-cdi2704-htm-cdi2704k.htm) | 4 |
-| NA | Australia | Waterborne (suspected)<sup>2</sup> | NA |
+| Year | Location | Associated Source | Number of Cases | Type |
+| --- | --- | --- | --- | --- |
+| 2022 | US: multistate | [Raw salmon](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-seafood-october-2022) | 39 | Human |
+| 2019 | Canada | [Italian Style mild, dry, cured sausage](https://www.canada.ca/en/public-health/services/public-health-notices/2019/outbreak-salmonella-sausages.html) | 13 | Human |
+| 2009 | Australia | [Barramundi fillets (suspected)](https://www1.health.gov.au/internet/main/publishing.nsf/Content/cda-cdi3402g.htm) | 76 | Human |
+| 2009 | Spain | [Pet turtles](https://pubmed.ncbi.nlm.nih.gov/22795887/)<sup>1</sup> | 6 | Human |
+| 2008 | Canada & US: multistate | [Cantaloupe](https://marlerclark.com/news_events/cantaloupe-salmonella-litchfield-outbreak) | At least 50 | Human |
+| 2006-2007 | Australia | [Papaya](https://pubmed.ncbi.nlm.nih.gov/19517740/) | 26 | Human |
+| 2003 | Australia | [Cucumbers (suspected)](https://web.archive.org/web/20080603015502/http://www.health.gov.au/internet/wcms/publishing.nsf/Content/cda-pubs-cdi-2003-cdi2704-htm-cdi2704k.htm) | 4 | Human |
+| NA | Australia | Waterborne (suspected)<sup>2</sup> | NA | Human |
 
 <sup>1</sup> Both *Salmonella* Paratyphi B and Litchfield were involved. The case number does not reflect the number of infections linked to *Salmonella* Litchfield only.
 

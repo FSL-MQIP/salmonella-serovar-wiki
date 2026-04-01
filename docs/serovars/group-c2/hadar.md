@@ -28,14 +28,14 @@ Serovar Hadar has been reported [worldwide such as the US](<https://www.ncbi.nlm
 
 There were multiple human outbreaks of *Salmonella* Hadar. Below are examples.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2021 | US: multistate | [Ground turkey](https://archive.cdc.gov/www_cdc_gov/salmonella/hadar-04-21/details.html#:~:text=As%20of%20May%2017%2C%202021%2C%20a%20total%20of%2033%20people,No%20deaths%20were%20reported.) | 33 |
-| 2012 | US: multistate | [Live poultry](https://archive.cdc.gov/#/details?q=https://www.cdc.gov/salmonella/hadar-live-poultry-07-12/index.html&start=0&rows=10&url=https://www.cdc.gov/salmonella/hadar-live-poultry-07-12/index.html) | 46 |
-| 2011 | US: multistate | [Turkey burgers](https://web.archive.org/web/20140122214727/https://www.cdc.gov/salmonella/hadar0411/040411/index.html) | 12 |
-| 2005 | Spain | [Pre-cooked chicken](<https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(05)70209-7.pdf>) | 2138 |
-| 1997 | Italy | [Roasted rabit](https://pubmed.ncbi.nlm.nih.gov/11078117/#:~:text=In%20August%201997%2C%20an%20outbreak,had%20symptoms%20of%20acute%20gastroenteritis.) | 29 |
-| 1994 | Italy | [Meat salad](https://pubmed.ncbi.nlm.nih.gov/9517880/) | 448 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2021 | US: multistate | [Ground turkey](https://archive.cdc.gov/www_cdc_gov/salmonella/hadar-04-21/details.html#:~:text=As%20of%20May%2017%2C%202021%2C%20a%20total%20of%2033%20people,No%20deaths%20were%20reported.) | 33 | Human |
+| 2012 | US: multistate | [Live poultry](https://archive.cdc.gov/#/details?q=https://www.cdc.gov/salmonella/hadar-live-poultry-07-12/index.html&start=0&rows=10&url=https://www.cdc.gov/salmonella/hadar-live-poultry-07-12/index.html) | 46 | Human |
+| 2011 | US: multistate | [Turkey burgers](https://web.archive.org/web/20140122214727/https://www.cdc.gov/salmonella/hadar0411/040411/index.html) | 12 | Human |
+| 2005 | Spain | [Pre-cooked chicken](<https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(05)70209-7.pdf>) | 2138 | Human |
+| 1997 | Italy | [Roasted rabit](https://pubmed.ncbi.nlm.nih.gov/11078117/#:~:text=In%20August%201997%2C%20an%20outbreak,had%20symptoms%20of%20acute%20gastroenteritis.) | 29 | Human |
+| 1994 | Italy | [Meat salad](https://pubmed.ncbi.nlm.nih.gov/9517880/) | 448 | Human |
 
 ## Border Rejections
 

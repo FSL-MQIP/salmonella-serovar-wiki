@@ -26,10 +26,10 @@ According to the [metadata from NCBI PD](<https://www.ncbi.nlm.nih.gov/pathogens
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| Between 2012 to 2016 | US | [Chicken](https://www.sciencedirect.com/science/article/pii/S0362028X24001157) | 10 |
-| 1994 | US: MD, PA | [Restaurant-related](https://wwwnc.cdc.gov/eid/article/1/3/95-0306_article) | 7 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| Between 2012 to 2016 | US | [Chicken](https://www.sciencedirect.com/science/article/pii/S0362028X24001157) | 10 | Human |
+| 1994 | US: MD, PA | [Restaurant-related](https://wwwnc.cdc.gov/eid/article/1/3/95-0306_article) | 7 | Human |
 
 ## Border Rejections
 

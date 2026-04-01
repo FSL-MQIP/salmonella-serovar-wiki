@@ -30,16 +30,16 @@ Serovar Infantis is distributed [globally and is a common serovar in a number of
 
 Numerous human outbreaks linked to poultry have been reported mainly in the US and Canada. Here are some examples.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html)<sup>1</sup> | 470 |
-| 2019 | US: multistate | [Raw chicken](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/infantis-10-18/index.html) | 129 |
-| 2017 | US: multistate | [Papaya](http://medbox.iiab.me/modules/en-cdc/www.cdc.gov/salmonella/newport-09-17/index.html)<sup>2</sup> | 4 |
-| 2013 | Germany | [Raw pork products](https://pmc.ncbi.nlm.nih.gov/articles/PMC9150579/) | 267 |
-| 2013 | US: multistate | [Live poultry](https://pmc.ncbi.nlm.nih.gov/articles/PMC5779341/)<sup>3</sup> | 158 |
-| 2012 | US: multistate & Canada | [Dry dog food](https://archive.cdc.gov/www_cdc_gov/salmonella/dog-food-05-12/index.html) | 49 |
-| 2012 | US: multistate | [Live poultry](<https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6211a5.htm#:~:text=Initial%20investigations%20indicated%20many%20of%20the%20ill,live%20poultry%20(e.g.%2C%20chicks%20and%20ducklings)%20from>)<sup>4</sup> | 195 |
-| 1999 | Canada | [Pig ear dog treats](https://www.accessdata.fda.gov/cms_ia/importalert_218.html) | 30 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html)<sup>1</sup> | 470 | Human |
+| 2019 | US: multistate | [Raw chicken](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/infantis-10-18/index.html) | 129 | Human |
+| 2017 | US: multistate | [Papaya](http://medbox.iiab.me/modules/en-cdc/www.cdc.gov/salmonella/newport-09-17/index.html)<sup>2</sup> | 4 | Human |
+| 2013 | Germany | [Raw pork products](https://pmc.ncbi.nlm.nih.gov/articles/PMC9150579/) | 267 | Human |
+| 2013 | US: multistate | [Live poultry](https://pmc.ncbi.nlm.nih.gov/articles/PMC5779341/)<sup>3</sup> | 158 | Human |
+| 2012 | US: multistate & Canada | [Dry dog food](https://archive.cdc.gov/www_cdc_gov/salmonella/dog-food-05-12/index.html) | 49 | Human |
+| 2012 | US: multistate | [Live poultry](<https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6211a5.htm#:~:text=Initial%20investigations%20indicated%20many%20of%20the%20ill,live%20poultry%20(e.g.%2C%20chicks%20and%20ducklings)%20from>)<sup>4</sup> | 195 | Human |
+| 1999 | Canada | [Pig ear dog treats](https://www.accessdata.fda.gov/cms_ia/importalert_218.html) | 30 | Human |
 
 <sup>1</sup> Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Infantis.
 

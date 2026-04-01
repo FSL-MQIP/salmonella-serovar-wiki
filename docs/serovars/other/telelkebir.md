@@ -28,10 +28,10 @@ Serovar Telelkebir seems to be [globally distributed](https://www.frontiersin.or
 
 Outbreaks have been associated with *S.* Telelkebir.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2025 | US: multistate | [oysters](https://www.cdc.gov/salmonella/outbreaks/oysters-12-25/index.html) | 80 |
-| 1990s (documented in 1999) | Ireland | [Pet terrapins](https://www.sciencedirect.com/science/article/pii/S0163445399902487?via%3Dihub) | 8 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2025 | US: multistate | [oysters](https://www.cdc.gov/salmonella/outbreaks/oysters-12-25/index.html) | 80 | Human |
+| 1990s (documented in 1999) | Ireland | [Pet terrapins](https://www.sciencedirect.com/science/article/pii/S0163445399902487?via%3Dihub) | 8 | Human |
 
 
 ## Border Rejections

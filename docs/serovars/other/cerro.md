@@ -28,11 +28,11 @@ Serovar Cerro has been reported [worldwide](https://www.frontiersin.org/journals
 
 Multiple outbreaks of human salmonellosis due to serovar Cerro have been reported. Below are a few examples.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2024 | US: Multi-state | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/?CDC_AAref_Val=https://www.cdc.gov/salmonella/backyardpoultry-05-24/index.html) | 470<sup>1</sup> |
-| 2012 | US: Arkansas | [Eggs, chicken salad, person-to-person](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6308a2.htm) | 6<sup>2</sup> |
-| 1985 | US: New Mexico | [Beef jerky](https://www.cdc.gov/Mmwr/preview/mmwrhtml/00000628.htm) | 29 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2024 | US: Multi-state | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/?CDC_AAref_Val=https://www.cdc.gov/salmonella/backyardpoultry-05-24/index.html) | 470<sup>1</sup> | Human |
+| 2012 | US: Arkansas | [Eggs, chicken salad, person-to-person](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6308a2.htm) | 6<sup>2</sup> | Human |
+| 1985 | US: New Mexico | [Beef jerky](https://www.cdc.gov/Mmwr/preview/mmwrhtml/00000628.htm) | 29 | Human |
 
 <sup>1</sup> Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Cerro.
 

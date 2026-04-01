@@ -28,9 +28,9 @@ According to the metadata from NCBI PD (accessed 05/13/2025), serovar Orion has 
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2019-2021 | EU: multi-country | [Halva or tahini from Syria](https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-multi-country-outbreak-multiple-salmonella-enterica)<sup>1</sup> | 121 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2019-2021 | EU: multi-country | [Halva or tahini from Syria](https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-multi-country-outbreak-multiple-salmonella-enterica)<sup>1</sup> | 121 | Human |
 
 <sup>1</sup> *Salmonella* Amsterdam, Havana, Kintambo, Mbandaka, Orion, and Senftenberg were involved in this outbreak. The case number here only reflects the total number of people who got infected, not just those infected by serovar Orion.
 

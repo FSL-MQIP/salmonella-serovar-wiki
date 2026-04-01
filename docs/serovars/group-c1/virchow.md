@@ -30,14 +30,14 @@ According to the metadata from NCBI PD, serovar Virchow has been reported in [wo
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2017-2023 | Multiple countries | [Kebab meat containing chicken](https://www.ecdc.europa.eu/en/publications-data/salmonella-virchow-st16-chicken-meat) | 210<sup>1</sup> |
-| 2016 | US: multistate | [Organic meal & shake powder](https://archive.cdc.gov/www_cdc_gov/salmonella/virchow-02-16/index.html) | 33 |
-| 2012 | US: WA | [Undetermined](https://www.marlerblog.com/legal-cases/largest-salmonella-outbreak-in-washington-2012-on-the-border/) | At least 120<sup>2</sup> |
-| 1994 | Spain | [Infant formula](https://www.makefoodsafe.com/infant-formula-and-salmonella/) | 48 |
-| 1994 | UK | [Turkey sandwiches](<https://www.journalofhospitalinfection.com/article/S0195-6701(99)90712-0/abstract>) | 11<sup>3</sup> |
-| 1968 | UK | [Spit-roasted chicken](https://pubmed.ncbi.nlm.nih.gov/5750404/) | Over 160 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2017-2023 | Multiple countries | [Kebab meat containing chicken](https://www.ecdc.europa.eu/en/publications-data/salmonella-virchow-st16-chicken-meat) | 210<sup>1</sup> | Human |
+| 2016 | US: multistate | [Organic meal & shake powder](https://archive.cdc.gov/www_cdc_gov/salmonella/virchow-02-16/index.html) | 33 | Human |
+| 2012 | US: WA | [Undetermined](https://www.marlerblog.com/legal-cases/largest-salmonella-outbreak-in-washington-2012-on-the-border/) | At least 120<sup>2</sup> | Human |
+| 1994 | Spain | [Infant formula](https://www.makefoodsafe.com/infant-formula-and-salmonella/) | 48 | Human |
+| 1994 | UK | [Turkey sandwiches](<https://www.journalofhospitalinfection.com/article/S0195-6701(99)90712-0/abstract>) | 11<sup>3</sup> | Human |
+| 1968 | UK | [Spit-roasted chicken](https://pubmed.ncbi.nlm.nih.gov/5750404/) | Over 160 | Human |
 
 <sup>1</sup> *Salmonella* Virchow ST16 is the outbreak strain. In total, 210 cases have been reported across several countries, including Denmark (2), France (111), Germany (26), Ireland (4), the Netherlands (34), the UK (32), and the US (1).
 

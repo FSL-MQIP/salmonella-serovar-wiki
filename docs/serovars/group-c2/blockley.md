@@ -26,12 +26,12 @@ Serovar Blockley has been reported [worldwide](<https://www.ncbi.nlm.nih.gov/pat
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2019 | US: NY | [Chicken](https://www.cdc.gov/mmwr/volumes/69/wr/mm6926a2.htm) | 10 |
-| 1998 | Germany | [Smoked eel](https://pmc.ncbi.nlm.nih.gov/articles/PMC2869563/) | 13 |
-| 1998 | Greece | [Unknown](https://wwwnc.cdc.gov/eid/article/6/1/00-0111_article) | 35 |
-| 1966 | US: MA | [Frozen unpasteurized egg yolks](https://jamanetwork.com/journals/jama/article-abstract/336687) | 167 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2019 | US: NY | [Chicken](https://www.cdc.gov/mmwr/volumes/69/wr/mm6926a2.htm) | 10 | Human |
+| 1998 | Germany | [Smoked eel](https://pmc.ncbi.nlm.nih.gov/articles/PMC2869563/) | 13 | Human |
+| 1998 | Greece | [Unknown](https://wwwnc.cdc.gov/eid/article/6/1/00-0111_article) | 35 | Human |
+| 1966 | US: MA | [Frozen unpasteurized egg yolks](https://jamanetwork.com/journals/jama/article-abstract/336687) | 167 | Human |
 
 ## Border Rejections
 

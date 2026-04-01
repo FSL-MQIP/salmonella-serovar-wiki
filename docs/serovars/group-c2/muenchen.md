@@ -28,20 +28,20 @@ Serovar Muenchen has been found [worldwide](<https://www.ncbi.nlm.nih.gov/pathog
 
 Multiple human outbreaks have been linked to serovar Muenchen. Below are some examples.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2024-2025 | US: multistate | [Geckos](https://www.cdc.gov/salmonella/outbreaks/muenchen-03-25/investigation.html#:~:text=This%20means%20that%20people%20in,strain%2C%20also%20linked%20to%20geckos.) | 14 |
-| 2023 | Denmark | [Unknown](https://www.food.dtu.dk/english/newsarchive/2024/06/more-outbreaks-of-salmonella-in-2023) | 31 |
-| 2020 | Germany | [Coconut pieces or flakes](https://www.foodsafetynews.com/2021/12/salmonella-behind-a-quarter-of-eu-outbreaks-in-2020-with-20000-sickened/) | 161 |
-| 2016 | US: multistate | [Alfalfa sprouts](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/muenchen-02-16/index.html) | 26<sup>1</sup> |
-| 2014 | Germany | [Raw pork sausage](https://pubmed.ncbi.nlm.nih.gov/28494842/) | 247 |
-| 2013 | Germany | [Raw pork](https://pubmed.ncbi.nlm.nih.gov/28494842/) | 203 |
-| 2003 | US: multistate | [Cantaloupe, honeydew melon](https://outbreakdatabase.com/outbreaks/2003-outbreak-of-salmonella-muenchen-linked-to-cantaloupehoneydew-melon) | 58 |
-| 2001 | Germany | [Pork](https://www.sciencedirect.com/science/article/pii/S0362028X22009164?via%3Dihub) | 198 |
-| 1999 | US: multistate | [Alfalfa sprouts](https://pmc.ncbi.nlm.nih.gov/articles/PMC88372/) | At least 157 |
-| 1999 | US: multistate, Canada | [Orange juice](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm4827a2.htm) | 298 |
-| 1997 | Australia | [Corn beef](https://www1.health.gov.au/internet/main/publishing.nsf/content/cda-cdi2109-pdf-cnt.htm/$FILE/cdi2109b.pdf) | 24 |
-| 1980 | London | [Nosocomial in pediatric hospital](https://www.sciencedirect.com/science/article/pii/0195670182900652#:~:text=An%20outbreak%20of%20Salmonella%20muenchen%20infection%20involving%2028%20children%20and,occurred%20in%20two%20immunodeficient%20patients.) | 30 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2024-2025 | US: multistate | [Geckos](https://www.cdc.gov/salmonella/outbreaks/muenchen-03-25/investigation.html#:~:text=This%20means%20that%20people%20in,strain%2C%20also%20linked%20to%20geckos.) | 14 | Human |
+| 2023 | Denmark | [Unknown](https://www.food.dtu.dk/english/newsarchive/2024/06/more-outbreaks-of-salmonella-in-2023) | 31 | Human |
+| 2020 | Germany | [Coconut pieces or flakes](https://www.foodsafetynews.com/2021/12/salmonella-behind-a-quarter-of-eu-outbreaks-in-2020-with-20000-sickened/) | 161 | Human |
+| 2016 | US: multistate | [Alfalfa sprouts](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/muenchen-02-16/index.html) | 26<sup>1</sup> | Human |
+| 2014 | Germany | [Raw pork sausage](https://pubmed.ncbi.nlm.nih.gov/28494842/) | 247 | Human |
+| 2013 | Germany | [Raw pork](https://pubmed.ncbi.nlm.nih.gov/28494842/) | 203 | Human |
+| 2003 | US: multistate | [Cantaloupe, honeydew melon](https://outbreakdatabase.com/outbreaks/2003-outbreak-of-salmonella-muenchen-linked-to-cantaloupehoneydew-melon) | 58 | Human |
+| 2001 | Germany | [Pork](https://www.sciencedirect.com/science/article/pii/S0362028X22009164?via%3Dihub) | 198 | Human |
+| 1999 | US: multistate | [Alfalfa sprouts](https://pmc.ncbi.nlm.nih.gov/articles/PMC88372/) | At least 157 | Human |
+| 1999 | US: multistate, Canada | [Orange juice](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm4827a2.htm) | 298 | Human |
+| 1997 | Australia | [Corn beef](https://www1.health.gov.au/internet/main/publishing.nsf/content/cda-cdi2109-pdf-cnt.htm/$FILE/cdi2109b.pdf) | 24 | Human |
+| 1980 | London | [Nosocomial in pediatric hospital](https://www.sciencedirect.com/science/article/pii/0195670182900652#:~:text=An%20outbreak%20of%20Salmonella%20muenchen%20infection%20involving%2028%20children%20and,occurred%20in%20two%20immunodeficient%20patients.) | 30 | Human |
 
 1 Twenty-six people infected with the outbreak strains of Salmonella Muenchen (25 people) or Salmonella Kentucky (1 person) were reported from 12 states.
 

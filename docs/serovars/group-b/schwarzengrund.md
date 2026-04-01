@@ -28,14 +28,14 @@ Poultry is the [main reservoir](https://doi.org/10.3201/eid1305.061489) of *S.* 
 
 Outbreaks associated with *S.* Schwarzengrund have been reported in the US; in addition, in Denmark cases have been linked to Thai food products.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2022 | Europe: multi-country | [Black pepper suspected](https://www.ecdc.europa.eu/sites/default/files/documents/SALM_AER_2022_Report.pdf) | Not reported |
-| 2019 | US - multistate | [Ground turkey](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/schwarzengrund-03-19/index.html) | 7 |
-| 2018 | China | [Spiced donkey meat](https://doi.org/10.1016/j.ijbiomac.2017.09.005) | 4 |
-| 2007 | US - Massachusetts | [Exposure to poultry from live bird-market](https://wwwnc.cdc.gov/eid/article/20/1/13-1179_article) | 62 |
-| 2007 | US - multistate | [Dry pet food](https://doi.org/10.1542/peds.2009-3273) | 79 |
-| 1996-2000 | US - Oregon | [Person-to-person](https://www.nejm.org/doi/full/10.1056/NEJM200105243442102) | 11 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2022 | Europe: multi-country | [Black pepper suspected](https://www.ecdc.europa.eu/sites/default/files/documents/SALM_AER_2022_Report.pdf) | Not reported | Human |
+| 2019 | US - multistate | [Ground turkey](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/schwarzengrund-03-19/index.html) | 7 | Human |
+| 2018 | China | [Spiced donkey meat](https://doi.org/10.1016/j.ijbiomac.2017.09.005) | 4 | Human |
+| 2007 | US - Massachusetts | [Exposure to poultry from live bird-market](https://wwwnc.cdc.gov/eid/article/20/1/13-1179_article) | 62 | Human |
+| 2007 | US - multistate | [Dry pet food](https://doi.org/10.1542/peds.2009-3273) | 79 | Human |
+| 1996-2000 | US - Oregon | [Person-to-person](https://www.nejm.org/doi/full/10.1056/NEJM200105243442102) | 11 | Human |
 
 ## Border Rejections
 

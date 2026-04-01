@@ -24,13 +24,13 @@ Serovar Indiana has been reported [worldwide](<https://www.ncbi.nlm.nih.gov/path
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated food | Number of cases |
-| --- | --- | --- | --- |
-| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html)<sup>1</sup> | 470 |
-| 2015 | US: multistate | [Backyard poultry](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/live-poultry-07-15/index.html) | 68 |
-| 1986 | UK | [Not identified](https://academic.oup.com/jpubhealth/article/9/4/365/1561367) | 5 infants + 7 adults |
-| 1981 | Netherlands | [Salad base](https://www.sciencedirect.com/science/article/pii/0168160585900388) | Estimated 600-700 |
-| 1967 | US: PA | [Unpasteurized cup cheese](https://pmc.ncbi.nlm.nih.gov/articles/PMC1920039/pdf/pubhealthreporig00030-0085.pdf) | NA |
+| Year | Location | Associated food | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html)<sup>1</sup> | 470 | Human |
+| 2015 | US: multistate | [Backyard poultry](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/live-poultry-07-15/index.html) | 68 | Human |
+| 1986 | UK | [Not identified](https://academic.oup.com/jpubhealth/article/9/4/365/1561367) | 5 infants + 7 adults | Human |
+| 1981 | Netherlands | [Salad base](https://www.sciencedirect.com/science/article/pii/0168160585900388) | Estimated 600-700 | Human |
+| 1967 | US: PA | [Unpasteurized cup cheese](https://pmc.ncbi.nlm.nih.gov/articles/PMC1920039/pdf/pubhealthreporig00030-0085.pdf) | NA | Human |
 
 <sup>1</sup> Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandanka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Indiana.
 

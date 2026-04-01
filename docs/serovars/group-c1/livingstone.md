@@ -26,12 +26,12 @@ Serovar Livingstone has been reported [worldwide](https://pmc.ncbi.nlm.nih.gov/a
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2023-2024 | US: Utah | [Restaurant-related (no common source was identified)](https://pubmed.ncbi.nlm.nih.gov/38870481/) | 11 |
-| 2002 | Tunisia | [Nosocomial](https://pmc.ncbi.nlm.nih.gov/articles/PMC1081247/) | 16 |
-| 2001 | Norway, Sweden | [Processed fish products](https://www.jstor.org/stable/3865763?seq=1) | 44 in Norway, 16 In Sweden |
-| 1989-1991 | Scotland | [Not identified](https://www.microbiologyresearch.org/content/journal/jmm/10.1099/00222615-40-2-139) | 71 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2023-2024 | US: Utah | [Restaurant-related (no common source was identified)](https://pubmed.ncbi.nlm.nih.gov/38870481/) | 11 | Human |
+| 2002 | Tunisia | [Nosocomial](https://pmc.ncbi.nlm.nih.gov/articles/PMC1081247/) | 16 | Human |
+| 2001 | Norway, Sweden | [Processed fish products](https://www.jstor.org/stable/3865763?seq=1) | 44 in Norway, 16 In Sweden | Human |
+| 1989-1991 | Scotland | [Not identified](https://www.microbiologyresearch.org/content/journal/jmm/10.1099/00222615-40-2-139) | 71 | Human |
 
 Animal outbreaks:
 

@@ -26,12 +26,12 @@ Serovar Hartford has been found in [the US, Canada, Australia, the UK](<https://
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated Source | Number of Cases |
-| --- | --- | --- | --- |
-| 2023 | US: multistate | [Not identified](https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks) | 54 |
-| 2014 | US: multistate | [Organic sprouted chia powder](https://archive.cdc.gov/www_cdc_gov/salmonella/newport-05-14/index.html)<sup>1</sup> | 31 |
-| 2010 | US: multistate | [Not identified](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/2010/restaurant-chain-a-8-4-10.html) | 75 |
-| 1995 | US: FL | [Unpasteurized orange juice](https://jamanetwork.com/journals/jama/fullarticle/188128)<sup>2</sup> | 62 |
+| Year | Location | Associated Source | Number of Cases | Type |
+| --- | --- | --- | --- | --- |
+| 2023 | US: multistate | [Not identified](https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks) | 54 | Human |
+| 2014 | US: multistate | [Organic sprouted chia powder](https://archive.cdc.gov/www_cdc_gov/salmonella/newport-05-14/index.html)<sup>1</sup> | 31 | Human |
+| 2010 | US: multistate | [Not identified](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/2010/restaurant-chain-a-8-4-10.html) | 75 | Human |
+| 1995 | US: FL | [Unpasteurized orange juice](https://jamanetwork.com/journals/jama/fullarticle/188128)<sup>2</sup> | 62 | Human |
 
 <sup>1</sup> *Salmonella* Newport (20 cases), *Salmonella* Hartford (7 cases), or *Salmonella* Oranienburg (4 cases)
 

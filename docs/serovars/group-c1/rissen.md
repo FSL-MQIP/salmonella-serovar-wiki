@@ -30,10 +30,10 @@ Serotype Rissen has been reported especially in Asian countries such as Thailand
 
 Two outbreaks linked to *Salmonella* Rissen have been associated with food. Some examples are shown below.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2020 | France | [Fuet from Spain](https://www.foodsafetynews.com/2020/10/authorities-act-against-spanish-firm-linked-to-salmonella-outbreak/) | 18 |
-| 2008-2009 | US: multistate | [White pepper](https://www.foodsafetynews.com/2010/08/how-salmonella-rissen-came-to-america/) | 87 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2020 | France | [Fuet from Spain](https://www.foodsafetynews.com/2020/10/authorities-act-against-spanish-firm-linked-to-salmonella-outbreak/) | 18 | Human |
+| 2008-2009 | US: multistate | [White pepper](https://www.foodsafetynews.com/2010/08/how-salmonella-rissen-came-to-america/) | 87 | Human |
 
 ## Border Rejections
 

@@ -26,11 +26,11 @@ Serovar Altona has been reported [worldwide such as the US and the UK.](<https:/
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2024 | US: multistate | [Backyard poultry](https://www.cidrap.umn.edu/salmonella/salmonella-outbreak-backyard-poultry-expands-38-states) | 470<sup>1</sup> |
-| 2019 | US: multistate | [Backyard poultry](https://www.sciencedirect.com/science/article/pii/S2405844022028596) | 1,134<sup>2</sup> |
-| 2011 | US: multistate | [Chicks and ducklings](https://pubmed.ncbi.nlm.nih.gov/22437914/) | 96<sup>3</sup> |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2024 | US: multistate | [Backyard poultry](https://www.cidrap.umn.edu/salmonella/salmonella-outbreak-backyard-poultry-expands-38-states) | 470<sup>1</sup> | Human |
+| 2019 | US: multistate | [Backyard poultry](https://www.sciencedirect.com/science/article/pii/S2405844022028596) | 1,134<sup>2</sup> | Human |
+| 2011 | US: multistate | [Chicks and ducklings](https://pubmed.ncbi.nlm.nih.gov/22437914/) | 96<sup>3</sup> | Human |
 
 <sup>1</sup> The outbreak was initially associated with five *Salmonella* serovars: Altona, Indiana, Infantis, Mbandaka, and Typhimurium. The CDC indicated that two more-Cerro and Johannesburg-have been implicated in the illnesses.
 

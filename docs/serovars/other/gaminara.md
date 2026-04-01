@@ -26,10 +26,10 @@ Serovar Gaminara has been mainly found in [the US and European countries such as
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2017 | US: multistate | [Maradol papayas](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/kiambu-07-17/index.html) | 220<sup>1</sup> |
-| 1995 | US: FL | [Unpasteurized orange juice](https://jamanetwork.com/journals/jama/fullarticle/188128) | 62<sup>2</sup> |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2017 | US: multistate | [Maradol papayas](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/kiambu-07-17/index.html) | 220<sup>1</sup> | Human |
+| 1995 | US: FL | [Unpasteurized orange juice](https://jamanetwork.com/journals/jama/fullarticle/188128) | 62<sup>2</sup> | Human |
 
 <sup>1</sup> A total of 220 people infected with the outbreak strains of *Salmonella* Thompson (144), *Salmonella* Kiambu (54), *Salmonella* Agona (12), *Salmonella* Gaminara (7), and *Salmonella* Senftenberg (3) were reported from 23 states.
 

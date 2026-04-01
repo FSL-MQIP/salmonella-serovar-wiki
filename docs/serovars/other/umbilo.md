@@ -26,9 +26,9 @@ Serovar Umbilo has been reported in [Turkey](https://pmc.ncbi.nlm.nih.gov/articl
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| [2024](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2024.29.46.2400728) | Europe: multi-country | Rocket salad (also known as arugula or rucola) from Italy | 158<sup>1</sup> |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| [2024](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2024.29.46.2400728) | Europe: multi-country | Rocket salad (also known as arugula or rucola) from Italy | 158<sup>1</sup> | Human |
 
 <sup>1</sup>158 cases of serovar Umbilo have been reported across 3 EU/EEA countries. The cases were distributed as follows: Germany (117), Denmark (22), and Austria (19). Through EpiPulse, six other European countries each reported between one and 20 cases of serovar Umbilo.
 

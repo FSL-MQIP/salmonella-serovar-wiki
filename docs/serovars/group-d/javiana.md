@@ -28,13 +28,13 @@ Serovar Javiana has been reported [worldwide](https://pmc.ncbi.nlm.nih.gov/artic
 
 Multiple human outbreaks of serovar Javiana have been associated with fresh produce. Here are some examples.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2021 | US: multistate | [Pre-cut cantaloupe](https://outbreakdatabase.com/outbreaks/2021-multistate-outbreak-of-salmonella-javiana-infections-associated-with-cantaloupe) | 70 |
-| 2019-2020 | US: multistate | [Fresh cut fruit](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/javiana-12-19/index.html) | 165 |
-| 2002 | US: Florida | [Tomatoes](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5131a2.htm) | 141 |
-| 2001 | US: Mississippi | [Amphibian](https://pubmed.ncbi.nlm.nih.gov/15061502/#:~:text=Salmonella%20Javiana%20is%20a%20Salmonella,infections%20in%20Mississippi%20increased%20sevenfold.) | 55 |
-| 1993 | Germany | [Paprika & paprika-powdered potato chips<sup>1</sup>](https://pmc.ncbi.nlm.nih.gov/articles/PMC2271603/) | Estimated 1000 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2021 | US: multistate | [Pre-cut cantaloupe](https://outbreakdatabase.com/outbreaks/2021-multistate-outbreak-of-salmonella-javiana-infections-associated-with-cantaloupe) | 70 | Human |
+| 2019-2020 | US: multistate | [Fresh cut fruit](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/javiana-12-19/index.html) | 165 | Human |
+| 2002 | US: Florida | [Tomatoes](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5131a2.htm) | 141 | Human |
+| 2001 | US: Mississippi | [Amphibian](https://pubmed.ncbi.nlm.nih.gov/15061502/#:~:text=Salmonella%20Javiana%20is%20a%20Salmonella,infections%20in%20Mississippi%20increased%20sevenfold.) | 55 | Human |
+| 1993 | Germany | [Paprika & paprika-powdered potato chips<sup>1</sup>](https://pmc.ncbi.nlm.nih.gov/articles/PMC2271603/) | Estimated 1000 | Human |
 
 <sup>1</sup>*Salmonella* Saintpaul and Rubislaw were also involved.
 

@@ -32,19 +32,19 @@ This serovar is [globally](https://pmc.ncbi.nlm.nih.gov/articles/PMC11942379/) d
 
 Multiple human outbreaks associated with serovar Saintpaul have been reported, linked to a variety of commodities. Below are some examples.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2025-2026 | United States | [Mangoes](https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks) | 56 |
-| 2025 | UK | [Unknown](https://www.foodpoisoningnews.com/mystery-salmonella-outbreak-hospitalizes-five-sickens-25-across-uk/) | 25 |
-| 2023 | UK and Portugal | [Cantaloupe melon](https://pubmed.ncbi.nlm.nih.gov/38705587/) | 98 (93 in the UK and 5 in Portugal) |
-| 2016 | US: Utah | [Raw milk](https://www.ksl.com/article/41279440/salmonella-outbreak-linked-to-raw-milk-sold-in-midway) | 9 |
-| 2016 | Australia | [Mung bean sprouts](https://www.foodsafetynews.com/2021/11/salmonella-top-cause-of-foodborne-outbreaks-in-australia/) | 419 |
-| 2013 | US: multistate | [Imported cucumber](https://archive.cdc.gov/www_cdc_gov/salmonella/saintpaul-04-13/index.html) | 84 |
-| 2009 | US: multistate | [Raw alfalfa sprouts](https://archive.cdc.gov/www_cdc_gov/salmonella/2009/raw-alfalfa-sprouts-5-8-2009.html) | 235 |
-| 2008 | US: multistate & Canada | [Jalapeño and serrano peppers from Mexico](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5734a1.htm) | 1442 |
-| 2006 | Australia | [Cantaloupe](https://www.jstor.org/stable/25476916?seq=1) | 115 |
-| 1999 | Australia | [Drinking water](https://pubmed.ncbi.nlm.nih.gov/11190815/) | 28 |
-| 1993 | Germany | [Paprika & paprika-powdered potato chips](https://pubmed.ncbi.nlm.nih.gov/8557082/#:~:text=Between%20April%20and%20September%201993,were%20found%20in%20the%20snacks.)<sup>1</sup> | Estimated 1000 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2025-2026 | United States | [Mangoes](https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks) | 56 | Human |
+| 2025 | UK | [Unknown](https://www.foodpoisoningnews.com/mystery-salmonella-outbreak-hospitalizes-five-sickens-25-across-uk/) | 25 | Human |
+| 2023 | UK and Portugal | [Cantaloupe melon](https://pubmed.ncbi.nlm.nih.gov/38705587/) | 98 (93 in the UK and 5 in Portugal) | Human |
+| 2016 | US: Utah | [Raw milk](https://www.ksl.com/article/41279440/salmonella-outbreak-linked-to-raw-milk-sold-in-midway) | 9 | Human |
+| 2016 | Australia | [Mung bean sprouts](https://www.foodsafetynews.com/2021/11/salmonella-top-cause-of-foodborne-outbreaks-in-australia/) | 419 | Human |
+| 2013 | US: multistate | [Imported cucumber](https://archive.cdc.gov/www_cdc_gov/salmonella/saintpaul-04-13/index.html) | 84 | Human |
+| 2009 | US: multistate | [Raw alfalfa sprouts](https://archive.cdc.gov/www_cdc_gov/salmonella/2009/raw-alfalfa-sprouts-5-8-2009.html) | 235 | Human |
+| 2008 | US: multistate & Canada | [Jalapeño and serrano peppers from Mexico](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5734a1.htm) | 1442 | Human |
+| 2006 | Australia | [Cantaloupe](https://www.jstor.org/stable/25476916?seq=1) | 115 | Human |
+| 1999 | Australia | [Drinking water](https://pubmed.ncbi.nlm.nih.gov/11190815/) | 28 | Human |
+| 1993 | Germany | [Paprika & paprika-powdered potato chips](https://pubmed.ncbi.nlm.nih.gov/8557082/#:~:text=Between%20April%20and%20September%201993,were%20found%20in%20the%20snacks.)<sup>1</sup> | Estimated 1000 | Human |
 
 <sup>1</sup> Serovar Javiana and Rubislaw were also involved. The case number here does not reflect the total number of people only infected by *Salmonella* Saintpaul.
 

@@ -26,11 +26,11 @@ Serovar Ohio has been reported [worldwide](<https://www.ncbi.nlm.nih.gov/pathoge
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2005 | Belgium | [Pork](https://www.sciencedirect.com/science/article/pii/S0362028X22109610) | 60 |
-| 2004 | Belgium | [Unknown](https://www.sciencedirect.com/science/article/pii/S0362028X22109610#bb0060) | 29 |
-| 1998 | Spain | [Waterborne](https://pubmed.ncbi.nlm.nih.gov/9666586/) | 59 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2005 | Belgium | [Pork](https://www.sciencedirect.com/science/article/pii/S0362028X22109610) | 60 | Human |
+| 2004 | Belgium | [Unknown](https://www.sciencedirect.com/science/article/pii/S0362028X22109610#bb0060) | 29 | Human |
+| 1998 | Spain | [Waterborne](https://pubmed.ncbi.nlm.nih.gov/9666586/) | 59 | Human |
 
 ## Border Rejections
 

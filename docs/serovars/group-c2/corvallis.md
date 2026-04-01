@@ -26,9 +26,9 @@ Serovar Corvallis has been found [globally](https://onehealthadv.biomedcentral.c
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2001 | Japan | [Lunch (suspected)](https://www.niid.go.jp/niid/images/JJID/LEC-124.pdf)<sup>1</sup> | 7 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2001 | Japan | [Lunch (suspected)](https://www.niid.go.jp/niid/images/JJID/LEC-124.pdf)<sup>1</sup> | 7 | Human |
 
 <sup>1</sup> Four *Salmonella* isolates were obtained from the lunch including three Brandenburg isolates from three dishes and one Corvallis isolate from another dish.
 

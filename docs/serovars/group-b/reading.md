@@ -24,12 +24,12 @@ Animal reservoir: Poultry and swine are the implicated reservoirs for serovar Re
 
 Several outbreaks linked to *S.* Reading have been reported.
 
-| Year | Location | Associated product | Number of cases |
-| --- | --- | --- | --- |
-| 2018 | US-multistate | [Turkey Products](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/reading-07-18/index.html) | 358 |
-| 2016 | US-multistate | [Alfalfa sprouts](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/reading-08-16/index.html) | 36<sup>1</sup> |
-| 2008 | Finland | [Iceberg Lettuce](https://doi.org/10.4315/0362-028X.JFP-10-455) | 107<sup>2</sup> |
-| 1956-1957 | US-multistate | [Unknown](https://pmc.ncbi.nlm.nih.gov/articles/PMC1951708/?page=10) | 283 |
+| Year | Location | Associated product | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2018 | US-multistate | [Turkey Products](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/reading-07-18/index.html) | 358 | Human |
+| 2016 | US-multistate | [Alfalfa sprouts](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/reading-08-16/index.html) | 36<sup>1</sup> | Human |
+| 2008 | Finland | [Iceberg Lettuce](https://doi.org/10.4315/0362-028X.JFP-10-455) | 107<sup>2</sup> | Human |
+| 1956-1957 | US-multistate | [Unknown](https://pmc.ncbi.nlm.nih.gov/articles/PMC1951708/?page=10) | 283 | Human |
 
 <sup>1</sup>There were 30 cases associated with serovar Reading, 5 cases associated with serovars Reading and Abony, and 1 case associated with serovar Abony.
 

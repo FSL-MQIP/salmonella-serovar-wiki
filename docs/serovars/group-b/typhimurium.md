@@ -34,24 +34,24 @@ Serovar Typhimurium is [globally distributed](https://www.liebertpub.com/doi/10.
 
 Numerous outbreaks have been associated with *S.* Typhimurium. Human outbreaks have been linked to a number of foods and to contact with animals (chicks, ducklings, and other live animals). Below are some examples.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2024-2025 | US: multistate | [Cucumbers](https://www.cdc.gov/salmonella/outbreaks/cucumbers-11-24/index.html) | 113 |
-| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html#:~:text=As%20of%20June%2020%2C%202024,No%20deaths%20have%20been%20reported.)<sup>1</sup> | 470 |
-| 2023-2025 | Europe: multi-country | [Alfalfa sprouts](https://www.food-safety.com/articles/10195-salmonella-outbreak-linked-to-sprouts-sickened-509-people-over-two-years-in-ten-european-countries) | 509 |
-| 2018 | US: multistate | [Chicken salad](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-02-18/index.html) | 265 |
-| 2018 | US: multistate | [Dried coconut](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-03-18/index.html) | 14 |
-| 2013 | US: multistate | [Live poultry](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-live-poultry-04-13/index.html) | 356 |
-| 2013 | US: multistate | [Ground beef](https://marlerclark.com/macomb-county-salmonella-outbreak-traced-to-ground-beef#:~:text=At%20least%2022%20people%20from,for%20Disease%20Control%20and%20Prevention.) | At least 22 |
-| 2012 | Canada | [Ground beef](https://www.cbc.ca/news/canada/ottawa/salmonella-found-in-ottawa-caterer-s-ground-beef-1.1150870#:~:text=Social%20Sharing,week%20while%20the%20investigation%20continues.) | 50 |
-| 2012 | US: multistate | [Pet hedgehogs](<https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-hedgehogs-09-12/index.html#:~:text=of%20this%20outbreak.-,A%20total%20of%2026%20persons%20infected%20with%20the%20outbreak%20strain,%2C%20and%20Washington%20(7).>) | 26 |
-| 2012 | US: multistate | [Cantaloupe](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-cantaloupe-08-12/index.html#:~:text=illness%20is%20reported.-,Recall,although%20further%20shipment%20was%20likely.)<sup>2</sup> | 261 |
-| 2011 | US: multistate | [Ground beef](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/ground-beef-2-1-2012.html#:~:text=The%20outbreak%20strain%20of%20Salmonella,Salmonella%20Infection%20for%20more%20details.) | 20 |
-| 2011 | US: multistate | [African dwarf frogs](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/water-frog-7-20-2011.html) | 241 |
-| 2011 | England | [Hog roast](https://www.liebertpub.com/doi/10.1089/fpd.2013.1513#:~:text=Between%20July%20and%20September%202011,two%20discrete%20but%20linked%20outbreaks.) | 24 |
-| 2009-2011 | Ireland | [Duck eggs](https://pubmed.ncbi.nlm.nih.gov/23611032/) | 34 |
-| 2009 | England | [Unknown](https://outbreakdatabase.com/outbreaks/canterbury-england-unknown-2009) | 14 |
-| 2008-2009 | US: multistate | [Peanut butter](https://archive.cdc.gov/www_cdc_gov/salmonella/2009/peanut-butter-2008-2009.html) | 714 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2024-2025 | US: multistate | [Cucumbers](https://www.cdc.gov/salmonella/outbreaks/cucumbers-11-24/index.html) | 113 | Human |
+| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html#:~:text=As%20of%20June%2020%2C%202024,No%20deaths%20have%20been%20reported.)<sup>1</sup> | 470 | Human |
+| 2023-2025 | Europe: multi-country | [Alfalfa sprouts](https://www.food-safety.com/articles/10195-salmonella-outbreak-linked-to-sprouts-sickened-509-people-over-two-years-in-ten-european-countries) | 509 | Human |
+| 2018 | US: multistate | [Chicken salad](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-02-18/index.html) | 265 | Human |
+| 2018 | US: multistate | [Dried coconut](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-03-18/index.html) | 14 | Human |
+| 2013 | US: multistate | [Live poultry](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-live-poultry-04-13/index.html) | 356 | Human |
+| 2013 | US: multistate | [Ground beef](https://marlerclark.com/macomb-county-salmonella-outbreak-traced-to-ground-beef#:~:text=At%20least%2022%20people%20from,for%20Disease%20Control%20and%20Prevention.) | At least 22 | Human |
+| 2012 | Canada | [Ground beef](https://www.cbc.ca/news/canada/ottawa/salmonella-found-in-ottawa-caterer-s-ground-beef-1.1150870#:~:text=Social%20Sharing,week%20while%20the%20investigation%20continues.) | 50 | Human |
+| 2012 | US: multistate | [Pet hedgehogs](<https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-hedgehogs-09-12/index.html#:~:text=of%20this%20outbreak.-,A%20total%20of%2026%20persons%20infected%20with%20the%20outbreak%20strain,%2C%20and%20Washington%20(7).>) | 26 | Human |
+| 2012 | US: multistate | [Cantaloupe](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-cantaloupe-08-12/index.html#:~:text=illness%20is%20reported.-,Recall,although%20further%20shipment%20was%20likely.)<sup>2</sup> | 261 | Human |
+| 2011 | US: multistate | [Ground beef](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/ground-beef-2-1-2012.html#:~:text=The%20outbreak%20strain%20of%20Salmonella,Salmonella%20Infection%20for%20more%20details.) | 20 | Human |
+| 2011 | US: multistate | [African dwarf frogs](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/water-frog-7-20-2011.html) | 241 | Human |
+| 2011 | England | [Hog roast](https://www.liebertpub.com/doi/10.1089/fpd.2013.1513#:~:text=Between%20July%20and%20September%202011,two%20discrete%20but%20linked%20outbreaks.) | 24 | Human |
+| 2009-2011 | Ireland | [Duck eggs](https://pubmed.ncbi.nlm.nih.gov/23611032/) | 34 | Human |
+| 2009 | England | [Unknown](https://outbreakdatabase.com/outbreaks/canterbury-england-unknown-2009) | 14 | Human |
+| 2008-2009 | US: multistate | [Peanut butter](https://archive.cdc.gov/www_cdc_gov/salmonella/2009/peanut-butter-2008-2009.html) | 714 | Human |
 
 <sup>1</sup> Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Typhimurium.
 

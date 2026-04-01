@@ -26,9 +26,9 @@ Unknown, but according to the metadata from NCBI PD, serovar Mississippi was iso
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2022 | US | [Unknown](https://www.foodsafetynews.com/2022/08/fda-reports-new-outbreak-of-salmonella-infections-source-of-pathogen-unknown/) | At least 99 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2022 | US | [Unknown](https://www.foodsafetynews.com/2022/08/fda-reports-new-outbreak-of-salmonella-infections-source-of-pathogen-unknown/) | At least 99 | Human |
 
 ## Border Rejections
 

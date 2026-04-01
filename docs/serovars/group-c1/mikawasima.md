@@ -28,14 +28,14 @@ Serovar Mikawasima appears to be frequently found in [Europe](https://www.ecdc.e
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2020-2021 | Croatia | [Unknown](https://www.croris.hr/crosbi/publikacija/prilog-skup/729181) | 27 |
-| 2019 | Europe: multi-country | [Unknown](https://www.foodsafetynews.com/2019/11/uk-bears-brunt-of-multi-country-salmonella-outbreak/#google_vignette) | 192 |
-| 2018 | Europe: multi-country | [Unknown](https://www.foodsafetynews.com/2018/09/rare-salmonella-strain-sickens-50-in-five-eu-countries/) | 50 |
-| 2013 | UK | [Unknown](https://www.ecdc.europa.eu/sites/default/files/media/en/publications/Publications/RRA-unusual-increase-salmonella-mikawasima-cases-in-EU-EEA-28-november-2013.pdf) | 75 |
-| 2012 | Norway | [Unknown](https://www.foodsafetynews.com/2018/09/rare-salmonella-strain-sickens-50-in-five-eu-countries/) | 13 |
-| 1992 | UK | [Doner kebab](https://pubmed.ncbi.nlm.nih.gov/8270007/) | 9 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2020-2021 | Croatia | [Unknown](https://www.croris.hr/crosbi/publikacija/prilog-skup/729181) | 27 | Human |
+| 2019 | Europe: multi-country | [Unknown](https://www.foodsafetynews.com/2019/11/uk-bears-brunt-of-multi-country-salmonella-outbreak/#google_vignette) | 192 | Human |
+| 2018 | Europe: multi-country | [Unknown](https://www.foodsafetynews.com/2018/09/rare-salmonella-strain-sickens-50-in-five-eu-countries/) | 50 | Human |
+| 2013 | UK | [Unknown](https://www.ecdc.europa.eu/sites/default/files/media/en/publications/Publications/RRA-unusual-increase-salmonella-mikawasima-cases-in-EU-EEA-28-november-2013.pdf) | 75 | Human |
+| 2012 | Norway | [Unknown](https://www.foodsafetynews.com/2018/09/rare-salmonella-strain-sickens-50-in-five-eu-countries/) | 13 | Human |
+| 1992 | UK | [Doner kebab](https://pubmed.ncbi.nlm.nih.gov/8270007/) | 9 | Human |
 
 ## Border Rejections
 

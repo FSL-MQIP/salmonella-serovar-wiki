@@ -28,16 +28,16 @@ Serovar Thompson has been reported [worldwide](<https://www.ncbi.nlm.nih.gov/pat
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2024 | US: WA | [Food or drink from IHOP in Bellevue](https://kingcounty.gov/en/dept/dph/health-safety/disease-illness/foodborne-illness-outbreaks/2024-feb-1-ihop) | 32 |
-| 2023 | US: multistate | [Fresh diced onions](https://www.cdc.gov/salmonella/outbreaks/onions-10-23/investigation.html) | 80 |
-| 2021 | US: multistate | [Seafood](https://www.cdc.gov/mmwr/volumes/72/wr/mm7219a2.htm) | 115 |
-| 2019 | US: multistate | [Chicken](https://www.cdph.ca.gov/Programs/CEH/DFDCS/CDPH%20Document%20Library/FDB/FoodSafetyProgram/EnvInvReports/ElPolloLoco_Chicken_Salmonella_Outbreak%20Report_Final_060820_redacted%20for%20posting.pdf)<sup>1</sup> | 34 |
-| 2018 | US: multistate | [Kratom](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/kratom-02-18/index.html)<sup>2</sup> | 199 |
-| 2018 | Korea | [Chocolate cake](https://e-epih.org/journal/view.php?doi=10.4178/epih.e2019002) | 1,111 |
-| 2017 | US: multistate | [Imported maradol papayas](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/kiambu-07-17/index.html)<sup>3</sup> | 220 |
-| 2006 | US: SC | [Peanuts](https://outbreakdatabase.com/outbreaks/2006-salmonella-thompson-at-a-pumpkin-festival) | 100 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2024 | US: WA | [Food or drink from IHOP in Bellevue](https://kingcounty.gov/en/dept/dph/health-safety/disease-illness/foodborne-illness-outbreaks/2024-feb-1-ihop) | 32 | Human |
+| 2023 | US: multistate | [Fresh diced onions](https://www.cdc.gov/salmonella/outbreaks/onions-10-23/investigation.html) | 80 | Human |
+| 2021 | US: multistate | [Seafood](https://www.cdc.gov/mmwr/volumes/72/wr/mm7219a2.htm) | 115 | Human |
+| 2019 | US: multistate | [Chicken](https://www.cdph.ca.gov/Programs/CEH/DFDCS/CDPH%20Document%20Library/FDB/FoodSafetyProgram/EnvInvReports/ElPolloLoco_Chicken_Salmonella_Outbreak%20Report_Final_060820_redacted%20for%20posting.pdf)<sup>1</sup> | 34 | Human |
+| 2018 | US: multistate | [Kratom](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/kratom-02-18/index.html)<sup>2</sup> | 199 | Human |
+| 2018 | Korea | [Chocolate cake](https://e-epih.org/journal/view.php?doi=10.4178/epih.e2019002) | 1,111 | Human |
+| 2017 | US: multistate | [Imported maradol papayas](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/kiambu-07-17/index.html)<sup>3</sup> | 220 | Human |
+| 2006 | US: SC | [Peanuts](https://outbreakdatabase.com/outbreaks/2006-salmonella-thompson-at-a-pumpkin-festival) | 100 | Human |
 
 <sup>1</sup> The outbreak was associated with consumption of chicken purchased from an El Pollo Loco restaurant located in Barstow, California.
 

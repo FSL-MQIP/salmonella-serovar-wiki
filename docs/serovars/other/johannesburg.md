@@ -26,11 +26,11 @@ This serovar was considered rare but has still been occasionally reported [world
 
 ## Human/Animal Outbreaks
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html)<sup>1</sup> | 470 |
-| 2011 | US: multistate | [Chicks and ducklings](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/chicks-ducklings-10-6-2011.html#:~:text=Outbreak%20Summary&text=The%20first%20was%20an%20outbreak,had%20a%20similar%20geographic%20distribution.) | 28 |
-| 1974 | China: Hong Kong | [Hospital-associated](https://pmc.ncbi.nlm.nih.gov/articles/PMC2129741/)<sup>2</sup> | 46 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html)<sup>1</sup> | 470 | Human |
+| 2011 | US: multistate | [Chicks and ducklings](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/chicks-ducklings-10-6-2011.html#:~:text=Outbreak%20Summary&text=The%20first%20was%20an%20outbreak,had%20a%20similar%20geographic%20distribution.) | 28 | Human |
+| 1974 | China: Hong Kong | [Hospital-associated](https://pmc.ncbi.nlm.nih.gov/articles/PMC2129741/)<sup>2</sup> | 46 | Human |
 
 <sup>1</sup> *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium were involved.
 

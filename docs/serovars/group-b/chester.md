@@ -28,12 +28,12 @@ Serovar Chester have been reported[worldwide](<https://www.ncbi.nlm.nih.gov/path
 
 Despite the fact that this is a rare serovar, multiple outbreaks have been reported. Below are examples.
 
-| Year | Location | Associated source | Number of cases |
-| --- | --- | --- | --- |
-| 2010 | Canada | [Headcheese](https://pubmed.ncbi.nlm.nih.gov/22488063/) | 33 |
-| 2010 | US: multistate | [Frozen meals](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6248a2.htm) | 44 |
-| 2005 | Australia | [Tap water](https://www1.health.gov.au/internet/main/publishing.nsf/content/cda-cdi3003-pdf-cnt.htm/$FILE/cdi3003b.pdf) | 26 |
-| 1998 | Australia | [Turtle meat](https://pubmed.ncbi.nlm.nih.gov/10774704/) | 36 |
+| Year | Location | Associated source | Number of cases | Type |
+| --- | --- | --- | --- | --- |
+| 2010 | Canada | [Headcheese](https://pubmed.ncbi.nlm.nih.gov/22488063/) | 33 | Human |
+| 2010 | US: multistate | [Frozen meals](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6248a2.htm) | 44 | Human |
+| 2005 | Australia | [Tap water](https://www1.health.gov.au/internet/main/publishing.nsf/content/cda-cdi3003-pdf-cnt.htm/$FILE/cdi3003b.pdf) | 26 | Human |
+| 1998 | Australia | [Turtle meat](https://pubmed.ncbi.nlm.nih.gov/10774704/) | 36 | Human |
 
 ## Border Rejections
 
