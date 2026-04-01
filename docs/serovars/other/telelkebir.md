@@ -14,19 +14,23 @@
 
 ## Genetic Characteristics
 
-No genetic characterization data are currently available for serovar Telelkebir.
+Genetic information on serovar Telelkebir are limited. [A study](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.704152/full) reported the presence of aminoglycoside resistance gene *aac(6')-Iaa_1* in serovar Telelkebir, frequent carriage of fosfomycin resistance gene *fosA7*, as well as the sporadic presence of other antimicrobial resistance genes. Serovar Telelkebir appears to carry the cytolethal distending toxin (CDT) gene.
 
 ## Animal Reservoir
 
-No animal reservoir has been identified for serovar Telelkebir.
+Serovar Telelkebir has primarily been isolated from exotic pets like [terrapins](https://www.sciencedirect.com/science/article/pii/S0163445399902487?via%3Dihub) or [chameleons](https://journals.asm.org/doi/10.1128/jcm.40.12.4802-4803.2002), but has also been.
 
 ## Geographical Distribution
 
-No geographical distribution data are currently available for serovar Telelkebir.
+Serovar Telelkebir seems to be [globally distributed](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.704152/full), but has been primarily found in the UK, Germany, and the U.S..
 
 ## Human/Animal Outbreaks
 
-There have been no reported outbreaks linked to this serovar.
+Outbreaks have been associated with *S.* Telelkebir.
+| Year | Location | Associated source | Number of cases |
+| --- | --- | --- | --- |
+| 1990s (documented in 1999) | Ireland | [Pet terrapins](https://www.sciencedirect.com/science/article/pii/S0163445399902487?via%3Dihub) | 8 |
+| 2025 | US: multistate | [oysters](https://www.cdc.gov/salmonella/outbreaks/oysters-12-25/index.html) | 80 |
 
 ## Border Rejections
 
@@ -38,4 +42,7 @@ There have been no recent recalls linked to this serovar.
 
 ## References
 
-*No references available at this time.*
+1. https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.704152/full
+2. https://www.sciencedirect.com/science/article/pii/S0163445399902487?via%3Dihub
+3. https://journals.asm.org/doi/10.1128/jcm.40.12.4802-4803.2002
+4. https://www.cdc.gov/salmonella/outbreaks/oysters-12-25/index.html
