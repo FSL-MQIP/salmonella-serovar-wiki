@@ -60,7 +60,7 @@ This wiki serves three key audiences: **public health professionals**, who can u
 
 ## Serovar Page Structure
 
-Each serovar page follows a standardized eight-section format:
+Each serovar page follows a standardized nine-section format:
 
 | Section | What's Included |
 |---------|-----------------|
@@ -68,7 +68,8 @@ Each serovar page follows a standardized eight-section format:
 | :material-dna: **Genetic Characteristics** | AMR patterns, virulence factors, phylogenetic classification |
 | :material-cow: **Animal Reservoir** | Known host associations and reservoir species |
 | :material-earth: **Geographical Distribution** | Countries and regions where the serovar has been reported |
-| :material-alert-circle-outline: **Human/Animal Outbreaks** | Year, location, source, case count |
+| :material-alert-circle-outline: **Human Outbreaks** | Year, location, source, case count |
+| :material-paw: **Animal Outbreaks** | Year, location, breed, case count |
 | :material-shield-alert-outline: **Border Rejections** | Exporting/enforcing country, source, product category |
 | :material-package-variant-closed: **Recalls** | Year, location, recalled product, type |
 | :material-link-variant: **References** | Numbered citations to peer-reviewed literature and surveillance reports |

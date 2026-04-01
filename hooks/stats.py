@@ -9,7 +9,6 @@ Stats are computed once per build and cached in ``_stats_cache``.
 from __future__ import annotations
 
 import pathlib
-import re
 
 # ---------------------------------------------------------------------------
 # Module-level cache so the scan only runs once per build invocation.
@@ -65,16 +64,16 @@ def _compute_stats(docs_dir: pathlib.Path) -> dict:
 
         # --- Table row counting ---
         lines = content.splitlines()
-        current_section: str | None = None  # "outbreaks" | "rejections" | "recalls" | None
-        past_separator = False  # True once we've seen the --- separator line
+        current_section: str | None = None
+        past_separator = False
 
         for line in lines:
-            # Section detection — must check before the table-row logic so that
-            # "## " headings correctly reset state even when they share a line prefix.
             if line.startswith("## "):
                 past_separator = False
-                if line.startswith("## Human/Animal Outbreaks"):
-                    current_section = "outbreaks"
+                if line.startswith("## Human Outbreaks"):
+                    current_section = "human_outbreaks"
+                elif line.startswith("## Animal Outbreaks"):
+                    current_section = "animal_outbreaks"
                 elif line.startswith("## Border Rejections"):
                     current_section = "rejections"
                 elif line.startswith("## Recalls"):
@@ -83,46 +82,34 @@ def _compute_stats(docs_dir: pathlib.Path) -> dict:
                     current_section = None
                 continue
 
-            # Inside a relevant section, look for table rows.
             if current_section is None:
                 continue
 
-            # Lines beginning with <sup> are footnotes, not data rows.
             if line.startswith("<sup>"):
                 continue
 
-            # Only process pipe-delimited rows.
             if not line.startswith("|"):
                 continue
 
-            # Split on pipes; ignore empty strings produced by leading/trailing pipes.
             cells = [c for c in line.split("|") if c.strip()]
 
             if not cells:
                 continue
 
-            # Check for separator row: every non-empty cell consists only of
-            # dashes (and optional colons/spaces for alignment syntax).
             if all(_is_separator(c) for c in cells):
                 past_separator = True
                 continue
 
-            # Header rows appear before the separator.
             if not past_separator:
                 continue
 
             # --- This is a real data row ---
-            if current_section == "outbreaks":
-                # The Type column is the LAST real cell.
-                last_cell = cells[-1].strip()
-                if last_cell == "Human":
-                    human_outbreaks += 1
-                elif last_cell == "Animal":
-                    animal_outbreaks += 1
-
+            if current_section == "human_outbreaks":
+                human_outbreaks += 1
+            elif current_section == "animal_outbreaks":
+                animal_outbreaks += 1
             elif current_section == "rejections":
                 border_rejections += 1
-
             elif current_section == "recalls":
                 recalls += 1
 
