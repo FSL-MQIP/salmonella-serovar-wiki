@@ -30,6 +30,7 @@ Several outbreaks have been associated with serovar Poona.
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
+| 2016-2021 | England | [Persistent carriage and shedding by asymptomatic individual](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/investigation-of-a-prolonged-nursery-outbreak-of-salmonella-poona-in-england-identified-using-whole-genome-sequencing-20162021/16C571CD98D2F0B8CFF1781123431466) | 13 |
 | 2019 | Europe: multi-country<sup>1</sup> | [Infant formula](https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-multi-country-outbreak-salmonella-poona-infections) | 32 |
 | 2019 | Finland | [Watermelon](https://doi.org/10.1016/j.jfp.2024.100404) | 9 |
 | 2015-2016 | US-multistate | [Pet turtles](http://www.cdc.gov/salmonella/small-turtles-10-15/index.html) | 70 |
@@ -67,13 +68,14 @@ There have been no recent animal outbreaks linked to this serovar.
 
 1. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/abstract](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/abstract)
 2. [https://doi.org/10.3389/fmicb.2018.01010](https://doi.org/10.3389/fmicb.2018.01010)
-3. [https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-multi-country-outbreak-salmonella-poona-infections](https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-multi-country-outbreak-salmonella-poona-infections)
-4. [https://doi.org/10.1016/j.jfp.2024.100404](https://doi.org/10.1016/j.jfp.2024.100404)
-5. [http://www.cdc.gov/salmonella/small-turtles-10-15/index.html](http://www.cdc.gov/salmonella/small-turtles-10-15/index.html)
-6. [https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5146a2.htm](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5146a2.htm)
-7. [https://webgate.ec.europa.eu/rasff-window/screen/notification/715731](https://webgate.ec.europa.eu/rasff-window/screen/notification/715731)
-8. [https://webgate.ec.europa.eu/rasff-window/screen/notification/513979](https://webgate.ec.europa.eu/rasff-window/screen/notification/513979)
-9. [https://webgate.ec.europa.eu/rasff-window/screen/notification/420257](https://webgate.ec.europa.eu/rasff-window/screen/notification/420257)
-10. [http://www.cdc.gov/salmonella/poona-09-15/index.html](http://www.cdc.gov/salmonella/poona-09-15/index.html)
-11. [http://www.cdc.gov/salmonella/poona-09-15/advice.html](http://www.cdc.gov/salmonella/poona-09-15/advice.html)
+3. [https://www.cambridge.org/core/journals/epidemiology-and-infection/article/investigation-of-a-prolonged-nursery-outbreak-of-salmonella-poona-in-england-identified-using-whole-genome-sequencing-20162021/16C571CD98D2F0B8CFF1781123431466](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/investigation-of-a-prolonged-nursery-outbreak-of-salmonella-poona-in-england-identified-using-whole-genome-sequencing-20162021/16C571CD98D2F0B8CFF1781123431466)
+4. [https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-multi-country-outbreak-salmonella-poona-infections](https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-multi-country-outbreak-salmonella-poona-infections)
+5. [https://doi.org/10.1016/j.jfp.2024.100404](https://doi.org/10.1016/j.jfp.2024.100404)
+6. [http://www.cdc.gov/salmonella/small-turtles-10-15/index.html](http://www.cdc.gov/salmonella/small-turtles-10-15/index.html)
+7. [https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5146a2.htm](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5146a2.htm)
+8. [https://webgate.ec.europa.eu/rasff-window/screen/notification/715731](https://webgate.ec.europa.eu/rasff-window/screen/notification/715731)
+9. [https://webgate.ec.europa.eu/rasff-window/screen/notification/513979](https://webgate.ec.europa.eu/rasff-window/screen/notification/513979)
+10. [https://webgate.ec.europa.eu/rasff-window/screen/notification/420257](https://webgate.ec.europa.eu/rasff-window/screen/notification/420257)
+11. [http://www.cdc.gov/salmonella/poona-09-15/index.html](http://www.cdc.gov/salmonella/poona-09-15/index.html)
+12. [http://www.cdc.gov/salmonella/poona-09-15/advice.html](http://www.cdc.gov/salmonella/poona-09-15/advice.html)
 
