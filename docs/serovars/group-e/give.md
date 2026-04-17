@@ -14,7 +14,7 @@
 
 ## Genetic Characteristics
 
-Serovar Give has been found to be [polyphyletic](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full) with two lineages identified. In a [Venezuela](https://pubmed.ncbi.nlm.nih.gov/24187555/) study, the bla<sub>TEM-1</sub> and bla<sub>SHV-12</sub> genes were identified in *S.* Give SG9611, while bla<sub>TEM-1</sub> and bla<sub>CTX-M-2</sub> were found in the other three strains: *S.* Give SG9811, *S.* Heidelberg SH7511, and SH7911. Notably, the *qnrB19* gene was detected in all four strains, irrespective of their origin or serovars. In an [outbreak study](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/national-outbreak-of-salmonella-give-linked-to-a-local-food-manufacturer-in-malta-october-2016/F086A81E491E0272ABE4869A7C62DD60), all human isolates analyzed in clusters 1 and 2 through MLST exhibited resistance to monoglucoside. In [pig farms in Ibadan, Nigeria](https://link.springer.com/article/10.1007/s12223-013-0270-6), the majority of the multidrug-resistant isolates were *S.* Give, comprising 24 isolates (47.1%), which exhibited co-resistance to nalidixic acid, chloramphenicol, and tetracycline.
+Serovar Give has been found to be [polyphyletic](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full) with two lineages identified. In a [Venezuela](https://pubmed.ncbi.nlm.nih.gov/24187555/) study, the bla<sub>TEM-1</sub> and bla<sub>SHV-12</sub> genes were identified in *S.* Give SG9611, while bla<sub>TEM-1</sub> and bla<sub>CTX-M-2</sub> were found in the other three strains: *S.* Give SG9811, *S.* Heidelberg SH7511, and SH7911. Notably, the *qnrB19* gene was detected in all four strains, irrespective of their origin or serovars. In an [outbreak study](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/national-outbreak-of-salmonella-give-linked-to-a-local-food-manufacturer-in-malta-october-2016/F086A81E491E0272ABE4869A7C62DD60), all human isolates analyzed in clusters 1 and 2 through MLST exhibited resistance to monoglucoside. In [pig farms in Ibadan, Nigeria](https://link.springer.com/article/10.1007/s12223-013-0270-6), the majority of the multidrug-resistant isolates were *S.* Give, comprising 24 isolates (47.1%), which exhibited co-resistance to nalidixic acid, chloramphenicol, and tetracycline. A [genomic analysis](https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2026.037) of 185 *S.* Give isolates from China revealed all isolates to carry gene *aac(6’)-Iaa* and mutation *parC* p.T57S which are associated with aminoglycoside and fluoroquinolone resistance, respectively. The same study showed that 55.6% of all isolates carried quinolone resistance gene *qnrB19*, while all other resistance genes were present in <5% of all isolates.
 
 ## Animal Reservoir
 
@@ -66,12 +66,13 @@ There have been no recent animal outbreaks linked to this serovar.
 3. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full)
 4. [https://pubmed.ncbi.nlm.nih.gov/24187555/](https://pubmed.ncbi.nlm.nih.gov/24187555/)
 5. [https://link.springer.com/article/10.1007/s12223-013-0270-6](https://link.springer.com/article/10.1007/s12223-013-0270-6)
-6. [https://www.rrh.org.au/journal/article/8391](https://www.rrh.org.au/journal/article/8391)
-7. [https://www.cambridge.org/core/journals/epidemiology-and-infection/article/national-outbreak-of-salmonella-give-linked-to-a-local-food-manufacturer-in-malta-october-2016/F086A81E491E0272ABE4869A7C62DD60](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/national-outbreak-of-salmonella-give-linked-to-a-local-food-manufacturer-in-malta-october-2016/F086A81E491E0272ABE4869A7C62DD60)
-8. [https://www.eurosurveillance.org/content/10.2807/ese.13.39.18994-en](https://www.eurosurveillance.org/content/10.2807/ese.13.39.18994-en)
-9. [https://pubmed.ncbi.nlm.nih.gov/16088767/](https://pubmed.ncbi.nlm.nih.gov/16088767/)
-10. [https://webgate.ec.europa.eu/rasff-window/screen/notification/609318](https://webgate.ec.europa.eu/rasff-window/screen/notification/609318)
-11. [https://webgate.ec.europa.eu/rasff-window/screen/notification/504801](https://webgate.ec.europa.eu/rasff-window/screen/notification/504801)
-12. [https://webgate.ec.europa.eu/rasff-window/screen/notification/471596](https://webgate.ec.europa.eu/rasff-window/screen/notification/471596)
-13. [https://webgate.ec.europa.eu/rasff-window/screen/notification/746029](https://webgate.ec.europa.eu/rasff-window/screen/notification/746029)
+6. [https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2026.037](https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2026.037)
+7. [https://www.rrh.org.au/journal/article/8391](https://www.rrh.org.au/journal/article/8391)
+8. [https://www.cambridge.org/core/journals/epidemiology-and-infection/article/national-outbreak-of-salmonella-give-linked-to-a-local-food-manufacturer-in-malta-october-2016/F086A81E491E0272ABE4869A7C62DD60](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/national-outbreak-of-salmonella-give-linked-to-a-local-food-manufacturer-in-malta-october-2016/F086A81E491E0272ABE4869A7C62DD60)
+9. [https://www.eurosurveillance.org/content/10.2807/ese.13.39.18994-en](https://www.eurosurveillance.org/content/10.2807/ese.13.39.18994-en)
+10. [https://pubmed.ncbi.nlm.nih.gov/16088767/](https://pubmed.ncbi.nlm.nih.gov/16088767/)
+11. [https://webgate.ec.europa.eu/rasff-window/screen/notification/609318](https://webgate.ec.europa.eu/rasff-window/screen/notification/609318)
+12. [https://webgate.ec.europa.eu/rasff-window/screen/notification/504801](https://webgate.ec.europa.eu/rasff-window/screen/notification/504801)
+13. [https://webgate.ec.europa.eu/rasff-window/screen/notification/471596](https://webgate.ec.europa.eu/rasff-window/screen/notification/471596)
+14. [https://webgate.ec.europa.eu/rasff-window/screen/notification/746029](https://webgate.ec.europa.eu/rasff-window/screen/notification/746029)
 
