@@ -20,7 +20,7 @@ The CDC has identified [REPJFX01](https://www.cdc.gov/salmonella/php/data-resear
 
 ## Animal Reservoir
 
-The main animal reservoir of serovar Infantis is [poultry](https://www.sciencedirect.com/science/article/pii/S0168160523002131); however, at least one of Infantis clade is associated with [swine](https://journals.asm.org/doi/10.1128/mbio.01913-24). Recently, four *S.* Infantis isolates were isolated from [aquatic birds from Yahuarcocha Lake, Ecuador](https://www.biorxiv.org/content/10.64898/2026.04.09.717384v1.full#T1)
+The main animal reservoir of serovar Infantis is [poultry](https://www.sciencedirect.com/science/article/pii/S0168160523002131); however, at least one of Infantis clade is associated with [swine](https://journals.asm.org/doi/10.1128/mbio.01913-24). Recently, four *S.* Infantis isolates with <10 SNP differences to poultry-associated isolates were isolated from [aquatic birds from Yahuarcocha Lake, Ecuador](https://www.biorxiv.org/content/10.64898/2026.04.09.717384v1.full#T1), suggesting a shared transmission network.
 
 ## Geographical Distribution
 
