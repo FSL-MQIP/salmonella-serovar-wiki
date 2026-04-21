@@ -6,6 +6,7 @@ Serovars in this group share the O:4 somatic antigen. Group B contains some of t
 |---|---|---|
 | [*S.* Agama](agama.md) | `4,12:i:1,6` | Serovar Agama was found in lizards, chicken, cattle, badgers, and pigs |
 | [*S.* Agona](agona.md) | `1,4,[5],12:f,g,s:[1,2]` | Multiple animal species, including turkey, swine and cattle are reservoirs of serovar Agona. |
+| [*S.* Bochum](bochum.md) | `1,4,[5],12:r:l,w` | Serovar Bochum has been isolated from multiple animal species, including poultry, cattle, and swine. |
 | [*S.* Brandenburg](brandenburg.md) | `4,[5],12:l,v:e,n,z15` | Serovar Brandenburg was found in different animal species (pigs, turkey, cattle, horse, deer and sheep. |
 | [*S.* Bredeney](bredeney.md) | `1,4,12,27:l,v:1,7` | Serovar Bredeney appeared to be associated with poultry, at least in Ireland it was associated with chicken; and in the US with turkey. |
 | [*S.* Chester](chester.md) | `1,4,[5],12:e,h:e,n,x` | There is not clear evidence of the animal reservoir for this serovar, although serovar Chester has been found in various animals, including turkeys... |
