@@ -20,7 +20,7 @@ The CDC has identified [REPJFX01](https://www.cdc.gov/salmonella/php/data-resear
 
 ## Animal Reservoir
 
-The main animal reservoir of serovar Infantis is [poultry](https://www.sciencedirect.com/science/article/pii/S0168160523002131); however, at least one of Infantis clade is associated with [swine](https://journals.asm.org/doi/10.1128/mbio.01913-24).
+The main animal reservoir of serovar Infantis is [poultry](https://www.sciencedirect.com/science/article/pii/S0168160523002131); however, at least one of Infantis clade is associated with [swine](https://journals.asm.org/doi/10.1128/mbio.01913-24). Recently, four *S.* Infantis isolates with <10 SNP differences to poultry-associated isolates were isolated from [aquatic birds from Yahuarcocha Lake, Ecuador](https://www.biorxiv.org/content/10.64898/2026.04.09.717384v1.full#T1), suggesting a shared transmission network.
 
 ## Geographical Distribution
 
@@ -93,21 +93,22 @@ Multiple recalls linked to serovar Infantis have been reported. Majority of them
 10. [https://www.tandfonline.com/doi/epdf/10.1080/22221751.2021.1951124?src=getftr&utm_source=sciencedirect_contenthosting&getft_integrator=sciencedirect_contenthosting](https://www.tandfonline.com/doi/epdf/10.1080/22221751.2021.1951124?src=getftr&utm_source=sciencedirect_contenthosting&getft_integrator=sciencedirect_contenthosting)
 11. [https://www.cdc.gov/salmonella/php/data-research/repjfx01.html](https://www.cdc.gov/salmonella/php/data-research/repjfx01.html)
 12. [https://journals.asm.org/doi/10.1128/mbio.01913-24](https://journals.asm.org/doi/10.1128/mbio.01913-24)
-13. [https://www.sciencedirect.com/science/article/pii/S0168160523002131](https://www.sciencedirect.com/science/article/pii/S0168160523002131)
-14. [https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html)
-15. [https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/infantis-10-18/index.html](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/infantis-10-18/index.html)
-16. [http://medbox.iiab.me/modules/en-cdc/www.cdc.gov/salmonella/newport-09-17/index.html](http://medbox.iiab.me/modules/en-cdc/www.cdc.gov/salmonella/newport-09-17/index.html)
-17. [https://pmc.ncbi.nlm.nih.gov/articles/PMC9150579/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9150579/)
-18. [https://pmc.ncbi.nlm.nih.gov/articles/PMC5779341/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5779341/)
-19. [https://archive.cdc.gov/www_cdc_gov/salmonella/dog-food-05-12/index.html](https://archive.cdc.gov/www_cdc_gov/salmonella/dog-food-05-12/index.html)
-20. [https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6211a5.htm#:~:text=Initial%20investigations%20indicated%20many%20of%20the%20ill,live%20poultry%20(e.g.%2C%20chicks%20and%20ducklings)%20from](<https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6211a5.htm#:~:text=Initial%20investigations%20indicated%20many%20of%20the%20ill,live%20poultry%20(e.g.%2C%20chicks%20and%20ducklings)%20from>)
-21. [https://www.accessdata.fda.gov/cms_ia/importalert_218.html](https://www.accessdata.fda.gov/cms_ia/importalert_218.html)
-22. [https://webgate.ec.europa.eu/rasff-window/screen/notification/731338](https://webgate.ec.europa.eu/rasff-window/screen/notification/731338)
-23. [https://webgate.ec.europa.eu/rasff-window/screen/notification/641450](https://webgate.ec.europa.eu/rasff-window/screen/notification/641450)
-24. [https://webgate.ec.europa.eu/rasff-window/screen/notification/446128](https://webgate.ec.europa.eu/rasff-window/screen/notification/446128)
-25. [https://webgate.ec.europa.eu/rasff-window/screen/notification/429768](https://webgate.ec.europa.eu/rasff-window/screen/notification/429768)
-26. [https://webgate.ec.europa.eu/rasff-window/screen/notification/646586](https://webgate.ec.europa.eu/rasff-window/screen/notification/646586)
-27. [https://www.foodsafetynews.com/2023/10/czech-officials-find-salmonella-in-chicken-from-brazil-11-tons-recalled/](https://www.foodsafetynews.com/2023/10/czech-officials-find-salmonella-in-chicken-from-brazil-11-tons-recalled/)
-28. [https://www.fsis.usda.gov/recalls-alerts/fratelli-beretta-usa-inc.-recalls-ready-eat-uncured-antipasto-meat-products-due](https://www.fsis.usda.gov/recalls-alerts/fratelli-beretta-usa-inc.-recalls-ready-eat-uncured-antipasto-meat-products-due)
-29. [https://webgate.ec.europa.eu/rasff-window/screen/notification/483014](https://webgate.ec.europa.eu/rasff-window/screen/notification/483014)
+13. [https://www.biorxiv.org/content/10.64898/2026.04.09.717384v1.full#T1](https://www.biorxiv.org/content/10.64898/2026.04.09.717384v1.full#T1)
+14. [https://www.sciencedirect.com/science/article/pii/S0168160523002131](https://www.sciencedirect.com/science/article/pii/S0168160523002131)
+15. [https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html)
+16. [https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/infantis-10-18/index.html](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/infantis-10-18/index.html)
+17. [http://medbox.iiab.me/modules/en-cdc/www.cdc.gov/salmonella/newport-09-17/index.html](http://medbox.iiab.me/modules/en-cdc/www.cdc.gov/salmonella/newport-09-17/index.html)
+18. [https://pmc.ncbi.nlm.nih.gov/articles/PMC9150579/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9150579/)
+19. [https://pmc.ncbi.nlm.nih.gov/articles/PMC5779341/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5779341/)
+20. [https://archive.cdc.gov/www_cdc_gov/salmonella/dog-food-05-12/index.html](https://archive.cdc.gov/www_cdc_gov/salmonella/dog-food-05-12/index.html)
+21. [https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6211a5.htm#:~:text=Initial%20investigations%20indicated%20many%20of%20the%20ill,live%20poultry%20(e.g.%2C%20chicks%20and%20ducklings)%20from](<https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6211a5.htm#:~:text=Initial%20investigations%20indicated%20many%20of%20the%20ill,live%20poultry%20(e.g.%2C%20chicks%20and%20ducklings)%20from>)
+22. [https://www.accessdata.fda.gov/cms_ia/importalert_218.html](https://www.accessdata.fda.gov/cms_ia/importalert_218.html)
+23. [https://webgate.ec.europa.eu/rasff-window/screen/notification/731338](https://webgate.ec.europa.eu/rasff-window/screen/notification/731338)
+24. [https://webgate.ec.europa.eu/rasff-window/screen/notification/641450](https://webgate.ec.europa.eu/rasff-window/screen/notification/641450)
+25. [https://webgate.ec.europa.eu/rasff-window/screen/notification/446128](https://webgate.ec.europa.eu/rasff-window/screen/notification/446128)
+26. [https://webgate.ec.europa.eu/rasff-window/screen/notification/429768](https://webgate.ec.europa.eu/rasff-window/screen/notification/429768)
+27. [https://webgate.ec.europa.eu/rasff-window/screen/notification/646586](https://webgate.ec.europa.eu/rasff-window/screen/notification/646586)
+28. [https://www.foodsafetynews.com/2023/10/czech-officials-find-salmonella-in-chicken-from-brazil-11-tons-recalled/](https://www.foodsafetynews.com/2023/10/czech-officials-find-salmonella-in-chicken-from-brazil-11-tons-recalled/)
+29. [https://www.fsis.usda.gov/recalls-alerts/fratelli-beretta-usa-inc.-recalls-ready-eat-uncured-antipasto-meat-products-due](https://www.fsis.usda.gov/recalls-alerts/fratelli-beretta-usa-inc.-recalls-ready-eat-uncured-antipasto-meat-products-due)
+30. [https://webgate.ec.europa.eu/rasff-window/screen/notification/483014](https://webgate.ec.europa.eu/rasff-window/screen/notification/483014)
 
