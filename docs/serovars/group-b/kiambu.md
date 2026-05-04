@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `1,4,12:z:1,5` |
     | **Serogroup** | O:4 (B) |
-    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates#taxgroup_name:("Salmonella%20enterica")%20AND%20computed_types:("serotype=Kiambu")) |
 
 ## Background Information
 
