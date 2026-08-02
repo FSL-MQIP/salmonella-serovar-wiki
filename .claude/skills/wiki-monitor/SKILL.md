@@ -26,7 +26,9 @@ PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor fetch --out candid
 `candidates.json` gives you:
 
 - `scan_window` — what period this run covers, and `first_run` if there is no prior state
-- `notes` — anything the fetch had to bound; **repeat these in the digest** if present
+- `notes` — anything the fetch had to bound. **Copy this array verbatim into
+  `findings.json`**; the digest leads with it so a partial scan is never read as
+  a complete one
 - `already_reported` — `(source id, serovar)` pairs from earlier runs. Never report these again
 - `covered_serovars` — the 113 serovars that have a page. This is what "covered" means
 - `candidates` — each with `source`, `source_id`, `title`, `url`, `published`, `summary`
@@ -90,6 +92,7 @@ If an entry needs no citation, leave `citation_url` empty and omit `{footnote}`.
 
 ```json
 {
+  "notes": ["copied verbatim from candidates.json; omit if that array was empty"],
   "findings": [
     {
       "source": "openfda",
@@ -150,12 +153,18 @@ PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor deliver \
 ```
 
 That sends the digest, writes `state.json`, and prints how many entries it
-recorded. Commit `state.json` — and nothing else.
+recorded.
+
+**Do not run `git commit` or `git push` yourself.** The workflow commits and
+pushes `state.json` after you finish. If you commit it inside this step, the
+workflow's check sees a clean working tree, skips its push, and the record is
+discarded with the runner — the digest goes out but every finding in it gets
+reported again next week.
 
 If `MONITOR_SEND` is not `true`, stop after the `--no-send` run. The workflow
 publishes `digest.html` to the run itself so it can be read without email. Do
-not write or commit `state.json` in that case: nothing was reported, so
-recording these findings would lose them.
+not write `state.json` in that case: nothing was reported, so recording these
+findings would lose them.
 
 ## If a run fails
 

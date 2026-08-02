@@ -90,6 +90,9 @@ def cmd_deliver(args) -> int:
         state=state,
         repo_root=repo_root,
         run_timestamp=run_timestamp,
+        # Carried from candidates.json so a bounded scan says so in the digest
+        # itself, not just in the run log nobody reads.
+        notes=classified.get("notes", []),
     )
 
     for issue in result.validation:

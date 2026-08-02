@@ -64,6 +64,26 @@ def test_reviewed_item_states_why_it_was_excluded(wiki_repo, build):
     assert "No serovar-specific novelty; commodity already documented." in html
 
 
+def test_a_bounded_scan_says_so_before_reporting_what_it_found(
+    wiki_repo, build, make_finding
+):
+    """Otherwise a truncated candidate pool reads as a complete scan."""
+    note = "PubMed: took the 200 most recent of 431 matching papers in this window."
+
+    html = build(wiki_repo, findings=[make_finding()], notes=[note]).html
+
+    assert note in html
+    assert html.index(note) < html.index("Actionable findings"), (
+        "the caveat must precede the findings it qualifies"
+    )
+
+
+def test_an_unbounded_scan_adds_no_caveat(wiki_repo, build, make_finding):
+    html = build(wiki_repo, findings=[make_finding()]).html
+
+    assert "Scan coverage" not in html
+
+
 def test_a_run_with_nothing_to_report_still_renders_all_three_sections(
     wiki_repo, build
 ):

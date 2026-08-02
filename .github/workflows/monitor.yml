@@ -100,16 +100,27 @@ jobs:
             echo "No state file was written — nothing to commit."
             exit 0
           fi
+          git config user.name "salmonella-wiki-monitor[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           # `git add` before comparing: on the first run the file is untracked,
           # and `git diff` alone does not see untracked files.
           git add "$STATE"
           if git diff --cached --quiet -- "$STATE"; then
-            echo "State unchanged — nothing to commit."
+            echo "Nothing staged."
+          else
+            git commit -m "Record findings reported by the weekly monitor"
+          fi
+
+          # SKILL.md tells the run not to commit, but it is prose being followed
+          # by a model. If it committed anyway, the check above finds nothing
+          # staged and the commit would be stranded in the discarded runner
+          # checkout — the digest sent, the record lost, every finding repeated
+          # next week. So push whenever HEAD is ahead, not only when we committed.
+          if [ -z "$(git log --oneline origin/dev..HEAD)" ]; then
+            echo "Nothing to push — state unchanged."
             exit 0
           fi
-          git config user.name "salmonella-wiki-monitor[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Record findings reported by the weekly monitor"
           # dev, matching the checkout above. State reaches main the same way
           # everything else does — through a pull request someone reviews.
           git push origin HEAD:dev

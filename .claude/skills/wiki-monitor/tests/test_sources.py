@@ -94,6 +94,29 @@ def test_openfda_treats_no_matches_as_a_quiet_week():
     assert sources.fetch_openfda(NOW, http=not_found) == []
 
 
+def test_openfda_says_so_when_it_did_not_see_the_whole_window():
+    """A first page must not read as a complete scan."""
+    payload = {
+        "meta": {"results": {"total": 137}},
+        "results": OPENFDA_PAYLOAD["results"],
+    }
+    notes = []
+
+    sources.fetch_openfda(NOW, http=responder(payload), notes=notes)
+
+    assert len(notes) == 1
+    assert "2 of 137" in notes[0]
+    assert "135 were not considered" in notes[0]
+
+
+def test_openfda_stays_quiet_when_it_saw_everything():
+    notes = []
+
+    sources.fetch_openfda(NOW, http=responder(OPENFDA_PAYLOAD), notes=notes)
+
+    assert notes == []
+
+
 def test_openfda_collapses_a_repeated_recall_number():
     payload = {"results": [OPENFDA_PAYLOAD["results"][0]] * 3}
 
@@ -144,6 +167,47 @@ def test_pubmed_normalises_a_paper():
     assert paper.published == "2026-07-09"
     assert "IncHI2 plasmid" in paper.summary
     assert "Applied and Environmental Microbiology" in paper.summary
+
+
+PUBMED_MIXED_CONTENT = b"""<?xml version="1.0"?>
+<PubmedArticleSet>
+  <PubmedArticle>
+    <MedlineCitation>
+      <PMID Version="1">40222222</PMID>
+      <Article>
+        <Journal><Title>Journal of <i>Salmonella</i> Studies</Title></Journal>
+        <ArticleTitle>Colistin resistance in <i>Salmonella</i> Kedougou ST1543</ArticleTitle>
+        <Abstract>
+          <AbstractText>Median lethal time (LT<sub>50</sub>) fell sharply, and the <i>mcr-1</i> gene was present in every isolate.</AbstractText>
+        </Abstract>
+        <ArticleDate><Year>2026</Year><Month>7</Month><Day>9</Day></ArticleDate>
+      </Article>
+    </MedlineCitation>
+  </PubmedArticle>
+</PubmedArticleSet>
+"""
+
+
+def test_pubmed_keeps_text_that_inline_markup_interrupts():
+    """PubMed marks up titles and abstracts with <i> and <sub>.
+
+    Reading only ``.text`` stops at the first such tag: a real abstract lost 928
+    of 2016 characters that way, cutting off at LT<sub>50</sub> and dropping the
+    result. A title can lose the serovar name the same way.
+    """
+
+    def http(url):
+        if "esearch" in url:
+            return json.dumps({"esearchresult": {"idlist": ["40222222"]}}).encode()
+        return PUBMED_MIXED_CONTENT
+
+    paper = sources.fetch_pubmed(SINCE, NOW, http=http)[0]
+
+    assert "Kedougou" in paper.title, "the serovar name follows an <i> element"
+    assert paper.title == "Colistin resistance in Salmonella Kedougou ST1543"
+    assert "mcr-1" in paper.summary, "text after a second inline tag survives"
+    assert "every isolate" in paper.summary, "the tail of the abstract survives"
+    assert "Journal of Salmonella Studies" in paper.summary
 
 
 def test_pubmed_windows_the_search_on_the_scan_dates():

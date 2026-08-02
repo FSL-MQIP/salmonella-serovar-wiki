@@ -93,6 +93,26 @@ def test_fetch_records_what_the_classifier_needs(wiki_repo, tmp_path, monkeypatc
     assert payload["already_reported"] == []
 
 
+def test_fetch_notes_reach_the_delivered_digest(
+    wiki_repo, findings_file, tmp_path
+):
+    """The note recorded at fetch has to survive into what recipients read."""
+    payload = dict(FINDINGS)
+    payload["notes"] = ["openFDA: took 100 of 137 matching recalls in the window."]
+    findings_file.write_text(json.dumps(payload), encoding="utf-8")
+    out = tmp_path / "digest.html"
+
+    cli.main(
+        [
+            "--repo-root", str(wiki_repo),
+            "deliver", "--findings", str(findings_file),
+            "--out", str(out), "--no-send",
+        ]
+    )
+
+    assert "took 100 of 137 matching recalls" in out.read_text(encoding="utf-8")
+
+
 def test_the_failure_command_exits_cleanly_with_no_transport_configured(
     capsys, monkeypatch
 ):

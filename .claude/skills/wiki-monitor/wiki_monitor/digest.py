@@ -112,6 +112,7 @@ def build_digest(
     state: dict | None,
     repo_root: Path | str,
     run_timestamp: str,
+    notes: Sequence[str] = (),
 ) -> DigestResult:
     already_reported = reported_pairs(state)
 
@@ -151,6 +152,7 @@ def build_digest(
     return DigestResult(
         html="\n".join(
             [
+                _scope_section(notes),
                 _actionable_section(prepared, warnings),
                 _coverage_gaps_section(coverage_gaps),
                 _reviewed_section(reviewed_shown, dropped_count),
@@ -414,6 +416,24 @@ def _highest_reference_number(page_text: str) -> int:
 # ---------------------------------------------------------------------------
 # Sections
 # ---------------------------------------------------------------------------
+def _scope_section(notes: Sequence[str]) -> str:
+    """Say where the scan was bounded, before anything it found.
+
+    A truncated candidate pool must not read as a complete scan, so this leads
+    the digest rather than trailing it.
+    """
+    if not notes:
+        return ""
+    parts = [
+        "<h2>Scan coverage</h2>",
+        "<p>This run did not see everything in its window:</p>",
+        "<ul>",
+    ]
+    parts.extend(f"<li>{html.escape(note)}</li>" for note in notes)
+    parts.append("</ul>")
+    return "\n".join(parts)
+
+
 def _actionable_section(
     prepared: Sequence[_PreparedFinding],
     warnings: dict[tuple[str, str], list[str]],

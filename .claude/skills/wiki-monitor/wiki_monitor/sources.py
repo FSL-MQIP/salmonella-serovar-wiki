@@ -30,6 +30,9 @@ USER_AGENT = (
 #: already reported are filtered out later by the state dedup key.
 OPENFDA_WINDOW_DAYS = 60
 
+#: openFDA's documented ceiling for a single call.
+OPENFDA_MAX_LIMIT = 1000
+
 OPENFDA_URL = "https://api.fda.gov/food/enforcement.json"
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 FOOD_SAFETY_NEWS_FEED = "https://www.foodsafetynews.com/tag/salmonella/feed/"
@@ -79,7 +82,12 @@ def default_http(url: str) -> bytes:
 # ---------------------------------------------------------------------------
 # openFDA food enforcement
 # ---------------------------------------------------------------------------
-def fetch_openfda(now: datetime, http=default_http, limit: int = 100) -> list[Candidate]:
+def fetch_openfda(
+    now: datetime,
+    http=default_http,
+    limit: int = OPENFDA_MAX_LIMIT,
+    notes: list | None = None,
+) -> list[Candidate]:
     """Recalls mentioning Salmonella, over a rolling window ending at *now*."""
     start = (now - timedelta(days=OPENFDA_WINDOW_DAYS)).strftime("%Y%m%d")
     end = now.strftime("%Y%m%d")
@@ -94,6 +102,18 @@ def fetch_openfda(now: datetime, http=default_http, limit: int = 100) -> list[Ca
     except NotFound:
         # A zero-match search is a quiet week, not a failure.
         return []
+
+    # One page at openFDA's documented maximum covers this query many times over
+    # — a 60-day Salmonella window runs to a few dozen recalls — but say so
+    # rather than pass off a first page as the whole window.
+    total = payload.get("meta", {}).get("results", {}).get("total")
+    returned = len(payload.get("results", []))
+    if notes is not None and isinstance(total, int) and total > returned:
+        notes.append(
+            f"openFDA: took {returned} of {total} matching recalls in the rolling "
+            f"{OPENFDA_WINDOW_DAYS}-day window (limit={limit}); "
+            f"{total - returned} were not considered."
+        )
 
     candidates = []
     for record in payload.get("results", []):
@@ -205,12 +225,15 @@ def _pubmed_fetch(identifiers, http, email) -> list[Candidate]:
         pmid = article.findtext(".//PMID", default="").strip()
         if not pmid:
             continue
-        title = article.findtext(".//ArticleTitle", default="").strip()
+        # PubMed marks up titles and abstracts with inline elements — <i> around
+        # genus names, <sub>/<sup> in expressions like LT<sub>50</sub>. Reading
+        # only ``.text`` stops at the first such tag: one real abstract lost 928
+        # of its 2016 characters that way, cutting off mid-result.
+        title = _all_text(article.find(".//ArticleTitle")).strip()
         abstract = " ".join(
-            (node.text or "").strip()
-            for node in article.iter("AbstractText")
+            _all_text(node).strip() for node in article.iter("AbstractText")
         ).strip()
-        journal = article.findtext(".//Journal/Title", default="").strip()
+        journal = _all_text(article.find(".//Journal/Title")).strip()
         candidates.append(
             Candidate(
                 source="pubmed",
@@ -295,7 +318,7 @@ def fetch_all(
 ) -> list[Candidate]:
     """Every candidate from every source, so one digest can rank across them."""
     return [
-        *fetch_openfda(now, http=http),
+        *fetch_openfda(now, http=http, notes=notes),
         *fetch_pubmed(since, now, http=http, email=email, notes=notes),
         *fetch_food_safety_news(since, http=http),
     ]
@@ -320,15 +343,15 @@ def _first_sentence(text: str, limit: int = 120) -> str:
 
 
 def _all_text(node) -> str:
-    """Every text fragment under *node*.
+    """Every text fragment under *node*, including inside child elements.
 
-    The feed CDATA-wraps its descriptions, so the markup arrives as text — but a
-    feed that inlined real child elements instead would lose everything after
-    the first tag under ``findtext``.
+    ``findtext`` and ``.text`` stop at the first child element and drop the rest,
+    which silently truncates any mixed-content field — an RSS description with
+    inline markup, or a PubMed title or abstract carrying ``<i>`` or ``<sub>``.
     """
     if node is None:
         return ""
-    return " ".join(node.itertext())
+    return "".join(node.itertext())
 
 
 def _strip_tags(html_text: str) -> str:
