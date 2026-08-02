@@ -1,0 +1,92 @@
+name: Weekly Salmonella Wiki Monitor
+
+on:
+  schedule:
+    # Mondays 06:00 UTC. GitHub's scheduler can skip runs under load; the scan
+    # window self-corrects because it starts from the last successful run.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+# The monitor commits its own state file and nothing else.
+permissions:
+  contents: write
+
+concurrency:
+  group: wiki-monitor
+  cancel-in-progress: false
+
+env:
+  # State lands on dev, not main. MAINTENANCE.md §3 routes every change through
+  # dev, and main's ruleset only lets the Project Lead bypass review — a
+  # scheduled push straight to main would be rejected.
+  MONITOR_BRANCH: dev
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: dev
+          # scan_window_start reads git history for the last commit touching
+          # docs/serovars/, so a shallow clone would anchor a first run wrongly.
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run the monitor
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Run the wiki-monitor skill in .claude/skills/wiki-monitor/SKILL.md,
+            following it exactly. Work through all three of its steps: fetch the
+            candidates, classify every one of them against the Update Criteria,
+            then dry-run the digest, fix anything validation flags, and send it.
+            Do not edit any serovar page. Do not commit anything except
+            .claude/skills/wiki-monitor/state.json.
+          claude_args: |
+            --allowedTools Bash,Read,Glob,Grep,Write,Edit,WebFetch
+            --max-turns 80
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          DIGEST_TO: ${{ vars.DIGEST_TO }}
+          DIGEST_CC: ${{ vars.DIGEST_CC }}
+          DIGEST_FROM: ${{ vars.DIGEST_FROM }}
+          FAILURE_TO: ${{ vars.FAILURE_TO }}
+          NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
+
+      - name: Commit the state file
+        run: |
+          set -euo pipefail
+          STATE=.claude/skills/wiki-monitor/state.json
+          if [ ! -f "$STATE" ]; then
+            echo "No state file was written — nothing to commit."
+            exit 0
+          fi
+          # `git add` before comparing: on the first run the file is untracked,
+          # and `git diff` alone does not see untracked files.
+          git add "$STATE"
+          if git diff --cached --quiet -- "$STATE"; then
+            echo "State unchanged — nothing to commit."
+            exit 0
+          fi
+          git config user.name "salmonella-wiki-monitor[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Record findings reported by the weekly monitor"
+          git push origin HEAD:${{ env.MONITOR_BRANCH }}
+
+      # Runs only when something above failed. Goes to the Technical Lead alone,
+      # carries no digest content, and leaves the run red so the log is findable.
+      - name: Notify the Technical Lead of failure
+        if: failure()
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          FAILURE_TO: ${{ vars.FAILURE_TO }}
+          DIGEST_FROM: ${{ vars.DIGEST_FROM }}
+        run: |
+          PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor fail \
+            --summary "The ${{ github.workflow }} run failed at step: ${{ job.status }}." \
+            --run-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

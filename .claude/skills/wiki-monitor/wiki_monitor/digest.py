@@ -32,6 +32,9 @@ _REFERENCES_HEADING = re.compile(r"^##\s+References\s*$", re.MULTILINE)
 _NUMBERED_ITEM = re.compile(r"^\s*(\d+)\.\s", re.MULTILINE)
 _SECTION_HEADING = re.compile(r"^##\s+(.+?)\s*$", re.MULTILINE)
 
+#: A serovar page's H1, e.g. ``# *S.* Agona`` — the serovar name without markup.
+_H1 = re.compile(r"^#\s+(?:\*S\.\*|\*Salmonella\*)?\s*(.+?)\s*$", re.MULTILINE)
+
 #: The tree whose last commit anchors a first run's scan window.
 SEROVAR_PAGES = "docs/serovars"
 
@@ -110,7 +113,7 @@ def build_digest(
     repo_root: Path | str,
     run_timestamp: str,
 ) -> DigestResult:
-    already_reported = _reported_pairs(state)
+    already_reported = reported_pairs(state)
 
     # Drop what has been reported before *first*, so a stale finding does not
     # occupy one of the five actionable slots.
@@ -204,7 +207,26 @@ def _parse_iso8601(stamp: str) -> datetime:
 # ---------------------------------------------------------------------------
 # State
 # ---------------------------------------------------------------------------
-def _reported_pairs(state: dict | None) -> set[tuple[str, str]]:
+def covered_serovars(repo_root: Path | str) -> list[str]:
+    """Every serovar with a serovar page, read from each page's H1.
+
+    Coverage is what limits a candidate to being an actionable finding rather
+    than a coverage gap, so it is derived from the pages themselves rather than
+    from a list that could drift.  Filenames are not usable — several encode
+    antigenic formulae rather than a serovar name.
+    """
+    pages = (Path(repo_root) / SEROVAR_PAGES).rglob("*.md")
+    names = set()
+    for page in pages:
+        if page.name == "index.md":
+            continue
+        heading = _H1.search(page.read_text(encoding="utf-8"))
+        if heading:
+            names.add(heading.group(1).strip())
+    return sorted(names)
+
+
+def reported_pairs(state: dict | None) -> set[tuple[str, str]]:
     """The (source id, serovar) pairs already reported by an earlier run."""
     if not state:
         return set()
@@ -229,7 +251,7 @@ def _updated_state(
     creates its page.  See ADR 0003.
     """
     reported = list(state.get("reported", ())) if state else []
-    seen = _reported_pairs(state)
+    seen = reported_pairs(state)
 
     # Finding and ExcludedItem deliberately share these three fields, so both
     # kinds of reported item record the same way.
