@@ -26,6 +26,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          # State lands on dev, never main: MAINTENANCE.md §4 protects main
+          # against direct pushes, so a scheduled run committing there would be
+          # rejected. Scheduled runs check out the default branch by default,
+          # hence naming dev explicitly.
+          ref: dev
           # scan_window_start reads git history for the last commit touching
           # docs/serovars/, so a shallow clone would anchor a first run wrongly.
           fetch-depth: 0
@@ -101,10 +106,9 @@ jobs:
           git config user.name "salmonella-wiki-monitor[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Record findings reported by the weekly monitor"
-          # Back to whichever branch triggered the run. If that branch is
-          # protected, this push is rejected and the run goes red — grant the
-          # Actions bot bypass, or point the schedule at an unprotected branch.
-          git push origin "HEAD:${{ github.ref_name }}"
+          # dev, matching the checkout above. State reaches main the same way
+          # everything else does — through a pull request someone reviews.
+          git push origin HEAD:dev
 
       # Runs only when something above failed. Goes to the Technical Lead alone,
       # carries no digest content, and leaves the run red so the log is findable.
