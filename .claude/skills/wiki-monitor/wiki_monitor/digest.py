@@ -123,11 +123,16 @@ def build_digest(
 
     # Findings past the cap are demoted, not dropped, and rank above the items
     # the classification step judged not actionable.
-    reviewed = [_demote(f) for f in fresh[ACTIONABLE_CAP:]]
-    reviewed.extend(fresh_excluded)
+    demoted = [_demote(f) for f in fresh[ACTIONABLE_CAP:]]
+    reviewed = [*demoted, *fresh_excluded]
 
     reviewed_shown = reviewed[:REVIEWED_CAP]
     dropped_count = max(0, len(reviewed) - REVIEWED_CAP)
+
+    # Demoted findings lead `reviewed`, so everything after them is a candidate
+    # the classifier itself ruled out.  Only those are recorded — a finding the
+    # cap pushed down was listed, not reported.  See ADR 0003.
+    excluded_shown = reviewed_shown[len(demoted) :]
 
     allocator = _ReferenceAllocator(repo_root)
     prepared = [allocator.prepare(finding) for finding in actionable]
@@ -148,7 +153,7 @@ def build_digest(
                 _reviewed_section(reviewed_shown, dropped_count),
             ]
         ),
-        state=_updated_state(state, actionable, reviewed_shown, run_timestamp),
+        state=_updated_state(state, actionable, excluded_shown, run_timestamp),
         validation=issues,
     )
 
@@ -211,22 +216,24 @@ def _reported_pairs(state: dict | None) -> set[tuple[str, str]]:
 def _updated_state(
     state: dict | None,
     actionable: Sequence[Finding],
-    reviewed_shown: Sequence[ExcludedItem],
+    excluded_shown: Sequence[ExcludedItem],
     run_timestamp: str,
 ) -> dict:
-    """State carrying an entry for everything this digest displayed.
+    """State carrying an entry for everything this digest *reported*.
 
-    Items the "+N more" note collapsed away are deliberately absent: they were
-    never shown, so they must compete again next run.  Coverage gaps are not
-    findings and are never recorded — an uncovered serovar stays a candidate
-    until someone creates its page.
+    Reported means an actionable finding carrying its wiki-ready entry, or a
+    candidate the classifier itself ruled out.  Three things are deliberately
+    absent, so each competes again next run: findings the actionable cap pushed
+    into the reviewed list, items the "+N more" note collapsed away, and
+    coverage gaps — an uncovered serovar stays a candidate until someone
+    creates its page.  See ADR 0003.
     """
     reported = list(state.get("reported", ())) if state else []
     seen = _reported_pairs(state)
 
     # Finding and ExcludedItem deliberately share these three fields, so both
-    # kinds of displayed item record the same way.
-    for item in [*actionable, *reviewed_shown]:
+    # kinds of reported item record the same way.
+    for item in [*actionable, *excluded_shown]:
         pair = (item.source_id, item.serovar)
         if pair in seen:
             continue

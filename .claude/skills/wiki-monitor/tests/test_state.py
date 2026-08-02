@@ -1,7 +1,7 @@
 """State-file behaviour.
 
 State is keyed on (source's own stable identifier, serovar) and records what the
-digest displayed, so nothing is reported twice.  See ADR 0001.
+digest *reported*, so nothing is reported twice.  See ADR 0001 and ADR 0003.
 """
 
 from __future__ import annotations
@@ -96,6 +96,50 @@ def test_items_shown_in_the_reviewed_list_are_recorded_too(wiki_repo, build, mak
     result = build(wiki_repo, excluded=[make_excluded(source_id="fsn-42")])
 
     assert ("fsn-42", "Agona") in reported_pairs(result.state)
+
+
+def test_a_finding_the_cap_pushed_down_is_not_recorded(wiki_repo, build, make_finding):
+    """It was listed by title, not reported with its entry — it gets another run."""
+    findings = [make_finding(source_id=f"F-{n}-2026") for n in range(1, 7)]
+
+    result = build(wiki_repo, findings=findings)
+    recorded = {source_id for source_id, _ in reported_pairs(result.state)}
+
+    assert recorded == {"F-1-2026", "F-2-2026", "F-3-2026", "F-4-2026", "F-5-2026"}
+    assert "F-6-2026" in result.html, "it is still shown in the reviewed list"
+
+
+def test_a_demoted_finding_can_win_an_actionable_slot_on_a_later_run(
+    wiki_repo, build, make_finding, digest_section
+):
+    """The whole point of not recording it: next week it competes again."""
+    crowded = [make_finding(source_id=f"F-{n}-2026") for n in range(1, 7)]
+    first = build(wiki_repo, findings=crowded)
+
+    # Next run, only the previously-demoted finding is still in the source window.
+    second = build(
+        wiki_repo,
+        findings=[make_finding(source_id="F-6-2026")],
+        state=first.state,
+    )
+    actionable = digest_section(second.html, "Actionable findings")
+
+    assert "F-6-2026" in actionable
+    assert "5-finding cap" not in actionable
+
+
+def test_a_classifier_excluded_item_is_recorded_even_though_it_was_never_actionable(
+    wiki_repo, build, make_finding, make_excluded
+):
+    """Reported-as-excluded still counts as reported, so it is not re-judged."""
+    findings = [make_finding(source_id=f"F-{n}-2026") for n in range(1, 7)]
+    excluded = [make_excluded(source_id="fsn-7")]
+
+    result = build(wiki_repo, findings=findings, excluded=excluded)
+    recorded = {source_id for source_id, _ in reported_pairs(result.state)}
+
+    assert "fsn-7" in recorded
+    assert "F-6-2026" not in recorded
 
 
 def test_items_dropped_by_the_plus_n_more_note_are_not_recorded(wiki_repo, build, make_excluded):
