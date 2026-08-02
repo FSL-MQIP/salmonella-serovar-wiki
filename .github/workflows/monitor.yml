@@ -40,13 +40,10 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          prompt: |
-            Run the wiki-monitor skill in .claude/skills/wiki-monitor/SKILL.md,
-            following it exactly. Work through all three of its steps: fetch the
-            candidates, classify every one of them against the Update Criteria,
-            then dry-run the digest, fix anything validation flags, and send it.
-            Do not edit any serovar page. Do not commit anything except
-            .claude/skills/wiki-monitor/state.json.
+          # `prompt` accepts a skill invocation for a skill in .claude/skills/,
+          # which is why checkout runs first. The instructions and guardrails
+          # live in SKILL.md so they stay versioned in one place.
+          prompt: "/wiki-monitor"
           claude_args: |
             --allowedTools Bash,Read,Glob,Grep,Write,Edit,WebFetch
             --max-turns 80
