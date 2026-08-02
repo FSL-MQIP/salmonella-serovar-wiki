@@ -51,15 +51,19 @@ jobs:
             --allowedTools Bash,Read,Glob,Grep,Write,Edit,WebFetch
             --max-turns 80
         env:
-          # Scheduled runs send; a manual run only sends if you ask it to, so the
-          # digest can be reviewed before anyone's inbox is involved.
-          MONITOR_SEND: ${{ github.event_name == 'schedule' || inputs.send_email }}
+          # Sending is opt-in, not the default. A manual run sends only when
+          # asked; a scheduled run sends only once the MONITOR_SEND repository
+          # variable is "true". Until then every run still produces a digest and
+          # publishes it below — useful while the email provider is unavailable.
+          MONITOR_SEND: ${{ inputs.send_email || vars.MONITOR_SEND == 'true' }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          DIGEST_TO: ${{ vars.DIGEST_TO }}
-          DIGEST_CC: ${{ vars.DIGEST_CC }}
-          DIGEST_FROM: ${{ vars.DIGEST_FROM }}
-          FAILURE_TO: ${{ vars.FAILURE_TO }}
-          NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
+          # Recipients live in secrets rather than variables. Either would keep
+          # them out of this public repository; secrets is simply where they are.
+          DIGEST_TO: ${{ secrets.DIGEST_TO }}
+          DIGEST_CC: ${{ secrets.DIGEST_CC }}
+          DIGEST_FROM: ${{ secrets.DIGEST_FROM }}
+          FAILURE_TO: ${{ secrets.FAILURE_TO }}
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
 
       # Makes the digest readable straight from the run, so a working email
       # provider is not needed to see what the monitor produced.
@@ -118,8 +122,8 @@ jobs:
         if: failure()
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          FAILURE_TO: ${{ vars.FAILURE_TO }}
-          DIGEST_FROM: ${{ vars.DIGEST_FROM }}
+          FAILURE_TO: ${{ secrets.FAILURE_TO }}
+          DIGEST_FROM: ${{ secrets.DIGEST_FROM }}
         run: |
           PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor fail \
             --summary "The ${{ github.workflow }} run failed at step: ${{ job.status }}." \
