@@ -69,7 +69,7 @@ def test_openfda_normalises_a_recall(wiki_repo):
     candidates = sources.fetch_openfda(NOW, http=responder(OPENFDA_PAYLOAD))
 
     first = candidates[0]
-    assert first.source == "openfda"
+    assert first.data_source == "openfda"
     assert first.source_id == "F-1234-2026"  # the state dedup key
     assert first.published == "2026-07-15"
     assert "Tahini" in first.title
@@ -160,7 +160,7 @@ def test_pubmed_normalises_a_paper():
 
     assert len(candidates) == 1
     paper = candidates[0]
-    assert paper.source == "pubmed"
+    assert paper.data_source == "pubmed"
     assert paper.source_id == "40123456"
     assert paper.title.startswith("Novel AMR plasmid")
     assert paper.url == "https://pubmed.ncbi.nlm.nih.gov/40123456/"
@@ -208,6 +208,50 @@ def test_pubmed_keeps_text_that_inline_markup_interrupts():
     assert "mcr-1" in paper.summary, "text after a second inline tag survives"
     assert "every isolate" in paper.summary, "the tail of the abstract survives"
     assert "Journal of Salmonella Studies" in paper.summary
+
+
+def test_pubmed_does_not_require_the_words_serovar_or_serotype():
+    """Requiring them was measured to miss half the serovar-relevant literature.
+
+    Over one 90-day window, 204 papers matched that filter and 205 more named a
+    covered serovar the conventional way — "Salmonella Typhimurium" — and were
+    invisible. Narrowing to the covered-serovar list instead would empty the
+    Coverage gaps section, which is made of *uncovered* serovars.
+    """
+    assert "serovar[" not in sources.PUBMED_TERM
+    assert "serotype[" not in sources.PUBMED_TERM
+    assert sources.PUBMED_TERM == "Salmonella[Title/Abstract]"
+
+
+def test_pubmed_fetches_ids_in_chunks_a_get_url_can_carry():
+    calls = []
+    ids = [str(40000000 + n) for n in range(250)]
+
+    def http(url):
+        calls.append(url)
+        if "esearch" in url:
+            return json.dumps(
+                {"esearchresult": {"idlist": ids, "count": str(len(ids))}}
+            ).encode()
+        return PUBMED_EFETCH
+
+    sources.fetch_pubmed(SINCE, NOW, http=http)
+
+    efetches = [u for u in calls if "efetch" in u]
+    assert len(efetches) == 3, "250 ids in chunks of 100"
+    assert all(len(u) < 8000 for u in efetches), "each URL stays GET-sized"
+
+
+def test_pubmed_takes_the_newest_when_it_has_to_truncate():
+    seen = []
+
+    def http(url):
+        seen.append(url)
+        return json.dumps({"esearchresult": {"idlist": []}}).encode()
+
+    sources.fetch_pubmed(SINCE, NOW, http=http)
+
+    assert "sort=pub_date" in seen[0]
 
 
 def test_pubmed_windows_the_search_on_the_scan_dates():
@@ -273,7 +317,7 @@ def test_food_safety_news_normalises_an_item():
 
     assert len(candidates) == 1
     news = candidates[0]
-    assert news.source == "food-safety-news"
+    assert news.data_source == "food-safety-news"
     assert news.source_id == "6a6ab76d6b9369000110f416"
     assert news.published == "2026-07-30"
     assert news.summary == "Cases across 12 states.", "HTML tags stripped"
@@ -288,6 +332,39 @@ def test_food_safety_news_ignores_items_from_before_the_scan_window():
     candidates = sources.fetch_food_safety_news(SINCE, http=responder(feed))
 
     assert [c.source_id for c in candidates] == ["guid-new"]
+
+
+def test_food_safety_news_says_so_when_the_feed_does_not_reach_the_window_start():
+    """An RSS feed has a fixed length and no date parameter.
+
+    So the feed, not the scan window, can be what bounds this source — which a
+    90-day first-run backfill will always hit. The test is whether the oldest item
+    predates the window, not how many items came back.
+    """
+    feed = rss(
+        item("Recent", "https://x/1", "g1", "Thu, 30 Jul 2026 00:00:00 GMT"),
+        item("Also recent", "https://x/2", "g2", "Mon, 27 Jul 2026 00:00:00 GMT"),
+    )
+    notes = []
+    since = datetime(2026, 5, 4, tzinfo=timezone.utc)
+
+    sources.fetch_food_safety_news(since, http=responder(feed), notes=notes)
+
+    assert len(notes) == 1
+    assert "reaches back only to 2026-07-27" in notes[0]
+    assert "opens 2026-05-04" in notes[0]
+
+
+def test_food_safety_news_stays_quiet_when_the_feed_covers_the_window():
+    feed = rss(
+        item("Old enough", "https://x/1", "g1", "Mon, 15 Jun 2026 00:00:00 GMT"),
+        item("Newer", "https://x/2", "g2", "Thu, 30 Jul 2026 00:00:00 GMT"),
+    )
+    notes = []
+
+    sources.fetch_food_safety_news(SINCE, http=responder(feed), notes=notes)
+
+    assert notes == []
 
 
 def test_food_safety_news_skips_an_item_with_an_unparseable_date():
@@ -315,7 +392,7 @@ def test_all_three_sources_feed_one_candidate_list():
 
     candidates = sources.fetch_all(SINCE, NOW, http=http)
 
-    assert {c.source for c in candidates} == {
+    assert {c.data_source for c in candidates} == {
         "openfda",
         "pubmed",
         "food-safety-news",

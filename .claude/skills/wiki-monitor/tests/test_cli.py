@@ -14,7 +14,7 @@ from wiki_monitor import cli
 FINDINGS = {
     "findings": [
         {
-            "source": "openfda",
+            "data_source": "openfda",
             "source_id": "F-1234-2026",
             "serovar": "Agona",
             "target_page": "docs/serovars/group-b/agona.md",
@@ -111,6 +111,63 @@ def test_fetch_notes_reach_the_delivered_digest(
     )
 
     assert "took 100 of 137 matching recalls" in out.read_text(encoding="utf-8")
+
+
+def test_it_refuses_to_send_unless_monitor_send_says_so(
+    wiki_repo, findings_file, tmp_path, monkeypatch, capsys
+):
+    """The gate is code, not prose.
+
+    SKILL.md tells the run to stop before sending, but that is instructions for a
+    model. Sending reaches real people and cannot be undone, so `deliver` checks
+    for itself even when asked to send.
+    """
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.delenv("MONITOR_SEND", raising=False)
+    monkeypatch.setenv("RESEND_API_KEY", "re_test")
+    monkeypatch.setenv("DIGEST_TO", "someone@example.org")
+
+    exit_code = cli.main(
+        [
+            "--repo-root", str(wiki_repo),
+            "deliver", "--findings", str(findings_file),
+        ]
+    )
+
+    assert exit_code == 0
+    assert "MONITOR_SEND is not true" in capsys.readouterr().out
+    assert not (tmp_path / cli.SENT_MARKER).exists(), "nothing was sent"
+    assert not (wiki_repo / cli.STATE_PATH).exists(), "so nothing was recorded"
+
+
+def test_the_subject_counts_what_the_digest_shows_not_what_was_offered(
+    wiki_repo, findings_file, monkeypatch
+):
+    """Findings already reported are dropped before the cap.
+
+    Counting the classifier's input would promise findings over a body that shows
+    none.
+    """
+    prior = {
+        "last_successful_run": "2026-07-26T06:00:00Z",
+        "reported": [
+            {"source_id": "F-1234-2026", "serovar": "Agona", "data_source": "openfda"}
+        ],
+    }
+    state_file = wiki_repo / cli.STATE_PATH
+    state_file.parent.mkdir(parents=True, exist_ok=True)
+    state_file.write_text(json.dumps(prior), encoding="utf-8")
+
+    from wiki_monitor import digest
+
+    result = digest.build_digest(
+        findings=[digest.Finding(**item) for item in FINDINGS["findings"]],
+        excluded=[], coverage_gaps=[], state=prior,
+        repo_root=wiki_repo, run_timestamp="2026-08-02T06:00:00Z",
+    )
+
+    assert result.actionable_count == 0
+    assert "no actionable findings" in cli._subject(result)
 
 
 def test_no_send_leaves_no_sent_marker(wiki_repo, findings_file, tmp_path, monkeypatch):

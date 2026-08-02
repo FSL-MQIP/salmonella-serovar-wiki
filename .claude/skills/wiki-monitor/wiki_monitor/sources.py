@@ -37,15 +37,25 @@ OPENFDA_URL = "https://api.fda.gov/food/enforcement.json"
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 FOOD_SAFETY_NEWS_FEED = "https://www.foodsafetynews.com/tag/salmonella/feed/"
 
-#: PubMed is asked for serovar-level Salmonella literature; judging whether a
-#: paper reports a *novel* characteristic is the classifier's job, not the query's.
-PUBMED_TERM = (
-    "Salmonella[Title/Abstract] AND "
-    "(serovar[Title/Abstract] OR serotype[Title/Abstract])"
-)
+#: Every Salmonella paper in the window, with no further narrowing.
+#:
+#: Requiring the literal words "serovar" or "serotype" looked like a cheap way to
+#: get serovar-level literature and was measured to miss half of it: over one
+#: 90-day window, 204 papers matched that filter while 205 more named a covered
+#: serovar the conventional way — "Salmonella Typhimurium" — and were invisible.
+#:
+#: Narrowing to the wiki's own covered-serovar list would be worse still: a paper
+#: about an *uncovered* serovar is what a Coverage gap is made of, so filtering
+#: them out would silently empty that section. Whether a paper is relevant is the
+#: classifier's judgement, and the digest's caps bound the cost of asking it.
+PUBMED_TERM = "Salmonella[Title/Abstract]"
 
 #: NCBI asks that every E-utilities caller identify itself.
 PUBMED_TOOL = "salmonella-serovar-wiki-monitor"
+
+#: PMIDs per efetch call. The ids travel in the URL, so a whole backfill's worth
+#: in one request would exceed what a GET can carry.
+PUBMED_FETCH_CHUNK = 100
 
 
 class NotFound(Exception):
@@ -56,7 +66,7 @@ class NotFound(Exception):
 class Candidate:
     """One raw item from a data source, before any classification."""
 
-    source: str  # "openfda" | "pubmed" | "food-safety-news"
+    data_source: str  # "openfda" | "pubmed" | "food-safety-news"
     source_id: str  # recall number | PMID | RSS GUID — the state dedup key
     title: str
     url: str
@@ -122,7 +132,7 @@ def fetch_openfda(
             continue
         candidates.append(
             Candidate(
-                source="openfda",
+                data_source="openfda",
                 source_id=recall_number,
                 title=_first_sentence(record.get("product_description", "")),
                 url=(
@@ -165,10 +175,10 @@ def fetch_pubmed(
     now: datetime,
     http=default_http,
     email: str = "",
-    retmax: int = 200,
+    retmax: int = 400,
     notes: list | None = None,
 ) -> list[Candidate]:
-    """Serovar-level Salmonella papers indexed between *since* and *now*.
+    """Salmonella papers indexed between *since* and *now*, newest first.
 
     Appends a note when the window holds more papers than ``retmax`` returns, so
     a truncated candidate pool is never mistaken for the whole window — a long
@@ -186,12 +196,16 @@ def fetch_pubmed(
     return _pubmed_fetch(identifiers, http, email)
 
 
-def _pubmed_search(since, now, http, email, retmax) -> tuple[list[str], int]:
+def _pubmed_search(
+    since: datetime, now: datetime, http, email: str, retmax: int
+) -> tuple[list[str], int]:
     url = (
         f"{EUTILS}/esearch.fcgi?db=pubmed&retmode=json"
         f"&term={urllib.parse.quote(PUBMED_TERM)}"
         f"&datetype=edat&mindate={since:%Y/%m/%d}&maxdate={now:%Y/%m/%d}"
-        f"&retmax={retmax}&tool={PUBMED_TOOL}"
+        # Newest first, so that if retmax does truncate, what survives is the
+        # most recent rather than an arbitrary slice.
+        f"&sort=pub_date&retmax={retmax}&tool={PUBMED_TOOL}"
     )
     if email:
         url += f"&email={urllib.parse.quote(email)}"
@@ -208,7 +222,16 @@ def _pubmed_search(since, now, http, email, retmax) -> tuple[list[str], int]:
     return identifiers, total
 
 
-def _pubmed_fetch(identifiers, http, email) -> list[Candidate]:
+def _pubmed_fetch(identifiers: list[str], http, email: str) -> list[Candidate]:
+    """Fetch metadata for *identifiers*, in chunks a GET URL can carry."""
+    candidates: list[Candidate] = []
+    for start in range(0, len(identifiers), PUBMED_FETCH_CHUNK):
+        chunk = identifiers[start : start + PUBMED_FETCH_CHUNK]
+        candidates.extend(_pubmed_fetch_chunk(chunk, http, email))
+    return _deduplicate(candidates)
+
+
+def _pubmed_fetch_chunk(identifiers: list[str], http, email: str) -> list[Candidate]:
     url = (
         f"{EUTILS}/efetch.fcgi?db=pubmed&retmode=xml&rettype=abstract"
         f"&id={','.join(identifiers)}&tool={PUBMED_TOOL}"
@@ -236,7 +259,7 @@ def _pubmed_fetch(identifiers, http, email) -> list[Candidate]:
         journal = _all_text(article.find(".//Journal/Title")).strip()
         candidates.append(
             Candidate(
-                source="pubmed",
+                data_source="pubmed",
                 source_id=pmid,
                 title=title,
                 url=f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
@@ -250,7 +273,7 @@ def _pubmed_fetch(identifiers, http, email) -> list[Candidate]:
     return _deduplicate(candidates)
 
 
-def _pubmed_date(article) -> str:
+def _pubmed_date(article: ElementTree.Element) -> str:
     for path in (".//ArticleDate", ".//PubMedPubDate[@PubStatus='entrez']"):
         node = article.find(path)
         if node is None:
@@ -266,12 +289,36 @@ def _pubmed_date(article) -> str:
 # ---------------------------------------------------------------------------
 # Food Safety News
 # ---------------------------------------------------------------------------
-def fetch_food_safety_news(since: datetime, http=default_http) -> list[Candidate]:
-    """Items from the Salmonella-tagged feed published since *since*."""
+def fetch_food_safety_news(
+    since: datetime, http=default_http, notes: list | None = None
+) -> list[Candidate]:
+    """Items from the Salmonella-tagged feed published since *since*.
+
+    An RSS feed carries a fixed number of recent items with no date parameter, so
+    the feed itself — not the scan window — can be what bounds this source. The
+    test for that is whether the feed reaches back past *since*: if its oldest
+    item is newer than the window start, the earlier part of the window was never
+    on offer. A long first-run backfill will always trip this.
+    """
     try:
         root = ElementTree.fromstring(http(FOOD_SAFETY_NEWS_FEED))
     except NotFound:
         return []
+
+    dates = [
+        parsed
+        for parsed in (
+            _rss_date(item.findtext("pubDate", default="")) for item in root.iter("item")
+        )
+        if parsed is not None
+    ]
+    if notes is not None and dates and min(dates) > since:
+        notes.append(
+            f"Food Safety News: the feed reaches back only to "
+            f"{min(dates):%Y-%m-%d}, but this run's window opens "
+            f"{since:%Y-%m-%d}; anything Salmonella-tagged before "
+            f"{min(dates):%Y-%m-%d} was not on offer."
+        )
 
     candidates = []
     for item in root.iter("item"):
@@ -283,7 +330,7 @@ def fetch_food_safety_news(since: datetime, http=default_http) -> list[Candidate
             continue
         candidates.append(
             Candidate(
-                source="food-safety-news",
+                data_source="food-safety-news",
                 source_id=guid,
                 title=(item.findtext("title") or "").strip(),
                 url=(item.findtext("link") or "").strip(),
@@ -294,7 +341,7 @@ def fetch_food_safety_news(since: datetime, http=default_http) -> list[Candidate
     return _deduplicate(candidates)
 
 
-def _rss_date(raw: str):
+def _rss_date(raw: str) -> datetime | None:
     if not raw.strip():
         return None
     try:
@@ -320,7 +367,7 @@ def fetch_all(
     return [
         *fetch_openfda(now, http=http, notes=notes),
         *fetch_pubmed(since, now, http=http, email=email, notes=notes),
-        *fetch_food_safety_news(since, http=http),
+        *fetch_food_safety_news(since, http=http, notes=notes),
     ]
 
 
@@ -342,7 +389,7 @@ def _first_sentence(text: str, limit: int = 120) -> str:
     return collapsed[:limit].rsplit(" ", 1)[0] + "…"
 
 
-def _all_text(node) -> str:
+def _all_text(node: ElementTree.Element | None) -> str:
     """Every text fragment under *node*, including inside child elements.
 
     ``findtext`` and ``.text`` stop at the first child element and drop the rest,

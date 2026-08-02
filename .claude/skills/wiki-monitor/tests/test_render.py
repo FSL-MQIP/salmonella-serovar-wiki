@@ -35,7 +35,7 @@ def test_coverage_gap_names_the_uncovered_serovar_and_where_it_appeared(
 ):
     gap = CoverageGap(
         serovar="Kentucky",
-        source="pubmed",
+        data_source="pubmed",
         source_id="40123456",
         title="Emergence of MDR Salmonella Kentucky ST198 in poultry",
         url="https://pubmed.ncbi.nlm.nih.gov/40123456/",
@@ -50,7 +50,7 @@ def test_coverage_gap_names_the_uncovered_serovar_and_where_it_appeared(
 
 def test_reviewed_item_states_why_it_was_excluded(wiki_repo, build):
     item = ExcludedItem(
-        source="food-safety-news",
+        data_source="food-safety-news",
         source_id="https://foodsafetynews.example/item/99",
         serovar="Agona",
         title="Routine sampling finds Salmonella in pet treats",

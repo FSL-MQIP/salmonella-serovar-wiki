@@ -65,6 +65,26 @@ jobs:
           FAILURE_TO: ${{ secrets.FAILURE_TO }}
           NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
 
+      # A run that finished without producing a digest did not do its job, even
+      # if every step above reported success — the agent can stop early, or
+      # exhaust its turns, and leave nothing behind. A quiet week is not that: a
+      # zero-finding run still renders a digest saying so. So the absence of one
+      # is unambiguous, and silence must not read as success.
+      - name: Verify the run produced what it promised
+        run: |
+          set -euo pipefail
+          if [ ! -f digest.html ]; then
+            echo "::error::The run produced no digest. A quiet week still renders one."
+            exit 1
+          fi
+          if [ "${MONITOR_SEND}" = "true" ] && [ ! -f digest-sent.marker ]; then
+            echo "::error::Sending was enabled but no digest was sent."
+            exit 1
+          fi
+          echo "Digest present$([ -f digest-sent.marker ] && echo ' and sent')."
+        env:
+          MONITOR_SEND: ${{ inputs.send_email || vars.MONITOR_SEND == 'true' }}
+
       # Deliberately before the presentation steps below, and always() rather
       # than the implicit success(): deliver writes state only after the email
       # is away, so once it exists the digest has gone out. Letting a failed

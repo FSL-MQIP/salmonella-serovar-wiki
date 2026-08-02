@@ -15,6 +15,7 @@ import html
 import json
 import urllib.error
 import urllib.request
+from collections.abc import Mapping
 
 RESEND_ENDPOINT = "https://api.resend.com/emails"
 
@@ -32,35 +33,39 @@ class SendError(Exception):
     """Resend rejected the message."""
 
 
-def _addresses(env, name: str) -> list[str]:
+def _addresses(env: Mapping[str, str], name: str) -> list[str]:
     """Parse a comma-separated recipient list from *env*."""
     return [item.strip() for item in env.get(name, "").split(",") if item.strip()]
 
 
-def _require(env, name: str) -> str:
-    value = env.get(name, "").strip()
-    if not value:
-        raise ConfigError(
-            f"{name} is not set. The monitor will not guess who to email."
-        )
-    return value
-
-
-def send_digest(html: str, subject: str, env, post=None) -> str:
-    """Email the digest to the configured recipients, cc'ing the configured cc list."""
-    to = _addresses(env, "DIGEST_TO")
+def _recipients(env: Mapping[str, str], name: str, note: str) -> list[str]:
+    """The addresses in *env[name]*, refusing to proceed if there are none."""
+    to = _addresses(env, name)
     if not to:
-        raise ConfigError(
-            "DIGEST_TO is not set. Set it to a comma-separated recipient list; "
-            "the monitor will not guess who to email."
-        )
+        raise ConfigError(f"{name} is not set. {note}")
+    return to
+
+
+def _sender(env: Mapping[str, str]) -> str:
+    return env.get("DIGEST_FROM", "").strip() or FALLBACK_SENDER
+
+
+def send_digest(
+    body: str, subject: str, env: Mapping[str, str], post=None
+) -> str:
+    """Email the digest to the configured recipients, cc'ing the configured cc list."""
     return _send(
         {
-            "from": env.get("DIGEST_FROM", "").strip() or FALLBACK_SENDER,
-            "to": to,
+            "from": _sender(env),
+            "to": _recipients(
+                env,
+                "DIGEST_TO",
+                "Set it to a comma-separated recipient list; the monitor will "
+                "not guess who to email.",
+            ),
             "cc": _addresses(env, "DIGEST_CC"),
             "subject": subject,
-            "html": html,
+            "html": body,
         },
         env,
         post,
@@ -68,7 +73,11 @@ def send_digest(html: str, subject: str, env, post=None) -> str:
 
 
 def send_failure(
-    summary: str, run_url: str, env, post=None, digest_sent: bool = False
+    summary: str,
+    run_url: str,
+    env: Mapping[str, str],
+    post=None,
+    digest_sent: bool = False,
 ) -> str:
     """Tell the Technical Lead alone that a run failed.
 
@@ -80,12 +89,12 @@ def send_failure(
     "no digest was sent" there is both false and dangerous: it invites a re-run
     that delivers the same findings twice.
     """
-    to = _addresses(env, "FAILURE_TO")
-    if not to:
-        raise ConfigError(
-            "FAILURE_TO is not set. It must name the Technical Lead only, and is "
-            "deliberately separate from DIGEST_TO."
-        )
+    to = _recipients(
+        env,
+        "FAILURE_TO",
+        "It must name the Technical Lead only, and is deliberately separate "
+        "from DIGEST_TO.",
+    )
     if digest_sent:
         subject = "[FAILED after sending] Salmonella Wiki Monitor run"
         opening = (
@@ -101,13 +110,13 @@ def send_failure(
             "<p>The Salmonella Wiki Monitor run <strong>failed</strong>. "
             "No digest was sent.</p>"
         )
-    body = f"{opening}<p>{_escape(summary)}</p>"
+    body = f"{opening}<p>{html.escape(summary)}</p>"
     if run_url:
-        body += f'<p>Run log: <a href="{_escape(run_url)}">{_escape(run_url)}</a></p>'
+        body += f'<p>Run log: <a href="{html.escape(run_url)}">{html.escape(run_url)}</a></p>'
 
     return _send(
         {
-            "from": env.get("DIGEST_FROM", "").strip() or FALLBACK_SENDER,
+            "from": _sender(env),
             "to": to,
             "subject": subject,
             "html": body,
@@ -117,8 +126,10 @@ def send_failure(
     )
 
 
-def _send(message: dict, env, post) -> str:
-    api_key = _require(env, "RESEND_API_KEY")
+def _send(message: dict, env: Mapping[str, str], post) -> str:
+    api_key = env.get("RESEND_API_KEY", "").strip()
+    if not api_key:
+        raise ConfigError("RESEND_API_KEY is not set; there is no way to send.")
     payload = {key: value for key, value in message.items() if value}
     sender = post or _post
     response = sender(RESEND_ENDPOINT, payload, api_key)
@@ -142,6 +153,3 @@ def _post(url: str, payload: dict, api_key: str) -> dict:
         detail = error.read().decode("utf-8", "replace")[:500]
         raise SendError(f"Resend returned HTTP {error.code}: {detail}") from error
 
-
-def _escape(text: str) -> str:
-    return html.escape(text)

@@ -195,7 +195,7 @@ def make_finding():
     from wiki_monitor.digest import Finding
 
     defaults = dict(
-        source="openfda",
+        data_source="openfda",
         source_id="F-1234-2026",
         serovar="Agona",
         target_page="docs/serovars/group-b/agona.md",
@@ -221,7 +221,7 @@ def make_excluded():
     from wiki_monitor.digest import ExcludedItem
 
     defaults = dict(
-        source="food-safety-news",
+        data_source="food-safety-news",
         source_id="https://foodsafetynews.example/item/1",
         serovar="Agona",
         title="Routine sampling finds Salmonella in pet treats",

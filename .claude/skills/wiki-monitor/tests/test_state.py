@@ -33,7 +33,7 @@ def test_prior_entries_are_kept_alongside_the_new_ones(wiki_repo, build, make_fi
     prior = {
         "last_successful_run": "2026-07-26T06:00:00Z",
         "reported": [
-            {"source_id": "F-0001-2026", "serovar": "Dublin", "source": "openfda"}
+            {"source_id": "F-0001-2026", "serovar": "Dublin", "data_source": "openfda"}
         ],
     }
 
@@ -49,7 +49,7 @@ def test_an_already_reported_finding_is_not_reported_again(wiki_repo, build, mak
     prior = {
         "last_successful_run": "2026-07-26T06:00:00Z",
         "reported": [
-            {"source_id": "F-1234-2026", "serovar": "Agona", "source": "openfda"}
+            {"source_id": "F-1234-2026", "serovar": "Agona", "data_source": "openfda"}
         ],
     }
 
@@ -64,7 +64,7 @@ def test_the_same_source_item_is_reportable_for_a_second_serovar(wiki_repo, buil
     prior = {
         "last_successful_run": "2026-07-26T06:00:00Z",
         "reported": [
-            {"source_id": "F-1234-2026", "serovar": "Agona", "source": "openfda"}
+            {"source_id": "F-1234-2026", "serovar": "Agona", "data_source": "openfda"}
         ],
     }
     dublin_finding = make_finding(serovar="Dublin", target_page=DUBLIN)
@@ -162,7 +162,7 @@ def test_coverage_gaps_are_not_recorded_so_they_keep_being_suggested(wiki_repo, 
 
     gap = CoverageGap(
         serovar="Kentucky",
-        source="pubmed",
+        data_source="pubmed",
         source_id="40123456",
         title="MDR Kentucky in poultry",
         url="https://pubmed.ncbi.nlm.nih.gov/40123456/",
@@ -178,7 +178,7 @@ def test_an_already_reported_finding_frees_its_slot_for_the_next_one(wiki_repo, 
     prior = {
         "last_successful_run": "2026-07-26T06:00:00Z",
         "reported": [
-            {"source_id": "F-1-2026", "serovar": "Agona", "source": "openfda"}
+            {"source_id": "F-1-2026", "serovar": "Agona", "data_source": "openfda"}
         ],
     }
     findings = [make_finding(source_id=f"F-{n}-2026") for n in range(1, 8)]

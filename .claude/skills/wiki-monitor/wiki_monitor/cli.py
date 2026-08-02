@@ -31,7 +31,7 @@ STATE_PATH = Path(".claude/skills/wiki-monitor/state.json")
 SENT_MARKER = Path("digest-sent.marker")
 
 
-def _load_state(repo_root: Path):
+def _load_state(repo_root: Path) -> dict | None:
     path = repo_root / STATE_PATH
     if not path.is_file():
         return None
@@ -42,7 +42,7 @@ def _now() -> datetime:
     return datetime.now(timezone.utc)
 
 
-def cmd_fetch(args) -> int:
+def cmd_fetch(args: argparse.Namespace) -> int:
     repo_root = Path(args.repo_root)
     state = _load_state(repo_root)
     since = digest.scan_window_start(state, repo_root)
@@ -70,14 +70,14 @@ def cmd_fetch(args) -> int:
     print(
         f"Scanning since {since:%Y-%m-%d} ({'first run' if payload['first_run'] else 'since last run'}). "
         f"{len(candidates)} candidates across "
-        f"{len({c.source for c in candidates})} sources -> {args.out}"
+        f"{len({c.data_source for c in candidates})} sources -> {args.out}"
     )
     for note in notes:
         print(f"  note: {note}")
     return 0
 
 
-def cmd_deliver(args) -> int:
+def cmd_deliver(args: argparse.Namespace) -> int:
     repo_root = Path(args.repo_root)
     classified = json.loads(Path(args.findings).read_text(encoding="utf-8"))
     state = _load_state(repo_root)
@@ -106,15 +106,20 @@ def cmd_deliver(args) -> int:
         Path(args.out).write_text(result.html, encoding="utf-8")
         print(f"Digest written to {args.out}.")
 
-    if args.no_send:
+    # The gate is enforced here, not only described in SKILL.md. The workflow
+    # already refuses to trust prose for committing; sending — which reaches real
+    # people and cannot be undone — should not be the one guarantee left resting
+    # on a model following instructions.
+    if args.no_send or not _sending_enabled():
+        reason = "--no-send" if args.no_send else "MONITOR_SEND is not true"
         # State is deliberately left alone: nothing was reported, so recording
         # these findings would lose them.
-        print("Nothing sent (--no-send); state left unchanged.")
+        print(f"Nothing sent ({reason}); state left unchanged.")
         return 0
 
     from wiki_monitor import delivery
 
-    subject = args.subject or _subject(result, classified)
+    subject = _subject(result)
     message_id = delivery.send_digest(result.html, subject, os.environ)
     # Before writing state: from here on a failure means "sent but not recorded",
     # which the failure notice must say rather than claim nothing went out.
@@ -130,8 +135,18 @@ def cmd_deliver(args) -> int:
     return 0
 
 
-def _subject(result, classified) -> str:
-    shown = min(len(classified.get("findings", [])), digest.ACTIONABLE_CAP)
+def _sending_enabled() -> bool:
+    return os.environ.get("MONITOR_SEND", "").strip().lower() == "true"
+
+
+def _subject(result: digest.DigestResult) -> str:
+    """Describe what the digest actually shows.
+
+    Counted from the rendered result, not from the classifier's input: findings
+    already reported in an earlier run are dropped before the cap applies, so an
+    input count could promise five findings above a body that shows none.
+    """
+    shown = result.actionable_count
     when = datetime.now(timezone.utc).strftime("%d %b %Y")
     if shown == 0:
         return f"Salmonella Wiki Monitor — no actionable findings ({when})"
@@ -139,7 +154,7 @@ def _subject(result, classified) -> str:
     return f"Salmonella Wiki Monitor — {shown} finding{plural} ({when})"
 
 
-def cmd_fail(args) -> int:
+def cmd_fail(args: argparse.Namespace) -> int:
     from wiki_monitor import delivery
 
     digest_sent = SENT_MARKER.is_file()
@@ -156,7 +171,7 @@ def cmd_fail(args) -> int:
     return 0
 
 
-def main(argv=None) -> int:
+def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="wiki_monitor", description=__doc__)
     parser.add_argument("--repo-root", default=".")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -167,7 +182,6 @@ def main(argv=None) -> int:
 
     deliver = subparsers.add_parser("deliver", help="render, send, update state")
     deliver.add_argument("--findings", default="findings.json")
-    deliver.add_argument("--subject", default="")
     deliver.add_argument(
         "--out",
         default="",

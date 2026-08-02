@@ -48,7 +48,7 @@ class Finding:
     replaces with a reference number allocated against the target page.
     """
 
-    source: str
+    data_source: str
     source_id: str
     serovar: str
     target_page: str
@@ -63,7 +63,7 @@ class Finding:
 class ExcludedItem:
     """A candidate that was reviewed and judged not actionable."""
 
-    source: str
+    data_source: str
     source_id: str
     serovar: str
     title: str
@@ -76,7 +76,7 @@ class CoverageGap:
     """A serovar named by a source item but with no serovar page yet."""
 
     serovar: str
-    source: str
+    data_source: str
     source_id: str
     title: str
     url: str
@@ -102,6 +102,9 @@ class DigestResult:
     html: str
     state: dict
     validation: list[ValidationIssue]
+    #: Findings actually rendered as actionable — after dedup against state and
+    #: after the cap. The only honest count to describe the digest by.
+    actionable_count: int
 
 
 def build_digest(
@@ -160,6 +163,7 @@ def build_digest(
         ),
         state=_updated_state(state, actionable, excluded_shown, run_timestamp),
         validation=issues,
+        actionable_count=len(actionable),
     )
 
 
@@ -266,7 +270,7 @@ def _updated_state(
             {
                 "source_id": item.source_id,
                 "serovar": item.serovar,
-                "source": item.source,
+                "data_source": item.data_source,
             }
         )
 
@@ -335,7 +339,7 @@ def _demote(finding: Finding) -> ExcludedItem:
     and a reason — so those stand in as the reviewed list's description.
     """
     return ExcludedItem(
-        source=finding.source,
+        data_source=finding.data_source,
         source_id=finding.source_id,
         serovar=finding.serovar,
         title=f"{finding.criterion}: {finding.criterion_reason}",
@@ -462,7 +466,9 @@ def _finding_block(
         f" &rarr; <code>## {esc(finding.target_section)}</code></p>",
         f"<p><strong>Criterion:</strong> {esc(finding.criterion)}"
         f" &mdash; {esc(finding.criterion_reason)}</p>",
-        f"<p><strong>Source:</strong> {esc(finding.source)}"
+        # "Data source" in full: the entry below may carry an "Associated source"
+        # column, which means the food vehicle. CONTEXT.md keeps the two apart.
+        f"<p><strong>Data source:</strong> {esc(finding.data_source)}"
         f" <code>{esc(finding.source_id)}</code></p>",
     ]
     for message in warnings:
@@ -491,7 +497,7 @@ def _coverage_gaps_section(coverage_gaps: Sequence[CoverageGap]) -> str:
         parts.append(
             f"<li><em>S.</em> {esc(gap.serovar)} &mdash; "
             f'<a href="{esc(gap.url)}">{esc(gap.title)}</a> '
-            f"({esc(gap.source)} <code>{esc(gap.source_id)}</code>)</li>"
+            f"({esc(gap.data_source)} <code>{esc(gap.source_id)}</code>)</li>"
         )
     parts.append("</ul>")
     return "\n".join(parts)
@@ -517,7 +523,7 @@ def _reviewed_section(items: Sequence[ExcludedItem], dropped_count: int) -> str:
         parts.append(
             f"<li>{title} &mdash; "
             f"<em>S.</em> {esc(item.serovar)} &mdash; {esc(item.exclusion_reason)} "
-            f"({esc(item.source)} <code>{esc(item.source_id)}</code>)</li>"
+            f"({esc(item.data_source)} <code>{esc(item.source_id)}</code>)</li>"
         )
     parts.append("</ol>")
     if dropped_count:

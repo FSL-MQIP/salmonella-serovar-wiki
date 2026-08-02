@@ -95,7 +95,7 @@ If an entry needs no citation, leave `citation_url` empty and omit `{footnote}`.
   "notes": ["copied verbatim from candidates.json; omit if that array was empty"],
   "findings": [
     {
-      "source": "openfda",
+      "data_source": "openfda",
       "source_id": "F-1234-2026",
       "serovar": "Agona",
       "target_page": "docs/serovars/group-b/agona.md",
@@ -108,7 +108,7 @@ If an entry needs no citation, leave `citation_url` empty and omit `{footnote}`.
   ],
   "excluded": [
     {
-      "source": "food-safety-news",
+      "data_source": "food-safety-news",
       "source_id": "6a6ab76d...",
       "serovar": "Agona",
       "title": "Routine sampling finds Salmonella in pet treats",
@@ -119,7 +119,7 @@ If an entry needs no citation, leave `citation_url` empty and omit `{footnote}`.
   "coverage_gaps": [
     {
       "serovar": "Kentucky",
-      "source": "pubmed",
+      "data_source": "pubmed",
       "source_id": "40123456",
       "title": "MDR Salmonella Kentucky ST198 in poultry",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40123456/"
@@ -145,7 +145,9 @@ leaves `state.json` untouched. **Fix anything it flags** — a `missing-page` or
 `missing-section` means you named a target that does not exist, and an
 `unresolved-footnote` means an entry expects a citation you did not supply.
 
-Then, **only if `MONITOR_SEND` is `true`**, send it:
+Then send it. `deliver` checks `MONITOR_SEND` itself and will refuse if it is not
+`true`, so running this when sending is disabled is harmless — it reports why and
+leaves state alone:
 
 ```bash
 PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor deliver \
