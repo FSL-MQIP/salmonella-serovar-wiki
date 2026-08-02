@@ -134,20 +134,28 @@ Check your work before sending:
 
 ```bash
 PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor deliver \
-  --findings findings.json --dry-run digest.html
+  --findings findings.json --out digest.html --no-send
 ```
 
-This renders the digest and prints any validation problems without sending.
-**Fix anything it flags** — a `missing-page` or `missing-section` means you named
-a target that does not exist, and an `unresolved-footnote` means an entry expects
-a citation you did not supply. Then send:
+This renders the digest and prints any validation problems without sending, and
+leaves `state.json` untouched. **Fix anything it flags** — a `missing-page` or
+`missing-section` means you named a target that does not exist, and an
+`unresolved-footnote` means an entry expects a citation you did not supply.
+
+Then, **only if `MONITOR_SEND` is `true`**, send it:
 
 ```bash
-PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor deliver --findings findings.json
+PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor deliver \
+  --findings findings.json --out digest.html
 ```
 
 That sends the digest, writes `state.json`, and prints how many entries it
 recorded. Commit `state.json` — and nothing else.
+
+If `MONITOR_SEND` is not `true`, stop after the `--no-send` run. The workflow
+publishes `digest.html` to the run itself so it can be read without email. Do
+not write or commit `state.json` in that case: nothing was reported, so
+recording these findings would lose them.
 
 ## If a run fails
 

@@ -95,9 +95,14 @@ def cmd_deliver(args) -> int:
     for issue in result.validation:
         print(f"  validation [{issue.kind}] {issue.serovar}: {issue.message}")
 
-    if args.dry_run:
-        Path(args.dry_run).write_text(result.html, encoding="utf-8")
-        print(f"Dry run — digest written to {args.dry_run}, nothing sent.")
+    if args.out:
+        Path(args.out).write_text(result.html, encoding="utf-8")
+        print(f"Digest written to {args.out}.")
+
+    if args.no_send:
+        # State is deliberately left alone: nothing was reported, so recording
+        # these findings would lose them.
+        print("Nothing sent (--no-send); state left unchanged.")
         return 0
 
     from wiki_monitor import delivery
@@ -127,7 +132,13 @@ def _subject(result, classified) -> str:
 def cmd_fail(args) -> int:
     from wiki_monitor import delivery
 
-    message_id = delivery.send_failure(args.summary, args.run_url, os.environ)
+    try:
+        message_id = delivery.send_failure(args.summary, args.run_url, os.environ)
+    except delivery.ConfigError as error:
+        # No transport configured. Say so and exit cleanly: the run is already
+        # red, and failing here as well would only bury the original error.
+        print(f"No failure notification sent — {error}")
+        return 0
     print(f"Failure notice sent (Resend id {message_id}).")
     return 0
 
@@ -145,10 +156,15 @@ def main(argv=None) -> int:
     deliver.add_argument("--findings", default="findings.json")
     deliver.add_argument("--subject", default="")
     deliver.add_argument(
-        "--dry-run",
+        "--out",
         default="",
         metavar="PATH",
-        help="write the digest HTML here and send nothing",
+        help="also write the rendered digest HTML here",
+    )
+    deliver.add_argument(
+        "--no-send",
+        action="store_true",
+        help="render and validate only; send nothing and leave state untouched",
     )
     deliver.set_defaults(func=cmd_deliver)
 

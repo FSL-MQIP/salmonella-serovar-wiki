@@ -6,6 +6,11 @@ on:
     # window self-corrects because it starts from the last successful run.
     - cron: "0 6 * * 1"
   workflow_dispatch:
+    inputs:
+      send_email:
+        description: "Actually email the digest (needs RESEND_API_KEY). Off = publish to this run only."
+        type: boolean
+        default: false
 
 # The monitor commits its own state file and nothing else.
 permissions:
@@ -15,19 +20,12 @@ concurrency:
   group: wiki-monitor
   cancel-in-progress: false
 
-env:
-  # State lands on dev, not main. MAINTENANCE.md §3 routes every change through
-  # dev, and main's ruleset only lets the Project Lead bypass review — a
-  # scheduled push straight to main would be rejected.
-  MONITOR_BRANCH: dev
-
 jobs:
   digest:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: dev
           # scan_window_start reads git history for the last commit touching
           # docs/serovars/, so a shallow clone would anchor a first run wrongly.
           fetch-depth: 0
@@ -48,12 +46,42 @@ jobs:
             --allowedTools Bash,Read,Glob,Grep,Write,Edit,WebFetch
             --max-turns 80
         env:
+          # Scheduled runs send; a manual run only sends if you ask it to, so the
+          # digest can be reviewed before anyone's inbox is involved.
+          MONITOR_SEND: ${{ github.event_name == 'schedule' || inputs.send_email }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           DIGEST_TO: ${{ vars.DIGEST_TO }}
           DIGEST_CC: ${{ vars.DIGEST_CC }}
           DIGEST_FROM: ${{ vars.DIGEST_FROM }}
           FAILURE_TO: ${{ vars.FAILURE_TO }}
           NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
+
+      # Makes the digest readable straight from the run, so a working email
+      # provider is not needed to see what the monitor produced.
+      - name: Publish the digest to this run
+        if: always()
+        run: |
+          set -uo pipefail
+          if [ ! -f digest.html ]; then
+            echo "No digest was rendered." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          {
+            echo "## Digest"
+            echo
+            cat digest.html
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload the digest
+        if: always() && hashFiles('digest.html') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest
+          path: |
+            digest.html
+            candidates.json
+            findings.json
+          if-no-files-found: warn
 
       - name: Commit the state file
         run: |
@@ -73,10 +101,15 @@ jobs:
           git config user.name "salmonella-wiki-monitor[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Record findings reported by the weekly monitor"
-          git push origin HEAD:${{ env.MONITOR_BRANCH }}
+          # Back to whichever branch triggered the run. If that branch is
+          # protected, this push is rejected and the run goes red — grant the
+          # Actions bot bypass, or point the schedule at an unprotected branch.
+          git push origin "HEAD:${{ github.ref_name }}"
 
       # Runs only when something above failed. Goes to the Technical Lead alone,
       # carries no digest content, and leaves the run red so the log is findable.
+      # With no transport configured this reports that and exits cleanly, leaving
+      # the red run as the signal rather than masking the real failure.
       - name: Notify the Technical Lead of failure
         if: failure()
         env:
