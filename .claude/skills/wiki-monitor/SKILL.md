@@ -31,7 +31,10 @@ PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor fetch --out candid
   a complete one
 - `already_reported` — `(source id, serovar)` pairs from earlier runs. Never report these again
 - `covered_serovars` — the 113 serovars that have a page. This is what "covered" means
-- `candidates` — each with `source`, `source_id`, `title`, `url`, `published`, `summary`
+- `candidates` — each with `data_source`, `source_id`, `title`, `url`, `published`,
+  `summary`. Carry `data_source` and `source_id` through to `findings.json`
+  unchanged; the field is `data_source`, never `source` — `deliver` rejects the
+  old name outright
 
 ## 2. Classify
 

@@ -18,6 +18,7 @@ import argparse
 import json
 import os
 import sys
+from dataclasses import fields
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -77,6 +78,42 @@ def cmd_fetch(args: argparse.Namespace) -> int:
     return 0
 
 
+class FindingsError(Exception):
+    """findings.json does not match the shape the renderer expects."""
+
+
+def _records(record_type, classified: dict, key: str) -> list:
+    """Build *record_type* from ``classified[key]``, naming any mismatch.
+
+    findings.json is written by a model following SKILL.md, so a wrong or missing
+    field is a live possibility. Constructing the dataclass directly would raise a
+    bare TypeError from inside a comprehension; this says which entry and which
+    field, because that is what tells the run how to fix it.
+    """
+    expected = {field.name for field in fields(record_type)}
+    built = []
+    for index, item in enumerate(classified.get(key, [])):
+        if not isinstance(item, dict):
+            raise FindingsError(f"{key}[{index}] is {type(item).__name__}, not an object")
+        unexpected = sorted(set(item) - expected)
+        missing = sorted(expected - set(item))
+        if unexpected or missing:
+            raise FindingsError(
+                f"{key}[{index}] does not match {record_type.__name__}: "
+                + ", ".join(
+                    part
+                    for part in (
+                        f"unexpected {unexpected}" if unexpected else "",
+                        f"missing {missing}" if missing else "",
+                    )
+                    if part
+                )
+                + f". Expected exactly {sorted(expected)}."
+            )
+        built.append(record_type(**item))
+    return built
+
+
 def cmd_deliver(args: argparse.Namespace) -> int:
     repo_root = Path(args.repo_root)
     classified = json.loads(Path(args.findings).read_text(encoding="utf-8"))
@@ -84,13 +121,9 @@ def cmd_deliver(args: argparse.Namespace) -> int:
     run_timestamp = _now().isoformat()
 
     result = digest.build_digest(
-        findings=[digest.Finding(**item) for item in classified.get("findings", [])],
-        excluded=[
-            digest.ExcludedItem(**item) for item in classified.get("excluded", [])
-        ],
-        coverage_gaps=[
-            digest.CoverageGap(**item) for item in classified.get("coverage_gaps", [])
-        ],
+        findings=_records(digest.Finding, classified, "findings"),
+        excluded=_records(digest.ExcludedItem, classified, "excluded"),
+        coverage_gaps=_records(digest.CoverageGap, classified, "coverage_gaps"),
         state=state,
         repo_root=repo_root,
         run_timestamp=run_timestamp,

@@ -113,6 +113,31 @@ def test_fetch_notes_reach_the_delivered_digest(
     assert "took 100 of 137 matching recalls" in out.read_text(encoding="utf-8")
 
 
+def test_the_old_source_key_is_rejected_by_name(wiki_repo, findings_file, tmp_path):
+    """findings.json is written by a model, so a stale field name is likely.
+
+    It should say which entry and which field rather than raising a bare TypeError
+    from inside a comprehension.
+    """
+    stale = {**FINDINGS["findings"][0]}
+    stale["source"] = stale.pop("data_source")
+    findings_file.write_text(json.dumps({"findings": [stale]}), encoding="utf-8")
+
+    with pytest.raises(cli.FindingsError) as caught:
+        cli.main(
+            [
+                "--repo-root", str(wiki_repo),
+                "deliver", "--findings", str(findings_file),
+                "--out", str(tmp_path / "d.html"), "--no-send",
+            ]
+        )
+
+    message = str(caught.value)
+    assert "findings[0]" in message
+    assert "unexpected ['source']" in message
+    assert "missing ['data_source']" in message
+
+
 def test_it_refuses_to_send_unless_monitor_send_says_so(
     wiki_repo, findings_file, tmp_path, monkeypatch, capsys
 ):

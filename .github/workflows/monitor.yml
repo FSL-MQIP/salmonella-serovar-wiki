@@ -23,6 +23,17 @@ concurrency:
 jobs:
   digest:
     runs-on: ubuntu-latest
+    # Each trigger consults only its own switch, and the value is computed once
+    # here so the two steps that need it cannot drift apart.
+    #
+    # `inputs.send_email || vars.MONITOR_SEND == 'true'` looked equivalent and was
+    # not: once the variable is on for production, it made *every* manual run send
+    # too, including a preview left at the documented send_email=false default —
+    # emailing recipients and consuming the findings in state.
+    env:
+      MONITOR_SEND: >-
+        ${{ (github.event_name == 'schedule' && vars.MONITOR_SEND == 'true')
+            || (github.event_name == 'workflow_dispatch' && inputs.send_email) }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -51,11 +62,9 @@ jobs:
             --allowedTools Bash,Read,Glob,Grep,Write,Edit,WebFetch
             --max-turns 80
         env:
-          # Sending is opt-in, not the default. A manual run sends only when
-          # asked; a scheduled run sends only once the MONITOR_SEND repository
-          # variable is "true". Until then every run still produces a digest and
-          # publishes it below — useful while the email provider is unavailable.
-          MONITOR_SEND: ${{ inputs.send_email || vars.MONITOR_SEND == 'true' }}
+          # MONITOR_SEND is inherited from the job. Sending is opt-in either way:
+          # until it is on, every run still builds a digest and publishes it
+          # below — which is what makes this usable with no email provider.
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           # Recipients live in secrets rather than variables. Either would keep
           # them out of this public repository; secrets is simply where they are.
@@ -82,8 +91,6 @@ jobs:
             exit 1
           fi
           echo "Digest present$([ -f digest-sent.marker ] && echo ' and sent')."
-        env:
-          MONITOR_SEND: ${{ inputs.send_email || vars.MONITOR_SEND == 'true' }}
 
       # Deliberately before the presentation steps below, and always() rather
       # than the implicit success(): deliver writes state only after the email
