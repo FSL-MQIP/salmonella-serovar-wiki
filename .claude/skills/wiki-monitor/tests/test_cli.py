@@ -113,10 +113,47 @@ def test_fetch_notes_reach_the_delivered_digest(
     assert "took 100 of 137 matching recalls" in out.read_text(encoding="utf-8")
 
 
+def test_no_send_leaves_no_sent_marker(wiki_repo, findings_file, tmp_path, monkeypatch):
+    """Otherwise a later failure would wrongly report that a digest went out."""
+    monkeypatch.chdir(tmp_path)
+
+    cli.main(
+        [
+            "--repo-root", str(wiki_repo),
+            "deliver", "--findings", str(findings_file),
+            "--out", str(tmp_path / "d.html"), "--no-send",
+        ]
+    )
+
+    assert not (tmp_path / cli.SENT_MARKER).exists()
+
+
+def test_the_failure_command_reports_a_digest_that_did_go_out(
+    tmp_path, monkeypatch, capsys
+):
+    from wiki_monitor import delivery
+
+    calls = []
+    monkeypatch.chdir(tmp_path)
+    (tmp_path / cli.SENT_MARKER).write_text("msg_1", encoding="utf-8")
+    monkeypatch.setenv("RESEND_API_KEY", "re_test")
+    monkeypatch.setenv("FAILURE_TO", "tech@example.org")
+    monkeypatch.setattr(
+        delivery,
+        "_post",
+        lambda url, payload, key: calls.append(payload) or {"id": "m"},
+    )
+
+    cli.main(["fail", "--summary", "state push rejected"])
+
+    assert "already been sent" in calls[0]["html"]
+
+
 def test_the_failure_command_exits_cleanly_with_no_transport_configured(
-    capsys, monkeypatch
+    capsys, monkeypatch, tmp_path
 ):
     """A red run is the signal; failing here too would bury the real error."""
+    monkeypatch.chdir(tmp_path)
     monkeypatch.delenv("RESEND_API_KEY", raising=False)
     monkeypatch.delenv("FAILURE_TO", raising=False)
 

@@ -67,11 +67,18 @@ def send_digest(html: str, subject: str, env, post=None) -> str:
     )
 
 
-def send_failure(summary: str, run_url: str, env, post=None) -> str:
+def send_failure(
+    summary: str, run_url: str, env, post=None, digest_sent: bool = False
+) -> str:
     """Tell the Technical Lead alone that a run failed.
 
     Deliberately carries no digest content and reads nothing from ``DIGEST_TO``,
     so a broken run can never be mistaken for a quiet week by the Project Lead.
+
+    *digest_sent* changes what the notice claims. A run can fail *after* the
+    email is away — on the state push, or on uploading the artifact — and saying
+    "no digest was sent" there is both false and dangerous: it invites a re-run
+    that delivers the same findings twice.
     """
     to = _addresses(env, "FAILURE_TO")
     if not to:
@@ -79,11 +86,22 @@ def send_failure(summary: str, run_url: str, env, post=None) -> str:
             "FAILURE_TO is not set. It must name the Technical Lead only, and is "
             "deliberately separate from DIGEST_TO."
         )
-    body = (
-        "<p>The Salmonella Wiki Monitor run <strong>failed</strong>. "
-        "No digest was sent.</p>"
-        f"<p>{_escape(summary)}</p>"
-    )
+    if digest_sent:
+        subject = "[FAILED after sending] Salmonella Wiki Monitor run"
+        opening = (
+            "<p>The Salmonella Wiki Monitor run <strong>failed after the digest "
+            "had already been sent</strong>. Recipients have it.</p>"
+            "<p><strong>Do not simply re-run.</strong> Check whether the state "
+            "file was committed — if it was not, the next run will report the "
+            "same findings again.</p>"
+        )
+    else:
+        subject = "[FAILED] Salmonella Wiki Monitor run"
+        opening = (
+            "<p>The Salmonella Wiki Monitor run <strong>failed</strong>. "
+            "No digest was sent.</p>"
+        )
+    body = f"{opening}<p>{_escape(summary)}</p>"
     if run_url:
         body += f'<p>Run log: <a href="{_escape(run_url)}">{_escape(run_url)}</a></p>'
 
@@ -91,7 +109,7 @@ def send_failure(summary: str, run_url: str, env, post=None) -> str:
         {
             "from": env.get("DIGEST_FROM", "").strip() or FALLBACK_SENDER,
             "to": to,
-            "subject": "[FAILED] Salmonella Wiki Monitor run",
+            "subject": subject,
             "html": body,
         },
         env,

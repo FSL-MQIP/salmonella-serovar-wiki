@@ -90,6 +90,38 @@ def test_the_failure_notice_is_visibly_different_and_carries_no_digest():
     assert "Actionable findings" not in payload["html"]
 
 
+def test_a_failure_after_sending_does_not_claim_nothing_was_sent():
+    """A state-push or upload failure happens after delivery.
+
+    Claiming "no digest was sent" there invites a re-run that delivers the same
+    findings to the Project Lead twice.
+    """
+    calls = []
+    env = {"RESEND_API_KEY": "re_test", "FAILURE_TO": "tech@example.org"}
+
+    delivery.send_failure(
+        "state push rejected", "https://run/1", env,
+        post=recorder(calls), digest_sent=True,
+    )
+
+    payload = calls[0]["payload"]
+    assert "No digest was sent" not in payload["html"]
+    assert "already been sent" in payload["html"]
+    assert "Do not simply re-run" in payload["html"]
+    assert "after sending" in payload["subject"]
+
+
+def test_a_failure_before_sending_still_says_nothing_went_out():
+    calls = []
+    env = {"RESEND_API_KEY": "re_test", "FAILURE_TO": "tech@example.org"}
+
+    delivery.send_failure("openFDA unreachable", "", env, post=recorder(calls))
+
+    payload = calls[0]["payload"]
+    assert "No digest was sent" in payload["html"]
+    assert "after sending" not in payload["subject"]
+
+
 def test_the_failure_path_does_not_fall_back_to_the_digest_list():
     """FAILURE_TO is deliberately separate; unset means refuse, not broadcast."""
     with pytest.raises(delivery.ConfigError, match="FAILURE_TO"):

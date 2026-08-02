@@ -26,6 +26,10 @@ from wiki_monitor import digest, sources
 #: The monitor's only permitted write, besides nothing at all.
 STATE_PATH = Path(".claude/skills/wiki-monitor/state.json")
 
+#: Dropped in the workspace the moment a digest is away, so the failure path can
+#: tell "never sent" from "sent, then something later broke". Never committed.
+SENT_MARKER = Path("digest-sent.marker")
+
 
 def _load_state(repo_root: Path):
     path = repo_root / STATE_PATH
@@ -112,6 +116,9 @@ def cmd_deliver(args) -> int:
 
     subject = args.subject or _subject(result, classified)
     message_id = delivery.send_digest(result.html, subject, os.environ)
+    # Before writing state: from here on a failure means "sent but not recorded",
+    # which the failure notice must say rather than claim nothing went out.
+    SENT_MARKER.write_text(message_id or "sent", encoding="utf-8")
     print(f"Digest sent (Resend id {message_id}).")
 
     state_file = repo_root / STATE_PATH
@@ -135,8 +142,11 @@ def _subject(result, classified) -> str:
 def cmd_fail(args) -> int:
     from wiki_monitor import delivery
 
+    digest_sent = SENT_MARKER.is_file()
     try:
-        message_id = delivery.send_failure(args.summary, args.run_url, os.environ)
+        message_id = delivery.send_failure(
+            args.summary, args.run_url, os.environ, digest_sent=digest_sent
+        )
     except delivery.ConfigError as error:
         # No transport configured. Say so and exit cleanly: the run is already
         # red, and failing here as well would only bury the original error.

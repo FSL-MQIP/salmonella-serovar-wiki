@@ -65,34 +65,13 @@ jobs:
           FAILURE_TO: ${{ secrets.FAILURE_TO }}
           NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
 
-      # Makes the digest readable straight from the run, so a working email
-      # provider is not needed to see what the monitor produced.
-      - name: Publish the digest to this run
-        if: always()
-        run: |
-          set -uo pipefail
-          if [ ! -f digest.html ]; then
-            echo "No digest was rendered." >> "$GITHUB_STEP_SUMMARY"
-            exit 0
-          fi
-          {
-            echo "## Digest"
-            echo
-            cat digest.html
-          } >> "$GITHUB_STEP_SUMMARY"
-
-      - name: Upload the digest
-        if: always() && hashFiles('digest.html') != ''
-        uses: actions/upload-artifact@v4
-        with:
-          name: digest
-          path: |
-            digest.html
-            candidates.json
-            findings.json
-          if-no-files-found: warn
-
+      # Deliberately before the presentation steps below, and always() rather
+      # than the implicit success(): deliver writes state only after the email
+      # is away, so once it exists the digest has gone out. Letting a failed
+      # artifact upload skip this step would strand the record and resend every
+      # finding next week.
       - name: Commit the state file
+        if: always()
         run: |
           set -euo pipefail
           STATE=.claude/skills/wiki-monitor/state.json
@@ -121,9 +100,48 @@ jobs:
             echo "Nothing to push — state unchanged."
             exit 0
           fi
+
+          # Aheadness alone does not prove *what* was committed. The monitor
+          # promises to write nothing but its own state file, so verify that
+          # before publishing anything to dev — if the run committed a serovar
+          # page or a workflow edit, fail loudly rather than push it.
+          CHANGED="$(git diff --name-only origin/dev..HEAD)"
+          if [ "$CHANGED" != "$STATE" ]; then
+            echo "Refusing to push. Commits touch more than the state file:"
+            echo "$CHANGED" | sed 's/^/  /'
+            exit 1
+          fi
+
           # dev, matching the checkout above. State reaches main the same way
           # everything else does — through a pull request someone reviews.
           git push origin HEAD:dev
+
+      # Makes the digest readable straight from the run, so a working email
+      # provider is not needed to see what the monitor produced.
+      - name: Publish the digest to this run
+        if: always()
+        run: |
+          set -uo pipefail
+          if [ ! -f digest.html ]; then
+            echo "No digest was rendered." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          {
+            echo "## Digest"
+            echo
+            cat digest.html
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload the digest
+        if: always() && hashFiles('digest.html') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest
+          path: |
+            digest.html
+            candidates.json
+            findings.json
+          if-no-files-found: warn
 
       # Runs only when something above failed. Goes to the Technical Lead alone,
       # carries no digest content, and leaves the run red so the log is findable.
