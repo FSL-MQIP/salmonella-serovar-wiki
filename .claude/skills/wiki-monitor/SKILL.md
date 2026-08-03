@@ -67,18 +67,21 @@ considered and rejected goes in `excluded` with the reason you rejected it.
 ### Writing the entry
 
 `entry` is paste-ready markdown matching the target section's existing shape.
-Read the target page first and copy its column order exactly.
 
-- **Human Outbreaks** — `| Year | Location | Associated source | Number of cases |`
-- **Animal Outbreaks** — same shape as Human Outbreaks
-- **Border Rejections** — `| Year | Exporting country | Importing country | Associated source | Product category |`
-- **Recalls** — `| Year | Location | Recalled food | Type |`
-- **Genetic Characteristics** — a prose sentence, not a row
+**Read the target section and copy the column order you find there.** The pages are
+the authority, not this file — a schema written down here would go stale the first
+time someone adds a column, and you would not notice. The four tabular sections
+take a row; **Genetic Characteristics** takes a prose sentence, not a row.
 
-`Associated source` holds the **food vehicle** — `Cucumbers`, `Backyard poultry`,
-`Not identified` — as a markdown link to where the claim came from. It does *not*
-hold the string "Associated source", and it is not the citation. A previous
-monitor got this wrong.
+Two things the shape alone will not tell you:
+
+- `Associated source` holds the **food vehicle** — `Cucumbers`, `Backyard poultry`,
+  `Not identified` — as a markdown link to where the claim came from. It does *not*
+  hold the string "Associated source", and it is not the citation. A previous
+  monitor got this wrong.
+- Match the neighbouring rows' conventions for how a value is written, not just
+  which column it goes in: how locations are phrased, whether a year or a range is
+  used, how an unknown is expressed.
 
 Where the entry cites its source, write the literal placeholder `{footnote}`
 inside a `<sup>` tag and set `citation_url`. The module replaces it with the
@@ -92,6 +95,16 @@ line to paste. Never guess a number yourself.
 If an entry needs no citation, leave `citation_url` empty and omit `{footnote}`.
 
 ### Write `findings.json`
+
+Before you write it, get the field list from the code rather than from this file —
+these instructions are prose and can lag behind, and your copy of them may be
+older than the repository:
+
+```bash
+PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor schema
+```
+
+The example below shows the shape; that command is the authority on field names.
 
 ```json
 {
