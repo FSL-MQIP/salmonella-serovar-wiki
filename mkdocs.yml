@@ -77,9 +77,14 @@ extra:
       link: https://cals.cornell.edu/food-safety-laboratory
 
 # Internal docs that live under docs/ but must not reach the published site.
+# MkDocs builds every file under docs/ whether or not the nav links to it, so a
+# directory left off this list is published and indexed even though nothing on the
+# site points at it — which is how the API-accessibility brainstorm under plans/
+# ended up publicly reachable and in the search index.
 exclude_docs: |
   agents/
   adr/
+  plans/
 
 nav:
   - Home: index.md
