@@ -62,3 +62,7 @@ New outbreaks, recalls, or border rejections are added when they meet at least o
 1. **Substantial public health concern** — e.g., a human outbreak with >100 cases
 2. **Novel commodity** — associated with a food vehicle not yet documented in the Wiki
 3. **Final investigation update** — provides closure on a previously ongoing investigation
+
+New peer-reviewed literature is added when it meets the following:
+
+4. **Novel characteristic** — reports a genetic, AMR, or reservoir characteristic specific to a covered serovar that is not already described on that serovar's page

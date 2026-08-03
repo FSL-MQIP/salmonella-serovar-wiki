@@ -1,0 +1,27 @@
+name: Tests
+
+# The monitor's structural correctness — valid entries, non-colliding reference
+# numbers, existing target pages — is meant to be checked on every change rather
+# than trusted. Nothing here touches the network or sends email.
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # test_scan_window reads git history for the last commit touching
+          # docs/serovars/, which a shallow clone would not contain.
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements-dev.txt
+
+      - run: python -m pytest -q

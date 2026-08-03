@@ -76,6 +76,11 @@ extra:
     - icon: fontawesome/solid/globe
       link: https://cals.cornell.edu/food-safety-laboratory
 
+# Internal docs that live under docs/ but must not reach the published site.
+exclude_docs: |
+  agents/
+  adr/
+
 nav:
   - Home: index.md
   - Serovar Database:
