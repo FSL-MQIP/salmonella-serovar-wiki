@@ -1,21 +1,27 @@
 ---
 name: wiki-monitor
-description: Run the weekly Salmonella Wiki Monitor — scan openFDA, PubMed and Food Safety News for developments relevant to the wiki's covered serovars, judge each against the published Update Criteria, and email a paste-ready digest. Use when running the scheduled monitor, or when asked to produce a digest by hand.
+description: Generate the Salmonella Wiki digest — scan openFDA, PubMed and Food Safety News for developments relevant to the wiki's covered serovars, judge each against the published Update Criteria, and produce a paste-ready digest to read locally. Use when asked to run the monitor, check for new Salmonella findings, or produce a digest.
 ---
 
-# Weekly Salmonella Wiki Monitor
+# Salmonella Wiki Monitor
 
 You scan three public data sources, judge what you find against the wiki's own
-published Update Criteria, and produce a digest the Project Lead can paste
+published Update Criteria, and produce a digest whose entries can be pasted
 straight into the right page and section.
 
-**You never edit a serovar page.** Content changes go through human review. The
-only file this run may write is `.claude/skills/wiki-monitor/state.json`, and the
-`deliver` command writes it for you.
+This runs locally and the digest is read locally. Nothing is emailed and nothing
+is published, so **rendering is free of consequence — render as often as you
+like.** Exactly one action cannot be undone: `--record`, which marks findings as
+reported so they never appear in a future digest. Do that only after the digest
+has been read.
 
-Two commands bracket your work. They handle the network, the reference
-numbering, the caps, and the state file, so you do only the part that needs
-judgement: deciding what matters and writing the wiki-ready entry.
+**You never edit a serovar page.** Content changes go through human review. The
+only file this run may write is `.claude/skills/wiki-monitor/state.json`, and only
+when `--record` is passed.
+
+Two commands bracket your work. They handle the network, the reference numbering,
+the caps and the state file, so your work is the part that needs judgement:
+deciding what matters, and writing the wiki-ready entry.
 
 ## 1. Fetch
 
@@ -33,8 +39,12 @@ PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor fetch --out candid
 - `covered_serovars` — the 113 serovars that have a page. This is what "covered" means
 - `candidates` — each with `data_source`, `source_id`, `title`, `url`, `published`,
   `summary`. Carry `data_source` and `source_id` through to `findings.json`
-  unchanged; the field is `data_source`, never `source` — `deliver` rejects the
+  unchanged; the field is `data_source`, never `source` — `render` rejects the
   old name outright
+
+A first run has no prior state, so its window reaches back to the last commit
+touching the serovar pages — roughly 90 days, and several hundred candidates.
+Expect most of them to be irrelevant.
 
 ## 2. Classify
 
@@ -147,45 +157,50 @@ The example below shows the shape; that command is the authority on field names.
 Every field is required. `serovar` on an excluded item may be `"unknown"` if the
 candidate named none.
 
-## 3. Deliver
-
-Check your work before sending:
+## 3. Render
 
 ```bash
-PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor deliver \
-  --findings findings.json --out digest.html --no-send
-```
-
-This renders the digest and prints any validation problems without sending, and
-leaves `state.json` untouched. **Fix anything it flags** — a `missing-page` or
-`missing-section` means you named a target that does not exist, and an
-`unresolved-footnote` means an entry expects a citation you did not supply.
-
-Then send it. `deliver` checks `MONITOR_SEND` itself and will refuse if it is not
-`true`, so running this when sending is disabled is harmless — it reports why and
-leaves state alone:
-
-```bash
-PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor deliver \
+PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor render \
   --findings findings.json --out digest.html
 ```
 
-That sends the digest, writes `state.json`, and prints how many entries it
-recorded.
+This builds the digest, prints anything that needs attention, and leaves
+`state.json` alone. **Fix what it flags and render again** — repeating this costs
+nothing:
 
-**Do not run `git commit` or `git push` yourself.** The workflow commits and
-pushes `state.json` after you finish. If you commit it inside this step, the
-workflow's check sees a clean working tree, skips its push, and the record is
-discarded with the runner — the digest goes out but every finding in it gets
-reported again next week.
+- `missing-page` / `missing-section` — you named a target that does not exist
+- `unresolved-footnote` — an entry expects a citation you did not supply
+- an error about `findings.json` — run `python -m wiki_monitor schema` and compare
 
-If `MONITOR_SEND` is not `true`, stop after the `--no-send` run. The workflow
-publishes `digest.html` to the run itself so it can be read without email. Do
-not write `state.json` in that case: nothing was reported, so recording these
-findings would lose them.
+Then give the reader the path it prints, and say what is in the digest: how many
+actionable findings, which serovars, and anything that needed attention. Do not
+paraphrase the findings themselves — the digest is the artefact, and its entries
+are meant to be read and pasted as written.
 
-## If a run fails
+## 4. Record — only when asked
 
-Let it fail. The workflow's failure step notifies the Technical Lead alone. Do
-not send a digest describing the failure, and do not send a partial digest: a
-quiet week and a broken run must never look alike.
+If, and only if, the reader has seen the digest and wants these findings marked
+as dealt with:
+
+```bash
+PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor render \
+  --findings findings.json --out digest.html --record
+```
+
+This writes `state.json` so those findings never appear in a future digest.
+**There is no way to undo it**, and a finding recorded but not acted on is simply
+lost — see `docs/adr/0001-digest-reports-findings-once.md`. Do not pass `--record`
+on your own initiative, and do not `git commit` anything.
+
+## If something fails
+
+Say so plainly and stop. **Never present a partial digest as a complete one** — a
+quiet week and a broken run must not look alike, and the reader has no other way
+to tell them apart.
+
+If a source is unreachable, report which one and that its part of the window went
+unscanned. If `fetch` reports a `notes` entry, that is a bound on what was
+available, not a failure — carry it into `findings.json` so the digest says so.
+
+Do not pass `--record` after a failure. Findings that were never properly reviewed
+would be silently retired.

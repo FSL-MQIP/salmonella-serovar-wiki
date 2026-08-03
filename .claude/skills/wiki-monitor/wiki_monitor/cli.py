@@ -3,13 +3,17 @@
 The run is deliberately split so the model's judgement sits between two
 mechanical steps:
 
-    fetch    -> candidates.json   (state, scan window, raw source items)
+    fetch   -> candidates.json   (scan window, covered serovars, raw source items)
     ...the skill classifies each candidate against the Update Criteria...
-    deliver  <- findings.json     (render, validate, send, update state)
-    fail                          (failure notification only)
+    render  <- findings.json     (render, validate, and optionally record state)
 
 Nothing here judges a candidate, and the classification step touches neither the
 network nor the state file.
+
+The digest is produced locally and read locally; there is no transport. Rendering
+is therefore repeatable and free of consequence, and the one act that cannot be
+undone — recording findings as reported, so they never appear again — is opt-in
+via ``--record``.
 """
 
 from __future__ import annotations
@@ -26,10 +30,6 @@ from wiki_monitor import digest, sources
 
 #: The monitor's only permitted write, besides nothing at all.
 STATE_PATH = Path(".claude/skills/wiki-monitor/state.json")
-
-#: Dropped in the workspace the moment a digest is away, so the failure path can
-#: tell "never sent" from "sent, then something later broke". Never committed.
-SENT_MARKER = Path("digest-sent.marker")
 
 
 def _load_state(repo_root: Path) -> dict | None:
@@ -157,7 +157,7 @@ def _records(record_type, classified: dict, key: str) -> list:
     return built
 
 
-def cmd_deliver(args: argparse.Namespace) -> int:
+def cmd_render(args: argparse.Namespace) -> int:
     repo_root = Path(args.repo_root)
     classified = json.loads(Path(args.findings).read_text(encoding="utf-8"))
     _check_top_level(classified)
@@ -177,57 +177,36 @@ def cmd_deliver(args: argparse.Namespace) -> int:
     )
 
     for issue in result.validation:
-        print(f"  validation [{issue.kind}] {issue.serovar}: {issue.message}")
+        print(f"  needs attention [{issue.kind}] {issue.serovar}: {issue.message}")
 
-    if args.out:
-        _write(Path(args.out), result.html)
-        print(f"Digest written to {args.out}.")
+    out = Path(args.out)
+    _write(out, result.html)
+    print(f"\n{_summary(result)}")
+    print(f"Digest: {out.resolve().as_uri()}")
 
-    # The gate is enforced here, not only described in SKILL.md. The workflow
-    # already refuses to trust prose for committing; sending — which reaches real
-    # people and cannot be undone — should not be the one guarantee left resting
-    # on a model following instructions.
-    if args.no_send or not _sending_enabled():
-        reason = "--no-send" if args.no_send else "MONITOR_SEND is not true"
-        # State is deliberately left alone: nothing was reported, so recording
-        # these findings would lose them.
-        print(f"Nothing sent ({reason}); state left unchanged.")
+    if not args.record:
+        print(
+            "\nState unchanged. Read the digest, then re-run with --record to mark "
+            "these\nfindings reported so they do not come back next time."
+        )
         return 0
-
-    from wiki_monitor import delivery
-
-    subject = _subject(result)
-    message_id = delivery.send_digest(result.html, subject, os.environ)
-    # Before writing state: from here on a failure means "sent but not recorded",
-    # which the failure notice must say rather than claim nothing went out.
-    _write(SENT_MARKER, message_id or "sent")
-    print(f"Digest sent (Resend id {message_id}).")
 
     _write(
         repo_root / STATE_PATH,
         json.dumps(result.state, indent=2, ensure_ascii=False) + "\n",
     )
-    print(f"State updated: {len(result.state['reported'])} reported entries.")
+    print(
+        f"\nRecorded: {len(result.state['reported'])} findings will not be "
+        f"reported again.\nState: {(repo_root / STATE_PATH)}"
+    )
     return 0
 
 
-def _sending_enabled() -> bool:
-    return os.environ.get("MONITOR_SEND", "").strip().lower() == "true"
-
-
-def _subject(result: digest.DigestResult) -> str:
-    """Describe what the digest actually shows.
-
-    Counted from the rendered result, not from the classifier's input: findings
-    already reported in an earlier run are dropped before the cap applies, so an
-    input count could promise five findings above a body that shows none.
-    """
-    shown = result.actionable_count
-    when = datetime.now(timezone.utc).strftime("%d %b %Y")
-    if shown == 0:
-        return f"Salmonella Wiki Monitor — no actionable findings ({when})"
-    plural = "" if shown == 1 else "s"
-    return f"Salmonella Wiki Monitor — {shown} finding{plural} ({when})"
+def _summary(result: digest.DigestResult) -> str:
+    bits = [f"{result.actionable_count} actionable finding(s)"]
+    if result.validation:
+        bits.append(f"{len(result.validation)} needing attention")
+    return "Rendered " + ", ".join(bits) + "."
 
 
 def cmd_schema(args: argparse.Namespace) -> int:
@@ -235,7 +214,7 @@ def cmd_schema(args: argparse.Namespace) -> int:
 
     SKILL.md is prose, and prose drifts: a field rename reached the code and the
     JSON example but not the sentence describing candidates, and a run following
-    that sentence would have built findings.json with a field `deliver` rejects.
+    that sentence would have built findings.json with a field `render` rejects.
     A session can also be served a cached copy of SKILL.md older than the code.
     This command is generated from the dataclasses themselves, so it cannot drift.
     """
@@ -259,24 +238,15 @@ def cmd_schema(args: argparse.Namespace) -> int:
     return 0
 
 
-def cmd_fail(args: argparse.Namespace) -> int:
-    from wiki_monitor import delivery
-
-    digest_sent = SENT_MARKER.is_file()
-    try:
-        message_id = delivery.send_failure(
-            args.summary, args.run_url, os.environ, digest_sent=digest_sent
-        )
-    except delivery.ConfigError as error:
-        # No transport configured. Say so and exit cleanly: the run is already
-        # red, and failing here as well would only bury the original error.
-        print(f"No failure notification sent — {error}")
-        return 0
-    print(f"Failure notice sent (Resend id {message_id}).")
-    return 0
-
-
 def main(argv: list[str] | None = None) -> int:
+    # A Windows console defaults to cp1252, which cannot encode an em-dash or a
+    # Greek letter — both of which appear in real paper titles and in this tool's
+    # own output. Without this, printing a digest summary raises
+    # UnicodeEncodeError on the machine this is meant to run on.
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="replace")
+
     parser = argparse.ArgumentParser(prog="wiki_monitor", description=__doc__)
     parser.add_argument("--repo-root", default=".")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -285,30 +255,27 @@ def main(argv: list[str] | None = None) -> int:
     fetch.add_argument("--out", default="candidates.json")
     fetch.set_defaults(func=cmd_fetch)
 
-    deliver = subparsers.add_parser("deliver", help="render, send, update state")
-    deliver.add_argument("--findings", default="findings.json")
-    deliver.add_argument(
-        "--out",
-        default="",
-        metavar="PATH",
-        help="also write the rendered digest HTML here",
+    render = subparsers.add_parser(
+        "render", help="build the digest from findings.json and validate it"
     )
-    deliver.add_argument(
-        "--no-send",
+    render.add_argument("--findings", default="findings.json")
+    render.add_argument(
+        "--out", default="digest.html", metavar="PATH", help="where to write the digest"
+    )
+    render.add_argument(
+        "--record",
         action="store_true",
-        help="render and validate only; send nothing and leave state untouched",
+        help=(
+            "mark these findings reported so they never appear again. Do this only "
+            "after reading the digest — it cannot be undone."
+        ),
     )
-    deliver.set_defaults(func=cmd_deliver)
+    render.set_defaults(func=cmd_render)
 
     schema = subparsers.add_parser(
         "schema", help="print the authoritative findings.json field list"
     )
     schema.set_defaults(func=cmd_schema)
-
-    fail = subparsers.add_parser("fail", help="send the failure notification")
-    fail.add_argument("--summary", default="A scheduled run failed.")
-    fail.add_argument("--run-url", default="")
-    fail.set_defaults(func=cmd_fail)
 
     args = parser.parse_args(argv)
     try:

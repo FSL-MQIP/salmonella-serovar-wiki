@@ -1,20 +1,17 @@
-name: Weekly Salmonella Wiki Monitor
+name: Salmonella Wiki Monitor
 
+# The monitor is a local tool: someone runs the wiki-monitor skill and reads the
+# digest it produces. This workflow exists only as an optional unattended copy of
+# that — it renders a digest and attaches it to the run. It sends no email and it
+# records nothing, so it can never retire a finding nobody has read.
+#
+# Manual only, deliberately. A cron would produce digests that pile up unread,
+# and the scan window is anchored to state, which this workflow never writes.
 on:
-  schedule:
-    # Mondays 06:00 UTC. GitHub's scheduler can skip runs under load; the scan
-    # window self-corrects because it starts from the last successful run.
-    - cron: "0 6 * * 1"
   workflow_dispatch:
-    inputs:
-      send_email:
-        description: "Actually email the digest (needs RESEND_API_KEY). Off = publish to this run only."
-        type: boolean
-        default: false
 
-# The monitor commits its own state file and nothing else.
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: wiki-monitor
@@ -23,27 +20,11 @@ concurrency:
 jobs:
   digest:
     runs-on: ubuntu-latest
-    # Each trigger consults only its own switch, and the value is computed once
-    # here so the two steps that need it cannot drift apart.
-    #
-    # `inputs.send_email || vars.MONITOR_SEND == 'true'` looked equivalent and was
-    # not: once the variable is on for production, it made *every* manual run send
-    # too, including a preview left at the documented send_email=false default —
-    # emailing recipients and consuming the findings in state.
-    env:
-      MONITOR_SEND: >-
-        ${{ (github.event_name == 'schedule' && vars.MONITOR_SEND == 'true')
-            || (github.event_name == 'workflow_dispatch' && inputs.send_email) }}
     steps:
       - uses: actions/checkout@v4
         with:
-          # State lands on dev, never main: MAINTENANCE.md §4 protects main
-          # against direct pushes, so a scheduled run committing there would be
-          # rejected. Scheduled runs check out the default branch by default,
-          # hence naming dev explicitly.
-          ref: dev
-          # scan_window_start reads git history for the last commit touching
-          # docs/serovars/, so a shallow clone would anchor a first run wrongly.
+          # The first-run scan window comes from the last commit touching
+          # docs/serovars/, which a shallow clone would not contain.
           fetch-depth: 0
 
       - uses: actions/setup-python@v5
@@ -54,112 +35,29 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          # `prompt` accepts a skill invocation for a skill in .claude/skills/,
-          # which is why checkout runs first. The instructions and guardrails
-          # live in SKILL.md so they stay versioned in one place.
+          # `prompt` accepts a skill invocation for a skill under .claude/skills/,
+          # which is why checkout runs first.
           prompt: "/wiki-monitor"
           claude_args: |
             --allowedTools Bash,Read,Glob,Grep,Write,Edit,WebFetch
             --max-turns 80
         env:
-          # MONITOR_SEND is inherited from the job. Sending is opt-in either way:
-          # until it is on, every run still builds a digest and publishes it
-          # below — which is what makes this usable with no email provider.
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          # Recipients live in secrets rather than variables. Either would keep
-          # them out of this public repository; secrets is simply where they are.
-          DIGEST_TO: ${{ secrets.DIGEST_TO }}
-          DIGEST_CC: ${{ secrets.DIGEST_CC }}
-          DIGEST_FROM: ${{ secrets.DIGEST_FROM }}
-          FAILURE_TO: ${{ secrets.FAILURE_TO }}
           NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
 
-      # A run that finished without producing a digest did not do its job, even
-      # if every step above reported success — the agent can stop early, or
-      # exhaust its turns, and leave nothing behind. A quiet week is not that: a
-      # zero-finding run still renders a digest saying so. So the absence of one
-      # is unambiguous, and silence must not read as success.
-      - name: Verify the run produced what it promised
+      # A run that finished without producing a digest did not do its job, even if
+      # every step above reported success — the agent can stop early or exhaust its
+      # turns. A quiet week is not that: a zero-finding run still renders a digest
+      # saying so, so the absence of one is unambiguous.
+      - name: Verify a digest was produced
         run: |
           set -euo pipefail
           if [ ! -f digest.html ]; then
-            echo "::error::The run produced no digest. A quiet week still renders one."
+            echo "::error::No digest was produced. A quiet week still renders one."
             exit 1
           fi
-          if [ "${MONITOR_SEND}" = "true" ] && [ ! -f digest-sent.marker ]; then
-            echo "::error::Sending was enabled but no digest was sent."
-            exit 1
-          fi
-          echo "Digest present$([ -f digest-sent.marker ] && echo ' and sent')."
+          echo "Digest present."
 
-      # Deliberately before the presentation steps below, and always() rather
-      # than the implicit success(): deliver writes state only after the email
-      # is away, so once it exists the digest has gone out. Letting a failed
-      # artifact upload skip this step would strand the record and resend every
-      # finding next week.
-      - name: Commit the state file
-        if: always()
-        run: |
-          set -euo pipefail
-          STATE=.claude/skills/wiki-monitor/state.json
-          if [ ! -f "$STATE" ]; then
-            echo "No state file was written — nothing to commit."
-            exit 0
-          fi
-          git config user.name "salmonella-wiki-monitor[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # `git add` before comparing: on the first run the file is untracked,
-          # and `git diff` alone does not see untracked files.
-          git add "$STATE"
-          if git diff --cached --quiet -- "$STATE"; then
-            echo "Nothing staged."
-          else
-            git commit -m "Record findings reported by the weekly monitor"
-          fi
-
-          # SKILL.md tells the run not to commit, but it is prose being followed
-          # by a model. If it committed anyway, the check above finds nothing
-          # staged and the commit would be stranded in the discarded runner
-          # checkout — the digest sent, the record lost, every finding repeated
-          # next week. So push whenever HEAD is ahead, not only when we committed.
-          if [ -z "$(git log --oneline origin/dev..HEAD)" ]; then
-            echo "Nothing to push — state unchanged."
-            exit 0
-          fi
-
-          # Aheadness alone does not prove *what* was committed. The monitor
-          # promises to write nothing but its own state file, so verify that
-          # before publishing anything to dev — if the run committed a serovar
-          # page or a workflow edit, fail loudly rather than push it.
-          CHANGED="$(git diff --name-only origin/dev..HEAD)"
-          if [ "$CHANGED" != "$STATE" ]; then
-            echo "Refusing to push. Commits touch more than the state file:"
-            echo "$CHANGED" | sed 's/^/  /'
-            exit 1
-          fi
-
-          # dev, matching the checkout above. State reaches main the same way
-          # everything else does — through a pull request someone reviews.
-          git push origin HEAD:dev
-
-      # Makes the digest readable straight from the run, so a working email
-      # provider is not needed to see what the monitor produced.
-      - name: Publish the digest to this run
-        if: always()
-        run: |
-          set -uo pipefail
-          if [ ! -f digest.html ]; then
-            echo "No digest was rendered." >> "$GITHUB_STEP_SUMMARY"
-            exit 0
-          fi
-          {
-            echo "## Digest"
-            echo
-            cat digest.html
-          } >> "$GITHUB_STEP_SUMMARY"
-
-      - name: Upload the digest
+      - name: Attach the digest to this run
         if: always() && hashFiles('digest.html') != ''
         uses: actions/upload-artifact@v4
         with:
@@ -169,18 +67,3 @@ jobs:
             candidates.json
             findings.json
           if-no-files-found: warn
-
-      # Runs only when something above failed. Goes to the Technical Lead alone,
-      # carries no digest content, and leaves the run red so the log is findable.
-      # With no transport configured this reports that and exits cleanly, leaving
-      # the red run as the signal rather than masking the real failure.
-      - name: Notify the Technical Lead of failure
-        if: failure()
-        env:
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          FAILURE_TO: ${{ secrets.FAILURE_TO }}
-          DIGEST_FROM: ${{ secrets.DIGEST_FROM }}
-        run: |
-          PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor fail \
-            --summary "The ${{ github.workflow }} run failed at step: ${{ job.status }}." \
-            --run-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
