@@ -7,6 +7,7 @@ therefore repeatable, and recording state is the one irreversible step.
 from __future__ import annotations
 
 import json
+import re
 
 import pytest
 
@@ -128,24 +129,73 @@ def test_fetch_records_what_the_classifier_needs(wiki_repo, tmp_path, monkeypatc
     assert payload["already_reported"] == []
 
 
-def test_fetch_notes_reach_the_rendered_digest(
+def test_the_scan_window_and_its_bounds_come_from_candidates_json(
     wiki_repo, findings_file, tmp_path
 ):
-    """The note recorded at fetch has to survive into what the reader sees."""
-    payload = dict(FINDINGS)
-    payload["notes"] = ["openFDA: took 100 of 137 matching recalls in the window."]
-    findings_file.write_text(json.dumps(payload), encoding="utf-8")
+    """Facts recorded by fetch, not judgements — so they are read, not transcribed.
+
+    Asking for them to be copied into findings.json risked losing them entirely,
+    and a bound nobody carried across is a partial scan that reads as complete.
+    """
+    candidates = tmp_path / "candidates.json"
+    candidates.write_text(
+        json.dumps(
+            {
+                "scan_window": {
+                    "since": "2026-05-04T00:00:00+00:00",
+                    "until": "2026-08-02T00:00:00+00:00",
+                },
+                "notes": ["openFDA: took 100 of 137 matching recalls in the window."],
+                "candidates": [],
+            }
+        ),
+        encoding="utf-8",
+    )
     out = tmp_path / "digest.html"
 
     cli.main(
         [
             "--repo-root", str(wiki_repo),
             "render", "--findings", str(findings_file),
-            "--out", str(out),
+            "--candidates", str(candidates), "--out", str(out),
         ]
     )
 
-    assert "took 100 of 137 matching recalls" in out.read_text(encoding="utf-8")
+    html = out.read_text(encoding="utf-8")
+    assert "took 100 of 137 matching recalls" in html
+    assert "covering 04 May 2026 to 02 August 2026" in html
+    # Escaping the assembled masthead would double-escape the separator entity
+    # and print a literal "&middot;" to the reader.
+    assert "&amp;middot;" not in html
+    assert "&middot;" in html
+
+
+def test_a_digest_says_when_it_was_made(wiki_repo, findings_file, tmp_path):
+    """A digest outlives its terminal; a saved one must be datable from itself."""
+    out = tmp_path / "digest.html"
+
+    cli.main(
+        [
+            "--repo-root", str(wiki_repo),
+            "render", "--findings", str(findings_file),
+            "--candidates", str(tmp_path / "absent.json"), "--out", str(out),
+        ]
+    )
+
+    html = out.read_text(encoding="utf-8")
+    assert "Salmonella Wiki Monitor</h1>" in html
+    assert "Generated" in html
+
+
+def test_the_digest_filename_is_dated_by_default(wiki_repo, findings_file, monkeypatch, tmp_path):
+    """Overwriting one digest with the next loses the record of what was reported."""
+    monkeypatch.chdir(tmp_path)
+
+    cli.main(["--repo-root", str(wiki_repo), "render", "--findings", str(findings_file)])
+
+    produced = list(tmp_path.glob("digest-*.html"))
+    assert len(produced) == 1, f"expected one dated digest, got {produced}"
+    assert re.fullmatch(r"digest-\d{4}-\d{2}-\d{2}\.html", produced[0].name)
 
 
 def test_the_schema_command_is_generated_from_the_dataclasses(capsys):

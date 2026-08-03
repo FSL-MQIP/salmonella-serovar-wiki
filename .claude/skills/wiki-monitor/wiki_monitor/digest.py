@@ -116,6 +116,7 @@ def build_digest(
     repo_root: Path | str,
     run_timestamp: str,
     notes: Sequence[str] = (),
+    scan_window: dict | None = None,
 ) -> DigestResult:
     already_reported = reported_pairs(state)
 
@@ -155,6 +156,7 @@ def build_digest(
     return DigestResult(
         html="\n".join(
             [
+                _masthead(run_timestamp, scan_window),
                 _scope_section(notes),
                 _actionable_section(prepared, warnings),
                 _coverage_gaps_section(coverage_gaps),
@@ -420,6 +422,36 @@ def _highest_reference_number(page_text: str) -> int:
 # ---------------------------------------------------------------------------
 # Sections
 # ---------------------------------------------------------------------------
+def _masthead(run_timestamp: str, scan_window: dict | None) -> str:
+    """When this digest was made and what period it covers.
+
+    A digest outlives the terminal that produced it. Without this, a saved file is
+    undatable from its own contents and two digests are indistinguishable.
+    """
+    try:
+        generated = _parse_iso8601(run_timestamp).strftime("%d %B %Y")
+    except ValueError:
+        generated = run_timestamp
+    # Escape each piece as it is added. Escaping the assembled line would also
+    # escape the separator entity, printing a literal "&middot;" to the reader.
+    line = f"Generated {html.escape(generated, quote=False)}"
+
+    since = (scan_window or {}).get("since")
+    until = (scan_window or {}).get("until")
+    if since and until:
+        try:
+            window = (
+                f"covering {_parse_iso8601(since):%d %B %Y}"
+                f" to {_parse_iso8601(until):%d %B %Y}"
+            )
+        except ValueError:
+            window = ""
+        if window:
+            line += f" &middot; {html.escape(window, quote=False)}"
+
+    return f"<h1>Salmonella Wiki Monitor</h1>\n<p>{line}</p>"
+
+
 def _scope_section(notes: Sequence[str]) -> str:
     """Say where the scan was bounded, before anything it found.
 

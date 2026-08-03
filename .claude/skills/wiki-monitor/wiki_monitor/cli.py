@@ -102,7 +102,11 @@ class OutputError(Exception):
 #: has to be a loud one: a misspelled "findings" would otherwise leave the renderer
 #: with nothing to show and produce a digest reading "No actionable findings this
 #: run" — a broken run wearing a quiet week's clothes.
-FINDINGS_KEYS = frozenset({"notes", "findings", "excluded", "coverage_gaps"})
+#:
+#: The scan window and the fetch's notes are deliberately absent: they are facts
+#: recorded by `fetch`, not judgements, so `render` reads them from candidates.json
+#: rather than asking for them to be copied across and risking their loss.
+FINDINGS_KEYS = frozenset({"findings", "excluded", "coverage_gaps"})
 
 
 def _check_top_level(classified: dict) -> None:
@@ -157,12 +161,36 @@ def _records(record_type, classified: dict, key: str) -> list:
     return built
 
 
+def _read_candidates(path: Path) -> dict:
+    """The scan window and fetch notes, if candidates.json is to hand.
+
+    Optional on purpose: a hand-written findings.json still renders, just without a
+    dated masthead.
+    """
+    if not path.is_file():
+        return {}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    return {
+        "scan_window": payload.get("scan_window"),
+        "notes": payload.get("notes", []),
+    }
+
+
+def _dated_name(stem: str, suffix: str) -> str:
+    return f"{stem}-{_now():%Y-%m-%d}{suffix}"
+
+
 def cmd_render(args: argparse.Namespace) -> int:
     repo_root = Path(args.repo_root)
     classified = json.loads(Path(args.findings).read_text(encoding="utf-8"))
     _check_top_level(classified)
     state = _load_state(repo_root)
     run_timestamp = _now().isoformat()
+
+    # The scan window and any bounds the fetch hit are read from candidates.json,
+    # so the digest can date itself and disclose a partial scan without depending
+    # on either being transcribed by hand.
+    scan = _read_candidates(Path(args.candidates))
 
     result = digest.build_digest(
         findings=_records(digest.Finding, classified, "findings"),
@@ -171,15 +199,16 @@ def cmd_render(args: argparse.Namespace) -> int:
         state=state,
         repo_root=repo_root,
         run_timestamp=run_timestamp,
-        # Carried from candidates.json so a bounded scan says so in the digest
-        # itself, not just in the run log nobody reads.
-        notes=classified.get("notes", []),
+        notes=scan.get("notes", []),
+        scan_window=scan.get("scan_window"),
     )
 
     for issue in result.validation:
         print(f"  needs attention [{issue.kind}] {issue.serovar}: {issue.message}")
 
-    out = Path(args.out)
+    # Dated by default: a digest is a snapshot of one window, and overwriting the
+    # last one loses the record of what was already reported.
+    out = Path(args.out or _dated_name("digest", ".html"))
     _write(out, result.html)
     print(f"\n{_summary(result)}")
     print(f"Digest: {out.resolve().as_uri()}")
@@ -260,7 +289,16 @@ def main(argv: list[str] | None = None) -> int:
     )
     render.add_argument("--findings", default="findings.json")
     render.add_argument(
-        "--out", default="digest.html", metavar="PATH", help="where to write the digest"
+        "--candidates",
+        default="candidates.json",
+        metavar="PATH",
+        help="fetch output, read for the scan window and any coverage bounds",
+    )
+    render.add_argument(
+        "--out",
+        default="",
+        metavar="PATH",
+        help="where to write the digest (default: digest-YYYY-MM-DD.html)",
     )
     render.add_argument(
         "--record",

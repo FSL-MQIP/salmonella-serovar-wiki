@@ -32,9 +32,9 @@ PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor fetch --out candid
 `candidates.json` gives you:
 
 - `scan_window` — what period this run covers, and `first_run` if there is no prior state
-- `notes` — anything the fetch had to bound. **Copy this array verbatim into
-  `findings.json`**; the digest leads with it so a partial scan is never read as
-  a complete one
+- `notes` — anything the fetch had to bound. You need not carry these anywhere;
+  `render` reads them from this file and leads the digest with them, so a partial
+  scan is never read as a complete one
 - `already_reported` — `(source id, serovar)` pairs from earlier runs. Never report these again
 - `covered_serovars` — the 113 serovars that have a page. This is what "covered" means
 - `candidates` — each with `data_source`, `source_id`, `title`, `url`, `published`,
@@ -118,7 +118,6 @@ The example below shows the shape; that command is the authority on field names.
 
 ```json
 {
-  "notes": ["copied verbatim from candidates.json; omit if that array was empty"],
   "findings": [
     {
       "data_source": "openfda",
@@ -161,8 +160,12 @@ candidate named none.
 
 ```bash
 PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor render \
-  --findings findings.json --out digest.html
+  --findings findings.json
 ```
+
+The digest is written to `digest-YYYY-MM-DD.html` and dates itself with the window
+it covers, so a saved one stays identifiable. **Keep `candidates.json` where it is**
+— `render` reads the scan window and the fetch's bounds from it.
 
 This builds the digest, prints anything that needs attention, and leaves
 `state.json` alone. **Fix what it flags and render again** — repeating this costs
@@ -184,7 +187,7 @@ as dealt with:
 
 ```bash
 PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor render \
-  --findings findings.json --out digest.html --record
+  --findings findings.json --record
 ```
 
 This writes `state.json` so those findings never appear in a future digest.
