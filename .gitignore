@@ -4,3 +4,9 @@ __pycache__/
 .venv/
 .env
 .scratch/
+
+# Output of the wiki-monitor skill, written into the working directory by default.
+# Regenerated on every run; the digest is meant to be read, not versioned.
+digest.html
+candidates.json
+findings.json
