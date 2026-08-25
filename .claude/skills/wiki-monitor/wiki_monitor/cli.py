@@ -64,13 +64,17 @@ def cmd_fetch(args: argparse.Namespace) -> int:
     now = _now()
 
     notes: list[str] = []
+    active: list[dict] = []
     candidates = sources.fetch_all(
-        since, now, email=os.environ.get("NCBI_EMAIL", ""), notes=notes
+        since, now, email=os.environ.get("NCBI_EMAIL", ""), notes=notes, active=active
     )
 
     payload = {
         "scan_window": {"since": since.isoformat(), "until": now.isoformat()},
         "notes": notes,
+        # Live FDA investigations: rendered into the digest as information,
+        # never classified and never recorded. See ADR 0005.
+        "active_investigations": active,
         "first_run": not (state or {}).get("last_successful_run"),
         "already_reported": [
             list(pair) for pair in sorted(digest.reported_pairs(state))
@@ -173,6 +177,7 @@ def _read_candidates(path: Path) -> dict:
     return {
         "scan_window": payload.get("scan_window"),
         "notes": payload.get("notes", []),
+        "active_investigations": payload.get("active_investigations", []),
     }
 
 
@@ -201,6 +206,7 @@ def cmd_render(args: argparse.Namespace) -> int:
         run_timestamp=run_timestamp,
         notes=scan.get("notes", []),
         scan_window=scan.get("scan_window"),
+        active_investigations=scan.get("active_investigations", []),
     )
 
     for issue in result.validation:

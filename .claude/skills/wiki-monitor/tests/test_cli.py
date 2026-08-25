@@ -127,6 +127,7 @@ def test_fetch_records_what_the_classifier_needs(wiki_repo, tmp_path, monkeypatc
     assert payload["scan_window"]["since"].startswith("2026-05-04")
     assert "Agona" in payload["covered_serovars"]
     assert payload["already_reported"] == []
+    assert payload["active_investigations"] == []
 
 
 def test_the_scan_window_and_its_bounds_come_from_candidates_json(
@@ -146,6 +147,18 @@ def test_the_scan_window_and_its_bounds_come_from_candidates_json(
                     "until": "2026-08-02T00:00:00+00:00",
                 },
                 "notes": ["openFDA: took 100 of 137 matching recalls in the window."],
+                "active_investigations": [
+                    {
+                        "reference": "1387",
+                        "pathogen": "Salmonella Oranienburg",
+                        "product": "Not Yet Identified",
+                        "case_count": "99",
+                        "investigation_status": "Active",
+                        "outbreak_status": "Ongoing",
+                        "posted": "2026-07-08",
+                        "url": "https://www.fda.gov/x",
+                    }
+                ],
                 "candidates": [],
             }
         ),
@@ -164,6 +177,7 @@ def test_the_scan_window_and_its_bounds_come_from_candidates_json(
     html = out.read_text(encoding="utf-8")
     assert "took 100 of 137 matching recalls" in html
     assert "covering 04 May 2026 to 02 August 2026" in html
+    assert "Salmonella Oranienburg" in html, "active investigations reach the digest"
     # Escaping the assembled masthead would double-escape the separator entity
     # and print a literal "&middot;" to the reader.
     assert "&amp;middot;" not in html

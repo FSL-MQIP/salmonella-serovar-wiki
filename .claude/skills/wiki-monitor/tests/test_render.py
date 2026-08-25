@@ -84,6 +84,38 @@ def test_an_unbounded_scan_adds_no_caveat(wiki_repo, build, make_finding):
     assert "Scan coverage" not in html
 
 
+def test_active_investigations_render_as_information_not_findings(
+    wiki_repo, build, digest_section
+):
+    """Shown live every run, never classified or recorded — see ADR 0005."""
+    active = [
+        {
+            "reference": "1387",
+            "pathogen": "Salmonella Oranienburg",
+            "product": "Not Yet Identified",
+            "case_count": "99",
+            "investigation_status": "Active",
+            "outbreak_status": "Ongoing",
+            "posted": "2026-07-08",
+            "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks",
+        }
+    ]
+
+    result = build(wiki_repo, active_investigations=active)
+    section = digest_section(result.html, "Active FDA investigations")
+
+    assert "Salmonella Oranienburg" in section
+    assert "99" in section
+    assert result.state.get("reported", []) == [], "never recorded"
+
+
+def test_the_active_section_says_when_there_is_nothing_active(wiki_repo, build):
+    html = build(wiki_repo).html
+
+    assert "Active FDA investigations" in html
+    assert "No active Salmonella investigations" in html
+
+
 def test_the_digest_is_a_complete_styled_html_document(wiki_repo, build, make_finding):
     """The digest is opened in a browser, so it must carry its own document
     skeleton and stylesheet rather than render as bare default-styled fragments."""

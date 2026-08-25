@@ -127,6 +127,7 @@ def build_digest(
     run_timestamp: str,
     notes: Sequence[str] = (),
     scan_window: dict | None = None,
+    active_investigations: Sequence[dict] = (),
 ) -> DigestResult:
     already_reported = reported_pairs(state)
 
@@ -180,6 +181,7 @@ def build_digest(
                     _masthead(run_timestamp, scan_window),
                     _scope_section(notes),
                     _actionable_section(prepared, warnings),
+                    _active_section(active_investigations),
                     _coverage_gaps_section(coverage_gaps),
                     _reviewed_section(reviewed_shown, dropped_count),
                 ]
@@ -630,6 +632,43 @@ def _finding_block(
         f" <code>{esc(finding.source_id)}</code></p>"
     )
     parts.append("</article>")
+    return "\n".join(parts)
+
+
+def _active_section(items: Sequence[dict]) -> str:
+    """Live FDA investigations: information, not findings — see ADR 0005.
+
+    These rows change under the reader — FDA edits case counts and statuses in
+    place — so they render fresh every run and are never classified or
+    recorded.  Each becomes a normal candidate when its investigation closes.
+    """
+    esc = html.escape
+    parts = ["<h2>Active FDA investigations</h2>"]
+    if not items:
+        parts.append(
+            "<p>No active Salmonella investigations on the FDA CORE table.</p>"
+        )
+        return "\n".join(parts)
+
+    parts.append(
+        "<p>Live from the FDA CORE table, shown every run with current data. "
+        "These are not findings: each closes into a normal finding with final "
+        "numbers.</p>"
+    )
+    parts.append('<ul class="gaps">')
+    for item in items:
+        get = lambda key: esc(str(item.get(key, "")))  # noqa: E731
+        count = get("case_count")
+        if count.isdigit():
+            count += " cases"
+        parts.append(
+            f'<li><a href="{get("url")}">{get("pathogen")}</a>'
+            f" &mdash; {get('product')} &mdash; {count}; "
+            f"{get('investigation_status')}/{get('outbreak_status')}; "
+            f"posted {get('posted')} "
+            f'<span class="src">(fda-core <code>{get("reference")}</code>)</span></li>'
+        )
+    parts.append("</ul>")
     return "\n".join(parts)
 
 

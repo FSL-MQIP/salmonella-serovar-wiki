@@ -35,6 +35,10 @@ PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor fetch --out candid
 - `notes` — anything the fetch had to bound. You need not carry these anywhere;
   `render` reads them from this file and leads the digest with them, so a partial
   scan is never read as a complete one
+- `active_investigations` — live FDA investigations, rendered into the digest
+  automatically as information. **Do not classify them and do not write findings
+  for them** — their numbers change under the reader, so each becomes a normal
+  candidate with final data when its investigation closes (ADR 0005)
 - `already_reported` — `(source id, serovar)` pairs from earlier runs. Never report these again
 - `covered_serovars` — the 113 serovars that have a page. This is what "covered" means
 - `candidates` — each with `data_source`, `source_id`, `title`, `url`, `published`,

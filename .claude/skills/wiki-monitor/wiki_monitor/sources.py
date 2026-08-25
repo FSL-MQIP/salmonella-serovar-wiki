@@ -430,22 +430,36 @@ _TABLE_CELL = re.compile(r"<td[^>]*>(.*?)</td>", re.S | re.I)
 _FDA_LINK = re.compile(r'href="(https://www\.fda\.gov/[^"]*outbreak-investigation[^"]*)"')
 
 
+#: How far back a Closed row's posted date may lie and still be offered as a
+#: candidate.  A closure has no date of its own — the row keeps its original
+#: posted date and flips status — so the scan window cannot bound closures
+#: without dropping late ones: an investigation posted in January can close in
+#: May.  A year covers observed closure lags several times over, and holds only
+#: a handful of rows.
+FDA_CORE_LOOKBACK_DAYS = 365
+
+
 def fetch_fda_core(
-    since: datetime, http=default_http, notes: list | None = None
+    now: datetime,
+    http=default_http,
+    notes: list | None = None,
+    active: list | None = None,
 ) -> list[Candidate]:
-    """Salmonella rows from FDA CORE's outbreak-investigations table.
+    """Closed Salmonella investigations from FDA CORE's outbreak table.
 
     Rows are edited in place over an investigation's life — case counts and
-    statuses update on the same row — so an Active investigation stays a
-    candidate whatever its posted date (state dedup retires it once reported),
-    while a Closed row matters only when posted inside the window: a closure
-    posted this window is what Update Criterion 3 is for.
+    statuses update on the same row — so only a Closed row is final, and only
+    final data is wiki-shaped.  Closures become candidates; Active rows go to
+    *active* instead, to be displayed live in every digest and never classified
+    or recorded, until each closes and arrives here as a normal candidate.
+    See ADR 0005.
     """
     try:
         page = http(FDA_CORE_URL).decode("utf-8", errors="replace")
     except NotFound:
         return []
 
+    cutoff = now - timedelta(days=FDA_CORE_LOOKBACK_DAYS)
     candidates = []
     salmonella_rows = 0
     for row in _TABLE_ROW.findall(page):
@@ -459,15 +473,31 @@ def fetch_fda_core(
         reference = cells[1]
         if posted is None or not reference:
             continue
-        if cells[5].strip().lower() != "active" and posted <= since:
-            continue
         advisory = _FDA_LINK.search(row)
+        url = advisory.group(1) if advisory else FDA_CORE_URL
+        if cells[5].strip().lower() == "active":
+            if active is not None:
+                active.append(
+                    {
+                        "reference": reference,
+                        "pathogen": cells[2],
+                        "product": cells[3],
+                        "case_count": cells[4] or "not stated",
+                        "investigation_status": cells[5],
+                        "outbreak_status": cells[6],
+                        "posted": posted.date().isoformat(),
+                        "url": url,
+                    }
+                )
+            continue
+        if posted <= cutoff:
+            continue
         candidates.append(
             Candidate(
                 data_source="fda-core",
                 source_id=reference,
                 title=f"{cells[2]} investigation — {cells[3]}",
-                url=advisory.group(1) if advisory else FDA_CORE_URL,
+                url=url,
                 published=posted.date().isoformat(),
                 summary="\n".join(
                     [
@@ -512,13 +542,14 @@ def fetch_all(
     http=default_http,
     email: str = "",
     notes: list | None = None,
+    active: list | None = None,
 ) -> list[Candidate]:
     """Every candidate from every source, so one digest can rank across them."""
     return [
         *fetch_openfda(now, http=http, notes=notes),
         *fetch_pubmed(since, now, http=http, email=email, notes=notes),
         *fetch_food_safety_news(since, http=http, notes=notes),
-        *fetch_fda_core(since, http=http, notes=notes),
+        *fetch_fda_core(now, http=http, notes=notes, active=active),
     ]
 
 

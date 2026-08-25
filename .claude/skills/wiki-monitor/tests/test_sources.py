@@ -547,7 +547,9 @@ SALMONELLA_CELL = (
 )
 
 
-def test_fda_core_normalises_an_investigation_row():
+def test_fda_core_normalises_a_closed_investigation():
+    """Only a Closed row is final — and wiki-shaped — so only closures become
+    candidates."""
     page = core_page(
         core_row(
             "7/22/2026",
@@ -555,12 +557,13 @@ def test_fda_core_normalises_an_investigation_row():
             SALMONELLA_CELL,
             "Jalapeño&nbsp;<br>Peppers",
             "",
-            "Active",
+            "Closed",
+            outbreak_status="Ended",
             advisory="https://www.fda.gov/food/outbreak-investigation-salmonella-jalapeno-august-2026",
         )
     )
 
-    candidates = sources.fetch_fda_core(SINCE, http=responder(page))
+    candidates = sources.fetch_fda_core(NOW, http=responder(page))
 
     assert len(candidates) == 1
     inv = candidates[0]
@@ -572,7 +575,7 @@ def test_fda_core_normalises_an_investigation_row():
     assert inv.url == (
         "https://www.fda.gov/food/outbreak-investigation-salmonella-jalapeno-august-2026"
     )
-    assert "Investigation status: Active" in inv.summary
+    assert "Investigation status: Closed" in inv.summary
     assert "Case count: See Advisory" in inv.summary
 
 
@@ -581,11 +584,11 @@ def test_fda_core_keeps_a_numeric_case_count():
         core_row(
             "7/8/2026", "1387",
             SALMONELLA_CELL.replace("Javiana", "Oranienburg"),
-            "Not Yet Identified", "99", "Active",
+            "Not Yet Identified", "99", "Closed",
         )
     )
 
-    inv = sources.fetch_fda_core(SINCE, http=responder(page))[0]
+    inv = sources.fetch_fda_core(NOW, http=responder(page))[0]
 
     assert "Case count: 99" in inv.summary
     assert inv.url == sources.FDA_CORE_URL, "no advisory link, so the table page"
@@ -593,36 +596,53 @@ def test_fda_core_keeps_a_numeric_case_count():
 
 def test_fda_core_ignores_other_pathogens():
     page = core_page(
-        core_row("7/22/2026", "1400", "<em>Listeria</em>", "Cheese", "12", "Active")
+        core_row("7/22/2026", "1400", "<em>Listeria</em>", "Cheese", "12", "Closed")
     )
 
-    assert sources.fetch_fda_core(SINCE, http=responder(page)) == []
+    assert sources.fetch_fda_core(NOW, http=responder(page)) == []
 
 
-def test_fda_core_keeps_active_rows_from_before_the_window():
-    """Rows are edited in place: an old Active investigation still carries
-    current counts and status, so it stays a candidate until reported once."""
+def test_fda_core_routes_active_rows_to_the_active_list_not_to_candidates():
+    """An Active row changes under the reader — counts and status update in
+    place — so it is displayed live each run, never classified or recorded.
+    It becomes a candidate when it closes. See ADR 0005."""
     page = core_page(
-        core_row("1/14/2026", "1358", SALMONELLA_CELL, "Moringa", "23", "Active"),
+        core_row(
+            "1/14/2026", "1358", SALMONELLA_CELL, "Moringa", "23", "Active",
+            advisory="https://www.fda.gov/food/outbreak-investigation-salmonella-moringa",
+        ),
+        core_row("2/1/2026", "1360", SALMONELLA_CELL, "Eggs", "45", "Active"),
+    )
+    active = []
+
+    candidates = sources.fetch_fda_core(NOW, http=responder(page), active=active)
+
+    assert candidates == []
+    assert [row["reference"] for row in active] == ["1358", "1360"]
+    with_advisory, without = active
+    assert "Salmonella Javiana" in with_advisory["pathogen"]
+    assert with_advisory["product"] == "Moringa"
+    assert with_advisory["case_count"] == "See Advisory"
+    assert with_advisory["investigation_status"] == "Active"
+    assert with_advisory["posted"] == "2026-01-14"
+    assert with_advisory["url"].endswith("moringa")
+    assert without["case_count"] == "45"
+    assert without["url"] == sources.FDA_CORE_URL
+
+
+def test_fda_core_drops_closed_rows_older_than_the_lookback():
+    """A closure has no date of its own — the row keeps its posted date — so
+    closures are bounded by a rolling lookback rather than the scan window."""
+    page = core_page(
         core_row("2/25/2026", "1366", SALMONELLA_CELL, "Cantaloupe", "70", "Closed"),
+        core_row("6/19/2024", "1234", SALMONELLA_CELL, "Jalapeno", "90", "Closed"),
     )
 
-    candidates = sources.fetch_fda_core(SINCE, http=responder(page))
+    candidates = sources.fetch_fda_core(NOW, http=responder(page))
 
-    assert [c.source_id for c in candidates] == ["1358"], (
-        "old Active kept, old Closed dropped"
+    assert [c.source_id for c in candidates] == ["1366"], (
+        "a closure inside the lookback survives; a two-year-old one ages out"
     )
-
-
-def test_fda_core_keeps_closed_rows_posted_inside_the_window():
-    """A closure posted this window is exactly what Criterion 3 is for."""
-    page = core_page(
-        core_row("7/20/2026", "1401", SALMONELLA_CELL, "Eggs", "45", "Closed"),
-    )
-
-    assert [c.source_id for c in sources.fetch_fda_core(SINCE, http=responder(page))] == [
-        "1401"
-    ]
 
 
 def test_fda_core_says_so_when_no_salmonella_row_parses():
@@ -631,7 +651,7 @@ def test_fda_core_says_so_when_no_salmonella_row_parses():
     notes = []
     page = b"<html><body><div>redesigned page, no table</div></body></html>"
 
-    assert sources.fetch_fda_core(SINCE, http=responder(page), notes=notes) == []
+    assert sources.fetch_fda_core(NOW, http=responder(page), notes=notes) == []
     assert len(notes) == 1
     assert "no Salmonella investigation rows" in notes[0]
 
@@ -640,7 +660,7 @@ def test_fda_core_treats_not_found_as_empty():
     def not_found(url):
         raise sources.NotFound(url)
 
-    assert sources.fetch_fda_core(SINCE, http=not_found) == []
+    assert sources.fetch_fda_core(NOW, http=not_found) == []
 
 
 # ---------------------------------------------------------------------------
@@ -658,13 +678,15 @@ def test_all_sources_feed_one_candidate_list():
             return PUBMED_EFETCH
         if "www.fda.gov" in url:
             return core_page(
-                core_row("7/22/2026", "1395", SALMONELLA_CELL, "Peppers", "9", "Active")
+                core_row("7/22/2026", "1395", SALMONELLA_CELL, "Peppers", "9", "Closed"),
+                core_row("8/1/2026", "1401", SALMONELLA_CELL, "Eggs", "12", "Active"),
             )
         return rss(
             item("News", "https://x/1", "guid-1", "Thu, 30 Jul 2026 00:00:00 GMT")
         )
 
-    candidates = sources.fetch_all(SINCE, NOW, http=http)
+    active = []
+    candidates = sources.fetch_all(SINCE, NOW, http=http, active=active)
 
     assert {c.data_source for c in candidates} == {
         "openfda",
@@ -672,3 +694,6 @@ def test_all_sources_feed_one_candidate_list():
         "food-safety-news",
         "fda-core",
     }
+    assert [row["reference"] for row in active] == ["1401"], (
+        "fetch_all carries the active-investigation list through"
+    )
