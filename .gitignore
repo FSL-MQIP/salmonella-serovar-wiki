@@ -5,6 +5,18 @@ __pycache__/
 .env
 .scratch/
 
+# Local agent tooling: the wiki-monitor skill, agent instructions, decision
+# records and plans live only on the maintainer's machine. The repository
+# carries just what the published site needs.
+.claude/
+CLAUDE.md
+.playwright-mcp/
+docs/agents/
+docs/adr/
+docs/plans/
+pytest.ini
+requirements-dev.txt
+
 # Output of the wiki-monitor skill. Digests are dated
 # (reports/digest-YYYY-MM-DD.html) so they accumulate rather than overwrite;
 # they are meant to be read, not versioned.
