@@ -1,4 +1,4 @@
-"""The three data-source adapters.
+"""The data-source adapters.
 
 Each normalises one upstream feed into a :class:`Candidate` — the common shape
 the classification step reads.  These are thin boundary adapters: they fetch and
@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import json
 import re
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -19,6 +20,7 @@ import xml.etree.ElementTree as ElementTree
 from dataclasses import asdict, dataclass
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from html import unescape
 
 USER_AGENT = (
     "salmonella-serovar-wiki-monitor/1.0 "
@@ -36,6 +38,17 @@ OPENFDA_MAX_LIMIT = 1000
 OPENFDA_URL = "https://api.fda.gov/food/enforcement.json"
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 FOOD_SAFETY_NEWS_FEED = "https://www.foodsafetynews.com/tag/salmonella/feed/"
+
+#: FDA CORE's table of foodborne-illness outbreak investigations.  Unlike the
+#: openFDA enforcement records — which publish ~11 days late and almost never
+#: name a serovar — this table posts investigations while they are active, names
+#: the serovar, and carries the case count, food vehicle and investigation
+#: status.  It is the primary surface behind much of Food Safety News's outbreak
+#: reporting, and docs/data-sources.md already lists it as a wiki source.
+FDA_CORE_URL = (
+    "https://www.fda.gov/food/outbreaks-foodborne-illness/"
+    "investigations-foodborne-illness-outbreaks"
+)
 
 #: Every Salmonella paper in the window, with no further narrowing.
 #:
@@ -57,6 +70,13 @@ PUBMED_TOOL = "salmonella-serovar-wiki-monitor"
 #: in one request would exceed what a GET can carry.
 PUBMED_FETCH_CHUNK = 100
 
+#: Safety ceiling on identifiers collected per run.  The search pages until it
+#: has the whole window — a single-page fetch measured 505 of 905 papers
+#: silently dropped, and dropped identifiers are never offered again — so this
+#: exists only to bound a runaway window, far above the ~900 a 90-day backfill
+#: produces.  Hitting it is disclosed as a note.
+PUBMED_MAX_IDS = 4000
+
 
 class NotFound(Exception):
     """The upstream returned 404.  For openFDA this means "no matching records"."""
@@ -66,8 +86,8 @@ class NotFound(Exception):
 class Candidate:
     """One raw item from a data source, before any classification."""
 
-    data_source: str  # "openfda" | "pubmed" | "food-safety-news"
-    source_id: str  # recall number | PMID | RSS GUID — the state dedup key
+    data_source: str  # "openfda" | "pubmed" | "food-safety-news" | "fda-core"
+    source_id: str  # recall number | PMID | RSS GUID | CORE ref # — the state dedup key
     title: str
     url: str
     published: str  # ISO date, as the source reported it
@@ -77,16 +97,46 @@ class Candidate:
         return asdict(self)
 
 
+#: NCBI allows three E-utilities requests per second without an API key.
+#: Paging through a long backfill fires ~20 calls back-to-back, which drew a
+#: live HTTP 429; spacing the calls out keeps the whole run under the limit.
+_NCBI_MIN_INTERVAL = 0.34
+_last_ncbi_call = 0.0
+
+
 def default_http(url: str) -> bytes:
-    """Fetch *url*, raising :class:`NotFound` on 404."""
+    """Fetch *url*, raising :class:`NotFound` on 404.
+
+    Calls to NCBI are paced to its documented rate limit, and a 429 from any
+    host is retried once after the pause the server asks for — a rate-limited
+    page must not abort a whole fetch.
+    """
+    global _last_ncbi_call
+    if url.startswith(EUTILS):
+        wait = _NCBI_MIN_INTERVAL - (time.monotonic() - _last_ncbi_call)
+        if wait > 0:
+            time.sleep(wait)
+        _last_ncbi_call = time.monotonic()
+
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    for attempt in (1, 2):
+        try:
+            with urllib.request.urlopen(request, timeout=60) as response:
+                return response.read()
+        except urllib.error.HTTPError as error:
+            if error.code == 404:
+                raise NotFound(url) from error
+            if error.code == 429 and attempt == 1:
+                time.sleep(_retry_after_seconds(error))
+                continue
+            raise
+
+
+def _retry_after_seconds(error: urllib.error.HTTPError, default: float = 2.0) -> float:
     try:
-        with urllib.request.urlopen(request, timeout=60) as response:
-            return response.read()
-    except urllib.error.HTTPError as error:
-        if error.code == 404:
-            raise NotFound(url) from error
-        raise
+        return float(error.headers.get("Retry-After", default))
+    except (TypeError, ValueError):
+        return default
 
 
 # ---------------------------------------------------------------------------
@@ -177,19 +227,22 @@ def fetch_pubmed(
     email: str = "",
     retmax: int = 400,
     notes: list | None = None,
+    max_ids: int = PUBMED_MAX_IDS,
 ) -> list[Candidate]:
     """Salmonella papers indexed between *since* and *now*, newest first.
 
-    Appends a note when the window holds more papers than ``retmax`` returns, so
-    a truncated candidate pool is never mistaken for the whole window — a long
-    first-run backfill is exactly where that would otherwise happen silently.
+    The search pages through the whole window rather than truncating at one
+    page: identifiers past the first page are never offered again on a later
+    run, so a single-page fetch silently and permanently dropped most of a long
+    backfill.  Only the ``max_ids`` safety ceiling can still bound the pool,
+    and hitting it appends a note so the digest discloses the partial scan.
     """
-    identifiers, total = _pubmed_search(since, now, http, email, retmax)
+    identifiers, total = _pubmed_search(since, now, http, email, retmax, max_ids)
     if notes is not None and total > len(identifiers):
         notes.append(
             f"PubMed: took the {len(identifiers)} most recent of {total} matching "
-            f"papers in this window (retmax={retmax}); {total - len(identifiers)} "
-            "were not considered."
+            f"papers in this window (safety ceiling {max_ids}); "
+            f"{total - len(identifiers)} were not considered."
         )
     if not identifiers:
         return []
@@ -197,29 +250,42 @@ def fetch_pubmed(
 
 
 def _pubmed_search(
-    since: datetime, now: datetime, http, email: str, retmax: int
+    since: datetime, now: datetime, http, email: str, retmax: int, max_ids: int
 ) -> tuple[list[str], int]:
-    url = (
+    """Every PMID in the window, paging with ``retstart`` up to *max_ids*."""
+    base = (
         f"{EUTILS}/esearch.fcgi?db=pubmed&retmode=json"
         f"&term={urllib.parse.quote(PUBMED_TERM)}"
         f"&datetype=edat&mindate={since:%Y/%m/%d}&maxdate={now:%Y/%m/%d}"
-        # Newest first, so that if retmax does truncate, what survives is the
-        # most recent rather than an arbitrary slice.
+        # Newest first, so that if the ceiling does truncate, what survives is
+        # the most recent rather than an arbitrary slice.
         f"&sort=pub_date&retmax={retmax}&tool={PUBMED_TOOL}"
     )
     if email:
-        url += f"&email={urllib.parse.quote(email)}"
-    try:
-        payload = json.loads(http(url))
-    except NotFound:
-        return [], 0
-    result = payload.get("esearchresult", {})
-    identifiers = result.get("idlist", [])
-    try:
-        total = int(result.get("count", len(identifiers)))
-    except (TypeError, ValueError):
-        total = len(identifiers)
-    return identifiers, total
+        base += f"&email={urllib.parse.quote(email)}"
+
+    identifiers: list[str] = []
+    total = 0
+    while True:
+        url = base if not identifiers else f"{base}&retstart={len(identifiers)}"
+        try:
+            payload = json.loads(http(url))
+        except NotFound:
+            break
+        result = payload.get("esearchresult", {})
+        page = result.get("idlist", [])
+        try:
+            total = int(result.get("count", len(page)))
+        except (TypeError, ValueError):
+            total = len(page)
+        # An empty page ends the loop even when the reported count says more:
+        # the count is what must not be trusted into an infinite loop.
+        if not page:
+            break
+        identifiers.extend(page)
+        if len(identifiers) >= total or len(identifiers) >= max_ids:
+            break
+    return identifiers[:max_ids], total
 
 
 def _pubmed_fetch(identifiers: list[str], http, email: str) -> list[Candidate]:
@@ -354,7 +420,91 @@ def _rss_date(raw: str) -> datetime | None:
 
 
 # ---------------------------------------------------------------------------
-# All three
+# FDA CORE outbreak investigations
+# ---------------------------------------------------------------------------
+_TABLE_ROW = re.compile(r"<tr[^>]*>(.*?)</tr>", re.S | re.I)
+_TABLE_CELL = re.compile(r"<td[^>]*>(.*?)</td>", re.S | re.I)
+#: Advisory pages live at /food/outbreaks-foodborne-illness/outbreak-investigation-…
+#: A looser "any absolute fda.gov link" match picked up the genus link or the
+#: generic safe-food-handling page on rows that have no advisory.
+_FDA_LINK = re.compile(r'href="(https://www\.fda\.gov/[^"]*outbreak-investigation[^"]*)"')
+
+
+def fetch_fda_core(
+    since: datetime, http=default_http, notes: list | None = None
+) -> list[Candidate]:
+    """Salmonella rows from FDA CORE's outbreak-investigations table.
+
+    Rows are edited in place over an investigation's life — case counts and
+    statuses update on the same row — so an Active investigation stays a
+    candidate whatever its posted date (state dedup retires it once reported),
+    while a Closed row matters only when posted inside the window: a closure
+    posted this window is what Update Criterion 3 is for.
+    """
+    try:
+        page = http(FDA_CORE_URL).decode("utf-8", errors="replace")
+    except NotFound:
+        return []
+
+    candidates = []
+    salmonella_rows = 0
+    for row in _TABLE_ROW.findall(page):
+        cells = [_cell_text(cell) for cell in _TABLE_CELL.findall(row)]
+        # Columns: posted, reference, pathogen, product, case count,
+        # investigation status, outbreak status, then per-action checkmarks.
+        if len(cells) < 7 or "Salmonella" not in cells[2]:
+            continue
+        salmonella_rows += 1
+        posted = _core_date(cells[0])
+        reference = cells[1]
+        if posted is None or not reference:
+            continue
+        if cells[5].strip().lower() != "active" and posted <= since:
+            continue
+        advisory = _FDA_LINK.search(row)
+        candidates.append(
+            Candidate(
+                data_source="fda-core",
+                source_id=reference,
+                title=f"{cells[2]} investigation — {cells[3]}",
+                url=advisory.group(1) if advisory else FDA_CORE_URL,
+                published=posted.date().isoformat(),
+                summary="\n".join(
+                    [
+                        f"Pathogen: {cells[2]}",
+                        f"Product: {cells[3]}",
+                        f"Case count: {cells[4] or 'not stated'}",
+                        f"Investigation status: {cells[5]}",
+                        f"Outbreak/event status: {cells[6]}",
+                    ]
+                ),
+            )
+        )
+
+    if notes is not None and salmonella_rows == 0:
+        notes.append(
+            "FDA CORE: no Salmonella investigation rows parsed from the outbreak "
+            "table — the live table always carries dozens, so the page layout has "
+            "likely changed and this source went unscanned."
+        )
+    return _deduplicate(candidates)
+
+
+def _cell_text(cell: str) -> str:
+    """A table cell's visible text: tags out, entities resolved, spacing flat."""
+    return " ".join(unescape(re.sub(r"<[^>]+>", " ", cell)).split())
+
+
+def _core_date(raw: str) -> datetime | None:
+    """Parse the table's ``M/D/YYYY`` posted date as midnight UTC."""
+    try:
+        return datetime.strptime(raw.strip(), "%m/%d/%Y").replace(tzinfo=timezone.utc)
+    except ValueError:
+        return None
+
+
+# ---------------------------------------------------------------------------
+# All sources
 # ---------------------------------------------------------------------------
 def fetch_all(
     since: datetime,
@@ -368,6 +518,7 @@ def fetch_all(
         *fetch_openfda(now, http=http, notes=notes),
         *fetch_pubmed(since, now, http=http, email=email, notes=notes),
         *fetch_food_safety_news(since, http=http, notes=notes),
+        *fetch_fda_core(since, http=http, notes=notes),
     ]
 
 

@@ -8,6 +8,8 @@ the live APIs.
 from __future__ import annotations
 
 import json
+import re
+import urllib.error
 from datetime import datetime, timezone
 
 import pytest
@@ -254,6 +256,124 @@ def test_pubmed_takes_the_newest_when_it_has_to_truncate():
     assert "sort=pub_date" in seen[0]
 
 
+def test_pubmed_pages_through_the_whole_window():
+    """A truncated candidate pool is permanently lost: identifiers past retmax
+    are never offered again, so the search pages with retstart until it has
+    everything. A 90-day backfill measured 505 of 905 papers silently dropped."""
+    ids = [str(41000000 + n) for n in range(250)]
+    searches = []
+
+    def http(url):
+        if "esearch" in url:
+            searches.append(url)
+            start = int(re.search(r"retstart=(\d+)", url).group(1)) if "retstart=" in url else 0
+            return json.dumps(
+                {"esearchresult": {"idlist": ids[start : start + 100], "count": "250"}}
+            ).encode()
+        return PUBMED_EFETCH
+
+    notes = []
+    sources.fetch_pubmed(SINCE, NOW, http=http, retmax=100, notes=notes)
+
+    assert len(searches) == 3, "250 ids in pages of 100"
+    assert notes == [], "nothing was dropped, so nothing to disclose"
+
+
+def test_pubmed_notes_what_the_safety_ceiling_drops():
+    ids = [str(41000000 + n) for n in range(150)]
+
+    def http(url):
+        if "esearch" in url:
+            start = int(re.search(r"retstart=(\d+)", url).group(1)) if "retstart=" in url else 0
+            return json.dumps(
+                {"esearchresult": {"idlist": ids[start : start + 100], "count": "9999"}}
+            ).encode()
+        return PUBMED_EFETCH
+
+    notes = []
+    sources.fetch_pubmed(SINCE, NOW, http=http, retmax=100, max_ids=150, notes=notes)
+
+    assert len(notes) == 1
+    assert "150 most recent of 9999" in notes[0]
+    assert "9849" in notes[0], "the dropped count is stated"
+
+
+def test_default_http_paces_ncbi_calls(monkeypatch):
+    """NCBI allows 3 E-utilities requests per second; paging through a backfill
+    fires ~20 back-to-back and drew a live HTTP 429 without pacing."""
+    # A real monotonic clock is far from zero, so the first call is unpaced.
+    sleeps, clock = [], iter(100.0 + x * 0.01 for x in range(100))
+    monkeypatch.setattr(sources.time, "monotonic", lambda: next(clock))
+    monkeypatch.setattr(sources.time, "sleep", sleeps.append)
+
+    class FakeResponse:
+        def read(self):
+            return b"{}"
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *exc):
+            return False
+
+    monkeypatch.setattr(
+        sources.urllib.request, "urlopen", lambda req, timeout: FakeResponse()
+    )
+
+    sources.default_http(f"{sources.EUTILS}/esearch.fcgi?db=pubmed")
+    sources.default_http(f"{sources.EUTILS}/esearch.fcgi?db=pubmed&retstart=100")
+    sources.default_http("https://www.fda.gov/some-page")
+
+    assert len(sleeps) == 1, "second NCBI call paced; non-NCBI call not paced"
+    assert 0 < sleeps[0] <= sources._NCBI_MIN_INTERVAL
+
+
+def test_default_http_retries_once_on_too_many_requests(monkeypatch):
+    calls, sleeps = [], []
+    monkeypatch.setattr(sources.time, "sleep", sleeps.append)
+
+    class FakeResponse:
+        def read(self):
+            return b"ok"
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *exc):
+            return False
+
+    def urlopen(request, timeout):
+        calls.append(request.full_url)
+        if len(calls) == 1:
+            raise urllib.error.HTTPError(
+                request.full_url, 429, "Too Many Requests", {"Retry-After": "3"}, None
+            )
+        return FakeResponse()
+
+    monkeypatch.setattr(sources.urllib.request, "urlopen", urlopen)
+
+    assert sources.default_http("https://example.org/x") == b"ok"
+    assert len(calls) == 2
+    assert 3.0 in sleeps, "the Retry-After header is honoured"
+
+
+def test_pubmed_stops_paging_when_a_page_comes_back_empty():
+    """A count larger than what the server will actually return must not loop."""
+    calls = []
+
+    def http(url):
+        if "esearch" in url:
+            calls.append(url)
+            start = "retstart=" in url
+            payload = {"esearchresult": {"idlist": [] if start else ["41000001"], "count": "50"}}
+            return json.dumps(payload).encode()
+        return PUBMED_EFETCH
+
+    sources.fetch_pubmed(SINCE, NOW, http=http, retmax=100)
+
+    assert len(calls) == 2, "one page, one empty follow-up, then stop"
+
+
 def test_pubmed_windows_the_search_on_the_scan_dates():
     calls = []
 
@@ -374,9 +494,159 @@ def test_food_safety_news_skips_an_item_with_an_unparseable_date():
 
 
 # ---------------------------------------------------------------------------
-# All three together
+# FDA CORE outbreak investigations
 # ---------------------------------------------------------------------------
-def test_all_three_sources_feed_one_candidate_list():
+def core_row(
+    posted,
+    ref,
+    pathogen,
+    product,
+    count,
+    inv_status,
+    outbreak_status="Ongoing",
+    advisory="",
+):
+    """One investigation row, marked up the way the live CORE table is.
+
+    The pathogen cell links the genus name and puts the serovar after a <br>;
+    a "See Advisory" case-count cell carries the advisory link.
+    """
+    count_cell = (
+        f'<a href="{advisory}">See</a><br><a href="{advisory}">Advisory</a>'
+        if advisory
+        else count
+    )
+    return (
+        f'<tr><td><p class="text-align-center">{posted}</p></td>'
+        f"<td><p>{ref}</p></td>"
+        f"<td><p>{pathogen}</p></td>"
+        f"<td><p>{product}</p></td>"
+        f"<td><p>{count_cell}</p></td>"
+        f"<td><p>{inv_status}</p></td>"
+        f"<td><p>{outbreak_status}</p></td>"
+        "<td><p>✔</p></td><td><p>&nbsp;</p></td>"
+        "<td><p>✔</p></td><td><p>&nbsp;</p></td></tr>"
+    )
+
+
+def core_page(*rows: str) -> bytes:
+    header = (
+        "<tr><th>Date Posted</th><th>Reference #</th><th>Pathogen or Cause of "
+        "Illness</th><th>Product(s) Linked to Illnesses (if any)</th>"
+        "<th>Total Case Count</th><th>Investigation Status</th>"
+        "<th>Outbreak/ Event Status</th><th>Recall Initiated</th>"
+        "<th>FDA Traceback Initiated</th><th>FDA Inspection Initiated</th>"
+        "<th>FDA Sampling Initiated</th></tr>"
+    )
+    return f"<html><body><table>{header}{''.join(rows)}</table></body></html>".encode()
+
+
+SALMONELLA_CELL = (
+    '<a href="/food/foodborne-pathogens/salmonella-salmonellosis">'
+    "<em>Salmonella</em></a><br>Javiana"
+)
+
+
+def test_fda_core_normalises_an_investigation_row():
+    page = core_page(
+        core_row(
+            "7/22/2026",
+            "1395",
+            SALMONELLA_CELL,
+            "Jalapeño&nbsp;<br>Peppers",
+            "",
+            "Active",
+            advisory="https://www.fda.gov/food/outbreak-investigation-salmonella-jalapeno-august-2026",
+        )
+    )
+
+    candidates = sources.fetch_fda_core(SINCE, http=responder(page))
+
+    assert len(candidates) == 1
+    inv = candidates[0]
+    assert inv.data_source == "fda-core"
+    assert inv.source_id == "1395"
+    assert inv.published == "2026-07-22"
+    assert "Salmonella Javiana" in inv.title
+    assert "Jalapeño Peppers" in inv.title
+    assert inv.url == (
+        "https://www.fda.gov/food/outbreak-investigation-salmonella-jalapeno-august-2026"
+    )
+    assert "Investigation status: Active" in inv.summary
+    assert "Case count: See Advisory" in inv.summary
+
+
+def test_fda_core_keeps_a_numeric_case_count():
+    page = core_page(
+        core_row(
+            "7/8/2026", "1387",
+            SALMONELLA_CELL.replace("Javiana", "Oranienburg"),
+            "Not Yet Identified", "99", "Active",
+        )
+    )
+
+    inv = sources.fetch_fda_core(SINCE, http=responder(page))[0]
+
+    assert "Case count: 99" in inv.summary
+    assert inv.url == sources.FDA_CORE_URL, "no advisory link, so the table page"
+
+
+def test_fda_core_ignores_other_pathogens():
+    page = core_page(
+        core_row("7/22/2026", "1400", "<em>Listeria</em>", "Cheese", "12", "Active")
+    )
+
+    assert sources.fetch_fda_core(SINCE, http=responder(page)) == []
+
+
+def test_fda_core_keeps_active_rows_from_before_the_window():
+    """Rows are edited in place: an old Active investigation still carries
+    current counts and status, so it stays a candidate until reported once."""
+    page = core_page(
+        core_row("1/14/2026", "1358", SALMONELLA_CELL, "Moringa", "23", "Active"),
+        core_row("2/25/2026", "1366", SALMONELLA_CELL, "Cantaloupe", "70", "Closed"),
+    )
+
+    candidates = sources.fetch_fda_core(SINCE, http=responder(page))
+
+    assert [c.source_id for c in candidates] == ["1358"], (
+        "old Active kept, old Closed dropped"
+    )
+
+
+def test_fda_core_keeps_closed_rows_posted_inside_the_window():
+    """A closure posted this window is exactly what Criterion 3 is for."""
+    page = core_page(
+        core_row("7/20/2026", "1401", SALMONELLA_CELL, "Eggs", "45", "Closed"),
+    )
+
+    assert [c.source_id for c in sources.fetch_fda_core(SINCE, http=responder(page))] == [
+        "1401"
+    ]
+
+
+def test_fda_core_says_so_when_no_salmonella_row_parses():
+    """The live table always carries dozens of Salmonella rows, so zero parsed
+    means the layout changed — which must not read as a quiet week."""
+    notes = []
+    page = b"<html><body><div>redesigned page, no table</div></body></html>"
+
+    assert sources.fetch_fda_core(SINCE, http=responder(page), notes=notes) == []
+    assert len(notes) == 1
+    assert "no Salmonella investigation rows" in notes[0]
+
+
+def test_fda_core_treats_not_found_as_empty():
+    def not_found(url):
+        raise sources.NotFound(url)
+
+    assert sources.fetch_fda_core(SINCE, http=not_found) == []
+
+
+# ---------------------------------------------------------------------------
+# All sources together
+# ---------------------------------------------------------------------------
+def test_all_sources_feed_one_candidate_list():
     """So a single digest can rank across sources rather than per source."""
 
     def http(url):
@@ -386,6 +656,10 @@ def test_all_three_sources_feed_one_candidate_list():
             return json.dumps({"esearchresult": {"idlist": ["40123456"]}}).encode()
         if "efetch" in url:
             return PUBMED_EFETCH
+        if "www.fda.gov" in url:
+            return core_page(
+                core_row("7/22/2026", "1395", SALMONELLA_CELL, "Peppers", "9", "Active")
+            )
         return rss(
             item("News", "https://x/1", "guid-1", "Thu, 30 Jul 2026 00:00:00 GMT")
         )
@@ -396,4 +670,5 @@ def test_all_three_sources_feed_one_candidate_list():
         "openfda",
         "pubmed",
         "food-safety-news",
+        "fda-core",
     }

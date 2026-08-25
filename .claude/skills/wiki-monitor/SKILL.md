@@ -1,11 +1,11 @@
 ---
 name: wiki-monitor
-description: Generate the Salmonella Wiki digest — scan openFDA, PubMed and Food Safety News for developments relevant to the wiki's covered serovars, judge each against the published Update Criteria, and produce a paste-ready digest to read locally. Use when asked to run the monitor, check for new Salmonella findings, or produce a digest.
+description: Generate the Salmonella Wiki digest — scan openFDA, PubMed, Food Safety News and FDA CORE outbreak investigations for developments relevant to the wiki's covered serovars, judge each against the published Update Criteria, and produce a paste-ready digest to read locally. Use when asked to run the monitor, check for new Salmonella findings, or produce a digest.
 ---
 
 # Salmonella Wiki Monitor
 
-You scan three public data sources, judge what you find against the wiki's own
+You scan four public data sources, judge what you find against the wiki's own
 published Update Criteria, and produce a digest whose entries can be pasted
 straight into the right page and section.
 
