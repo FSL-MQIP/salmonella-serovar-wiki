@@ -71,7 +71,12 @@ Three rules that are easy to get wrong:
   genetic/AMR/reservoir trait is not already described there. Read the page.
 
 Rank the findings you keep, most important first — the first five become the
-digest's actionable findings and the rest are listed as reviewed. Everything you
+digest's actionable findings and the rest are listed as reviewed. The outbreak
+criterion is deliberately low (≥2 linked cases), so qualifying is not ranking:
+weigh case counts, deaths, resistance, and novelty, and expect a 2-case outbreak
+to sit below larger or more novel findings. The reviewing expert, not the
+monitor, decides what a small outbreak is worth — your job is to surface it
+with the facts that inform that call. Everything you
 considered and rejected goes in `excluded` with the reason you rejected it.
 
 ### Writing the entry
