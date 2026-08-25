@@ -5,9 +5,10 @@ __pycache__/
 .env
 .scratch/
 
-# Output of the wiki-monitor skill, written into the working directory by default.
-# Digests are dated (digest-YYYY-MM-DD.html) so they accumulate rather than
-# overwrite; they are meant to be read, not versioned.
+# Output of the wiki-monitor skill. Digests are dated
+# (reports/digest-YYYY-MM-DD.html) so they accumulate rather than overwrite;
+# they are meant to be read, not versioned.
+reports/
 digest-*.html
 digest.html
 candidates.json

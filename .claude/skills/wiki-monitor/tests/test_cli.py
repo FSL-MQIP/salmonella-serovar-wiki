@@ -187,13 +187,16 @@ def test_a_digest_says_when_it_was_made(wiki_repo, findings_file, tmp_path):
     assert "Generated" in html
 
 
-def test_the_digest_filename_is_dated_by_default(wiki_repo, findings_file, monkeypatch, tmp_path):
-    """Overwriting one digest with the next loses the record of what was reported."""
+def test_the_digest_lands_dated_in_the_reports_folder_by_default(
+    wiki_repo, findings_file, monkeypatch, tmp_path
+):
+    """Dated so digests accumulate instead of overwriting; foldered so they do
+    not litter the repo root."""
     monkeypatch.chdir(tmp_path)
 
     cli.main(["--repo-root", str(wiki_repo), "render", "--findings", str(findings_file)])
 
-    produced = list(tmp_path.glob("digest-*.html"))
+    produced = list((tmp_path / "reports").glob("digest-*.html"))
     assert len(produced) == 1, f"expected one dated digest, got {produced}"
     assert re.fullmatch(r"digest-\d{4}-\d{2}-\d{2}\.html", produced[0].name)
 

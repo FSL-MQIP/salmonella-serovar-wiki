@@ -84,6 +84,17 @@ def test_an_unbounded_scan_adds_no_caveat(wiki_repo, build, make_finding):
     assert "Scan coverage" not in html
 
 
+def test_the_digest_is_a_complete_styled_html_document(wiki_repo, build, make_finding):
+    """The digest is opened in a browser, so it must carry its own document
+    skeleton and stylesheet rather than render as bare default-styled fragments."""
+    html = build(wiki_repo, findings=[make_finding()]).html
+
+    assert html.startswith("<!doctype html>")
+    assert html.rstrip().endswith("</html>")
+    assert "<style>" in html
+    assert '<meta charset="utf-8"' in html
+
+
 def test_a_run_with_nothing_to_report_still_renders_all_three_sections(
     wiki_repo, build
 ):

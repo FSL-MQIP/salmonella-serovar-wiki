@@ -154,14 +154,16 @@ def build_digest(
         warnings.setdefault((issue.source_id, issue.serovar), []).append(issue.message)
 
     return DigestResult(
-        html="\n".join(
-            [
-                _masthead(run_timestamp, scan_window),
-                _scope_section(notes),
-                _actionable_section(prepared, warnings),
-                _coverage_gaps_section(coverage_gaps),
-                _reviewed_section(reviewed_shown, dropped_count),
-            ]
+        html=_document(
+            "\n".join(
+                [
+                    _masthead(run_timestamp, scan_window),
+                    _scope_section(notes),
+                    _actionable_section(prepared, warnings),
+                    _coverage_gaps_section(coverage_gaps),
+                    _reviewed_section(reviewed_shown, dropped_count),
+                ]
+            )
         ),
         state=_updated_state(state, actionable, excluded_shown, run_timestamp),
         validation=issues,
@@ -422,6 +424,90 @@ def _highest_reference_number(page_text: str) -> int:
 # ---------------------------------------------------------------------------
 # Sections
 # ---------------------------------------------------------------------------
+#: The digest is opened straight in a browser, so it carries its own skeleton
+#: and stylesheet — bare fragments render in browser defaults, which is what
+#: made earlier digests hard to read.  No external assets: a digest outlives
+#: the run that made it and must render the same offline.
+_CSS = """\
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff; --fg: #1f2933; --muted: #6b7280; --line: #e2e6ea;
+  --card: #f8f9fa; --accent: #0b6e4f; --badge-bg: #e6f2ed; --badge-fg: #0b6e4f;
+  --warn-bg: #fdf3e0; --warn-border: #e0a83c; --code-bg: #eef1f3;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16191c; --fg: #d6dade; --muted: #979da3; --line: #31363b;
+    --card: #1d2125; --accent: #5cc8a2; --badge-bg: #1e3229; --badge-fg: #7ed3b2;
+    --warn-bg: #35290f; --warn-border: #a97f2a; --code-bg: #24282c;
+  }
+}
+body {
+  margin: 0 auto; max-width: 46rem; padding: 2.5rem 1.5rem 5rem;
+  background: var(--bg); color: var(--fg);
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+header { border-bottom: 2px solid var(--accent); padding-bottom: 0.75rem; margin-bottom: 1.5rem; }
+h1 { font-size: 1.6rem; margin: 0; }
+h2 { font-size: 1.15rem; margin: 2.25rem 0 0.75rem; }
+h3 { font-size: 1.05rem; margin: 0 0 0.5rem; }
+p { margin: 0.4rem 0; }
+a { color: var(--accent); }
+code {
+  font-family: ui-monospace, Consolas, monospace; font-size: 0.85em;
+  background: var(--code-bg); padding: 0.1em 0.35em; border-radius: 4px;
+}
+.meta, .src { color: var(--muted); font-size: 0.85rem; }
+.src code { font-size: 0.95em; }
+.callout {
+  background: var(--warn-bg); border-left: 4px solid var(--warn-border);
+  border-radius: 0 6px 6px 0; padding: 0.75rem 1rem; margin: 1.25rem 0;
+}
+.callout h2 { margin: 0 0 0.4rem; font-size: 1rem; }
+.callout ul { margin: 0.4rem 0 0; padding-left: 1.2rem; }
+.callout li { margin: 0.25rem 0; }
+.finding {
+  background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+  padding: 1rem 1.25rem; margin: 1rem 0;
+}
+.badge {
+  display: inline-block; background: var(--badge-bg); color: var(--badge-fg);
+  font-size: 0.78rem; font-weight: 600; padding: 0.1rem 0.55rem;
+  border-radius: 999px; margin-right: 0.35rem; white-space: nowrap;
+}
+.warn {
+  background: var(--warn-bg); border-left: 4px solid var(--warn-border);
+  border-radius: 0 6px 6px 0; padding: 0.5rem 0.75rem; margin: 0.6rem 0;
+}
+pre.entry {
+  background: var(--code-bg); border: 1px solid var(--line); border-radius: 6px;
+  padding: 0.7rem 0.9rem; margin: 0.6rem 0;
+  font-family: ui-monospace, Consolas, monospace; font-size: 0.82rem;
+  line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere;
+}
+ul.gaps, ol.reviewed { padding-left: 1.3rem; }
+ul.gaps li, ol.reviewed li { margin: 0.6rem 0; }
+"""
+
+
+def _document(body: str) -> str:
+    """Wrap the rendered sections in a self-contained HTML document."""
+    return (
+        "<!doctype html>\n"
+        '<html lang="en">\n'
+        "<head>\n"
+        '<meta charset="utf-8">\n'
+        '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+        "<title>Salmonella Wiki Monitor digest</title>\n"
+        f"<style>\n{_CSS}</style>\n"
+        "</head>\n"
+        "<body>\n"
+        f"{body}\n"
+        "</body>\n"
+        "</html>"
+    )
+
+
 def _masthead(run_timestamp: str, scan_window: dict | None) -> str:
     """When this digest was made and what period it covers.
 
@@ -449,7 +535,10 @@ def _masthead(run_timestamp: str, scan_window: dict | None) -> str:
         if window:
             line += f" &middot; {html.escape(window, quote=False)}"
 
-    return f"<h1>Salmonella Wiki Monitor</h1>\n<p>{line}</p>"
+    return (
+        "<header>\n<h1>Salmonella Wiki Monitor</h1>\n"
+        f'<p class="meta">{line}</p>\n</header>'
+    )
 
 
 def _scope_section(notes: Sequence[str]) -> str:
@@ -461,12 +550,14 @@ def _scope_section(notes: Sequence[str]) -> str:
     if not notes:
         return ""
     parts = [
+        '<section class="callout">',
         "<h2>Scan coverage</h2>",
         "<p>This run did not see everything in its window:</p>",
         "<ul>",
     ]
     parts.extend(f"<li>{html.escape(note)}</li>" for note in notes)
     parts.append("</ul>")
+    parts.append("</section>")
     return "\n".join(parts)
 
 
@@ -492,24 +583,29 @@ def _finding_block(
     if warnings:
         heading += " &mdash; <strong>Needs attention</strong>"
     parts = [
-        "<div>",
+        '<article class="finding">',
         f"<h3>{heading}</h3>",
         f"<p><strong>Target:</strong> {esc(finding.target_page)}"
         f" &rarr; <code>## {esc(finding.target_section)}</code></p>",
-        f"<p><strong>Criterion:</strong> {esc(finding.criterion)}"
-        f" &mdash; {esc(finding.criterion_reason)}</p>",
-        # "Data source" in full: the entry below may carry an "Associated source"
-        # column, which means the food vehicle. CONTEXT.md keeps the two apart.
-        f"<p><strong>Data source:</strong> {esc(finding.data_source)}"
-        f" <code>{esc(finding.source_id)}</code></p>",
+        f'<p><span class="badge">{esc(finding.criterion)}</span>'
+        f" {esc(finding.criterion_reason)}</p>",
     ]
     for message in warnings:
-        parts.append(f"<p><strong>Check before pasting:</strong> {esc(message)}</p>")
-    parts.append(f"<pre>{esc(prepared.entry)}</pre>")
+        parts.append(
+            f'<p class="warn"><strong>Check before pasting:</strong>'
+            f" {esc(message)}</p>"
+        )
+    parts.append(f'<pre class="entry">{esc(prepared.entry)}</pre>')
     if prepared.reference_line is not None:
         parts.append("<p>Add under <code>## References</code>:</p>")
-        parts.append(f"<pre>{esc(prepared.reference_line)}</pre>")
-    parts.append("</div>")
+        parts.append(f'<pre class="entry">{esc(prepared.reference_line)}</pre>')
+    # "Data source" in full: the entry above may carry an "Associated source"
+    # column, which means the food vehicle. CONTEXT.md keeps the two apart.
+    parts.append(
+        f'<p class="src">Data source: {esc(finding.data_source)}'
+        f" <code>{esc(finding.source_id)}</code></p>"
+    )
+    parts.append("</article>")
     return "\n".join(parts)
 
 
@@ -524,12 +620,13 @@ def _coverage_gaps_section(coverage_gaps: Sequence[CoverageGap]) -> str:
         "<p>Serovars named by this run's sources with no serovar page yet."
         " Creating a page is an editorial decision.</p>"
     )
-    parts.append("<ul>")
+    parts.append('<ul class="gaps">')
     for gap in coverage_gaps:
         parts.append(
             f"<li><em>S.</em> {esc(gap.serovar)} &mdash; "
             f'<a href="{esc(gap.url)}">{esc(gap.title)}</a> '
-            f"({esc(gap.data_source)} <code>{esc(gap.source_id)}</code>)</li>"
+            f'<span class="src">({esc(gap.data_source)}'
+            f" <code>{esc(gap.source_id)}</code>)</span></li>"
         )
     parts.append("</ul>")
     return "\n".join(parts)
@@ -547,7 +644,7 @@ def _reviewed_section(items: Sequence[ExcludedItem], dropped_count: int) -> str:
         parts.append("<p>Nothing else was reviewed this run.</p>")
         return "\n".join(parts)
 
-    parts.append("<ol>")
+    parts.append('<ol class="reviewed">')
     for item in items:
         title = esc(item.title)
         if item.url:
@@ -555,7 +652,8 @@ def _reviewed_section(items: Sequence[ExcludedItem], dropped_count: int) -> str:
         parts.append(
             f"<li>{title} &mdash; "
             f"<em>S.</em> {esc(item.serovar)} &mdash; {esc(item.exclusion_reason)} "
-            f"({esc(item.data_source)} <code>{esc(item.source_id)}</code>)</li>"
+            f'<span class="src">({esc(item.data_source)}'
+            f" <code>{esc(item.source_id)}</code>)</span></li>"
         )
     parts.append("</ol>")
     if dropped_count:

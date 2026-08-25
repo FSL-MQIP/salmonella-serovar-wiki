@@ -207,8 +207,9 @@ def cmd_render(args: argparse.Namespace) -> int:
         print(f"  needs attention [{issue.kind}] {issue.serovar}: {issue.message}")
 
     # Dated by default: a digest is a snapshot of one window, and overwriting the
-    # last one loses the record of what was already reported.
-    out = Path(args.out or _dated_name("digest", ".html"))
+    # last one loses the record of what was already reported. Foldered so digests
+    # accumulate in reports/ rather than litter the repo root.
+    out = Path(args.out) if args.out else Path("reports") / _dated_name("digest", ".html")
     _write(out, result.html)
     print(f"\n{_summary(result)}")
     print(f"Digest: {out.resolve().as_uri()}")
@@ -298,7 +299,7 @@ def main(argv: list[str] | None = None) -> int:
         "--out",
         default="",
         metavar="PATH",
-        help="where to write the digest (default: digest-YYYY-MM-DD.html)",
+        help="where to write the digest (default: reports/digest-YYYY-MM-DD.html)",
     )
     render.add_argument(
         "--record",

@@ -163,7 +163,7 @@ PYTHONPATH=.claude/skills/wiki-monitor python -m wiki_monitor render \
   --findings findings.json
 ```
 
-The digest is written to `digest-YYYY-MM-DD.html` and dates itself with the window
+The digest is written to `reports/digest-YYYY-MM-DD.html` and dates itself with the window
 it covers, so a saved one stays identifiable. **Keep `candidates.json` where it is**
 — `render` reads the scan window and the fetch's bounds from it.
 
