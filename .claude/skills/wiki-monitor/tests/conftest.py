@@ -190,6 +190,28 @@ def digest_section():
 # Record builders
 # ---------------------------------------------------------------------------
 @pytest.fixture
+def make_literature(make_finding):
+    """A novel-characteristic (literature) finding — the one capped kind."""
+
+    def _make(source_id="P-1", **overrides):
+        fields = dict(
+            source_id=source_id,
+            target_section="Genetic Characteristics",
+            criterion="novel characteristic",
+            criterion_reason="A plasmid the page does not describe.",
+            entry=(
+                "Serovar Agona isolates carried a "
+                "[novel plasmid](https://example.org/p)."
+            ),
+            citation_url="https://example.org/p",
+        )
+        fields.update(overrides)
+        return make_finding(**fields)
+
+    return _make
+
+
+@pytest.fixture
 def make_finding():
     """Build an actionable Finding, overriding only the fields a test cares about."""
     from wiki_monitor.digest import Finding

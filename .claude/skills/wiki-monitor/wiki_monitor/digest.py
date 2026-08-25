@@ -15,15 +15,25 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
-#: Actionable findings shown per digest.  Anything past this is demoted to the
-#: "Reviewed but not included" list rather than dropped.
+#: Actionable *literature* findings shown per digest.  Event findings —
+#: outbreaks, recalls, investigation updates — are never capped: each is a
+#: unique, time-sensitive occurrence, and deferring one costs freshness.
+#: Literature findings past the cap are demoted to the "Reviewed but not
+#: included" list rather than dropped, and compete again next run (ADR 0003).
 ACTIONABLE_CAP = 5
+
+#: The one capped criterion.  Every other criterion describes an event.
+#: An unrecognised criterion string therefore renders uncapped — over-showing
+#: is the safe failure.
+_LITERATURE_CRITERION = "novel characteristic"
 
 #: Rough cap on the "Reviewed but not included" list; the remainder collapses
 #: into a "+N more" note.
 REVIEWED_CAP = 15
 
-_OVER_CAP_REASON = "Ranked below the top 5 this run — past the 5-finding cap."
+_OVER_CAP_REASON = (
+    "Ranked below the top 5 literature findings this run — past the literature cap."
+)
 
 #: Placeholder a finding's ``entry`` carries where its reference number goes.
 FOOTNOTE_PLACEHOLDER = "{footnote}"
@@ -127,11 +137,21 @@ def build_digest(
         e for e in excluded if (e.source_id, e.serovar) not in already_reported
     ]
 
-    actionable = fresh[:ACTIONABLE_CAP]
+    # Events all render actionable; only literature findings count against the
+    # cap. Input order is rank order, so the split preserves the ranking.
+    actionable, over_cap = [], []
+    literature_kept = 0
+    for finding in fresh:
+        if _is_literature(finding):
+            if literature_kept >= ACTIONABLE_CAP:
+                over_cap.append(finding)
+                continue
+            literature_kept += 1
+        actionable.append(finding)
 
     # Findings past the cap are demoted, not dropped, and rank above the items
     # the classification step judged not actionable.
-    demoted = [_demote(f) for f in fresh[ACTIONABLE_CAP:]]
+    demoted = [_demote(f) for f in over_cap]
     reviewed = [*demoted, *fresh_excluded]
 
     reviewed_shown = reviewed[:REVIEWED_CAP]
@@ -334,6 +354,10 @@ def _validate(
             )
 
     return issues
+
+
+def _is_literature(finding: Finding) -> bool:
+    return finding.criterion.strip().lower() == _LITERATURE_CRITERION
 
 
 def _demote(finding: Finding) -> ExcludedItem:

@@ -98,48 +98,53 @@ def test_items_shown_in_the_reviewed_list_are_recorded_too(wiki_repo, build, mak
     assert ("fsn-42", "Agona") in reported_pairs(result.state)
 
 
-def test_a_finding_the_cap_pushed_down_is_not_recorded(wiki_repo, build, make_finding):
-    """It was listed by title, not reported with its entry — it gets another run."""
-    findings = [make_finding(source_id=f"F-{n}-2026") for n in range(1, 7)]
+def test_a_finding_the_cap_pushed_down_is_not_recorded(
+    wiki_repo, build, make_literature
+):
+    """It was listed by title, not reported with its entry — it gets another run.
+
+    Only literature findings can be pushed down; events are never capped.
+    """
+    findings = [make_literature(f"P-{n}") for n in range(1, 7)]
 
     result = build(wiki_repo, findings=findings)
     recorded = {source_id for source_id, _ in reported_pairs(result.state)}
 
-    assert recorded == {"F-1-2026", "F-2-2026", "F-3-2026", "F-4-2026", "F-5-2026"}
-    assert "F-6-2026" in result.html, "it is still shown in the reviewed list"
+    assert recorded == {"P-1", "P-2", "P-3", "P-4", "P-5"}
+    assert "P-6" in result.html, "it is still shown in the reviewed list"
 
 
 def test_a_demoted_finding_can_win_an_actionable_slot_on_a_later_run(
-    wiki_repo, build, make_finding, digest_section
+    wiki_repo, build, make_literature, digest_section
 ):
     """The whole point of not recording it: next week it competes again."""
-    crowded = [make_finding(source_id=f"F-{n}-2026") for n in range(1, 7)]
+    crowded = [make_literature(f"P-{n}") for n in range(1, 7)]
     first = build(wiki_repo, findings=crowded)
 
     # Next run, only the previously-demoted finding is still in the source window.
     second = build(
         wiki_repo,
-        findings=[make_finding(source_id="F-6-2026")],
+        findings=[make_literature("P-6")],
         state=first.state,
     )
     actionable = digest_section(second.html, "Actionable findings")
 
-    assert "F-6-2026" in actionable
-    assert "5-finding cap" not in actionable
+    assert "P-6" in actionable
+    assert "literature cap" not in actionable
 
 
 def test_a_classifier_excluded_item_is_recorded_even_though_it_was_never_actionable(
-    wiki_repo, build, make_finding, make_excluded
+    wiki_repo, build, make_literature, make_excluded
 ):
     """Reported-as-excluded still counts as reported, so it is not re-judged."""
-    findings = [make_finding(source_id=f"F-{n}-2026") for n in range(1, 7)]
+    findings = [make_literature(f"P-{n}") for n in range(1, 7)]
     excluded = [make_excluded(source_id="fsn-7")]
 
     result = build(wiki_repo, findings=findings, excluded=excluded)
     recorded = {source_id for source_id, _ in reported_pairs(result.state)}
 
     assert "fsn-7" in recorded
-    assert "F-6-2026" not in recorded
+    assert "P-6" not in recorded
 
 
 def test_items_dropped_by_the_plus_n_more_note_are_not_recorded(wiki_repo, build, make_excluded):
@@ -173,18 +178,20 @@ def test_coverage_gaps_are_not_recorded_so_they_keep_being_suggested(wiki_repo, 
     assert reported_pairs(result.state) == set()
 
 
-def test_an_already_reported_finding_frees_its_slot_for_the_next_one(wiki_repo, build, make_finding):
-    """Dedup happens before the 5-finding cap, not after."""
+def test_an_already_reported_finding_frees_its_slot_for_the_next_one(
+    wiki_repo, build, make_literature
+):
+    """Dedup happens before the literature cap, not after."""
     prior = {
         "last_successful_run": "2026-07-26T06:00:00Z",
         "reported": [
-            {"source_id": "F-1-2026", "serovar": "Agona", "data_source": "openfda"}
+            {"source_id": "P-1", "serovar": "Agona", "data_source": "openfda"}
         ],
     }
-    findings = [make_finding(source_id=f"F-{n}-2026") for n in range(1, 8)]
+    findings = [make_literature(f"P-{n}") for n in range(1, 8)]
 
     result = build(wiki_repo, findings=findings, state=prior)
 
-    # F-1 is already reported, so F-2..F-6 fill the five actionable slots.
-    assert "F-6-2026" in result.html
-    assert "5-finding cap" in result.html
+    # P-1 is already reported, so P-2..P-6 fill the five literature slots.
+    assert "P-6" in result.html
+    assert "literature cap" in result.html

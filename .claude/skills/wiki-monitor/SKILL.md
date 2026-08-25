@@ -70,8 +70,11 @@ Three rules that are easy to get wrong:
   food vehicle is not already on that page; "novel characteristic" means the
   genetic/AMR/reservoir trait is not already described there. Read the page.
 
-Rank the findings you keep, most important first — the first five become the
-digest's actionable findings and the rest are listed as reviewed. The outbreak
+Rank the findings you keep, most important first. Every event finding — an
+outbreak, recall, or investigation update — renders actionable, because each is
+a unique occurrence and deferring one costs freshness. Only literature findings
+(criterion "novel characteristic") are capped: the top five render actionable
+and the rest are listed as reviewed, competing again next run. The outbreak
 criterion is deliberately low (≥2 linked cases), so qualifying is not ranking:
 weigh case counts, deaths, resistance, and novelty, and expect a 2-case outbreak
 to sit below larger or more novel findings. The reviewing expert, not the
