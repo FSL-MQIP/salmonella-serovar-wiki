@@ -30,6 +30,7 @@ Despite the fact that this is a rare serovar, multiple outbreaks have been repor
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
+| 2023 | India | [Packaged curd](https://pubmed.ncbi.nlm.nih.gov/42266517/) | 280 |
 | 2010 | Canada | [Headcheese](https://pubmed.ncbi.nlm.nih.gov/22488063/) | 33 |
 | 2010 | US: multistate | [Frozen meals](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6248a2.htm) | 44 |
 | 2005 | Australia | [Tap water](https://www1.health.gov.au/internet/main/publishing.nsf/content/cda-cdi3003-pdf-cnt.htm/$FILE/cdi3003b.pdf) | 26 |
@@ -71,4 +72,5 @@ There have been no recent animal outbreaks linked to this serovar.
 12. [https://webgate.ec.europa.eu/rasff-window/screen/notification/598996](https://webgate.ec.europa.eu/rasff-window/screen/notification/598996)
 13. [https://webgate.ec.europa.eu/rasff-window/screen/notification/506373](https://webgate.ec.europa.eu/rasff-window/screen/notification/506373)
 14. [https://webgate.ec.europa.eu/rasff-window/screen/notification/675850](https://webgate.ec.europa.eu/rasff-window/screen/notification/675850)
+15. [https://pubmed.ncbi.nlm.nih.gov/42266517/](https://pubmed.ncbi.nlm.nih.gov/42266517/)
 
