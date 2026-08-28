@@ -30,6 +30,7 @@ There are multiple outbreaks associated with serovar Bovismorbificans. Here we r
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
+| 2026 | Europe: multi-country | [Alfalfa sprouted seeds](https://pubmed.ncbi.nlm.nih.gov/42453129/) | 109 |
 | 2022 | Greece | [Tap water](<https://www.mdpi.com/1660-4601/21/2/167#:~:text=Results:%20We%20identified%2033%20cases%20(median%20age:,tap%20water%20samples%20had%20identical%20PFGE%20profiles.>) | 33 |
 | 2020 | France | [Dried pork sausages](https://pmc.ncbi.nlm.nih.gov/articles/PMC9837855/) | 33 |
 | 2018 | Netherlands | [Raw, smoked, and Coburg ham](https://pmc.ncbi.nlm.nih.gov/articles/PMC5765776/) | 54 |
@@ -76,4 +77,5 @@ Multiple recalls were reported. Here we selected one as example.
 12. [https://www.foodnavigator.com/Article/2018/01/05/Salmonella-Bovismorbificans-outbreak-linked-to-undercooked-ham/?utm_source=newsletter_daily&utm_medium=email&utm_campaign=09-Jan-2018&c=p%2FtLw%2B6HDRAJ%2F3NhASKrcg%3D%3D&p2=](https://www.foodnavigator.com/Article/2018/01/05/Salmonella-Bovismorbificans-outbreak-linked-to-undercooked-ham/?utm_source=newsletter_daily&utm_medium=email&utm_campaign=09-Jan-2018&c=p%2FtLw%2B6HDRAJ%2F3NhASKrcg%3D%3D&p2=)
 13. [https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6146a3.htm](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6146a3.htm)
 14. [https://pubmed.ncbi.nlm.nih.gov/21933168/](https://pubmed.ncbi.nlm.nih.gov/21933168/)
+15. [https://pubmed.ncbi.nlm.nih.gov/42453129/](https://pubmed.ncbi.nlm.nih.gov/42453129/)
 
