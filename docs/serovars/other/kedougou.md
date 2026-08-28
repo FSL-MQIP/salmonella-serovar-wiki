@@ -14,7 +14,7 @@
 
 ## Genetic Characteristics
 
-Serovar Kedougou has been found to be [polyphyletic](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full) with one lineage identified and one stand-alone singleton that does not cluster with any other *Salmonella* Kedougou isolates. Among human-originated *Salmonella* Kedougou isolates collected in Thailand, [Pornruangwong et al.](https://pubmed.ncbi.nlm.nih.gov/21034262/) found that 84% showed resistance to three or more antimicrobial classes. In addition, three human stool samples contained strains resistant to third-generation cephalosporins—two carrying *bla*(CTX-M-63) and one with *bla*(CMY-2). Pulsed-field gel electrophoresis (PFGE) identified 45 distinct genetic clusters. Interestingly, human isolates from Thailand and the US shared identical PFGE patterns, indicating possible travel-related transmission. In contrast, most animal isolates from the UK formed separate clusters.
+Serovar Kedougou has been found to be [polyphyletic](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full) with one lineage identified and one stand-alone singleton that does not cluster with any other *Salmonella* Kedougou isolates. Among human-originated *Salmonella* Kedougou isolates collected in Thailand, [Pornruangwong et al.](https://pubmed.ncbi.nlm.nih.gov/21034262/) found that 84% showed resistance to three or more antimicrobial classes. In addition, three human stool samples contained strains resistant to third-generation cephalosporins—two carrying *bla*(CTX-M-63) and one with *bla*(CMY-2). Pulsed-field gel electrophoresis (PFGE) identified 45 distinct genetic clusters. Interestingly, human isolates from Thailand and the US shared identical PFGE patterns, indicating possible travel-related transmission. In contrast, most animal isolates from the UK formed separate clusters. A colistin-resistant *S*. Kedougou ST1543 clinical isolate has been recovered from a human clinical isolate in [Nigeria](https://pubmed.ncbi.nlm.nih.gov/42526247/).
 
 ## Animal Reservoir
 
@@ -79,4 +79,5 @@ There have been no recent animal outbreaks linked to this serovar.
 14. [https://webgate.ec.europa.eu/rasff-window/screen/notification/457471](https://webgate.ec.europa.eu/rasff-window/screen/notification/457471)
 15. [https://webgate.ec.europa.eu/rasff-window/screen/notification/403143](https://webgate.ec.europa.eu/rasff-window/screen/notification/403143)
 16. [https://pmc.ncbi.nlm.nih.gov/articles/PMC2249223/](https://pmc.ncbi.nlm.nih.gov/articles/PMC2249223/)
+17. [https://pubmed.ncbi.nlm.nih.gov/42526247/](https://pubmed.ncbi.nlm.nih.gov/42526247/)
 
