@@ -37,6 +37,7 @@ Numerous outbreaks have been associated with *S.* Typhimurium. Human outbreaks h
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
 | 2024-2025 | US: multistate | [Cucumbers](https://www.cdc.gov/salmonella/outbreaks/cucumbers-11-24/index.html) | 113 |
+| 2024 | Portugal | [Fresh cheese](https://pubmed.ncbi.nlm.nih.gov/42071313/) | 58 |
 | 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html#:~:text=As%20of%20June%2020%2C%202024,No%20deaths%20have%20been%20reported.)<sup>1</sup> | 470 |
 | 2023-2025 | Europe: multi-country | [Alfalfa sprouts](https://www.food-safety.com/articles/10195-salmonella-outbreak-linked-to-sprouts-sickened-509-people-over-two-years-in-ten-european-countries) | 509 |
 | 2018 | US: multistate | [Chicken salad](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-02-18/index.html) | 265 |
@@ -147,4 +148,5 @@ Multiple recalls linked to *Salmonella* Typhimurium have been reported. They are
 45. [https://webgate.ec.europa.eu/rasff-window/screen/notification/471210](https://webgate.ec.europa.eu/rasff-window/screen/notification/471210)
 46. [https://marlerclark.com/news_events/salmon#:~:text=Peanut%20Corporation%20of%20America%20Peanut%20Butter%20Salmonella%20Outbreak%20Lawsuits%20%2D%20Nationwide,PCA](https://marlerclark.com/news_events/salmon#:~:text=Peanut%20Corporation%20of%20America%20Peanut%20Butter%20Salmonella%20Outbreak%20Lawsuits%20%2D%20Nationwide,PCA)
 47. [https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026)
+48. [https://pubmed.ncbi.nlm.nih.gov/42071313/](https://pubmed.ncbi.nlm.nih.gov/42071313/)
 
