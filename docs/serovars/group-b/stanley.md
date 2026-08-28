@@ -30,6 +30,7 @@ Serovar Stanley has been reported [worldwide](<https://www.ncbi.nlm.nih.gov/path
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
+| 2025-2026 | Europe: multi-country | [Flavoured noodle products](https://pubmed.ncbi.nlm.nih.gov/42416396/) | 106 |
 | 2023-2024 | US: multistate | [Small turtle](https://www.cdc.gov/salmonella/outbreaks/turtles-08-24/investigation.html)<sup>1</sup> | 63 |
 | 2020 | US: multistate | [Wood ear mushrooms](https://archive.cdc.gov/www_cdc_gov/salmonella/stanley-09-20/index.html#:~:text=On%20October%201%2C%202020%2C%20the,outbreak%20appears%20to%20be%20over.) | 55 |
 | 2013-2014 | US: multistate | [Raw cashew cheese](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/stanley-01-14/index.html) | 17 |
@@ -90,4 +91,5 @@ There have been no recent border rejections linked to this serovar.
 18. [https://webgate.ec.europa.eu/rasff-window/screen/notification/576700](https://webgate.ec.europa.eu/rasff-window/screen/notification/576700)
 19. [https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wismettac-asian-foods-voluntarily-recalls-dried-fungus-due-potential-salmonella-contamination](https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wismettac-asian-foods-voluntarily-recalls-dried-fungus-due-potential-salmonella-contamination)
 20. [https://archive.cdc.gov/#/details?archive_url=https://archive.cdc.gov/www_cdc_gov/salmonella/stanley-01-14/advice-consumers.html](https://archive.cdc.gov/#/details?archive_url=https://archive.cdc.gov/www_cdc_gov/salmonella/stanley-01-14/advice-consumers.html)
+21. [https://pubmed.ncbi.nlm.nih.gov/42416396/](https://pubmed.ncbi.nlm.nih.gov/42416396/)
 
