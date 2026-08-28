@@ -26,6 +26,7 @@ Several outbreaks linked to *S.* Reading have been reported.
 
 | Year | Location | Associated product | Number of cases |
 | --- | --- | --- | --- |
+| 2023 | Australia | [Dried bovine meat](https://pubmed.ncbi.nlm.nih.gov/42521639/)| 63 |
 | 2018 | US-multistate | [Turkey Products](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/reading-07-18/index.html) | 358 |
 | 2016 | US-multistate | [Alfalfa sprouts](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/reading-08-16/index.html) | 36<sup>1</sup> |
 | 2008 | Finland | [Iceberg Lettuce](https://doi.org/10.4315/0362-028X.JFP-10-455) | 107<sup>2</sup> |
@@ -68,4 +69,4 @@ There have been no recent animal outbreaks linked to this serovar.
 11. [https://webgate.ec.europa.eu/rasff-window/screen/notification/563154](https://webgate.ec.europa.eu/rasff-window/screen/notification/563154)
 12. [https://pmc.ncbi.nlm.nih.gov/articles/PMC1951708/?page=10](https://pmc.ncbi.nlm.nih.gov/articles/PMC1951708/?page=10)
 13. [https://webgate.ec.europa.eu/rasff-window/screen/notification/672575](https://webgate.ec.europa.eu/rasff-window/screen/notification/672575)
-
+14. [https://pubmed.ncbi.nlm.nih.gov/42521639/](https://pubmed.ncbi.nlm.nih.gov/42521639/)
