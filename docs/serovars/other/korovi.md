@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `38:g,m,[s]:` |
     | **Serogroup** | O:38 (P) |
-    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates#taxgroup_name:("Salmonella%20enterica")%20AND%20computed_types:("serotype=Korovi")) |
 
 ## Background Information
 
