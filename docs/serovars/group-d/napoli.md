@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `1,9,12:l,z13:e,n,x` |
     | **Serogroup** | O:9 (D1) |
-    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates#taxgroup_name:("Salmonella%20enterica")%20AND%20computed_types:("serotype=Napoli")) |
 
 ## Background Information
 
