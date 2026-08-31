@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `35:z4,z23:` |
     | **Serogroup** | O:35 (O) |
-    | **NCBI Pathogen Detection** | [View isolates]([https://www.ncbi.nlm.nih.gov/pathogens/isolates/](https://www.ncbi.nlm.nih.gov/pathogens/isolates#taxgroup_name:("Salmonella%20enterica")%20AND%20computed_types:("Alachua")) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates#taxgroup_name:("Salmonella%20enterica")%20AND%20computed_types:("Alachua")) |
 
 ## Background Information
 
