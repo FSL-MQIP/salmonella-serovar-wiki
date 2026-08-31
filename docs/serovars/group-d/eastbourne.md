@@ -6,11 +6,11 @@
     |---|---|
     | **Antigenic Formula** | `1,9,12:e,h:1,5` |
     | **Serogroup** | O:9 (D1) |
-    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates#taxgroup_name:("Salmonella%20enterica")%20AND%20computed_types:("serotype=Eastbourne")) |
 
 ## Background Information
 
-*Salmonella enterica* subsp. *enterica* serovar Abony (antigenic formula 1,9,12:e,h:1,5) is a serovar of the O:9 (D<sub>1</sub>) serogroup. Serovar Eastbourne, first identified in England in [1931](https://www.sciencedirect.com/science/article/pii/S031554637573804X), was initially isolated in Canada from a human source in 1950 and later from frog legs in 1967. Among reptiles in a zoo education setting, serovar Eastbourne was the predominant serotype ([32%, 22/69](https://onlinelibrary.wiley.com/doi/10.1111/j.1863-2378.2012.01521.x#b1)) and has been proposed as a [reptile-associated serotype](https://journals.lww.com/pidj/abstract/1995/11000/reptile_associated_salmonellosis_in_new_york_state.6.aspx).
+*Salmonella enterica* subsp. *enterica* serovar Eastbourne (antigenic formula 1,9,12:e,h:1,5) is a serovar of the O:9 (D<sub>1</sub>) serogroup. Serovar Eastbourne, first identified in England in [1931](https://www.sciencedirect.com/science/article/pii/S031554637573804X), was initially isolated in Canada from a human source in 1950 and later from frog legs in 1967. Among reptiles in a zoo education setting, serovar Eastbourne was the predominant serotype ([32%, 22/69](https://onlinelibrary.wiley.com/doi/10.1111/j.1863-2378.2012.01521.x#b1)) and has been proposed as a [reptile-associated serotype](https://journals.lww.com/pidj/abstract/1995/11000/reptile_associated_salmonellosis_in_new_york_state.6.aspx).
 
 ## Genetic Characteristics
 
@@ -22,7 +22,7 @@ Serovar Eastbourne has been found to be [polyphyletic](https://www.frontiersin.o
 
 ## Geographical Distribution
 
-Serovar Eastbourne has been found in[Australia, Africa, Europe, and North America including the US and Canada.](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Eastbourne%22)>)
+Serovar Eastbourne has been found in [Australia, Africa, Europe, and North America including the US and Canada.](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Eastbourne%22)>)
 
 ## Human Outbreaks
 
