@@ -10,7 +10,7 @@
 
 ## Background Information
 
-*Salmonella enterica* subsp. *enterica* serovar Adelaide (antigenic formula 35:f,g:-) is a serovar of the O:35 (O) serogroup. Serovar Adelaide was[first isolated in 1943](https://onlinelibrary.wiley.com/doi/10.1038/icb.1943.23)from a fatal case of enteritis in a man in Adelaide, Australia.
+*Salmonella enterica* subsp. *enterica* serovar Adelaide (antigenic formula 35:f,g:-) is a serovar of the O:35 (O) serogroup. Serovar Adelaide was [first isolated in 1943](https://onlinelibrary.wiley.com/doi/10.1038/icb.1943.23) from a fatal case of enteritis in a man in Adelaide, Australia.
 
 ## Genetic Characteristics
 
