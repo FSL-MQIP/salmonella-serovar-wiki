@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `1,40:b:e,n,x` |
     | **Serogroup** | O:40 (R) |
-    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates#taxgroup_name:("Salmonella%20enterica")%20AND%20computed_types:("serotype=Johannesburg")) |
 
 ## Background Information
 
