@@ -15,6 +15,7 @@
 The NCBI PD link for biovar Pullorum is unavailable because SeqSero2, the in silico serotyping tool used by NCBI PD, cannot differentiate: i) between serovars Enteritidis and Gallinarum, and ii) at the biovar level.
 
 ## Genetic Characteristics
+Biovar Pullorum displays both unstable O-antigen phase variation and stable antigenic conversion between standard (O123) and variant (O122) antigenic types; the glycosyltransferase encoded by *gtrC*<sup>III</sup> is responsible for variant-specific O-antigen glucosylation and is co-regulated by OxyR and the [methyltransferase Dam](https://pubmed.ncbi.nlm.nih.gov/42635344/).
 
 Studies have found that isolates from biovar Pullorum can be multidrug-resistant. [Cui et al](https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-024-03296-3). analyzed a total of 114 Pullorum isolates from China and revealed that almost all Pullorum isolates (94.74%, n = 108) showed resistance to at least one class of antimicrobial, with 35.96% of the isolates being classified as multidrug-resistant. Another Chinese study examined 652 Pullorum isolates and found [ampicillin–tetracycline–nalidixic acid](https://www.sciencedirect.com/science/article/pii/S0032579120309457) (13.6%) was the most common multidrug-resistant pattern observed. They also concluded that strains resistant to six different classes of antibiotics began emerging and have remained prevalent after 2008. In 2014, an isolate resistant to seven antibiotics (ampicillin–cefazolin–streptomycin–tetracycline–sulphonamides–nalidixic acid–nitrofurantoin) was found. Sun et al. stated that 71.9% of isolates exhibited resistance to nalidixic acid, while no resistance (0%) was observed for cefotaxime, amikacin, gentamicin, fosfomycin, meropenem, and polymyxin.
 
@@ -64,4 +65,4 @@ There have been no recent recalls linked to this biovar.
 11. [https://www.nature.com/articles/s41597-022-01605-x](https://www.nature.com/articles/s41597-022-01605-x)
 12. [https://pmc.ncbi.nlm.nih.gov/articles/PMC7823777/#:~:text=An%20outbreak%20of%20pullorum%20disease,quail%20farm%20in%20western%20France](https://pmc.ncbi.nlm.nih.gov/articles/PMC7823777/#:~:text=An%20outbreak%20of%20pullorum%20disease,quail%20farm%20in%20western%20France).
 13. [https://www.jstor.org/stable/1592212?seq=3](https://www.jstor.org/stable/1592212?seq=3)
-
+14. [https://pubmed.ncbi.nlm.nih.gov/42635344/](https://pubmed.ncbi.nlm.nih.gov/42635344/)

@@ -59,7 +59,7 @@ The Salmonella Serovar Wiki consolidates information from publicly available dat
 
 New outbreaks, recalls, or border rejections are added when they meet at least one of the following:
 
-1. **Substantial public health concern** — e.g., a human outbreak with >100 cases
+1. **Human outbreak** — a serovar-attributed outbreak with ≥2 linked cases (the epidemiological definition). Any qualifying outbreak is surfaced for review; the reviewing expert makes the final call on whether it merits inclusion.
 2. **Novel commodity** — associated with a food vehicle not yet documented in the Wiki
 3. **Final investigation update** — provides closure on a previously ongoing investigation
 

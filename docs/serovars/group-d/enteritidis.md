@@ -30,6 +30,7 @@ Numerous Enteritidis outbreaks have been reported and they are mainly associated
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
+| 2025-2026 | UK | [Imported eggs](https://www.foodsafetynews.com/2026/08/uk-reports-salmonella-outbreak-with-200-sick-and-one-dead/) | 207 |
 | 2023-2025 | Netherlands | [Eggs](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.9.2500603) | 227 |
 | 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/index.html) | 470<sup>1</sup> |
 | 2018 | US: multistate | [Eggs](https://archive.cdc.gov/www_cdc_gov/salmonella/enteritidis-09-18/index.html) | 44 |
@@ -113,4 +114,5 @@ There are numerous recalls linked to *Salmonella* Enteritidis. The majority of t
 32. [https://webgate.ec.europa.eu/rasff-window/screen/notification/502448](https://webgate.ec.europa.eu/rasff-window/screen/notification/502448)
 33. [https://webgate.ec.europa.eu/rasff-window/screen/notification/451322](https://webgate.ec.europa.eu/rasff-window/screen/notification/451322)
 34. [https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.9.2500603](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.9.2500603)
+35. [https://www.foodsafetynews.com/2026/08/uk-reports-salmonella-outbreak-with-200-sick-and-one-dead/](https://www.foodsafetynews.com/2026/08/uk-reports-salmonella-outbreak-with-200-sick-and-one-dead/)
 
