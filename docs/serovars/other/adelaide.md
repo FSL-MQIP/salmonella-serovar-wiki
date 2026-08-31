@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `35:f,g:-` |
     | **Serogroup** | O:35 (O) |
-    | **NCBI Pathogen Detection** | [View isolates]([https://www.ncbi.nlm.nih.gov/pathogens/isolates/](https://www.ncbi.nlm.nih.gov/pathogens/isolates#taxgroup_name:("Salmonella%20enterica")%20AND%20computed_types:("serotype=Adelaide")) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates#taxgroup_name:("Salmonella%20enterica")%20AND%20computed_types:("serotype=Adelaide")) |
 
 ## Background Information
 
