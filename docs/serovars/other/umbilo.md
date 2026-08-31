@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `28:z10:e,n,x` |
     | **Serogroup** | O:28 (M) |
-    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates#taxgroup_name:("Salmonella%20enterica")%20AND%20computed_types:("serotype=Umbilo")) |
 
 ## Background Information
 
