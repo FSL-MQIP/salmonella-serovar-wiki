@@ -18,7 +18,7 @@ Serovar Altona has been found to be [polyphyletic](https://www.frontiersin.org/j
 
 ## Animal Reservoir
 
-Serovar Altona was mainly found in[chickens but was also present in cattle, pigs, and horses](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Altona%22)>).
+Serovar Altona was mainly found in [chickens but was also present in cattle, pigs, and horses](<https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Altona%22)>).
 
 ## Geographical Distribution
 
