@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `9,46:a:e,n,x` |
     | **Serogroup** | O:9,46 (D2) |
-    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates#taxgroup_name:("Salmonella%20enterica")%20AND%20computed_types:("serotype=Baildon")) |
 
 ## Background Information
 
