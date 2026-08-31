@@ -6,7 +6,7 @@
     |---|---|
     | **Antigenic Formula** | `16:d:1,7` |
     | **Serogroup** | O:16 (I) |
-    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates/) |
+    | **NCBI Pathogen Detection** | [View isolates](https://www.ncbi.nlm.nih.gov/pathogens/isolates#taxgroup_name:("Salmonella%20enterica")%20AND%20computed_types:("serotype=Gaminara")) |
 
 ## Background Information
 
