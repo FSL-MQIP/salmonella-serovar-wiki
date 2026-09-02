@@ -32,6 +32,7 @@ Multiple human outbreaks linked to serovar Newport have been reported with the m
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
+| 2026 | US: multistate | [Cantaloupe](https://outbreakdatabase.com/outbreaks/2026-multistate-outbreak-of-salmonella-newport-infections-associated-with-cantaloupe)| 70 |
 | 2022 | US: multistate | [Beef (suspected)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10651324/#:~:text=Outbreak%20Investigations&text=A%20second%20multistate%20outbreak%20that,ground%20beef%20from%20a%20patient.)<sup>1</sup> | 22 |
 | 2021 | US: multistate | [Infant formula](https://dpbh.nv.gov/uploadedFiles/dpbhnvgov/content/Resources/Update%20TB_FDA%20Recall%20on%20Infant%20Formula%20030122.pdf)<sup>2</sup> | 4 |
 | 2021 | US: multistate | [Beef (suspected)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10651324/#:~:text=Outbreak%20Investigations&text=A%20second%20multistate%20outbreak%20that,ground%20beef%20from%20a%20patient.)<sup>3</sup> | 75 |
@@ -173,4 +174,4 @@ Multiple recalls linked to this serovar have been reported and they are associat
 46. [https://outbreakdatabase.com/outbreaks/2012-multistate-outbreak-of-salmonella-newport-linked-to-cantaloupe](https://outbreakdatabase.com/outbreaks/2012-multistate-outbreak-of-salmonella-newport-linked-to-cantaloupe)
 47. [https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026)
 48. [https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-extensively-drug-resistant-salmonella-moringa-powder-february-2026](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-extensively-drug-resistant-salmonella-moringa-powder-february-2026)
-
+49. [https://outbreakdatabase.com/outbreaks/2026-multistate-outbreak-of-salmonella-newport-infections-associated-with-cantaloupe](https://outbreakdatabase.com/outbreaks/2026-multistate-outbreak-of-salmonella-newport-infections-associated-with-cantaloupe)
