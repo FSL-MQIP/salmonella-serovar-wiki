@@ -20,7 +20,7 @@ Serovar Newport has been found to be [polyphyletic](https://www.frontiersin.org/
 
 ## Animal Reservoir
 
-[Cattle](https://pmc.ncbi.nlm.nih.gov/articles/PMC309039/) is the main reservoir for serovar Newport. This serovar was also isolated from [other animals, such as pigs, poultry, horses, dogs, and pigeons](https://pmc.ncbi.nlm.nih.gov/articles/PMC309039/). Recently, one *S.* Newport isolate was isolated from an [aquatic bird from Yahuarcocha Lake, Ecuador](https://www.biorxiv.org/content/10.64898/2026.04.09.717384v1.full#T1)
+[Cattle](https://pmc.ncbi.nlm.nih.gov/articles/PMC309039/) is the main reservoir for serovar Newport. This serovar was also isolated from [other animals, such as pigs, poultry, horses, dogs, and pigeons](https://pmc.ncbi.nlm.nih.gov/articles/PMC309039/). Recently, one *S.* Newport isolate was isolated from an [aquatic bird from Yahuarcocha Lake, Ecuador](https://www.biorxiv.org/content/10.64898/2026.04.09.717384v1.full#T1). Additionally, the multi-drug resistant and persistent REPJJP01 strain of serovar Newport has been isolates from [exotic felids](https://pubmed.ncbi.nlm.nih.gov/42683014/), two snow leopards (*Panthera uncia*) and a Palla's cat (*Otocolobus manual*). 
 
 ## Geographical Distribution
 
@@ -175,3 +175,4 @@ Multiple recalls linked to this serovar have been reported and they are associat
 47. [https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026)
 48. [https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-extensively-drug-resistant-salmonella-moringa-powder-february-2026](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-extensively-drug-resistant-salmonella-moringa-powder-february-2026)
 49. [https://outbreakdatabase.com/outbreaks/2026-multistate-outbreak-of-salmonella-newport-infections-associated-with-cantaloupe](https://outbreakdatabase.com/outbreaks/2026-multistate-outbreak-of-salmonella-newport-infections-associated-with-cantaloupe)
+50. [https://pubmed.ncbi.nlm.nih.gov/42683014/](https://pubmed.ncbi.nlm.nih.gov/42683014/)
