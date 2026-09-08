@@ -63,6 +63,7 @@ Multiple border rejections have been linked to serovar Javiana. They are all ass
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
+| 2026 | US: multistate | [Jalapeño peppers](https://www.fda.gov/safety/major-product-recalls/2026-recalls-food-products-associated-fresh-jalapenos-sinaloa-mexico-and-distributed-coast-citrus) | Fruit and vegetables | 
 | 2023 | US: multistate | [Black fungus](https://www.foodsafetynews.com/2023/05/black-fungus-recalled-in-12-states-after-testing-finds-multiple-strains-of-salmonella/)<sup>1</sup> | Other food product / mixed |
 | 2019 | US | [Fresh fruit](https://www.foodsafetynews.com/?s=javiana)<sup>2</sup> | Fruit and vegetables |
 
@@ -93,4 +94,4 @@ Multiple border rejections have been linked to serovar Javiana. They are all ass
 19. [https://webgate.ec.europa.eu/rasff-window/screen/notification/452474](https://webgate.ec.europa.eu/rasff-window/screen/notification/452474)
 20. [https://www.foodsafetynews.com/2023/05/black-fungus-recalled-in-12-states-after-testing-finds-multiple-strains-of-salmonella/](https://www.foodsafetynews.com/2023/05/black-fungus-recalled-in-12-states-after-testing-finds-multiple-strains-of-salmonella/)
 21. [https://www.foodsafetynews.com/?s=javiana](https://www.foodsafetynews.com/?s=javiana)
-
+22. [https://www.fda.gov/safety/major-product-recalls/2026-recalls-food-products-associated-fresh-jalapenos-sinaloa-mexico-and-distributed-coast-citrus](https://www.fda.gov/safety/major-product-recalls/2026-recalls-food-products-associated-fresh-jalapenos-sinaloa-mexico-and-distributed-coast-citrus)
