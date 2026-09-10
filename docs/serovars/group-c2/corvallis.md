@@ -14,7 +14,7 @@
 
 ## Genetic Characteristics
 
-Serovar Corvallis has been found to be [polyphyletic](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full) with six lineages identified. By analyzing 388 Corvallis ST1541 isolates collected globally within a twenty-year period, [Chen et al.](https://onehealthadv.biomedcentral.com/articles/10.1186/s44280-023-00017-9) found that the ST1541 strains carried ColRNA1 plasmids that contain *qnr*-like determinants. Their Bayesian analysis also inferred that the UK might be the origin of *S.* Corvallis strains currently prevailing in multiple regions. [Fischer et al.](https://academic.oup.com/jac/article-abstract/68/12/2954/696276?redirectedFrom=fulltext) identified NDM-1 carbapenemase-producing strains isolated from a wild bird in Germany.
+Serovar Corvallis has been found to be [polyphyletic](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full) with six lineages identified. By analyzing 388 Corvallis ST1541 isolates collected globally within a twenty-year period, [Chen et al.](https://onehealthadv.biomedcentral.com/articles/10.1186/s44280-023-00017-9) found that the ST1541 strains carried ColRNA1 plasmids that contain *qnr*-like determinants. Their Bayesian analysis also inferred that the UK might be the origin of *S.* Corvallis strains currently prevailing in multiple regions. [Fischer et al.](https://academic.oup.com/jac/article-abstract/68/12/2954/696276?redirectedFrom=fulltext) identified NDM-1 carbapenemase-producing strains isolated from a wild bird in Germany. [Analysis of 260 Chinese and 598 global serovar Corvallis isolates](https://pubmed.ncbi.nlm.nih.gov/42668177/) (2014-2023) found that resistance genes are significantly more prevalent in isolates from the chicken production chain than in those of human origin, and that specific plasmid replicons co-occurred with specific resistance genes: IncHI2 with *aadA16*, *dfrA27* and *sul1*, IncQ1 with *floR*, and IncA/C2 with *dfrA12* and *aadA2*, with IS26 likely mediating their co-mobilization.
 
 ## Animal Reservoir
 
@@ -53,4 +53,4 @@ There have been no recent recalls linked to this serovar.
 5. [https://onlinelibrary.wiley.com/doi/10.1111/j.1439-0450.2006.00932.x](https://onlinelibrary.wiley.com/doi/10.1111/j.1439-0450.2006.00932.x)
 6. [https://pubmed.ncbi.nlm.nih.gov/21492021/](https://pubmed.ncbi.nlm.nih.gov/21492021/)
 7. [https://www.niid.go.jp/niid/images/JJID/LEC-124.pdf](https://www.niid.go.jp/niid/images/JJID/LEC-124.pdf)
-
+8. [https://pubmed.ncbi.nlm.nih.gov/42668177/](https://pubmed.ncbi.nlm.nih.gov/42668177/)

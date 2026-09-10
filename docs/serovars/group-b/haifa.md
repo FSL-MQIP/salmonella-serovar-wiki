@@ -14,7 +14,7 @@
 
 ## Genetic Characteristics
 
-Serovar Haifa has been found to be [monophyletic](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full). *Salmonella* Haifa isolates with [*bla*<sub>OXA-48-like</sub>](https://www.ecdc.europa.eu/sites/default/files/documents/SALM_AER_2022_Report.pdf)was reported in Malta. [SGI1](https://academic.oup.com/jid/article/204/5/675/799881) (*Salmonella* genomic island 1) variants have been identified in at least two additional *Salmonella* serotypes, Newport and Haifa, both isolated in Egypt. In an Egyptian study, a single Haifa isolate was identified as positive for the[*invA*](https://pmc.ncbi.nlm.nih.gov/articles/PMC6702568/) gene.
+Serovar Haifa has been found to be [monophyletic](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full). *Salmonella* Haifa isolates with [*bla*<sub>OXA-48-like</sub>](https://www.ecdc.europa.eu/sites/default/files/documents/SALM_AER_2022_Report.pdf)was reported in Malta. [SGI1](https://academic.oup.com/jid/article/204/5/675/799881) (*Salmonella* genomic island 1) variants have been identified in at least two additional *Salmonella* serotypes, Newport and Haifa, both isolated in Egypt. In an Egyptian study, a single Haifa isolate was identified as positive for the[*invA*](https://pmc.ncbi.nlm.nih.gov/articles/PMC6702568/) gene. One [isolate](https://pubmed.ncbi.nlm.nih.gov/42645812/) from a patient in India, was resistant to ampicillin, ceftriaxone and ciprofloxacin; the infection may have been acquired via direct contact to cattle or poultry.
 
 ## Animal Reservoir
 
@@ -48,4 +48,4 @@ There have been no recent recalls linked to this serovar.
 4. [https://www.ecdc.europa.eu/sites/default/files/documents/SALM_AER_2022_Report.pdf](https://www.ecdc.europa.eu/sites/default/files/documents/SALM_AER_2022_Report.pdf)
 5. [https://academic.oup.com/jid/article/204/5/675/799881](https://academic.oup.com/jid/article/204/5/675/799881)
 6. [https://pmc.ncbi.nlm.nih.gov/articles/PMC6702568/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6702568/)
-
+7. [https://pubmed.ncbi.nlm.nih.gov/42645812/](https://pubmed.ncbi.nlm.nih.gov/42645812/)

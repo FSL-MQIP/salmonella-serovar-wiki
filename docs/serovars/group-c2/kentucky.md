@@ -32,9 +32,11 @@ Human outbreaks associated with serovar Kentucky are rare. Here we described one
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| 2016 | US: multistate | [Alfalfa sprouts](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/muenchen-02-16/index.html)<sup>1</sup> | 1 |
+| 2026 | US: multistate | [Moringa powder capsules](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-extensively-drug-resistant-salmonella-moringa-powder-february-2026)<sup>1</sup> | 10 |
+| 2016 | US: multistate | [Alfalfa sprouts](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/muenchen-02-16/index.html)<sup>2</sup> | 1 |
 
-<sup>1</sup> 25 other cases associated with this outbreak (n=26) were infected by *Salmonella* Muenchen.
+<sup>2</sup> Outbreak was associated with both *Salmonella* Kentucky and *Salmonella* Newport, exact numbers caused by each serovar are unclear.
+<sup>2</sup> 25 other cases associated with this outbreak (n=26) were infected by *Salmonella* Muenchen.
 
 ## Animal Outbreaks
 
@@ -60,7 +62,10 @@ Human outbreaks associated with serovar Kentucky are rare. Here we described one
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
+| 2026 | United States<sup>1</sup> | [Moringa powder capsules](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-extensively-drug-resistant-salmonella-moringa-powder-february-2026) | Dietary supplements |
 | 2021 | Finland | [Fresh mint from Kenya](https://webgate.ec.europa.eu/rasff-window/screen/notification/494162) | herbs and spices |
+
+<sup>1</sup>*Salmonella* Kentucky and *Salmonella* Newport were both found.
 
 ## References
 
@@ -87,4 +92,5 @@ Human outbreaks associated with serovar Kentucky are rare. Here we described one
 21. [https://webgate.ec.europa.eu/rasff-window/screen/notification/607336](https://webgate.ec.europa.eu/rasff-window/screen/notification/607336)
 22. [https://webgate.ec.europa.eu/rasff-window/screen/notification/416870](https://webgate.ec.europa.eu/rasff-window/screen/notification/416870)
 23. [https://webgate.ec.europa.eu/rasff-window/screen/notification/494162](https://webgate.ec.europa.eu/rasff-window/screen/notification/494162)
+24. [https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-extensively-drug-resistant-salmonella-moringa-powder-february-2026](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-extensively-drug-resistant-salmonella-moringa-powder-february-2026)
 

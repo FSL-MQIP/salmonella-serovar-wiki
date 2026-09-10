@@ -28,6 +28,7 @@ According to the metadata from NCBI PD, serovar Lomalinda has only been reported
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
+| 2025 | United States | [Spring mix](https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks)| 40 |
 | 2021 | US: multistate | [Not identified](https://outbreakdatabase.com/outbreaks/2021-multistate-outbreak-of-salmonella-lomalinda-infections-source-unknown) | 10 |
 | 2013 | US: CA | [Not identified](https://www.foodsafetynews.com/2013/11/7-sick-in-california-salmonella-outbreak/) | At least 7 |
 
@@ -50,4 +51,4 @@ There have been no recent recalls linked to this serovar.
 3. [https://www.microbiologyresearch.org/content/journal/jmm/10.1099/00222615-41-2-112](https://www.microbiologyresearch.org/content/journal/jmm/10.1099/00222615-41-2-112)
 4. [https://outbreakdatabase.com/outbreaks/2021-multistate-outbreak-of-salmonella-lomalinda-infections-source-unknown](https://outbreakdatabase.com/outbreaks/2021-multistate-outbreak-of-salmonella-lomalinda-infections-source-unknown)
 5. [https://www.foodsafetynews.com/2013/11/7-sick-in-california-salmonella-outbreak/](https://www.foodsafetynews.com/2013/11/7-sick-in-california-salmonella-outbreak/)
-
+6. [https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks](https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks)
