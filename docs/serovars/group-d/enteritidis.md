@@ -32,10 +32,11 @@ Numerous Enteritidis outbreaks have been reported and they are mainly associated
 | --- | --- | --- | --- |
 | 2025-2026 | US: multistate | [Eggs](https://www.foodsafetynews.com/2026/09/salmonella-outbreak-traced-to-eggs-declared-over-with-more-than-130-patients/) | 134 |
 | 2025-2026 | UK | [Imported eggs](https://www.foodsafetynews.com/2026/08/uk-reports-salmonella-outbreak-with-200-sick-and-one-dead/) | 207 |
+| 2025 | Mongolia | [Catering (multiple dishes)](https://pubmed.ncbi.nlm.nih.gov/42754236/) | 30<sup>1<sup> |
 | 2023-2025 | Netherlands | [Eggs](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.9.2500603) | 227 |
-| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/index.html) | 470<sup>1</sup> |
+| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/index.html) | 470<sup>2</sup> |
 | 2018 | US: multistate | [Eggs](https://archive.cdc.gov/www_cdc_gov/salmonella/enteritidis-09-18/index.html) | 44 |
-| 2016 | Europe: multi-country<sup>2</sup> | [Eggs](https://www.efsa.europa.eu/en/press/news/161027-0#:~:text=Seven%20countries%20have%20reported%20human,Norway%2C%20Sweden%20and%20the%20UK.) | 112<sup>3</sup> |
+| 2016 | Europe: multi-country<sup>3</sup> | [Eggs](https://www.efsa.europa.eu/en/press/news/161027-0#:~:text=Seven%20countries%20have%20reported%20human,Norway%2C%20Sweden%20and%20the%20UK.) | 112<sup>4</sup> |
 | 2012 | US: multistate | [Ground beef](https://archive.cdc.gov/www_cdc_gov/salmonella/enteritidis-07-12/index.html) | 46 |
 | 2012 | US: multistate | [Restaurant chain A](https://archive.cdc.gov/www_cdc_gov/salmonella/restaurant-enteriditis/index.html) | 68 |
 | 2011 | US: multistate | [Turkish pine nuts](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/pine-nuts-11-17-2011.html#:~:text=On%20November%209%2C%202011%2C%20FDA,packed%20in%2022%2Dpound%20boxes.) | 43 |
@@ -45,11 +46,13 @@ Numerous Enteritidis outbreaks have been reported and they are mainly associated
 | 2010 | US: multistate | [Shell - eggs](https://archive.cdc.gov/www_cdc_gov/salmonella/2010/shell-eggs-12-2-10.html#:~:text=Recall%20Information,voluntary%20recall%20of%20shell%20eggs.) | 1,939 |
 | 2010 | Austria | [Eggs](https://pubmed.ncbi.nlm.nih.gov/23164561/) | 66 |
 
-<sup>1</sup> Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Enteritidis.
+<sup>1<sup>30 confirmed, 68 probable
 
-<sup>2</sup>Belgium, Denmark, Luxembourg, the Netherlands, Norway, Sweden and the UK, and potentially Croatia
+<sup>2</sup> Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Enteritidis.
 
-<sup>3</sup>112 confirmed, 148 probable
+<sup>3</sup>Belgium, Denmark, Luxembourg, the Netherlands, Norway, Sweden and the UK, and potentially Croatia
+
+<sup>4</sup>112 confirmed, 148 probable
 
 ## Animal Outbreaks
 
@@ -119,3 +122,4 @@ There are numerous recalls linked to *Salmonella* Enteritidis. The majority of t
 36. [https://www.foodsafetynews.com/2026/09/salmonella-outbreak-traced-to-eggs-declared-over-with-more-than-130-patients/](https://www.foodsafetynews.com/2026/09/salmonella-outbreak-traced-to-eggs-declared-over-with-more-than-130-patients/)
 37. [https://pubmed.ncbi.nlm.nih.gov/42705724/](https://pubmed.ncbi.nlm.nih.gov/42705724/)
 38. [https://pubmed.ncbi.nlm.nih.gov/42708600/](https://pubmed.ncbi.nlm.nih.gov/42708600/)
+39. [https://pubmed.ncbi.nlm.nih.gov/42754236/](https://pubmed.ncbi.nlm.nih.gov/42754236/)
