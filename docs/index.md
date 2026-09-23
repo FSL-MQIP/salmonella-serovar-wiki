@@ -14,7 +14,7 @@ A curated web portal providing comprehensive, serovar-specific information on mo
 
     ---
 
-    Explore detailed profiles for 111 serovars organized by serogroup, covering genetics, outbreaks, reservoirs, and more.
+    Explore detailed profiles for 113 serovars organized by serogroup, covering genetics, outbreaks, reservoirs, and more.
 
     [:octicons-arrow-right-24: Serovar Database](serovars/index.md)
 
