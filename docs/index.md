@@ -6,7 +6,7 @@ hide:
 
 # Salmonella Serovar Wiki
 
-A curated web portal providing comprehensive, serovar-specific information on more than 110 *Salmonella* serovars — developed and maintained by the [Cornell Food Safety Laboratory](https://cals.cornell.edu/food-safety-laboratory).
+A curated web portal providing comprehensive, serovar-specific information on <!-- STATS:serovars_total --> *Salmonella* serovars — developed and maintained by the [Cornell Food Safety Laboratory](https://cals.cornell.edu/food-safety-laboratory).
 
 <div class="grid cards" markdown>
 
@@ -14,7 +14,7 @@ A curated web portal providing comprehensive, serovar-specific information on mo
 
     ---
 
-    Explore detailed profiles for 113 serovars organized by serogroup, covering genetics, outbreaks, reservoirs, and more.
+    Explore detailed profiles for <!-- STATS:serovars_total --> serovars organized by serogroup, covering genetics, outbreaks, reservoirs, and more.
 
     [:octicons-arrow-right-24: Serovar Database](serovars/index.md)
 

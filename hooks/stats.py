@@ -1,7 +1,8 @@
-"""MkDocs hook: compute dynamic homepage statistics from serovar markdown files.
+"""MkDocs hook: compute dynamic statistics from serovar markdown files.
 
 Registered in mkdocs.yml under the `hooks:` key.  The hook fires for every
-page; it only does real work when processing ``index.md`` (the homepage).
+page; it only does real work on the homepage (``index.md``) and the serovar
+database landing page (``serovars/index.md``).
 
 Stats are computed once per build and cached in ``_stats_cache``.
 """
@@ -9,6 +10,7 @@ Stats are computed once per build and cached in ``_stats_cache``.
 from __future__ import annotations
 
 import pathlib
+import re
 
 # ---------------------------------------------------------------------------
 # Module-level cache so the scan only runs once per build invocation.
@@ -43,6 +45,7 @@ def _compute_stats(docs_dir: pathlib.Path) -> dict:
     animal_outbreaks = 0
     border_rejections = 0
     recalls = 0
+    group_counts: dict[str, int] = {}
 
     for md_file in serovars_dir.rglob("*.md"):
         # Skip group/serogroup index pages — they are not individual serovar pages.
@@ -50,6 +53,8 @@ def _compute_stats(docs_dir: pathlib.Path) -> dict:
             continue
 
         total_serovars += 1
+        group = md_file.parent.name
+        group_counts[group] = group_counts.get(group, 0) + 1
 
         # Always read content — needed for bongori detection and table parsing.
         content = md_file.read_text(encoding="utf-8")
@@ -124,6 +129,7 @@ def _compute_stats(docs_dir: pathlib.Path) -> dict:
         "animal_outbreaks": animal_outbreaks,
         "border_rejections": border_rejections,
         "recalls": recalls,
+        "groups": group_counts,
     }
 
 
@@ -151,12 +157,17 @@ def _serovar_detail_string(stats: dict) -> str:
 # ---------------------------------------------------------------------------
 # MkDocs hook entry point
 # ---------------------------------------------------------------------------
+def _count_phrase(n: int) -> str:
+    """Return '1 serovar' or 'N serovars'."""
+    return f"{n} serovar" if n == 1 else f"{n} serovars"
+
+
 def on_page_markdown(markdown: str, *, page, config, files, **kwargs) -> str:
-    """Replace ``<!-- STATS:* -->`` placeholders in the homepage."""
+    """Replace ``<!-- STATS:* -->`` placeholders on the homepage and serovar index."""
     global _stats_cache
 
-    # Only act on the site homepage.
-    if page.file.src_path not in ("index.md",):
+    # Only act on pages that carry stats placeholders.
+    if page.file.src_path not in ("index.md", "serovars/index.md"):
         return markdown
 
     # Compute stats once per build.
@@ -174,6 +185,12 @@ def on_page_markdown(markdown: str, *, page, config, files, **kwargs) -> str:
 
     # --- Apply substitutions ---
     markdown = markdown.replace("<!-- STATS:serovars -->", serovars_str)
+    markdown = markdown.replace("<!-- STATS:serovars_total -->", str(stats["total"]))
+    markdown = re.sub(
+        r"<!-- STATS:group:([\w-]+) -->",
+        lambda m: _count_phrase(stats["groups"].get(m.group(1), 0)),
+        markdown,
+    )
     markdown = markdown.replace("<!-- STATS:outbreaks -->", outbreaks_str)
     markdown = markdown.replace("<!-- STATS:rejections -->", rejections_str)
     markdown = markdown.replace("<!-- STATS:recalls -->", recalls_str)
