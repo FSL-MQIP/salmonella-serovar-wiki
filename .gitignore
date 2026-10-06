@@ -10,6 +10,8 @@ __pycache__/
 # carries just what the published site needs.
 .claude/
 CLAUDE.md
+CONTEXT.md
+GLOSSARY.md
 .playwright-mcp/
 docs/agents/
 docs/adr/
