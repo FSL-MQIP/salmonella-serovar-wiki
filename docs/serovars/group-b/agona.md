@@ -57,6 +57,7 @@ Multiple recalls associated with serovar Agona have been reported. Here we selec
 
 | Year | Location | Recalled food | Type |
 | --- | --- | --- | --- |
+| 2026 | US: multistate | [Alfalfa sprouting seed](https://www.foodsafetynews.com/2026/09/sprouting-seeds-recalled-because-of-link-to-outbreak/) | Nuts, nut products and seeds |
 | 2017 | France | [Infant formula](https://www.who.int/emergencies/disease-outbreak-news/item/22-december-2017-salmonella-agona-infections-france-en)<sup>1</sup> | Ultra-processed food |
 | 1998 | US: multistate | [Toasted Oats Cereal](https://www.cdc.gov/mmwr/preview/mmwrhtml/00053368.htm#:~:text=Malt%2DO%2DMeal%20has%20issued,Center%20for%20Infectious%20Diseases%2C%20CDC.)<sup>2</sup> | Ready-to-Eat food |
 
@@ -88,3 +89,4 @@ Multiple recalls associated with serovar Agona have been reported. Here we selec
 20. [https://webgate.ec.europa.eu/rasff-window/screen/notification/559290](https://webgate.ec.europa.eu/rasff-window/screen/notification/559290)
 21. [https://www.who.int/emergencies/disease-outbreak-news/item/22-december-2017-salmonella-agona-infections-france-en](https://www.who.int/emergencies/disease-outbreak-news/item/22-december-2017-salmonella-agona-infections-france-en)
 22. [https://pubmed.ncbi.nlm.nih.gov/42737373/](https://pubmed.ncbi.nlm.nih.gov/42737373/)
+23. [https://www.foodsafetynews.com/2026/09/sprouting-seeds-recalled-because-of-link-to-outbreak/](https://www.foodsafetynews.com/2026/09/sprouting-seeds-recalled-because-of-link-to-outbreak/)
