@@ -53,10 +53,11 @@ Multiple border rejections were found. Here we reported one as example.
 
 ## Recalls
 
-Multiple recalls were reported. Here we selected one as example.
+Multiple recalls were reported. Here we selected two as examples.
 
 | Year | Location | Recalled product | Type |
 | --- | --- | --- | --- |
+| 2026 | US: multistate | [Broccoli sprouts](https://www.foodsafetynews.com/2026/09/idaho-company-recalls-sprouts-linked-to-salmonella-outbreak/) | Fruits and vegetables |
 | 2020 | France | [Dried pork sausages](https://www.foodsafetynews.com/2023/01/french-salmonella-outbreak-study-reveals-dual-contamination/)<sup>1</sup> | Ready-to-eat meat product |
 
 <sup>1</sup> This recall was caused by a Bovismorbificans outbreak infecting 33 people. Three recalls of dried pork products were addressed in November 2020, influencing eight supermarkets.
@@ -78,4 +79,4 @@ Multiple recalls were reported. Here we selected one as example.
 13. [https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6146a3.htm](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6146a3.htm)
 14. [https://pubmed.ncbi.nlm.nih.gov/21933168/](https://pubmed.ncbi.nlm.nih.gov/21933168/)
 15. [https://pubmed.ncbi.nlm.nih.gov/42453129/](https://pubmed.ncbi.nlm.nih.gov/42453129/)
-
+16. [https://www.foodsafetynews.com/2026/09/idaho-company-recalls-sprouts-linked-to-salmonella-outbreak/](https://www.foodsafetynews.com/2026/09/idaho-company-recalls-sprouts-linked-to-salmonella-outbreak/)
