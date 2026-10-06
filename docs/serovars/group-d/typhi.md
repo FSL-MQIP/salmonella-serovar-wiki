@@ -20,6 +20,8 @@ Serovar Typhi has been found to be [monophyletic](https://www.frontiersin.org/jo
 
 [Recent studies](https://link.springer.com/chapter/10.1007/978-3-319-32189-9_17) reveal that the Rab GTPase Rab32 and its guanine nucleotide exchange factor BLOC-3 form a conserved pathway that both restricts *Salmonella* Typhi to human hosts and mediates its killing in macrophages of non-susceptible species. These proteins, previously recognized for their role in intracellular membrane trafficking—particularly in melanin synthesis through enzyme transport to melanosomes—are now identified as central players in innate immunity against typhoidal *Salmonella*. Following intestinal invasion, serovar Typhi effectively evades host defenses through [multiple mechanisms](https://academic.oup.com/femsre/article/45/5/fuab014/6159486): it avoids TLR4 recognition, escapes the classical complement pathway, and resists oxidative killing—primarily through production of its protective Vi capsular polysaccharide. More specifically, the [TviA](https://www.nature.com/articles/s41572-023-00480-z) regulatory protein orchestrates key virulence strategies through its dual regulatory function: (1) suppressing flagellin-induced inflammatory responses and (2) activating expression of the immunoevasive Vi capsular polysaccharide. These virulence factors are encoded within SPI-7, which harbors the *viaB* locus (Vi capsule genes) along with additional pathogenicity determinants including type III secretion system, SopE and a type IVB pilus assembly system.
 
+A [genotype 2.3.1, ciprofloxacin-resistant, MDR serovar Typhi strain](https://pubmed.ncbi.nlm.nih.gov/42811482/) has been increasingly detected since 2021 in travelers returning from West Africa. It was also found that this strain has acquired two different MDR plasmids over ~ 25 years, integrated the IncHI1 plasmid MDR region into its chromosome, and then acquired a *gyrA* mutation.
+
 ## Animal Reservoir
 
 *Salmonella* Typhi is a [human-restricted](https://academic.oup.com/femsre/article/45/5/fuab014/6159486) serovar.
@@ -95,3 +97,4 @@ There have been no recent border rejections linked to this serovar.
 28. [https://ajph.aphapublications.org/doi/10.2105/AJPH.2023.307434](https://ajph.aphapublications.org/doi/10.2105/AJPH.2023.307434)
 29. [https://pmc.ncbi.nlm.nih.gov/articles/PMC3959940/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3959940/)
 30. [https://pubmed.ncbi.nlm.nih.gov/42703513/](https://pubmed.ncbi.nlm.nih.gov/42703513/)
+31. [https://pubmed.ncbi.nlm.nih.gov/42811482/](https://pubmed.ncbi.nlm.nih.gov/42811482/)

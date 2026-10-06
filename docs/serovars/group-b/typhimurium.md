@@ -36,9 +36,10 @@ Numerous outbreaks have been associated with *S.* Typhimurium. Human outbreaks h
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
+| 2025-2026 | US: multistate | [Moringa leaf powder dietary supplements](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026)<sup>1</sup> | 131|
 | 2024-2025 | US: multistate | [Cucumbers](https://www.cdc.gov/salmonella/outbreaks/cucumbers-11-24/index.html) | 113 |
 | 2024 | Portugal | [Fresh cheese](https://pubmed.ncbi.nlm.nih.gov/42071313/) | 58 |
-| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html#:~:text=As%20of%20June%2020%2C%202024,No%20deaths%20have%20been%20reported.)<sup>1</sup> | 470 |
+| 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/investigation.html#:~:text=As%20of%20June%2020%2C%202024,No%20deaths%20have%20been%20reported.)<sup>2</sup> | 470 |
 | 2023-2025 | Europe: multi-country | [Alfalfa sprouts](https://www.food-safety.com/articles/10195-salmonella-outbreak-linked-to-sprouts-sickened-509-people-over-two-years-in-ten-european-countries) | 509 |
 | 2018 | US: multistate | [Chicken salad](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-02-18/index.html) | 265 |
 | 2018 | US: multistate | [Dried coconut](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-03-18/index.html) | 14 |
@@ -46,7 +47,7 @@ Numerous outbreaks have been associated with *S.* Typhimurium. Human outbreaks h
 | 2013 | US: multistate | [Ground beef](https://marlerclark.com/macomb-county-salmonella-outbreak-traced-to-ground-beef#:~:text=At%20least%2022%20people%20from,for%20Disease%20Control%20and%20Prevention.) | At least 22 |
 | 2012 | Canada | [Ground beef](https://www.cbc.ca/news/canada/ottawa/salmonella-found-in-ottawa-caterer-s-ground-beef-1.1150870#:~:text=Social%20Sharing,week%20while%20the%20investigation%20continues.) | 50 |
 | 2012 | US: multistate | [Pet hedgehogs](<https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-hedgehogs-09-12/index.html#:~:text=of%20this%20outbreak.-,A%20total%20of%2026%20persons%20infected%20with%20the%20outbreak%20strain,%2C%20and%20Washington%20(7).>) | 26 |
-| 2012 | US: multistate | [Cantaloupe](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-cantaloupe-08-12/index.html#:~:text=illness%20is%20reported.-,Recall,although%20further%20shipment%20was%20likely.)<sup>2</sup> | 261 |
+| 2012 | US: multistate | [Cantaloupe](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-cantaloupe-08-12/index.html#:~:text=illness%20is%20reported.-,Recall,although%20further%20shipment%20was%20likely.)<sup>3</sup> | 261 |
 | 2011 | US: multistate | [Ground beef](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/ground-beef-2-1-2012.html#:~:text=The%20outbreak%20strain%20of%20Salmonella,Salmonella%20Infection%20for%20more%20details.) | 20 |
 | 2011 | US: multistate | [African dwarf frogs](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/water-frog-7-20-2011.html) | 241 |
 | 2011 | England | [Hog roast](https://www.liebertpub.com/doi/10.1089/fpd.2013.1513#:~:text=Between%20July%20and%20September%202011,two%20discrete%20but%20linked%20outbreaks.) | 24 |
@@ -54,9 +55,10 @@ Numerous outbreaks have been associated with *S.* Typhimurium. Human outbreaks h
 | 2009 | England | [Unknown](https://outbreakdatabase.com/outbreaks/canterbury-england-unknown-2009) | 14 |
 | 2008-2009 | US: multistate | [Peanut butter](https://archive.cdc.gov/www_cdc_gov/salmonella/2009/peanut-butter-2008-2009.html) | 714 |
 
-<sup>1</sup> Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Typhimurium.
+<sup>1</sup> The total of 131 cases includes cases caused by serovars *Salmonella* Newport, Richmond, and Typhimurium
+<sup>2</sup> Multiple serovars, including *Salmonella* Altona, Cerro, Enteritidis, Indiana, Infantis, Johannesburg, Mbandaka, and Typhimurium, were linked to this outbreak. The case number represents the total number of cases associated with the outbreak and does not specifically indicate the number of people infected by *Salmonella* Typhimurium.
 
-<sup>2</sup> A total of 228 *Salmonella* Typhimurium and 33 *Salmonella* Newport infections were reported in 24 states.
+<sup>3</sup> A total of 228 *Salmonella* Typhimurium and 33 *Salmonella* Newport infections were reported in 24 states.
 
 ## Animal Outbreaks
 
@@ -151,3 +153,4 @@ Multiple recalls linked to *Salmonella* Typhimurium have been reported. They are
 48. [https://pubmed.ncbi.nlm.nih.gov/42071313/](https://pubmed.ncbi.nlm.nih.gov/42071313/)
 49. [https://pubmed.ncbi.nlm.nih.gov/42727819/](https://pubmed.ncbi.nlm.nih.gov/42727819/)
 50. [https://pubmed.ncbi.nlm.nih.gov/42755736/](https://pubmed.ncbi.nlm.nih.gov/42755736/)
+51. [https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026)

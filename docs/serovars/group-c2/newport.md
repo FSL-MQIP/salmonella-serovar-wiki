@@ -32,50 +32,53 @@ Multiple human outbreaks linked to serovar Newport have been reported with the m
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
+| 2025-2026 | US: multistate | [Moringa leaf powder dietary supplements](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026)<sup>1</sup> | 131|
 | 2026 | US: multistate | [Cantaloupe](https://outbreakdatabase.com/outbreaks/2026-multistate-outbreak-of-salmonella-newport-infections-associated-with-cantaloupe)| 70 |
-| 2022 | US: multistate | [Beef (suspected)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10651324/#:~:text=Outbreak%20Investigations&text=A%20second%20multistate%20outbreak%20that,ground%20beef%20from%20a%20patient.)<sup>1</sup> | 22 |
-| 2021 | US: multistate | [Infant formula](https://dpbh.nv.gov/uploadedFiles/dpbhnvgov/content/Resources/Update%20TB_FDA%20Recall%20on%20Infant%20Formula%20030122.pdf)<sup>2</sup> | 4 |
-| 2021 | US: multistate | [Beef (suspected)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10651324/#:~:text=Outbreak%20Investigations&text=A%20second%20multistate%20outbreak%20that,ground%20beef%20from%20a%20patient.)<sup>3</sup> | 75 |
-| 2020 | US: multistate & Canada | [Red onions](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-newport-red-onions-july-2020)<sup>4</sup> | 1,642 |
+| 2022 | US: multistate | [Beef (suspected)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10651324/#:~:text=Outbreak%20Investigations&text=A%20second%20multistate%20outbreak%20that,ground%20beef%20from%20a%20patient.)<sup>2</sup> | 22 |
+| 2021 | US: multistate | [Infant formula](https://dpbh.nv.gov/uploadedFiles/dpbhnvgov/content/Resources/Update%20TB_FDA%20Recall%20on%20Infant%20Formula%20030122.pdf)<sup>3</sup> | 4 |
+| 2021 | US: multistate | [Beef (suspected)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10651324/#:~:text=Outbreak%20Investigations&text=A%20second%20multistate%20outbreak%20that,ground%20beef%20from%20a%20patient.)<sup>4</sup> | 75 |
+| 2020 | US: multistate & Canada | [Red onions](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-newport-red-onions-july-2020)<sup>5</sup> | 1,642 |
 | 2020 | France | [Raw or rare horse meat](https://www.foodsafetynews.com/2020/10/salmonella-in-horse-meat-linked-to-two-deaths-in-france/) | 20 |
 | 2019 | US: multistate | [Frozen, ground tuna](https://archive.cdc.gov/www_cdc_gov/salmonella/newport-04-19/index.html) | 15 |
-| 2019 | US: multistate | [Pig ear treats for dogs](https://www.fda.gov/animal-veterinary/outbreaks-and-advisories/fda-investigates-contaminated-pig-ear-pet-treats-connected-human-salmonella-infections)<sup>5</sup> | 154 |
+| 2019 | US: multistate | [Pig ear treats for dogs](https://www.fda.gov/animal-veterinary/outbreaks-and-advisories/fda-investigates-contaminated-pig-ear-pet-treats-connected-human-salmonella-infections)<sup>6</sup> | 154 |
 | 2019 | Sweden | [Frozen crayfish from China](https://pmc.ncbi.nlm.nih.gov/articles/PMC9164673/#:~:text=In%20autumn%202019%2C%20the%20Public,source%20and%20prevent%20further%20cases.) | 33 |
 | 2018-2019 | US: multistate | [Ground beef](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/newport-10-18/index.html) | 403 |
 | 2018 | US: KS | [Tomatoes](https://www.kdhe.ks.gov/ArchiveCenter/ViewFile/Item/2781) | 10 (confirmed) and 55 (probable) |
-| 2018 | US: multistate | [Frozen shredded coconut](https://archive.cdc.gov/www_cdc_gov/salmonella/coconut-01-18/index.html)<sup>6</sup> | 27 |
-| 2018 | France & Scotland | [Raw goats' milk cheese](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/outbreak-of-salmonella-newport-associated-with-internationally-distributed-raw-goats-milk-cheese-france-2018/528E4E70FB25CDBB293627227740E39D)<sup>7</sup> | 153 |
-| 2017 | US: multistate | [Maradol papayas](https://outbreakdatabase.com/outbreaks/2017-multistate-outbreak-of-salmonella-newport-and-salmonella-infantis-linked-to-maradol-papayas)<sup>8</sup> | 4 |
+| 2018 | US: multistate | [Frozen shredded coconut](https://archive.cdc.gov/www_cdc_gov/salmonella/coconut-01-18/index.html)<sup>7</sup> | 27 |
+| 2018 | France & Scotland | [Raw goats' milk cheese](https://www.cambridge.org/core/journals/epidemiology-and-infection/article/outbreak-of-salmonella-newport-associated-with-internationally-distributed-raw-goats-milk-cheese-france-2018/528E4E70FB25CDBB293627227740E39D)<sup>8</sup> | 153 |
+| 2017 | US: multistate | [Maradol papayas](https://outbreakdatabase.com/outbreaks/2017-multistate-outbreak-of-salmonella-newport-and-salmonella-infantis-linked-to-maradol-papayas)<sup>9</sup> | 4 |
 | 2016-2017 | US: multistate | [Ground beef](https://www.fsis.usda.gov/sites/default/files/media_file/documents/Newport_AAR_2022072722_cln.pdf) | 106 |
 | 2014 | US: multistate | [Cucumber](<https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6406a3.htm#:~:text=In%20August%202014%2C%20PulseNet%2C%20the,pattern%20(XbaI%20PFGE%20pattern%20JJPX01>) | 275 |
-| 2012 | US: multistate | [Cantaloupe](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-cantaloupe-08-12/index.html)<sup>9</sup> | 261 |
+| 2012 | US: multistate | [Cantaloupe](https://archive.cdc.gov/www_cdc_gov/salmonella/typhimurium-cantaloupe-08-12/index.html)<sup>10</sup> | 261 |
 | 2006 | US: NY | [Watermelon](https://outbreakdatabase.com/outbreaks/2006-outbreak-of-salmonella-newport-at-a-restaurant-linked-to-watermelon-new-york) | 20 |
-| 2005-2006 | US: multistate | [Raw tomatoes](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5635a3.htm)<sup>10</sup> | 459 |
+| 2005-2006 | US: multistate | [Raw tomatoes](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5635a3.htm)<sup>11</sup> | 459 |
 | 2004 | US | [Lettuce](https://www.cidrap.umn.edu/foodborne-disease/uk-salmonella-outbreak-linked-lettuce) | 368 |
 | 2002 | US: multistate | [Tomatoes](https://pmc.ncbi.nlm.nih.gov/articles/PMC2870807/#:~:text=Salmonella%20Newport%20causes%20more%20than,510%20patients%20in%2026%20states) | 510 |
 | 2002 | US: multistate | [Raw or undercooked ground beef](https://pubmed.ncbi.nlm.nih.gov/12118534/) | 47 |
 | 1999 | US | [Mango](https://pubmed.ncbi.nlm.nih.gov/14689335/) | 78 |
 | 1995-1996 | US, Canada, other international | [Alfalfa sprouts](https://outbreakdatabase.com/outbreaks/1995-outbreak-of-salmonella-newport-associated-with-alfalfa-sprouts) | 202 |
 
-<sup>1</sup> A REP strain (REPJJP01) was identified as the outbreak strain.
+<sup>1</sup> The total of 131 cases includes cases caused by serovars *Salmonella* Newport, Richmond, and Typhimurium.
 
-<sup>2</sup> A total of four cases were reported [*Cronobacter sakazakii* (3) and *Salmonella* Newport (1)].
+<sup>2</sup> A REP strain (REPJJP01) was identified as the outbreak strain.
 
-<sup>3</sup> A REP strain (REPJJP01) was identified as the outbreak strain.
+<sup>3</sup> A total of four cases were reported [*Cronobacter sakazakii* (3) and *Salmonella* Newport (1)].
 
-<sup>4</sup> US reported 1,127 cases, while Canada reported [515 cases](https://pmc.ncbi.nlm.nih.gov/articles/PMC11450499/#:~:text=In%20July%202020%2C%20a%20Salmonella,2020%20to%2029%20August%202020.).
+<sup>4</sup> A REP strain (REPJJP01) was identified as the outbreak strain.
 
-<sup>5</sup> *Salmonella* I 4,[5],12:​i:-, Cerro, Derby, Infantis, London, Newport, and Rissen were involved in this outbreak. The case number (i.e., 154) is not specific to *Salmonella* Newport infections.
+<sup>5</sup> US reported 1,127 cases, while Canada reported [515 cases](https://pmc.ncbi.nlm.nih.gov/articles/PMC11450499/#:~:text=In%20July%202020%2C%20a%20Salmonella,2020%20to%2029%20August%202020.).
 
-<sup>6</sup> The infections included *Salmonella* I 4,[5],12:​b:- (26 cases) and *Salmonella* Newport (1 case).
+<sup>6</sup> *Salmonella* I 4,[5],12:​i:-, Cerro, Derby, Infantis, London, Newport, and Rissen were involved in this outbreak. The case number (i.e., 154) is not specific to *Salmonella* Newport infections.
 
-<sup>7</sup> France reported 147 cases, while Scotland reported 6 cases.
+<sup>7</sup> The infections included *Salmonella* I 4,[5],12:​b:- (26 cases) and *Salmonella* Newport (1 case).
 
-<sup>8</sup> The infections included *Salmonella* Newport (3 cases) and *Salmonella* Infantis (1 case).
+<sup>8</sup> France reported 147 cases, while Scotland reported 6 cases.
 
-<sup>9</sup> The infections included *Salmonella* Typhimurium (228 cases) and *Salmonella* Newport (33 cases).
+<sup>9</sup> The infections included *Salmonella* Newport (3 cases) and *Salmonella* Infantis (1 case).
 
-<sup>10</sup> The infections included *Salmonella* Newport (197 cases), Typhimurium (190 cases), and Braenderup (72 cases).
+<sup>10</sup> The infections included *Salmonella* Typhimurium (228 cases) and *Salmonella* Newport (33 cases).
+
+<sup>11</sup> The infections included *Salmonella* Newport (197 cases), Typhimurium (190 cases), and Braenderup (72 cases).
 
 ## Animal Outbreaks
 
@@ -176,3 +179,4 @@ Multiple recalls linked to this serovar have been reported and they are associat
 48. [https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-extensively-drug-resistant-salmonella-moringa-powder-february-2026](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-extensively-drug-resistant-salmonella-moringa-powder-february-2026)
 49. [https://outbreakdatabase.com/outbreaks/2026-multistate-outbreak-of-salmonella-newport-infections-associated-with-cantaloupe](https://outbreakdatabase.com/outbreaks/2026-multistate-outbreak-of-salmonella-newport-infections-associated-with-cantaloupe)
 50. [https://pubmed.ncbi.nlm.nih.gov/42683014/](https://pubmed.ncbi.nlm.nih.gov/42683014/)
+51. [https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026)

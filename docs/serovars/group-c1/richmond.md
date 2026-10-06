@@ -30,8 +30,11 @@ Outbreaks have been associated with *S*. Richmond.
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
+| 2025-2026 | US: multistate | [Moringa leaf powder dietary supplements](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026)<sup>1</sup> | 131|
 | [1993](https://pubmed.ncbi.nlm.nih.gov/9542446/) | Spain | Water from an aqueduct that flowed near the camp | 45<sup>2</sup> |
 | [2025](https://www.cdc.gov/salmonella/outbreaks/supplement-10-25/investigation.html) | United States | Moringa leaf powder | 11<sup>9</sup> |
+
+<sup>1</sup> The total of 131 cases includes cases caused by serovars *Salmonella* Newport, Richmond, and Typhimurium
 
 ## Animal Outbreaks
 
@@ -60,4 +63,4 @@ There have been no recent animal outbreaks linked to this serovar.
 7. [https://doi.org/10.3390/ani11061529](https://doi.org/10.3390/ani11061529)
 8. [https://doi.org/10.1128/mra.01472-18](https://doi.org/10.1128/mra.01472-18)
 9. [https://www.cdc.gov/salmonella/outbreaks/supplement-10-25/investigation.html](https://www.cdc.gov/salmonella/outbreaks/supplement-10-25/investigation.html)
-
+10. [https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026)

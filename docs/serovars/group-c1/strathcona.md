@@ -28,6 +28,7 @@ Serovar Strathcona has been mainly reported in [European countries, such as Denm
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
+| 2025-2026 | Germany | [Tomatoes from Italy](https://www.foodsafetynews.com/2026/09/salmonella-outbreak-linked-to-italian-tomatoes-again/) | 116 |
 | 2023-2024 | Europe: multi-country | [Tomatoes](https://www.ecdc.europa.eu/en/publications-data/rapid-outbreak-assessment-prolonged-multi-country-outbreak-salmonella-strathcona) | 232<sup>1</sup> |
 | 2011 | Europe: multi-country | [Datterino tomatoes](<https://pubmed.ncbi.nlm.nih.gov/26846608/#:~:text=The%20results%20of%20the%20investigation,2%C2%B76%2D302).>) | 71<sup>2</sup> |
 
@@ -58,4 +59,4 @@ There have been no recent recalls linked to this serovar.
 7. [https://www.ecdc.europa.eu/sites/default/files/documents/ECDC-EFSA-joint-FWD-AMR.pdf](https://www.ecdc.europa.eu/sites/default/files/documents/ECDC-EFSA-joint-FWD-AMR.pdf)
 8. [https://efsa.onlinelibrary.wiley.com/doi/10.2903/sp.efsa.2024.EN-9107?mi=3e59oqw&af=R&SeriesKey=23978325&content=articlesChapters&sortBy=Earliest&target=default](https://efsa.onlinelibrary.wiley.com/doi/10.2903/sp.efsa.2024.EN-9107?mi=3e59oqw&af=R&SeriesKey=23978325&content=articlesChapters&sortBy=Earliest&target=default)
 9. [https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2025.30.41.2500224](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2025.30.41.2500224)
-
+10. [https://www.foodsafetynews.com/2026/09/salmonella-outbreak-linked-to-italian-tomatoes-again/](https://www.foodsafetynews.com/2026/09/salmonella-outbreak-linked-to-italian-tomatoes-again/)
