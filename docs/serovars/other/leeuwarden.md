@@ -18,7 +18,7 @@ Serovar Leeuwarden is considered rare, and there is no known literature that has
 
 ## Animal Reservoir
 
-No animal reservoirs have been identified for serovar Leeuwarden.
+No specific animal reservoirs have been identified for serovar Leeuwarden, however, serovar Leeuwarden was among 30 rare serovars isolated from [poultry flocks](https://pubmed.ncbi.nlm.nih.gov/42858562/).
 
 ## Geographical Distribution
 
@@ -47,4 +47,4 @@ There have been no recent recalls linked to this serovar.
 3. [https://pmc.ncbi.nlm.nih.gov/articles/PMC6907862/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6907862/)
 4. [https://atlas.ecdc.europa.eu/public/index.aspx](https://atlas.ecdc.europa.eu/public/index.aspx)
 5. [https://webgate.ec.europa.eu/rasff-window/screen/notification/451481](https://webgate.ec.europa.eu/rasff-window/screen/notification/451481)
-
+6. [https://pubmed.ncbi.nlm.nih.gov/42858562/](https://pubmed.ncbi.nlm.nih.gov/42858562/)
