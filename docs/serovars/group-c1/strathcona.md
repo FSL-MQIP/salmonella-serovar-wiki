@@ -14,7 +14,7 @@
 
 ## Genetic Characteristics
 
-According to the [EU One Health Zoonoses Report](https://www.ecdc.europa.eu/sites/default/files/documents/ECDC-EFSA-joint-FWD-AMR.pdf), in 2019, out of 22 Strathcona isolates, only one exhibited high-level resistance to ciprofloxacin, with a minimum inhibitory concentration (MIC) ≥ 4 mg/L. Strathcona sequence type (ST) 2559 has been linked to a [prolonged multi-country outbreak](https://efsa.onlinelibrary.wiley.com/doi/10.2903/sp.efsa.2024.EN-9107?mi=3e59oqw&af=R&SeriesKey=23978325&content=articlesChapters&sortBy=Earliest&target=default) associated with the consumption of tomatoes in the European Union, European Economic Area, and the UK.
+According to the [EU One Health Zoonoses Report](https://www.ecdc.europa.eu/sites/default/files/documents/ECDC-EFSA-joint-FWD-AMR.pdf), in 2019, out of 22 Strathcona isolates, only one exhibited high-level resistance to ciprofloxacin, with a minimum inhibitory concentration (MIC) ≥ 4 mg/L. Strathcona sequence type (ST) 2559 has been linked to a [prolonged multi-country outbreak](https://efsa.onlinelibrary.wiley.com/doi/10.2903/sp.efsa.2024.EN-9107?mi=3e59oqw&af=R&SeriesKey=23978325&content=articlesChapters&sortBy=Earliest&target=default) associated with the consumption of tomatoes in the European Union, European Economic Area, and the UK. In Italy, [six lactose-fermenting *S.* Strathcona clinical isolates](https://pubmed.ncbi.nlm.nih.gov/42838473/) were found to carry a lac operon (intact *lacI-lacZ-lacY* and a truncated *lacA*) on an IncHI2/IncHI2A plasmid. This carries the risk of misidentification by lactose-based phenotypic methods, as this is the first report of lactose-fermenting Strathcona.
 
 ## Animal Reservoir
 
@@ -60,3 +60,4 @@ There have been no recent recalls linked to this serovar.
 8. [https://efsa.onlinelibrary.wiley.com/doi/10.2903/sp.efsa.2024.EN-9107?mi=3e59oqw&af=R&SeriesKey=23978325&content=articlesChapters&sortBy=Earliest&target=default](https://efsa.onlinelibrary.wiley.com/doi/10.2903/sp.efsa.2024.EN-9107?mi=3e59oqw&af=R&SeriesKey=23978325&content=articlesChapters&sortBy=Earliest&target=default)
 9. [https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2025.30.41.2500224](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2025.30.41.2500224)
 10. [https://www.foodsafetynews.com/2026/09/salmonella-outbreak-linked-to-italian-tomatoes-again/](https://www.foodsafetynews.com/2026/09/salmonella-outbreak-linked-to-italian-tomatoes-again/)
+11. [https://pubmed.ncbi.nlm.nih.gov/42838473/](https://pubmed.ncbi.nlm.nih.gov/42838473/)
