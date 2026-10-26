@@ -43,11 +43,14 @@ There have been no recent border rejections linked to this serovar.
 
 ## Recalls
 
-There have been no recent recalls linked to this serovar.
+| Year | Location | Recalled food | Type |
+| --- | --- | --- | --- |
+| 2026 | US: multistate | [Oysters](https://www.foodsafetynews.com/2026/10/more-than-2-dozen-patients-identified-in-outbreak-linked-to-oysters/) | Bivalve molluscs and products thereof |
 
 ## References
 
-1. https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.704152/full
-2. https://www.sciencedirect.com/science/article/pii/S0163445399902487?via%3Dihub
-3. https://journals.asm.org/doi/10.1128/jcm.40.12.4802-4803.2002
-4. https://www.cdc.gov/salmonella/outbreaks/oysters-12-25/index.html
+1. [https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.704152/full]( https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.704152/full)
+2. [https://www.sciencedirect.com/science/article/pii/S0163445399902487?via%3Dihub](https://www.sciencedirect.com/science/article/pii/S0163445399902487?via%3Dihub)
+3. [https://journals.asm.org/doi/10.1128/jcm.40.12.4802-4803.2002](https://journals.asm.org/doi/10.1128/jcm.40.12.4802-4803.2002)
+4. [https://www.cdc.gov/salmonella/outbreaks/oysters-12-25/index.html](https://www.cdc.gov/salmonella/outbreaks/oysters-12-25/index.html)
+5. [https://www.foodsafetynews.com/2026/10/more-than-2-dozen-patients-identified-in-outbreak-linked-to-oysters/](https://www.foodsafetynews.com/2026/10/more-than-2-dozen-patients-identified-in-outbreak-linked-to-oysters/)

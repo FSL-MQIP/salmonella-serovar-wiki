@@ -28,6 +28,7 @@ Serovar Blockley has been reported [worldwide](<https://www.ncbi.nlm.nih.gov/pat
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
+| 2024 | Europe and US: multi-country | [Tomatoes](https://pubmed.ncbi.nlm.nih.gov/42852521/) | 216 |
 | 2019 | US: NY | [Chicken](https://www.cdc.gov/mmwr/volumes/69/wr/mm6926a2.htm) | 10 |
 | 1998 | Germany | [Smoked eel](https://pmc.ncbi.nlm.nih.gov/articles/PMC2869563/) | 13 |
 | 1998 | Greece | [Unknown](https://wwwnc.cdc.gov/eid/article/6/1/00-0111_article) | 35 |
@@ -56,4 +57,4 @@ There have been no recent recalls linked to this serovar.
 7. [https://pmc.ncbi.nlm.nih.gov/articles/PMC2869563/](https://pmc.ncbi.nlm.nih.gov/articles/PMC2869563/)
 8. [https://wwwnc.cdc.gov/eid/article/6/1/00-0111_article](https://wwwnc.cdc.gov/eid/article/6/1/00-0111_article)
 9. [https://jamanetwork.com/journals/jama/article-abstract/336687](https://jamanetwork.com/journals/jama/article-abstract/336687)
-
+10. [https://pubmed.ncbi.nlm.nih.gov/42852521/](https://pubmed.ncbi.nlm.nih.gov/42852521/)

@@ -14,7 +14,7 @@
 
 ## Genetic Characteristics
 
-Through investigating the ongoing Umbilo outbreak which was described below, [Rosner et al.](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2024.29.46.2400728) found that clinical isolates from Denmark, Germany, and Austria were genetically similar, with a maximum pairwise distance of 4 allelic difference (AD) and a maximum distance of 2 AD from the reference sequence. Umbilo isolates that had a difference of more than 5 AD from the reference strain of the outbreak were not associated with the outbreak.
+Through investigating the ongoing Umbilo outbreak which was described below, [Rosner et al.](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2024.29.46.2400728) found that clinical isolates from Denmark, Germany, and Austria were genetically similar, with a maximum pairwise distance of 4 allelic difference (AD) and a maximum distance of 2 AD from the reference sequence. Umbilo isolates that had a difference of more than 5 AD from the reference strain of the outbreak were not associated with the outbreak. Whole-genome sequencing of a [multidrug-resistant, biofilm-forming serovar Umbilo isolate from poultry](https://pubmed.ncbi.nlm.nih.gov/42858562/)(ST2014) identified an IncHI2A plasmid, 12 antimicrobial resistance genes (beta-lactams, aminoglycosides, phenicols, and lincosamides), and 181 virulence-associated genes.
 
 ## Animal Reservoir
 

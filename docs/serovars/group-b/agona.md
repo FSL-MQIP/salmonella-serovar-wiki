@@ -30,6 +30,7 @@ Numerous outbreaks linked to *Salmonella* Agona have been associated with a vari
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
+| 2022-2024 | Germany | [Döner kebab](https://pubmed.ncbi.nlm.nih.gov/42849566/) | 60 |
 | 2022 | Europe: multi-country | [Cucumbers](https://www.foodsafetynews.com/2022/12/cucumbers-linked-to-multi-country-salmonella-outbreak/) | 72 |
 | 2011 | US: multistate | [Imported Papayas from Mexico](https://archive.cdc.gov/www_cdc_gov/salmonella/2011/papayas-8-29-2011.html) | 106 |
 | 2008 | US: multistate | [Rice & Wheat Puff Cereal](https://archive.cdc.gov/www_cdc_gov/salmonella/2008/rice-wheat-puff-cereal-5-13-2008.html) | 28 |
@@ -90,3 +91,4 @@ Multiple recalls associated with serovar Agona have been reported. Here we selec
 21. [https://www.who.int/emergencies/disease-outbreak-news/item/22-december-2017-salmonella-agona-infections-france-en](https://www.who.int/emergencies/disease-outbreak-news/item/22-december-2017-salmonella-agona-infections-france-en)
 22. [https://pubmed.ncbi.nlm.nih.gov/42737373/](https://pubmed.ncbi.nlm.nih.gov/42737373/)
 23. [https://www.foodsafetynews.com/2026/09/sprouting-seeds-recalled-because-of-link-to-outbreak/](https://www.foodsafetynews.com/2026/09/sprouting-seeds-recalled-because-of-link-to-outbreak/)
+24. [https://pubmed.ncbi.nlm.nih.gov/42849566/](https://pubmed.ncbi.nlm.nih.gov/42849566/)
