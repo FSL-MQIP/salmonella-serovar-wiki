@@ -90,3 +90,4 @@ There have been no recent border rejections linked to this serovar.
 19. [https://archive.cdc.gov/www_cdc_gov/salmonella/kiambu-07-17/advice.html](https://archive.cdc.gov/www_cdc_gov/salmonella/kiambu-07-17/advice.html)
 20. [https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2026.1755701/full](https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2026.1755701/full)
 21. [https://pubmed.ncbi.nlm.nih.gov/42701444/](https://pubmed.ncbi.nlm.nih.gov/42701444/)
+22. [https://pubmed.ncbi.nlm.nih.gov/42943468/](https://pubmed.ncbi.nlm.nih.gov/42943468/)
