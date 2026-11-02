@@ -14,7 +14,7 @@
 
 ## Genetic Characteristics
 
-Studies have found that isolates from biovar Gallinarum can be multidrug-resistant. More specifically, antibiogram analysis revealed that biovar Gallinarum in the U.S. exhibited high prevalence of resistance to [cephradine, trimethoprim-sulfamethoxazole, amoxicillin, streptomycin, and ampicillin](https://www.microbiologyresearch.org/content/journal/acmi/10.1099/acmi.0.000775.v6). Farahani et al. found that the antibiotic resistance rates among 60 biovar Gallinarum isolates in Iran were as follows: [penicillin (100%), nitrofurantoin (80%), nalidixic acid (45%), cefoxitin (35%), neomycin sulfate (30%), chloramphenicol (20%), and ciprofloxacin (5%)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10628085/#:~:text=This%20study%20showed%20a%20positive,gallinarum%20biovars%20are%20multidrug%2Dresistant.).
+Studies have found that isolates from biovar Gallinarum can be multidrug-resistant. More specifically, antibiogram analysis revealed that biovar Gallinarum in the U.S. exhibited high prevalence of resistance to [cephradine, trimethoprim-sulfamethoxazole, amoxicillin, streptomycin, and ampicillin](https://www.microbiologyresearch.org/content/journal/acmi/10.1099/acmi.0.000775.v6). Farahani et al. found that the antibiotic resistance rates among 60 biovar Gallinarum isolates in Iran were as follows: [penicillin (100%), nitrofurantoin (80%), nalidixic acid (45%), cefoxitin (35%), neomycin sulfate (30%), chloramphenicol (20%), and ciprofloxacin (5%)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10628085/#:~:text=This%20study%20showed%20a%20positive,gallinarum%20biovars%20are%20multidrug%2Dresistant.). [In a study of 136 biovar Gallinarum isolates] (https://pubmed.ncbi.nlm.nih.gov/42944183/)  from chickens in South Korea collected between 2002–2026, 93.4%, 83.1%, and 71.3% of isolates were resistant to nalidixic acid, streptomycin, and ciprofloxacin, respectively. While nalidixic acid declined after 2010, overall, 52.2% of isolates were multidrug resistant.
 
 ## Animal Reservoir
 
@@ -62,4 +62,4 @@ There have been no recent recalls linked to this biovar.
 11. [https://www.nature.com/articles/s41597-022-01605-x](https://www.nature.com/articles/s41597-022-01605-x)
 12. [https://www.jstor.org/stable/1592212?seq=3](https://www.jstor.org/stable/1592212?seq=3)
 13. [https://bioone.org/journals/avian-diseases/volume-58/issue-3/10796-021114-Case.1/Fowl-Typhoid-Salmonella-Gallinarum-Outbreak-in-Japanese-Quail-Coturnix-coturnix/10.1637/10796-021114-Case.1.full](https://bioone.org/journals/avian-diseases/volume-58/issue-3/10796-021114-Case.1/Fowl-Typhoid-Salmonella-Gallinarum-Outbreak-in-Japanese-Quail-Coturnix-coturnix/10.1637/10796-021114-Case.1.full)
-
+14. [https://pubmed.ncbi.nlm.nih.gov/42944183/](https://pubmed.ncbi.nlm.nih.gov/42944183/)
