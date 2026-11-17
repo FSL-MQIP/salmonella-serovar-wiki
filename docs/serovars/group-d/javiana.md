@@ -30,6 +30,7 @@ Multiple human outbreaks of serovar Javiana have been associated with fresh prod
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
+| 2026 | US: multistate | [Jalapeño peppers](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-jalapeno-august-2026) | 488 |
 | 2021 | US: multistate | [Pre-cut cantaloupe](https://outbreakdatabase.com/outbreaks/2021-multistate-outbreak-of-salmonella-javiana-infections-associated-with-cantaloupe) | 70 |
 | 2019-2020 | US: multistate | [Fresh cut fruit](https://archive.cdc.gov/#/details?url=https://www.cdc.gov/salmonella/javiana-12-19/index.html) | 165 |
 | 2002 | US: Florida | [Tomatoes](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5131a2.htm) | 141 |
@@ -95,3 +96,4 @@ Multiple border rejections have been linked to serovar Javiana. They are all ass
 20. [https://www.foodsafetynews.com/2023/05/black-fungus-recalled-in-12-states-after-testing-finds-multiple-strains-of-salmonella/](https://www.foodsafetynews.com/2023/05/black-fungus-recalled-in-12-states-after-testing-finds-multiple-strains-of-salmonella/)
 21. [https://www.foodsafetynews.com/?s=javiana](https://www.foodsafetynews.com/?s=javiana)
 22. [https://www.fda.gov/safety/major-product-recalls/2026-recalls-food-products-associated-fresh-jalapenos-sinaloa-mexico-and-distributed-coast-citrus](https://www.fda.gov/safety/major-product-recalls/2026-recalls-food-products-associated-fresh-jalapenos-sinaloa-mexico-and-distributed-coast-citrus)
+23. [https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-jalapeno-august-2026](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-jalapeno-august-2026)
