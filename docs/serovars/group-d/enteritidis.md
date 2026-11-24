@@ -32,6 +32,8 @@ Numerous Enteritidis outbreaks have been reported and they are mainly associated
 | --- | --- | --- | --- |
 | 2025-2026 | US: multistate | [Eggs](https://www.foodsafetynews.com/2026/09/salmonella-outbreak-traced-to-eggs-declared-over-with-more-than-130-patients/) | 134 |
 | 2025-2026 | UK | [Imported eggs](https://www.foodsafetynews.com/2026/08/uk-reports-salmonella-outbreak-with-200-sick-and-one-dead/) | 207 |
+| 2025 | Malta | [Hollandaise sauce made with unpasteurized eggs](https://www.foodsafetynews.com/2026/11/spotlight-on-salmonella-outbreaks-at-escaide/) | 10 |
+| 2025 | Moldova | [Tamagoyaki (Japanese omelet)](https://www.foodsafetynews.com/2026/11/spotlight-on-salmonella-outbreaks-at-escaide/) | 17 |
 | 2025 | Mongolia | [Catering (multiple dishes)](https://pubmed.ncbi.nlm.nih.gov/42754236/) | 30<sup>1<sup> |
 | 2023-2025 | Netherlands | [Eggs](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.9.2500603) | 227 |
 | 2024 | US: multistate | [Backyard poultry](https://www.cdc.gov/salmonella/outbreaks/backyardpoultry-05-24/index.html) | 470<sup>2</sup> |
@@ -124,3 +126,4 @@ There are numerous recalls linked to *Salmonella* Enteritidis. The majority of t
 38. [https://pubmed.ncbi.nlm.nih.gov/42708600/](https://pubmed.ncbi.nlm.nih.gov/42708600/)
 39. [https://pubmed.ncbi.nlm.nih.gov/42754236/](https://pubmed.ncbi.nlm.nih.gov/42754236/)
 40. [https://pubmed.ncbi.nlm.nih.gov/42944735/](https://pubmed.ncbi.nlm.nih.gov/42944735/)
+41. [https://www.foodsafetynews.com/2026/11/spotlight-on-salmonella-outbreaks-at-escaide/](https://www.foodsafetynews.com/2026/11/spotlight-on-salmonella-outbreaks-at-escaide/)

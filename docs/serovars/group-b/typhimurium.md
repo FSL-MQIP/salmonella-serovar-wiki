@@ -36,6 +36,8 @@ Numerous outbreaks have been associated with *S.* Typhimurium. Human outbreaks h
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
+| 2025 | Denmark | [Iceberg lettuce](https://www.foodsafetynews.com/2026/11/spotlight-on-salmonella-outbreaks-at-escaide/) | 49 |
+| April 2023 | India | [Raw prasad (chickpeas, green gram, fruit)](https://pubmed.ncbi.nlm.nih.gov/43005914/) | 65 |
 | 2025-2026 | US: multistate | [Moringa leaf powder dietary supplements](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026)<sup>1</sup> | 131|
 | 2024-2025 | US: multistate | [Cucumbers](https://www.cdc.gov/salmonella/outbreaks/cucumbers-11-24/index.html) | 113 |
 | 2024 | Portugal | [Fresh cheese](https://pubmed.ncbi.nlm.nih.gov/42071313/) | 58 |
@@ -154,3 +156,5 @@ Multiple recalls linked to *Salmonella* Typhimurium have been reported. They are
 49. [https://pubmed.ncbi.nlm.nih.gov/42727819/](https://pubmed.ncbi.nlm.nih.gov/42727819/)
 50. [https://pubmed.ncbi.nlm.nih.gov/42755736/](https://pubmed.ncbi.nlm.nih.gov/42755736/)
 51. [https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-january-2026)
+52. [https://pubmed.ncbi.nlm.nih.gov/43005914/](https://pubmed.ncbi.nlm.nih.gov/43005914/)
+53. [https://www.foodsafetynews.com/2026/11/spotlight-on-salmonella-outbreaks-at-escaide/](https://www.foodsafetynews.com/2026/11/spotlight-on-salmonella-outbreaks-at-escaide/)

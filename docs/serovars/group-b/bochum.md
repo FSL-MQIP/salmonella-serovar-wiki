@@ -28,7 +28,7 @@ Serovar Bochum has been reported [worldwide](https://www.ncbi.nlm.nih.gov/pathog
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
-| 2025-2026 | Germany | [RKI outbreak notice](https://edoc.rki.de/handle/176904/13619) | 40 |
+| 2025-2026 | Germany | [chocolate hazelnut spread](https://edoc.rki.de/handle/176904/13619) | 40 |
 
 ## Animal Outbreaks
 
@@ -40,7 +40,12 @@ There have been no border rejections linked to *Salmonella* Bochum documented in
 
 ## Recalls
 
-There have been no recalls linked to *Salmonella* Bochum documented in publicly available sources.
+One recall linked to *Salmonella* Bochum has been reported.
+
+| Year | Location | Recalled food | Type |
+| --- | --- | --- | --- |
+| 2026 | Germany | [chocolate hazelnut spread)](https://www.foodsafetynews.com/2026/11/spotlight-on-salmonella-outbreaks-at-escaide/) | Confectionery |
+
 
 ## References
 
@@ -48,3 +53,4 @@ There have been no recalls linked to *Salmonella* Bochum documented in publicly 
 2. [https://www.pasteur.fr/sites/default/files/veng_0.pdf](https://www.pasteur.fr/sites/default/files/veng_0.pdf)
 3. [https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Bochum%22)](https://www.ncbi.nlm.nih.gov/pathogens/isolates/#(taxgroup_name:%22Salmonella%20enterica%22)%20AND%20computed_types:(%22serotype=Bochum%22))
 4. [https://edoc.rki.de/handle/176904/13619](https://edoc.rki.de/handle/176904/13619)
+5. [https://www.foodsafetynews.com/2026/11/spotlight-on-salmonella-outbreaks-at-escaide/](https://www.foodsafetynews.com/2026/11/spotlight-on-salmonella-outbreaks-at-escaide/)

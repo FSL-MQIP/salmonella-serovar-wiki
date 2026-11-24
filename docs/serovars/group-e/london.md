@@ -15,6 +15,7 @@
 ## Genetic Characteristics
 
 Serovar London has been found to be [polyphyletic](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1547190/full#h10) with two lineages identified. In a nosocomial outbreak associated with serovar London, [Yong et al.](https://journals.asm.org/doi/10.1128/jcm.43.7.3519-3521.2005) identified the CTX-M-14-type extended-spectrum β-lactamase-producing strains. All these outbreak strains were multidrug resistant (MDR), while the other London strains reported were susceptible to multiple antibiotics, including ampicillin, suggesting the susceptible clone retained the resistance. MDR serovar London carrying *[bla<sub>NDM-1</sub>](<https://www.clinicalmicrobiologyandinfection.com/article/S1198-743X(20)30060-4/fulltext>)* located on an IncA/C2 plasmid was reported in Singapore. A [Chinese study](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2022.961739/full) analyzed a total of 88 representative isolates from human and food sources in Zhejiang Province, China, during 2016–2021 and revealed that all serovar London isolates were identified as ST155 (n = 62) and grouped into two divergent clusters. Compared to serovar Kentucky isolates included in this study, three virulence genes involved in *Salmonella* attachment were uniquely associated with serovar London isolates. Doxycycline resistance was the most common (74.2%, n = 46) in serovar London isolates, with tetracycline (71%, n = 44), ampicillin (64.5%, n = 40), and gentamicin (56.5%, n = 35) resistance also observed at high frequencies.
+Among 945 global isolates (1984-2024), [an Asian sub-clade (C1.1) of ST155 was enriched for *mph*(A)-mediated azithromycin resistance (62.1%)](https://pubmed.ncbi.nlm.nih.gov/42998465/). All resistant isolates were multidrug-resistant and phylogeographic analysis suggested a potential farm-to-fork transmission pattern, putatively driven by pork production systems.
 
 ## Animal Reservoir
 
@@ -55,4 +56,5 @@ There have been no recent recalls linked to this serovar.
 8. [https://pubmed.ncbi.nlm.nih.gov/40154665/](https://pubmed.ncbi.nlm.nih.gov/40154665/)
 9. [https://pubmed.ncbi.nlm.nih.gov/33518320/](https://pubmed.ncbi.nlm.nih.gov/33518320/)
 10. [https://www.ncbi.nlm.nih.gov/pubmed/15004867](https://www.ncbi.nlm.nih.gov/pubmed/15004867)
+11. [https://pubmed.ncbi.nlm.nih.gov/42998465/](https://pubmed.ncbi.nlm.nih.gov/42998465/)
 

@@ -32,6 +32,7 @@ Multiple human outbreaks linked to serovar Oranienburg have been reported. They 
 
 | Year | Location | Associated source | Number of cases |
 | --- | --- | --- | --- |
+| 2026 | US: multistate | [Not identified](https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks) | 99 |
 | 2023 | Canada and US: multistate | [Cantaloupe](https://marlerclark.com/salmonella-cantaloupe-outbreak-hits-43-in-15-states)<sup>1</sup> | 509 |
 | 2021 | US: multistate and Puerto Rico | [Onions](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-oranienburg-whole-fresh-onions-october-2021) | 1040 |
 | 2016 | US: multistate | [Shell eggs](https://archive.cdc.gov/www_cdc_gov/salmonella/oranienburg-10-16/index.html) | 8 |
@@ -121,4 +122,5 @@ Multiple recalls linked to serovar Oranienburg have been reported. Below are som
 28. [https://www.marlerblog.com/case-news/more-cantaloupe-recalled-due-to-salmonella-oranienburg-and-sundsvall-outbreak/](https://www.marlerblog.com/case-news/more-cantaloupe-recalled-due-to-salmonella-oranienburg-and-sundsvall-outbreak/)
 29. [https://www.fda.gov/safety/major-product-recalls/2021-recalls-food-products-associated-onions-prosource-produce-llc-and-keeler-family-farms-due](https://www.fda.gov/safety/major-product-recalls/2021-recalls-food-products-associated-onions-prosource-produce-llc-and-keeler-family-farms-due)
 30. [https://pmc.ncbi.nlm.nih.gov/articles/PMC552305/](https://pmc.ncbi.nlm.nih.gov/articles/PMC552305/)
+31. [https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks](https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks)
 
